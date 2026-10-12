@@ -1,0 +1,28 @@
+---
+fis_schema: "folder-index.v1"
+folder_id: "FLD-20260906-34cbcc53"
+folder: "ClipSync_Cloudflare\app\public"
+folder_class: "project"
+confidence: 0.6
+dependency_risk: 0.0
+dominant_family: "media"
+dominant_ratio: 0.75
+file_count: 4
+classified_at: "2026-09-06T05:43:19"
+allowed_actions: ["index", "rename_internal", "subfolder_sort", "archive_exports"]
+suggested_name: "public"
+---
+
+# FIS Folder Index: public
+
+**Class**: project  ·  **Confidence**: 60%  ·  **Files**: 4  ·  **Dominant**: media (75%)
+
+## Allowed actions
+- index
+- rename_internal
+- subfolder_sort
+- archive_exports
+
+**Suggested name**: `public`  (not applied — review before use)
+
+<!-- FIS folder-index.v1: parseable note; safe to regenerate. -->
