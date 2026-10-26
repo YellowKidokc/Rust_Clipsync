@@ -11,7 +11,9 @@ const colOf = (c) => (COLS.some(([k]) => k === c.tags?.system_part) ? c.tags.sys
 // Lenses (a provisional mapping from the classifications; see README):
 export const LENSES = {
   all: { label: "Everything", test: () => true },
-  axioms: { label: "Axioms", test: (c) => ["axiom", "postulate", "assumption", "definition"].includes(c.tags?.claim_role) },
+  axioms: { label: "The axiom", test: (c) => c.tags?.claim_role === "axiom" },
+  assumptions: { label: "Assumptions", test: (c) => ["assumption", "postulate"].includes(c.tags?.claim_role) },
+  definitions: { label: "Definitions", test: (c) => c.tags?.claim_role === "definition" },
   arguments: { label: "Arguments", test: (c) => ["lemma", "theorem", "corollary", "conjecture"].includes(c.tags?.claim_role) },
   doctrines: { label: "Doctrines", test: (c) => c.tags?.register === "spiritual" },
   laws: { label: "Laws", test: (c) => ["rule", "conservation_law", "constitutive_law"].includes(c.tags?.system_part) },
@@ -51,7 +53,7 @@ export default function Graph() {
     <div className="graph-page">
       <header className="graph-head">
         <h1 className="page-title">The graph</h1>
-        <p className="muted">Every claim on file as a dot, colored by its warrant. Depth runs down (what rests on what; foundations at the top), and the kind of part runs across. Click a claim to light up everything it rests on.</p>
+        <p className="muted">Every claim on file as a dot, colored by its warrant. Depth runs down (what rests on what; the top row rests on nothing on file), and the kind of part runs across. Click a claim to light up everything it rests on.</p>
         <div className="lens-row" role="radiogroup" aria-label="Lens">
           {Object.entries(LENSES).map(([k, l]) => <button key={k} type="button" role="radio" aria-checked={lens === k} className="lens" onClick={() => setLens(k)}>{l.label} <span className="muted">{index.filter(l.test).length}</span></button>)}
         </div>
@@ -62,7 +64,7 @@ export default function Graph() {
           <div />
           {COLS.map(([k, l]) => <div key={k} className="graph-colhead ftp-label">{l}</div>)}
           {Array.from({ length: model.maxDepth + 1 }, (_, depth) => [
-            <div key={"d" + depth} className="graph-rowhead ftp-label">{depth === 0 ? "Foundations" : `Depth ${depth}`}</div>,
+            <div key={"d" + depth} className="graph-rowhead ftp-label">{depth === 0 ? "Top" : `Depth ${depth}`}</div>,
             ...COLS.map(([k]) => (
               <div key={depth + k} className="graph-cell">
                 {shown.filter((c) => model.depth[c.id] === depth && colOf(c) === k).map((c) => {
@@ -83,7 +85,7 @@ export default function Graph() {
               <p className="ftp-claim">{cur.text}</p>
               <p><WarrantMarker grade={cur.grade} showLabel /></p>
               {cur.grade.warrant === "conditionally_proved" && <p className="ftp-premise"><span className="ftp-if">If </span>{cur.grade.warrant_premise}</p>}
-              <p className="muted">Rests on: {cur.rests_on.length ? cur.rests_on.map((id) => model.byId[id] ? id : id + " (not on file)").join(", ") : "nothing on file (a foundation here)"}</p>
+              <p className="muted">Rests on: {cur.rests_on.length ? cur.rests_on.map((id) => model.byId[id] ? id : id + " (not on file)").join(", ") : "nothing on file"}</p>
               <Link className="ftp-link" to={`/claims/${encodeURIComponent(cur.id)}`}>Open the claim →</Link>
             </div>
           ) : <p className="ftp-empty">Click a dot to see its record.</p>}

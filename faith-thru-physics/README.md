@@ -101,13 +101,15 @@ Optional fields the site uses: `breaks_if` (the claim page's "What would break i
 
 | Lens | Shows |
 |---|---|
-| Axioms | claim_role axiom, postulate, assumption, definition |
+| The axiom | claim_role axiom (there is one: God is) |
+| Assumptions | assumption, postulate |
+| Definitions | definition |
 | Arguments | lemma, theorem, corollary, conjecture |
 | Doctrines | register spiritual |
 | Laws | system_part rule, conservation_law, constitutive_law |
 | Bridges | identification, isomorphism, or any bridges_to edge |
 
-Depth (down the page) is the longest chain of `rests_on` edges to a claim with none. Columns are the system part.
+Depth (down the page) is the longest chain of `rests_on` edges; the top row rests on nothing on file. That is not the same as being an axiom: most top-row claims simply have no recorded links yet. Columns are the system part.
 
 ## A paper (paper/1)
 
