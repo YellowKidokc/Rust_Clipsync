@@ -1,0 +1,40 @@
+{
+  "record_version": "claim-record/1",
+  "series": "grace",
+  "paper": "grace-001",
+  "claim_id": "Wall.coherence_nonincrease",
+  "type": "CLAIM",
+  "text": "For fixed Smax and integer S1 ≤ S2, Smax−S2 ≤ Smax−S1. This proves neither DPI nor entropy nondecrease nor a moral/spiritual bridge.",
+  "source": {
+    "file": "data/sources/grace-001/node_contracts.json",
+    "quote": "For fixed Smax and integer S1 ≤ S2, Smax−S2 ≤ Smax−S1. This proves neither DPI nor entropy nondecrease nor a moral/spiritual bridge.",
+    "stated": true
+  },
+  "tags": {
+    "system_part": "rule",
+    "composition_level": 2,
+    "claim_role": "theorem",
+    "register": "formal"
+  },
+  "grade": {
+    "warrant": "conditionally_proved",
+    "outcome": null,
+    "canon_status": "open",
+    "grade_source": "copied:data/sources/grace-001/node_contracts.json#Wall.coherence_nonincrease (warrant: tags.warrant.status, kind proof; canon_status not in source, written open)"
+  },
+  "strength": "Conditional",
+  "receipts": [
+    {
+      "kind": "lean",
+      "ref": "../../LEAN/Wall.lean:coherence_nonincrease",
+      "verification": "unverified"
+    },
+    {
+      "kind": "source",
+      "ref": "Wall.log",
+      "verification": "unverified"
+    }
+  ],
+  "neighbors": [],
+  "generated_by": "converted by scripts/import-node-contracts.mjs (no AI)"
+}

@@ -1,0 +1,70 @@
+{
+  "record_version": "claim-record/1",
+  "series": "grace",
+  "paper": "grace-001",
+  "claim_id": "GRACE-001.G",
+  "type": "CLAIM",
+  "text": "Operator G (Father through Son): Only after accepted R and discharged cost; refusal rejects invocation.",
+  "source": {
+    "file": "data/sources/grace-001/node_contracts.json",
+    "quote": "Only after accepted R and discharged cost; refusal rejects invocation.",
+    "stated": true
+  },
+  "tags": {
+    "system_part": "operator",
+    "composition_level": 2,
+    "claim_role": "definition",
+    "register": "spiritual"
+  },
+  "grade": {
+    "warrant": "admitted",
+    "outcome": null,
+    "canon_status": "open",
+    "grade_source": "copied:data/sources/grace-001/node_contracts.json#GRACE-001.G (warrant: tags.warrant.status, kind revelation; canon_status not in source, written open)"
+  },
+  "receipts": [
+    {
+      "kind": "code",
+      "ref": "grace_model.py:restore",
+      "verification": "unverified"
+    },
+    {
+      "kind": "lean",
+      "ref": "Grace001Consent.lean:refusal_blocks_restoration,response_then_restoration",
+      "verification": "unverified"
+    },
+    {
+      "kind": "source",
+      "ref": "validation_results.json",
+      "verification": "unverified"
+    }
+  ],
+  "neighbors": [
+    {
+      "id": "C-STATE",
+      "edge": "rests_on"
+    },
+    {
+      "id": "BC4",
+      "edge": "rests_on"
+    },
+    {
+      "id": "BC5",
+      "edge": "rests_on"
+    },
+    {
+      "id": "M-K",
+      "edge": "rests_on"
+    },
+    {
+      "id": "M-GROWTH",
+      "edge": "rests_on"
+    },
+    {
+      "id": "M-COORDINATES",
+      "edge": "rests_on"
+    }
+  ],
+  "warrant_boundary": "Native theological interpretation admitted; finite implementation/proof only establishes encoded contract behavior.",
+  "generated_by": "converted by scripts/import-node-contracts.mjs (no AI)"
+}

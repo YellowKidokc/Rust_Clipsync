@@ -1,0 +1,28 @@
+{
+  "record_version": "claim-record/1",
+  "series": "foundations",
+  "paper": "axioms",
+  "claim_id": "AX-GOD",
+  "type": "PREMISE",
+  "text": "God is.",
+  "source": {
+    "file": "00_START_HERE_FOR_DESIGN.md",
+    "quote": "from \"God is\" at the root",
+    "stated": true
+  },
+  "tags": {
+    "system_part": "agent",
+    "composition_level": 0,
+    "claim_role": "axiom",
+    "register": "spiritual"
+  },
+  "grade": {
+    "warrant": "admitted",
+    "outcome": null,
+    "canon_status": "canon",
+    "grade_source": "sample: design fixture (the brief names this axiom as the root; replace with its node record)"
+  },
+  "receipts": [],
+  "neighbors": [],
+  "breaks_if": "It is admitted openly as the foundation, not derived. The framework's own boundary proof (Feb 14, 2026) places it as the floor."
+}

@@ -1,0 +1,40 @@
+{
+  "record_version": "claim-record/1",
+  "series": "grace",
+  "paper": "grace-001",
+  "claim_id": "Wall.grace_restores",
+  "type": "CLAIM",
+  "text": "The defined grace function sets sign to 1.",
+  "source": {
+    "file": "data/sources/grace-001/node_contracts.json",
+    "quote": "The defined grace function sets sign to 1.",
+    "stated": true
+  },
+  "tags": {
+    "system_part": "rule",
+    "composition_level": 2,
+    "claim_role": "theorem",
+    "register": "formal"
+  },
+  "grade": {
+    "warrant": "proved",
+    "outcome": null,
+    "canon_status": "open",
+    "grade_source": "copied:data/sources/grace-001/node_contracts.json#Wall.grace_restores (warrant: tags.warrant.status, kind proof; canon_status not in source, written open)"
+  },
+  "strength": "By definition",
+  "receipts": [
+    {
+      "kind": "lean",
+      "ref": "../../LEAN/Wall.lean:grace_restores",
+      "verification": "unverified"
+    },
+    {
+      "kind": "source",
+      "ref": "Wall.log",
+      "verification": "unverified"
+    }
+  ],
+  "neighbors": [],
+  "generated_by": "converted by scripts/import-node-contracts.mjs (no AI)"
+}

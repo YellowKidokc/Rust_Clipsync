@@ -1,0 +1,35 @@
+{
+  "record_version": "claim-record/1",
+  "series": "grace",
+  "paper": "grace-001",
+  "claim_id": "BC1",
+  "type": "CLAIM",
+  "text": "At phase -1 the person cannot open the boundary.",
+  "source": {
+    "file": "data/sources/grace-001/node_contracts.json",
+    "quote": "At phase -1 the person cannot open the boundary.",
+    "stated": true
+  },
+  "tags": {
+    "system_part": "rule",
+    "composition_level": 2,
+    "claim_role": "assumption",
+    "register": "spiritual"
+  },
+  "grade": {
+    "warrant": "admitted",
+    "outcome": null,
+    "canon_status": "open",
+    "grade_source": "copied:data/sources/grace-001/node_contracts.json#BC1 (warrant: tags.warrant.status, kind revelation; canon_status not in source, written open)"
+  },
+  "strength": "Conditional",
+  "receipts": [
+    {
+      "kind": "source",
+      "ref": "sources/Grace_Node_v1.md",
+      "verification": "unverified"
+    }
+  ],
+  "neighbors": [],
+  "generated_by": "converted by scripts/import-node-contracts.mjs (no AI)"
+}

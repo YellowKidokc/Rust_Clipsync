@@ -1,0 +1,40 @@
+{
+  "record_version": "claim-record/1",
+  "series": "grace",
+  "paper": "grace-001",
+  "claim_id": "Law5JusticeMercy.justice_conserves",
+  "type": "CLAIM",
+  "text": "Offender pays the positive natural-number cost in full.",
+  "source": {
+    "file": "data/sources/grace-001/node_contracts.json",
+    "quote": "Offender pays the positive natural-number cost in full.",
+    "stated": true
+  },
+  "tags": {
+    "system_part": "rule",
+    "composition_level": 2,
+    "claim_role": "theorem",
+    "register": "formal"
+  },
+  "grade": {
+    "warrant": "proved",
+    "outcome": null,
+    "canon_status": "open",
+    "grade_source": "copied:data/sources/grace-001/node_contracts.json#Law5JusticeMercy.justice_conserves (warrant: tags.warrant.status, kind proof; canon_status not in source, written open)"
+  },
+  "strength": "By definition",
+  "receipts": [
+    {
+      "kind": "lean",
+      "ref": "../../LEAN/Law5JusticeMercy.lean:justice_conserves",
+      "verification": "unverified"
+    },
+    {
+      "kind": "source",
+      "ref": "Law5JusticeMercy.log",
+      "verification": "unverified"
+    }
+  ],
+  "neighbors": [],
+  "generated_by": "converted by scripts/import-node-contracts.mjs (no AI)"
+}

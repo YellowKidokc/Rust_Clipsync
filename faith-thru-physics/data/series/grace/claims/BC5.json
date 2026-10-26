@@ -1,0 +1,40 @@
+{
+  "record_version": "claim-record/1",
+  "series": "grace",
+  "paper": "grace-001",
+  "claim_id": "BC5",
+  "type": "CLAIM",
+  "text": "The input historical record is preserved through every native transition.",
+  "source": {
+    "file": "data/sources/grace-001/node_contracts.json",
+    "quote": "The input historical record is preserved through every native transition.",
+    "stated": true
+  },
+  "tags": {
+    "system_part": "conservation_law",
+    "composition_level": 3,
+    "claim_role": "assumption",
+    "register": "spiritual"
+  },
+  "grade": {
+    "warrant": "admitted",
+    "outcome": null,
+    "canon_status": "open",
+    "grade_source": "copied:data/sources/grace-001/node_contracts.json#BC5 (warrant: tags.warrant.status, kind revelation; canon_status not in source, written open)"
+  },
+  "strength": "Conditional",
+  "receipts": [
+    {
+      "kind": "source",
+      "ref": "sources/Grace_Node_v1.md:BC5",
+      "verification": "unverified"
+    },
+    {
+      "kind": "lean",
+      "ref": "Grace001Consent.lean:all_steps_preserve_record",
+      "verification": "unverified"
+    }
+  ],
+  "neighbors": [],
+  "generated_by": "converted by scripts/import-node-contracts.mjs (no AI)"
+}

@@ -1,0 +1,45 @@
+{
+  "record_version": "claim-record/1",
+  "series": "grace",
+  "paper": "grace-001",
+  "claim_id": "GRACE-001.W",
+  "type": "CLAIM",
+  "text": "Operator W (person as assessor): Assessment requires source-specific evidence; Son contradiction veto; silence is not contradiction.",
+  "source": {
+    "file": "data/sources/grace-001/node_contracts.json",
+    "quote": "Assessment requires source-specific evidence; Son contradiction veto; silence is not contradiction.",
+    "stated": true
+  },
+  "tags": {
+    "system_part": "observable",
+    "composition_level": 2,
+    "claim_role": "definition",
+    "register": "embodied"
+  },
+  "grade": {
+    "warrant": "admitted",
+    "outcome": null,
+    "canon_status": "open",
+    "grade_source": "copied:data/sources/grace-001/node_contracts.json#GRACE-001.W (warrant: tags.warrant.status, kind observation; canon_status not in source, written open)"
+  },
+  "receipts": [
+    {
+      "kind": "source",
+      "ref": "sources/Grace_Node_v1.md:11",
+      "verification": "unverified"
+    },
+    {
+      "kind": "code",
+      "ref": "grace_model.py:witness_outcome",
+      "verification": "unverified"
+    },
+    {
+      "kind": "source",
+      "ref": "validation_results.json",
+      "verification": "unverified"
+    }
+  ],
+  "neighbors": [],
+  "warrant_boundary": "Native theological interpretation admitted; finite implementation/proof only establishes encoded contract behavior.",
+  "generated_by": "converted by scripts/import-node-contracts.mjs (no AI)"
+}

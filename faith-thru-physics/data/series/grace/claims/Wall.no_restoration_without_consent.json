@@ -1,0 +1,40 @@
+{
+  "record_version": "claim-record/1",
+  "series": "grace",
+  "paper": "grace-001",
+  "claim_id": "Wall.no_restoration_without_consent",
+  "type": "CLAIM",
+  "text": "`restore false s = s`.",
+  "source": {
+    "file": "data/sources/grace-001/node_contracts.json",
+    "quote": "`restore false s = s`.",
+    "stated": true
+  },
+  "tags": {
+    "system_part": "rule",
+    "composition_level": 2,
+    "claim_role": "theorem",
+    "register": "formal"
+  },
+  "grade": {
+    "warrant": "proved",
+    "outcome": null,
+    "canon_status": "open",
+    "grade_source": "copied:data/sources/grace-001/node_contracts.json#Wall.no_restoration_without_consent (warrant: tags.warrant.status, kind proof; canon_status not in source, written open)"
+  },
+  "strength": "By definition",
+  "receipts": [
+    {
+      "kind": "lean",
+      "ref": "../../LEAN/Wall.lean:no_restoration_without_consent",
+      "verification": "unverified"
+    },
+    {
+      "kind": "source",
+      "ref": "Wall.log",
+      "verification": "unverified"
+    }
+  ],
+  "neighbors": [],
+  "generated_by": "converted by scripts/import-node-contracts.mjs (no AI)"
+}

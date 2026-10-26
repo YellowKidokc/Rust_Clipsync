@@ -1,0 +1,40 @@
+{
+  "record_version": "claim-record/1",
+  "series": "grace",
+  "paper": "grace-001",
+  "claim_id": "ThreeAgents.adversary_can_block_by_closing_consent",
+  "type": "CLAIM",
+  "text": "An initial −1 state remains −1 when consent is false. The theorem does not model or prove the adversary causing consent to become false.",
+  "source": {
+    "file": "data/sources/grace-001/node_contracts.json",
+    "quote": "An initial −1 state remains −1 when consent is false. The theorem does not model or prove the adversary causing consent to become false.",
+    "stated": true
+  },
+  "tags": {
+    "system_part": "rule",
+    "composition_level": 2,
+    "claim_role": "theorem",
+    "register": "formal"
+  },
+  "grade": {
+    "warrant": "conditionally_proved",
+    "outcome": null,
+    "canon_status": "open",
+    "grade_source": "copied:data/sources/grace-001/node_contracts.json#ThreeAgents.adversary_can_block_by_closing_consent (warrant: tags.warrant.status, kind proof; canon_status not in source, written open)"
+  },
+  "strength": "Conditional",
+  "receipts": [
+    {
+      "kind": "lean",
+      "ref": "../../LEAN/ThreeAgents.lean:adversary_can_block_by_closing_consent",
+      "verification": "unverified"
+    },
+    {
+      "kind": "source",
+      "ref": "ThreeAgents.log",
+      "verification": "unverified"
+    }
+  ],
+  "neighbors": [],
+  "generated_by": "converted by scripts/import-node-contracts.mjs (no AI)"
+}

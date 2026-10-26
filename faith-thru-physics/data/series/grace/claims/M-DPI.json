@@ -1,0 +1,35 @@
+{
+  "record_version": "claim-record/1",
+  "series": "grace",
+  "paper": "grace-001",
+  "claim_id": "M-DPI",
+  "type": "CLAIM",
+  "text": "An information processing constraint applies to persons and entails nonincrease of the relevant moral/spiritual quantity.",
+  "source": {
+    "file": "data/sources/grace-001/node_contracts.json",
+    "quote": "An information processing constraint applies to persons and entails nonincrease of the relevant moral/spiritual quantity.",
+    "stated": true
+  },
+  "tags": {
+    "system_part": "constitutive_law",
+    "composition_level": 1,
+    "claim_role": "conjecture",
+    "register": "spiritual"
+  },
+  "grade": {
+    "warrant": "unverified",
+    "outcome": null,
+    "canon_status": "open",
+    "grade_source": "copied:data/sources/grace-001/node_contracts.json#M-DPI (warrant: tags.warrant.status, kind proof; canon_status not in source, written open)"
+  },
+  "strength": "Conditional",
+  "receipts": [
+    {
+      "kind": "source",
+      "ref": "GRACE-001.md:5",
+      "verification": "unverified"
+    }
+  ],
+  "neighbors": [],
+  "generated_by": "converted by scripts/import-node-contracts.mjs (no AI)"
+}

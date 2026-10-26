@@ -1,0 +1,40 @@
+{
+  "record_version": "claim-record/1",
+  "series": "grace",
+  "paper": "grace-001",
+  "claim_id": "Law5JusticeMercy.vengeance_not_conserved",
+  "type": "CLAIM",
+  "text": "Cost+1 paid by offender fails exact equality with cost.",
+  "source": {
+    "file": "data/sources/grace-001/node_contracts.json",
+    "quote": "Cost+1 paid by offender fails exact equality with cost.",
+    "stated": true
+  },
+  "tags": {
+    "system_part": "rule",
+    "composition_level": 2,
+    "claim_role": "theorem",
+    "register": "formal"
+  },
+  "grade": {
+    "warrant": "proved",
+    "outcome": null,
+    "canon_status": "open",
+    "grade_source": "copied:data/sources/grace-001/node_contracts.json#Law5JusticeMercy.vengeance_not_conserved (warrant: tags.warrant.status, kind proof; canon_status not in source, written open)"
+  },
+  "strength": "Negative",
+  "receipts": [
+    {
+      "kind": "lean",
+      "ref": "../../LEAN/Law5JusticeMercy.lean:vengeance_not_conserved",
+      "verification": "unverified"
+    },
+    {
+      "kind": "source",
+      "ref": "Law5JusticeMercy.log",
+      "verification": "unverified"
+    }
+  ],
+  "neighbors": [],
+  "generated_by": "converted by scripts/import-node-contracts.mjs (no AI)"
+}

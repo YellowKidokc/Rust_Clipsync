@@ -1,0 +1,40 @@
+{
+  "record_version": "claim-record/1",
+  "series": "grace",
+  "paper": "grace-001",
+  "claim_id": "ThreeAgents.no_consent_no_restoration",
+  "type": "CLAIM",
+  "text": "False consent returns the input state.",
+  "source": {
+    "file": "data/sources/grace-001/node_contracts.json",
+    "quote": "False consent returns the input state.",
+    "stated": true
+  },
+  "tags": {
+    "system_part": "rule",
+    "composition_level": 2,
+    "claim_role": "theorem",
+    "register": "formal"
+  },
+  "grade": {
+    "warrant": "proved",
+    "outcome": null,
+    "canon_status": "open",
+    "grade_source": "copied:data/sources/grace-001/node_contracts.json#ThreeAgents.no_consent_no_restoration (warrant: tags.warrant.status, kind proof; canon_status not in source, written open)"
+  },
+  "strength": "By definition",
+  "receipts": [
+    {
+      "kind": "lean",
+      "ref": "../../LEAN/ThreeAgents.lean:no_consent_no_restoration",
+      "verification": "unverified"
+    },
+    {
+      "kind": "source",
+      "ref": "ThreeAgents.log",
+      "verification": "unverified"
+    }
+  ],
+  "neighbors": [],
+  "generated_by": "converted by scripts/import-node-contracts.mjs (no AI)"
+}

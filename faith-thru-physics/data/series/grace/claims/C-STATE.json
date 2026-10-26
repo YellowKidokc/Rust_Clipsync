@@ -1,0 +1,35 @@
+{
+  "record_version": "claim-record/1",
+  "series": "grace",
+  "paper": "grace-001",
+  "claim_id": "C-STATE",
+  "type": "CLAIM",
+  "text": "The native state carries person identity, three-valued phase, boundary, accepted response, three separate coherence coordinates, record, debt and audit trace.",
+  "source": {
+    "file": "data/sources/grace-001/node_contracts.json",
+    "quote": "The native state carries person identity, three-valued phase, boundary, accepted response, three separate coherence coordinates, record, debt and audit trace.",
+    "stated": true
+  },
+  "tags": {
+    "system_part": "state",
+    "composition_level": 1,
+    "claim_role": "definition",
+    "register": "spiritual"
+  },
+  "grade": {
+    "warrant": "admitted",
+    "outcome": null,
+    "canon_status": "open",
+    "grade_source": "copied:data/sources/grace-001/node_contracts.json#C-STATE (warrant: tags.warrant.status, kind proof; canon_status not in source, written open)"
+  },
+  "strength": "By definition",
+  "receipts": [
+    {
+      "kind": "code",
+      "ref": "grace_model.py:State",
+      "verification": "unverified"
+    }
+  ],
+  "neighbors": [],
+  "generated_by": "converted by scripts/import-node-contracts.mjs (no AI)"
+}

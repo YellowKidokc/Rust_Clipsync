@@ -1,0 +1,40 @@
+{
+  "record_version": "claim-record/1",
+  "series": "grace",
+  "paper": "grace-001",
+  "claim_id": "Grace001.only_spirit_awakens",
+  "type": "CLAIM",
+  "text": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+  "source": {
+    "file": "data/sources/grace-001/node_contracts.json",
+    "quote": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+    "stated": true
+  },
+  "tags": {
+    "system_part": "rule",
+    "composition_level": 2,
+    "claim_role": "theorem",
+    "register": "formal"
+  },
+  "grade": {
+    "warrant": "proved",
+    "outcome": null,
+    "canon_status": "open",
+    "grade_source": "copied:data/sources/grace-001/node_contracts.json#Grace001.only_spirit_awakens (warrant: tags.warrant.status, kind proof; canon_status not in source, written open)"
+  },
+  "strength": "By definition",
+  "receipts": [
+    {
+      "kind": "lean",
+      "ref": "Grace001Consent.lean:only_spirit_awakens",
+      "verification": "unverified"
+    },
+    {
+      "kind": "source",
+      "ref": "Grace001Consent.log",
+      "verification": "unverified"
+    }
+  ],
+  "neighbors": [],
+  "generated_by": "converted by scripts/import-node-contracts.mjs (no AI)"
+}
