@@ -1,0 +1,55 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D2.2",
+ "claim_id": "D2.2",
+ "type": "CLAIM",
+ "text": "The Logos Field χ is modeled as a real scalar field with a single real value at every point of spacetime.",
+ "source": {
+  "file": "source/nodes/D2.2.yaml",
+  "quote": "The Logos Field χ is modeled as a real scalar field with a single real value at every point of spacetime.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "state",
+  "composition_level": 0,
+  "claim_role": "definition",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A physical-model premise identifying the Logos Field with a field in spacetime; A premise that a universal substrate must be modeled as a real scalar field; Empirical or physical warrant for χ's existence and pervasion of all spacetime; A field-theoretic bridge licensing Klein-Gordon/Higgs-type equations for χ",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D2.2.yaml#D2.2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "D2.2",
+ "is_main": true,
+ "strength": "By definition",
+ "conditional_premises": [
+  "A physical-model premise identifying the Logos Field with a field in spacetime",
+  "A premise that a universal substrate must be modeled as a real scalar field",
+  "Empirical or physical warrant for χ's existence and pervasion of all spacetime",
+  "A field-theoretic bridge licensing Klein-Gordon/Higgs-type equations for χ"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "D2.2/Q15/0014",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the inference from God's omnipresence/Logos substrate to 'χ must be a real scalar field pervading all spacetime'; P-IMAGO supplies only analogical resemblance, not a physical field or spacetime model."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. Not checkable faithfully in Z3 because the main claim is a definition/postulate involving universal quantification over all of R^4, topological/analytic regularity such as C² except on a singularity set and L¹ integrability, plus informal notions of scalar/frame-independence and singularity. A finite SMT encoding would only check a trivial finite sample or satisfiability of χ ≥ 0, not the actual main claim.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

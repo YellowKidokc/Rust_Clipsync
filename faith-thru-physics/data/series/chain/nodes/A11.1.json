@@ -1,0 +1,66 @@
+{
+ "id": "A11.1",
+ "title": "A11.1 Moral Realism",
+ "lifecycle": "stance",
+ "tier": 11,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "A11.1/Q15/0112",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation of the full record stops at the identification of moral goodness with measurable χ-field coherence C and with physical moral thermodynamics; A0 plus P-IMAGO ground an objective divine moral standard, not a physical coherence metric or empirical signature."
+  },
+  {
+   "id": "A11.1/Q15/Z3-result-00",
+   "kind": "known countermodel",
+   "status": "FATAL",
+   "scope": "Encoded fragment under exactly the listed premises, not every interpretation of this node: Existence of mind-independent moral truth (moral realism)",
+   "reason": "[HasTruthValue = [else -> True],\n MindIndependent = [else -> True],\n MoralProp = [else -> False]] Faithfulness to the intended domain is a separate obligation."
+  }
+ ],
+ "ports": [],
+ "main": "A11.1",
+ "claims": [
+  "A11.1",
+  "A11.1::split-01",
+  "A11.1::split-02",
+  "A11.1::split-03",
+  "A11.1::split-04",
+  "A11.1::split-05",
+  "A11.1::split-06",
+  "A11.1::split-07",
+  "A11.1::split-08",
+  "A11.1::split-09",
+  "A11.1::split-10",
+  "A11.1::split-11",
+  "A11.1::split-12",
+  "A11.1::split-13",
+  "A11.1::split-14",
+  "A11.1::split-15",
+  "A11.1::split-16",
+  "A11.1::split-17"
+ ],
+ "source": "source/nodes/A11.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

@@ -1,0 +1,65 @@
+{
+ "id": "F3",
+ "title": "Peace Measurement Domain",
+ "lifecycle": "fruit",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "HY_EVIDENCE",
+ "declared": [
+  "FRUIT-GEN"
+ ],
+ "proposed": [
+  "FRUIT-GEN"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "F3/Q15/0197",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The broad analogy can be made, but there is no logical step from A0 + P-IMAGO to identifying peace with σ²_internal/Var(C), and certainly none to the exact formula, field equations, neural correlates, or measurement protocol."
+  },
+  {
+   "id": "F3/Q15/Z3-result-00",
+   "kind": "known countermodel",
+   "status": "FATAL",
+   "scope": "Encoded fragment under exactly the listed premises, not every interpretation of this node: Peace metric is strictly decreasing in internal conflict and coherence variance (the inverse-relationship property of F_Peace).",
+   "reason": "[s2 = 1,\n v1 = 1/2,\n gamma = 0,\n v2 = 1,\n s1 = 0,\n v = 1,\n s = 0,\n /0 = [else ->\n       If(Or(And(Var(0) == 0, Var(1) == 1),\n             And(Var(0) == 0, Var(1) == 1/2)),\n          0,\n          If(And(Var(0) == 1, Var(1) == 2),\n             1/2,\n             If(And(Var(0) == 1, Var(1) == 1), 1, 0)))]] Faithfulness to the intended domain is a separate obligation."
+  }
+ ],
+ "ports": [],
+ "main": "F3",
+ "claims": [
+  "F3",
+  "F3::split-01",
+  "F3::split-02",
+  "F3::split-03",
+  "F3::split-04",
+  "F3::split-05",
+  "F3::split-06",
+  "F3::split-07",
+  "F3::split-08",
+  "F3::split-09",
+  "F3::split-10",
+  "F3::split-11",
+  "F3::split-12",
+  "F3::split-13",
+  "F3::split-14",
+  "F3::split-15",
+  "F3::split-16"
+ ],
+ "source": "source/nodes/F3.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

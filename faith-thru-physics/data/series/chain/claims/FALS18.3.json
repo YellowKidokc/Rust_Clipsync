@@ -1,0 +1,88 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "FALS18.3",
+ "claim_id": "FALS18.3",
+ "type": "CLAIM",
+ "text": "Christianity's claimed uniqueness is falsified if some non-Christian religion satisfies all eight stated boundary conditions.",
+ "source": {
+  "file": "source/nodes/FALS18.3.yaml",
+  "quote": "Christianity's claimed uniqueness is falsified if some non-Christian religion satisfies all eight stated boundary conditions.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "observable",
+  "composition_level": 1,
+  "claim_role": "empirical_hypothesis",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A defined chi-field physics with BC1-BC8 as real physical/theological requirements.; Operational criteria for scoring each religion True/False on each BC.; Empirical or comparative-religion evidence that no non-Christian religion satisfies all eight BCs.; A proof that the eight BCs are jointly necessary and sufficient for chi-field compatibility.; A proof of BC independence if Theorem 1 is asserted.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/FALS18.3.yaml#FALS18.3::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC1",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC2",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC3",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC4a",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC5",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC7",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC8",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC9",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "FALS18.3",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A defined chi-field physics with BC1-BC8 as real physical/theological requirements.",
+  "Operational criteria for scoring each religion True/False on each BC.",
+  "Empirical or comparative-religion evidence that no non-Christian religion satisfies all eight BCs.",
+  "A proof that the eight BCs are jointly necessary and sufficient for chi-field compatibility.",
+  "A proof of BC independence if Theorem 1 is asserted."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "FALS18.3/Q15/0187",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "After A0+P-IMAGO, at the leap to chi-field physics and the eight BCs; no premise here yields BC1-BC8, operational satisfaction scores, or the comparative claim that only Christianity satisfies them."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

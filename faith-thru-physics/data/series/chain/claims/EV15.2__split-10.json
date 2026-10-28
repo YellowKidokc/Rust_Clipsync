@@ -1,0 +1,34 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "EV15.2",
+ "claim_id": "EV15.2::split-10",
+ "type": "CLAIM",
+ "text": "The prospective protocol and 25-year persistence are sufficient to dismiss skeptical methodological objections.",
+ "source": {
+  "file": "source/nodes/EV15.2.yaml",
+  "quote": "The prospective protocol and 25-year persistence are sufficient to dismiss skeptical methodological objections.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "conjecture",
+  "register": "embodied"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/EV15.2.yaml#EV15.2::split-10 (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "EV15.2",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+ "obstructions": [],
+ "generated_by": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+}

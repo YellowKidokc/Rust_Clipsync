@@ -1,0 +1,67 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "O2",
+ "claim_id": "O2",
+ "type": "CLAIM",
+ "text": "Coherence is an irreducible ontological primitive, co-primitive with information, that makes information meaningful and enables pattern, structure, and order.",
+ "source": {
+  "file": "source/nodes/O2.yaml",
+  "quote": "Coherence is an irreducible ontological primitive, co-primitive with information, that makes information meaningful and enables pattern, structure, and order.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "O1: information is ontologically primitive; A bridge/definition establishing coherence as a distinct primitive co-primitive with information; Empirical premises for entropy, quantum, cosmological, and biological claims; Mathematical premises for Kolmogorov, information-geometric, and sheaf-theoretic formalizations",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/O2.yaml#O2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A3.2",
+   "edge": "rests_on"
+  },
+  {
+   "id": "D3.1",
+   "edge": "rests_on",
+   "proposed": true
+  }
+ ],
+ "node": "O2",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "O1: information is ontologically primitive",
+  "A bridge/definition establishing coherence as a distinct primitive co-primitive with information",
+  "Empirical premises for entropy, quantum, cosmological, and biological claims",
+  "Mathematical premises for Kolmogorov, information-geometric, and sheaf-theoretic formalizations"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "O2/Q15/0219",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "coherence unification",
+   "reason": "U1 and O2 are deferred together to C-info/C-moral/C-spiritual separation; bears on Law 10."
+  },
+  {
+   "id": "O2/Q15/0220",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the move from P-IMAGO's creaturely order/intelligibility as finite participation in God to the claim that coherence is an irreducible ontological primitive co-primitive with information; P-IMAGO warrants at most dependent creaturely coherence/order."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

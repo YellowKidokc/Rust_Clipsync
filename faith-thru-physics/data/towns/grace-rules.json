@@ -1,0 +1,167 @@
+{
+ "name": "Grace (GRACE-001)",
+ "note": "Rules, agents, boundaries and receipts copied from node_contracts.json (operational ports A, R, K, G, D, P). The starting numbers for each person are sample initial conditions, not contract values. Every rule's warrant is admitted (revelation): the code and Lean files check encoded contract behavior, not the theology.",
+ "source": "project/assets/DESGIN/node_contracts.json",
+ "agents": [
+  {
+   "id": "Spirit",
+   "label": "Spirit",
+   "kind": "God"
+  },
+  {
+   "id": "Son",
+   "label": "Son",
+   "kind": "God"
+  },
+  {
+   "id": "Father through Son",
+   "label": "Father through Son",
+   "kind": "God"
+  },
+  {
+   "id": "person",
+   "label": "The person",
+   "kind": "human"
+  },
+  {
+   "id": "corruption",
+   "label": "Corruption",
+   "kind": "adversary"
+  }
+ ],
+ "things": [
+  {
+   "id": "p1",
+   "kind": "person",
+   "label": "Person A",
+   "phase": -1,
+   "boundary": "closed",
+   "accepted": false,
+   "debt": 1,
+   "judge_paid": 0,
+   "c_spiritual": 0.25,
+   "c_moral": 0.5
+  },
+  {
+   "id": "p2",
+   "kind": "person",
+   "label": "Person B",
+   "phase": -1,
+   "boundary": "closed",
+   "accepted": false,
+   "debt": 1,
+   "judge_paid": 0,
+   "c_spiritual": 0.25,
+   "c_moral": 0.5
+  }
+ ],
+ "states": [
+  {
+   "kind": "person",
+   "state": "turned away",
+   "when": "x.phase == -1",
+   "color": "#8a8f9c",
+   "room": "Closed door"
+  },
+  {
+   "kind": "person",
+   "state": "awakened, not yet answered",
+   "when": "x.phase == 0",
+   "color": "#d4af37",
+   "room": "Awakened"
+  },
+  {
+   "kind": "person",
+   "state": "accepted, door open",
+   "when": "x.phase == 1",
+   "color": "#2fae9e",
+   "room": "Open door"
+  }
+ ],
+ "rules": [
+  {
+   "id": "A",
+   "label": "Awaken",
+   "agent": "Spirit",
+   "on": "p:person",
+   "when": "p.phase == -1",
+   "then": "p.phase = 0",
+   "handle": "outside",
+   "door": "The knock: from outside. It wakes; it does not open the door or accept for the person.",
+   "boundary": "Only Spirit may invoke A on phase -1.",
+   "warrant": "admitted (revelation)",
+   "receipt": "Grace001Consent.lean: only_spirit_awakens, awakening_not_alignment; grace_model.py: awaken"
+  },
+  {
+   "id": "R",
+   "label": "Respond",
+   "agent": "person",
+   "on": "p:person",
+   "when": "p.phase == 0",
+   "choice": "accept|refuse",
+   "then_accept": "p.phase = 1; p.boundary = 'open'; p.accepted = true",
+   "then_refuse": "p.phase = -1; p.boundary = 'closed'",
+   "handle": "inside",
+   "door": "The handle is on the inside. Only the person opens it; both answers are allowed from the same state.",
+   "boundary": "Phase=0 only; no agent substitution or automatic invocation by A.",
+   "warrant": "admitted (revelation); M-FREEDOM admitted, provider conditional",
+   "receipt": "Grace001Consent.lean: both_responses_permitted, only_person_responds; grace_model.py: respond"
+  },
+  {
+   "id": "K",
+   "label": "Cost paid",
+   "agent": "Son",
+   "on": "p:person",
+   "when": "p.debt > 0",
+   "then": "p.judge_paid = p.judge_paid + p.debt; p.debt = 0",
+   "handle": "",
+   "door": "Payment does not open the door.",
+   "boundary": "Authorized Son payer; may occur before or after R; payment does not open boundary.",
+   "warrant": "admitted (revelation)",
+   "receipt": "Law5JusticeMercy.lean: cross_conserves, cross_unique; grace_model.py: cost"
+  },
+  {
+   "id": "G",
+   "label": "Restore",
+   "agent": "Father through Son",
+   "on": "p:person",
+   "when": "p.phase == 1 and p.accepted and p.boundary == 'open' and p.debt == 0",
+   "then": "p.c_spiritual = min(1, (p.c_spiritual + 1) / 2)",
+   "boundary": "Only after accepted R and discharged cost; refusal rejects invocation.",
+   "warrant": "admitted (revelation)",
+   "receipt": "Grace001Consent.lean: refusal_blocks_restoration, response_then_restoration; grace_model.py: restore"
+  },
+  {
+   "id": "D",
+   "label": "Corrupt",
+   "agent": "corruption",
+   "on": "p:person",
+   "when": "p.c_moral > 0 or p.c_spiritual > 0",
+   "then": "p.c_moral = p.c_moral / 2; p.c_spiritual = p.c_spiritual / 2",
+   "auto": "no",
+   "boundary": "Damage operator; cannot invoke A, R, K or G.",
+   "warrant": "admitted (revelation)",
+   "receipt": "grace_model.py: corrupt; validation_results.json"
+  },
+  {
+   "id": "P",
+   "label": "Process (inside only)",
+   "agent": "person",
+   "on": "p:person",
+   "when": "true",
+   "then": "",
+   "auto": "no",
+   "boundary": "Internal-only operation; no restoration permission produced.",
+   "warrant": "admitted (revelation)",
+   "receipt": "Wall.lean: invariant_preserved; grace_model.py: process"
+  }
+ ],
+ "show": {
+  "person": [
+   "boundary",
+   "debt",
+   "c_spiritual",
+   "c_moral"
+  ]
+ }
+}

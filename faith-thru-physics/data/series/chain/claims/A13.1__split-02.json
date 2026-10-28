@@ -1,0 +1,34 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "A13.1",
+ "claim_id": "A13.1::split-02",
+ "type": "CLAIM",
+ "text": "A real chi-field exists as an informational scalar field pervading spacetime.",
+ "source": {
+  "file": "source/nodes/A13.1.yaml",
+  "quote": "A real chi-field exists as an informational scalar field pervading spacetime.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "conjecture",
+  "register": "physical"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/A13.1.yaml#A13.1::split-02 (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "A13.1",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+ "obstructions": [],
+ "generated_by": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+}

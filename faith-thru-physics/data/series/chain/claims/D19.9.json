@@ -1,0 +1,65 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D19.9",
+ "claim_id": "D19.9",
+ "type": "CLAIM",
+ "text": "Grace is an external divine action that enables moral and existential transformation beyond what a creature can produce by itself.",
+ "source": {
+  "file": "source/nodes/D19.9.yaml",
+  "quote": "Grace is an external divine action that enables moral and existential transformation beyond what a creature can produce by itself.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "operator",
+  "composition_level": 4,
+  "claim_role": "definition",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A theological doctrine of sin, moral sign, and salvation by grace.; A bridge premise identifying divine grace with non-unitary quantum operations.; A formal model defining the soul Hilbert space, sign operator, entropy, coherence, and consent projection.; Empirical data for Phi-virtue correlation and grace-negentropy detection.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D19.9.yaml#D19.9::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A9.2",
+   "edge": "rests_on"
+  },
+  {
+   "id": "D9.1",
+   "edge": "rests_on",
+   "proposed": true
+  },
+  {
+   "id": "P9.3",
+   "edge": "rests_on",
+   "proposed": true
+  }
+ ],
+ "node": "D19.9",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A theological doctrine of sin, moral sign, and salvation by grace.",
+  "A bridge premise identifying divine grace with non-unitary quantum operations.",
+  "A formal model defining the soul Hilbert space, sign operator, entropy, coherence, and consent projection.",
+  "Empirical data for Phi-virtue correlation and grace-negentropy detection."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "D19.9/Q15/0149",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the move from P-IMAGO's analogy of being to specific quantum operators, entropy inequalities, sign-operator anti-commutation, and empirical protocols; analogy does not supply those formal or physical claims."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The formal equations define a class of operators rather than state a theorem with premises and conclusion. Encoding the definition as premises and non-unitarity/sign-flip as conclusion would be tautological; checking a witness operator would be a side satisfiability calculation, not the main claim. The 'unique', 'adds external information', 'infinite divine source', and dependence on Laws VI/VIII require undefined notions, so the main claim cannot be faithfully encoded as a Z3 entailment.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

@@ -1,0 +1,81 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "T16.6",
+ "claim_id": "T16.6",
+ "type": "CLAIM",
+ "text": "Atheism fails the BC1-BC8 boundary conditions because it denies the transcendent ground those conditions require.",
+ "source": {
+  "file": "source/nodes/T16.6.yaml",
+  "quote": "Atheism fails the BC1-BC8 boundary conditions because it denies the transcendent ground those conditions require.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "identification",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "The corpus definitions of BC1–BC8 and the claim that each is a necessary boundary condition.; The premise that BC1–BC8 require transcendent or system-external conditions and cannot be satisfied by naturalistic substitutes.; For the full record: empirical and physical premises about heat death, quantum measurement, integrated information, information conservation, and personal identity under physicalism.",
+  "outcome": null,
+  "canon_status": "retired",
+  "grade_source": "copied:source/nodes/T16.6.yaml#T16.6::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC1",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC2",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC3",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC4a",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC5",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "T16.6",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "The corpus definitions of BC1–BC8 and the claim that each is a necessary boundary condition.",
+  "The premise that BC1–BC8 require transcendent or system-external conditions and cannot be satisfied by naturalistic substitutes.",
+  "For the full record: empirical and physical premises about heat death, quantum measurement, integrated information, information conservation, and personal identity under physicalism."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "T16.6/Q15/0167",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "axiom-set membership",
+   "reason": "David retired this record; it is retained with reason and cannot serve as an active axiom. Content-level truth is not settled merely by retirement."
+  },
+  {
+   "id": "T16.6/Q15/0168",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops when the record moves from A0 + P-IMAGO's general claim that created reality depends on God to the specific BC1–BC8 failure matrix and then to physical/empirical conclusions such as heat death, infinite-Phi observers, quantum measurement, and soul persistence."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim cannot be encoded faithfully from this file alone because BC1–BC8 are not formally defined here, and the inference depends on disputed metaphysical and empirical premises (naturalism, causal closure, heat death, infinite Phi, soul persistence) that would need explicit formalization not supplied by the file. The file also treats BC5 as 'QUESTIONABLE' rather than conclusively failed, creating an internal tension with the theorem's blanket claim.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

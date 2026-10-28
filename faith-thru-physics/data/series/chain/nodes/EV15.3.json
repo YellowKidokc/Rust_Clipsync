@@ -1,0 +1,48 @@
+{
+ "id": "EV15.3",
+ "title": "PEAR Lab Results",
+ "lifecycle": "evidence_contested",
+ "tier": 16,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "HY_EVIDENCE",
+ "declared": [
+  "P5.2"
+ ],
+ "proposed": [
+  "P5.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "EV15.3/Q15/0176",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the move from P-IMAGO's general analogy of creaturely consciousness and agency to a measurable REG bias and then to Logos Field/free-will proof; P-IMAGO explicitly excludes deriving particular physical laws, equations, constants, or measurements."
+  }
+ ],
+ "ports": [],
+ "main": "EV15.3",
+ "claims": [
+  "EV15.3",
+  "EV15.3::split-01",
+  "EV15.3::split-02",
+  "EV15.3::split-03",
+  "EV15.3::split-04",
+  "EV15.3::split-05",
+  "EV15.3::split-06",
+  "EV15.3::split-07",
+  "EV15.3::split-08"
+ ],
+ "source": "source/nodes/EV15.3.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

@@ -1,0 +1,82 @@
+{
+ "id": "BC2",
+ "title": "BC2 Grace External To System",
+ "lifecycle": "boundary",
+ "tier": 8,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "T3.1",
+  "T3.2"
+ ],
+ "proposed": [
+  "T3.1",
+  "T3.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "CONDITIONAL",
+  "named_premises": [
+   "If grace/external coupling is absent, the system's coherence after the transition is not greater than before (closed-system second-law analog: C_after <= C_before).",
+   "A sign-flip from sigma = -1 to sigma = +1 is a coherence increase: C_after > C_before.",
+   "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+  ],
+  "denial_cost": null,
+  "checkable_by": null,
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json",
+   "Any moral sign-flip from -1 to +1 requires external grace coupling, because a closed moral system's coherence cannot increase and sign-flip is a coherence increase."
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "BC2/Q15/0070",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "external restorer and theological identity",
+   "reason": "A nonpreserving operation is not by itself an actual external restorer, still less God/Grace; causal exhaustiveness, occurrence and identification require their own premises."
+  },
+  {
+   "id": "BC2/Q15/0071",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the step from 'creaturely moral goodness is dependent participation in God' (A0 + P-IMAGO) to 'a closed moral system cannot increase its own coherence and requires an external grace function G(t)'; that step needs additional moral, thermodynamic, and model premises not admitted."
+  }
+ ],
+ "ports": [],
+ "main": "BC2",
+ "claims": [
+  "BC2",
+  "BC2::split-01",
+  "BC2::split-02",
+  "BC2::split-03",
+  "BC2::split-04",
+  "BC2::split-05",
+  "BC2::split-06",
+  "BC2::split-07",
+  "BC2::split-08",
+  "BC2::split-09",
+  "BC2::split-10",
+  "BC2::split-11",
+  "BC2::split-12",
+  "BC2::split-13",
+  "BC2::split-14",
+  "BC2::receipt::Wall.invariant_preserved",
+  "BC2::receipt::Wall.change_requires_outside_op",
+  "BC2::receipt::Wall.grace_preserves_identity",
+  "BC2::receipt::Wall.grace_restores",
+  "BC2::receipt::Wall.works_cannot_flip",
+  "BC2::receipt::Wall.flip_requires_non_self_op",
+  "BC2::receipt::Wall.grace_is_outside_the_family",
+  "BC2::receipt::Wall.no_restoration_without_consent",
+  "BC2::receipt::Wall.restoration_with_consent",
+  "BC2::receipt::Wall.restore_preserves_identity",
+  "BC2::receipt::Wall.coherence_nonincrease",
+  "BC2::z3-conditional-component"
+ ],
+ "source": "source/nodes/BC2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

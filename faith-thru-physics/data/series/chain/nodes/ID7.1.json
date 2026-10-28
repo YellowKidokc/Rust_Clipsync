@@ -1,0 +1,63 @@
+{
+ "id": "ID7.1",
+ "title": "ID7.1 Terminal Observer = God",
+ "lifecycle": "identification",
+ "tier": 9,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "CONDITIONAL",
+  "named_premises": [
+   "Terminal Observer has the seven properties: Φ=∞, necessary existence, omnipresence, maximal coherence, source of all actuality, self-grounding, and voluntary/personal coupling.",
+   "God has the matching traditional divine attributes: omniscience, aseity, omnipresence, perfection, creator, uncaused cause, and personal/relational.",
+   "The physical and theological attributes are isomorphic (encoded as shared predicates).",
+   "Identity of indiscernibles: any two entities with the same listed properties are identical.",
+   "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+  ],
+  "denial_cost": null,
+  "checkable_by": null,
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json",
+   "Terminal Observer is identical to God by property matching"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "ID7.1/Q15/0084",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the move from P-IMAGO’s analogical resemblance to a specific quantum/IIT Terminal Observer; P-IMAGO explicitly does not yield physical laws, Φ=∞, empirical measurements, or identity of a creature with God. Without BC1 and a property-matching bridge, TO = God is not established."
+  }
+ ],
+ "ports": [],
+ "main": "ID7.1",
+ "claims": [
+  "ID7.1",
+  "ID7.1::split-01",
+  "ID7.1::split-02",
+  "ID7.1::split-03",
+  "ID7.1::split-04",
+  "ID7.1::split-05",
+  "ID7.1::split-06",
+  "ID7.1::split-07",
+  "ID7.1::split-08",
+  "ID7.1::split-09",
+  "ID7.1::split-10",
+  "ID7.1::split-11",
+  "ID7.1::split-12",
+  "ID7.1::split-13",
+  "ID7.1::z3-conditional-component"
+ ],
+ "source": "source/nodes/ID7.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

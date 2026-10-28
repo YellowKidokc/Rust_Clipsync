@@ -1,0 +1,54 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D3.3",
+ "claim_id": "D3.3",
+ "type": "CLAIM",
+ "text": "Define L_int(χ,ψ) as an interaction Lagrangian coupling a field χ to matter fields ψ.",
+ "source": {
+  "file": "source/nodes/D3.3.yaml",
+  "quote": "Define L_int(χ,ψ) as an interaction Lagrangian coupling a field χ to matter fields ψ.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "state",
+  "composition_level": 0,
+  "claim_role": "definition",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A physical field-theoretic model specifying fields χ and ψ.; A modeling or empirical premise identifying χ and ψ with actual physical entities.; A further derivation showing any claimed relation to E3.1.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D3.3.yaml#D3.3::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "D3.3",
+ "is_main": true,
+ "strength": "By definition",
+ "conditional_premises": [
+  "A physical field-theoretic model specifying fields χ and ψ.",
+  "A modeling or empirical premise identifying χ and ψ with actual physical entities.",
+  "A further derivation showing any claimed relation to E3.1."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "D3.3/Q15/0025",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the move from general creaturely order/relation to a determinate physical Lagrangian coupling; no premise specifies χ, ψ, or the interaction term."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main statement is a definitional/conceptual assertion rather than a theorem with checkable premises and conclusion. The file gives multiple non-identical schematic formulas (minimal Yukawa form, extended all-orders form, and Lowe Coherence Lagrangian) and uses unformalized notions such as 'Logos field', 'meaning', and 'all fundamental fields'. Encoding any one equation would either be a tautological definition or would substitute a side formula for the main claim.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

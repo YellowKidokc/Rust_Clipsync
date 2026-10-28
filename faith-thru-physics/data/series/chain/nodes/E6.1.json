@@ -1,0 +1,45 @@
+{
+ "id": "E6.1",
+ "title": "E6.1 Modified Schrödinger",
+ "lifecycle": "equation",
+ "tier": 7,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A5.1"
+ ],
+ "proposed": [
+  "A5.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "E6.1/Q15/0059",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the attempted inference from P-IMAGO's general analogy of being to a specific quantum equation; P-IMAGO explicitly excludes physical laws, equations, constants, and measurements."
+  }
+ ],
+ "ports": [],
+ "main": "E6.1",
+ "claims": [
+  "E6.1",
+  "E6.1::split-01",
+  "E6.1::split-02",
+  "E6.1::split-03",
+  "E6.1::split-04",
+  "E6.1::split-05"
+ ],
+ "source": "source/nodes/E6.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

@@ -1,0 +1,43 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D19.5",
+ "claim_id": "D19.5::receipt::Law5JusticeMercy.cross_maximizes_both",
+ "type": "RECEIPT",
+ "text": "Exact compiled declaration Law5JusticeMercy.cross_maximizes_both",
+ "source": {
+  "file": "source/nodes/D19.5.yaml",
+  "quote": "Exact compiled declaration Law5JusticeMercy.cross_maximizes_both",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "theorem",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "conditionally_proved",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D19.5.yaml#D19.5::receipt::Law5JusticeMercy.cross_maximizes_both (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [
+  {
+   "kind": "lean",
+   "ref": "sources/october_lean/Law5JusticeMercy.lean"
+  },
+  {
+   "kind": "source",
+   "ref": "receipts/Law5JusticeMercy.log"
+  }
+ ],
+ "neighbors": [],
+ "node": "D19.5",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+ "obstructions": [],
+ "generated_by": "subtype is a proposal only; no new field added to frozen five tags"
+}

@@ -1,0 +1,58 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "T13.1",
+ "claim_id": "T13.1",
+ "type": "CLAIM",
+ "text": "Dark energy is the vacuum potential energy of the chi-field (Logos Field).",
+ "source": {
+  "file": "source/nodes/T13.1.yaml",
+  "quote": "Dark energy is the vacuum potential energy of the chi-field (Logos Field).",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "physical"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "E13.1 GR-QM bridge equation with a chi-field χ-tensor; Definition/assumption that the chi-field exists and has potential V(χ); Assumption that Λ_bare = 0 or negligible; Assumption that the chi-field is spatially homogeneous at its vacuum χ0; Identification of observed dark energy with the chi-field's effective cosmological-constant contribution; Empirical dark-energy data (supernovae, CMB, BAO) to fix/fit Λ_obs and w; A separate theory linking χ-field fluctuations to consciousness",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/T13.1.yaml#T13.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "T13.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "E13.1 GR-QM bridge equation with a chi-field χ-tensor",
+  "Definition/assumption that the chi-field exists and has potential V(χ)",
+  "Assumption that Λ_bare = 0 or negligible",
+  "Assumption that the chi-field is spatially homogeneous at its vacuum χ0",
+  "Identification of observed dark energy with the chi-field's effective cosmological-constant contribution",
+  "Empirical dark-energy data (supernovae, CMB, BAO) to fix/fit Λ_obs and w",
+  "A separate theory linking χ-field fluctuations to consciousness"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "T13.1/Q15/0132",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the identification of the formal χ-field vacuum contribution κV(χ0) with observed dark energy; A0+P-IMAGO do not supply this bridge, and the record's own equations are sign/dimension inconsistent."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is not a single precise mathematical theorem suitable for a faithful Z3 encoding. It is primarily a physical identification, and the file itself alternates between incompatible formulas and admits sign-convention confusion. Encoding any one formula would require choosing definitions or corrections not consistently stated in the source.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

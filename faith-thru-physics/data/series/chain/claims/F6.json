@@ -1,0 +1,54 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "F6",
+ "claim_id": "F6",
+ "type": "CLAIM",
+ "text": "Goodness is a real creaturely quality that can be measured as an agent's net positive contribution to coherence across affected domains, with harm weighted more heavily than help.",
+ "source": {
+  "file": "source/nodes/F6.yaml",
+  "quote": "Goodness is a real creaturely quality that can be measured as an agent's net positive contribution to coherence across affected domains, with harm weighted more heavily than help.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "observable",
+  "composition_level": 1,
+  "claim_role": "empirical_hypothesis",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "Moral goodness is identical to net positive coherence contribution across all affected domains.; Coherence changes ΔC_d are objectively measurable and comparable across domains.; The domain weights w_d and harm penalty λ>1 are objective normative parameters, not definitions chosen for a model.; The proposed goodness field, entropy, Φ, and neural/behavioral correlates are valid empirical/metaphysical mappings.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/F6.yaml#F6::main (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "FRUIT-GEN",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "F6",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "Moral goodness is identical to net positive coherence contribution across all affected domains.",
+  "Coherence changes ΔC_d are objectively measurable and comparable across domains.",
+  "The domain weights w_d and harm penalty λ>1 are objective normative parameters, not definitions chosen for a model.",
+  "The proposed goodness field, entropy, Φ, and neural/behavioral correlates are valid empirical/metaphysical mappings."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "F6/Q15/0200",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the transition from P-IMAGO's analogical participation of creaturely goodness in God's goodness to the quantitative claim that goodness equals a weighted net sum of measurable coherence changes with an objective λ>1 harm penalty."
+  }
+ ],
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

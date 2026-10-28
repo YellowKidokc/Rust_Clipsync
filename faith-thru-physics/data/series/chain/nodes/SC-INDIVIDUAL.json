@@ -1,0 +1,62 @@
+{
+ "id": "SC-INDIVIDUAL",
+ "title": "Individual Scale Coherence",
+ "lifecycle": "scale_definition",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [
+  "A2.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "SC-INDIVIDUAL/Q15/0227",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops after P-IMAGO's general claim that real creaturely consciousness/agency is a finite participation in God; there is no licensed move to the specific coherence-pattern model, chi-field=soul identification, or Phi equations."
+  }
+ ],
+ "ports": [],
+ "main": "SC-INDIVIDUAL",
+ "claims": [
+  "SC-INDIVIDUAL",
+  "SC-INDIVIDUAL::split-01",
+  "SC-INDIVIDUAL::split-02",
+  "SC-INDIVIDUAL::split-03",
+  "SC-INDIVIDUAL::split-04",
+  "SC-INDIVIDUAL::split-05",
+  "SC-INDIVIDUAL::split-06",
+  "SC-INDIVIDUAL::split-07",
+  "SC-INDIVIDUAL::split-08",
+  "SC-INDIVIDUAL::split-09",
+  "SC-INDIVIDUAL::split-10",
+  "SC-INDIVIDUAL::split-11",
+  "SC-INDIVIDUAL::split-12",
+  "SC-INDIVIDUAL::split-13",
+  "SC-INDIVIDUAL::split-14",
+  "SC-INDIVIDUAL::split-15",
+  "SC-INDIVIDUAL::split-16",
+  "SC-INDIVIDUAL::split-17",
+  "SC-INDIVIDUAL::split-18",
+  "SC-INDIVIDUAL::split-19",
+  "SC-INDIVIDUAL::split-20",
+  "SC-INDIVIDUAL::split-21",
+  "SC-INDIVIDUAL::split-22"
+ ],
+ "source": "source/nodes/SC-INDIVIDUAL.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

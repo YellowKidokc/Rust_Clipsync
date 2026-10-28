@@ -1,0 +1,36 @@
+{
+ "id": "DROP-A1.1",
+ "title": "Existence (DUPLICATE)",
+ "lifecycle": "retired",
+ "tier": null,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "DROP_DUPLICATE",
+ "declared": [],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "DROP-A1.1/Q15/0241",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "axiom-set membership",
+   "reason": "Historical dropped duplicate retained as bookkeeping; not an additional active axiom."
+  }
+ ],
+ "ports": [],
+ "main": "DROP-A1.1",
+ "claims": [
+  "DROP-A1.1"
+ ],
+ "source": "source/nodes/DROP-A1.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

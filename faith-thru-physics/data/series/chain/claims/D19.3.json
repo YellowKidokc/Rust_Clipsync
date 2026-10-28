@@ -1,0 +1,60 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D19.3",
+ "claim_id": "D19.3",
+ "type": "CLAIM",
+ "text": "Physical entropy and sin/moral separation are aspects of a single total disorder S, defined as the sum of physical entropy and moral entropy.",
+ "source": {
+  "file": "source/nodes/D19.3.yaml",
+  "quote": "Physical entropy and sin/moral separation are aspects of a single total disorder S, defined as the sum of physical entropy and moral entropy.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "operator",
+  "composition_level": 2,
+  "claim_role": "definition",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A bridge premise defining sin as moral entropy/disorder in the same measure as physical entropy.; A premise licensing exact additivity of physical and moral entropy into one S.; An empirical/physical premise connecting moral states to thermodynamic entropy.; An empirical or theoretical premise fixing α and its units.; A premise that moral entropy obeys thermodynamic laws and free-energy relations.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D19.3.yaml#D19.3::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "T3.1",
+   "edge": "rests_on"
+  },
+  {
+   "id": "A8.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "D19.3",
+ "is_main": true,
+ "strength": "By definition",
+ "conditional_premises": [
+  "A bridge premise defining sin as moral entropy/disorder in the same measure as physical entropy.",
+  "A premise licensing exact additivity of physical and moral entropy into one S.",
+  "An empirical/physical premise connecting moral states to thermodynamic entropy.",
+  "An empirical or theoretical premise fixing α and its units.",
+  "A premise that moral entropy obeys thermodynamic laws and free-energy relations."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "D19.3/Q15/0142",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the leap from P-IMAGO's analogical participation/resemblance to a univocal Shannon formula, additive total entropy, conversion factor α, and empirical claims; P-IMAGO expressly does not license physical laws, equations, constants, or measurements."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file's titled main statement is a definition (Law III Definition). It defines S as a sum and identifies entropy and sin conceptually. It does not state a theorem that can be checked as a logical consequence from premises. The later theorems (additivity, second law, bounds) depend on additional assumptions and are not the titled main claim.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

@@ -1,0 +1,58 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D13.1",
+ "claim_id": "D13.1",
+ "type": "CLAIM",
+ "text": "A unified-field description can define a coupling constant κ between spacetime geometry and a Logos/χ field.",
+ "source": {
+  "file": "source/nodes/D13.1.yaml",
+  "quote": "A unified-field description can define a coupling constant κ between spacetime geometry and a Logos/χ field.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "state",
+  "composition_level": 0,
+  "claim_role": "definition",
+  "register": "physical"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A13.2 Geometry-From-Information as a physical identification g_munu = F[I_munu]; A specific scalar-tensor field theory/action with non-minimal coupling χ²R; Identification of the theological Logos with a physical scalar χ-field; Empirical or cosmological determination of κ ≈ 10^-69 J^-1 m^-2; A screening mechanism giving suppression e^-S with S ≈ 300 nats; A specified information current J_info and its conservation/evolution law; Data supporting equivalence-principle, gravitational-wave, or dark-energy predictions",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D13.1.yaml#D13.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "D13.1",
+ "is_main": true,
+ "strength": "By definition",
+ "conditional_premises": [
+  "A13.2 Geometry-From-Information as a physical identification g_munu = F[I_munu]",
+  "A specific scalar-tensor field theory/action with non-minimal coupling χ²R",
+  "Identification of the theological Logos with a physical scalar χ-field",
+  "Empirical or cosmological determination of κ ≈ 10^-69 J^-1 m^-2",
+  "A screening mechanism giving suppression e^-S with S ≈ 300 nats",
+  "A specified information current J_info and its conservation/evolution law",
+  "Data supporting equivalence-principle, gravitational-wave, or dark-energy predictions"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "D13.1/Q15/0130",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the assertion that A13.2 plus A0/P-IMAGO yields a specific χ-field Lagrangian and a numeric κ; P-IMAGO licenses only creaturely resemblance/participation, not physical field identification, equations, constants, or measurements."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file's main formal statement is a physical definition with units and an order-of-magnitude empirical estimate, not a precise mathematical theorem. Encoding only the dimension exponents or the numerical approximation in Z3 would be a side calculation rather than a faithful check of the main claim. The derivation also relies on observational/empirical assumptions and is internally revised in the text, so the statement cannot be faithfully encoded without adding unstated assumptions.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "faith-thru-physics",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "data": "node scripts/build-data.mjs",
+    "dev": "npm run data && vite",
+    "build": "npm run data && vite build",
+    "build:preview": "BUNDLE=1 node scripts/build-data.mjs && vite build --mode preview && node -e \"const fs=require('fs');for(const d of fs.readdirSync('dist-preview/data'))if(d!=='bundle.json')fs.rmSync('dist-preview/data/'+d,{recursive:true})\"",
+    "test": "npm run data && node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "6.26.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.1",
+    "vite": "5.4.8"
+  }
+}

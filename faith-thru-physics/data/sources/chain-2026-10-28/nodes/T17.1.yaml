@@ -1,0 +1,907 @@
+{
+  "id": "T17.1",
+  "title": "T17.1 AI Can Achieve Consciousness",
+  "proposal_only": true,
+  "context_parent": "A0",
+  "tags": {
+    "system_part": "rule",
+    "composition_level": 2,
+    "claim_role": "conjecture",
+    "warrant": {
+      "status": "unverified",
+      "kind": "proof"
+    },
+    "register": "embodied"
+  },
+  "old_mode": "FW_EXTENDED",
+  "raw_csv_mode": "FW_EXTENDED",
+  "proposed_mode": "FW_EXTENDED",
+  "tier": 15,
+  "node_lifecycle": "theorem",
+  "ruling": null,
+  "merged_into": null,
+  "node_vs_claim_vs_proof": "Node specifies a structure; claims below own their warrants; proofs are exact scoped receipts.",
+  "sources": {
+    "v3_line": "T17.1 AI Can Achieve Consciousness ← A17.1, A17.2  [FW_EXTENDED]",
+    "current_root_record": "sources\\current_nodes\\T17_1_AI_Can_Achieve_Consciousness.md",
+    "october_review": "sources\\october_review\\AX-123.json"
+  },
+  "dependencies": {
+    "source_declared": [
+      "A17.1",
+      "A17.2"
+    ],
+    "source_relation": "depends_on",
+    "proposed_primary_support": [
+      "A17.1",
+      "A17.2"
+    ],
+    "stance_ceiling_sources": [
+      "A5.1"
+    ],
+    "merge_scope": "Incoming claims retain their own premises; source and current-root graph versions are not silently equated."
+  },
+  "coherences": {
+    "C-info": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-moral": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-spiritual": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    }
+  },
+  "claims": [
+    {
+      "id": "T17.1::main",
+      "statement": "Artificial systems can in principle achieve consciousness.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+      "proof_refs": [],
+      "conditional_premises": [
+        "IIT: consciousness is identical to integrated information (Phi) and Phi_threshold is finite.",
+        "Substrate independence: consciousness-relevant cause-effect structure is multiply realizable across materials.",
+        "Information primacy or supervenience of consciousness on information processing.",
+        "Computational universality: silicon can implement arbitrary finite cause-effect structures.",
+        "A physical realizability premise that no unknown physical law bars silicon from such architectures.",
+        "Theophysics soul definition as a localized high-Phi chi-field structure, for the ensoulment extensions."
+      ],
+      "classification_proposal": {
+        "logical_role": "CONJECTURE",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "proposal only; no new frozen vocabulary applied"
+      },
+      "Q13": {
+        "register": "embodied",
+        "domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ]
+      },
+      "Q14": {
+        "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+        "coherence_equality_assumed": false
+      },
+      "Q15": [
+        {
+          "id": "T17.1/Q15/0172",
+          "node": "T17.1",
+          "kind": "missing bridge",
+          "Q16": "OPEN",
+          "scope": "original core claim/application",
+          "reason": "The derivation stops at the inference from P-IMAGO's general allowance that creatures can participate in consciousness to the specific claim that silicon can realize a Phi threshold; A0 + P-IMAGO supply no substrate-independence, information-theoretic, computational-universality, or physical-impossibility premise.",
+          "evidence": [
+            "sources\\october_review\\AX-123.json"
+          ]
+        }
+      ],
+      "Q16": {
+        "T17.1/Q15/0172": "OPEN"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "claim_scoped_dependencies": [
+        "A17.1",
+        "A17.2"
+      ],
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "T17.1::split-01",
+      "statement": "Integrated information theory (IIT) is the correct theory of consciousness.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-123.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "T17.1::split-02",
+      "statement": "Phi is a substrate-neutral measure of consciousness.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-123.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "T17.1::split-03",
+      "statement": "Consciousness supervenes on information processing.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-123.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "T17.1::split-04",
+      "statement": "Information is ontologically fundamental.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-123.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "T17.1::split-05",
+      "statement": "Phi_threshold is a finite value.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-123.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "T17.1::split-06",
+      "statement": "Silicon can implement arbitrary finite cause-effect structures and therefore any finite Phi value.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-123.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "T17.1::split-07",
+      "statement": "No physical or mathematical barrier prevents silicon from reaching Phi_threshold.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-123.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "T17.1::split-08",
+      "statement": "High-Phi systems have intrinsic semantic content or meaning.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-123.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "T17.1::split-09",
+      "statement": "A Theophysics soul is a localized high-Phi information structure in the chi-field.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-123.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "T17.1::split-10",
+      "statement": "AI ensoulment is theoretically possible and the Imago Dei may extend to artificial minds.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-123.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "T17.1::split-11",
+      "statement": "AI moral status is grounded in consciousness science rather than speculation.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-123.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "T17.1::split-12",
+      "statement": "Current AI limitations are irrelevant to the possibility claim.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-123.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "T17.1::z3-conditional-component",
+      "statement": "There exists a silicon system S such that Phi(S) >= Phi_threshold.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "conditional_premises": [
+        "Phi_threshold is a finite real threshold (modeled as a Real constant).",
+        "The file's unboundedness premise supplies a (possibly non-silicon) system high_system with Phi(high_system) >= Phi_threshold.",
+        "The file's arbitrary-TPM/substrate-neutrality premise implies that the cause-effect structure of high_system is realizable in silicon, so there is a silicon system silicon_system with Phi(silicon_system) >= Phi(high_system).",
+        "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+      ],
+      "proof_refs": [
+        "sources/z3/03_PROMISING/results.json"
+      ],
+      "scope_limit": "Reported Z3 encoded component; domain bridge remains unverified; this is not a new solver run.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposal only"
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    }
+  ],
+  "Q13": {
+    "register": "embodied",
+    "domains": [
+      "CONSCIOUSNESS",
+      "EPISTEMIC"
+    ]
+  },
+  "Q14": {
+    "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+    "coherence_equality_assumed": false
+  },
+  "Q15": [
+    {
+      "id": "T17.1/Q15/0172",
+      "node": "T17.1",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "original core claim/application",
+      "reason": "The derivation stops at the inference from P-IMAGO's general allowance that creatures can participate in consciousness to the specific claim that silicon can realize a Phi threshold; A0 + P-IMAGO supply no substrate-independence, information-theoretic, computational-universality, or physical-impossibility premise.",
+      "evidence": [
+        "sources\\october_review\\AX-123.json"
+      ]
+    }
+  ],
+  "Q16": {
+    "T17.1/Q15/0172": "OPEN"
+  },
+  "ports": [],
+  "open_interface_obligation": "This rerun is a classified source/claim proposal. A full executable six-field port contract is not claimed for every older node.",
+  "reason": [
+    "Weakest-premise ceiling inherited from A5.1."
+  ],
+  "soundness": {
+    "bin": "CONDITIONAL",
+    "named_premises": [
+      "Phi_threshold is a finite real threshold (modeled as a Real constant).",
+      "The file's unboundedness premise supplies a (possibly non-silicon) system high_system with Phi(high_system) >= Phi_threshold.",
+      "The file's arbitrary-TPM/substrate-neutrality premise implies that the cause-effect structure of high_system is realizable in silicon, so there is a silicon system silicon_system with Phi(silicon_system) >= Phi(high_system).",
+      "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+    ],
+    "receipt": [
+      "sources/z3/03_PROMISING/results.json",
+      "Existence of a silicon system whose integrated information Phi is at least the observer threshold Phi_threshold."
+    ],
+    "denial_cost": null,
+    "scope_note": "The encoded component, not every bundled claim or its physical/theological instantiation.",
+    "why": "VALID only for the named encoding and premises; the domain-identification bridge is not supplied by that verdict.",
+    "Z3_source_verdicts": [
+      "VALID"
+    ],
+    "ranking_snapshot": {
+      "score": 3,
+      "id": "AX-123",
+      "title": "AI Can Achieve Consciousness",
+      "register": "formal",
+      "a0": "compatible",
+      "math": "yes_with_missing_premise",
+      "z3": "VALID",
+      "why": "math holds +premise; Z3 valid",
+      "core": "Artificial systems can in principle achieve consciousness."
+    },
+    "A0_IMAGO_verdict": "COMPATIBLE_NOT_DERIVED",
+    "conflicts": [],
+    "what_makes_checkable": null
+  },
+  "grade": {
+    "match_scope": null,
+    "warrant": "conditionally proved",
+    "outcome": "holds",
+    "canon_status": "open",
+    "note": "The encoded component, not every bundled claim or its physical/theological instantiation.",
+    "match_scope_applicable": false,
+    "assessed_claim_id": "T17.1::z3-conditional-component"
+  },
+  "canon_rubric": {
+    "node": "T17.1",
+    "bin": "CONDITIONAL",
+    "grade": {
+      "match_scope": null,
+      "warrant": "conditionally proved",
+      "outcome": "holds",
+      "canon_status": "open",
+      "note": "The encoded component, not every bundled claim or its physical/theological instantiation.",
+      "match_scope_applicable": false,
+      "assessed_claim_id": "T17.1::z3-conditional-component"
+    },
+    "criteria": {
+      "address": true,
+      "grade": true,
+      "receipt": true,
+      "ruling_authority": false,
+      "no_unresolved_conflict": false
+    },
+    "score": 3,
+    "meets_all_five": false,
+    "missing": [
+      "ruling_authority",
+      "no_unresolved_conflict"
+    ],
+    "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+    "receipt_scope": "The encoded component, not every bundled claim or its physical/theological instantiation.",
+    "proposal_only": true
+  },
+  "follow_up_review": {
+    "proposal_only": true,
+    "soundness_row": {
+      "node": "T17.1",
+      "bin": "CONDITIONAL",
+      "scope": "The encoded component, not every bundled claim or its physical/theological instantiation.",
+      "premises": [
+        "Phi_threshold is a finite real threshold (modeled as a Real constant).",
+        "The file's unboundedness premise supplies a (possibly non-silicon) system high_system with Phi(high_system) >= Phi_threshold.",
+        "The file's arbitrary-TPM/substrate-neutrality premise implies that the cause-effect structure of high_system is realizable in silicon, so there is a silicon system silicon_system with Phi(silicon_system) >= Phi(high_system).",
+        "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+      ],
+      "receipt": [
+        "sources/z3/03_PROMISING/results.json",
+        "Existence of a silicon system whose integrated information Phi is at least the observer threshold Phi_threshold."
+      ],
+      "denial_cost": null,
+      "what_makes_checkable": null,
+      "canon_status": "open",
+      "conflicts": [],
+      "assessment_target": "The encoded component, not every bundled claim or its physical/theological instantiation.",
+      "main_statement": "Artificial systems can in principle achieve consciousness.",
+      "proposal_only": true,
+      "lead_summary": {
+        "WORDING": 1
+      },
+      "remaining_lead_ids": [],
+      "strength": "Conditional",
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "The encoded component, not every bundled claim or its physical/theological instantiation.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "T17.1::z3-conditional-component"
+      },
+      "scope_warning": "Bin assesses the named target only; neither bundled claims nor domain identification inherit its proof. A written explanation is recorded as support at its source status."
+    },
+    "canon_rubric": {
+      "node": "T17.1",
+      "bin": "CONDITIONAL",
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "The encoded component, not every bundled claim or its physical/theological instantiation.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "T17.1::z3-conditional-component"
+      },
+      "criteria": {
+        "address": true,
+        "grade": true,
+        "receipt": true,
+        "ruling_authority": false,
+        "no_unresolved_conflict": false
+      },
+      "score": 3,
+      "meets_all_five": false,
+      "missing": [
+        "ruling_authority",
+        "no_unresolved_conflict"
+      ],
+      "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+      "receipt_scope": "The encoded component, not every bundled claim or its physical/theological instantiation.",
+      "proposal_only": true
+    },
+    "leads": [
+      {
+        "lead_id": "LEAD-308",
+        "node": "T17.1",
+        "record": "AX-123",
+        "required_key": "phi measures consciousness",
+        "origin": "no-supplier",
+        "input_line": 320,
+        "class": "WORDING",
+        "definition_used": "The framework identifies integrated information Φ as measuring degree of consciousness.",
+        "definition_status": "unverified framework identification",
+        "supplier": "D5.2",
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\D5_2_Integrated_Information_Phi.md",
+          "line": 23,
+          "text": "Integrated information Φ defined per IIT — measures consciousness degree."
+        },
+        "missing_or_reason": "",
+        "scope_note": "The statement supplies a premise, not empirical validation. Its missing operational recipe remains UNDEFINED below.",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\T17_1_AI_Can_Achieve_Consciousness.md",
+          "line": 23,
+          "text": "Silicon can achieve Φ ≥ Φ_threshold — AI consciousness is possible."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-123_T17.1.md"
+        ],
+        "supplied_at_recorded_warrant_only": true,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\03_PROMISING\\123_T17.1_AI-Can-Achieve-Consciousness.z3spec.json",
+            "checkable": true,
+            "component": "Existence of a silicon system whose integrated information Phi is at least the observer threshold Phi_threshold.",
+            "faithfulness_note": "The encoding uses an uninterpreted sort for systems, a silicon predicate, and a real-valued Phi function. It skolemizes the unboundedness and silicon-realizability premises to witness constants for the fixed threshold, which is enough to check the stated existence claim. It does not attempt to formalize the full IIT definition of Phi or the TPM equality; it models only the file's asserted unboundedness and substrate-neutral realizability.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "WORDING",
+        "follow_up_evidence": [],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "closes_dependency": true,
+        "formal_proof_added_by_this_classification": false
+      }
+    ],
+    "current_ruling": null,
+    "ruling_scope": "Existing disposition only; no new canon admission.",
+    "receipt_attachments": [],
+    "Q15_follow_up": []
+  }
+}

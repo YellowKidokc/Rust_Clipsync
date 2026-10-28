@@ -1,0 +1,10 @@
+{
+  "source_hashes_match_prior_verified_snapshot": true,
+  "nodes": 210,
+  "claims": 2634,
+  "active": 182,
+  "unique_claim_ids": true,
+  "main_page_local_links_exist": true,
+  "original_sources_edited": false,
+  "browser_rendering": "Not performed; JavaScript syntax and offline DOM behavior checked separately."
+}

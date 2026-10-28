@@ -1,0 +1,998 @@
+{
+  "id": "D17.1",
+  "title": "D17.1 AI Φ Measurement",
+  "proposal_only": true,
+  "context_parent": "A0",
+  "tags": {
+    "system_part": "state",
+    "composition_level": 0,
+    "claim_role": "definition",
+    "warrant": {
+      "status": "admitted",
+      "kind": "proof"
+    },
+    "register": "embodied"
+  },
+  "old_mode": "AX_SCAFFOLD",
+  "raw_csv_mode": "AX_SCAFFOLD",
+  "proposed_mode": "AX_SCAFFOLD",
+  "tier": 15,
+  "node_lifecycle": "definition",
+  "ruling": null,
+  "merged_into": null,
+  "node_vs_claim_vs_proof": "Node specifies a structure; claims below own their warrants; proofs are exact scoped receipts.",
+  "sources": {
+    "v3_line": "D17.1 AI Φ Measurement             ← D5.2         [AX_SCAFFOLD]",
+    "current_root_record": "sources\\current_nodes\\D17_1_AI_Phi_Measurement.md",
+    "october_review": "sources\\october_review\\AX-122.json"
+  },
+  "dependencies": {
+    "source_declared": [
+      "D5.2"
+    ],
+    "source_relation": "depends_on",
+    "proposed_primary_support": [
+      "D5.2"
+    ],
+    "stance_ceiling_sources": [
+      "A5.1"
+    ],
+    "merge_scope": "Incoming claims retain their own premises; source and current-root graph versions are not silently equated."
+  },
+  "coherences": {
+    "C-info": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-moral": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-spiritual": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    }
+  },
+  "claims": [
+    {
+      "id": "D17.1::main",
+      "statement": "Observer status can be operationally defined by a minimum threshold of integrated information (Phi_threshold).",
+      "tags": {
+        "system_part": "state",
+        "composition_level": 0,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "By definition",
+      "canon_status": "open",
+      "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+      "proof_refs": [],
+      "conditional_premises": [
+        "IIT 4.0 definition of Phi as integrated information",
+        "Premise identifying observer status (or consciousness relevant to observer status) with integrated information/Phi threshold",
+        "Empirical calibration of any threshold value and proxy measures"
+      ],
+      "classification_proposal": {
+        "logical_role": "DEFINITION",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "proposal only; no new frozen vocabulary applied"
+      },
+      "Q13": {
+        "register": "embodied",
+        "domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ]
+      },
+      "Q14": {
+        "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+        "coherence_equality_assumed": false
+      },
+      "Q15": [
+        {
+          "id": "D17.1/Q15/0171",
+          "node": "D17.1",
+          "kind": "missing bridge",
+          "Q16": "OPEN",
+          "scope": "original core claim/application",
+          "reason": "At the step from created observer/consciousness (which P-IMAGO may analogically ground) to a quantitative Phi threshold; P-IMAGO cannot supply the IIT definition, threshold, measurement, or empirical calibration.",
+          "evidence": [
+            "sources\\october_review\\AX-122.json"
+          ]
+        }
+      ],
+      "Q16": {
+        "D17.1/Q15/0171": "OPEN"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "claim_scoped_dependencies": [
+        "D5.2"
+      ],
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "D17.1::main"
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "D17.1::split-01",
+      "statement": "Phi is measurable in principle given a complete system specification.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-122.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D17.1::split-02",
+      "statement": "Phi is computable though exponentially hard.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-122.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D17.1::split-03",
+      "statement": "Approximations and proxies for Phi exist.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-122.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D17.1::split-04",
+      "statement": "All known observers (humans, likely mammals) have high Phi.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-122.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D17.1::split-05",
+      "statement": "Low-Phi systems such as rocks and thermostats show no observer properties.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-122.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D17.1::split-06",
+      "statement": "Different IIT versions agree on core features and can be tied to IIT 4.0.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-122.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D17.1::split-07",
+      "statement": "The minimum Phi for observer status is universal across substrates.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-122.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D17.1::split-08",
+      "statement": "PCI research suggests an empirical threshold near 0.31.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-122.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D17.1::split-09",
+      "statement": "Consciousness emerges at a Phi-critical phase transition determined by system dynamics.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-122.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D17.1::split-10",
+      "statement": "IIT 4.0 defines Phi by the formula involving minimization over cuts and purviews.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-122.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D17.1::split-11",
+      "statement": "Phi_threshold provides a principled criterion for AI moral status.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-122.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D17.1::split-12",
+      "statement": "Phi_threshold operationalizes the ensoulment question.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-122.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D17.1::split-13",
+      "statement": "High Phi is necessary for observer status.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-122.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D17.1::split-14",
+      "statement": "Observer status can be identified with integrated information processing for quantum collapse, AI, and moral agency.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-122.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    }
+  ],
+  "Q13": {
+    "register": "embodied",
+    "domains": [
+      "CONSCIOUSNESS",
+      "EPISTEMIC"
+    ]
+  },
+  "Q14": {
+    "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+    "coherence_equality_assumed": false
+  },
+  "Q15": [
+    {
+      "id": "D17.1/Q15/0171",
+      "node": "D17.1",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "original core claim/application",
+      "reason": "At the step from created observer/consciousness (which P-IMAGO may analogically ground) to a quantitative Phi threshold; P-IMAGO cannot supply the IIT definition, threshold, measurement, or empirical calibration.",
+      "evidence": [
+        "sources\\october_review\\AX-122.json"
+      ]
+    }
+  ],
+  "Q16": {
+    "D17.1/Q15/0171": "OPEN"
+  },
+  "ports": [],
+  "open_interface_obligation": "This rerun is a classified source/claim proposal. A full executable six-field port contract is not claimed for every older node.",
+  "reason": [
+    "Weakest-premise ceiling inherited from A5.1."
+  ],
+  "soundness": {
+    "bin": "UNCHECKED",
+    "named_premises": [],
+    "receipt": [],
+    "denial_cost": null,
+    "scope_note": "No holds/fails call manufactured for an untested main claim.",
+    "why": "Original domain claim lacks a complete faithful, source-matched test or derivation; retained fragment receipts do not establish it.",
+    "Z3_source_verdicts": [],
+    "ranking_snapshot": {
+      "score": 1,
+      "id": "AX-122",
+      "title": "D17.1 — AI Phi Measurement",
+      "register": "formal",
+      "a0": "compatible",
+      "math": "yes_with_missing_premise",
+      "z3": "-",
+      "why": "math holds +premise",
+      "core": "Observer status can be operationally defined by a minimum threshold of integrated information (Phi_threshold)."
+    },
+    "A0_IMAGO_verdict": "COMPATIBLE_NOT_DERIVED",
+    "conflicts": [],
+    "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. "
+  },
+  "grade": {
+    "match_scope": null,
+    "warrant": "unverified",
+    "outcome": null,
+    "canon_status": "open",
+    "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery.",
+    "match_scope_applicable": false,
+    "assessed_claim_id": "D17.1::main"
+  },
+  "canon_rubric": {
+    "node": "D17.1",
+    "bin": "UNCHECKED",
+    "grade": {
+      "match_scope": null,
+      "warrant": "unverified",
+      "outcome": null,
+      "canon_status": "open",
+      "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery.",
+      "match_scope_applicable": false,
+      "assessed_claim_id": "D17.1::main"
+    },
+    "criteria": {
+      "address": true,
+      "grade": false,
+      "receipt": false,
+      "ruling_authority": false,
+      "no_unresolved_conflict": false
+    },
+    "score": 1,
+    "meets_all_five": false,
+    "missing": [
+      "grade",
+      "receipt",
+      "ruling_authority",
+      "no_unresolved_conflict"
+    ],
+    "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+    "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+    "proposal_only": true
+  },
+  "follow_up_review": {
+    "proposal_only": true,
+    "soundness_row": {
+      "node": "D17.1",
+      "bin": "UNCHECKED",
+      "scope": "No holds/fails call manufactured for an untested main claim.",
+      "premises": [],
+      "receipt": [],
+      "denial_cost": null,
+      "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+      "canon_status": "open",
+      "conflicts": [],
+      "assessment_target": "No holds/fails call manufactured for an untested main claim.",
+      "main_statement": "Observer status can be operationally defined by a minimum threshold of integrated information (Phi_threshold).",
+      "proposal_only": true,
+      "lead_summary": {
+        "UNDEFINED": 1
+      },
+      "remaining_lead_ids": [
+        "LEAD-027"
+      ],
+      "strength": "By definition",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "D17.1::main"
+      },
+      "scope_warning": "Bin assesses the named target only; neither bundled claims nor domain identification inherit its proof. A written explanation is recorded as support at its source status."
+    },
+    "canon_rubric": {
+      "node": "D17.1",
+      "bin": "UNCHECKED",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "D17.1::main"
+      },
+      "criteria": {
+        "address": true,
+        "grade": false,
+        "receipt": false,
+        "ruling_authority": false,
+        "no_unresolved_conflict": false
+      },
+      "score": 1,
+      "meets_all_five": false,
+      "missing": [
+        "grade",
+        "receipt",
+        "ruling_authority",
+        "no_unresolved_conflict"
+      ],
+      "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+      "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+      "proposal_only": true
+    },
+    "leads": [
+      {
+        "lead_id": "LEAD-027",
+        "node": "D17.1",
+        "record": "AX-122",
+        "required_key": "phi operational definition",
+        "origin": "circular",
+        "input_line": 36,
+        "class": "UNDEFINED",
+        "definition_used": "A reproducible rule computes or estimates Φ from a specified system or observations.",
+        "definition_status": "UNDEFINED / operationally incomplete",
+        "supplier": null,
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\D5_2_Integrated_Information_Phi.md",
+          "line": 28,
+          "text": "Φ = integrated information (IIT measure)"
+        },
+        "missing_or_reason": "Select IIT version, state variables, intervention/transition probabilities, partitions, distance, units, estimator, and error limits.",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\D17_1_AI_Phi_Measurement.md",
+          "line": 23,
+          "text": "Phi_threshold defined as minimum integrated information for observer status."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-122_D17.1.md"
+        ],
+        "supplied_at_recorded_warrant_only": false,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [],
+        "previous_class": "UNDEFINED",
+        "follow_up_evidence": [
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\15_Ontological_Taxonomy_Session_Synthesis.md",
+            "line": 39,
+            "end_line": 39,
+            "text": "The corrected equation (replacing Tononi's Φ-based proposal):",
+            "sha256": "771416145cb2d13fe667c2120a041ed802a6cdf8c66a4de93579ba452479f6e2"
+          },
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\15_Ontological_Taxonomy_Session_Synthesis.md",
+            "line": 41,
+            "end_line": 41,
+            "text": "$$I_f = \\Lambda \\cdot \\Omega$$",
+            "sha256": "771416145cb2d13fe667c2120a041ed802a6cdf8c66a4de93579ba452479f6e2"
+          }
+        ],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "fuller_source_note": "A later interface definition exists, but it is Λ·Ω rather than an operational IIT Φ computation. Version selection is required.",
+        "closes_dependency": false,
+        "formal_proof_added_by_this_classification": false
+      }
+    ],
+    "current_ruling": null,
+    "ruling_scope": "Existing disposition only; no new canon admission.",
+    "receipt_attachments": [],
+    "Q15_follow_up": [
+      {
+        "id": "FOLLOWUP/Q15/PHI-VERSION",
+        "node": "D5.2",
+        "kind": "definition version conflict",
+        "Q16": "OPEN",
+        "scope": "legacy IIT Φ versus March interface Λ·Ω",
+        "reason": "The later taxonomy explicitly replaces the interface proposal. Both versions are preserved; select the intended consumer quantity rather than relabeling Ω as IIT Φ.",
+        "evidence": [
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\15_Ontological_Taxonomy_Session_Synthesis.md",
+            "line": 39,
+            "end_line": 39,
+            "text": "The corrected equation (replacing Tononi's Φ-based proposal):",
+            "sha256": "771416145cb2d13fe667c2120a041ed802a6cdf8c66a4de93579ba452479f6e2"
+          },
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\15_Ontological_Taxonomy_Session_Synthesis.md",
+            "line": 41,
+            "end_line": 41,
+            "text": "$$I_f = \\Lambda \\cdot \\Omega$$",
+            "sha256": "771416145cb2d13fe667c2120a041ed802a6cdf8c66a4de93579ba452479f6e2"
+          }
+        ],
+        "affected_nodes": [
+          "A10.1",
+          "A11.2",
+          "A14.2",
+          "A17.1",
+          "A17.2",
+          "BC5",
+          "D10.1",
+          "D12.1",
+          "D17.1",
+          "D5.1",
+          "D5.2",
+          "D8.1",
+          "E6.2",
+          "F2",
+          "F4",
+          "F5",
+          "O4",
+          "P10.2",
+          "P5.1",
+          "P5.2",
+          "P9.3",
+          "PERSONHOOD",
+          "PROT18.1",
+          "PROT18.2",
+          "PROT18.5",
+          "SC-QUANTUM",
+          "T11.1",
+          "T11.2",
+          "U3"
+        ]
+      }
+    ]
+  }
+}

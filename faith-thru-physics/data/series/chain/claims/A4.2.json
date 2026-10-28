@@ -1,0 +1,58 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "A4.2",
+ "claim_id": "A4.2",
+ "type": "CLAIM",
+ "text": "Algorithmic depth is the measure of structure given by output complexity relative to input complexity, not by output simplicity alone.",
+ "source": {
+  "file": "source/nodes/A4.2.yaml",
+  "quote": "Algorithmic depth is the measure of structure given by output complexity relative to input complexity, not by output simplicity alone.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "AX-027/A4.1 Parsimony (the record explicitly assumes it); Formal definition/premise from algorithmic information theory (Kolmogorov complexity / Bennett logical depth); Empirical premise/data that the universe's laws and history instantiate high logical depth; Bridge premise mapping Trinitarian persons to expansion, compression/order, and actualization; Theological/interpretive premise that creation's goal is to maximize meaning/depth under parsimony; Premise that the universe is a generative fractal or critical system; Premise that algorithmic depth grounds value or distinguishes good/bad complexity",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/A4.2.yaml#A4.2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "A4.2",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "AX-027/A4.1 Parsimony (the record explicitly assumes it)",
+  "Formal definition/premise from algorithmic information theory (Kolmogorov complexity / Bennett logical depth)",
+  "Empirical premise/data that the universe's laws and history instantiate high logical depth",
+  "Bridge premise mapping Trinitarian persons to expansion, compression/order, and actualization",
+  "Theological/interpretive premise that creation's goal is to maximize meaning/depth under parsimony",
+  "Premise that the universe is a generative fractal or critical system",
+  "Premise that algorithmic depth grounds value or distinguishes good/bad complexity"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "A4.2/Q15/0035",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the move from P-IMAGO's general claim that creatures have finite order/intelligibility to the specific information-theoretic metric of algorithmic/logical depth; P-IMAGO explicitly does not yield physical laws, equations, constants, or measurements."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

@@ -1,0 +1,284 @@
+{
+  "id": "T3.2",
+  "title": "T3.2 Moral ≠ Thermal Order",
+  "proposal_only": true,
+  "context_parent": "A0",
+  "tags": {
+    "system_part": "rule",
+    "composition_level": 2,
+    "claim_role": "conjecture",
+    "warrant": {
+      "status": "unverified",
+      "kind": "proof"
+    },
+    "register": "spiritual"
+  },
+  "old_mode": "FW_EXTENDED",
+  "raw_csv_mode": "FW_EXTENDED",
+  "proposed_mode": "FW_EXTENDED",
+  "tier": 4,
+  "node_lifecycle": "open",
+  "ruling": null,
+  "merged_into": null,
+  "node_vs_claim_vs_proof": "Node specifies a structure; claims below own their warrants; proofs are exact scoped receipts.",
+  "sources": {
+    "v3_line": "T3.2 Moral ≠ Thermal Order      ← T3.1         [FW_EXTENDED — NEW, per Grok Repair 6.",
+    "current_root_record": null,
+    "october_review": null
+  },
+  "dependencies": {
+    "source_declared": [
+      "T3.1"
+    ],
+    "source_relation": "depends_on",
+    "proposed_primary_support": [
+      "T3.1"
+    ],
+    "stance_ceiling_sources": [
+      "A2.2"
+    ],
+    "merge_scope": "Incoming claims retain their own premises; source and current-root graph versions are not silently equated."
+  },
+  "coherences": {
+    "C-info": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-moral": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-spiritual": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    }
+  },
+  "claims": [
+    {
+      "id": "T3.2::main",
+      "statement": "Moral coherence is not reducible to thermal order; this does not itself identify outside input as Grace.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+      "proof_refs": [],
+      "conditional_premises": [],
+      "classification_proposal": {
+        "logical_role": "CONJECTURE",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "proposal only; no new frozen vocabulary applied"
+      },
+      "Q13": {
+        "register": "spiritual",
+        "domains": [
+          "ONTOLOGICAL"
+        ]
+      },
+      "Q14": {
+        "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+        "coherence_equality_assumed": false
+      },
+      "Q15": [
+        {
+          "id": "T3.2/Q15/0032",
+          "node": "T3.2",
+          "kind": "definitional conflict",
+          "Q16": "OPEN",
+          "scope": "receipt-to-source matching",
+          "reason": "August Lean T3_2 means restorationOccurs; master T3.2 means moral != thermal order. The proof labels are not content-equivalent.",
+          "evidence": [
+            "sources/august_lean/T3GraceSemantics.lean"
+          ]
+        }
+      ],
+      "Q16": {
+        "T3.2/Q15/0032": "OPEN"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "claim_scoped_dependencies": [
+        "T3.1"
+      ],
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "T3.2::main"
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    }
+  ],
+  "Q13": {
+    "register": "spiritual",
+    "domains": [
+      "ONTOLOGICAL"
+    ]
+  },
+  "Q14": {
+    "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+    "coherence_equality_assumed": false
+  },
+  "Q15": [
+    {
+      "id": "T3.2/Q15/0032",
+      "node": "T3.2",
+      "kind": "definitional conflict",
+      "Q16": "OPEN",
+      "scope": "receipt-to-source matching",
+      "reason": "August Lean T3_2 means restorationOccurs; master T3.2 means moral != thermal order. The proof labels are not content-equivalent.",
+      "evidence": [
+        "sources/august_lean/T3GraceSemantics.lean"
+      ]
+    }
+  ],
+  "Q16": {
+    "T3.2/Q15/0032": "OPEN"
+  },
+  "ports": [],
+  "open_interface_obligation": "This rerun is a classified source/claim proposal. A full executable six-field port contract is not claimed for every older node.",
+  "reason": [
+    "Weakest-premise ceiling inherited from A2.2."
+  ],
+  "soundness": {
+    "bin": "UNCHECKED",
+    "named_premises": [],
+    "receipt": [],
+    "denial_cost": null,
+    "scope_note": "No holds/fails call manufactured for an untested main claim.",
+    "why": "Original domain claim lacks a complete faithful, source-matched test or derivation; retained fragment receipts do not establish it.",
+    "Z3_source_verdicts": [],
+    "ranking_snapshot": null,
+    "A0_IMAGO_verdict": null,
+    "conflicts": [
+      "v3/current-source/receipt content version mismatch is preserved in Q15; identifier agreement is not enough."
+    ],
+    "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. "
+  },
+  "grade": {
+    "match_scope": null,
+    "warrant": "unverified",
+    "outcome": null,
+    "canon_status": "open",
+    "note": "No holds/fails call manufactured for an untested main claim.",
+    "match_scope_applicable": false,
+    "assessed_claim_id": "T3.2::main"
+  },
+  "canon_rubric": {
+    "node": "T3.2",
+    "bin": "UNCHECKED",
+    "grade": {
+      "match_scope": null,
+      "warrant": "unverified",
+      "outcome": null,
+      "canon_status": "open",
+      "note": "No holds/fails call manufactured for an untested main claim.",
+      "match_scope_applicable": false,
+      "assessed_claim_id": "T3.2::main"
+    },
+    "criteria": {
+      "address": true,
+      "grade": false,
+      "receipt": false,
+      "ruling_authority": false,
+      "no_unresolved_conflict": false
+    },
+    "score": 1,
+    "meets_all_five": false,
+    "missing": [
+      "grade",
+      "receipt",
+      "ruling_authority",
+      "no_unresolved_conflict"
+    ],
+    "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+    "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+    "proposal_only": true
+  },
+  "follow_up_review": {
+    "proposal_only": true,
+    "soundness_row": {
+      "node": "T3.2",
+      "bin": "UNCHECKED",
+      "scope": "No holds/fails call manufactured for an untested main claim.",
+      "premises": [],
+      "receipt": [],
+      "denial_cost": null,
+      "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+      "canon_status": "open",
+      "conflicts": [
+        "v3/current-source/receipt content version mismatch is preserved in Q15; identifier agreement is not enough."
+      ],
+      "assessment_target": "No holds/fails call manufactured for an untested main claim.",
+      "main_statement": "Moral coherence is not reducible to thermal order; this does not itself identify outside input as Grace.",
+      "proposal_only": true,
+      "lead_summary": {},
+      "remaining_lead_ids": [],
+      "strength": "Conditional",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "T3.2::main"
+      },
+      "scope_warning": "Bin assesses the named target only; neither bundled claims nor domain identification inherit its proof. A written explanation is recorded as support at its source status."
+    },
+    "canon_rubric": {
+      "node": "T3.2",
+      "bin": "UNCHECKED",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "T3.2::main"
+      },
+      "criteria": {
+        "address": true,
+        "grade": false,
+        "receipt": false,
+        "ruling_authority": false,
+        "no_unresolved_conflict": false
+      },
+      "score": 1,
+      "meets_all_five": false,
+      "missing": [
+        "grade",
+        "receipt",
+        "ruling_authority",
+        "no_unresolved_conflict"
+      ],
+      "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+      "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+      "proposal_only": true
+    },
+    "leads": [],
+    "current_ruling": null,
+    "ruling_scope": "Existing disposition only; no new canon admission.",
+    "receipt_attachments": [],
+    "Q15_follow_up": []
+  }
+}

@@ -1,0 +1,1476 @@
+[
+  {
+    "file": "Grace001Consent.lean",
+    "theorem": "only_spirit_awakens",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "Grace001Consent.lean",
+    "theorem": "awakening_not_alignment",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "Grace001Consent.lean",
+    "theorem": "only_person_responds",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "Grace001Consent.lean",
+    "theorem": "dead_cannot_respond",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "Grace001Consent.lean",
+    "theorem": "both_responses_permitted",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "Grace001Consent.lean",
+    "theorem": "refusal_blocks_restoration",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "Grace001Consent.lean",
+    "theorem": "response_then_restoration",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "Grace001Consent.lean",
+    "theorem": "no_restoration_before_response",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "Grace001Consent.lean",
+    "theorem": "all_steps_preserve_record",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "Grace001Consent.lean",
+    "theorem": "all_steps_preserve_identity",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "FreeChoice.lean",
+    "theorem": "both_permitted",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "FreeChoice.lean",
+    "theorem": "dead_not_permitted",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "FreeChoice.lean",
+    "theorem": "other_not_authorized",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "FreeChoice.lean",
+    "theorem": "distinct_responses",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "FreeChoice.lean",
+    "theorem": "response_preserves_record",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "FreeChoice.lean",
+    "theorem": "response_preserves_identity",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "FreeChoice.lean",
+    "theorem": "sigma_binary",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "FreeChoice.lean",
+    "theorem": "permissions_do_not_force_two_realizations",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "FreeChoice.lean",
+    "theorem": "alternatives_require_premise",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "BinaryReset.lean",
+    "theorem": "idempotent",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "BinaryReset.lean",
+    "theorem": "mass_preserved",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "BinaryReset.lean",
+    "theorem": "disabled_identity",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "BinaryReset.lean",
+    "theorem": "gated_idempotent",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "BinaryReset.lean",
+    "theorem": "noninjective",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "Justification.lean",
+    "theorem": "idempotent",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "Justification.lean",
+    "theorem": "gated",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "Justification.lean",
+    "theorem": "requires_paid_cost",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "Justification.lean",
+    "theorem": "declares",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "Justification.lean",
+    "theorem": "preserves_record",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "Justification.lean",
+    "theorem": "preserves_identity",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "Justification.lean",
+    "theorem": "not_sanctification_growth",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "JustificationReset.lean",
+    "theorem": "intertwining",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "JustificationReset.lean",
+    "theorem": "decode_encode",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "JustificationReset.lean",
+    "theorem": "encode_decode_pure",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "JustificationReset.lean",
+    "theorem": "bare_reset_breaks_gate",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "JustificationReset.lean",
+    "theorem": "inverse_intertwining_on_pure",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "Law10Coherence.lean",
+    "theorem": "product_zero_if_XG_zero",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "Law10Coherence.lean",
+    "theorem": "product_zero_if_any_factor_zero",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "Law10Coherence.lean",
+    "theorem": "chi_zero_if_any_factor_zero",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "Law10Coherence.lean",
+    "theorem": "chi_commutes_with_product",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "Law10Coherence.lean",
+    "theorem": "bad_wrapper_loses_veto",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "BidirectionalContracts.lean",
+    "theorem": "awakening_iff_spirit",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "BidirectionalContracts.lean",
+    "theorem": "new_acceptance_iff",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "BidirectionalContracts.lean",
+    "theorem": "new_restoration_iff",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "BidirectionalContracts.lean",
+    "theorem": "unauthorized_restoration_is_identity",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "BidirectionalContracts.lean",
+    "theorem": "restored_flag_does_not_imply_current_acceptance",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "BidirectionalContracts.lean",
+    "theorem": "step_preserves_identity_record",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "BidirectionalContracts.lean",
+    "theorem": "every_finite_trace_preserves_identity_record",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "BidirectionalContracts.lean",
+    "theorem": "ordered_path_reaches_restoration",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "BidirectionalContracts.lean",
+    "theorem": "reversed_path_does_not",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "BidirectionalContracts.lean",
+    "theorem": "raw_free_choice_operator_can_bypass_permission",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "BidirectionalContracts.lean",
+    "theorem": "guarded_response_denies_dead",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "BidirectionalContracts.lean",
+    "theorem": "guarded_response_matches_permitted",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "BidirectionalContracts.lean",
+    "theorem": "newly_righteous_iff",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "BidirectionalContracts.lean",
+    "theorem": "righteousness_does_not_imply_current_gate",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "BidirectionalContracts.lean",
+    "theorem": "standing_projection_loses_identity",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "BidirectionalContracts.lean",
+    "theorem": "exact_inverse_on_standing",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "BidirectionalContracts.lean",
+    "theorem": "universal_zero_product_veto_iff",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "BidirectionalContracts.lean",
+    "theorem": "generator_invariance_iff_all_sequences",
+    "status": "PASS",
+    "scope_source": "Operator expansion: imported modules and new contracts",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "AdversarialAudit.lean",
+    "theorem": "third_party_satisfies_paid_and_released",
+    "status": "PASS",
+    "scope_source": "Earlier diagnostic and candidate results",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "AdversarialAudit.lean",
+    "theorem": "sign_two_is_legal",
+    "status": "PASS",
+    "scope_source": "Earlier diagnostic and candidate results",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "AdversarialAudit.lean",
+    "theorem": "sign_zero_is_legal",
+    "status": "PASS",
+    "scope_source": "Earlier diagnostic and candidate results",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "AdversarialAudit.lean",
+    "theorem": "internal_reset_counterexample",
+    "status": "PASS",
+    "scope_source": "Earlier diagnostic and candidate results",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "AdversarialAudit.lean",
+    "theorem": "grace_idempotent",
+    "status": "PASS",
+    "scope_source": "Earlier diagnostic and candidate results",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "AdversarialAudit.lean",
+    "theorem": "consent_gate_changes_result",
+    "status": "PASS",
+    "scope_source": "Earlier diagnostic and candidate results",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "AdversarialAudit.lean",
+    "theorem": "idempotent_with_left_inverse_is_identity",
+    "status": "PASS",
+    "scope_source": "Earlier diagnostic and candidate results",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "AdversarialAudit.lean",
+    "theorem": "zero_wrapper_passes_with_positive_product",
+    "status": "PASS",
+    "scope_source": "Earlier diagnostic and candidate results",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "AdversarialAudit.lean",
+    "theorem": "coherence_can_be_negative",
+    "status": "PASS",
+    "scope_source": "Earlier diagnostic and candidate results",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "AdversarialAudit.lean",
+    "theorem": "entropy_proxy_collision",
+    "status": "PASS",
+    "scope_source": "Earlier diagnostic and candidate results",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "AdversarialAudit.lean",
+    "theorem": "claimed_quantum_faith_iso_does_not_preserve_perturb",
+    "status": "PASS",
+    "scope_source": "Earlier diagnostic and candidate results",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "AdversarialAudit.lean",
+    "theorem": "rocket_grounded_assigned_unbound",
+    "status": "PASS",
+    "scope_source": "Earlier diagnostic and candidate results",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "AdversarialAudit.lean",
+    "theorem": "all_fruits_have_surplus_by_structure",
+    "status": "PASS",
+    "scope_source": "Earlier diagnostic and candidate results",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "AdversarialAudit.lean",
+    "theorem": "patience_target_is_heated",
+    "status": "PASS",
+    "scope_source": "Earlier diagnostic and candidate results",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "AdversarialAudit.lean",
+    "theorem": "patience_capacity_not_linked_to_absorb",
+    "status": "PASS",
+    "scope_source": "Earlier diagnostic and candidate results",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "AdversarialAudit.lean",
+    "theorem": "no_full_dynamics_quantum_faith_iso",
+    "status": "PASS",
+    "scope_source": "Earlier diagnostic and candidate results",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "AdversarialAudit.lean",
+    "theorem": "persistent_positive_cost_exceeds_any_finite_capacity",
+    "status": "PASS",
+    "scope_source": "Earlier diagnostic and candidate results",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "GraceNodeCandidate.lean",
+    "theorem": "response_before_awakening_stays_dormant",
+    "status": "PASS",
+    "scope_source": "Earlier diagnostic and candidate results",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "GraceNodeCandidate.lean",
+    "theorem": "no_consent_no_response",
+    "status": "PASS",
+    "scope_source": "Earlier diagnostic and candidate results",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "GraceNodeCandidate.lean",
+    "theorem": "awakened_response_restores",
+    "status": "PASS",
+    "scope_source": "Earlier diagnostic and candidate results",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "GraceNodeCandidate.lean",
+    "theorem": "awakening_idempotent",
+    "status": "PASS",
+    "scope_source": "Earlier diagnostic and candidate results",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "GraceNodeCandidate.lean",
+    "theorem": "response_idempotent",
+    "status": "PASS",
+    "scope_source": "Earlier diagnostic and candidate results",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "GraceNodeCandidate.lean",
+    "theorem": "awaken_preserves_identity_and_record",
+    "status": "PASS",
+    "scope_source": "Earlier diagnostic and candidate results",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "GraceNodeCandidate.lean",
+    "theorem": "respond_preserves_identity_and_record",
+    "status": "PASS",
+    "scope_source": "Earlier diagnostic and candidate results",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "GraceNodeCandidate.lean",
+    "theorem": "awakening_and_response_do_not_commute",
+    "status": "PASS",
+    "scope_source": "Earlier diagnostic and candidate results",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "GraceNodeCandidate.lean",
+    "theorem": "restored_state_reachable",
+    "status": "PASS",
+    "scope_source": "Earlier diagnostic and candidate results",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "GraceNodeCandidate.lean",
+    "theorem": "awakening_does_not_force_restoration",
+    "status": "PASS",
+    "scope_source": "Earlier diagnostic and candidate results",
+    "premises": "See exact theorem statement in the included evidence packet; this index does not broaden its scope."
+  },
+  {
+    "file": "BeatitudesOrder.lean",
+    "theorem": "contradiction_from_self_lt",
+    "source_line": 55,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "BeatitudesOrder.lean",
+    "theorem": "no_mono_extends_violation",
+    "source_line": 65,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "BeatitudesOrder.lean",
+    "theorem": "h3_reformed_8_not_mono_mourn_meek",
+    "source_line": 112,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "BeatitudesOrder.lean",
+    "theorem": "h3_reformed_8_not_mono_pure_peacemakers",
+    "source_line": 120,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "BeatitudesOrder.lean",
+    "theorem": "h3_reformed_8_no_mono_extension",
+    "source_line": 132,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "BeatitudesOrder.lean",
+    "theorem": "h3_reformed_9_not_mono",
+    "source_line": 139,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "BeatitudesOrder.lean",
+    "theorem": "h3_arminian_8_not_mono_mourn_meek",
+    "source_line": 176,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "BeatitudesOrder.lean",
+    "theorem": "h3_arminian_8_no_mono_extension",
+    "source_line": 188,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "BeatitudesOrder.lean",
+    "theorem": "h3_arminian_9_not_mono",
+    "source_line": 195,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "BeatitudesOrder.lean",
+    "theorem": "h4_rocket_8_not_mono_mourn_pure",
+    "source_line": 235,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "BeatitudesOrder.lean",
+    "theorem": "h4_rocket_8_not_mono_mourn_persecuted",
+    "source_line": 243,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "BeatitudesOrder.lean",
+    "theorem": "h4_rocket_8_no_mono_extension",
+    "source_line": 255,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "BeatitudesOrder.lean",
+    "theorem": "h4_rocket_9_not_mono",
+    "source_line": 262,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "BeatitudesOrder.lean",
+    "theorem": "h3_shuffled_8_not_mono",
+    "source_line": 287,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "BeatitudesOrder.lean",
+    "theorem": "equal_length_admits_some_mono",
+    "source_line": 302,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "BeatitudesOrder.lean",
+    "theorem": "no_mono_exists_reformed_8",
+    "source_line": 313,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "BeatitudesOrder.lean",
+    "theorem": "no_mono_exists_arminian_8",
+    "source_line": 317,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "BeatitudesOrder.lean",
+    "theorem": "no_mono_exists_rocket_8",
+    "source_line": 321,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "GravityAndGrace.lean",
+    "theorem": "Iso",
+    "source_line": 56,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "GravityAndGrace.lean",
+    "theorem": "gravity_isomorphic_to_grace",
+    "source_line": 113,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "GravityAndGrace.lean",
+    "theorem": "no_self_capture",
+    "source_line": 128,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "GravityAndGrace.lean",
+    "theorem": "hyperbolic_stays_hyperbolic",
+    "source_line": 148,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "GravityAndGrace.lean",
+    "theorem": "adversary_changes_energy_sign",
+    "source_line": 169,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "GravityAndGrace.lean",
+    "theorem": "capture_requires_third_body",
+    "source_line": 177,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "FruitFamilies.lean",
+    "theorem": "trivialInvolution",
+    "source_line": 73,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "FruitFamilies.lean",
+    "theorem": "trivialCanAlign",
+    "source_line": 76,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "FruitFamilies.lean",
+    "theorem": "trivialAbsorbsWithoutChange",
+    "source_line": 79,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "FruitFamilies.lean",
+    "theorem": "trivialIsMinimum",
+    "source_line": 82,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "FruitFamilies.lean",
+    "theorem": "trivialGain",
+    "source_line": 86,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "FruitFamilies.lean",
+    "theorem": "love_joy_not_iso",
+    "source_line": 377,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "FruitFamilies.lean",
+    "theorem": "peace_joy_not_iso",
+    "source_line": 388,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "FruitFamilies.lean",
+    "theorem": "joy_patience_not_iso",
+    "source_line": 404,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "FruitFamilies.lean",
+    "theorem": "patience_goodness_not_iso",
+    "source_line": 422,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "FruitFamilies.lean",
+    "theorem": "fruit_family_table",
+    "source_line": 438,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law2Motion.lean",
+    "theorem": "internal_transfer_preserves_momentum",
+    "source_line": 56,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law2Motion.lean",
+    "theorem": "internal_seq_preserves_momentum",
+    "source_line": 63,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law2Motion.lean",
+    "theorem": "external_force_changes_momentum",
+    "source_line": 77,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law2Motion.lean",
+    "theorem": "seq_preserves_momentum",
+    "source_line": 84,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law2Motion.lean",
+    "theorem": "trajectory_change_requires_external_force",
+    "source_line": 99,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law2Motion.lean",
+    "theorem": "drift_preserves_momentum",
+    "source_line": 111,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law2Motion.lean",
+    "theorem": "relabel_preserves_momentum",
+    "source_line": 119,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law2Motion.lean",
+    "theorem": "works_preserves_sign",
+    "source_line": 135,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law2Motion.lean",
+    "theorem": "grace_changes_sign",
+    "source_line": 137,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law2Motion.lean",
+    "theorem": "closed_works_cannot_flip",
+    "source_line": 144,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law3ElectromagnetismTruth.lean",
+    "theorem": "Iso",
+    "source_line": 64,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law3ElectromagnetismTruth.lean",
+    "theorem": "emWave_isomorphic_to_truthWave",
+    "source_line": 147,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law3ElectromagnetismTruth.lean",
+    "theorem": "emWave_always_arrives",
+    "source_line": 153,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law3ElectromagnetismTruth.lean",
+    "theorem": "no_acceptance_no_reception",
+    "source_line": 158,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law3ElectromagnetismTruth.lean",
+    "theorem": "acceptance_yields_reception",
+    "source_line": 163,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law3ElectromagnetismTruth.lean",
+    "theorem": "fake_not_iso_emWave",
+    "source_line": 187,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law1GeodesicAndRocket.lean",
+    "theorem": "Iso",
+    "source_line": 70,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law1GeodesicAndRocket.lean",
+    "theorem": "all_three_isomorphic",
+    "source_line": 144,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law1GeodesicAndRocket.lean",
+    "theorem": "fake_not_iso_grace",
+    "source_line": 168,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law1GeodesicAndRocket.lean",
+    "theorem": "fake_not_iso_rocket",
+    "source_line": 189,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law5JusticeMercy.lean",
+    "theorem": "justice_conserves",
+    "source_line": 81,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law5JusticeMercy.lean",
+    "theorem": "mercy_conserves",
+    "source_line": 84,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law5JusticeMercy.lean",
+    "theorem": "cross_conserves",
+    "source_line": 87,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law5JusticeMercy.lean",
+    "theorem": "justice_unique",
+    "source_line": 95,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law5JusticeMercy.lean",
+    "theorem": "mercy_unique",
+    "source_line": 105,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law5JusticeMercy.lean",
+    "theorem": "cross_unique",
+    "source_line": 118,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law5JusticeMercy.lean",
+    "theorem": "cross_maximizes_both",
+    "source_line": 134,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law5JusticeMercy.lean",
+    "theorem": "vengeance_not_conserved",
+    "source_line": 150,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law5JusticeMercy.lean",
+    "theorem": "enabling_not_conserved",
+    "source_line": 161,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law5JusticeMercy.lean",
+    "theorem": "not_cross_fails_condition",
+    "source_line": 173,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law6Information.lean",
+    "theorem": "information_iso_static_logos",
+    "source_line": 116,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law6Information.lean",
+    "theorem": "fake_not_iso_logos",
+    "source_line": 135,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law7QuantumFaith.lean",
+    "theorem": "Iso",
+    "source_line": 73,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law7QuantumFaith.lean",
+    "theorem": "quantum_isomorphic_to_faith",
+    "source_line": 163,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law7QuantumFaith.lean",
+    "theorem": "quantum_always_collapses",
+    "source_line": 170,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law7QuantumFaith.lean",
+    "theorem": "below_threshold_no_collapse",
+    "source_line": 175,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law7QuantumFaith.lean",
+    "theorem": "at_threshold_collapses",
+    "source_line": 182,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law7QuantumFaith.lean",
+    "theorem": "committed_is_after",
+    "source_line": 230,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law7QuantumFaith.lean",
+    "theorem": "unprotected_commitment_decoheres",
+    "source_line": 235,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law7QuantumFaith.lean",
+    "theorem": "armor_protects_commitment",
+    "source_line": 240,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law7QuantumFaith.lean",
+    "theorem": "armored_state_stable",
+    "source_line": 245,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law7QuantumFaith.lean",
+    "theorem": "fake_not_iso_quantum",
+    "source_line": 272,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law8Relativity.lean",
+    "theorem": "Iso",
+    "source_line": 58,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law8Relativity.lean",
+    "theorem": "relativity_iso_relationship",
+    "source_line": 128,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law8Relativity.lean",
+    "theorem": "no_consent_no_shared_time",
+    "source_line": 136,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law8Relativity.lean",
+    "theorem": "adversary_cannot_create_shared_time",
+    "source_line": 155,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law8Relativity.lean",
+    "theorem": "fake_not_iso_relativity",
+    "source_line": 198,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law9WeakForce.lean",
+    "theorem": "Iso",
+    "source_line": 62,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law9WeakForce.lean",
+    "theorem": "weakForce_isomorphic_to_sinDecay",
+    "source_line": 146,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law9WeakForce.lean",
+    "theorem": "zero_will_blocks_decay",
+    "source_line": 152,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law9WeakForce.lean",
+    "theorem": "positive_will_allows_decay",
+    "source_line": 160,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law9WeakForce.lean",
+    "theorem": "weakForce_irreversible",
+    "source_line": 169,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law9WeakForce.lean",
+    "theorem": "sinDecay_irreversible",
+    "source_line": 174,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law9WeakForce.lean",
+    "theorem": "weakForce_record_nondecreasing",
+    "source_line": 185,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law9WeakForce.lean",
+    "theorem": "sinDecay_record_nondecreasing",
+    "source_line": 190,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law9WeakForce.lean",
+    "theorem": "fake_not_irreversible",
+    "source_line": 210,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Law9WeakForce.lean",
+    "theorem": "fake_not_iso_weakForce",
+    "source_line": 216,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "ThreeAgents.lean",
+    "theorem": "sign_preserved_by_seq",
+    "source_line": 42,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "ThreeAgents.lean",
+    "theorem": "works_and_adversary_cannot_restore",
+    "source_line": 65,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "ThreeAgents.lean",
+    "theorem": "grace_flips_with_consent",
+    "source_line": 83,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "ThreeAgents.lean",
+    "theorem": "no_consent_no_restoration",
+    "source_line": 88,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "ThreeAgents.lean",
+    "theorem": "adversary_can_block_by_closing_consent",
+    "source_line": 94,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Wall.lean",
+    "theorem": "invariant_preserved",
+    "source_line": 23,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Wall.lean",
+    "theorem": "change_requires_outside_op",
+    "source_line": 35,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Wall.lean",
+    "theorem": "grace_preserves_identity",
+    "source_line": 50,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Wall.lean",
+    "theorem": "grace_restores",
+    "source_line": 52,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Wall.lean",
+    "theorem": "works_cannot_flip",
+    "source_line": 57,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Wall.lean",
+    "theorem": "flip_requires_non_self_op",
+    "source_line": 64,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Wall.lean",
+    "theorem": "grace_is_outside_the_family",
+    "source_line": 69,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Wall.lean",
+    "theorem": "no_restoration_without_consent",
+    "source_line": 78,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Wall.lean",
+    "theorem": "restoration_with_consent",
+    "source_line": 81,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Wall.lean",
+    "theorem": "restore_preserves_identity",
+    "source_line": 84,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "Wall.lean",
+    "theorem": "coherence_nonincrease",
+    "source_line": 91,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "LawToLaw.lean",
+    "theorem": "four_laws_share_one_shape",
+    "source_line": 201,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  },
+  {
+    "file": "LawToLaw.lean",
+    "theorem": "person_pattern_not_law_pattern",
+    "source_line": 218,
+    "status": "PASS",
+    "scope_source": "Existing module from first audit",
+    "premises": "See the exact source theorem statement and namespace in the first evidence packet."
+  }
+]

@@ -1,0 +1,72 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "A2.2",
+ "claim_id": "A2.2",
+ "type": "CLAIM",
+ "text": "There must be a self-grounding/self-instantiating fundamental ground that terminates any infinite regress of dependence.",
+ "source": {
+  "file": "source/nodes/A2.2.yaml",
+  "quote": "There must be a self-grounding/self-instantiating fundamental ground that terminates any infinite regress of dependence.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 0,
+  "claim_role": "assumption",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "admitted",
+  "warrant_premise": "Physical premise: the self-grounding substrate is a real scalar field χ(x,t) pervading spacetime.; Mathematical premise: the Master Equation χ = ∫(G · K) dΩ correctly describes χ.; Information-ontology premise: χ carries semantic content and all bits derive from χ.; Empirical premises: fine-tuning data, anthropic ranges, low-entropy initial condition, and the stated probability estimates.; Modal premise: the χ-field exists necessarily in all possible worlds and is identical to God.; Topological premise: the grounding relation admits a fixed-point theorem application.; Interpretive premise: Gödel's theorem constrains physical self-grounding in the way claimed.",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/A2.2.yaml#A2.2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "Holds as an expressly adopted premise, not established as an empirical or premise-free theorem."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.1",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "A2.2",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "Physical premise: the self-grounding substrate is a real scalar field χ(x,t) pervading spacetime.",
+  "Mathematical premise: the Master Equation χ = ∫(G · K) dΩ correctly describes χ.",
+  "Information-ontology premise: χ carries semantic content and all bits derive from χ.",
+  "Empirical premises: fine-tuning data, anthropic ranges, low-entropy initial condition, and the stated probability estimates.",
+  "Modal premise: the χ-field exists necessarily in all possible worlds and is identical to God.",
+  "Topological premise: the grounding relation admits a fixed-point theorem application.",
+  "Interpretive premise: Gödel's theorem constrains physical self-grounding in the way claimed."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "A2.2/Q15/0012",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The core terminates at A0's self-existent necessary ground. The record fails when it identifies that ground with the Logos Field χ(x,t) and then asserts scalar-field, master-equation, semantic, fine-tuning, entropy, and empirical properties without entailment."
+  },
+  {
+   "id": "A2.2/Q15/0260",
+   "kind": "definitional conflict",
+   "status": "FATAL",
+   "scope": "naive merged-premise union asserted acyclic",
+   "reason": "Folding LN2.1 into A2.1 and unioning its v3 A2.2 premise creates A2.1 -> A2.2 -> A2.1. This is not an acyclic derivation and cannot serve as independent proof."
+  },
+  {
+   "id": "A2.2/Q15/0261",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "claim-scoped merge representation",
+   "reason": "Keep the incoming LN2.1 claim and its A2.2 premise separate from the survivor A2.1 primary definition/support. Do not delete the premise or upgrade its warrant."
+  }
+ ],
+ "denial_cost": "Well-founded/self-grounded explanatory termination is no longer guaranteed; field/coherence/compression applications that use this stance need new support.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

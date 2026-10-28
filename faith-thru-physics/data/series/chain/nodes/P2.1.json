@@ -1,0 +1,48 @@
+{
+ "id": "P2.1",
+ "title": "P2.1 Chi Ontological Priority",
+ "lifecycle": "property",
+ "tier": 3,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [
+  "A2.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "P2.1/Q15/0016",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At inferring a specific χ-to-spacetime priority/emergence relation from the general Creator-creature analogy; P-IMAGO licenses analogy only, not cosmological structure."
+  }
+ ],
+ "ports": [],
+ "main": "P2.1",
+ "claims": [
+  "P2.1",
+  "P2.1::split-01",
+  "P2.1::split-02",
+  "P2.1::split-03",
+  "P2.1::split-04",
+  "P2.1::split-05",
+  "P2.1::split-06",
+  "P2.1::split-07",
+  "P2.1::split-08"
+ ],
+ "source": "source/nodes/P2.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

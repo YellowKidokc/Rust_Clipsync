@@ -1,0 +1,66 @@
+{
+ "id": "A14.1",
+ "title": "A14.1 Dynamic Dark Energy",
+ "lifecycle": "merged",
+ "tier": 12,
+ "context_parent": "A0",
+ "merged_into": "E14.1",
+ "proposal_only": true,
+ "mode": "HY_EVIDENCE",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "A14.1/Q15/0133",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "duplicate node identity",
+   "reason": "David merged the source into E14.1; retain its claim and provenance at that destination. Warrant is not upgraded."
+  },
+  {
+   "id": "A14.1/Q15/0134",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the move from general creaturely reflection/order to a particular dark-energy model: A0 + P-IMAGO do not specify χ, V(χ), the Friedmann equation, an equation of state, or the Logos Field identification."
+  },
+  {
+   "id": "A14.1/Q15/Z3-result-00",
+   "kind": "type mismatch",
+   "status": "OPEN",
+   "scope": "Verification process; no domain verdict: Non-static chi-field dark energy under chi-modified Friedmann dynamics.",
+   "reason": "Z3Exception: Z3 sort expected Faithfulness to the intended domain is a separate obligation."
+  }
+ ],
+ "ports": [],
+ "main": "A14.1",
+ "claims": [
+  "A14.1",
+  "A14.1::split-01",
+  "A14.1::split-02",
+  "A14.1::split-03",
+  "A14.1::split-04",
+  "A14.1::split-05",
+  "A14.1::split-06",
+  "A14.1::split-07",
+  "A14.1::split-08",
+  "A14.1::split-09",
+  "A14.1::split-10",
+  "A14.1::split-11",
+  "A14.1::split-12"
+ ],
+ "source": "source/nodes/A14.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

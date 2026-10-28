@@ -1,0 +1,77 @@
+{
+ "id": "T16.1",
+ "title": "T16.1 Christianity 9/9 BCs",
+ "lifecycle": "merged",
+ "tier": 14,
+ "context_parent": "A0",
+ "merged_into": "FINAL-3",
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC1",
+  "BC2",
+  "BC3",
+  "BC4a",
+  "BC5",
+  "BC6",
+  "BC7",
+  "BC8",
+  "BC9"
+ ],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim cannot be encoded faithfully in Z3 from the file as given. The key predicates 'worldview', 'Christianity', 'satisfies BCn', 'external grace', 'measurement orthogonality', 'trinity structure', 'voluntary coupling', etc., are not formally defined. The BC equations use undefined theological/physical quantities (e.g., Phi, grace G(t), observer count, soul information), and the uniqueness claim ranges over all possible worldviews, not a finite enumerated domain. Checking only the provi",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "T16.1/Q15/0157",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "duplicate node identity",
+   "reason": "David merged the source into FINAL-3; retain its claim and provenance at that destination. Warrant is not upgraded."
+  },
+  {
+   "id": "T16.1/Q15/0158",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the move from P-IMAGO's analogical reflection to the specific eight-equation boundary-condition system and comparative uniqueness matrix; P-IMAGO explicitly does not license physical laws, equations, numbers, or empirical findings."
+  },
+  {
+   "id": "T16.1/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Uniqueness of Christianity as the sole worldview satisfying all eight boundary conditions.",
+   "reason": "The main claim cannot be encoded faithfully in Z3 from the file as given. The key predicates 'worldview', 'Christianity', 'satisfies BCn', 'external grace', 'measurement orthogonality', 'trinity structure', 'voluntary coupling', etc., are not formally defined. The BC equations use undefined theological/physical quantities (e.g., Phi, grace G(t), observer count, soul information), and the uniqueness claim ranges over all possible worldviews, not a finite enumerated domain. Checking only the provided YES/NO table over listed religions would be an easier side calculation and would not establish the stated uniqueness theorem."
+  }
+ ],
+ "ports": [],
+ "main": "T16.1",
+ "claims": [
+  "T16.1",
+  "T16.1::split-01",
+  "T16.1::split-02",
+  "T16.1::split-03",
+  "T16.1::split-04",
+  "T16.1::split-05",
+  "T16.1::split-06",
+  "T16.1::split-07",
+  "T16.1::split-08",
+  "T16.1::split-09",
+  "T16.1::split-10",
+  "T16.1::split-11",
+  "T16.1::split-12",
+  "T16.1::split-13",
+  "T16.1::split-14",
+  "T16.1::split-15"
+ ],
+ "source": "source/nodes/T16.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

@@ -1,0 +1,34 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "BINARY-RESET-001",
+ "claim_id": "BINARY-RESET-001::native-2",
+ "type": "CLAIM",
+ "text": "Exact theorem signature in BinaryReset.lean.",
+ "source": {
+  "file": "source/nodes/BINARY-RESET-001.yaml",
+  "quote": "Exact theorem signature in BinaryReset.lean.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "theorem",
+  "register": "formal"
+ },
+ "grade": {
+  "match_scope": "states_only",
+  "warrant": "proved",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/BINARY-RESET-001.yaml#BINARY-RESET-001::native-2 (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "BINARY-RESET-001",
+ "is_main": false,
+ "strength": "Structure",
+ "obstructions": [],
+ "generated_by": "proposed finer classification; no vocabulary change applied"
+}

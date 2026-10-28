@@ -1,0 +1,875 @@
+[
+  {
+    "source_file": "005_D1.2_Bit-Definition.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "D1.2"
+    ],
+    "current_bins": {
+      "D1.2": "UNCHECKED"
+    },
+    "obstruction": "The file's main claim is a definition/conceptual identification ('bit' as fundamental unit, universal across domains, physically real, quantum-equivalent) rather than a precise mathematical theorem with premises and a conclusion. Encoding only 1 bit = log2(2) = 1 or the entropy drop for two equiprobable states would check a trivial/side mathematical instance, not the main claim. The universality and fundamentality clauses cannot be stated faithfully in Z3 without adding unstated assumptions.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "006_LN1.1_Matter-Energy-Derivative.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "LN1.1"
+    ],
+    "current_bins": {
+      "LN1.1": "UNCHECKED"
+    },
+    "obstruction": "The main claim is a metaphysical/ontological priority claim using undefined notions such as 'primitive', 'derivative', 'ground', and 'prior'. The file gives quantitative support via the Bekenstein bound and Landauer principle, but those do not formalize the priority relation and are not the main claim. Encoding the claim as arbitrary Boolean predicates would be trivial and not a faithful mathematical check.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "008_A2.1_Substrate-Requirement.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "A2.1"
+    ],
+    "current_bins": {
+      "A2.1": "ADMITTED"
+    },
+    "obstruction": "The main claim relies on undefined metaphysical terms ('information', 'substrate', 'instantiation', 'exists'). The file gives only a schematic formalization using predicates with no precise domain, definitions, or testable mathematical content. Encoding it with uninterpreted predicates would not constitute a meaningful Z3 check; it would merely restate the axiom.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "010_D2.1_Logos-Field-Definition.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "D2.1"
+    ],
+    "current_bins": {
+      "D2.1": "UNCHECKED"
+    },
+    "obstruction": "The main statement is definitional and depends on undefined theological/physical terms (divine ordering principle, coherence, grounding, manifestation, etc.), an unspecified causal spacetime integration domain, and unformalized variables G through C. A z3 encoding would either check a trivial satisfiability of an arbitrary nonnegative function or a side property such as nonnegativity of a product, neither of which is the file's main claim.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "011_D2.2_Chi-Field-Properties.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "D2.2"
+    ],
+    "current_bins": {
+      "D2.2": "UNCHECKED"
+    },
+    "obstruction": "Not checkable faithfully in Z3 because the main claim is a definition/postulate involving universal quantification over all of R^4, topological/analytic regularity such as C² except on a singularity set and L¹ integrability, plus informal notions of scalar/frame-independence and singularity. A finite SMT encoding would only check a trivial finite sample or satisfiability of χ ≥ 0, not the actual main claim.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "015_LN2.1_Information-Anchor-Necessity.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "LN2.1"
+    ],
+    "current_bins": {
+      "LN2.1": "UNCHECKED"
+    },
+    "obstruction": "The main claim cannot be encoded faithfully in Z3 from the file as stated. Key terms such as 'information', 'ontological ground', 'coherence', 'self-grounding', 'depends on', 'Logos', and 'arbitrary brute fact' are metaphysical and lack precise formal definitions. A finite Boolean dependency model would either trivialize the claim or require adding unstated assumptions and would therefore not check the file's actual claim.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "016_A3.1_Order-Requirement.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "A3.1"
+    ],
+    "current_bins": {
+      "A3.1": "UNCHECKED"
+    },
+    "obstruction": "Not checkable as stated. The main claim uses undefined semantic terms ('meaning', 'semantic content', 'organized', 'random', 'code') with no precise formal domains or definitions. The formal lines are not a self-contained theorem: Kolmogorov complexity depends on an unspecified universal Turing machine, and the claim '∃ code C : S_organized iff |C| < |S_random|' is type-ambiguous. Encoding it would require inventing predicates/definitions not in the file, which would violate the instruction not to add premises.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "018_D3.1_Coherence-Functional-Definition.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "D3.1"
+    ],
+    "current_bins": {
+      "D3.1": "UNCHECKED"
+    },
+    "obstruction": "The file is a definition rather than a precise theorem, and it presents several non-formally-specified candidate formulas (KL divergence, Tononi Φ, spectral power law, inverse relations to K and Gibbs entropy) without a common domain, normalization, measure, partition model, or proof of equivalence. Encoding any one formula would substitute an easier side claim, while encoding their equivalence would require assumptions not stated. Hence the main definitional claim is not checkable as a premises-to-conclusion Z3 implication.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "019_D3.2_Self-Interaction-Potential.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "D3.2"
+    ],
+    "current_bins": {
+      "D3.2": "UNCHECKED"
+    },
+    "obstruction": "The file is explicitly a Definition. Its title and Statement section introduce V(χ) as the self-interaction potential and interpret it as determining equilibrium attractors, but this is not stated as a precise truth-valued theorem. The core equations give illustrative polynomial/Mexican-hat forms and minima, but they contain sign-convention ambiguity (μ² positive vs negative) and the broader claim that V determines coherence equilibrium requires unformalized dynamics and coherence definitions. Encoding only a Mexican-hat minimum calculation would substitute a side calculation for the main definitional/interpretive claim.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "020_D3.3_Interaction-Lagrangian.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "D3.3"
+    ],
+    "current_bins": {
+      "D3.3": "UNCHECKED"
+    },
+    "obstruction": "The main statement is a definitional/conceptual assertion rather than a theorem with checkable premises and conclusion. The file gives multiple non-identical schematic formulas (minimal Yukawa form, extended all-orders form, and Lowe Coherence Lagrangian) and uses unformalized notions such as 'Logos field', 'meaning', and 'all fundamental fields'. Encoding any one equation would either be a tautological definition or would substitute a side formula for the main claim.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "027_A4.1_Parsimony.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "A4.1"
+    ],
+    "current_bins": {
+      "A4.1": "UNCHECKED"
+    },
+    "obstruction": "The main claim is metaphysical and interpretive. It lacks a precise formal predicate for 'nature prefers', a defined set of alternative descriptions, and criteria for minimality over physical laws or worlds. Encoding it in Z3 would require adding unstated semantics, so it is not faithfully checkable as stated.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "039_D5.3_Witness-Field-Operator.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "D5.3"
+    ],
+    "current_bins": {
+      "D5.3": "UNCHECKED"
+    },
+    "obstruction": "The main claim is a definition rather than a precise mathematical proposition. The file does not define the state spaces H or H_actualized, the notion of 'potential' vs 'actual', or any properties of Φ̂ beyond being an operator between them. Encoding this would require adding unstated mathematical assumptions, so the claim is not checkable as stated.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "046_A6.2_Collapse.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "A6.2"
+    ],
+    "current_bins": {
+      "A6.2": "UNCHECKED"
+    },
+    "obstruction": "The main claim is a metaphysical/framework-commitment postulate. The file does not provide a precise formal semantics for 'observation induces transition' or a complete measurement/collapse dynamics sufficient to encode it in Z3 without adding unstated assumptions. Encoding it as an abstract transition relation would either assume the conclusion or model an arbitrary convention. The mathematical side results in the file (projection idempotence, non-unitarity, Landauer cost, etc.) are not the main claim and were not substituted.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "048_D6.1_Collapse-Rate-Gamma.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "D6.1"
+    ],
+    "current_bins": {
+      "D6.1": "UNCHECKED"
+    },
+    "obstruction": "The file is a definition/relabeling rather than a mathematical theorem with specified domains, transition dynamics, or measurable quantities. Encoding it as an unconstrained equality between two Real variables would not faithfully test the intended definition; it would only restate the definitional identity. Hence the main claim is not precisely checkable from the file as given.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "055_LN6.1_Terminal-Observer-Necessity.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "LN6.1"
+    ],
+    "current_bins": {
+      "LN6.1": "UNCHECKED"
+    },
+    "obstruction": "The claim is not sufficiently formalized to encode: it depends on undefined framework terms such as 'measurement-chain closure', 'non-regressive terminal observer condition', and the ideal-limit bridge assumption 'Φ → ∞'. Encoding any of these would require adding substantive definitions or assumptions not stated in the file.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "061_BC4_Three-Observers-Required.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "BC4a",
+      "BC4b"
+    ],
+    "current_bins": {
+      "BC4a": "ADMITTED",
+      "BC4b": "UNCHECKED"
+    },
+    "obstruction": "Not Z3-checkable as stated: key terms such as 'observer-state', 'self-referential observation closure', 'minimal closure model', 'adjudication', and 'reduces to N=3 basis' are not given a precise mathematical definition. The file explicitly says a proof sketch is required and defers the full proof, so encoding would require inventing an unstated graph/closure predicate, which would trivialize or beg the claim. I did not substitute easier side claims about the Born Rule or Gleason dimension constraints.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "064_BC7_Information-Conservation.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "BC7"
+    ],
+    "current_bins": {
+      "BC7": "UNCHECKED"
+    },
+    "obstruction": "The file lists several mathematical analogies (unitary evolution, Liouville theorem, conserved soul number N_S, category-theoretic isomorphism), but the title/statement claim is broader than any one of these. Encoding only unitarity or a conserved integer N_S would be an impermissible substitution of an easier side calculation for the main claim, which quantifies over 'all transformations' and invokes underdefined soul information.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "067_A8.1_Binary-Distinction.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "A8.1"
+    ],
+    "current_bins": {
+      "A8.1": "UNCHECKED"
+    },
+    "obstruction": "This is not checkable as a mathematical entailment in Z3 without restating the conclusion as a premise or assuming the desired binary domain outright. The file itself notes the binary claim depends on a modeling choice and requires defense, so the main claim is an axiomatic stipulation rather than a derivable theorem.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "082_A10.1_Consciousness-Substrate.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "A10.1"
+    ],
+    "current_bins": {
+      "A10.1": "UNCHECKED"
+    },
+    "obstruction": "The file's main claim is a metaphysical/axiomatic sentence. Although the file later gives informal physical analogies and formal definitions of a soul-field as a localized chi-field excitation with integrated information Phi > 0, it does not give a precise formal criterion for 'individual consciousness', 'requires', or a formally stated implication from consciousness to localized field structure. Encoding it with uninterpreted predicates would only test an arbitrary abstraction, not the file's actual claim.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "083_A10.2_Soul-Conservation.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "A10.2"
+    ],
+    "current_bins": {
+      "A10.2": "UNCHECKED"
+    },
+    "obstruction": "The main claim is not stated precisely enough for Z3. 'Soul-stuff', 'soul-field', 'chi-field', and 'metaphysical processes' are undefined, and the mathematical layer relies on continuum QFT, Noether's theorem, 3-space integrals, and infinite-dimensional unitary evolution. A finite discrete continuity model would only check a simplified side lemma, not the main axiom.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "084_D10.1_Soul-Field-Psi_S.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "D10.1"
+    ],
+    "current_bins": {
+      "D10.1": "UNCHECKED"
+    },
+    "obstruction": "The file's main claim is a definitional identification, not a proposition with premises entailing a conclusion. The formal Statement relies on undefined/conceptual terms such as 'carrying individual consciousness', 'individuality', and configuration of the χ-field; the consciousness criterion and threshold are not fully formalized in this file. Encoding it in Z3 would require adding unstated semantics or reducing it to a trivial existence/type declaration, so the main claim cannot be faithfully checked as a mathematical implication here.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "089_A11.2_Coherence-Morality-Identity.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "A11.2"
+    ],
+    "current_bins": {
+      "A11.2": "UNCHECKED"
+    },
+    "obstruction": "Not encoded: the main claim is an asserted identity/axiom between moral predicates and a coherence quantity. The file does not give a formal semantics for 'good', 'evil', or 'destruction' independent of the identity itself, and the proposed 'exceptionless explanatory correlation = identity' step is not a formal logical inference. Encoding it as Good(a) iff coherence increases would merely restate the conclusion.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "097_E12.1_Destiny-Equation.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "E12.1"
+    ],
+    "current_bins": {
+      "E12.1": "UNCHECKED"
+    },
+    "obstruction": "The main claim is analytic: it involves a differential equation, its flow/solution, and an infinite-time limit. z3-solver does not support differential operators, solution existence/uniqueness, or limits, so a faithful Z3 encoding cannot be given. Encoding only algebraic sign or fixed-point facts would be a side calculation rather than the main claim.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "098_T12.1_Heaven-As-High-Phi-Attractor.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "T12.1"
+    ],
+    "current_bins": {
+      "T12.1": "UNCHECKED"
+    },
+    "obstruction": "The main claim is a continuous-time ODE asymptotic-stability statement involving limits, trajectories, and attractor semantics. Z3 can encode algebraic sign conditions or finite approximations, but faithfully encoding the actual limit/attractor theorem would require real analysis and trajectory semantics not available in the requested z3-solver setup. Checking only the derivative sign or Lyapunov algebra identity would be an easier side calculation, not the main asymptotic claim.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "099_T12.2_Hell-As-Low-Phi-Attractor.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "T12.2"
+    ],
+    "current_bins": {
+      "T12.2": "UNCHECKED"
+    },
+    "obstruction": "A faithful Z3 encoding would require continuous-time differential equations, differentiability/continuity of Gamma and D, limits as t tends to infinity, and Lyapunov/asymptotic stability over a real phase space. Z3/SMT cannot natively express these analytic notions. A finite-state or finite-step discretization would replace asymptotic convergence with eventual finite reachability, which is a different claim, so the main theorem is marked non-checkable rather than encoding an unfaithful simplified version.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "100_A13.1_Chi-Mediates-Unification.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "A13.1"
+    ],
+    "current_bins": {
+      "A13.1": "UNCHECKED"
+    },
+    "obstruction": "The central claim is not a precise mathematical proposition in the file. Terms such as 'fundamental theory', 'must', 'unifies', 'gravity', 'quantum mechanics', 'chi-field', 'mediates', 'emerges in the classical/microscopic limit', and 'information substrate' lack formal definitions or axiomatization. Encoding them in Z3 would require inventing unstated semantics and assumptions, so the main claim cannot be faithfully checked as a mathematical component here.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "101_A13.2_Geometry-From-Information.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "A13.2"
+    ],
+    "current_bins": {
+      "A13.2": "UNCHECKED"
+    },
+    "obstruction": "The main claim is too schematic to encode faithfully. The file does not provide a precise mapping from chi-field information or entanglement data to a spacetime metric, does not define the functional F in g_{\\mu\\nu}=F[g^{Fisher}_{ij}(\\chi)], and the equation g_{\\mu\\nu} <- \\chi is not a formal mathematical statement. Encoding it in Z3 would require adding arbitrary definitions or presupposing the conclusion, so a meaningful check is not possible.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "102_D13.1_Unified-Field-Lagrangian.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "D13.1"
+    ],
+    "current_bins": {
+      "D13.1": "UNCHECKED"
+    },
+    "obstruction": "The file's main formal statement is a physical definition with units and an order-of-magnitude empirical estimate, not a precise mathematical theorem. Encoding only the dimension exponents or the numerical approximation in Z3 would be a side calculation rather than a faithful check of the main claim. The derivation also relies on observational/empirical assumptions and is internally revised in the text, so the statement cannot be faithfully encoded without adding unstated assumptions.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "103_E13.1_GR-QM-Bridge-Equation.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "E13.1"
+    ],
+    "current_bins": {
+      "E13.1": "UNCHECKED"
+    },
+    "obstruction": "The file's main claim is a proposed tensor field equation/definition derived informally from a variational principle over a Lagrangian on a differentiable manifold. Faithfully encoding it would require formalizing Lorentzian geometry, tensor fields, covariant derivatives, the variational derivation, and the component definitions. Encoding only real-valued tensor components at an abstract point would turn the claimed field equation into an arbitrary scalar equality with no nontrivial premises, i.e. it would restate the conclusion rather than check it. Therefore the main claim is not checkable as a Z3 entailment without adding the equation itself as a premise or substituting an easier component calculation.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "104_T13.1_Dark-Energy-As-Chi-Potential.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "T13.1"
+    ],
+    "current_bins": {
+      "T13.1": "UNCHECKED"
+    },
+    "obstruction": "The main claim is not a single precise mathematical theorem suitable for a faithful Z3 encoding. It is primarily a physical identification, and the file itself alternates between incompatible formulas and admits sign-convention confusion. Encoding any one formula would require choosing definitions or corrections not consistently stated in the source.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "106_A14.2_Grace-Cosmology.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "A14.2"
+    ],
+    "current_bins": {
+      "A14.2": "UNCHECKED"
+    },
+    "obstruction": "The file states a provisional qualitative hypothesis, Lambda = Lambda(Psi_collective), with no precise domain, functional form, units, or empirical constraints. A Z3 encoding would either be vacuous, since an arbitrary function can always be posited, or would require unstated assumptions. Therefore the main claim cannot be faithfully encoded as a checkable mathematical component.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "107_D14.1_Cosmological-Grace-Function.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "D14.1"
+    ],
+    "current_bins": {
+      "D14.1": "UNCHECKED"
+    },
+    "obstruction": "The file's main statement is a definition/stipulation and a semantic replacement rule for Λ in the Friedmann equations, not a derivable mathematical proposition. It also gives several alternative forms (general factorized form, multiple f and g choices, canonical tanh form) without a single precise theorem to prove. Encoding the defining equation as a conclusion with no premises would be tautological, while encoding it as a premise would violate the rule against assuming the conclusion.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "114_T16.1_Christianity-8-of-8-BCs.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "T16.1"
+    ],
+    "current_bins": {
+      "T16.1": "UNCHECKED"
+    },
+    "obstruction": "The main claim cannot be encoded faithfully in Z3 from the file as given. The key predicates 'worldview', 'Christianity', 'satisfies BCn', 'external grace', 'measurement orthogonality', 'trinity structure', 'voluntary coupling', etc., are not formally defined. The BC equations use undefined theological/physical quantities (e.g., Phi, grace G(t), observer count, soul information), and the uniqueness claim ranges over all possible worldviews, not a finite enumerated domain. Checking only the provided YES/NO table over listed religions would be an easier side calculation and would not establish the stated uniqueness theorem.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "118_T16.5_Hinduism-Fails-BC-Uniqueness.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "T16.5"
+    ],
+    "current_bins": {
+      "T16.5": "UNCHECKED"
+    },
+    "obstruction": "Not checkable in Z3: the file does not formally define 'Hinduism' as a set of structures, the BC predicates, what it means for a path or school to satisfy all BCs, or the selection/uniqueness mechanism. The 'Mathematical Layer' uses undefined predicates such as BC_i(H_i) and |{H_i: BC(H_i)}| and its proof does not rigorously entail the conclusion. Encoding would require inventing a formalization not stated in the file.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "119_T16.6_Atheism-Fails-BC1-BC6.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "T16.6"
+    ],
+    "current_bins": {
+      "T16.6": "UNCHECKED"
+    },
+    "obstruction": "The main claim cannot be encoded faithfully from this file alone because BC1–BC8 are not formally defined here, and the inference depends on disputed metaphysical and empirical premises (naturalism, causal closure, heat death, infinite Phi, soul persistence) that would need explicit formalization not supplied by the file. The file also treats BC5 as 'QUESTIONABLE' rather than conclusively failed, creating an internal tension with the theorem's blanket claim.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "120_A17.1_Phi-Threshold-For-Consciousness.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "A17.1"
+    ],
+    "current_bins": {
+      "A17.1": "UNCHECKED"
+    },
+    "obstruction": "The file's main claims are metaphysical/empirical hypotheses. Terms such as 'consciousness', 'information processing', and 'meaningful distinction' are not given precise, checkable definitions. The formal supervenience notation uses undefined maps and equivalence relations. The Φ threshold is explicitly empirical, and the proof of threshold existence relies on informal steps. No precise mathematical theorem with stated premises can be faithfully extracted.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "135_A19.1_Master-Equation-Integration.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "A19.1"
+    ],
+    "current_bins": {
+      "A19.1": "UNCHECKED"
+    },
+    "obstruction": "The file states a hypothesis and gives a defining expression, but it does not provide a precise mathematical criterion for 'integration,' 'unified framework,' or any theorem to prove. Encoding the formula alone would only restate a definition, not check a substantive entailment.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "136_D19.1_Law-I-Definition.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "D19.1"
+    ],
+    "current_bins": {
+      "D19.1": "UNCHECKED"
+    },
+    "obstruction": "The main Statement is a definition/identification plus a broad physical variational claim, not a bounded arithmetic or SMT theorem. Encoding it faithfully would require calculus of variations, differentiability, an action functional, and the physical assertion that this Lagrangian governs all dynamics; these are not formalized in the file in a way suitable for Z3.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "137_D19.2_Law-II-Definition.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "D19.2"
+    ],
+    "current_bins": {
+      "D19.2": "UNCHECKED"
+    },
+    "obstruction": "The main claim cannot be encoded faithfully as a precise Z3 theorem. It mixes a definition (S = R^10) with broad metaphysical assertions of completeness, irreducibility, and independence over unspecified 'all theophysical phenomena'. Trying to formalize 'no function of the other variables' or 'reality is completely described' requires unstated semantic assumptions about the universe of phenomena and allowable dependencies. Checking dimension 10 would merely restate the definition S = R^10 and would not test the substantive main claim.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "138_D19.3_Law-III-Definition.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "D19.3"
+    ],
+    "current_bins": {
+      "D19.3": "UNCHECKED"
+    },
+    "obstruction": "The file's titled main statement is a definition (Law III Definition). It defines S as a sum and identifies entropy and sin conceptually. It does not state a theorem that can be checked as a logical consequence from premises. The later theorems (additivity, second law, bounds) depend on additional assumptions and are not the titled main claim.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "139_D19.4_Law-IV-Definition.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "D19.4"
+    ],
+    "current_bins": {
+      "D19.4": "UNCHECKED"
+    },
+    "obstruction": "The main claim is a definitional differential equation, not a proposition that can be proven from premises. Encoding it in Z3 would either trivially restate the definition as an assumption or check only consistency, which does not verify the definitional claim. The file's theorems (existence, asymptotic behavior, stability) are downstream consequences, not the main Statement.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "140_D19.5_Law-V-Definition.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "D19.5"
+    ],
+    "current_bins": {
+      "D19.5": "UNCHECKED"
+    },
+    "obstruction": "The main claim is a continuous/Lagrangian Noether-correspondence statement requiring differential calculus, field functionals, continuous symmetry groups, and time derivatives. Z3 cannot faithfully encode this general claim without either formalizing substantial calculus/analysis or reducing to a finite example, which would substitute an easier side calculation. Therefore the main claim is not checkable as a precise z3-solver assertion within the required encoding.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "143_D19.8_Law-VIII-Definition.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "D19.8"
+    ],
+    "current_bins": {
+      "D19.8": "UNCHECKED"
+    },
+    "obstruction": "Cannot be faithfully encoded as a single Z3 entailment without adding unstated assumptions. The statement conflates a scalar sign σ∈{+1,-1} with an operator Σ in expressions like UΣU†; it does not precisely define 'self-transformation', 'unitary', or 'grace'; and it later identifies the unitary flip operator Σ_x while still asserting that unitary operations preserve sign. A faithful check would need an added superselection/commutation condition such as [U,Σ]=0 for allowed self-transformations.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "144_D19.9_Law-IX-Definition.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "D19.9"
+    ],
+    "current_bins": {
+      "D19.9": "UNCHECKED"
+    },
+    "obstruction": "The formal equations define a class of operators rather than state a theorem with premises and conclusion. Encoding the definition as premises and non-unitarity/sign-flip as conclusion would be tautological; checking a witness operator would be a side satisfiability calculation, not the main claim. The 'unique', 'adds external information', 'infinite divine source', and dependence on Laws VI/VIII require undefined notions, so the main claim cannot be faithfully encoded as a Z3 entailment.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "145_D19.10_Law-X-Definition.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "D19.10"
+    ],
+    "current_bins": {
+      "D19.10": "UNCHECKED"
+    },
+    "obstruction": "The main claim is not precise enough to encode faithfully: 'complete measurement closure', 'zero residual uncertainty', 'observer-operator', and the minimality/exactness over all physical measurement systems are not formally defined. The file mixes SU(2), SU(3), cyclic products, commutators, and informal information-theoretic/category-theoretic arguments; encoding only the matrix-algebra side conditions would check a side consistency claim, not the main necessity/sufficiency claim.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "147_T19.1_Laws-Derive-From-Chi.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "T19.1"
+    ],
+    "current_bins": {
+      "T19.1": "UNCHECKED"
+    },
+    "obstruction": "Not checkable in Z3 as stated because the central derivation relation is not formally defined: the file does not give a precise chi-field configuration space, Master Equation, variational operator, law definitions/constraints, or a formal 'derives from' predicate. Encoding only the finite pairing map would substitute a side calculation for the main claim.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "148_U1_Coherence-Universal.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "U1"
+    ],
+    "current_bins": {
+      "U1": "UNCHECKED"
+    },
+    "obstruction": "The main U1 claim cannot be faithfully encoded in Z3 as stated. It is a broad metaphysical/teleological universality claim, not a precise mathematical theorem. The file conflates inequivalent coherence measures (negative von Neumann entropy, purity, l1 off-diagonal coherence, integrated information Phi), leaves the variational action and its constraints unspecified, and invokes non-formal 'grace' conditions. Encoding only a side theorem such as coherence monotonicity under CPTP maps would not check the main claim.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "153_F2_Joy-Measurement-Domain.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "F2"
+    ],
+    "current_bins": {
+      "F2": "UNCHECKED"
+    },
+    "obstruction": "The equation F_Joy = alpha dC/dt + beta C * 1_{C > C_threshold} is formal, but the Statement section uses it to define/operationalize affective joy and measurability. Z3 could encode the formula as a definition or axiom, but there is no non-definitional theorem in the title/Statement to prove. Checking derived properties such as non-negativity, boundedness, or discontinuity would be checking side theorems from later sections, not the main Statement. The phrase 'measurable as positive gradient of coherence' also lacks precise quantifiers and domain restrictions needed for a determinate formal claim.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "155_F4_Patience-Measurement-Domain.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "F4"
+    ],
+    "current_bins": {
+      "F4": "UNCHECKED"
+    },
+    "obstruction": "The main claim is primarily a definition/measurement model using an infinite continuous-time integral and an unspecified coherence function/expectation. It is not a precise entailment with finite Z3-encodable premises and conclusion; encoding a finite-sum approximation or the boundedness corollary would substitute a side property for the main claim. Therefore checkable is false.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "156_F5_Kindness-Measurement-Domain.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "F5"
+    ],
+    "current_bins": {
+      "F5": "UNCHECKED"
+    },
+    "obstruction": "The main statement is definitional. The later 'Kindness Metric Properties' theorem includes non-negativity and additivity, but its cost-sensitivity claim is ambiguous/contradictory: the formula B/(C+ε) decreases as self-cost C increases for fixed benefit B, while the prose says higher cost yields a higher kindness score. The 'Kindness Efficiency Theorem' is a generic constrained optimization without enough concrete specification to encode faithfully. Thus the main claim cannot be checked as a precise implication without substituting a side property.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "160_F9_Self-Control-Measurement-Domain.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "F9"
+    ],
+    "current_bins": {
+      "F9": "UNCHECKED"
+    },
+    "obstruction": "The main Statement is too programmatic and vague for a precise Z3 truth claim: it does not specify domains, measurable quantities, or truth conditions for 'measurable coherence domain.' The integral formula defines an energy functional using unspecified arbitrary functions without measurable/domain assumptions. The later 'Regulation Necessity' theorem is a subsidiary formal claim, not the title/Statement main claim, so encoding it would substitute a side result.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "161_P0_Origin-Stage.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "P0"
+    ],
+    "current_bins": {
+      "P0": "UNCHECKED"
+    },
+    "obstruction": "The main claim is ontological and meta-logical. Z3/FOL assumes a nonempty domain, so encoding ∃x(x ≠ ∅) would either be trivially true under standard semantics or merely assert the existence of a nonempty set in an unspecified set-theoretic universe. The file does not provide a precise first-order theory of 'Something', 'Nothing', absolute non-existence, or the empty set sufficient to avoid assuming the intended conclusion.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "162_P1_Consciousness-Stage.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "P1"
+    ],
+    "current_bins": {
+      "P1": "UNCHECKED"
+    },
+    "obstruction": "The main claim is metaphysical and not precise enough for a faithful Z3 theorem check. The file gives a biconditional with undefined predicates, and the key temporal claim about simultaneous onset of existence and consciousness is not formalized. Encoding the displayed biconditional alone would omit the 'therefore' claim and would treat an uninterpreted primitive axiom as if it were a provable theorem.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "163_P2_Information-Stage.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "P2"
+    ],
+    "current_bins": {
+      "P2": "UNCHECKED"
+    },
+    "obstruction": "The main claim is metaphysical/ontological and its terms 'Observer', 'Existence', 'observation operator', 'generates', and 'ontological substrate of reality' are not given precise mathematical definitions sufficient for a Z3 encoding. The included Shannon entropy formula is an auxiliary definition/measure of information, not a formal theorem proving the main ontological claim; encoding only H(X) >= 0 or an implication O(P0) -> I would substitute an easier side fact and not faithfully check P2's main claim.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "165_P4_Agency-Stage.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "P4"
+    ],
+    "current_bins": {
+      "P4": "UNCHECKED"
+    },
+    "obstruction": "The main claim uses interpretive terms such as 'coherence', 'potentiality', 'actuality', 'agency', and 'genuine selection' without precise formal axioms. The file's 'Selection Necessity' proof only shows that if an actual basis state is given, a projection operator can be defined that maps a superposition to it; that does not establish the main metaphysical claim that actuality requires agency. Encoding the claim would require adding an unstated equivalence between arbitrary selection/projection and agency, so the main claim is not checkable faithfully in Z3.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "166_P5_Incompleteness-Stage.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "P5"
+    ],
+    "current_bins": {
+      "P5": "UNCHECKED"
+    },
+    "obstruction": "The file's main claim quantifies over arbitrary formal systems and relies on meta-theorems about provability, consistency, arithmetic expressibility, and Gödel sentences. Faithfully encoding it in z3 would require formalizing syntax and proof theory for recursive formal systems, not merely finite Boolean constraints. Encoding it with uninterpreted predicates would either be unsound or would require adding Gödel's theorem itself as a premise, which would beg the question.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "167_O1_Information-Primitive.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "O1"
+    ],
+    "current_bins": {
+      "O1": "UNCHECKED"
+    },
+    "obstruction": "The main claim is metaphysical and depends on undefined predicates/relations such as 'Physical', 'Information', 'reducible to', 'more fundamental', and functions F/g over an unspecified universe of entities. Encoding it in Z3 would require stipulating formal meanings and domains that the file does not provide; any finite encoding would either restate the conclusion or trivialize it. Therefore the main claim is not checkable as a precise mathematical entailment without adding unstated assumptions.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "169_O3_Consciousness-Primitive.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "O3"
+    ],
+    "current_bins": {
+      "O3": "UNCHECKED"
+    },
+    "obstruction": "The main claim is metaphysical/ontological rather than a precise mathematical assertion. The file's formal expression 'Realized(I,C) iff exists O: O experiences (I,C)' is essentially a definition or a philosophical thesis about realization, and terms like 'ontological primitive', 'emergent', 'co-fundamental', 'experiences', and 'realized' are not given formal semantics sufficient for a Z3 encoding. Encoding only the definitional equivalence would not check the main claim and would replace it with a trivial side formalization, so checkable is false.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "171_LAMBDA_Logos-Christ-Completion.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "LAMBDA"
+    ],
+    "current_bins": {
+      "LAMBDA": "UNCHECKED"
+    },
+    "obstruction": "The main claim is not precise enough to encode faithfully in Z3: the chi-field, limit as t->infinity, terminal observer operator, Grace operator, incarnation delta term, and the qualitative requirement of 'grounding/terminal completion' are not defined mathematically. Encoding would require adding unstated formal assumptions or substituting a narrower side claim.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "172_BRIDGE-PHY-THEO_Physics-Theology-Bridge.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "BRIDGE-PHY-THEO"
+    ],
+    "current_bins": {
+      "BRIDGE-PHY-THEO": "UNCHECKED"
+    },
+    "obstruction": "The main claim cannot be faithfully encoded in Z3 without adding undefined formal semantics for chi-field, theological interpretation, divine action, L_theological, and the correspondence between physical and theological predicates. The file contains some formal-looking structures, such as Lagrangians, limits, functors, and mutual information, but these are not specified precisely enough to encode the central ontological-identity claim; checking only one side structure, such as a functor property or I>0, would substitute an easier side calculation for the main claim.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "182_META-2_Axiom-System-Completeness.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "META-2"
+    ],
+    "current_bins": {
+      "META-2": "UNCHECKED"
+    },
+    "obstruction": "The claim cannot be faithfully encoded in Z3 as a concrete mathematical theorem because it depends on undefined meta-level notions: provability in the Theophysics axiom system, the exact language and intended domain, the revelation class, Logos-source, grace, and the semantics of coherence/consciousness/grounding. Encoding only an abstract predicate schema would restate the claim by definition rather than check it.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "183_META-3_Axiom-System-Independence.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "META-3"
+    ],
+    "current_bins": {
+      "META-3": "UNCHECKED"
+    },
+    "obstruction": "The file does not specify the exact primitive set P (only candidate primitives), the formal language, or the actual derivability/entailment relation over the 188 Theophysics axioms. Encoding a generic abstract finite Boolean or entailment relation would be tautological or would add unstated assumptions, so the main claim cannot be faithfully checked in z3 from the provided content.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "184_FINAL-1_Logos-Theorem.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "FINAL-1"
+    ],
+    "current_bins": {
+      "FINAL-1": "UNCHECKED"
+    },
+    "obstruction": "The claim is not encoded because it depends on undefined metaphysical functions such as Ground, Source, Telos, and on the complete 188-node derivation graph with its actual dependency relations. The file does not provide enough formal specification to distinguish the intended model from arbitrary finite graphs or fixed-point systems without adding unstated assumptions.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "185_FINAL-2_Coherence-Optimality.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "FINAL-2"
+    ],
+    "current_bins": {
+      "FINAL-2": "UNCHECKED"
+    },
+    "obstruction": "The main claim cannot be faithfully encoded in Z3 because the domain of possible reality-structures, the concrete coherence functional chi_global, the constraint set C, and the identity/representation of T_Theophysics are not formally specified. The file gives qualitative comparisons and analogies but no finite model, numerical measure, or precise mathematical constraints sufficient to state an optimization claim without inventing premises.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "187_CLOSURE_Axiom-Chain-Complete.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "CLOSURE"
+    ],
+    "current_bins": {
+      "CLOSURE": "UNCHECKED"
+    },
+    "obstruction": "The main claim concerns the full 188-axiom system, its dependency graph, and vague criteria such as 'all essential domains/scales/times are covered.' The file does not provide the full axioms, dependency relation, or a precise predicate for essential-domain coverage. Encoding only the abstract closure-operator identity Cl(T)=T would assume the conclusion or check a trivial side property, not the main claim.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "188_OMEGA_Final-Axiom.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "OMEGA"
+    ],
+    "current_bins": {
+      "OMEGA": "UNCHECKED"
+    },
+    "obstruction": "The main claim depends on undefined theological/metaphysical terms (Logos, coherence, redemption, eschatological convergence) and on non-formal assertions such as uniqueness of a self-grounding source/destination. Encoding only the displayed equalities would treat Ω, Λ, α, and χ_total as independent symbols with no mathematical premises forcing the identity; deriving it would require adding the conclusion or external assumptions not stated in a precise mathematical form. The file presents OMEGA as a terminal axiom rather than a theorem derivable from formal premises, so it is not faithfully checkable as a Z3 implication.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  },
+  {
+    "source_file": "189_INV9_Attunement-Calibration.md",
+    "source_verdict": "NOT_CHECKABLE",
+    "nodes": [
+      "INV9"
+    ],
+    "current_bins": {
+      "INV9": "UNCHECKED"
+    },
+    "obstruction": "The main claim is qualitative/normative: it uses undefined notions such as 'self-modeling agent', 'affordances', 'changing environment', 'must', 'brittleness', and 'misalignment'. The file gives illustrative formulas and control-theoretic analogies, but it does not state precise mathematical conditions under which the claimed necessity or misalignment result follows. Encoding only the calibration equations would ignore the main claim, and encoding the qualitative claim would require unstated formal assumptions.",
+    "what_makes_checkable": "Supply the missing type/domain, operator, measurement or faithful bridge indicated in this receipt.",
+    "note": "ADMITTED is an explicit framework premise, not proof that the prior unchecked proposition has become checked."
+  }
+]

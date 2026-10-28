@@ -1,0 +1,249 @@
+{
+  "id": "JUSTIFICATION-RESET-BRIDGE",
+  "title": "JUSTIFICATION-RESET-BRIDGE",
+  "proposal_only": true,
+  "context_parent": "A0",
+  "tags": {
+    "system_part": "boundary",
+    "composition_level": 1,
+    "claim_role": "conjecture",
+    "warrant": {
+      "status": "conditionally proved",
+      "kind": "proof"
+    },
+    "register": "formal"
+  },
+  "old_mode": null,
+  "proposed_mode": "FW_EXTENDED",
+  "tier": null,
+  "node_lifecycle": "working_proposal",
+  "dependencies": {
+    "source_declared": [],
+    "proposed_primary_support": [
+      "JUSTIFICATION-001",
+      "BINARY-RESET-001"
+    ],
+    "stance_ceiling_sources": []
+  },
+  "claims": [
+    {
+      "id": "JUSTIFICATION-RESET-BRIDGE::main",
+      "statement": "authorized, eligibility-gated legal standing update under the declared encoding",
+      "tags": {
+        "system_part": "boundary",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\native\\JUSTIFICATION_RESET_BRIDGE\\bridge_record.json"
+      ],
+      "classification_proposal": {
+        "logical_role": "CONJECTURE",
+        "ontological_domains": [
+          "MATHEMATICAL",
+          "INFORMATIONAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "claim_scoped_dependencies": [],
+      "grade": {
+        "match_scope": "states and moves",
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+        "match_scope_applicable": true,
+        "assessed_claim_id": "JUSTIFICATION-RESET-BRIDGE::main"
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    }
+  ],
+  "ports": [
+    {
+      "input": "Native Person, legitimate Judge invocation; phi encodes standing and preserves eligibility context",
+      "output": "Binary Register after gated reset, agreeing with mapped legal declaration",
+      "agent": "Investigator applies representation map; legitimate Judge/controller actions remain distinct",
+      "boundary": "Reset enabled iff native response_received AND cost_satisfied; bare matrix is insufficient",
+      "constraints": "No identification of persons with distributions; no lossless history/agency map; no transfer to physical mechanism",
+      "evidence": [
+        "../JUSTIFICATION_RESET_SIDES_FIXED_BEFORE_BRIDGE.json",
+        "JustificationReset.lean",
+        "validation_results.json"
+      ]
+    }
+  ],
+  "Q13": {
+    "register": "formal",
+    "domains": [
+      "MATHEMATICAL",
+      "INFORMATIONAL"
+    ]
+  },
+  "Q14": {
+    "transfer": "only source-record-scoped formal mapping; no physical identity",
+    "coherence_equality_assumed": false
+  },
+  "Q15": [
+    {
+      "id": "JUSTIFICATION-RESET-BRIDGE/Q15/0249",
+      "node": "JUSTIFICATION-RESET-BRIDGE",
+      "kind": "known countermodel",
+      "Q16": "FATAL",
+      "scope": "ungated matrix and full-person isomorphism",
+      "reason": "Closed-gate state violates bare reset equality; two distinct persons share phi. Only gated standing quotient intertwining/inverse passes.",
+      "evidence": []
+    }
+  ],
+  "Q16": {
+    "JUSTIFICATION-RESET-BRIDGE/Q15/0249": "FATAL"
+  },
+  "coherences": {
+    "C-info": {
+      "conversion_to_other_coherences": null
+    },
+    "C-moral": {
+      "conversion_to_other_coherences": null
+    },
+    "C-spiritual": {
+      "conversion_to_other_coherences": null
+    }
+  },
+  "reason": [
+    "New proposal only; proof warrant is distinct from canon status."
+  ],
+  "soundness": {
+    "bin": "CONDITIONAL",
+    "named_premises": [
+      "Authorized native declaration; eligibility gate preserved; only the binary-standing quotient maps bijectively to pure basis states."
+    ],
+    "receipt": [
+      "JustificationReset.intertwining",
+      "sources/native/JUSTIFICATION_RESET_BRIDGE/JustificationReset.lean"
+    ],
+    "denial_cost": null,
+    "scope_note": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+    "why": "Named formal/native conditional only; actual application retains each hypothesis.",
+    "Z3_source_verdicts": [],
+    "ranking_snapshot": null,
+    "A0_IMAGO_verdict": null,
+    "conflicts": [],
+    "what_makes_checkable": null
+  },
+  "grade": {
+    "match_scope": "states and moves",
+    "warrant": "conditionally proved",
+    "outcome": "holds",
+    "canon_status": "open",
+    "note": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+    "match_scope_applicable": true,
+    "assessed_claim_id": "JUSTIFICATION-RESET-BRIDGE::main"
+  },
+  "canon_rubric": {
+    "node": "JUSTIFICATION-RESET-BRIDGE",
+    "bin": "CONDITIONAL",
+    "grade": {
+      "match_scope": "states and moves",
+      "warrant": "conditionally proved",
+      "outcome": "holds",
+      "canon_status": "open",
+      "note": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+      "match_scope_applicable": true,
+      "assessed_claim_id": "JUSTIFICATION-RESET-BRIDGE::main"
+    },
+    "criteria": {
+      "address": true,
+      "grade": true,
+      "receipt": true,
+      "ruling_authority": false,
+      "no_unresolved_conflict": true
+    },
+    "score": 4,
+    "meets_all_five": false,
+    "missing": [
+      "ruling_authority"
+    ],
+    "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+    "receipt_scope": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+    "proposal_only": true
+  },
+  "follow_up_review": {
+    "proposal_only": true,
+    "soundness_row": {
+      "node": "JUSTIFICATION-RESET-BRIDGE",
+      "bin": "CONDITIONAL",
+      "scope": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+      "premises": [
+        "Authorized native declaration; eligibility gate preserved; only the binary-standing quotient maps bijectively to pure basis states."
+      ],
+      "receipt": [
+        "JustificationReset.intertwining",
+        "sources/native/JUSTIFICATION_RESET_BRIDGE/JustificationReset.lean"
+      ],
+      "denial_cost": null,
+      "what_makes_checkable": null,
+      "canon_status": "open",
+      "conflicts": [],
+      "assessment_target": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+      "main_statement": "authorized, eligibility-gated legal standing update under the declared encoding",
+      "proposal_only": true,
+      "lead_summary": {},
+      "remaining_lead_ids": [],
+      "strength": "Conditional",
+      "grade": {
+        "match_scope": "states and moves",
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+        "match_scope_applicable": true,
+        "assessed_claim_id": "JUSTIFICATION-RESET-BRIDGE::main"
+      },
+      "scope_warning": "Bin assesses the named target only; neither bundled claims nor domain identification inherit its proof. A written explanation is recorded as support at its source status."
+    },
+    "canon_rubric": {
+      "node": "JUSTIFICATION-RESET-BRIDGE",
+      "bin": "CONDITIONAL",
+      "grade": {
+        "match_scope": "states and moves",
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+        "match_scope_applicable": true,
+        "assessed_claim_id": "JUSTIFICATION-RESET-BRIDGE::main"
+      },
+      "criteria": {
+        "address": true,
+        "grade": true,
+        "receipt": true,
+        "ruling_authority": false,
+        "no_unresolved_conflict": true
+      },
+      "score": 4,
+      "meets_all_five": false,
+      "missing": [
+        "ruling_authority"
+      ],
+      "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+      "receipt_scope": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+      "proposal_only": true
+    },
+    "leads": [],
+    "current_ruling": null,
+    "ruling_scope": "Existing disposition only; no new canon admission.",
+    "receipt_attachments": [],
+    "Q15_follow_up": []
+  }
+}

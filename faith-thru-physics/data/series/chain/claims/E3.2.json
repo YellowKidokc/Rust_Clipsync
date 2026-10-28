@@ -1,0 +1,54 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "E3.2",
+ "claim_id": "E3.2",
+ "type": "CLAIM",
+ "text": "Coherence admits a universal formal definition.",
+ "source": {
+  "file": "source/nodes/E3.2.yaml",
+  "quote": "Coherence admits a universal formal definition.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "constitutive_law",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A stipulated formal definition or equation of universal coherence; E3.1 Master Coherence Equation as a valid upstream premise; A proof that the defined coherence quantity is non-negative and applies to the claimed domain",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/E3.2.yaml#E3.2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "E3.2",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A stipulated formal definition or equation of universal coherence",
+  "E3.1 Master Coherence Equation as a valid upstream premise",
+  "A proof that the defined coherence quantity is non-negative and applies to the claimed domain"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "E3.2/Q15/0027",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the step from P-IMAGO’s analogical creaturely order/intelligibility/relation to a formal universal coherence definition or equation; A0 + P-IMAGO provide no mathematical definition, equation, or domain-specific applicability."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

@@ -1,0 +1,65 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "BC2",
+ "claim_id": "BC2",
+ "type": "CLAIM",
+ "text": "The grace that enables a moral agent's fundamental reorientation or coherence increase must be external to the agent/system and cannot be self-generated.",
+ "source": {
+  "file": "source/nodes/BC2.yaml",
+  "quote": "The grace that enables a moral agent's fundamental reorientation or coherence increase must be external to the agent/system and cannot be self-generated.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "boundary",
+  "composition_level": 1,
+  "claim_role": "assumption",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "admitted",
+  "warrant_premise": "A moral-coherence analogue of the Second Law: closed moral systems cannot spontaneously increase coherence.; A theological premise that salvific reorientation from sin/self to God (σ: -1 → +1) is not naturally achievable by creaturely self-effort and requires divine grace.; Formal definitions and model premises identifying moral coherence, sign σ, G(t), and the χ-field as an external source.; Empirical or psychological evidence that fundamental orientation change requires external encounter rather than self-effort.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/BC2.yaml#BC2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "T3.1",
+   "edge": "rests_on"
+  },
+  {
+   "id": "T3.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "BC2",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A moral-coherence analogue of the Second Law: closed moral systems cannot spontaneously increase coherence.",
+  "A theological premise that salvific reorientation from sin/self to God (σ: -1 → +1) is not naturally achievable by creaturely self-effort and requires divine grace.",
+  "Formal definitions and model premises identifying moral coherence, sign σ, G(t), and the χ-field as an external source.",
+  "Empirical or psychological evidence that fundamental orientation change requires external encounter rather than self-effort."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "BC2/Q15/0070",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "external restorer and theological identity",
+   "reason": "A nonpreserving operation is not by itself an actual external restorer, still less God/Grace; causal exhaustiveness, occurrence and identification require their own premises."
+  },
+  {
+   "id": "BC2/Q15/0071",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the step from 'creaturely moral goodness is dependent participation in God' (A0 + P-IMAGO) to 'a closed moral system cannot increase its own coherence and requires an external grace function G(t)'; that step needs additional moral, thermodynamic, and model premises not admitted."
+  }
+ ],
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

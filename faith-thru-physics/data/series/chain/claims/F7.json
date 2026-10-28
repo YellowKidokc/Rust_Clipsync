@@ -1,0 +1,54 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "F7",
+ "claim_id": "F7",
+ "type": "CLAIM",
+ "text": "Faithfulness is the virtue of maintaining good commitments consistently over time.",
+ "source": {
+  "file": "source/nodes/F7.yaml",
+  "quote": "Faithfulness is the virtue of maintaining good commitments consistently over time.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "observable",
+  "composition_level": 1,
+  "claim_role": "empirical_hypothesis",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A definition or operationalization equating faithfulness with temporal autocorrelation of commitment-aligned behavior.; Empirical data validating the proposed measurement protocol, neural correlates, and behavioral markers.; Physical and mathematical modeling assumptions justifying the field equation, operator formalism, and information-theoretic identities.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/F7.yaml#F7::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "FRUIT-GEN",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "F7",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A definition or operationalization equating faithfulness with temporal autocorrelation of commitment-aligned behavior.",
+  "Empirical data validating the proposed measurement protocol, neural correlates, and behavioral markers.",
+  "Physical and mathematical modeling assumptions justifying the field equation, operator formalism, and information-theoretic identities."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "F7/Q15/0201",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the move from P-IMAGO's general analogy of creaturely moral goodness to God, to the specific identification of faithfulness with a temporal autocorrelation metric; P-IMAGO does not supply that definition, any physical law, or empirical data."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

@@ -1,0 +1,45 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "BC2",
+ "claim_id": "BC2::z3-conditional-component",
+ "type": "CLAIM",
+ "text": "If a transition flips the moral sign from -1 to +1, then external grace coupling is present.",
+ "source": {
+  "file": "source/nodes/BC2.yaml",
+  "quote": "If a transition flips the moral sign from -1 to +1, then external grace coupling is present.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "theorem",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "conditionally_proved",
+  "warrant_premise": "If grace/external coupling is absent, the system's coherence after the transition is not greater than before (closed-system second-law analog: C_after <= C_before).; A sign-flip from sigma = -1 to sigma = +1 is a coherence increase: C_after > C_before.; The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge.",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/BC2.yaml#BC2::z3-conditional-component (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [
+  {
+   "kind": "z3",
+   "ref": "sources/z3/03_PROMISING/results.json"
+  }
+ ],
+ "neighbors": [],
+ "node": "BC2",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Reported Z3 encoded component; domain bridge remains unverified; this is not a new solver run.",
+ "conditional_premises": [
+  "If grace/external coupling is absent, the system's coherence after the transition is not greater than before (closed-system second-law analog: C_after <= C_before).",
+  "A sign-flip from sigma = -1 to sigma = +1 is a coherence increase: C_after > C_before.",
+  "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+ ],
+ "obstructions": [],
+ "generated_by": "proposal only"
+}

@@ -1,0 +1,293 @@
+{
+  "id": "D4.2",
+  "title": "D4.2 Compression Ratio",
+  "proposal_only": true,
+  "context_parent": "A0",
+  "tags": {
+    "system_part": "state",
+    "composition_level": 0,
+    "claim_role": "definition",
+    "warrant": {
+      "status": "admitted",
+      "kind": "proof"
+    },
+    "register": "formal"
+  },
+  "old_mode": "AX_SCAFFOLD",
+  "raw_csv_mode": "AX_SCAFFOLD",
+  "proposed_mode": "AX_SCAFFOLD",
+  "tier": 5,
+  "node_lifecycle": "definition",
+  "ruling": null,
+  "merged_into": null,
+  "node_vs_claim_vs_proof": "Node specifies a structure; claims below own their warrants; proofs are exact scoped receipts.",
+  "sources": {
+    "v3_line": "D4.2 Compression Ratio          ← A2.2         [AX_SCAFFOLD]",
+    "current_root_record": "sources\\current_nodes\\D4_2_Compression_Ratio.md",
+    "october_review": "sources\\october_review\\AX-030.json"
+  },
+  "dependencies": {
+    "source_declared": [
+      "A2.2"
+    ],
+    "source_relation": "depends_on",
+    "proposed_primary_support": [
+      "A2.2"
+    ],
+    "stance_ceiling_sources": [
+      "A2.2"
+    ],
+    "merge_scope": "Incoming claims retain their own premises; source and current-root graph versions are not silently equated."
+  },
+  "coherences": {
+    "C-info": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-moral": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-spiritual": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    }
+  },
+  "claims": [
+    {
+      "id": "D4.2::main",
+      "statement": "The compression ratio Λ[ψ] is defined as K(ψ)/|ψ|, where K is Kolmogorov complexity and |ψ| is content length.",
+      "tags": {
+        "system_part": "state",
+        "composition_level": 0,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "canon_status": "open",
+      "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+      "proof_refs": [],
+      "conditional_premises": [],
+      "classification_proposal": {
+        "logical_role": "DEFINITION",
+        "ontological_domains": [
+          "MATHEMATICAL",
+          "INFORMATIONAL"
+        ],
+        "approval": "proposal only; no new frozen vocabulary applied"
+      },
+      "Q13": {
+        "register": "formal",
+        "domains": [
+          "MATHEMATICAL",
+          "INFORMATIONAL"
+        ]
+      },
+      "Q14": {
+        "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+        "coherence_equality_assumed": false
+      },
+      "Q15": [
+        {
+          "id": "D4.2/Q15/0037",
+          "node": "D4.2",
+          "kind": "definitional conflict",
+          "Q16": "OPEN",
+          "scope": "original core claim/application",
+          "reason": "No derivation from A0 or P-IMAGO occurs; the formula is an independent formal definition.",
+          "evidence": [
+            "sources\\october_review\\AX-030.json"
+          ]
+        }
+      ],
+      "Q16": {
+        "D4.2/Q15/0037": "OPEN"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "claim_scoped_dependencies": [
+        "A2.2"
+      ],
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "D4.2::main"
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    }
+  ],
+  "Q13": {
+    "register": "formal",
+    "domains": [
+      "MATHEMATICAL",
+      "INFORMATIONAL"
+    ]
+  },
+  "Q14": {
+    "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+    "coherence_equality_assumed": false
+  },
+  "Q15": [
+    {
+      "id": "D4.2/Q15/0037",
+      "node": "D4.2",
+      "kind": "definitional conflict",
+      "Q16": "OPEN",
+      "scope": "original core claim/application",
+      "reason": "No derivation from A0 or P-IMAGO occurs; the formula is an independent formal definition.",
+      "evidence": [
+        "sources\\october_review\\AX-030.json"
+      ]
+    }
+  ],
+  "Q16": {
+    "D4.2/Q15/0037": "OPEN"
+  },
+  "ports": [],
+  "open_interface_obligation": "This rerun is a classified source/claim proposal. A full executable six-field port contract is not claimed for every older node.",
+  "reason": [
+    "Weakest-premise ceiling inherited from A2.2."
+  ],
+  "soundness": {
+    "bin": "UNCHECKED",
+    "named_premises": [],
+    "receipt": [],
+    "denial_cost": null,
+    "scope_note": "No holds/fails call manufactured for an untested main claim.",
+    "why": "Original domain claim lacks a complete faithful, source-matched test or derivation; retained fragment receipts do not establish it.",
+    "Z3_source_verdicts": [],
+    "ranking_snapshot": {
+      "score": 4,
+      "id": "AX-030",
+      "title": "Compression Ratio",
+      "register": "formal",
+      "a0": "formal",
+      "math": "yes_with_missing_premise",
+      "z3": "-",
+      "why": "independent math; math holds +premise",
+      "core": "The compression ratio Λ[ψ] is defined as K(ψ)/|ψ|, where K is Kolmogorov complexity and |ψ| is content length."
+    },
+    "A0_IMAGO_verdict": "INDEPENDENT_FORMAL_TRUTH",
+    "conflicts": [],
+    "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. "
+  },
+  "grade": {
+    "match_scope": null,
+    "warrant": "unverified",
+    "outcome": null,
+    "canon_status": "open",
+    "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery.",
+    "match_scope_applicable": false,
+    "assessed_claim_id": "D4.2::main"
+  },
+  "canon_rubric": {
+    "node": "D4.2",
+    "bin": "UNCHECKED",
+    "grade": {
+      "match_scope": null,
+      "warrant": "unverified",
+      "outcome": null,
+      "canon_status": "open",
+      "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery.",
+      "match_scope_applicable": false,
+      "assessed_claim_id": "D4.2::main"
+    },
+    "criteria": {
+      "address": true,
+      "grade": false,
+      "receipt": false,
+      "ruling_authority": false,
+      "no_unresolved_conflict": false
+    },
+    "score": 1,
+    "meets_all_five": false,
+    "missing": [
+      "grade",
+      "receipt",
+      "ruling_authority",
+      "no_unresolved_conflict"
+    ],
+    "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+    "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+    "proposal_only": true
+  },
+  "follow_up_review": {
+    "proposal_only": true,
+    "soundness_row": {
+      "node": "D4.2",
+      "bin": "UNCHECKED",
+      "scope": "No holds/fails call manufactured for an untested main claim.",
+      "premises": [],
+      "receipt": [],
+      "denial_cost": null,
+      "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+      "canon_status": "open",
+      "conflicts": [],
+      "assessment_target": "No holds/fails call manufactured for an untested main claim.",
+      "main_statement": "The compression ratio Λ[ψ] is defined as K(ψ)/|ψ|, where K is Kolmogorov complexity and |ψ| is content length.",
+      "proposal_only": true,
+      "lead_summary": {},
+      "remaining_lead_ids": [],
+      "strength": "By definition",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "D4.2::main"
+      },
+      "scope_warning": "Bin assesses the named target only; neither bundled claims nor domain identification inherit its proof. A written explanation is recorded as support at its source status."
+    },
+    "canon_rubric": {
+      "node": "D4.2",
+      "bin": "UNCHECKED",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "D4.2::main"
+      },
+      "criteria": {
+        "address": true,
+        "grade": false,
+        "receipt": false,
+        "ruling_authority": false,
+        "no_unresolved_conflict": false
+      },
+      "score": 1,
+      "meets_all_five": false,
+      "missing": [
+        "grade",
+        "receipt",
+        "ruling_authority",
+        "no_unresolved_conflict"
+      ],
+      "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+      "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+      "proposal_only": true
+    },
+    "leads": [],
+    "current_ruling": null,
+    "ruling_scope": "Existing disposition only; no new canon admission.",
+    "receipt_attachments": [],
+    "Q15_follow_up": []
+  }
+}

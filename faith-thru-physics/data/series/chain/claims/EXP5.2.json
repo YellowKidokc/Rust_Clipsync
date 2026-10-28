@@ -1,0 +1,53 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "EXP5.2",
+ "claim_id": "EXP5.2",
+ "type": "CLAIM",
+ "text": "Quantum-eraser experiments (Kim 2000; Walborn 2002) show that the availability of which-path/quantum information determines whether interference is observed.",
+ "source": {
+  "file": "source/nodes/EXP5.2.yaml",
+  "quote": "Quantum-eraser experiments (Kim 2000; Walborn 2002) show that the availability of which-path/quantum information determines whether interference is observed.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "constitutive_law",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "embodied"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "Empirical premise: the Kim 2000 and Walborn 2002 quantum-eraser measurements.; Bridge premise: which-path information erasure/availability implies observer-dependent actualization or 'Chi requires an observer'.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/EXP5.2.yaml#EXP5.2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A5.1",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "EXP5.2",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "Empirical premise: the Kim 2000 and Walborn 2002 quantum-eraser measurements.",
+  "Bridge premise: which-path information erasure/availability implies observer-dependent actualization or 'Chi requires an observer'."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "EXP5.2/Q15/0051",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "A0 + P-IMAGO cannot derive a specific quantum-eraser measurement; and the move from quantum which-path information to LN5.1 'Chi Requires Observer For Actualization' lacks a bridge premise, so the full record is overclaimed as stated."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

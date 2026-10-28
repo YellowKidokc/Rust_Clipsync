@@ -1,0 +1,48 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "A12.2",
+ "claim_id": "A12.2::z3-conditional-component",
+ "type": "CLAIM",
+ "text": "For any soul trajectory with initial coherence in [0, Phi_max], if sigma = +1 then its asymptotic limit is Phi_max, and if sigma = -1 then its asymptotic limit is 0; hence the terminal outcome is determined by sign and takes one of exactly two values.",
+ "source": {
+  "file": "source/nodes/A12.2.yaml",
+  "quote": "For any soul trajectory with initial coherence in [0, Phi_max], if sigma = +1 then its asymptotic limit is Phi_max, and if sigma = -1 then its asymptotic limit is 0; hence the terminal outcome is determined by sign and takes one of exactly two values.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "theorem",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "conditionally_proved",
+  "warrant_premise": "gamma > 0 and Phi_max > 0.; The sign is binary: sigma = +1 or sigma = -1, with no neutral sigma = 0 state.; The initial coherence lies in the physical interval 0 <= phi0 <= Phi_max.; The destiny equation is dot Phi = sigma * gamma * Phi * (Phi_max - Phi), whose fixed points satisfy sigma * gamma * L * (Phi_max - L) = 0.; By A12.1, each trajectory has an asymptotic limit L, and this limit is a stable fixed point of the destiny equation, so its derivative satisfies sigma * gamma * (Phi_max - 2L) < 0.; The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge.",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/A12.2.yaml#A12.2::z3-conditional-component (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [
+  {
+   "kind": "z3",
+   "ref": "sources/z3/03_PROMISING/results.json"
+  }
+ ],
+ "neighbors": [],
+ "node": "A12.2",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Reported Z3 encoded component; domain bridge remains unverified; this is not a new solver run.",
+ "conditional_premises": [
+  "gamma > 0 and Phi_max > 0.",
+  "The sign is binary: sigma = +1 or sigma = -1, with no neutral sigma = 0 state.",
+  "The initial coherence lies in the physical interval 0 <= phi0 <= Phi_max.",
+  "The destiny equation is dot Phi = sigma * gamma * Phi * (Phi_max - Phi), whose fixed points satisfy sigma * gamma * L * (Phi_max - L) = 0.",
+  "By A12.1, each trajectory has an asymptotic limit L, and this limit is a stable fixed point of the destiny equation, so its derivative satisfies sigma * gamma * (Phi_max - 2L) < 0.",
+  "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+ ],
+ "obstructions": [],
+ "generated_by": "proposal only"
+}

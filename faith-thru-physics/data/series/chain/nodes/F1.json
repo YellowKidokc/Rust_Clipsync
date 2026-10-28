@@ -1,0 +1,52 @@
+{
+ "id": "F1",
+ "title": "Love Measurement Domain",
+ "lifecycle": "fruit",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "HY_EVIDENCE",
+ "declared": [
+  "FRUIT-GEN"
+ ],
+ "proposed": [
+  "FRUIT-GEN"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "F1/Q15/0195",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation from A0+P-IMAGO stops before identifying creaturely love with coherent integration and before claiming mutual information measures it; those are added premises."
+  },
+  {
+   "id": "F1/Q15/Z3-result-00",
+   "kind": "known countermodel",
+   "status": "FATAL",
+   "scope": "Encoded fragment under exactly the listed premises, not every interpretation of this node: Boundedness of the Love metric: 0 ≤ F_Love ≤ min(S_A,S_B) under F_Love = I(A;B) − ε D_KL(A||B)",
+   "reason": "[eps = 2, SA = 2, F = -1, D = 1, SB = 2, I = 1] Faithfulness to the intended domain is a separate obligation."
+  }
+ ],
+ "ports": [],
+ "main": "F1",
+ "claims": [
+  "F1",
+  "F1::split-01",
+  "F1::split-02",
+  "F1::split-03"
+ ],
+ "source": "source/nodes/F1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

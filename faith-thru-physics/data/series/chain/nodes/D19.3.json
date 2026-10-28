@@ -1,0 +1,70 @@
+{
+ "id": "D19.3",
+ "title": "D19.3 Law III (Entropy-Sin)",
+ "lifecycle": "definition",
+ "tier": 13,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "T3.1",
+  "A8.2"
+ ],
+ "proposed": [
+  "T3.1",
+  "A8.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file's titled main statement is a definition (Law III Definition). It defines S as a sum and identifies entropy and sin conceptually. It does not state a theorem that can be checked as a logical consequence from premises. The later theorems (additivity, second law, bounds) depend on additional assumptions and are not the titled main claim.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "D19.3/Q15/0142",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the leap from P-IMAGO's analogical participation/resemblance to a univocal Shannon formula, additive total entropy, conversion factor α, and empirical claims; P-IMAGO expressly does not license physical laws, equations, constants, or measurements."
+  },
+  {
+   "id": "D19.3/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Definition of total entropy S as the sum of physical and moral Shannon entropies",
+   "reason": "The file's titled main statement is a definition (Law III Definition). It defines S as a sum and identifies entropy and sin conceptually. It does not state a theorem that can be checked as a logical consequence from premises. The later theorems (additivity, second law, bounds) depend on additional assumptions and are not the titled main claim."
+  }
+ ],
+ "ports": [],
+ "main": "D19.3",
+ "claims": [
+  "D19.3",
+  "D19.3::split-01",
+  "D19.3::split-02",
+  "D19.3::split-03",
+  "D19.3::split-04",
+  "D19.3::split-05",
+  "D19.3::split-06",
+  "D19.3::split-07",
+  "D19.3::split-08",
+  "D19.3::split-09",
+  "D19.3::split-10",
+  "D19.3::split-11",
+  "D19.3::split-12",
+  "D19.3::split-13",
+  "D19.3::split-14",
+  "D19.3::split-15",
+  "D19.3::split-16",
+  "D19.3::split-17",
+  "D19.3::split-18",
+  "D19.3::split-19"
+ ],
+ "source": "source/nodes/D19.3.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

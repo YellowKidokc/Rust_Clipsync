@@ -1,0 +1,55 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "U4",
+ "claim_id": "U4",
+ "type": "CLAIM",
+ "text": "The Fruits of the Spirit are non-arbitrary creaturely virtues that reflect God's moral character rather than merely arbitrary cultural ideals.",
+ "source": {
+  "file": "source/nodes/U4.yaml",
+  "quote": "The Fruits of the Spirit are non-arbitrary creaturely virtues that reflect God's moral character rather than merely arbitrary cultural ideals.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "observable",
+  "composition_level": 1,
+  "claim_role": "empirical_hypothesis",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "For the full record's extras: an operational measurement theory for moral coherence.; A Logos-field and sign-state model with defined observables and dynamics.; A proof that the ninefold Galatians list is a complete basis for moral coherence.; Empirical evidence for cross-domain correlations, thresholds, and predictive power.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/U4.yaml#U4::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "LOVE-ROOT",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "U4",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "For the full record's extras: an operational measurement theory for moral coherence.",
+  "A Logos-field and sign-state model with defined observables and dynamics.",
+  "A proof that the ninefold Galatians list is a complete basis for moral coherence.",
+  "Empirical evidence for cross-domain correlations, thresholds, and predictive power."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "U4/Q15/0192",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The core follows through P-IMAGO's claim that creaturely moral goodness participates in God; the derivation stops when the record adds measurable coherence observables, σ=+1 sign-state, Logos field, completeness, information-theoretic necessity, and empirical/physical predictions."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

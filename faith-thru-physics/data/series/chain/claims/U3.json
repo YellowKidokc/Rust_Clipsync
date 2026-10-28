@@ -1,0 +1,56 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "U3",
+ "claim_id": "U3",
+ "type": "CLAIM",
+ "text": "Restoration from a decohered or sign-flipped state requires an external source of coherence, and grace is that external restorative action.",
+ "source": {
+  "file": "source/nodes/U3.yaml",
+  "quote": "Restoration from a decohered or sign-flipped state requires an external source of coherence, and grace is that external restorative action.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "Self-Flip Impossibility Theorem: no internal operator can reverse the sign-state.; A formal bridge premise identifying the theological grace-source with an external higher-coherence operator.; An existence and uniqueness theorem for a grace operator under well-defined constraints.; A universal availability premise: God's grace is effective for every decohered system, if universal scope is claimed.; Physical premises specifying the Logos field, coupling Hamiltonian, information conservation, and coherence-transfer dynamics.; Empirical/measurement premises validating pre/post sign-state, Phi, entropy, and behavioral markers.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/U3.yaml#U3::main (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "D9.1",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "U3",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "Self-Flip Impossibility Theorem: no internal operator can reverse the sign-state.",
+  "A formal bridge premise identifying the theological grace-source with an external higher-coherence operator.",
+  "An existence and uniqueness theorem for a grace operator under well-defined constraints.",
+  "A universal availability premise: God's grace is effective for every decohered system, if universal scope is claimed.",
+  "Physical premises specifying the Logos field, coupling Hamiltonian, information conservation, and coherence-transfer dynamics.",
+  "Empirical/measurement premises validating pre/post sign-state, Phi, entropy, and behavioral markers."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "U3/Q15/0191",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the move from creaturely dependence/participation (A0 + P-IMAGO) to a specific universal non-unitary sign-flip operator and its uniqueness/physical realization; P-IMAGO gives analogy, not operator formalism or empirical predictions."
+  }
+ ],
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

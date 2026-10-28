@@ -1,0 +1,69 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "A2.1",
+ "claim_id": "A2.1",
+ "type": "CLAIM",
+ "text": "Information requires a substrate for instantiation.",
+ "source": {
+  "file": "source/nodes/A2.1.yaml",
+  "quote": "Information requires a substrate for instantiation.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 0,
+  "claim_role": "assumption",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "admitted",
+  "warrant_premise": "All causally efficacious created information must be instantiated in some concrete medium or substrate.; Landauer's principle and thermodynamic constraints on computation apply as universal metaphysical constraints on information.; No infinite regress of substrates is permitted.; The χ-field/Logos Field exists and is the ultimate self-grounding substrate.",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/A2.1.yaml#A2.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "Holds as an expressly adopted premise, not established as an empirical or premise-free theorem."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A1.0",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "A2.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "All causally efficacious created information must be instantiated in some concrete medium or substrate.",
+  "Landauer's principle and thermodynamic constraints on computation apply as universal metaphysical constraints on information.",
+  "No infinite regress of substrates is permitted.",
+  "The χ-field/Logos Field exists and is the ultimate self-grounding substrate."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "A2.1/Q15/0011",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the inference from created dependence and analogical participation to a universal substrate requirement for information; the record then overextends to physical laws, mathematics, and the χ-field."
+  },
+  {
+   "id": "A2.1/Q15/0258",
+   "kind": "definitional conflict",
+   "status": "FATAL",
+   "scope": "naive merged-premise union asserted acyclic",
+   "reason": "Folding LN2.1 into A2.1 and unioning its v3 A2.2 premise creates A2.1 -> A2.2 -> A2.1. This is not an acyclic derivation and cannot serve as independent proof."
+  },
+  {
+   "id": "A2.1/Q15/0259",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "claim-scoped merge representation",
+   "reason": "Keep the incoming LN2.1 claim and its A2.2 premise separate from the survivor A2.1 primary definition/support. Do not delete the premise or upgrade its warrant."
+  }
+ ],
+ "denial_cost": "The universal substrate requirement is dropped; the branch requiring every information configuration to have an underlying support must be rebuilt. No physical substrate law is proved from the root label.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

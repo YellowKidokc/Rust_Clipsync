@@ -1,0 +1,59 @@
+{
+ "id": "E10.1",
+ "title": "E10.1 Soul Field Equation",
+ "lifecycle": "equation",
+ "tier": 11,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "CONDITIONAL",
+  "named_premises": [
+   "The soul field is modeled by a real scalar field on a finite 1+1 dimensional spacetime lattice with interior indices t,x in {1,2}.",
+   "The field is a stationary point of the discrete Klein-Gordon action S = sum [1/2(Δ_t Ψ)^2 - 1/2(Δ_x Ψ)^2 - 1/2 m_S^2 Ψ^2], so its Euler-Lagrange derivative at each interior point vanishes.",
+   "m_S^2 is represented by a real mass-squared parameter m2.",
+   "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+  ],
+  "denial_cost": null,
+  "checkable_by": null,
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json",
+   "Finite-difference derivation of the soul-field Klein-Gordon equation from the discrete scalar-field action."
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "E10.1/Q15/0109",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the move from P-IMAGO's analogical order/intelligibility of created consciousness to a specific field ontology and the Klein-Gordon equation. A0+P-IMAGO do not decide any physical equation, field type, mass parameter, coupling, or empirical prediction."
+  }
+ ],
+ "ports": [],
+ "main": "E10.1",
+ "claims": [
+  "E10.1",
+  "E10.1::split-01",
+  "E10.1::split-02",
+  "E10.1::split-03",
+  "E10.1::split-04",
+  "E10.1::split-05",
+  "E10.1::split-06",
+  "E10.1::split-07",
+  "E10.1::split-08",
+  "E10.1::split-09",
+  "E10.1::split-10",
+  "E10.1::z3-conditional-component"
+ ],
+ "source": "source/nodes/E10.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

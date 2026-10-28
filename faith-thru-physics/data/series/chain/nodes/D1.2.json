@@ -1,0 +1,60 @@
+{
+ "id": "D1.2",
+ "title": "D1.2 Bit Definition",
+ "lifecycle": "definition",
+ "tier": 1,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "A1.1",
+  "A1.2"
+ ],
+ "proposed": [
+  "A1.1",
+  "A1.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file's main claim is a definition/conceptual identification ('bit' as fundamental unit, universal across domains, physically real, quantum-equivalent) rather than a precise mathematical theorem with premises and a conclusion. Encoding only 1 bit = log2(2) = 1 or the entropy drop for two equiprobable states would check a trivial/side mathematical instance, not the main claim. The universality and fundamentality clauses cannot be stated faithfully in Z3 without adding unstated assumptions.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "D1.2/Q15/0007",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the step from P-IMAGO's general analogy/order claim to a specific binary information unit; P-IMAGO explicitly does not yield physical laws, equations, constants, measurements, or scriptural bit-mappings."
+  },
+  {
+   "id": "D1.2/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Definitional claim that a bit is the fundamental unit of information, identified with the quantified uncertainty reduction between two equiprobable states.",
+   "reason": "The file's main claim is a definition/conceptual identification ('bit' as fundamental unit, universal across domains, physically real, quantum-equivalent) rather than a precise mathematical theorem with premises and a conclusion. Encoding only 1 bit = log2(2) = 1 or the entropy drop for two equiprobable states would check a trivial/side mathematical instance, not the main claim. The universality and fundamentality clauses cannot be stated faithfully in Z3 without adding unstated assumptions."
+  }
+ ],
+ "ports": [],
+ "main": "D1.2",
+ "claims": [
+  "D1.2",
+  "D1.2::split-01",
+  "D1.2::split-02",
+  "D1.2::split-03",
+  "D1.2::split-04",
+  "D1.2::split-05",
+  "D1.2::split-06",
+  "D1.2::split-07",
+  "D1.2::split-08",
+  "D1.2::split-09"
+ ],
+ "source": "source/nodes/D1.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

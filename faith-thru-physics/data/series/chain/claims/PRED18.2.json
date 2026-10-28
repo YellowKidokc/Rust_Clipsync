@@ -1,0 +1,57 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "PRED18.2",
+ "claim_id": "PRED18.2",
+ "type": "CLAIM",
+ "text": "Spiritual transformation exhibits a discontinuous, threshold-crossing phase-transition signature rather than continuous gradual change.",
+ "source": {
+  "file": "source/nodes/PRED18.2.yaml",
+  "quote": "Spiritual transformation exhibits a discontinuous, threshold-crossing phase-transition signature rather than continuous gradual change.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "observable",
+  "composition_level": 1,
+  "claim_role": "empirical_hypothesis",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "chi-field model of consciousness/spiritual transformation as an order parameter; Landau free-energy assumption with a,b>0 and h=0 or a grace field; mechanism by which collective chi-field biases RNG bits at quantum level; GCP empirical data and pre-registered statistical protocol; superlinear participant-scaling/coupling premise J; universality/mean-field applicability to spiritual transformation",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/PRED18.2.yaml#PRED18.2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "EV15.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "PRED18.2",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "chi-field model of consciousness/spiritual transformation as an order parameter",
+  "Landau free-energy assumption with a,b>0 and h=0 or a grace field",
+  "mechanism by which collective chi-field biases RNG bits at quantum level",
+  "GCP empirical data and pre-registered statistical protocol",
+  "superlinear participant-scaling/coupling premise J",
+  "universality/mean-field applicability to spiritual transformation"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "PRED18.2/Q15/0184",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "P-IMAGO stops at general creaturely resemblance, order, intelligibility, relation, consciousness, agency, and moral goodness; it does not license any specific phase-transition dynamics, chi-field, critical exponents, RNG bias, GCP statistics, or historical anomaly interpretation."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

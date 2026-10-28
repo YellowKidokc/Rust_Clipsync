@@ -1,0 +1,54 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D3.1",
+ "claim_id": "D3.1",
+ "type": "CLAIM",
+ "text": "Coherence C[χ] is defined as a measure of organized information density.",
+ "source": {
+  "file": "source/nodes/D3.1.yaml",
+  "quote": "Coherence C[χ] is defined as a measure of organized information density.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "state",
+  "composition_level": 0,
+  "claim_role": "definition",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "An information-theoretic premise defining and validating organized information density as a measure of coherence.; A physical bridge premise mapping coherence to low entropy/negentropy, quantum coherence, Shannon information, and signal-to-noise ratio.; An operational measurement protocol specifying formula, units, and domain limits.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D3.1.yaml#D3.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "D3.1",
+ "is_main": true,
+ "strength": "By definition",
+ "conditional_premises": [
+  "An information-theoretic premise defining and validating organized information density as a measure of coherence.",
+  "A physical bridge premise mapping coherence to low entropy/negentropy, quantum coherence, Shannon information, and signal-to-noise ratio.",
+  "An operational measurement protocol specifying formula, units, and domain limits."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "D3.1/Q15/0023",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "A0+P-IMAGO can at most ground that creaturely order/intelligibility is real and derivative; it cannot yield the specific definition C[χ]=measure of organized information density or any entropy/quantum/Shannon mapping."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file is a definition rather than a precise theorem, and it presents several non-formally-specified candidate formulas (KL divergence, Tononi Φ, spectral power law, inverse relations to K and Gibbs entropy) without a common domain, normalization, measure, partition model, or proof of equivalence. Encoding any one formula would substitute an easier side claim, while encoding their equivalence would require assumptions not stated. Hence the main definitional claim is not checkable as a premises",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

@@ -1,0 +1,818 @@
+{
+  "id": "A14.1",
+  "title": "A14.1 Dynamic Dark Energy",
+  "proposal_only": true,
+  "context_parent": "A0",
+  "tags": {
+    "system_part": "observable",
+    "composition_level": 1,
+    "claim_role": "empirical hypothesis",
+    "warrant": {
+      "status": "unverified",
+      "kind": "observation"
+    },
+    "register": "physical"
+  },
+  "old_mode": "HY_EVIDENCE",
+  "raw_csv_mode": "HY_EVIDENCE",
+  "proposed_mode": "HY_EVIDENCE",
+  "tier": 12,
+  "node_lifecycle": "merged",
+  "ruling": "DAVID-2026-10-25-NODE-RULINGS",
+  "merged_into": "E14.1",
+  "node_vs_claim_vs_proof": "Node specifies a structure; claims below own their warrants; proofs are exact scoped receipts.",
+  "sources": {
+    "v3_line": "A14.1 Dynamic Dark Energy        ← BC6           [HY_EVIDENCE]",
+    "current_root_record": "sources\\current_nodes\\A14_1_Dynamic_Dark_Energy.md",
+    "october_review": "sources\\october_review\\AX-105.json"
+  },
+  "dependencies": {
+    "source_declared": [
+      "BC6"
+    ],
+    "source_relation": "depends_on",
+    "proposed_primary_support": [],
+    "stance_ceiling_sources": [],
+    "merge_scope": "Incoming claims retain their own premises; source and current-root graph versions are not silently equated."
+  },
+  "coherences": {
+    "C-info": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-moral": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-spiritual": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    }
+  },
+  "claims": [
+    {
+      "id": "A14.1::main",
+      "statement": "Dark energy is a dynamical χ-field with time-varying energy density rather than a static cosmological constant, so the universe evolves under χ-modified Friedmann dynamics.",
+      "tags": {
+        "system_part": "observable",
+        "composition_level": 1,
+        "claim_role": "empirical hypothesis",
+        "warrant": {
+          "status": "unverified",
+          "kind": "observation"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+      "proof_refs": [],
+      "conditional_premises": [
+        "T13.1 Dark Energy as Chi Potential",
+        "a scalar-field cosmological model specifying V(χ) and initial conditions",
+        "empirical constraints on dark-energy dynamics and equation of state",
+        "a premise identifying the Logos Field with the physical χ-field",
+        "the Master Equation E2.1 and Harvest/consciousness teleology"
+      ],
+      "classification_proposal": {
+        "logical_role": "EMPIRICAL HYPOTHESIS",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "proposal only; no new frozen vocabulary applied"
+      },
+      "Q13": {
+        "register": "physical",
+        "domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ]
+      },
+      "Q14": {
+        "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+        "coherence_equality_assumed": false
+      },
+      "Q15": [
+        {
+          "id": "A14.1/Q15/0133",
+          "node": "A14.1",
+          "kind": "definitional conflict",
+          "Q16": "RESOLVED",
+          "scope": "duplicate node identity",
+          "reason": "David merged the source into E14.1; retain its claim and provenance at that destination. Warrant is not upgraded.",
+          "evidence": [
+            "sources/rulings/ruling_queue.json"
+          ]
+        },
+        {
+          "id": "A14.1/Q15/0134",
+          "node": "A14.1",
+          "kind": "missing bridge",
+          "Q16": "OPEN",
+          "scope": "original core claim/application",
+          "reason": "The derivation stops at the move from general creaturely reflection/order to a particular dark-energy model: A0 + P-IMAGO do not specify χ, V(χ), the Friedmann equation, an equation of state, or the Logos Field identification.",
+          "evidence": [
+            "sources\\october_review\\AX-105.json"
+          ]
+        }
+      ],
+      "Q16": {
+        "A14.1/Q15/0133": "RESOLVED",
+        "A14.1/Q15/0134": "OPEN"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "claim_scoped_dependencies": [
+        "BC6"
+      ],
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "A14.1::main"
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A14.1::split-01",
+      "statement": "The χ-field is identical to the Logos Field.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-105.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A14.1::split-02",
+      "statement": "The value of dark energy is determined by the Master Equation E2.1.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-105.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A14.1::split-03",
+      "statement": "The vacuum catastrophe is resolved by identifying dark energy as Logos Field energy.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-105.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A14.1::split-04",
+      "statement": "The expansion rate is perfectly tuned to allow the evolution of consciousness and the actualization of the Harvest.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-105.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A14.1::split-05",
+      "statement": "Dark energy is Global Grace acting on the metric of spacetime.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-105.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A14.1::split-06",
+      "statement": "A14.1 is the Axiom of Sustenance/Open Future and proves the universe is a Living Process.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-105.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A14.1::split-07",
+      "statement": "The expansion rate is tuned to the requirements of Information Integration of its inhabitants.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-105.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A14.1::split-08",
+      "statement": "The Logos model provides the only coherent solution to cosmic fine-tuning and the coincidence problem.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-105.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A14.1::split-09",
+      "statement": "Dark energy ensures the stability of the Event Record.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-105.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A14.1::split-10",
+      "statement": "The history of the universe is connected to the history of salvation at the cosmological scale.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-105.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A14.1::split-11",
+      "statement": "Quintessence is in near-perfect alignment because its scalar field is the Logos Field and expansion is teleological.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-105.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A14.1::split-12",
+      "statement": "If A14.1 fails, the vacuum catastrophe remains the greatest failure of human logic and the salvation-history connection is broken.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-105.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    }
+  ],
+  "Q13": {
+    "register": "physical",
+    "domains": [
+      "COSMOLOGICAL",
+      "PHYSICAL"
+    ]
+  },
+  "Q14": {
+    "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+    "coherence_equality_assumed": false
+  },
+  "Q15": [
+    {
+      "id": "A14.1/Q15/0133",
+      "node": "A14.1",
+      "kind": "definitional conflict",
+      "Q16": "RESOLVED",
+      "scope": "duplicate node identity",
+      "reason": "David merged the source into E14.1; retain its claim and provenance at that destination. Warrant is not upgraded.",
+      "evidence": [
+        "sources/rulings/ruling_queue.json"
+      ]
+    },
+    {
+      "id": "A14.1/Q15/0134",
+      "node": "A14.1",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "original core claim/application",
+      "reason": "The derivation stops at the move from general creaturely reflection/order to a particular dark-energy model: A0 + P-IMAGO do not specify χ, V(χ), the Friedmann equation, an equation of state, or the Logos Field identification.",
+      "evidence": [
+        "sources\\october_review\\AX-105.json"
+      ]
+    },
+    {
+      "id": "A14.1/Q15/Z3-result-00",
+      "node": "A14.1",
+      "kind": "type mismatch",
+      "Q16": "OPEN",
+      "scope": "Verification process; no domain verdict: Non-static chi-field dark energy under chi-modified Friedmann dynamics.",
+      "reason": "Z3Exception: Z3 sort expected Faithfulness to the intended domain is a separate obligation.",
+      "evidence": [
+        "sources/z3/03_PROMISING/results.json"
+      ]
+    }
+  ],
+  "Q16": {
+    "A14.1/Q15/0133": "RESOLVED",
+    "A14.1/Q15/0134": "OPEN",
+    "A14.1/Q15/Z3-result-00": "OPEN"
+  },
+  "ports": [],
+  "open_interface_obligation": "This rerun is a classified source/claim proposal. A full executable six-field port contract is not claimed for every older node.",
+  "reason": [
+    "David merge -> E14.1"
+  ],
+  "soundness": {
+    "bin": "UNCHECKED",
+    "named_premises": [],
+    "receipt": [
+      "sources/z3/03_PROMISING/results.json"
+    ],
+    "denial_cost": null,
+    "scope_note": "No holds/fails call manufactured for an untested main claim.",
+    "why": "Original domain claim lacks a complete faithful, source-matched test or derivation; retained fragment receipts do not establish it.",
+    "Z3_source_verdicts": [
+      "ERROR"
+    ],
+    "ranking_snapshot": {
+      "score": 2,
+      "id": "AX-105",
+      "title": "Dynamic Dark Energy",
+      "register": "physical",
+      "a0": "empirical",
+      "math": "yes",
+      "z3": "ERROR",
+      "why": "math holds",
+      "core": "Dark energy is a dynamical χ-field with time-varying energy density rather than a static cosmological constant, so the universe evolves under χ-modified Friedma"
+    },
+    "A0_IMAGO_verdict": "INDEPENDENT_EMPIRICAL_INPUT",
+    "conflicts": [],
+    "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. "
+  },
+  "grade": {
+    "match_scope": null,
+    "warrant": "unverified",
+    "outcome": null,
+    "canon_status": "open",
+    "note": "No holds/fails call manufactured for an untested main claim.",
+    "match_scope_applicable": false,
+    "assessed_claim_id": "A14.1::main"
+  },
+  "canon_rubric": {
+    "node": "A14.1",
+    "bin": "UNCHECKED",
+    "grade": {
+      "match_scope": null,
+      "warrant": "unverified",
+      "outcome": null,
+      "canon_status": "open",
+      "note": "No holds/fails call manufactured for an untested main claim.",
+      "match_scope_applicable": false,
+      "assessed_claim_id": "A14.1::main"
+    },
+    "criteria": {
+      "address": true,
+      "grade": false,
+      "receipt": false,
+      "ruling_authority": false,
+      "no_unresolved_conflict": false
+    },
+    "score": 1,
+    "meets_all_five": false,
+    "missing": [
+      "grade",
+      "receipt",
+      "ruling_authority",
+      "no_unresolved_conflict"
+    ],
+    "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+    "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+    "proposal_only": true
+  },
+  "follow_up_review": {
+    "proposal_only": true,
+    "soundness_row": {
+      "node": "A14.1",
+      "bin": "UNCHECKED",
+      "scope": "No holds/fails call manufactured for an untested main claim.",
+      "premises": [],
+      "receipt": [
+        "sources/z3/03_PROMISING/results.json"
+      ],
+      "denial_cost": null,
+      "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+      "canon_status": "open",
+      "conflicts": [],
+      "assessment_target": "No holds/fails call manufactured for an untested main claim.",
+      "main_statement": "Dark energy is a dynamical χ-field with time-varying energy density rather than a static cosmological constant, so the universe evolves under χ-modified Friedmann dynamics.",
+      "proposal_only": true,
+      "lead_summary": {},
+      "remaining_lead_ids": [],
+      "strength": "Conditional",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "A14.1::main"
+      },
+      "scope_warning": "Bin assesses the named target only; neither bundled claims nor domain identification inherit its proof. A written explanation is recorded as support at its source status."
+    },
+    "canon_rubric": {
+      "node": "A14.1",
+      "bin": "UNCHECKED",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "A14.1::main"
+      },
+      "criteria": {
+        "address": true,
+        "grade": false,
+        "receipt": false,
+        "ruling_authority": false,
+        "no_unresolved_conflict": false
+      },
+      "score": 1,
+      "meets_all_five": false,
+      "missing": [
+        "grade",
+        "receipt",
+        "ruling_authority",
+        "no_unresolved_conflict"
+      ],
+      "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+      "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+      "proposal_only": true
+    },
+    "leads": [],
+    "current_ruling": {
+      "decision": "merge",
+      "target": "E14.1"
+    },
+    "ruling_scope": "Existing disposition only; no new canon admission.",
+    "receipt_attachments": [],
+    "Q15_follow_up": []
+  }
+}

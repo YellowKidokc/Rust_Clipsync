@@ -1,0 +1,55 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "T4.1",
+ "claim_id": "T4.1",
+ "type": "CLAIM",
+ "text": "Physical laws are low-K descriptions generating high complexity.",
+ "source": {
+  "file": "source/nodes/T4.1.yaml",
+  "quote": "Physical laws are low-K descriptions generating high complexity.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "E4.1 Complexity-decrease under Chi; MDL/algorithmic information theory identifies physical laws as low-K descriptions; Action-principle/minimum-action physical modeling; Empirical evidence that physical laws generate high complexity",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/T4.1.yaml#T4.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "T4.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "E4.1 Complexity-decrease under Chi",
+  "MDL/algorithmic information theory identifies physical laws as low-K descriptions",
+  "Action-principle/minimum-action physical modeling",
+  "Empirical evidence that physical laws generate high complexity"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "T4.1/Q15/0039",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The step from P-IMAGO's general analogy of created order/intelligibility to the specific information-theoretic claim that physical laws are low-K/MDL descriptions; P-IMAGO explicitly excludes particular physical laws, equations, constants, and measurements."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

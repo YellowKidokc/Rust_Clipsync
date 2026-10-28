@@ -1,0 +1,50 @@
+{
+ "id": "E2.1",
+ "title": "E2.1 Master Equation 1st Form",
+ "lifecycle": "equation",
+ "tier": 3,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [
+  "A2.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "E2.1/Q15/0015",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "P-IMAGO licenses only analogical claims about creaturely order and intelligibility; it does not license the move to the specific equation χ = ∫(G·K)dΩ, to G/K/Ω as physical quantities, or to computational and measurable consequences."
+  }
+ ],
+ "ports": [],
+ "main": "E2.1",
+ "claims": [
+  "E2.1",
+  "E2.1::split-01",
+  "E2.1::split-02",
+  "E2.1::split-03",
+  "E2.1::split-04",
+  "E2.1::split-05",
+  "E2.1::split-06",
+  "E2.1::split-07",
+  "E2.1::split-08",
+  "E2.1::split-09",
+  "E2.1::split-10"
+ ],
+ "source": "source/nodes/E2.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

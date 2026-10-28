@@ -1,0 +1,809 @@
+{
+  "id": "T13.1",
+  "title": "T13.1 Dark Energy As χ Potential",
+  "proposal_only": true,
+  "context_parent": "A0",
+  "tags": {
+    "system_part": "rule",
+    "composition_level": 2,
+    "claim_role": "conjecture",
+    "warrant": {
+      "status": "unverified",
+      "kind": "proof"
+    },
+    "register": "physical"
+  },
+  "old_mode": "FW_EXTENDED",
+  "raw_csv_mode": "FW_EXTENDED",
+  "proposed_mode": "FW_EXTENDED",
+  "tier": 12,
+  "node_lifecycle": "theorem",
+  "ruling": null,
+  "merged_into": null,
+  "node_vs_claim_vs_proof": "Node specifies a structure; claims below own their warrants; proofs are exact scoped receipts.",
+  "sources": {
+    "v3_line": "T13.1 Dark Energy As χ Potential ← BC6           [FW_EXTENDED]",
+    "current_root_record": "sources\\current_nodes\\T13_1_Dark_Energy_As_Chi_Potential.md",
+    "october_review": "sources\\october_review\\AX-104.json"
+  },
+  "dependencies": {
+    "source_declared": [
+      "BC6"
+    ],
+    "source_relation": "depends_on",
+    "proposed_primary_support": [
+      "BC6"
+    ],
+    "stance_ceiling_sources": [],
+    "merge_scope": "Incoming claims retain their own premises; source and current-root graph versions are not silently equated."
+  },
+  "coherences": {
+    "C-info": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-moral": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-spiritual": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    }
+  },
+  "claims": [
+    {
+      "id": "T13.1::main",
+      "statement": "Dark energy is the vacuum potential energy of the chi-field (Logos Field).",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+      "proof_refs": [],
+      "conditional_premises": [
+        "E13.1 GR-QM bridge equation with a chi-field χ-tensor",
+        "Definition/assumption that the chi-field exists and has potential V(χ)",
+        "Assumption that Λ_bare = 0 or negligible",
+        "Assumption that the chi-field is spatially homogeneous at its vacuum χ0",
+        "Identification of observed dark energy with the chi-field's effective cosmological-constant contribution",
+        "Empirical dark-energy data (supernovae, CMB, BAO) to fix/fit Λ_obs and w",
+        "A separate theory linking χ-field fluctuations to consciousness"
+      ],
+      "classification_proposal": {
+        "logical_role": "CONJECTURE",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "proposal only; no new frozen vocabulary applied"
+      },
+      "Q13": {
+        "register": "physical",
+        "domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ]
+      },
+      "Q14": {
+        "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+        "coherence_equality_assumed": false
+      },
+      "Q15": [
+        {
+          "id": "T13.1/Q15/0132",
+          "node": "T13.1",
+          "kind": "missing bridge",
+          "Q16": "OPEN",
+          "scope": "original core claim/application",
+          "reason": "At the identification of the formal χ-field vacuum contribution κV(χ0) with observed dark energy; A0+P-IMAGO do not supply this bridge, and the record's own equations are sign/dimension inconsistent.",
+          "evidence": [
+            "sources\\october_review\\AX-104.json"
+          ]
+        }
+      ],
+      "Q16": {
+        "T13.1/Q15/0132": "OPEN"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "claim_scoped_dependencies": [
+        "BC6"
+      ],
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "T13.1::main"
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "T13.1::split-01",
+      "statement": "Λ_eff = (8πG/c^4)V(χ0) in the record's formal statement.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-104.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "T13.1::split-02",
+      "statement": "Λ_eff = Λ_bare + (8πGκ/c^4)V(χ0) and Λ_eff = Λ_bare + κV(χ0) are used inconsistently.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-104.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "T13.1::split-03",
+      "statement": "The chi-field potential is protected from large quantum corrections by a softly broken shift symmetry.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-104.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "T13.1::split-04",
+      "statement": "The chi-field vacuum value is set by an information/consciousness anthropic constraint.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-104.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "T13.1::split-05",
+      "statement": "The chi-field dynamically relaxes to produce the observed small vacuum energy.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-104.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "T13.1::split-06",
+      "statement": "The chi-field fluctuations produce consciousness; the same field underlies both cosmic acceleration and mind.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-104.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "T13.1::split-07",
+      "statement": "The dark-energy equation of state is w ≈ -1 and time variation satisfies |dotΛ/Λ| < 10^-10 yr^-1.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-104.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "T13.1::split-08",
+      "statement": "Spatial dark-energy variations may be measurable in high-consciousness regions.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-104.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "T13.1::split-09",
+      "statement": "The chi-field does not couple to electromagnetism and has only gravitational and consciousness interactions.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-104.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "T13.1::split-10",
+      "statement": "The chi-field resolves the cosmological constant problem.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-104.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    }
+  ],
+  "Q13": {
+    "register": "physical",
+    "domains": [
+      "COSMOLOGICAL",
+      "PHYSICAL"
+    ]
+  },
+  "Q14": {
+    "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+    "coherence_equality_assumed": false
+  },
+  "Q15": [
+    {
+      "id": "T13.1/Q15/0132",
+      "node": "T13.1",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "original core claim/application",
+      "reason": "At the identification of the formal χ-field vacuum contribution κV(χ0) with observed dark energy; A0+P-IMAGO do not supply this bridge, and the record's own equations are sign/dimension inconsistent.",
+      "evidence": [
+        "sources\\october_review\\AX-104.json"
+      ]
+    },
+    {
+      "id": "T13.1/Q15/Z3-00",
+      "node": "T13.1",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "Exact October Z3 component: Dark energy as the vacuum potential energy of the chi-field, stated as Λ_eff = (8πG/c^4)V(χ0) and later as Λ_eff = (8πGκ/c^4)V(χ0).",
+      "reason": "The main claim is not a single precise mathematical theorem suitable for a faithful Z3 encoding. It is primarily a physical identification, and the file itself alternates between incompatible formulas and admits sign-convention confusion. Encoding any one formula would require choosing definitions or corrections not consistently stated in the source.",
+      "evidence": [
+        "sources/z3/03_PROMISING/results.json"
+      ]
+    }
+  ],
+  "Q16": {
+    "T13.1/Q15/0132": "OPEN",
+    "T13.1/Q15/Z3-00": "OPEN"
+  },
+  "ports": [],
+  "open_interface_obligation": "This rerun is a classified source/claim proposal. A full executable six-field port contract is not claimed for every older node.",
+  "reason": [
+    "Source role, domain and October limitations separated; no unproved application promoted."
+  ],
+  "soundness": {
+    "bin": "UNCHECKED",
+    "named_premises": [],
+    "receipt": [
+      "sources/z3/03_PROMISING/results.json"
+    ],
+    "denial_cost": null,
+    "scope_note": "No holds/fails call manufactured for an untested main claim.",
+    "why": "Original domain claim lacks a complete faithful, source-matched test or derivation; retained fragment receipts do not establish it.",
+    "Z3_source_verdicts": [
+      "NOT_CHECKABLE"
+    ],
+    "ranking_snapshot": {
+      "score": 1,
+      "id": "AX-104",
+      "title": "Dark Energy As Chi Potential",
+      "register": "physical",
+      "a0": "compatible",
+      "math": "yes_with_missing_premise",
+      "z3": "NOT_CHECKABLE",
+      "why": "math holds +premise",
+      "core": "Dark energy is the vacuum potential energy of the chi-field (Logos Field)."
+    },
+    "A0_IMAGO_verdict": "COMPATIBLE_NOT_DERIVED",
+    "conflicts": [],
+    "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is not a single precise mathematical theorem suitable for a faithful Z3 encoding. It is primarily a physical identification, and the file itself alternates between incompatible formulas and admits sign-convention confusion. Encoding any one formula would require choosing definitions or corrections not consistently stated in the source."
+  },
+  "grade": {
+    "match_scope": null,
+    "warrant": "unverified",
+    "outcome": null,
+    "canon_status": "open",
+    "note": "No holds/fails call manufactured for an untested main claim.",
+    "match_scope_applicable": false,
+    "assessed_claim_id": "T13.1::main"
+  },
+  "canon_rubric": {
+    "node": "T13.1",
+    "bin": "UNCHECKED",
+    "grade": {
+      "match_scope": null,
+      "warrant": "unverified",
+      "outcome": null,
+      "canon_status": "open",
+      "note": "No holds/fails call manufactured for an untested main claim.",
+      "match_scope_applicable": false,
+      "assessed_claim_id": "T13.1::main"
+    },
+    "criteria": {
+      "address": true,
+      "grade": false,
+      "receipt": false,
+      "ruling_authority": false,
+      "no_unresolved_conflict": false
+    },
+    "score": 1,
+    "meets_all_five": false,
+    "missing": [
+      "grade",
+      "receipt",
+      "ruling_authority",
+      "no_unresolved_conflict"
+    ],
+    "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+    "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+    "proposal_only": true
+  },
+  "follow_up_review": {
+    "proposal_only": true,
+    "soundness_row": {
+      "node": "T13.1",
+      "bin": "UNCHECKED",
+      "scope": "No holds/fails call manufactured for an untested main claim.",
+      "premises": [],
+      "receipt": [
+        "sources/z3/03_PROMISING/results.json"
+      ],
+      "denial_cost": null,
+      "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is not a single precise mathematical theorem suitable for a faithful Z3 encoding. It is primarily a physical identification, and the file itself alternates between incompatible formulas and admits sign-convention confusion. Encoding any one formula would require choosing definitions or corrections not consistently stated in the source.",
+      "canon_status": "open",
+      "conflicts": [],
+      "assessment_target": "No holds/fails call manufactured for an untested main claim.",
+      "main_statement": "Dark energy is the vacuum potential energy of the chi-field (Logos Field).",
+      "proposal_only": true,
+      "lead_summary": {
+        "REAL GAP": 2
+      },
+      "remaining_lead_ids": [
+        "LEAD-306",
+        "LEAD-307"
+      ],
+      "strength": "Conditional",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "T13.1::main"
+      },
+      "scope_warning": "Bin assesses the named target only; neither bundled claims nor domain identification inherit its proof. A written explanation is recorded as support at its source status."
+    },
+    "canon_rubric": {
+      "node": "T13.1",
+      "bin": "UNCHECKED",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "T13.1::main"
+      },
+      "criteria": {
+        "address": true,
+        "grade": false,
+        "receipt": false,
+        "ruling_authority": false,
+        "no_unresolved_conflict": false
+      },
+      "score": 1,
+      "meets_all_five": false,
+      "missing": [
+        "grade",
+        "receipt",
+        "ruling_authority",
+        "no_unresolved_conflict"
+      ],
+      "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+      "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+      "proposal_only": true
+    },
+    "leads": [
+      {
+        "lead_id": "LEAD-306",
+        "node": "T13.1",
+        "record": "AX-104",
+        "required_key": "chi field exists",
+        "origin": "no-supplier",
+        "input_line": 318,
+        "class": "REAL GAP",
+        "definition_used": "The proposed χ-field is physically instantiated, beyond being a declared scalar-field model.",
+        "definition_status": "requirement defined; supply not established in inspected sources",
+        "supplier": null,
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\D2_1_Logos_Field_Definition.md",
+          "line": 28,
+          "text": "χ: M → ℝ (scalar field over manifold M)"
+        },
+        "missing_or_reason": "An independently supported physical existence premise/empirical identification is required; a definition cannot supply existence of its physical referent.",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\T13_1_Dark_Energy_As_Chi_Potential.md",
+          "line": 23,
+          "text": "Dark energy is the vacuum potential energy of the chi-field."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-104_T13.1.md"
+        ],
+        "supplied_at_recorded_warrant_only": false,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\03_PROMISING\\104_T13.1_Dark-Energy-As-Chi-Potential.z3spec.json",
+            "checkable": false,
+            "component": "Dark energy as the vacuum potential energy of the chi-field, stated as Λ_eff = (8πG/c^4)V(χ0) and later as Λ_eff = (8πGκ/c^4)V(χ0).",
+            "faithfulness_note": "The main claim is not a single precise mathematical theorem suitable for a faithful Z3 encoding. It is primarily a physical identification, and the file itself alternates between incompatible formulas and admits sign-convention confusion. Encoding any one formula would require choosing definitions or corrections not consistently stated in the source.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "REAL GAP",
+        "follow_up_evidence": [],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "closes_dependency": false,
+        "formal_proof_added_by_this_classification": false
+      },
+      {
+        "lead_id": "LEAD-307",
+        "node": "T13.1",
+        "record": "AX-104",
+        "required_key": "chi field physically measurable",
+        "origin": "no-supplier",
+        "input_line": 319,
+        "class": "REAL GAP",
+        "definition_used": "A calibrated observable distinguishes the proposed physical χ-field from alternatives.",
+        "definition_status": "requirement defined; supply not established in inspected sources",
+        "supplier": null,
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\D2_1_Logos_Field_Definition.md",
+          "line": 28,
+          "text": "χ: M → ℝ (scalar field over manifold M)"
+        },
+        "missing_or_reason": "An empirical bridge/protocol with units, calibration, predictions, and discrimination is needed. D2.1's formal field definition and the existing protocols do not supply that measurement.",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\T13_1_Dark_Energy_As_Chi_Potential.md",
+          "line": 23,
+          "text": "Dark energy is the vacuum potential energy of the chi-field."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-104_T13.1.md"
+        ],
+        "supplied_at_recorded_warrant_only": false,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\03_PROMISING\\104_T13.1_Dark-Energy-As-Chi-Potential.z3spec.json",
+            "checkable": false,
+            "component": "Dark energy as the vacuum potential energy of the chi-field, stated as Λ_eff = (8πG/c^4)V(χ0) and later as Λ_eff = (8πGκ/c^4)V(χ0).",
+            "faithfulness_note": "The main claim is not a single precise mathematical theorem suitable for a faithful Z3 encoding. It is primarily a physical identification, and the file itself alternates between incompatible formulas and admits sign-convention confusion. Encoding any one formula would require choosing definitions or corrections not consistently stated in the source.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "REAL GAP",
+        "follow_up_evidence": [],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "closes_dependency": false,
+        "formal_proof_added_by_this_classification": false
+      }
+    ],
+    "current_ruling": null,
+    "ruling_scope": "Existing disposition only; no new canon admission.",
+    "receipt_attachments": [],
+    "Q15_follow_up": []
+  }
+}

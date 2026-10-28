@@ -1,0 +1,76 @@
+{
+ "id": "JUSTIFICATION-001",
+ "title": "JUSTIFICATION-001",
+ "lifecycle": "working_proposal",
+ "tier": null,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "CONDITIONAL",
+  "named_premises": [
+   "Legitimate Judge authorization, received response and satisfied cost; legal standing declaration is distinct from growth."
+  ],
+  "denial_cost": null,
+  "checkable_by": null,
+  "receipt": [
+   "Justification.idempotent",
+   "sources/native/JUSTIFICATION_001/Justification.lean"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "JUSTIFICATION-001/Q15/0247",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "actual domain instantiation",
+   "reason": "The finite native model has scoped receipts; theological interpretation and empirical case verification remain separate."
+  }
+ ],
+ "ports": [
+  {
+   "agent": "legitimate Judge",
+   "boundary": "Eligibility required for change; unauthorized actor rejected",
+   "input": "Person, response/cost preconditions; legitimate Judge invokes",
+   "output": "Righteous standing if eligible, otherwise unchanged; once declared no second increment",
+   "evidence": [
+    "legal_model.py:declare",
+    "Justification.lean",
+    "David ruling",
+    "Romans 5:1"
+   ]
+  }
+ ],
+ "main": "JUSTIFICATION-001",
+ "claims": [
+  "JUSTIFICATION-001",
+  "JUSTIFICATION-001::native-1",
+  "JUSTIFICATION-001::native-2",
+  "JUSTIFICATION-001::native-3",
+  "JUSTIFICATION-001::native-4",
+  "JUSTIFICATION-001::native-5",
+  "JUSTIFICATION-001::native-6",
+  "JUSTIFICATION-001::native-7",
+  "JUSTIFICATION-001::native-8",
+  "JUSTIFICATION-001::native-9",
+  "JUSTIFICATION-001::native-10",
+  "JUSTIFICATION-001::native-11",
+  "JUSTIFICATION-001::native-12",
+  "JUSTIFICATION-001::receipt::Law5JusticeMercy.justice_conserves",
+  "JUSTIFICATION-001::receipt::Law5JusticeMercy.mercy_conserves",
+  "JUSTIFICATION-001::receipt::Law5JusticeMercy.cross_conserves",
+  "JUSTIFICATION-001::receipt::Law5JusticeMercy.justice_unique",
+  "JUSTIFICATION-001::receipt::Law5JusticeMercy.mercy_unique",
+  "JUSTIFICATION-001::receipt::Law5JusticeMercy.cross_unique",
+  "JUSTIFICATION-001::receipt::Law5JusticeMercy.cross_maximizes_both",
+  "JUSTIFICATION-001::receipt::Law5JusticeMercy.vengeance_not_conserved",
+  "JUSTIFICATION-001::receipt::Law5JusticeMercy.enabling_not_conserved",
+  "JUSTIFICATION-001::receipt::Law5JusticeMercy.not_cross_fails_condition"
+ ],
+ "source": "source/nodes/JUSTIFICATION-001.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

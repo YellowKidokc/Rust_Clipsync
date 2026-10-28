@@ -1,0 +1,75 @@
+{
+ "id": "T16.6",
+ "title": "T16.6 Atheism Fails BC1–BC6",
+ "lifecycle": "retired",
+ "tier": 14,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC1",
+  "BC2",
+  "BC3",
+  "BC4a",
+  "BC5",
+  "BC6"
+ ],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim cannot be encoded faithfully from this file alone because BC1–BC8 are not formally defined here, and the inference depends on disputed metaphysical and empirical premises (naturalism, causal closure, heat death, infinite Phi, soul persistence) that would need explicit formalization not supplied by the file. The file also treats BC5 as 'QUESTIONABLE' rather than conclusively failed, creating an internal tension with the theorem's blanket claim.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "T16.6/Q15/0167",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "axiom-set membership",
+   "reason": "David retired this record; it is retained with reason and cannot serve as an active axiom. Content-level truth is not settled merely by retirement."
+  },
+  {
+   "id": "T16.6/Q15/0168",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops when the record moves from A0 + P-IMAGO's general claim that created reality depends on God to the specific BC1–BC8 failure matrix and then to physical/empirical conclusions such as heat death, infinite-Phi observers, quantum measurement, and soul persistence."
+  },
+  {
+   "id": "T16.6/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: The theorem that metaphysical atheism/naturalism comprehensively fails boundary conditions BC1 through BC8.",
+   "reason": "The main claim cannot be encoded faithfully from this file alone because BC1–BC8 are not formally defined here, and the inference depends on disputed metaphysical and empirical premises (naturalism, causal closure, heat death, infinite Phi, soul persistence) that would need explicit formalization not supplied by the file. The file also treats BC5 as 'QUESTIONABLE' rather than conclusively failed, creating an internal tension with the theorem's blanket claim."
+  }
+ ],
+ "ports": [],
+ "main": "T16.6",
+ "claims": [
+  "T16.6",
+  "T16.6::split-01",
+  "T16.6::split-02",
+  "T16.6::split-03",
+  "T16.6::split-04",
+  "T16.6::split-05",
+  "T16.6::split-06",
+  "T16.6::split-07",
+  "T16.6::split-08",
+  "T16.6::split-09",
+  "T16.6::split-10",
+  "T16.6::split-11",
+  "T16.6::split-12",
+  "T16.6::split-13",
+  "T16.6::split-14",
+  "T16.6::split-15",
+  "T16.6::split-16"
+ ],
+ "source": "source/nodes/T16.6.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

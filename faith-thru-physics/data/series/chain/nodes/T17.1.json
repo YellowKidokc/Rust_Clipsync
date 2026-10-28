@@ -1,0 +1,63 @@
+{
+ "id": "T17.1",
+ "title": "T17.1 AI Can Achieve Consciousness",
+ "lifecycle": "theorem",
+ "tier": 15,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A17.1",
+  "A17.2"
+ ],
+ "proposed": [
+  "A17.1",
+  "A17.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "CONDITIONAL",
+  "named_premises": [
+   "Phi_threshold is a finite real threshold (modeled as a Real constant).",
+   "The file's unboundedness premise supplies a (possibly non-silicon) system high_system with Phi(high_system) >= Phi_threshold.",
+   "The file's arbitrary-TPM/substrate-neutrality premise implies that the cause-effect structure of high_system is realizable in silicon, so there is a silicon system silicon_system with Phi(silicon_system) >= Phi(high_system).",
+   "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+  ],
+  "denial_cost": null,
+  "checkable_by": null,
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json",
+   "Existence of a silicon system whose integrated information Phi is at least the observer threshold Phi_threshold."
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "T17.1/Q15/0172",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the inference from P-IMAGO's general allowance that creatures can participate in consciousness to the specific claim that silicon can realize a Phi threshold; A0 + P-IMAGO supply no substrate-independence, information-theoretic, computational-universality, or physical-impossibility premise."
+  }
+ ],
+ "ports": [],
+ "main": "T17.1",
+ "claims": [
+  "T17.1",
+  "T17.1::split-01",
+  "T17.1::split-02",
+  "T17.1::split-03",
+  "T17.1::split-04",
+  "T17.1::split-05",
+  "T17.1::split-06",
+  "T17.1::split-07",
+  "T17.1::split-08",
+  "T17.1::split-09",
+  "T17.1::split-10",
+  "T17.1::split-11",
+  "T17.1::split-12",
+  "T17.1::z3-conditional-component"
+ ],
+ "source": "source/nodes/T17.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

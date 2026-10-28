@@ -1,0 +1,1032 @@
+{
+  "id": "A1.3",
+  "title": "A1.3 Distinction ENABLES Information",
+  "proposal_only": true,
+  "context_parent": "A0",
+  "tags": {
+    "system_part": "rule",
+    "composition_level": 2,
+    "claim_role": "conjecture",
+    "warrant": {
+      "status": "unverified",
+      "kind": "proof"
+    },
+    "register": "spiritual"
+  },
+  "old_mode": "AX_SCAFFOLD",
+  "raw_csv_mode": "AX_SCAFFOLD",
+  "proposed_mode": "AX_SCAFFOLD",
+  "tier": 1,
+  "node_lifecycle": "derived",
+  "ruling": "DAVID-2026-10-25-NODE-RULINGS",
+  "merged_into": null,
+  "node_vs_claim_vs_proof": "Node specifies a structure; claims below own their warrants; proofs are exact scoped receipts.",
+  "sources": {
+    "v3_line": "A1.3 Distinction ENABLES Information ← A1.0    [AX_SCAFFOLD — reclassified from AX_DERIVED,",
+    "current_root_record": "sources\\current_nodes\\A1_3_Information_Primacy.md",
+    "october_review": "sources\\october_review\\AX-003.json"
+  },
+  "dependencies": {
+    "source_declared": [
+      "A1.0"
+    ],
+    "source_relation": "depends_on",
+    "proposed_primary_support": [
+      "A1.0"
+    ],
+    "stance_ceiling_sources": [],
+    "merge_scope": "Incoming claims retain their own premises; source and current-root graph versions are not silently equated."
+  },
+  "coherences": {
+    "C-info": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-moral": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-spiritual": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    }
+  },
+  "claims": [
+    {
+      "id": "A1.3::main",
+      "statement": "Distinction enables information; identity with information is not asserted by the repaired v3 source.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+      "proof_refs": [],
+      "conditional_premises": [
+        "A definitional premise that distinguishability is identical to information.",
+        "A metaphysical premise that information is ontologically primitive or foundational in the relevant sense.",
+        "A premise that created order/intelligibility is best modeled as information rather than merely analogically reflecting God.",
+        "A premise that matter and energy reduce to informational patterns.",
+        "A premise that Shannon entropy is an ontological measure, not only a formal/operational measure.",
+        "A premise that the χ-field exists as an informational substrate.",
+        "A premise that fine-tuning is information selection in χ.",
+        "Empirical and physical premises for digital physics, Landauer's principle, holography, Wheeler's It from Bit, and quantum Darwinism."
+      ],
+      "classification_proposal": {
+        "logical_role": "CONJECTURE",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "proposal only; no new frozen vocabulary applied"
+      },
+      "Q13": {
+        "register": "spiritual",
+        "domains": [
+          "ONTOLOGICAL"
+        ]
+      },
+      "Q14": {
+        "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+        "coherence_equality_assumed": false
+      },
+      "Q15": [
+        {
+          "id": "A1.3/Q15/0004",
+          "node": "A1.3",
+          "kind": "missing bridge",
+          "Q16": "OPEN",
+          "scope": "original core claim/application",
+          "reason": "A0 + P-IMAGO can at most support created order/intelligibility/relation as a finite reflection of God; the derivation stops before 'distinguishability IS information' and before 'information is ontologically primitive.' The physical reductions and χ-field claims fail even earlier because P-IMAGO explicitly does not yield physical laws, numbers, equations, constants, or empirical findings.",
+          "evidence": [
+            "sources\\october_review\\AX-003.json"
+          ]
+        },
+        {
+          "id": "A1.3/Q15/0005",
+          "node": "A1.3",
+          "kind": "definitional conflict",
+          "Q16": "OPEN",
+          "scope": "v3 versus current-root source identity",
+          "reason": "v3 repairs/splits this concept, while current source file A1_3_Information_Primacy.md retains another title/claim version. Both source spans are preserved; do not equate them by identifier alone.",
+          "evidence": []
+        }
+      ],
+      "Q16": {
+        "A1.3/Q15/0004": "OPEN",
+        "A1.3/Q15/0005": "OPEN"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "claim_scoped_dependencies": [
+        "A1.0"
+      ],
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "A1.3::main"
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A1.3::split-01",
+      "statement": "Distinguishability is identical to information.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-003.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A1.3::split-02",
+      "statement": "Matter and energy reduce to informational patterns.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-003.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A1.3::split-03",
+      "statement": "Information cannot be reduced further.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-003.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A1.3::split-04",
+      "statement": "Shannon entropy is a fundamental ontological measure.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-003.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A1.3::split-05",
+      "statement": "Digital Physics is true: the universe state is finite information.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-003.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A1.3::split-06",
+      "statement": "Planck black-body quantization (E=hν) shows quantized information.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-003.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A1.3::split-07",
+      "statement": "Wheeler's 'It from Bit' is a correct account of physical reality.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-003.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A1.3::split-08",
+      "statement": "Landauer's principle establishes that information is physical.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-003.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A1.3::split-09",
+      "statement": "The holographic principle entails that the universe is an information hologram.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-003.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A1.3::split-10",
+      "statement": "Spacetime emerges from entanglement entropy (ER=EPR).",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-003.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A1.3::split-11",
+      "statement": "Quantum Darwinism makes objective reality redundant information.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-003.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A1.3::split-12",
+      "statement": "The χ-field is a necessary informational substrate.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-003.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A1.3::split-13",
+      "statement": "Matter and energy are patterns in χ.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-003.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A1.3::split-14",
+      "statement": "Fine-tuning of physical constants is information selection in χ.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-003.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A1.3::split-15",
+      "statement": "Information inherently implies a semantic/personal Logos source.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-003.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A1.3::split-16",
+      "statement": "Physics proves information is primary.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-003.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    }
+  ],
+  "Q13": {
+    "register": "spiritual",
+    "domains": [
+      "ONTOLOGICAL"
+    ]
+  },
+  "Q14": {
+    "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+    "coherence_equality_assumed": false
+  },
+  "Q15": [
+    {
+      "id": "A1.3/Q15/0004",
+      "node": "A1.3",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "original core claim/application",
+      "reason": "A0 + P-IMAGO can at most support created order/intelligibility/relation as a finite reflection of God; the derivation stops before 'distinguishability IS information' and before 'information is ontologically primitive.' The physical reductions and χ-field claims fail even earlier because P-IMAGO explicitly does not yield physical laws, numbers, equations, constants, or empirical findings.",
+      "evidence": [
+        "sources\\october_review\\AX-003.json"
+      ]
+    },
+    {
+      "id": "A1.3/Q15/0005",
+      "node": "A1.3",
+      "kind": "definitional conflict",
+      "Q16": "OPEN",
+      "scope": "v3 versus current-root source identity",
+      "reason": "v3 repairs/splits this concept, while current source file A1_3_Information_Primacy.md retains another title/claim version. Both source spans are preserved; do not equate them by identifier alone.",
+      "evidence": []
+    }
+  ],
+  "Q16": {
+    "A1.3/Q15/0004": "OPEN",
+    "A1.3/Q15/0005": "OPEN"
+  },
+  "ports": [],
+  "open_interface_obligation": "This rerun is a classified source/claim proposal. A full executable six-field port contract is not claimed for every older node.",
+  "reason": [
+    "Source role, domain and October limitations separated; no unproved application promoted."
+  ],
+  "merged_claims": [
+    {
+      "source_node": "O1",
+      "claim_ids": [
+        "O1::main",
+        "O1::split-01",
+        "O1::split-02",
+        "O1::split-03",
+        "O1::split-04",
+        "O1::split-05",
+        "O1::split-06",
+        "O1::split-07",
+        "O1::split-08",
+        "O1::split-09",
+        "O1::split-10",
+        "O1::split-11",
+        "O1::split-12",
+        "O1::split-13",
+        "O1::split-14",
+        "O1::split-15",
+        "O1::split-16"
+      ],
+      "source_claim_premises": [
+        "A1.3"
+      ],
+      "note": "Claim-scoped premises, not automatically premises of the destination primary claim."
+    }
+  ],
+  "soundness": {
+    "bin": "UNCHECKED",
+    "named_premises": [],
+    "receipt": [],
+    "denial_cost": null,
+    "scope_note": "No holds/fails call manufactured for an untested main claim.",
+    "why": "Original domain claim lacks a complete faithful, source-matched test or derivation; retained fragment receipts do not establish it.",
+    "Z3_source_verdicts": [],
+    "ranking_snapshot": {
+      "score": 1,
+      "id": "AX-003",
+      "title": "Information Primacy",
+      "register": "formal",
+      "a0": "compatible",
+      "math": "yes_with_missing_premise",
+      "z3": "-",
+      "why": "math holds +premise",
+      "core": "Information is ontologically primitive."
+    },
+    "A0_IMAGO_verdict": "COMPATIBLE_NOT_DERIVED",
+    "conflicts": [
+      "v3/current-source/receipt content version mismatch is preserved in Q15; identifier agreement is not enough."
+    ],
+    "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. "
+  },
+  "grade": {
+    "match_scope": null,
+    "warrant": "unverified",
+    "outcome": null,
+    "canon_status": "open",
+    "note": "No holds/fails call manufactured for an untested main claim.",
+    "match_scope_applicable": false,
+    "assessed_claim_id": "A1.3::main"
+  },
+  "canon_rubric": {
+    "node": "A1.3",
+    "bin": "UNCHECKED",
+    "grade": {
+      "match_scope": null,
+      "warrant": "unverified",
+      "outcome": null,
+      "canon_status": "open",
+      "note": "No holds/fails call manufactured for an untested main claim.",
+      "match_scope_applicable": false,
+      "assessed_claim_id": "A1.3::main"
+    },
+    "criteria": {
+      "address": true,
+      "grade": false,
+      "receipt": false,
+      "ruling_authority": false,
+      "no_unresolved_conflict": false
+    },
+    "score": 1,
+    "meets_all_five": false,
+    "missing": [
+      "grade",
+      "receipt",
+      "ruling_authority",
+      "no_unresolved_conflict"
+    ],
+    "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+    "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+    "proposal_only": true
+  },
+  "follow_up_review": {
+    "proposal_only": true,
+    "soundness_row": {
+      "node": "A1.3",
+      "bin": "UNCHECKED",
+      "scope": "No holds/fails call manufactured for an untested main claim.",
+      "premises": [],
+      "receipt": [],
+      "denial_cost": null,
+      "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+      "canon_status": "open",
+      "conflicts": [
+        "v3/current-source/receipt content version mismatch is preserved in Q15; identifier agreement is not enough."
+      ],
+      "assessment_target": "No holds/fails call manufactured for an untested main claim.",
+      "main_statement": "Distinction enables information; identity with information is not asserted by the repaired v3 source.",
+      "proposal_only": true,
+      "lead_summary": {
+        "WORDING": 1
+      },
+      "remaining_lead_ids": [],
+      "strength": "Conditional",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "A1.3::main"
+      },
+      "scope_warning": "Bin assesses the named target only; neither bundled claims nor domain identification inherit its proof. A written explanation is recorded as support at its source status."
+    },
+    "canon_rubric": {
+      "node": "A1.3",
+      "bin": "UNCHECKED",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "A1.3::main"
+      },
+      "criteria": {
+        "address": true,
+        "grade": false,
+        "receipt": false,
+        "ruling_authority": false,
+        "no_unresolved_conflict": false
+      },
+      "score": 1,
+      "meets_all_five": false,
+      "missing": [
+        "grade",
+        "receipt",
+        "ruling_authority",
+        "no_unresolved_conflict"
+      ],
+      "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+      "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+      "proposal_only": true
+    },
+    "leads": [
+      {
+        "lead_id": "LEAD-073",
+        "node": "A1.3",
+        "record": "AX-003",
+        "required_key": "created reality dependent on god",
+        "origin": "no-supplier",
+        "input_line": 85,
+        "class": "WORDING",
+        "definition_used": "Every created reality depends ultimately on God; God depends on no created reality.",
+        "definition_status": "admitted theological root / explicit scope boundary",
+        "supplier": "A0 / P-IMAGO stated source contract",
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\A0_IMAGO_RERUN_2026-10-25\\REPORT.md",
+          "line": 3,
+          "text": "A0 (the single admitted root): The one self-existent Trinitarian God is the uncreated, necessary, living, conscious, personal, self-knowing, truthful, good, loving, and freely acting ground of all created reality. God is one undivided divine being eternally subsisting as Father, Son, and Holy Spirit: really distinct without division, eternally related without dependence, and perfectly united in knowledge, will, goodness, and love. God freely creates realities genuinely distinct from God. Every created reality depends ultimately upon God; God depends upon no created reality."
+        },
+        "missing_or_reason": "",
+        "scope_note": "Supply rests on the expanded admitted A0 text, not on a derivation from the bare words “God is,” and does not entail a particular physical mechanism.",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\A1_3_Information_Primacy.md",
+          "line": 25,
+          "text": "Distinguishability IS information; information is ontologically primitive."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-003_A1.3.md"
+        ],
+        "supplied_at_recorded_warrant_only": true,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [],
+        "previous_class": "WORDING",
+        "follow_up_evidence": [],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "closes_dependency": true,
+        "formal_proof_added_by_this_classification": false
+      }
+    ],
+    "current_ruling": null,
+    "ruling_scope": "Existing disposition only; no new canon admission.",
+    "receipt_attachments": [
+      {
+        "original": "C:\\theophysics\\OPUS\\AXIOMS\\LEAN\\Law6Information.lean",
+        "copy": "receipts\\Law6Information.lean",
+        "sha256": "44491c65d5b7d51f2467cd3da61ae06d22f32dbcd41553f2f3311eabad1e07fe",
+        "toolchain": "C:\\Users\\David\\.elan\\toolchains\\leanprover--lean4---v4.31.0\\bin\\lean.exe",
+        "returncode": 0,
+        "passed": true,
+        "custom_axiom_declarations": false,
+        "theorems": [
+          "Law6Information.information_iso_static_logos",
+          "Law6Information.fake_not_iso_logos"
+        ],
+        "log": "receipts\\Law6Information.log",
+        "semantic_scope": "supportSize counts positive-count symbols; it is not Shannon entropy. Iso preserves distribution/proxy/source; no evolution operator is present.",
+        "candidate_nodes": [
+          "A1.3",
+          "D1.1",
+          "D2.1"
+        ],
+        "attachment_status": "Topic attachment only; use exact theorem signatures, never the filename number as node identity."
+      }
+    ],
+    "Q15_follow_up": []
+  }
+}

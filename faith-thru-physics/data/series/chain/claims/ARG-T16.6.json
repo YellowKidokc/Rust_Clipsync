@@ -1,0 +1,34 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "ARG-T16.6",
+ "claim_id": "ARG-T16.6",
+ "type": "CLAIM",
+ "text": "Open question: Atheistic accounts and the proposed boundary conditions",
+ "source": {
+  "file": "source/nodes/ARG-T16.6.yaml",
+  "quote": "Open question: Atheistic accounts and the proposed boundary conditions",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/ARG-T16.6.yaml#ARG-T16.6::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "ARG-T16.6",
+ "is_main": true,
+ "strength": "Conditional",
+ "obstructions": [],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposed finer classification; no vocabulary change applied"
+}

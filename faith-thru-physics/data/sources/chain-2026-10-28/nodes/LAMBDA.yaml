@@ -1,0 +1,1184 @@
+{
+  "id": "LAMBDA",
+  "title": "LAMBDA Logos-Christ Completion",
+  "proposal_only": true,
+  "context_parent": "A0",
+  "tags": {
+    "system_part": "rule",
+    "composition_level": 2,
+    "claim_role": "conjecture",
+    "warrant": {
+      "status": "unverified",
+      "kind": "proof"
+    },
+    "register": "spiritual"
+  },
+  "old_mode": "FW_EXTENDED",
+  "raw_csv_mode": "FW_EXTENDED",
+  "proposed_mode": "FW_EXTENDED",
+  "tier": 17,
+  "node_lifecycle": "open",
+  "ruling": "DAVID-2026-10-25-NODE-RULINGS",
+  "merged_into": null,
+  "node_vs_claim_vs_proof": "Node specifies a structure; claims below own their warrants; proofs are exact scoped receipts.",
+  "sources": {
+    "v3_line": "LAMBDA Logos-Christ Completion      ← ID7.1, O1–O4  [FW_EXTENDED]",
+    "current_root_record": "sources\\current_nodes\\LAMBDA_Logos-Christ_Completion.md",
+    "october_review": "sources\\october_review\\AX-171.json"
+  },
+  "dependencies": {
+    "source_declared": [
+      "ID7.1",
+      "O1",
+      "O2",
+      "O3",
+      "O4"
+    ],
+    "source_relation": "depends_on",
+    "proposed_primary_support": [
+      "ID7.1",
+      "A1.3",
+      "O2",
+      "O4"
+    ],
+    "stance_ceiling_sources": [
+      "A2.2",
+      "A5.1"
+    ],
+    "merge_scope": "Incoming claims retain their own premises; source and current-root graph versions are not silently equated."
+  },
+  "coherences": {
+    "C-info": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-moral": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-spiritual": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    }
+  },
+  "claims": [
+    {
+      "id": "LAMBDA::main",
+      "statement": "The divine Logos/Son is the self-grounding terminal completion and ultimate ground of created reality's coherence, intelligibility, and explanation.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+      "proof_refs": [],
+      "conditional_premises": [
+        "A specified chi-field theory with coherence variables and dynamics.",
+        "A formal measurement/observer model in which God acts as a terminal observer operator.",
+        "A model of grace as external coherence injection.",
+        "An incarnation premise identifying the Logos with Jesus Christ and treating the incarnation as a physical-informational event.",
+        "Empirical/historical evidence for the resurrection and historical Jesus claims.",
+        "Fine-tuning and multiverse analysis to justify Logos selection over naturalistic explanations.",
+        "A demonstrated category/topos/fixed-point mapping from those formal systems to theological claims.",
+        "Comparative-religion criteria and an argument that only the Logos satisfies them.",
+        "IIT/consciousness and psychological/sociological measurements for the claimed predictions."
+      ],
+      "classification_proposal": {
+        "logical_role": "CONJECTURE",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "proposal only; no new frozen vocabulary applied"
+      },
+      "Q13": {
+        "register": "spiritual",
+        "domains": [
+          "ONTOLOGICAL"
+        ]
+      },
+      "Q14": {
+        "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+        "coherence_equality_assumed": false
+      },
+      "Q15": [
+        {
+          "id": "LAMBDA/Q15/0236",
+          "node": "LAMBDA",
+          "kind": "missing bridge",
+          "Q16": "OPEN",
+          "scope": "original core claim/application",
+          "reason": "The derivation stops where A0+P-IMAGO's claim that creaturely order/coherence depends on and analogically reflects God is converted into a definite chi-field, formal Λ operator, terminal-observer/grace operators, an incarnation delta-function, physical-constant encoding, or empirical/historical evidence; P-IMAGO explicitly rules out deriving particular physical laws, equations, constants, or measurements from it.",
+          "evidence": [
+            "sources\\october_review\\AX-171.json"
+          ]
+        }
+      ],
+      "Q16": {
+        "LAMBDA/Q15/0236": "OPEN"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2",
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "claim_scoped_dependencies": [
+        "ID7.1",
+        "O1",
+        "O2",
+        "O3",
+        "O4"
+      ],
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "LAMBDA::main"
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "LAMBDA::split-01",
+      "statement": "Created reality has a chi-field informational substrate with coherence χ(x,t) and dynamics governed by a law L plus interventions.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-171.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2",
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "LAMBDA::split-02",
+      "statement": "The chi-field requires a formal terminal completion operator Λ = lim_{t→∞} χ(x,t) · O_terminal · G.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-171.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2",
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "LAMBDA::split-03",
+      "statement": "Grace is an external coherence injection operator G within a physical-informational equation.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-171.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2",
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "LAMBDA::split-04",
+      "statement": "God functions as a terminal observer operator O_terminal in the measurement chain.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-171.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2",
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "LAMBDA::split-05",
+      "statement": "The incarnation is a singular event represented by Λ · δ(t − t_incarnation) in the coherence evolution equation.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-171.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2",
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "LAMBDA::split-06",
+      "statement": "The quantum vacuum is Λ acting on an undefined state, and fine-tuning/physical constants are selected by Λ/Logos.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-171.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2",
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "LAMBDA::split-07",
+      "statement": "The incarnation can be modeled by AdS/CFT bulk-boundary projection or holographic boundary information.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-171.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2",
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "LAMBDA::split-08",
+      "statement": "Resurrection is a thermodynamic entropy reversal/coherence restoration stabilized by terminal observation via the quantum Zeno effect.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-171.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2",
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "LAMBDA::split-09",
+      "statement": "Physical constants encode a meaningful Logos signature f(α, G, ħ, c, Λ_cosmological).",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-171.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2",
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "LAMBDA::split-10",
+      "statement": "The category of completions has Λ as both initial and terminal object, proving uniqueness of the Logos completion.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-171.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2",
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "LAMBDA::split-11",
+      "statement": "The incarnation is a geometric morphism between infinite and finite topoi, with internal Theophysics propositions true internally but unprovable externally.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-171.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2",
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "LAMBDA::split-12",
+      "statement": "Tarski-Knaster and Banach fixed-point theorems prove the Logos is the unique self-grounding completion.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-171.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2",
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "LAMBDA::split-13",
+      "statement": "The Logos has infinite mutual information with creation and zero conditional entropy with creation, encoding omniscience.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-171.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2",
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "LAMBDA::split-14",
+      "statement": "The Logos of Christian theology uniquely satisfies all completion constraints, while other religious completions fail.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-171.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2",
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "LAMBDA::split-15",
+      "statement": "The historical claims about Jesus, especially the resurrection, are evidence/falsification criteria for the completion operator.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-171.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2",
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "LAMBDA::split-16",
+      "statement": "LAMBDA makes testable predictions that consciousness is irreducible via IIT, fine-tuning resists naturalistic explanation, grace effects are measurable, and historical claims withstand scrutiny.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-171.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2",
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "LAMBDA::split-17",
+      "statement": "Complete naturalistic closure is a live falsification condition requiring a complete physical theory of initial conditions, fine-tuning, natural law, and consciousness.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-171.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2",
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    }
+  ],
+  "Q13": {
+    "register": "spiritual",
+    "domains": [
+      "ONTOLOGICAL"
+    ]
+  },
+  "Q14": {
+    "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+    "coherence_equality_assumed": false
+  },
+  "Q15": [
+    {
+      "id": "LAMBDA/Q15/0236",
+      "node": "LAMBDA",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "original core claim/application",
+      "reason": "The derivation stops where A0+P-IMAGO's claim that creaturely order/coherence depends on and analogically reflects God is converted into a definite chi-field, formal Λ operator, terminal-observer/grace operators, an incarnation delta-function, physical-constant encoding, or empirical/historical evidence; P-IMAGO explicitly rules out deriving particular physical laws, equations, constants, or measurements from it.",
+      "evidence": [
+        "sources\\october_review\\AX-171.json"
+      ]
+    },
+    {
+      "id": "LAMBDA/Q15/Z3-00",
+      "node": "LAMBDA",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "Exact October Z3 component: Necessity of a Logos-Christ terminal completion operator Lambda for the chi-field",
+      "reason": "The main claim is not precise enough to encode faithfully in Z3: the chi-field, limit as t->infinity, terminal observer operator, Grace operator, incarnation delta term, and the qualitative requirement of 'grounding/terminal completion' are not defined mathematically. Encoding would require adding unstated formal assumptions or substituting a narrower side claim.",
+      "evidence": [
+        "sources/z3/03_PROMISING/results.json"
+      ]
+    }
+  ],
+  "Q16": {
+    "LAMBDA/Q15/0236": "OPEN",
+    "LAMBDA/Q15/Z3-00": "OPEN"
+  },
+  "ports": [],
+  "open_interface_obligation": "This rerun is a classified source/claim proposal. A full executable six-field port contract is not claimed for every older node.",
+  "reason": [
+    "Weakest-premise ceiling inherited from A2.2, A5.1."
+  ],
+  "soundness": {
+    "bin": "UNCHECKED",
+    "named_premises": [],
+    "receipt": [
+      "sources/z3/03_PROMISING/results.json"
+    ],
+    "denial_cost": null,
+    "scope_note": "No holds/fails call manufactured for an untested main claim.",
+    "why": "Original domain claim lacks a complete faithful, source-matched test or derivation; retained fragment receipts do not establish it.",
+    "Z3_source_verdicts": [
+      "NOT_CHECKABLE"
+    ],
+    "ranking_snapshot": {
+      "score": 1,
+      "id": "AX-171",
+      "title": "LAMBDA - Logos Christ Completion",
+      "register": "formal",
+      "a0": "derived",
+      "math": "no",
+      "z3": "NOT_CHECKABLE",
+      "why": "derived from God; math fails",
+      "core": "The divine Logos/Son is the self-grounding terminal completion and ultimate ground of created reality's coherence, intelligibility, and explanation."
+    },
+    "A0_IMAGO_verdict": "ENTAILED_BY_A0_PLUS_IMAGO",
+    "conflicts": [],
+    "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is not precise enough to encode faithfully in Z3: the chi-field, limit as t->infinity, terminal observer operator, Grace operator, incarnation delta term, and the qualitative requirement of 'grounding/terminal completion' are not defined mathematically. Encoding would require adding unstated formal assumptions or substituting a narrower side claim."
+  },
+  "grade": {
+    "match_scope": null,
+    "warrant": "unverified",
+    "outcome": null,
+    "canon_status": "open",
+    "note": "No holds/fails call manufactured for an untested main claim.",
+    "match_scope_applicable": false,
+    "assessed_claim_id": "LAMBDA::main"
+  },
+  "canon_rubric": {
+    "node": "LAMBDA",
+    "bin": "UNCHECKED",
+    "grade": {
+      "match_scope": null,
+      "warrant": "unverified",
+      "outcome": null,
+      "canon_status": "open",
+      "note": "No holds/fails call manufactured for an untested main claim.",
+      "match_scope_applicable": false,
+      "assessed_claim_id": "LAMBDA::main"
+    },
+    "criteria": {
+      "address": true,
+      "grade": false,
+      "receipt": false,
+      "ruling_authority": false,
+      "no_unresolved_conflict": false
+    },
+    "score": 1,
+    "meets_all_five": false,
+    "missing": [
+      "grade",
+      "receipt",
+      "ruling_authority",
+      "no_unresolved_conflict"
+    ],
+    "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+    "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+    "proposal_only": true
+  },
+  "follow_up_review": {
+    "proposal_only": true,
+    "soundness_row": {
+      "node": "LAMBDA",
+      "bin": "UNCHECKED",
+      "scope": "No holds/fails call manufactured for an untested main claim.",
+      "premises": [],
+      "receipt": [
+        "sources/z3/03_PROMISING/results.json"
+      ],
+      "denial_cost": null,
+      "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is not precise enough to encode faithfully in Z3: the chi-field, limit as t->infinity, terminal observer operator, Grace operator, incarnation delta term, and the qualitative requirement of 'grounding/terminal completion' are not defined mathematically. Encoding would require adding unstated formal assumptions or substituting a narrower side claim.",
+      "canon_status": "open",
+      "conflicts": [],
+      "assessment_target": "No holds/fails call manufactured for an untested main claim.",
+      "main_statement": "The divine Logos/Son is the self-grounding terminal completion and ultimate ground of created reality's coherence, intelligibility, and explanation.",
+      "proposal_only": true,
+      "lead_summary": {
+        "WORDING": 1,
+        "UNDEFINED": 2
+      },
+      "remaining_lead_ids": [
+        "LEAD-229",
+        "LEAD-230"
+      ],
+      "strength": "Conditional",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "LAMBDA::main"
+      },
+      "scope_warning": "Bin assesses the named target only; neither bundled claims nor domain identification inherit its proof. A written explanation is recorded as support at its source status."
+    },
+    "canon_rubric": {
+      "node": "LAMBDA",
+      "bin": "UNCHECKED",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "LAMBDA::main"
+      },
+      "criteria": {
+        "address": true,
+        "grade": false,
+        "receipt": false,
+        "ruling_authority": false,
+        "no_unresolved_conflict": false
+      },
+      "score": 1,
+      "meets_all_five": false,
+      "missing": [
+        "grade",
+        "receipt",
+        "ruling_authority",
+        "no_unresolved_conflict"
+      ],
+      "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+      "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+      "proposal_only": true
+    },
+    "leads": [
+      {
+        "lead_id": "LEAD-228",
+        "node": "LAMBDA",
+        "record": "AX-171",
+        "required_key": "creation exists",
+        "origin": "no-supplier",
+        "input_line": 240,
+        "class": "WORDING",
+        "definition_used": "God freely creates realities distinct from God.",
+        "definition_status": "admitted theological root / explicit scope boundary",
+        "supplier": "A0 / P-IMAGO stated source contract",
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\A0_IMAGO_RERUN_2026-10-25\\REPORT.md",
+          "line": 3,
+          "text": "A0 (the single admitted root): The one self-existent Trinitarian God is the uncreated, necessary, living, conscious, personal, self-knowing, truthful, good, loving, and freely acting ground of all created reality. God is one undivided divine being eternally subsisting as Father, Son, and Holy Spirit: really distinct without division, eternally related without dependence, and perfectly united in knowledge, will, goodness, and love. God freely creates realities genuinely distinct from God. Every created reality depends ultimately upon God; God depends upon no created reality."
+        },
+        "missing_or_reason": "",
+        "scope_note": "Supply rests on the expanded admitted A0 text, not on a derivation from the bare words “God is,” and does not entail a particular physical mechanism.",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\LAMBDA_Logos-Christ_Completion.md",
+          "line": 35,
+          "text": "Logos-Christ completion: the final boundary condition identification."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-171_LAMBDA.md"
+        ],
+        "supplied_at_recorded_warrant_only": true,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\03_PROMISING\\171_LAMBDA_Logos-Christ-Completion.z3spec.json",
+            "checkable": false,
+            "component": "Necessity of a Logos-Christ terminal completion operator Lambda for the chi-field",
+            "faithfulness_note": "The main claim is not precise enough to encode faithfully in Z3: the chi-field, limit as t->infinity, terminal observer operator, Grace operator, incarnation delta term, and the qualitative requirement of 'grounding/terminal completion' are not defined mathematically. Encoding would require adding unstated formal assumptions or substituting a narrower side claim.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "WORDING",
+        "follow_up_evidence": [],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "closes_dependency": true,
+        "formal_proof_added_by_this_classification": false
+      },
+      {
+        "lead_id": "LEAD-229",
+        "node": "LAMBDA",
+        "record": "AX-171",
+        "required_key": "coherence measurable operationalizable",
+        "origin": "no-supplier",
+        "input_line": 241,
+        "class": "UNDEFINED",
+        "definition_used": "An observation protocol must map declared observations to the selected coherence quantity.",
+        "definition_status": "OPEN operational bridge",
+        "supplier": null,
+        "evidence": {
+          "file": "C:\\Users\\David\\theophysics-read\\Spiritual_Terms_Atlas_CANONICAL.md",
+          "line": 702,
+          "text": "C-info, C-moral, and C-spiritual must be specified separately whenever a requirement says “coherence.” Neither equal spelling nor a shared scalar establishes a supplier across these domains. These definitions do not supply the missing operational measurements, semantic bridge, or theological premises."
+        },
+        "missing_or_reason": "Specify instruments or behavioral observations, units/scoring, calibration, uncertainty, and domain; a symbolic C or χ is not a protocol.",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\LAMBDA_Logos-Christ_Completion.md",
+          "line": 35,
+          "text": "Logos-Christ completion: the final boundary condition identification."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-171_LAMBDA.md"
+        ],
+        "supplied_at_recorded_warrant_only": false,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\03_PROMISING\\171_LAMBDA_Logos-Christ-Completion.z3spec.json",
+            "checkable": false,
+            "component": "Necessity of a Logos-Christ terminal completion operator Lambda for the chi-field",
+            "faithfulness_note": "The main claim is not precise enough to encode faithfully in Z3: the chi-field, limit as t->infinity, terminal observer operator, Grace operator, incarnation delta term, and the qualitative requirement of 'grounding/terminal completion' are not defined mathematically. Encoding would require adding unstated formal assumptions or substituting a narrower side claim.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "UNDEFINED",
+        "follow_up_evidence": [],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "closes_dependency": false,
+        "formal_proof_added_by_this_classification": false
+      },
+      {
+        "lead_id": "LEAD-230",
+        "node": "LAMBDA",
+        "record": "AX-171",
+        "required_key": "naturalistic closure premise",
+        "origin": "no-supplier",
+        "input_line": 242,
+        "class": "UNDEFINED",
+        "definition_used": "Closure could mean causal closure, thermodynamic closure, or exclusion of theological explanation.",
+        "definition_status": "UNDEFINED / operationally incomplete",
+        "supplier": null,
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\LAMBDA_Logos-Christ_Completion.md",
+          "line": 35,
+          "text": "Logos-Christ completion: the final boundary condition identification."
+        },
+        "missing_or_reason": "State which closure and why LAMBDA requires it; those three meanings have different logical consequences.",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\LAMBDA_Logos-Christ_Completion.md",
+          "line": 35,
+          "text": "Logos-Christ completion: the final boundary condition identification."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-171_LAMBDA.md"
+        ],
+        "supplied_at_recorded_warrant_only": false,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\03_PROMISING\\171_LAMBDA_Logos-Christ-Completion.z3spec.json",
+            "checkable": false,
+            "component": "Necessity of a Logos-Christ terminal completion operator Lambda for the chi-field",
+            "faithfulness_note": "The main claim is not precise enough to encode faithfully in Z3: the chi-field, limit as t->infinity, terminal observer operator, Grace operator, incarnation delta term, and the qualitative requirement of 'grounding/terminal completion' are not defined mathematically. Encoding would require adding unstated formal assumptions or substituting a narrower side claim.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "UNDEFINED",
+        "follow_up_evidence": [],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "closes_dependency": false,
+        "formal_proof_added_by_this_classification": false
+      }
+    ],
+    "current_ruling": null,
+    "ruling_scope": "Existing disposition only; no new canon admission.",
+    "receipt_attachments": [],
+    "Q15_follow_up": []
+  }
+}

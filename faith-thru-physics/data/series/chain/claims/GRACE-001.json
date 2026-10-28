@@ -1,0 +1,46 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "GRACE-001",
+ "claim_id": "GRACE-001",
+ "type": "CLAIM",
+ "text": "Native GRACE-001 model with its independently labeled premises and scoped results.",
+ "source": {
+  "file": "source/nodes/GRACE-001.yaml",
+  "quote": "Native GRACE-001 model with its independently labeled premises and scoped results.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "operator",
+  "composition_level": 3,
+  "claim_role": "definition",
+  "register": "spiritual"
+ },
+ "grade": {
+  "match_scope": "states_only",
+  "warrant": "conditionally_proved",
+  "warrant_premise": "BC1-5 and authorized A/R/G/K transitions; genuine alternatives and authorship are admitted; cost/record/growth rules are the chosen native model.",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/GRACE-001.yaml#GRACE-001::main (Axiom HTML Update, 2026-10-28)",
+  "note": "Outcome holds in the declared conditional scope, not unconditionally in the world."
+ },
+ "receipts": [
+  {
+   "kind": "source",
+   "ref": "sources/native/GRACE_001/node_contracts.json"
+  }
+ ],
+ "neighbors": [
+  {
+   "id": "FREE-CHOICE-001",
+   "edge": "rests_on",
+   "proposed": true
+  }
+ ],
+ "node": "GRACE-001",
+ "is_main": true,
+ "strength": "Conditional",
+ "obstructions": [],
+ "generated_by": "proposed finer classification; no vocabulary change applied"
+}

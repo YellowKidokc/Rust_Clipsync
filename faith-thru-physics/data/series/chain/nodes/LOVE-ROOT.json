@@ -1,0 +1,42 @@
+{
+ "id": "LOVE-ROOT",
+ "title": "LOVE-ROOT 𝓛(a,b)=StableOrientation",
+ "lifecycle": "open",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6",
+  "A11.2"
+ ],
+ "proposed": [
+  "BC6",
+  "A11.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "LOVE-ROOT/Q15/0193",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "domain application rather than mere notation",
+   "reason": "No complete source-matched derivation, operational definition or domain-transfer receipt is attached for: LOVE-ROOT 𝓛(a,b)=StableOrientation"
+  }
+ ],
+ "ports": [],
+ "main": "LOVE-ROOT",
+ "claims": [
+  "LOVE-ROOT"
+ ],
+ "source": "source/nodes/LOVE-ROOT.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

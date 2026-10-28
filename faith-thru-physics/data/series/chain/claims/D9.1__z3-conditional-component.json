@@ -1,0 +1,44 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D9.1",
+ "claim_id": "D9.1::z3-conditional-component",
+ "type": "CLAIM",
+ "text": "Squaring G_sigma gives G_sigma again, i.e. G_sigma² = G_sigma.",
+ "source": {
+  "file": "source/nodes/D9.1.yaml",
+  "quote": "Squaring G_sigma gives G_sigma again, i.e. G_sigma² = G_sigma.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "theorem",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "conditionally_proved",
+  "warrant_premise": "The moral-factor grace operator is represented on span{|+>, |->} by the real 2x2 matrix [[1,1],[0,0]], i.e. g00=1, g01=1, g10=0, g11=0.; The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge.",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D9.1.yaml#D9.1::z3-conditional-component (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [
+  {
+   "kind": "z3",
+   "ref": "sources/z3/01_TESTED_COHERENT_COMPONENT/results.json"
+  }
+ ],
+ "neighbors": [],
+ "node": "D9.1",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Reported Z3 encoded component; domain bridge remains unverified; this is not a new solver run.",
+ "conditional_premises": [
+  "The moral-factor grace operator is represented on span{|+>, |->} by the real 2x2 matrix [[1,1],[0,0]], i.e. g00=1, g01=1, g10=0, g11=0.",
+  "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+ ],
+ "obstructions": [],
+ "generated_by": "proposal only"
+}

@@ -1,0 +1,607 @@
+{
+  "id": "A19.1",
+  "title": "A19.1 Master Equation Integration",
+  "proposal_only": true,
+  "context_parent": "A0",
+  "tags": {
+    "system_part": "observable",
+    "composition_level": 1,
+    "claim_role": "empirical hypothesis",
+    "warrant": {
+      "status": "unverified",
+      "kind": "observation"
+    },
+    "register": "spiritual"
+  },
+  "old_mode": "HY_EVIDENCE",
+  "raw_csv_mode": "HY_EVIDENCE",
+  "proposed_mode": "HY_EVIDENCE",
+  "tier": 13,
+  "node_lifecycle": "merged",
+  "ruling": "DAVID-2026-10-25-NODE-RULINGS",
+  "merged_into": "FINAL-1",
+  "node_vs_claim_vs_proof": "Node specifies a structure; claims below own their warrants; proofs are exact scoped receipts.",
+  "sources": {
+    "v3_line": "A19.1 Master Equation Integration ← E2.1, E3.1      [HY_EVIDENCE]",
+    "current_root_record": "sources\\current_nodes\\A19_1_Master_Equation_Integration.md",
+    "october_review": "sources\\october_review\\AX-135.json"
+  },
+  "dependencies": {
+    "source_declared": [
+      "E2.1",
+      "E3.1"
+    ],
+    "source_relation": "depends_on",
+    "proposed_primary_support": [],
+    "stance_ceiling_sources": [],
+    "merge_scope": "Incoming claims retain their own premises; source and current-root graph versions are not silently equated."
+  },
+  "coherences": {
+    "C-info": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-moral": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-spiritual": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    }
+  },
+  "claims": [
+    {
+      "id": "A19.1::main",
+      "statement": "All fundamental dynamics are integrated within a single unified framework.",
+      "tags": {
+        "system_part": "observable",
+        "composition_level": 1,
+        "claim_role": "empirical hypothesis",
+        "warrant": {
+          "status": "unverified",
+          "kind": "observation"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+      "proof_refs": [],
+      "conditional_premises": [
+        "A further premise would be needed to identify the general unity of creation under God with a single formal dynamical framework.",
+        "Further premises and empirical modeling would be needed to justify the ten specific variables, their units, orthogonality, functional form, and predictive power."
+      ],
+      "classification_proposal": {
+        "logical_role": "EMPIRICAL HYPOTHESIS",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "proposal only; no new frozen vocabulary applied"
+      },
+      "Q13": {
+        "register": "spiritual",
+        "domains": [
+          "ONTOLOGICAL"
+        ]
+      },
+      "Q14": {
+        "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+        "coherence_equality_assumed": false
+      },
+      "Q15": [
+        {
+          "id": "A19.1/Q15/0155",
+          "node": "A19.1",
+          "kind": "definitional conflict",
+          "Q16": "RESOLVED",
+          "scope": "duplicate node identity",
+          "reason": "David merged the source into FINAL-1; retain its claim and provenance at that destination. Warrant is not upgraded.",
+          "evidence": [
+            "sources/rulings/ruling_queue.json"
+          ]
+        },
+        {
+          "id": "A19.1/Q15/0156",
+          "node": "A19.1",
+          "kind": "missing bridge",
+          "Q16": "OPEN",
+          "scope": "original core claim/application",
+          "reason": "The derivation stops when the record moves from 'creation has a unified and analogical ground in God' to 'all fundamental dynamics are represented by this specific ten-variable Master Equation'; neither A0 nor P-IMAGO licenses that formal or physical step.",
+          "evidence": [
+            "sources\\october_review\\AX-135.json"
+          ]
+        }
+      ],
+      "Q16": {
+        "A19.1/Q15/0155": "RESOLVED",
+        "A19.1/Q15/0156": "OPEN"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "claim_scoped_dependencies": [
+        "E2.1",
+        "E3.1"
+      ],
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "A19.1::main"
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A19.1::split-01",
+      "statement": "The unified framework is the Theophysics Master Equation with the specific form L_master = χ(t)(d/dt(G + M + E + S + T + K + R + Q + F + C))^2 − S·χ(t).",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-135.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A19.1::split-02",
+      "statement": "The ten variables G, M, E, S, T, K, R, Q, F, and C are the orthogonal primitives of the system.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-135.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A19.1::split-03",
+      "statement": "Grace is an external control signal, Sin is entropy/decoherence, Faith is observer orientation, and Consciousness is integrated information Φ.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-135.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A19.1::split-04",
+      "statement": "The universe is a singular calculation or Logos Field with no supernatural versus natural divide.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-135.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A19.1::split-05",
+      "statement": "The ten variables are the minimal basis set required to explain a universe containing both stars and observers.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-135.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A19.1::split-06",
+      "statement": "The Master Equation provides final proof that Christ is the unification of all things.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-135.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A19.1::split-07",
+      "statement": "The framework can make cross-domain predictions such as how faith affects entropy.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-135.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    }
+  ],
+  "Q13": {
+    "register": "spiritual",
+    "domains": [
+      "ONTOLOGICAL"
+    ]
+  },
+  "Q14": {
+    "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+    "coherence_equality_assumed": false
+  },
+  "Q15": [
+    {
+      "id": "A19.1/Q15/0155",
+      "node": "A19.1",
+      "kind": "definitional conflict",
+      "Q16": "RESOLVED",
+      "scope": "duplicate node identity",
+      "reason": "David merged the source into FINAL-1; retain its claim and provenance at that destination. Warrant is not upgraded.",
+      "evidence": [
+        "sources/rulings/ruling_queue.json"
+      ]
+    },
+    {
+      "id": "A19.1/Q15/0156",
+      "node": "A19.1",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "original core claim/application",
+      "reason": "The derivation stops when the record moves from 'creation has a unified and analogical ground in God' to 'all fundamental dynamics are represented by this specific ten-variable Master Equation'; neither A0 nor P-IMAGO licenses that formal or physical step.",
+      "evidence": [
+        "sources\\october_review\\AX-135.json"
+      ]
+    },
+    {
+      "id": "A19.1/Q15/Z3-00",
+      "node": "A19.1",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "Exact October Z3 component: Master Equation integration as a single unified Lagrangian framework for the ten Orthogonal Primitives",
+      "reason": "The file states a hypothesis and gives a defining expression, but it does not provide a precise mathematical criterion for 'integration,' 'unified framework,' or any theorem to prove. Encoding the formula alone would only restate a definition, not check a substantive entailment.",
+      "evidence": [
+        "sources/z3/03_PROMISING/results.json"
+      ]
+    }
+  ],
+  "Q16": {
+    "A19.1/Q15/0155": "RESOLVED",
+    "A19.1/Q15/0156": "OPEN",
+    "A19.1/Q15/Z3-00": "OPEN"
+  },
+  "ports": [],
+  "open_interface_obligation": "This rerun is a classified source/claim proposal. A full executable six-field port contract is not claimed for every older node.",
+  "reason": [
+    "David merge -> FINAL-1"
+  ],
+  "soundness": {
+    "bin": "UNCHECKED",
+    "named_premises": [],
+    "receipt": [
+      "sources/z3/03_PROMISING/results.json"
+    ],
+    "denial_cost": null,
+    "scope_note": "No holds/fails call manufactured for an untested main claim.",
+    "why": "Original domain claim lacks a complete faithful, source-matched test or derivation; retained fragment receipts do not establish it.",
+    "Z3_source_verdicts": [
+      "NOT_CHECKABLE"
+    ],
+    "ranking_snapshot": {
+      "score": -2,
+      "id": "AX-135",
+      "title": "Master Equation Integration",
+      "register": "formal",
+      "a0": "compatible",
+      "math": "no",
+      "z3": "NOT_CHECKABLE",
+      "why": "math fails",
+      "core": "All fundamental dynamics are integrated within a single unified framework."
+    },
+    "A0_IMAGO_verdict": "COMPATIBLE_NOT_DERIVED",
+    "conflicts": [],
+    "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file states a hypothesis and gives a defining expression, but it does not provide a precise mathematical criterion for 'integration,' 'unified framework,' or any theorem to prove. Encoding the formula alone would only restate a definition, not check a substantive entailment."
+  },
+  "grade": {
+    "match_scope": null,
+    "warrant": "unverified",
+    "outcome": null,
+    "canon_status": "open",
+    "note": "No holds/fails call manufactured for an untested main claim.",
+    "match_scope_applicable": false,
+    "assessed_claim_id": "A19.1::main"
+  },
+  "canon_rubric": {
+    "node": "A19.1",
+    "bin": "UNCHECKED",
+    "grade": {
+      "match_scope": null,
+      "warrant": "unverified",
+      "outcome": null,
+      "canon_status": "open",
+      "note": "No holds/fails call manufactured for an untested main claim.",
+      "match_scope_applicable": false,
+      "assessed_claim_id": "A19.1::main"
+    },
+    "criteria": {
+      "address": true,
+      "grade": false,
+      "receipt": false,
+      "ruling_authority": false,
+      "no_unresolved_conflict": false
+    },
+    "score": 1,
+    "meets_all_five": false,
+    "missing": [
+      "grade",
+      "receipt",
+      "ruling_authority",
+      "no_unresolved_conflict"
+    ],
+    "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+    "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+    "proposal_only": true
+  },
+  "follow_up_review": {
+    "proposal_only": true,
+    "soundness_row": {
+      "node": "A19.1",
+      "bin": "UNCHECKED",
+      "scope": "No holds/fails call manufactured for an untested main claim.",
+      "premises": [],
+      "receipt": [
+        "sources/z3/03_PROMISING/results.json"
+      ],
+      "denial_cost": null,
+      "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file states a hypothesis and gives a defining expression, but it does not provide a precise mathematical criterion for 'integration,' 'unified framework,' or any theorem to prove. Encoding the formula alone would only restate a definition, not check a substantive entailment.",
+      "canon_status": "open",
+      "conflicts": [],
+      "assessment_target": "No holds/fails call manufactured for an untested main claim.",
+      "main_statement": "All fundamental dynamics are integrated within a single unified framework.",
+      "proposal_only": true,
+      "lead_summary": {},
+      "remaining_lead_ids": [],
+      "strength": "Conditional",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "A19.1::main"
+      },
+      "scope_warning": "Bin assesses the named target only; neither bundled claims nor domain identification inherit its proof. A written explanation is recorded as support at its source status."
+    },
+    "canon_rubric": {
+      "node": "A19.1",
+      "bin": "UNCHECKED",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "A19.1::main"
+      },
+      "criteria": {
+        "address": true,
+        "grade": false,
+        "receipt": false,
+        "ruling_authority": false,
+        "no_unresolved_conflict": false
+      },
+      "score": 1,
+      "meets_all_five": false,
+      "missing": [
+        "grade",
+        "receipt",
+        "ruling_authority",
+        "no_unresolved_conflict"
+      ],
+      "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+      "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+      "proposal_only": true
+    },
+    "leads": [],
+    "current_ruling": {
+      "decision": "merge",
+      "target": "FINAL-1"
+    },
+    "ruling_scope": "Existing disposition only; no new canon admission.",
+    "receipt_attachments": [],
+    "Q15_follow_up": []
+  }
+}

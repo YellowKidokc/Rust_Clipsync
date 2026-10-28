@@ -1,0 +1,53 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "INV9",
+ "claim_id": "INV9",
+ "type": "CLAIM",
+ "text": "Attunement Calibration Invariant — the system self-calibrates through observer-grace coupling.",
+ "source": {
+  "file": "source/nodes/INV9.yaml",
+  "quote": "Attunement Calibration Invariant — the system self-calibrates through observer-grace coupling.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "retired",
+  "grade_source": "copied:source/nodes/INV9.yaml#INV9::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC4a",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "INV9",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "INV9/Q15/0240",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "axiom-set membership",
+   "reason": "David retired this record; it is retained with reason and cannot serve as an active axiom. Content-level truth is not settled merely by retirement."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is qualitative/normative: it uses undefined notions such as 'self-modeling agent', 'affordances', 'changing environment', 'must', 'brittleness', and 'misalignment'. The file gives illustrative formulas and control-theoretic analogies, but it does not state precise mathematical conditions under which the claimed necessity or misalignment result follows. Encoding only the calibration equations would ignore the main claim, and encoding the qualitative claim would require unstated for",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

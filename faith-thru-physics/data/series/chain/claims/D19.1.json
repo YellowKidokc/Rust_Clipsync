@@ -1,0 +1,63 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D19.1",
+ "claim_id": "D19.1",
+ "type": "CLAIM",
+ "text": "The fundamental dynamics of created reality are governed by a Logos-weighted Lagrangian LLC = χ(t)(d/dt(G+M+E+S+T+K+R+Q+F+C))^2 − S·χ(t), with χ as the Logos field and S as entropy/sin acting as an opposing potential.",
+ "source": {
+  "file": "source/nodes/D19.1.yaml",
+  "quote": "The fundamental dynamics of created reality are governed by a Logos-weighted Lagrangian LLC = χ(t)(d/dt(G+M+E+S+T+K+R+Q+F+C))^2 − S·χ(t), with χ as the Logos field and S as entropy/sin acting as an opposing potential.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "operator",
+  "composition_level": 2,
+  "claim_role": "definition",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A physical field theory identifying χ(t) with a measurable dynamical field.; A derivation or postulate making entropy/sin S enter as the Lagrangian potential term.; A variational argument or empirical law showing all physical evolution minimizes the LLC action.; A quantization and limit-recovery derivation connecting LLC to quantum mechanics, general relativity, and classical mechanics.; Empirical evidence for consciousness-dependent inertia, entropy barriers proportional to Sχ, or χΣdot conservation.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D19.1.yaml#D19.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "D3.3",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "D19.1",
+ "is_main": true,
+ "strength": "By definition",
+ "conditional_premises": [
+  "A physical field theory identifying χ(t) with a measurable dynamical field.",
+  "A derivation or postulate making entropy/sin S enter as the Lagrangian potential term.",
+  "A variational argument or empirical law showing all physical evolution minimizes the LLC action.",
+  "A quantization and limit-recovery derivation connecting LLC to quantum mechanics, general relativity, and classical mechanics.",
+  "Empirical evidence for consciousness-dependent inertia, entropy barriers proportional to Sχ, or χΣdot conservation."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "D19.1/Q15/0140",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the transition from the general analogical claim that created order reflects divine Logos to the specific physical equation LLC = χΣdot² − Sχ and its identification as the fundamental Lagrangian of reality. P-IMAGO explicitly does not imply any particular physical law, equation, constant, or measurement."
+  },
+  {
+   "id": "D19.1/Q15/0257",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "a literal third body is necessary for all physical captures",
+   "reason": "GravityAndGrace.capture_requires_third_body is existential for a chosen transition; no universal physical necessity theorem follows."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main Statement is a definition/identification plus a broad physical variational claim, not a bounded arithmetic or SMT theorem. Encoding it faithfully would require calculus of variations, differentiability, an action functional, and the physical assertion that this Lagrangian governs all dynamics; these are not formalized in the file in a way suitable for Z3.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

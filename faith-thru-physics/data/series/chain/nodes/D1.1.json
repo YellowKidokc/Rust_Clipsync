@@ -1,0 +1,57 @@
+{
+ "id": "D1.1",
+ "title": "D1.1 Information Definition",
+ "lifecycle": "definition",
+ "tier": 1,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "A1.1",
+  "A1.2"
+ ],
+ "proposed": [
+  "A1.1",
+  "A1.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "D1.1/Q15/0006",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at inferring the specific definition 'information = uncertainty reduction' from A0 + P-IMAGO; P-IMAGO cannot supply Shannon entropy, χ-field semantics, or empirical confirmations."
+  }
+ ],
+ "ports": [],
+ "main": "D1.1",
+ "claims": [
+  "D1.1",
+  "D1.1::split-01",
+  "D1.1::split-02",
+  "D1.1::split-03",
+  "D1.1::split-04",
+  "D1.1::split-05",
+  "D1.1::split-06",
+  "D1.1::split-07",
+  "D1.1::split-08",
+  "D1.1::split-09",
+  "D1.1::split-10",
+  "D1.1::split-11",
+  "D1.1::split-12",
+  "D1.1::split-13",
+  "D1.1::split-14",
+  "D1.1::split-15"
+ ],
+ "source": "source/nodes/D1.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

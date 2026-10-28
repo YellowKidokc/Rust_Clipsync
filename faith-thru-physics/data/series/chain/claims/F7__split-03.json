@@ -1,0 +1,34 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "F7",
+ "claim_id": "F7::split-03",
+ "type": "CLAIM",
+ "text": "Faithfulness obeys the field equation ∂F/∂t = D_F∇²F − γ(B−B₀)² + μC[χ].",
+ "source": {
+  "file": "source/nodes/F7.yaml",
+  "quote": "Faithfulness obeys the field equation ∂F/∂t = D_F∇²F − γ(B−B₀)² + μC[χ].",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/F7.yaml#F7::split-03 (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "F7",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+ "obstructions": [],
+ "generated_by": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+}

@@ -1,0 +1,53 @@
+{
+ "id": "D6.1",
+ "title": "D6.1 Collapse Rate Gamma",
+ "lifecycle": "definition",
+ "tier": 7,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "A5.1"
+ ],
+ "proposed": [
+  "A5.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file is a definition/relabeling rather than a mathematical theorem with specified domains, transition dynamics, or measurable quantities. Encoding it as an unconstrained equality between two Real variables would not faithfully test the intended definition; it would only restate the definitional identity. Hence the main claim is not precisely checkable from the file as given.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "D6.1/Q15/0057",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "No derivation reaches a specific quantum-mechanical collapse rate; A0 and P-IMAGO stop at general created dependence and analogical resemblance, and P-IMAGO explicitly excludes physical laws, equations, constants, and measurements."
+  },
+  {
+   "id": "D6.1/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Collapse rate γ is defined as the rate of superposition-to-eigenstate transition",
+   "reason": "The file is a definition/relabeling rather than a mathematical theorem with specified domains, transition dynamics, or measurable quantities. Encoding it as an unconstrained equality between two Real variables would not faithfully test the intended definition; it would only restate the definitional identity. Hence the main claim is not precisely checkable from the file as given."
+  }
+ ],
+ "ports": [],
+ "main": "D6.1",
+ "claims": [
+  "D6.1",
+  "D6.1::split-01",
+  "D6.1::split-02",
+  "D6.1::split-03",
+  "D6.1::split-04"
+ ],
+ "source": "source/nodes/D6.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

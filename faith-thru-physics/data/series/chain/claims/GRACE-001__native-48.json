@@ -1,0 +1,34 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "GRACE-001",
+ "claim_id": "GRACE-001::native-48",
+ "type": "CLAIM",
+ "text": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+ "source": {
+  "file": "source/nodes/GRACE-001.yaml",
+  "quote": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "conservation_law",
+  "composition_level": 2,
+  "claim_role": "theorem",
+  "register": "formal"
+ },
+ "grade": {
+  "match_scope": "states_only",
+  "warrant": "proved",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/GRACE-001.yaml#GRACE-001::native-48 (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "GRACE-001",
+ "is_main": false,
+ "strength": "Structure",
+ "obstructions": [],
+ "generated_by": "proposed finer classification; no vocabulary change applied"
+}

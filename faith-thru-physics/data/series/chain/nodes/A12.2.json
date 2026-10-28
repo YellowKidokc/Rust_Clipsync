@@ -1,0 +1,67 @@
+{
+ "id": "A12.2",
+ "title": "A12.2 Bimodal Outcome",
+ "lifecycle": "framework_commitment",
+ "tier": 11,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "CONDITIONAL",
+  "named_premises": [
+   "gamma > 0 and Phi_max > 0.",
+   "The sign is binary: sigma = +1 or sigma = -1, with no neutral sigma = 0 state.",
+   "The initial coherence lies in the physical interval 0 <= phi0 <= Phi_max.",
+   "The destiny equation is dot Phi = sigma * gamma * Phi * (Phi_max - Phi), whose fixed points satisfy sigma * gamma * L * (Phi_max - L) = 0.",
+   "By A12.1, each trajectory has an asymptotic limit L, and this limit is a stable fixed point of the destiny equation, so its derivative satisfies sigma * gamma * (Phi_max - 2L) < 0.",
+   "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+  ],
+  "denial_cost": null,
+  "checkable_by": null,
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json",
+   "The sign sigma in {+1,-1} determines the asymptotic coherence limit of a soul trajectory under the destiny equation: +1 goes to Phi_max, -1 goes to 0, with no third stable fixed point."
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "A12.2/Q15/0120",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the introduction of σ as a binary sign and a specific destiny equation with exactly two fixed points; neither A0 nor P-IMAGO supplies that ontology or dynamics, so the inference to exactly two fates and no third attractor is not derived."
+  }
+ ],
+ "ports": [],
+ "main": "A12.2",
+ "claims": [
+  "A12.2",
+  "A12.2::split-01",
+  "A12.2::split-02",
+  "A12.2::split-03",
+  "A12.2::split-04",
+  "A12.2::split-05",
+  "A12.2::split-06",
+  "A12.2::split-07",
+  "A12.2::split-08",
+  "A12.2::split-09",
+  "A12.2::split-10",
+  "A12.2::split-11",
+  "A12.2::split-12",
+  "A12.2::split-13",
+  "A12.2::split-14",
+  "A12.2::split-15",
+  "A12.2::split-16",
+  "A12.2::z3-conditional-component"
+ ],
+ "source": "source/nodes/A12.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

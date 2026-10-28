@@ -1,0 +1,885 @@
+{
+  "id": "PROT18.5",
+  "title": "Phi-Virtue Correlation Study",
+  "proposal_only": true,
+  "context_parent": "A0",
+  "tags": {
+    "system_part": "observable",
+    "composition_level": 1,
+    "claim_role": "empirical hypothesis",
+    "warrant": {
+      "status": "unverified",
+      "kind": "observation"
+    },
+    "register": "embodied"
+  },
+  "old_mode": "HY_EVIDENCE",
+  "raw_csv_mode": "HY_EVIDENCE",
+  "proposed_mode": "HY_EVIDENCE",
+  "tier": 16,
+  "node_lifecycle": "protocol",
+  "ruling": null,
+  "merged_into": null,
+  "node_vs_claim_vs_proof": "Node specifies a structure; claims below own their warrants; proofs are exact scoped receipts.",
+  "sources": {
+    "v3_line": null,
+    "current_root_record": "sources\\current_nodes\\PROT18_5_Phi-Virtue_Correlation_Study.md",
+    "october_review": "sources\\october_review\\AX-129.json"
+  },
+  "dependencies": {
+    "source_declared": [
+      "T11.1"
+    ],
+    "source_relation": "tests",
+    "proposed_primary_support": [
+      "T11.1"
+    ],
+    "stance_ceiling_sources": [],
+    "merge_scope": "Incoming claims retain their own premises; source and current-root graph versions are not silently equated."
+  },
+  "coherences": {
+    "C-info": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-moral": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-spiritual": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    }
+  },
+  "claims": [
+    {
+      "id": "PROT18.5::main",
+      "statement": "A protocol can empirically test whether measured integrated information (Phi) positively correlates with moral virtue indicators.",
+      "tags": {
+        "system_part": "observable",
+        "composition_level": 1,
+        "claim_role": "empirical hypothesis",
+        "warrant": {
+          "status": "unverified",
+          "kind": "observation"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+      "proof_refs": [],
+      "conditional_premises": [
+        "IIT's Phi, or a proxy such as PCI/EEG coherence, validly measures consciousness integration.",
+        "Moral realism: objective moral facts/virtues exist (A11.1).",
+        "Virtue is linked to or increases coherence/integration (T10.1).",
+        "Coherence is a reliable correlate of Phi.",
+        "Selected virtue inventories, behavioral tasks, peer ratings, and life outcomes validly measure virtue.",
+        "The proposed sample sizes, controls, and falsification thresholds are methodologically adequate.",
+        "Empirical data show a positive Phi-virtue correlation and robustness across cultures and confounds."
+      ],
+      "classification_proposal": {
+        "logical_role": "EMPIRICAL HYPOTHESIS",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "proposal only; no new frozen vocabulary applied"
+      },
+      "Q13": {
+        "register": "embodied",
+        "domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ]
+      },
+      "Q14": {
+        "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+        "coherence_equality_assumed": false
+      },
+      "Q15": [
+        {
+          "id": "PROT18.5/Q15/0182",
+          "node": "PROT18.5",
+          "kind": "missing bridge",
+          "Q16": "OPEN",
+          "scope": "original core claim/application",
+          "reason": "P-IMAGO yields only a general analogy between creaturely consciousness/goodness and God. The derivation fails when moving from that general analogy to any specific empirical claim that measured integrated information (Phi) correlates with virtue indicators.",
+          "evidence": [
+            "sources\\october_review\\AX-129.json"
+          ]
+        }
+      ],
+      "Q16": {
+        "PROT18.5/Q15/0182": "OPEN"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "claim_scoped_dependencies": [
+        "T11.1"
+      ],
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "PROT18.5::main"
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "PROT18.5::split-01",
+      "statement": "Higher measured Phi predicts greater moral virtue.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-129.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "PROT18.5::split-02",
+      "statement": "Virtue development increases measured Phi.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-129.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "PROT18.5::split-03",
+      "statement": "The Phi-virtue correlation is robust across cultures and measurement methods.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-129.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "PROT18.5::split-04",
+      "statement": "Virtuous individuals have higher Phi because virtue integrates values, actions, and intentions.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-129.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "PROT18.5::split-05",
+      "statement": "Consciousness and morality share a common root in coherence.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-129.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "PROT18.5::split-06",
+      "statement": "PCI, EEG coherence, and behavioral integration are valid proxies for Phi.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-129.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "PROT18.5::split-07",
+      "statement": "VIA-IS, Moral Foundations, behavioral tasks, peer ratings, and life outcomes are valid virtue measures.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-129.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "PROT18.5::split-08",
+      "statement": "A positive correlation would confirm Theophysics' core insight that consciousness is intrinsically moral.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-129.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "PROT18.5::split-09",
+      "statement": "A null result would show consciousness and virtue are independent.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-129.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "PROT18.5::split-10",
+      "statement": "The specified sample sizes and thresholds (N >= 200, r < 0.1, etc.) are adequate for the intended inference.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-129.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    }
+  ],
+  "Q13": {
+    "register": "embodied",
+    "domains": [
+      "CONSCIOUSNESS",
+      "EPISTEMIC"
+    ]
+  },
+  "Q14": {
+    "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+    "coherence_equality_assumed": false
+  },
+  "Q15": [
+    {
+      "id": "PROT18.5/Q15/0182",
+      "node": "PROT18.5",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "original core claim/application",
+      "reason": "P-IMAGO yields only a general analogy between creaturely consciousness/goodness and God. The derivation fails when moving from that general analogy to any specific empirical claim that measured integrated information (Phi) correlates with virtue indicators.",
+      "evidence": [
+        "sources\\october_review\\AX-129.json"
+      ]
+    }
+  ],
+  "Q16": {
+    "PROT18.5/Q15/0182": "OPEN"
+  },
+  "ports": [],
+  "open_interface_obligation": "This rerun is a classified source/claim proposal. A full executable six-field port contract is not claimed for every older node.",
+  "reason": [
+    "Source role, domain and October limitations separated; no unproved application promoted."
+  ],
+  "soundness": {
+    "bin": "UNCHECKED",
+    "named_premises": [],
+    "receipt": [],
+    "denial_cost": null,
+    "scope_note": "No holds/fails call manufactured for an untested main claim.",
+    "why": "Original domain claim lacks a complete faithful, source-matched test or derivation; retained fragment receipts do not establish it.",
+    "Z3_source_verdicts": [],
+    "ranking_snapshot": {
+      "score": 1,
+      "id": "AX-129",
+      "title": "PROT18.5 — Phi-Virtue Correlation Study",
+      "register": "formal",
+      "a0": "compatible",
+      "math": "yes_with_missing_premise",
+      "z3": "-",
+      "why": "math holds +premise",
+      "core": "A protocol can empirically test whether measured integrated information (Phi) positively correlates with moral virtue indicators."
+    },
+    "A0_IMAGO_verdict": "COMPATIBLE_NOT_DERIVED",
+    "conflicts": [],
+    "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. "
+  },
+  "grade": {
+    "match_scope": null,
+    "warrant": "unverified",
+    "outcome": null,
+    "canon_status": "open",
+    "note": "No holds/fails call manufactured for an untested main claim.",
+    "match_scope_applicable": false,
+    "assessed_claim_id": "PROT18.5::main"
+  },
+  "canon_rubric": {
+    "node": "PROT18.5",
+    "bin": "UNCHECKED",
+    "grade": {
+      "match_scope": null,
+      "warrant": "unverified",
+      "outcome": null,
+      "canon_status": "open",
+      "note": "No holds/fails call manufactured for an untested main claim.",
+      "match_scope_applicable": false,
+      "assessed_claim_id": "PROT18.5::main"
+    },
+    "criteria": {
+      "address": true,
+      "grade": false,
+      "receipt": false,
+      "ruling_authority": false,
+      "no_unresolved_conflict": false
+    },
+    "score": 1,
+    "meets_all_five": false,
+    "missing": [
+      "grade",
+      "receipt",
+      "ruling_authority",
+      "no_unresolved_conflict"
+    ],
+    "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+    "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+    "proposal_only": true
+  },
+  "follow_up_review": {
+    "proposal_only": true,
+    "soundness_row": {
+      "node": "PROT18.5",
+      "bin": "UNCHECKED",
+      "scope": "No holds/fails call manufactured for an untested main claim.",
+      "premises": [],
+      "receipt": [],
+      "denial_cost": null,
+      "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+      "canon_status": "open",
+      "conflicts": [],
+      "assessment_target": "No holds/fails call manufactured for an untested main claim.",
+      "main_statement": "A protocol can empirically test whether measured integrated information (Phi) positively correlates with moral virtue indicators.",
+      "proposal_only": true,
+      "lead_summary": {
+        "UNDEFINED": 1,
+        "WORDING": 1,
+        "REAL GAP": 1
+      },
+      "remaining_lead_ids": [
+        "LEAD-281",
+        "LEAD-283"
+      ],
+      "strength": "Conditional",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "PROT18.5::main"
+      },
+      "scope_warning": "Bin assesses the named target only; neither bundled claims nor domain identification inherit its proof. A written explanation is recorded as support at its source status."
+    },
+    "canon_rubric": {
+      "node": "PROT18.5",
+      "bin": "UNCHECKED",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "PROT18.5::main"
+      },
+      "criteria": {
+        "address": true,
+        "grade": false,
+        "receipt": false,
+        "ruling_authority": false,
+        "no_unresolved_conflict": false
+      },
+      "score": 1,
+      "meets_all_five": false,
+      "missing": [
+        "grade",
+        "receipt",
+        "ruling_authority",
+        "no_unresolved_conflict"
+      ],
+      "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+      "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+      "proposal_only": true
+    },
+    "leads": [
+      {
+        "lead_id": "LEAD-281",
+        "node": "PROT18.5",
+        "record": "AX-129",
+        "required_key": "phi operational definition",
+        "origin": "no-supplier",
+        "input_line": 293,
+        "class": "UNDEFINED",
+        "definition_used": "A reproducible rule computes or estimates Φ from a specified system or observations.",
+        "definition_status": "UNDEFINED / operationally incomplete",
+        "supplier": null,
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\D5_2_Integrated_Information_Phi.md",
+          "line": 28,
+          "text": "Φ = integrated information (IIT measure)"
+        },
+        "missing_or_reason": "Select IIT version, state variables, intervention/transition probabilities, partitions, distance, units, estimator, and error limits.",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\PROT18_5_Phi-Virtue_Correlation_Study.md",
+          "line": 23,
+          "text": "Protocol: Correlate measured Phi with virtue indicators."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-129_PROT18.5.md"
+        ],
+        "supplied_at_recorded_warrant_only": false,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [],
+        "previous_class": "UNDEFINED",
+        "follow_up_evidence": [
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\15_Ontological_Taxonomy_Session_Synthesis.md",
+            "line": 39,
+            "end_line": 39,
+            "text": "The corrected equation (replacing Tononi's Φ-based proposal):",
+            "sha256": "771416145cb2d13fe667c2120a041ed802a6cdf8c66a4de93579ba452479f6e2"
+          },
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\15_Ontological_Taxonomy_Session_Synthesis.md",
+            "line": 41,
+            "end_line": 41,
+            "text": "$$I_f = \\Lambda \\cdot \\Omega$$",
+            "sha256": "771416145cb2d13fe667c2120a041ed802a6cdf8c66a4de93579ba452479f6e2"
+          }
+        ],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "fuller_source_note": "A later interface definition exists, but it is Λ·Ω rather than an operational IIT Φ computation. Version selection is required.",
+        "closes_dependency": false,
+        "formal_proof_added_by_this_classification": false
+      },
+      {
+        "lead_id": "LEAD-282",
+        "node": "PROT18.5",
+        "record": "AX-129",
+        "required_key": "phi measures consciousness",
+        "origin": "no-supplier",
+        "input_line": 294,
+        "class": "WORDING",
+        "definition_used": "The framework identifies integrated information Φ as measuring degree of consciousness.",
+        "definition_status": "unverified framework identification",
+        "supplier": "D5.2",
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\D5_2_Integrated_Information_Phi.md",
+          "line": 23,
+          "text": "Integrated information Φ defined per IIT — measures consciousness degree."
+        },
+        "missing_or_reason": "",
+        "scope_note": "The statement supplies a premise, not empirical validation. Its missing operational recipe remains UNDEFINED below.",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\PROT18_5_Phi-Virtue_Correlation_Study.md",
+          "line": 23,
+          "text": "Protocol: Correlate measured Phi with virtue indicators."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-129_PROT18.5.md"
+        ],
+        "supplied_at_recorded_warrant_only": true,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [],
+        "previous_class": "WORDING",
+        "follow_up_evidence": [],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "closes_dependency": true,
+        "formal_proof_added_by_this_classification": false
+      },
+      {
+        "lead_id": "LEAD-283",
+        "node": "PROT18.5",
+        "record": "AX-129",
+        "required_key": "moral framework depends on consciousness",
+        "origin": "no-supplier",
+        "input_line": 295,
+        "class": "REAL GAP",
+        "definition_used": "The intended moral framework has an explicit relation to consciousness sufficient to interpret the Φ/virtue study.",
+        "definition_status": "requirement defined; supply not established in inspected sources",
+        "supplier": null,
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\PROT18_5_Phi-Virtue_Correlation_Study.md",
+          "line": 23,
+          "text": "Protocol: Correlate measured Phi with virtue indicators."
+        },
+        "missing_or_reason": "Supply a moral/consciousness bridge; objective moral facts (A11.1) do not entail that Φ measures moral worth.",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\PROT18_5_Phi-Virtue_Correlation_Study.md",
+          "line": 23,
+          "text": "Protocol: Correlate measured Phi with virtue indicators."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-129_PROT18.5.md"
+        ],
+        "supplied_at_recorded_warrant_only": false,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [],
+        "previous_class": "REAL GAP",
+        "follow_up_evidence": [],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "closes_dependency": false,
+        "formal_proof_added_by_this_classification": false
+      }
+    ],
+    "current_ruling": null,
+    "ruling_scope": "Existing disposition only; no new canon admission.",
+    "receipt_attachments": [],
+    "Q15_follow_up": [
+      {
+        "id": "FOLLOWUP/Q15/PHI-VERSION",
+        "node": "D5.2",
+        "kind": "definition version conflict",
+        "Q16": "OPEN",
+        "scope": "legacy IIT Φ versus March interface Λ·Ω",
+        "reason": "The later taxonomy explicitly replaces the interface proposal. Both versions are preserved; select the intended consumer quantity rather than relabeling Ω as IIT Φ.",
+        "evidence": [
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\15_Ontological_Taxonomy_Session_Synthesis.md",
+            "line": 39,
+            "end_line": 39,
+            "text": "The corrected equation (replacing Tononi's Φ-based proposal):",
+            "sha256": "771416145cb2d13fe667c2120a041ed802a6cdf8c66a4de93579ba452479f6e2"
+          },
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\15_Ontological_Taxonomy_Session_Synthesis.md",
+            "line": 41,
+            "end_line": 41,
+            "text": "$$I_f = \\Lambda \\cdot \\Omega$$",
+            "sha256": "771416145cb2d13fe667c2120a041ed802a6cdf8c66a4de93579ba452479f6e2"
+          }
+        ],
+        "affected_nodes": [
+          "A10.1",
+          "A11.2",
+          "A14.2",
+          "A17.1",
+          "A17.2",
+          "BC5",
+          "D10.1",
+          "D12.1",
+          "D17.1",
+          "D5.1",
+          "D5.2",
+          "D8.1",
+          "E6.2",
+          "F2",
+          "F4",
+          "F5",
+          "O4",
+          "P10.2",
+          "P5.1",
+          "P5.2",
+          "P9.3",
+          "PERSONHOOD",
+          "PROT18.1",
+          "PROT18.2",
+          "PROT18.5",
+          "SC-QUANTUM",
+          "T11.1",
+          "T11.2",
+          "U3"
+        ]
+      }
+    ]
+  }
+}

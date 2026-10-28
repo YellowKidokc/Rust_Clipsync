@@ -1,0 +1,1291 @@
+{
+  "id": "A10.1",
+  "title": "A10.1 Consciousness Substrate",
+  "proposal_only": true,
+  "context_parent": "A0",
+  "tags": {
+    "system_part": "rule",
+    "composition_level": 2,
+    "claim_role": "conjecture",
+    "warrant": {
+      "status": "unverified",
+      "kind": "proof"
+    },
+    "register": "spiritual"
+  },
+  "old_mode": "FW_EXTENDED",
+  "raw_csv_mode": "FW_EXTENDED",
+  "proposed_mode": "FW_EXTENDED",
+  "tier": 11,
+  "node_lifecycle": "framework_commitment",
+  "ruling": null,
+  "merged_into": null,
+  "node_vs_claim_vs_proof": "Node specifies a structure; claims below own their warrants; proofs are exact scoped receipts.",
+  "sources": {
+    "v3_line": "A10.1 Consciousness Substrate    ← BC6           [FW_EXTENDED]",
+    "current_root_record": "sources\\current_nodes\\A10_1_Consciousness_Substrate.md",
+    "october_review": "sources\\october_review\\AX-082.json"
+  },
+  "dependencies": {
+    "source_declared": [
+      "BC6"
+    ],
+    "source_relation": "depends_on",
+    "proposed_primary_support": [
+      "BC6"
+    ],
+    "stance_ceiling_sources": [],
+    "merge_scope": "Incoming claims retain their own premises; source and current-root graph versions are not silently equated."
+  },
+  "coherences": {
+    "C-info": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-moral": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-spiritual": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    }
+  },
+  "claims": [
+    {
+      "id": "A10.1::main",
+      "statement": "Individual consciousness requires a localized field structure.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+      "proof_refs": [],
+      "conditional_premises": [
+        "A1.3 Information Primacy: consciousness is informational.",
+        "D2.1 Logos Field: the χ-field exists as substrate.",
+        "A5.1 Observation Requirement: observers are needed for actualization.",
+        "D5.2 Integrated Information Φ: consciousness requires integration.",
+        "A bridge premise equating integrated information with a localized field structure.",
+        "Independent mathematical, physical, and empirical evidence for the Klein-Gordon soul-field, soliton model, GWT mapping, PCI, split-brain, gamma binding, NDE/OBE, and energy-conservation claims."
+      ],
+      "classification_proposal": {
+        "logical_role": "CONJECTURE",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "proposal only; no new frozen vocabulary applied"
+      },
+      "Q13": {
+        "register": "spiritual",
+        "domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ]
+      },
+      "Q14": {
+        "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+        "coherence_equality_assumed": false
+      },
+      "Q15": [
+        {
+          "id": "A10.1/Q15/0106",
+          "node": "A10.1",
+          "kind": "missing bridge",
+          "Q16": "OPEN",
+          "scope": "original core claim/application",
+          "reason": "At the inference to 'localized field structure': A0 + P-IMAGO yield only that creaturely consciousness is dependent and analogical, not that it is a field, localized, or governed by Φ or Klein-Gordon dynamics.",
+          "evidence": [
+            "sources\\october_review\\AX-082.json"
+          ]
+        }
+      ],
+      "Q16": {
+        "A10.1/Q15/0106": "OPEN"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "claim_scoped_dependencies": [
+        "BC6"
+      ],
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "A10.1::main"
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A10.1::split-01",
+      "statement": "Consciousness is informational.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-082.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A10.1::split-02",
+      "statement": "A χ-field exists as the substrate of reality.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-082.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A10.1::split-03",
+      "statement": "Observers are needed for actualization.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-082.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A10.1::split-04",
+      "statement": "Consciousness requires integrated information Φ > 0.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-082.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A10.1::split-05",
+      "statement": "The soul is a localized, self-sustaining excitation pattern in the χ-field: ψ_S = χ·φ_S.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-082.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A10.1::split-06",
+      "statement": "The soul-field obeys a modified Klein-Gordon equation with mass m_S and source terms J_χ and J_brain.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-082.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A10.1::split-07",
+      "statement": "m_S > 0 ensures localization of the soul-field.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-082.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A10.1::split-08",
+      "statement": "Integrated information Φ is given by the minimum bipartition entropy formula and Φ > 0 is necessary for consciousness.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-082.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A10.1::split-09",
+      "statement": "High Φ requires specific network architectures.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-082.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A10.1::split-10",
+      "statement": "The soul can be modeled as an information soliton that maintains identity through time and collisions.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-082.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A10.1::split-11",
+      "statement": "Global Workspace Theory maps onto the soul-field as integration, broadcast, access, and coupling.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-082.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A10.1::split-12",
+      "statement": "Neural Φ correlates with reported consciousness level.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-082.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A10.1::split-13",
+      "statement": "Perturbational Complexity Index tracks Φ and consciousness; this is confirmed by Casali et al. 2013.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-082.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A10.1::split-14",
+      "statement": "Split-brain callosotomy reduces Φ and produces two separate conscious streams.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-082.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A10.1::split-15",
+      "statement": "Disrupting gamma synchrony disrupts binding.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-082.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A10.1::split-16",
+      "statement": "NDE/OBE studies may show veridical perception during clinical death; the AWARE study provides anecdotal support.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-082.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A10.1::split-17",
+      "statement": "Soul-field energy density is given by E_S = ∫[1/2(∂ψ_S/∂t)^2 + 1/2|∇ψ_S|^2 + V(ψ_S)] d^3x and may be conserved.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-082.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A10.1::split-18",
+      "statement": "The individual soul is a localized reflection of the Godhead with Will, Reason, and Awareness (Imago Dei).",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-082.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    }
+  ],
+  "Q13": {
+    "register": "spiritual",
+    "domains": [
+      "THEOLOGICAL",
+      "MORAL"
+    ]
+  },
+  "Q14": {
+    "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+    "coherence_equality_assumed": false
+  },
+  "Q15": [
+    {
+      "id": "A10.1/Q15/0106",
+      "node": "A10.1",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "original core claim/application",
+      "reason": "At the inference to 'localized field structure': A0 + P-IMAGO yield only that creaturely consciousness is dependent and analogical, not that it is a field, localized, or governed by Φ or Klein-Gordon dynamics.",
+      "evidence": [
+        "sources\\october_review\\AX-082.json"
+      ]
+    },
+    {
+      "id": "A10.1/Q15/Z3-00",
+      "node": "A10.1",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "Exact October Z3 component: A10.1: Individual consciousness requires localized field structure",
+      "reason": "The file's main claim is a metaphysical/axiomatic sentence. Although the file later gives informal physical analogies and formal definitions of a soul-field as a localized chi-field excitation with integrated information Phi > 0, it does not give a precise formal criterion for 'individual consciousness', 'requires', or a formally stated implication from consciousness to localized field structure. Encoding it with uninterpreted predicates would only test an arbitrary abstraction, not the file's actual claim.",
+      "evidence": [
+        "sources/z3/03_PROMISING/results.json"
+      ]
+    }
+  ],
+  "Q16": {
+    "A10.1/Q15/0106": "OPEN",
+    "A10.1/Q15/Z3-00": "OPEN"
+  },
+  "ports": [],
+  "open_interface_obligation": "This rerun is a classified source/claim proposal. A full executable six-field port contract is not claimed for every older node.",
+  "reason": [
+    "Source role, domain and October limitations separated; no unproved application promoted."
+  ],
+  "soundness": {
+    "bin": "UNCHECKED",
+    "named_premises": [],
+    "receipt": [
+      "sources/z3/03_PROMISING/results.json"
+    ],
+    "denial_cost": null,
+    "scope_note": "No holds/fails call manufactured for an untested main claim.",
+    "why": "Original domain claim lacks a complete faithful, source-matched test or derivation; retained fragment receipts do not establish it.",
+    "Z3_source_verdicts": [
+      "NOT_CHECKABLE"
+    ],
+    "ranking_snapshot": {
+      "score": 1,
+      "id": "AX-082",
+      "title": "Consciousness Substrate",
+      "register": "formal",
+      "a0": "compatible",
+      "math": "yes_with_missing_premise",
+      "z3": "NOT_CHECKABLE",
+      "why": "math holds +premise",
+      "core": "Individual consciousness requires a localized field structure."
+    },
+    "A0_IMAGO_verdict": "COMPATIBLE_NOT_DERIVED",
+    "conflicts": [],
+    "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file's main claim is a metaphysical/axiomatic sentence. Although the file later gives informal physical analogies and formal definitions of a soul-field as a localized chi-field excitation with integrated information Phi > 0, it does not give a precise formal criterion for 'individual consciousness', 'requires', or a formally stated implication from consciousness to localized field structure. Encoding it with uninterpreted predicates would only test an arbitrary abstraction, not the file's a"
+  },
+  "grade": {
+    "match_scope": null,
+    "warrant": "unverified",
+    "outcome": null,
+    "canon_status": "open",
+    "note": "No holds/fails call manufactured for an untested main claim.",
+    "match_scope_applicable": false,
+    "assessed_claim_id": "A10.1::main"
+  },
+  "canon_rubric": {
+    "node": "A10.1",
+    "bin": "UNCHECKED",
+    "grade": {
+      "match_scope": null,
+      "warrant": "unverified",
+      "outcome": null,
+      "canon_status": "open",
+      "note": "No holds/fails call manufactured for an untested main claim.",
+      "match_scope_applicable": false,
+      "assessed_claim_id": "A10.1::main"
+    },
+    "criteria": {
+      "address": true,
+      "grade": false,
+      "receipt": false,
+      "ruling_authority": false,
+      "no_unresolved_conflict": false
+    },
+    "score": 1,
+    "meets_all_five": false,
+    "missing": [
+      "grade",
+      "receipt",
+      "ruling_authority",
+      "no_unresolved_conflict"
+    ],
+    "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+    "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+    "proposal_only": true
+  },
+  "follow_up_review": {
+    "proposal_only": true,
+    "soundness_row": {
+      "node": "A10.1",
+      "bin": "UNCHECKED",
+      "scope": "No holds/fails call manufactured for an untested main claim.",
+      "premises": [],
+      "receipt": [
+        "sources/z3/03_PROMISING/results.json"
+      ],
+      "denial_cost": null,
+      "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file's main claim is a metaphysical/axiomatic sentence. Although the file later gives informal physical analogies and formal definitions of a soul-field as a localized chi-field excitation with integrated information Phi > 0, it does not give a precise formal criterion for 'individual consciousness', 'requires', or a formally stated implication from consciousness to localized field structure. Encoding it with uninterpreted predicates would only test an arbitrary abstraction, not the file's a",
+      "canon_status": "open",
+      "conflicts": [],
+      "assessment_target": "No holds/fails call manufactured for an untested main claim.",
+      "main_statement": "Individual consciousness requires a localized field structure.",
+      "proposal_only": true,
+      "lead_summary": {
+        "REAL GAP": 2,
+        "UNDEFINED": 2
+      },
+      "remaining_lead_ids": [
+        "LEAD-074",
+        "LEAD-075",
+        "LEAD-076",
+        "LEAD-077"
+      ],
+      "strength": "Conditional",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "A10.1::main"
+      },
+      "scope_warning": "Bin assesses the named target only; neither bundled claims nor domain identification inherit its proof. A written explanation is recorded as support at its source status."
+    },
+    "canon_rubric": {
+      "node": "A10.1",
+      "bin": "UNCHECKED",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "A10.1::main"
+      },
+      "criteria": {
+        "address": true,
+        "grade": false,
+        "receipt": false,
+        "ruling_authority": false,
+        "no_unresolved_conflict": false
+      },
+      "score": 1,
+      "meets_all_five": false,
+      "missing": [
+        "grade",
+        "receipt",
+        "ruling_authority",
+        "no_unresolved_conflict"
+      ],
+      "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+      "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+      "proposal_only": true
+    },
+    "leads": [
+      {
+        "lead_id": "LEAD-074",
+        "node": "A10.1",
+        "record": "AX-082",
+        "required_key": "chi field exists",
+        "origin": "no-supplier",
+        "input_line": 86,
+        "class": "REAL GAP",
+        "definition_used": "The proposed χ-field is physically instantiated, beyond being a declared scalar-field model.",
+        "definition_status": "requirement defined; supply not established in inspected sources",
+        "supplier": null,
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\D2_1_Logos_Field_Definition.md",
+          "line": 28,
+          "text": "χ: M → ℝ (scalar field over manifold M)"
+        },
+        "missing_or_reason": "An independently supported physical existence premise/empirical identification is required; a definition cannot supply existence of its physical referent.",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\A10_1_Consciousness_Substrate.md",
+          "line": 23,
+          "text": "Consciousness requires informational substrate — it is grounded in χ-field."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-082_A10.1.md"
+        ],
+        "supplied_at_recorded_warrant_only": false,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\03_PROMISING\\082_A10.1_Consciousness-Substrate.z3spec.json",
+            "checkable": false,
+            "component": "A10.1: Individual consciousness requires localized field structure",
+            "faithfulness_note": "The file's main claim is a metaphysical/axiomatic sentence. Although the file later gives informal physical analogies and formal definitions of a soul-field as a localized chi-field excitation with integrated information Phi > 0, it does not give a precise formal criterion for 'individual consciousness', 'requires', or a formally stated implication from consciousness to localized field structure. Encoding it with uninterpreted predicates would only test an arbitrary abstraction, not the file's actual claim.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "REAL GAP",
+        "follow_up_evidence": [],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "closes_dependency": false,
+        "formal_proof_added_by_this_classification": false
+      },
+      {
+        "lead_id": "LEAD-075",
+        "node": "A10.1",
+        "record": "AX-082",
+        "required_key": "phi minimum bipartition",
+        "origin": "no-supplier",
+        "input_line": 87,
+        "class": "UNDEFINED",
+        "definition_used": "A selected bipartition minimizes the declared integration loss.",
+        "definition_status": "UNDEFINED / operationally incomplete",
+        "supplier": null,
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\D5_2_Integrated_Information_Phi.md",
+          "line": 28,
+          "text": "Φ = integrated information (IIT measure)"
+        },
+        "missing_or_reason": "Define the system, admissible partitions, loss functional, normalization, ties, and IIT version; no such specification is supplied by the Φ label.",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\A10_1_Consciousness_Substrate.md",
+          "line": 23,
+          "text": "Consciousness requires informational substrate — it is grounded in χ-field."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-082_A10.1.md"
+        ],
+        "supplied_at_recorded_warrant_only": false,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\03_PROMISING\\082_A10.1_Consciousness-Substrate.z3spec.json",
+            "checkable": false,
+            "component": "A10.1: Individual consciousness requires localized field structure",
+            "faithfulness_note": "The file's main claim is a metaphysical/axiomatic sentence. Although the file later gives informal physical analogies and formal definitions of a soul-field as a localized chi-field excitation with integrated information Phi > 0, it does not give a precise formal criterion for 'individual consciousness', 'requires', or a formally stated implication from consciousness to localized field structure. Encoding it with uninterpreted predicates would only test an arbitrary abstraction, not the file's actual claim.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "UNDEFINED",
+        "follow_up_evidence": [],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "closes_dependency": false,
+        "formal_proof_added_by_this_classification": false
+      },
+      {
+        "lead_id": "LEAD-076",
+        "node": "A10.1",
+        "record": "AX-082",
+        "required_key": "phi operational definition",
+        "origin": "no-supplier",
+        "input_line": 88,
+        "class": "UNDEFINED",
+        "definition_used": "A reproducible rule computes or estimates Φ from a specified system or observations.",
+        "definition_status": "UNDEFINED / operationally incomplete",
+        "supplier": null,
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\D5_2_Integrated_Information_Phi.md",
+          "line": 28,
+          "text": "Φ = integrated information (IIT measure)"
+        },
+        "missing_or_reason": "Select IIT version, state variables, intervention/transition probabilities, partitions, distance, units, estimator, and error limits.",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\A10_1_Consciousness_Substrate.md",
+          "line": 23,
+          "text": "Consciousness requires informational substrate — it is grounded in χ-field."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-082_A10.1.md"
+        ],
+        "supplied_at_recorded_warrant_only": false,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\03_PROMISING\\082_A10.1_Consciousness-Substrate.z3spec.json",
+            "checkable": false,
+            "component": "A10.1: Individual consciousness requires localized field structure",
+            "faithfulness_note": "The file's main claim is a metaphysical/axiomatic sentence. Although the file later gives informal physical analogies and formal definitions of a soul-field as a localized chi-field excitation with integrated information Phi > 0, it does not give a precise formal criterion for 'individual consciousness', 'requires', or a formally stated implication from consciousness to localized field structure. Encoding it with uninterpreted predicates would only test an arbitrary abstraction, not the file's actual claim.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "UNDEFINED",
+        "follow_up_evidence": [
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\15_Ontological_Taxonomy_Session_Synthesis.md",
+            "line": 39,
+            "end_line": 39,
+            "text": "The corrected equation (replacing Tononi's Φ-based proposal):",
+            "sha256": "771416145cb2d13fe667c2120a041ed802a6cdf8c66a4de93579ba452479f6e2"
+          },
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\15_Ontological_Taxonomy_Session_Synthesis.md",
+            "line": 41,
+            "end_line": 41,
+            "text": "$$I_f = \\Lambda \\cdot \\Omega$$",
+            "sha256": "771416145cb2d13fe667c2120a041ed802a6cdf8c66a4de93579ba452479f6e2"
+          }
+        ],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "fuller_source_note": "A later interface definition exists, but it is Λ·Ω rather than an operational IIT Φ computation. Version selection is required.",
+        "closes_dependency": false,
+        "formal_proof_added_by_this_classification": false
+      },
+      {
+        "lead_id": "LEAD-077",
+        "node": "A10.1",
+        "record": "AX-082",
+        "required_key": "nde obe veridical perception",
+        "origin": "no-supplier",
+        "input_line": 89,
+        "class": "REAL GAP",
+        "definition_used": "Reports establish accurate perception during the specified near-death/out-of-body conditions.",
+        "definition_status": "requirement defined; supply not established in inspected sources",
+        "supplier": null,
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\A10_1_Consciousness_Substrate.md",
+          "line": 23,
+          "text": "Consciousness requires informational substrate — it is grounded in χ-field."
+        },
+        "missing_or_reason": "Provide independently checked observations, timing, controls, and an inference bridge to the proposed substrate; the consciousness-substrate assertion is not such evidence.",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\A10_1_Consciousness_Substrate.md",
+          "line": 23,
+          "text": "Consciousness requires informational substrate — it is grounded in χ-field."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-082_A10.1.md"
+        ],
+        "supplied_at_recorded_warrant_only": false,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\03_PROMISING\\082_A10.1_Consciousness-Substrate.z3spec.json",
+            "checkable": false,
+            "component": "A10.1: Individual consciousness requires localized field structure",
+            "faithfulness_note": "The file's main claim is a metaphysical/axiomatic sentence. Although the file later gives informal physical analogies and formal definitions of a soul-field as a localized chi-field excitation with integrated information Phi > 0, it does not give a precise formal criterion for 'individual consciousness', 'requires', or a formally stated implication from consciousness to localized field structure. Encoding it with uninterpreted predicates would only test an arbitrary abstraction, not the file's actual claim.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "REAL GAP",
+        "follow_up_evidence": [],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "closes_dependency": false,
+        "formal_proof_added_by_this_classification": false
+      }
+    ],
+    "current_ruling": null,
+    "ruling_scope": "Existing disposition only; no new canon admission.",
+    "receipt_attachments": [],
+    "Q15_follow_up": [
+      {
+        "id": "FOLLOWUP/Q15/PHI-VERSION",
+        "node": "D5.2",
+        "kind": "definition version conflict",
+        "Q16": "OPEN",
+        "scope": "legacy IIT Φ versus March interface Λ·Ω",
+        "reason": "The later taxonomy explicitly replaces the interface proposal. Both versions are preserved; select the intended consumer quantity rather than relabeling Ω as IIT Φ.",
+        "evidence": [
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\15_Ontological_Taxonomy_Session_Synthesis.md",
+            "line": 39,
+            "end_line": 39,
+            "text": "The corrected equation (replacing Tononi's Φ-based proposal):",
+            "sha256": "771416145cb2d13fe667c2120a041ed802a6cdf8c66a4de93579ba452479f6e2"
+          },
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\15_Ontological_Taxonomy_Session_Synthesis.md",
+            "line": 41,
+            "end_line": 41,
+            "text": "$$I_f = \\Lambda \\cdot \\Omega$$",
+            "sha256": "771416145cb2d13fe667c2120a041ed802a6cdf8c66a4de93579ba452479f6e2"
+          }
+        ],
+        "affected_nodes": [
+          "A10.1",
+          "A11.2",
+          "A14.2",
+          "A17.1",
+          "A17.2",
+          "BC5",
+          "D10.1",
+          "D12.1",
+          "D17.1",
+          "D5.1",
+          "D5.2",
+          "D8.1",
+          "E6.2",
+          "F2",
+          "F4",
+          "F5",
+          "O4",
+          "P10.2",
+          "P5.1",
+          "P5.2",
+          "P9.3",
+          "PERSONHOOD",
+          "PROT18.1",
+          "PROT18.2",
+          "PROT18.5",
+          "SC-QUANTUM",
+          "T11.1",
+          "T11.2",
+          "U3"
+        ]
+      }
+    ]
+  }
+}

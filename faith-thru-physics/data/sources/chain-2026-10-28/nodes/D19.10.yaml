@@ -1,0 +1,1107 @@
+{
+  "id": "D19.10",
+  "title": "D19.10 Law X (Trinity Closure)",
+  "proposal_only": true,
+  "context_parent": "A0",
+  "tags": {
+    "system_part": "operator",
+    "composition_level": 4,
+    "claim_role": "definition",
+    "warrant": {
+      "status": "unverified",
+      "kind": "proof"
+    },
+    "register": "formal"
+  },
+  "old_mode": "AX_SCAFFOLD",
+  "raw_csv_mode": "AX_SCAFFOLD",
+  "proposed_mode": "AX_SCAFFOLD",
+  "tier": 13,
+  "node_lifecycle": "open",
+  "ruling": "DAVID-2026-10-25-NODE-RULINGS",
+  "merged_into": null,
+  "node_vs_claim_vs_proof": "Node specifies a structure; claims below own their warrants; proofs are exact scoped receipts.",
+  "sources": {
+    "v3_line": "D19.10 Law X (Trinity Closure)     ← BC4a           [AX_SCAFFOLD]",
+    "current_root_record": "sources\\current_nodes\\D19_10_Law_X_Trinity_Closure.md",
+    "october_review": "sources\\october_review\\AX-145.json"
+  },
+  "dependencies": {
+    "source_declared": [
+      "BC4a"
+    ],
+    "source_relation": "depends_on",
+    "proposed_primary_support": [
+      "BC4a",
+      "BC4b",
+      "BC3",
+      "BC5"
+    ],
+    "stance_ceiling_sources": [
+      "A5.1"
+    ],
+    "merge_scope": "Incoming claims retain their own premises; source and current-root graph versions are not silently equated."
+  },
+  "coherences": {
+    "C-info": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-moral": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-spiritual": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    }
+  },
+  "claims": [
+    {
+      "id": "D19.10::main",
+      "statement": "Complete measurement closure requires exactly three perichoretically related observer-operators.",
+      "tags": {
+        "system_part": "operator",
+        "composition_level": 4,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+      "proof_refs": [],
+      "conditional_premises": [],
+      "classification_proposal": {
+        "logical_role": "DEFINITION",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "proposal only; no new frozen vocabulary applied"
+      },
+      "Q13": {
+        "register": "formal",
+        "domains": [
+          "ONTOLOGICAL"
+        ]
+      },
+      "Q14": {
+        "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+        "coherence_equality_assumed": false
+      },
+      "Q15": [
+        {
+          "id": "D19.10/Q15/0150",
+          "node": "D19.10",
+          "kind": "missing bridge",
+          "Q16": "OPEN",
+          "scope": "exactly-three and Trinity identification",
+          "reason": "Composite links to BC4a/BC4b retain two separate burdens; no generic three-witness/counting argument derives the theological identification. U1/O2 remain deferred.",
+          "evidence": []
+        },
+        {
+          "id": "D19.10/Q15/0151",
+          "node": "D19.10",
+          "kind": "definitional conflict",
+          "Q16": "OPEN",
+          "scope": "original core claim/application",
+          "reason": "At the move from the general analogy of created relationality to the exact claim that complete measurement closure requires exactly three perichoretic observer-operators; P-IMAGO explicitly does not yield physical laws, equations, constants, or measurements.",
+          "evidence": [
+            "sources\\october_review\\AX-145.json"
+          ]
+        }
+      ],
+      "Q16": {
+        "D19.10/Q15/0150": "OPEN",
+        "D19.10/Q15/0151": "OPEN"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "claim_scoped_dependencies": [
+        "BC4a"
+      ],
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "D19.10::main"
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.10::split-01",
+      "statement": "Three observer-operators are the minimal structure for zero residual uncertainty in measurement.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-145.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.10::split-02",
+      "statement": "The Born Rule has an essential three-term structure corresponding to Father, Son, and Spirit.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-145.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.10::split-03",
+      "statement": "The Trinity operators generate SU(3), and Father, Son, and Spirit correspond to a specific SU(3) triplet of Gell-Mann matrices.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-145.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.10::split-04",
+      "statement": "The Trinity operators generate su(2), identified with J_z, J_x, and J_y, sharing a Casimir operator as one essence.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-145.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.10::split-05",
+      "statement": "Quaternion units i, j, k correspond to Father, Son, and Spirit, with ijk=-1 as the closure phase.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-145.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.10::split-06",
+      "statement": "The Trinity forms a 2-simplex in observer space with H0=Z, H1=0, and H2=0.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-145.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.10::split-07",
+      "statement": "Three-channel measurement yields zero conditional entropy H(X|F,S,H)=0.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-145.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.10::split-08",
+      "statement": "Residual uncertainty scales as 1/sqrt(n) and is exactly zero for n=3 under perichoretic closure.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-145.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.10::split-09",
+      "statement": "The minimal complete category of observers has exactly three objects.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-145.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.10::split-10",
+      "statement": "SU(3) is the minimal non-abelian simple Lie group with rich enough structure for complete closure.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-145.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.10::split-11",
+      "statement": "Color charge, quark flavors, spatial dimensions, and temporal phases are three-structures supporting Trinity closure.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-145.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.10::split-12",
+      "statement": "Monotheism-Trinity is mathematically resolved by 1x1x1=1 rather than 1+1+1=3.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-145.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.10::split-13",
+      "statement": "Measurement requires exactly state, apparatus, and observer, and this confirms the Trinity.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-145.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.10::split-14",
+      "statement": "Complete measurement closure eliminates all uncertainty in principle.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-145.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.10::receipt::LawToLaw.four_laws_share_one_shape",
+      "statement": "Exact compiled declaration LawToLaw.four_laws_share_one_shape",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Mechanism",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\LawToLaw.lean",
+        "receipts/LawToLaw.log"
+      ],
+      "scope_limit": "Coarse two-state models are assigned equal roles/values/steps. External-input flag is an annotation. No mechanistic physics/theology identity is proved. Three person regimes cannot match the two-state law pattern.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "legacy_strength": "Structure",
+      "match_scope_note": "States and moves of the stipulated finite Model.step relation; not an empirical causal mechanism.",
+      "grade": {
+        "match_scope": "states and moves",
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "D19.10::receipt::LawToLaw.person_pattern_not_law_pattern",
+      "statement": "Exact compiled declaration LawToLaw.person_pattern_not_law_pattern",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Negative",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\LawToLaw.lean",
+        "receipts/LawToLaw.log"
+      ],
+      "scope_limit": "Coarse two-state models are assigned equal roles/values/steps. External-input flag is an annotation. No mechanistic physics/theology identity is proved. Three person regimes cannot match the two-state law pattern.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "ASYMMETRY",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "fails",
+        "canon_status": "open",
+        "note": "Negative outcome concerns the named target assertion; a proof of its failure is not a failed proof."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    }
+  ],
+  "Q13": {
+    "register": "formal",
+    "domains": [
+      "ONTOLOGICAL"
+    ]
+  },
+  "Q14": {
+    "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+    "coherence_equality_assumed": false
+  },
+  "Q15": [
+    {
+      "id": "D19.10/Q15/0150",
+      "node": "D19.10",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "exactly-three and Trinity identification",
+      "reason": "Composite links to BC4a/BC4b retain two separate burdens; no generic three-witness/counting argument derives the theological identification. U1/O2 remain deferred.",
+      "evidence": []
+    },
+    {
+      "id": "D19.10/Q15/0151",
+      "node": "D19.10",
+      "kind": "definitional conflict",
+      "Q16": "OPEN",
+      "scope": "original core claim/application",
+      "reason": "At the move from the general analogy of created relationality to the exact claim that complete measurement closure requires exactly three perichoretic observer-operators; P-IMAGO explicitly does not yield physical laws, equations, constants, or measurements.",
+      "evidence": [
+        "sources\\october_review\\AX-145.json"
+      ]
+    },
+    {
+      "id": "D19.10/Q15/Z3-00",
+      "node": "D19.10",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "Exact October Z3 component: Law X claims complete measurement closure requires exactly three perichoretic observer-operators.",
+      "reason": "The main claim is not precise enough to encode faithfully: 'complete measurement closure', 'zero residual uncertainty', 'observer-operator', and the minimality/exactness over all physical measurement systems are not formally defined. The file mixes SU(2), SU(3), cyclic products, commutators, and informal information-theoretic/category-theoretic arguments; encoding only the matrix-algebra side conditions would check a side consistency claim, not the main necessity/sufficiency claim.",
+      "evidence": [
+        "sources/z3/03_PROMISING/results.json"
+      ]
+    }
+  ],
+  "Q16": {
+    "D19.10/Q15/0150": "OPEN",
+    "D19.10/Q15/0151": "OPEN",
+    "D19.10/Q15/Z3-00": "OPEN"
+  },
+  "ports": [
+    {
+      "input": "Declared component contracts and exact assumptions",
+      "output": "Conditional composite account, not an unconditional theorem",
+      "agent": "Component agents; no extra actor added",
+      "boundary": "All component boundaries and any cross-register bridge must be satisfied",
+      "constraints": "No claim strengthening; preserve distinct coherence fields and component warrants",
+      "evidence": [
+        "BC4a",
+        "BC4b",
+        "BC3",
+        "BC5"
+      ]
+    }
+  ],
+  "open_interface_obligation": "This rerun is a classified source/claim proposal. A full executable six-field port contract is not claimed for every older node.",
+  "reason": [
+    "Retained as level-4 composite Law; component combination is not an automatic theorem.",
+    "Weakest-premise ceiling inherited from A5.1."
+  ],
+  "components": [
+    "BC4a",
+    "BC4b",
+    "BC3",
+    "BC5"
+  ],
+  "legacy_components": [
+    "BC4",
+    "BC3",
+    "BC5"
+  ],
+  "attached_receipts": [
+    {
+      "file": "sources\\october_lean\\LawToLaw.lean",
+      "strength": "scoped per declaration",
+      "proof_does_not_promote_core": true
+    }
+  ],
+  "soundness": {
+    "bin": "UNCHECKED",
+    "named_premises": [],
+    "receipt": [
+      "sources/z3/03_PROMISING/results.json"
+    ],
+    "denial_cost": null,
+    "scope_note": "No holds/fails call manufactured for an untested main claim.",
+    "why": "Original domain claim lacks a complete faithful, source-matched test or derivation; retained fragment receipts do not establish it.",
+    "Z3_source_verdicts": [
+      "NOT_CHECKABLE"
+    ],
+    "ranking_snapshot": {
+      "score": 1,
+      "id": "AX-145",
+      "title": "Law X Definition (Trinity Closure)",
+      "register": "formal",
+      "a0": "compatible",
+      "math": "yes_with_missing_premise",
+      "z3": "NOT_CHECKABLE",
+      "why": "math holds +premise",
+      "core": "Complete measurement closure requires exactly three perichoretically related observer-operators."
+    },
+    "A0_IMAGO_verdict": "COMPATIBLE_NOT_DERIVED",
+    "conflicts": [],
+    "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is not precise enough to encode faithfully: 'complete measurement closure', 'zero residual uncertainty', 'observer-operator', and the minimality/exactness over all physical measurement systems are not formally defined. The file mixes SU(2), SU(3), cyclic products, commutators, and informal information-theoretic/category-theoretic arguments; encoding only the matrix-algebra side conditions would check a side consistency claim, not the main necessity/sufficiency claim."
+  },
+  "grade": {
+    "match_scope": null,
+    "warrant": "unverified",
+    "outcome": null,
+    "canon_status": "open",
+    "note": "No holds/fails call manufactured for an untested main claim.",
+    "match_scope_applicable": false,
+    "assessed_claim_id": "D19.10::main"
+  },
+  "canon_rubric": {
+    "node": "D19.10",
+    "bin": "UNCHECKED",
+    "grade": {
+      "match_scope": null,
+      "warrant": "unverified",
+      "outcome": null,
+      "canon_status": "open",
+      "note": "No holds/fails call manufactured for an untested main claim.",
+      "match_scope_applicable": false,
+      "assessed_claim_id": "D19.10::main"
+    },
+    "criteria": {
+      "address": true,
+      "grade": false,
+      "receipt": false,
+      "ruling_authority": false,
+      "no_unresolved_conflict": false
+    },
+    "score": 1,
+    "meets_all_five": false,
+    "missing": [
+      "grade",
+      "receipt",
+      "ruling_authority",
+      "no_unresolved_conflict"
+    ],
+    "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+    "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+    "proposal_only": true
+  },
+  "follow_up_review": {
+    "proposal_only": true,
+    "soundness_row": {
+      "node": "D19.10",
+      "bin": "UNCHECKED",
+      "scope": "No holds/fails call manufactured for an untested main claim.",
+      "premises": [],
+      "receipt": [
+        "sources/z3/03_PROMISING/results.json"
+      ],
+      "denial_cost": null,
+      "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is not precise enough to encode faithfully: 'complete measurement closure', 'zero residual uncertainty', 'observer-operator', and the minimality/exactness over all physical measurement systems are not formally defined. The file mixes SU(2), SU(3), cyclic products, commutators, and informal information-theoretic/category-theoretic arguments; encoding only the matrix-algebra side conditions would check a side consistency claim, not the main necessity/sufficiency claim.",
+      "canon_status": "open",
+      "conflicts": [],
+      "assessment_target": "No holds/fails call manufactured for an untested main claim.",
+      "main_statement": "Complete measurement closure requires exactly three perichoretically related observer-operators.",
+      "proposal_only": true,
+      "lead_summary": {
+        "REAL GAP": 1
+      },
+      "remaining_lead_ids": [
+        "LEAD-151"
+      ],
+      "strength": "Conditional",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "D19.10::main"
+      },
+      "scope_warning": "Bin assesses the named target only; neither bundled claims nor domain identification inherit its proof. A written explanation is recorded as support at its source status."
+    },
+    "canon_rubric": {
+      "node": "D19.10",
+      "bin": "UNCHECKED",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "D19.10::main"
+      },
+      "criteria": {
+        "address": true,
+        "grade": false,
+        "receipt": false,
+        "ruling_authority": false,
+        "no_unresolved_conflict": false
+      },
+      "score": 1,
+      "meets_all_five": false,
+      "missing": [
+        "grade",
+        "receipt",
+        "ruling_authority",
+        "no_unresolved_conflict"
+      ],
+      "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+      "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+      "proposal_only": true
+    },
+    "leads": [
+      {
+        "lead_id": "LEAD-151",
+        "node": "D19.10",
+        "record": "AX-145",
+        "required_key": "perichoresis defined",
+        "origin": "no-supplier",
+        "input_line": 163,
+        "class": "REAL GAP",
+        "definition_used": "Mutual indwelling of distinct divine persons without division of divine essence.",
+        "definition_status": "doctrinal definition found in IN_PROGRESS source; formal measurement bridge OPEN",
+        "supplier": null,
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\D19_10_Law_X_Trinity_Closure.md",
+          "line": 86,
+          "text": "N_observers = 3; perichoretic: each measures the other two"
+        },
+        "missing_or_reason": "Attach the native doctrine to the composite and supply, or decline, the proposed identification with the each-measures-the-other-two graph. The doctrine is written; the measurement correspondence is not established.",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\D19_10_Law_X_Trinity_Closure.md",
+          "line": 81,
+          "text": "Law X: Complete measurement closure requires exactly three observer-operators."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-145_D19.10.md"
+        ],
+        "supplied_at_recorded_warrant_only": false,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\03_PROMISING\\145_D19.10_Law-X-Definition.z3spec.json",
+            "checkable": false,
+            "component": "Law X claims complete measurement closure requires exactly three perichoretic observer-operators.",
+            "faithfulness_note": "The main claim is not precise enough to encode faithfully: 'complete measurement closure', 'zero residual uncertainty', 'observer-operator', and the minimality/exactness over all physical measurement systems are not formally defined. The file mixes SU(2), SU(3), cyclic products, commutators, and informal information-theoretic/category-theoretic arguments; encoding only the matrix-algebra side conditions would check a side consistency claim, not the main necessity/sufficiency claim.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "UNDEFINED",
+        "follow_up_evidence": [
+          {
+            "file": "\\\\192.168.2.50\\h_hp\\Desktop\\Youtube API CKG\\ORIGINALS\\T03_Perichoresis.md",
+            "line": 25,
+            "end_line": 25,
+            "text": "The Trinity is not three Gods cooperating, nor one God pretending to be three. The three Persons exist in each other—complete mutual interpenetration—while remaining distinct. This is perichoresis: the divine dance of mutual indwelling.",
+            "sha256": "0281033a74350ff25ff975d26691b3ff923e9b694a86c8318f1d349f28760142"
+          }
+        ],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "fuller_source_note": "The doctrinal meaning is explicitly written: mutual indwelling with persons remaining distinct. The graph claim each measures the other two still needs a separate interpretation bridge.",
+        "closes_dependency": false,
+        "formal_proof_added_by_this_classification": false
+      }
+    ],
+    "current_ruling": {
+      "decision": "composite",
+      "components": [
+        "BC4",
+        "BC3",
+        "BC5"
+      ]
+    },
+    "ruling_scope": "Existing disposition only; no new canon admission.",
+    "receipt_attachments": [],
+    "Q15_follow_up": [
+      {
+        "id": "FOLLOWUP/Q15/PERICHORESIS",
+        "node": "D19.10",
+        "kind": "missing bridge",
+        "Q16": "OPEN",
+        "scope": "mutual divine indwelling versus graph measurement relation",
+        "reason": "The native doctrine has a written definition. Its equivalence to a three-observer graph remains a separate claim.",
+        "evidence": [
+          {
+            "file": "\\\\192.168.2.50\\h_hp\\Desktop\\Youtube API CKG\\ORIGINALS\\T03_Perichoresis.md",
+            "line": 25,
+            "end_line": 25,
+            "text": "The Trinity is not three Gods cooperating, nor one God pretending to be three. The three Persons exist in each other—complete mutual interpenetration—while remaining distinct. This is perichoresis: the divine dance of mutual indwelling.",
+            "sha256": "0281033a74350ff25ff975d26691b3ff923e9b694a86c8318f1d349f28760142"
+          }
+        ]
+      }
+    ]
+  }
+}

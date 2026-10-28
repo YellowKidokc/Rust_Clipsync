@@ -1,0 +1,787 @@
+{
+  "id": "E6.2",
+  "title": "E6.2 Φ-Dependent Collapse",
+  "proposal_only": true,
+  "context_parent": "A0",
+  "tags": {
+    "system_part": "constitutive law",
+    "composition_level": 2,
+    "claim_role": "conjecture",
+    "warrant": {
+      "status": "unverified",
+      "kind": "proof"
+    },
+    "register": "embodied"
+  },
+  "old_mode": "AX_SCAFFOLD",
+  "raw_csv_mode": "AX_SCAFFOLD",
+  "proposed_mode": "AX_SCAFFOLD",
+  "tier": 7,
+  "node_lifecycle": "equation",
+  "ruling": "DAVID-2026-10-25-NODE-RULINGS",
+  "merged_into": null,
+  "node_vs_claim_vs_proof": "Node specifies a structure; claims below own their warrants; proofs are exact scoped receipts.",
+  "sources": {
+    "v3_line": "E6.2 Φ-Dependent Collapse       ← A5.1, D5.2, A6.2 [AX_SCAFFOLD]",
+    "current_root_record": "sources\\current_nodes\\E6_2_Phi-Dependent_Collapse.md",
+    "october_review": "sources\\october_review\\AX-051.json"
+  },
+  "dependencies": {
+    "source_declared": [
+      "A5.1",
+      "D5.2",
+      "A6.2"
+    ],
+    "source_relation": "depends_on",
+    "proposed_primary_support": [
+      "A5.1",
+      "D5.2",
+      "A6.2"
+    ],
+    "stance_ceiling_sources": [
+      "A5.1"
+    ],
+    "merge_scope": "Incoming claims retain their own premises; source and current-root graph versions are not silently equated."
+  },
+  "coherences": {
+    "C-info": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-moral": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-spiritual": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    }
+  },
+  "claims": [
+    {
+      "id": "E6.2::main",
+      "statement": "Quantum wavefunction evolution obeys the modified Schrödinger equation iħ d|ψ>/dt = (H − iγΦ)|ψ>, in which a Φ-dependent non-Hermitian term drives collapse.",
+      "tags": {
+        "system_part": "constitutive law",
+        "composition_level": 2,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+      "proof_refs": [],
+      "conditional_premises": [
+        "A specific Φ-dependent collapse postulate defining Φ and the non-Hermitian term",
+        "Empirical evidence or measurement constraints relating collapse rates to Φ",
+        "A separate bridge premise identifying divine revelation or attention with quantum collapse"
+      ],
+      "classification_proposal": {
+        "logical_role": "CONJECTURE",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "proposal only; no new frozen vocabulary applied"
+      },
+      "Q13": {
+        "register": "embodied",
+        "domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ]
+      },
+      "Q14": {
+        "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+        "coherence_equality_assumed": false
+      },
+      "Q15": [
+        {
+          "id": "E6.2/Q15/0060",
+          "node": "E6.2",
+          "kind": "missing bridge",
+          "Q16": "OPEN",
+          "scope": "original core claim/application",
+          "reason": "At the move from P-IMAGO's general analogy of being to the specific non-Hermitian collapse equation iħ d|ψ>/dt = (H − iγΦ)|ψ>; P-IMAGO explicitly excludes particular physical laws and equations.",
+          "evidence": [
+            "sources\\october_review\\AX-051.json"
+          ]
+        }
+      ],
+      "Q16": {
+        "E6.2/Q15/0060": "OPEN"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "claim_scoped_dependencies": [
+        "A5.1",
+        "D5.2",
+        "A6.2"
+      ],
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "E6.2::main"
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E6.2::split-01",
+      "statement": "The term −iγΦ specifically represents divine revelation in physical reality.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-051.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E6.2::split-02",
+      "statement": "Attention is identical to or maps onto wavefunction collapse.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-051.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E6.2::split-03",
+      "statement": "Wavefunction collapse is the physical analogue of Acts 17:28's 'live move'.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-051.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E6.2::split-04",
+      "statement": "Decoherence observations provide evidence for the Φ-dependent collapse equation.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-051.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E6.2::split-05",
+      "statement": "Measurement information gain is equivalent to Φ-dependent collapse.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-051.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E6.2::split-06",
+      "statement": "The collapse rate is proportional to Φ as a downstream physical claim.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-051.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E6.2::split-07",
+      "statement": "Φ is a well-defined physical quantity governing collapse.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "embodied"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "CONSCIOUSNESS",
+          "EPISTEMIC"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-051.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    }
+  ],
+  "Q13": {
+    "register": "embodied",
+    "domains": [
+      "CONSCIOUSNESS",
+      "EPISTEMIC"
+    ]
+  },
+  "Q14": {
+    "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+    "coherence_equality_assumed": false
+  },
+  "Q15": [
+    {
+      "id": "E6.2/Q15/0060",
+      "node": "E6.2",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "original core claim/application",
+      "reason": "At the move from P-IMAGO's general analogy of being to the specific non-Hermitian collapse equation iħ d|ψ>/dt = (H − iγΦ)|ψ>; P-IMAGO explicitly excludes particular physical laws and equations.",
+      "evidence": [
+        "sources\\october_review\\AX-051.json"
+      ]
+    }
+  ],
+  "Q16": {
+    "E6.2/Q15/0060": "OPEN"
+  },
+  "ports": [],
+  "open_interface_obligation": "This rerun is a classified source/claim proposal. A full executable six-field port contract is not claimed for every older node.",
+  "reason": [
+    "Weakest-premise ceiling inherited from A5.1."
+  ],
+  "merged_claims": [
+    {
+      "source_node": "P6.1",
+      "claim_ids": [
+        "P6.1::main",
+        "P6.1::split-01",
+        "P6.1::split-02",
+        "P6.1::split-03",
+        "P6.1::split-04",
+        "P6.1::split-05",
+        "P6.1::split-06",
+        "P6.1::split-07",
+        "P6.1::split-08",
+        "P6.1::split-09",
+        "P6.1::split-10",
+        "P6.1::split-11",
+        "P6.1::split-12"
+      ],
+      "source_claim_premises": [
+        "A6.2"
+      ],
+      "note": "Claim-scoped premises, not automatically premises of the destination primary claim."
+    }
+  ],
+  "soundness": {
+    "bin": "UNCHECKED",
+    "named_premises": [],
+    "receipt": [],
+    "denial_cost": null,
+    "scope_note": "No holds/fails call manufactured for an untested main claim.",
+    "why": "Original domain claim lacks a complete faithful, source-matched test or derivation; retained fragment receipts do not establish it.",
+    "Z3_source_verdicts": [],
+    "ranking_snapshot": {
+      "score": 1,
+      "id": "AX-051",
+      "title": "Phi-Dependent Collapse",
+      "register": "formal",
+      "a0": "compatible",
+      "math": "yes_with_missing_premise",
+      "z3": "-",
+      "why": "math holds +premise",
+      "core": "Quantum wavefunction evolution obeys the modified Schrödinger equation iħ d|ψ>/dt = (H − iγΦ)|ψ>, in which a Φ-dependent non-Hermitian term drives collapse."
+    },
+    "A0_IMAGO_verdict": "COMPATIBLE_NOT_DERIVED",
+    "conflicts": [],
+    "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. "
+  },
+  "grade": {
+    "match_scope": null,
+    "warrant": "unverified",
+    "outcome": null,
+    "canon_status": "open",
+    "note": "No holds/fails call manufactured for an untested main claim.",
+    "match_scope_applicable": false,
+    "assessed_claim_id": "E6.2::main"
+  },
+  "canon_rubric": {
+    "node": "E6.2",
+    "bin": "UNCHECKED",
+    "grade": {
+      "match_scope": null,
+      "warrant": "unverified",
+      "outcome": null,
+      "canon_status": "open",
+      "note": "No holds/fails call manufactured for an untested main claim.",
+      "match_scope_applicable": false,
+      "assessed_claim_id": "E6.2::main"
+    },
+    "criteria": {
+      "address": true,
+      "grade": false,
+      "receipt": false,
+      "ruling_authority": false,
+      "no_unresolved_conflict": false
+    },
+    "score": 1,
+    "meets_all_five": false,
+    "missing": [
+      "grade",
+      "receipt",
+      "ruling_authority",
+      "no_unresolved_conflict"
+    ],
+    "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+    "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+    "proposal_only": true
+  },
+  "follow_up_review": {
+    "proposal_only": true,
+    "soundness_row": {
+      "node": "E6.2",
+      "bin": "UNCHECKED",
+      "scope": "No holds/fails call manufactured for an untested main claim.",
+      "premises": [],
+      "receipt": [],
+      "denial_cost": null,
+      "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+      "canon_status": "open",
+      "conflicts": [],
+      "assessment_target": "No holds/fails call manufactured for an untested main claim.",
+      "main_statement": "Quantum wavefunction evolution obeys the modified Schrödinger equation iħ d|ψ>/dt = (H − iγΦ)|ψ>, in which a Φ-dependent non-Hermitian term drives collapse.",
+      "proposal_only": true,
+      "lead_summary": {
+        "UNDEFINED": 2
+      },
+      "remaining_lead_ids": [
+        "LEAD-196",
+        "LEAD-197"
+      ],
+      "strength": "Conditional",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "E6.2::main"
+      },
+      "scope_warning": "Bin assesses the named target only; neither bundled claims nor domain identification inherit its proof. A written explanation is recorded as support at its source status."
+    },
+    "canon_rubric": {
+      "node": "E6.2",
+      "bin": "UNCHECKED",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "E6.2::main"
+      },
+      "criteria": {
+        "address": true,
+        "grade": false,
+        "receipt": false,
+        "ruling_authority": false,
+        "no_unresolved_conflict": false
+      },
+      "score": 1,
+      "meets_all_five": false,
+      "missing": [
+        "grade",
+        "receipt",
+        "ruling_authority",
+        "no_unresolved_conflict"
+      ],
+      "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+      "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+      "proposal_only": true
+    },
+    "leads": [
+      {
+        "lead_id": "LEAD-196",
+        "node": "E6.2",
+        "record": "AX-051",
+        "required_key": "integrated information phi defined",
+        "origin": "no-supplier",
+        "input_line": 208,
+        "class": "UNDEFINED",
+        "definition_used": "Φ denotes an integrated-information quantity in a specified system and IIT formalism.",
+        "definition_status": "UNDEFINED / operationally incomplete",
+        "supplier": null,
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\D5_2_Integrated_Information_Phi.md",
+          "line": 28,
+          "text": "Φ = integrated information (IIT measure)"
+        },
+        "missing_or_reason": "D5.2 supplies a name and IIT reference, but no system, version, transition model, partition rule, metric, or executable definition.",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\E6_2_Phi-Dependent_Collapse.md",
+          "line": 25,
+          "text": "Phi-dependent collapse equation — collapse rate scales with integrated information."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-051_E6.2.md"
+        ],
+        "supplied_at_recorded_warrant_only": false,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [],
+        "previous_class": "UNDEFINED",
+        "follow_up_evidence": [
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\15_Ontological_Taxonomy_Session_Synthesis.md",
+            "line": 39,
+            "end_line": 39,
+            "text": "The corrected equation (replacing Tononi's Φ-based proposal):",
+            "sha256": "771416145cb2d13fe667c2120a041ed802a6cdf8c66a4de93579ba452479f6e2"
+          },
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\15_Ontological_Taxonomy_Session_Synthesis.md",
+            "line": 41,
+            "end_line": 41,
+            "text": "$$I_f = \\Lambda \\cdot \\Omega$$",
+            "sha256": "771416145cb2d13fe667c2120a041ed802a6cdf8c66a4de93579ba452479f6e2"
+          }
+        ],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "fuller_source_note": "March taxonomy explicitly replaces the Φ-based interface proposal by Λ·Ω. Legacy IIT Φ requirements remain version-specific; Ω cannot silently satisfy them.",
+        "closes_dependency": false,
+        "formal_proof_added_by_this_classification": false
+      },
+      {
+        "lead_id": "LEAD-197",
+        "node": "E6.2",
+        "record": "AX-051",
+        "required_key": "phi operational definition",
+        "origin": "no-supplier",
+        "input_line": 209,
+        "class": "UNDEFINED",
+        "definition_used": "A reproducible rule computes or estimates Φ from a specified system or observations.",
+        "definition_status": "UNDEFINED / operationally incomplete",
+        "supplier": null,
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\D5_2_Integrated_Information_Phi.md",
+          "line": 28,
+          "text": "Φ = integrated information (IIT measure)"
+        },
+        "missing_or_reason": "Select IIT version, state variables, intervention/transition probabilities, partitions, distance, units, estimator, and error limits.",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\E6_2_Phi-Dependent_Collapse.md",
+          "line": 25,
+          "text": "Phi-dependent collapse equation — collapse rate scales with integrated information."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-051_E6.2.md"
+        ],
+        "supplied_at_recorded_warrant_only": false,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [],
+        "previous_class": "UNDEFINED",
+        "follow_up_evidence": [
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\15_Ontological_Taxonomy_Session_Synthesis.md",
+            "line": 39,
+            "end_line": 39,
+            "text": "The corrected equation (replacing Tononi's Φ-based proposal):",
+            "sha256": "771416145cb2d13fe667c2120a041ed802a6cdf8c66a4de93579ba452479f6e2"
+          },
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\15_Ontological_Taxonomy_Session_Synthesis.md",
+            "line": 41,
+            "end_line": 41,
+            "text": "$$I_f = \\Lambda \\cdot \\Omega$$",
+            "sha256": "771416145cb2d13fe667c2120a041ed802a6cdf8c66a4de93579ba452479f6e2"
+          }
+        ],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "fuller_source_note": "A later interface definition exists, but it is Λ·Ω rather than an operational IIT Φ computation. Version selection is required.",
+        "closes_dependency": false,
+        "formal_proof_added_by_this_classification": false
+      }
+    ],
+    "current_ruling": null,
+    "ruling_scope": "Existing disposition only; no new canon admission.",
+    "receipt_attachments": [],
+    "Q15_follow_up": [
+      {
+        "id": "FOLLOWUP/Q15/PHI-VERSION",
+        "node": "D5.2",
+        "kind": "definition version conflict",
+        "Q16": "OPEN",
+        "scope": "legacy IIT Φ versus March interface Λ·Ω",
+        "reason": "The later taxonomy explicitly replaces the interface proposal. Both versions are preserved; select the intended consumer quantity rather than relabeling Ω as IIT Φ.",
+        "evidence": [
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\15_Ontological_Taxonomy_Session_Synthesis.md",
+            "line": 39,
+            "end_line": 39,
+            "text": "The corrected equation (replacing Tononi's Φ-based proposal):",
+            "sha256": "771416145cb2d13fe667c2120a041ed802a6cdf8c66a4de93579ba452479f6e2"
+          },
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\15_Ontological_Taxonomy_Session_Synthesis.md",
+            "line": 41,
+            "end_line": 41,
+            "text": "$$I_f = \\Lambda \\cdot \\Omega$$",
+            "sha256": "771416145cb2d13fe667c2120a041ed802a6cdf8c66a4de93579ba452479f6e2"
+          }
+        ],
+        "affected_nodes": [
+          "A10.1",
+          "A11.2",
+          "A14.2",
+          "A17.1",
+          "A17.2",
+          "BC5",
+          "D10.1",
+          "D12.1",
+          "D17.1",
+          "D5.1",
+          "D5.2",
+          "D8.1",
+          "E6.2",
+          "F2",
+          "F4",
+          "F5",
+          "O4",
+          "P10.2",
+          "P5.1",
+          "P5.2",
+          "P9.3",
+          "PERSONHOOD",
+          "PROT18.1",
+          "PROT18.2",
+          "PROT18.5",
+          "SC-QUANTUM",
+          "T11.1",
+          "T11.2",
+          "U3"
+        ]
+      }
+    ]
+  }
+}

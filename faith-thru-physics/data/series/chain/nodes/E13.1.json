@@ -1,0 +1,59 @@
+{
+ "id": "E13.1",
+ "title": "E13.1 GR-QM Bridge Equation",
+ "lifecycle": "equation",
+ "tier": 12,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file's main claim is a proposed tensor field equation/definition derived informally from a variational principle over a Lagrangian on a differentiable manifold. Faithfully encoding it would require formalizing Lorentzian geometry, tensor fields, covariant derivatives, the variational derivation, and the component definitions. Encoding only real-valued tensor components at an abstract point would turn the claimed field equation into an arbitrary scalar equality with no nontrivial premises, i.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "E13.1/Q15/0131",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at any move from A0/P-IMAGO to a concrete physical scalar field χ, its stress-energy tensor, the coupling κ, or empirical predictions; P-IMAGO grounds only analogical creaturely reflection, not physical equations."
+  },
+  {
+   "id": "E13.1/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: The full GR-QM Bridge tensor equation G_{μν}+Λg_{μν} = (8πG/c^4)T_{μν}+κχ_{μν}.",
+   "reason": "The file's main claim is a proposed tensor field equation/definition derived informally from a variational principle over a Lagrangian on a differentiable manifold. Faithfully encoding it would require formalizing Lorentzian geometry, tensor fields, covariant derivatives, the variational derivation, and the component definitions. Encoding only real-valued tensor components at an abstract point would turn the claimed field equation into an arbitrary scalar equality with no nontrivial premises, i.e. it would restate the conclusion rather than check it. Therefore the main claim is not checkable as a Z3 entailment without adding the equation itself as a premise or substituting an easier component calculation."
+  }
+ ],
+ "ports": [],
+ "main": "E13.1",
+ "claims": [
+  "E13.1",
+  "E13.1::split-01",
+  "E13.1::split-02",
+  "E13.1::split-03",
+  "E13.1::split-04",
+  "E13.1::split-05",
+  "E13.1::split-06",
+  "E13.1::split-07",
+  "E13.1::split-08",
+  "E13.1::split-09",
+  "E13.1::split-10"
+ ],
+ "source": "source/nodes/E13.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

@@ -1,0 +1,62 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D11.1",
+ "claim_id": "D11.1",
+ "type": "CLAIM",
+ "text": "Moral coherence is a proposed measurement bridge, not merely a proved definition.",
+ "source": {
+  "file": "source/nodes/D11.1.yaml",
+  "quote": "Moral coherence is a proposed measurement bridge, not merely a proved definition.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A11.2 Coherence-Morality-Identity; A stipulative definition equating moral coherence with non-contradiction in an agent's informational structure; A premise equating moral action with action increasing C[χ]; A premise identifying morality with a signal-to-noise ratio problem",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D11.1.yaml#D11.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "D11.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A11.2 Coherence-Morality-Identity",
+  "A stipulative definition equating moral coherence with non-contradiction in an agent's informational structure",
+  "A premise equating moral action with action increasing C[χ]",
+  "A premise identifying morality with a signal-to-noise ratio problem"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "D11.1/Q15/0115",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at identifying moral coherence with non-contradiction in an agent's informational structure; A0+P-IMAGO support only analogical moral resemblance, not this formal definition or its SNR/C[χ] extensions."
+  },
+  {
+   "id": "D11.1/Q15/0116",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "v3 versus current-root source identity",
+   "reason": "v3 repairs/splits this concept, while current source file D11_1_Moral_Coherence_Definition.md retains another title/claim version. Both source spans are preserved; do not equate them by identifier alone."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

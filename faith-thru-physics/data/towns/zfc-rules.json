@@ -1,0 +1,77 @@
+{
+ "name": "Set theory (a small ZFC town)",
+ "note": "Three ZF axioms as operations: pairing, union, power set. They build new sets from old ones. No rule names an agent: nothing here decides, refuses or consents. Two sets with the same members are one set (extensionality), so a rule that would make a set that already exists changes nothing. Power set is limited to small sets so the town stays drawable. Rules only reach sets of rank 2 or less, and the town holds at most 14 sets.",
+ "source": "ZF axioms of Pairing, Union and Power Set",
+ "agents": [],
+ "things": [
+  {
+   "id": "e",
+   "kind": "set",
+   "label": "∅",
+   "members": "{}"
+  }
+ ],
+ "states": [
+  {
+   "kind": "set",
+   "state": "empty",
+   "when": "size(x) == 0",
+   "color": "#8a8f9c",
+   "room": "0 members"
+  },
+  {
+   "kind": "set",
+   "state": "one member",
+   "when": "size(x) == 1",
+   "color": "#5b8def",
+   "room": "1 member"
+  },
+  {
+   "kind": "set",
+   "state": "two members",
+   "when": "size(x) == 2",
+   "color": "#2fae9e",
+   "room": "2 members"
+  },
+  {
+   "kind": "set",
+   "state": "three or more",
+   "when": "size(x) >= 3",
+   "color": "#d4af37",
+   "room": "3+ members"
+  }
+ ],
+ "rules": [
+  {
+   "id": "PAIR",
+   "label": "Pairing",
+   "agent": "",
+   "on": "x:set, y:set",
+   "create": "set: members = pair(x, y)",
+   "receipt": "ZF Axiom of Pairing: for any x, y there is a set {x, y}",
+   "warrant": "axiom",
+   "when": "rank(x) <= 2 and rank(y) <= 2"
+  },
+  {
+   "id": "UNION",
+   "label": "Union",
+   "agent": "",
+   "on": "x:set",
+   "create": "set: members = union(x)",
+   "receipt": "ZF Axiom of Union: the members of the members of x form a set",
+   "warrant": "axiom",
+   "when": "true"
+  },
+  {
+   "id": "POWER",
+   "label": "Power set",
+   "agent": "",
+   "on": "x:set",
+   "when": "rank(x) <= 2 and size(x) <= 2",
+   "create": "set: members = power(x)",
+   "receipt": "ZF Axiom of Power Set: the subsets of x form a set",
+   "warrant": "axiom"
+  }
+ ],
+ "limit": 14
+}

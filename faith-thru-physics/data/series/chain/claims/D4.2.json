@@ -1,0 +1,49 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D4.2",
+ "claim_id": "D4.2",
+ "type": "CLAIM",
+ "text": "The compression ratio Λ[ψ] is defined as K(ψ)/|ψ|, where K is Kolmogorov complexity and |ψ| is content length.",
+ "source": {
+  "file": "source/nodes/D4.2.yaml",
+  "quote": "The compression ratio Λ[ψ] is defined as K(ψ)/|ψ|, where K is Kolmogorov complexity and |ψ| is content length.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "state",
+  "composition_level": 0,
+  "claim_role": "definition",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D4.2.yaml#D4.2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "D4.2",
+ "is_main": true,
+ "strength": "By definition",
+ "conditional_premises": [],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "D4.2/Q15/0037",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "No derivation from A0 or P-IMAGO occurs; the formula is an independent formal definition."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

@@ -1,0 +1,60 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "F5",
+ "claim_id": "F5",
+ "type": "CLAIM",
+ "text": "Kindness is intentional other-directed love expressed as benefit to others at personal cost.",
+ "source": {
+  "file": "source/nodes/F5.yaml",
+  "quote": "Kindness is intentional other-directed love expressed as benefit to others at personal cost.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "observable",
+  "composition_level": 1,
+  "claim_role": "empirical_hypothesis",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "Coherence is a real, measurable quantity that can be increased or decreased in agents.; The coherence changes of self and others can be quantified and compared on a common scale.; Intentionality and causal attribution of an act to an agent can be operationalized in the metric.; The ratio of other-coherence gain to self-coherence cost correctly captures kindness.; Kindness dynamics obey a diffusion-source-saturation field equation.; The thermodynamic entropy formula applies to the cost of kindness.; Neural and behavioral correlates are reliable indicators of kindness.; Integrated information Phi tracks kindness as specified.; Network and category-theoretic formulations preserve the intended semantics of kindness.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/F5.yaml#F5::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "FRUIT-GEN",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "F5",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "Coherence is a real, measurable quantity that can be increased or decreased in agents.",
+  "The coherence changes of self and others can be quantified and compared on a common scale.",
+  "Intentionality and causal attribution of an act to an agent can be operationalized in the metric.",
+  "The ratio of other-coherence gain to self-coherence cost correctly captures kindness.",
+  "Kindness dynamics obey a diffusion-source-saturation field equation.",
+  "The thermodynamic entropy formula applies to the cost of kindness.",
+  "Neural and behavioral correlates are reliable indicators of kindness.",
+  "Integrated information Phi tracks kindness as specified.",
+  "Network and category-theoretic formulations preserve the intended semantics of kindness."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "F5/Q15/0199",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the inference from 'creaturely kindness is a finite participation in divine love/goodness' to 'kindness is measurable as a cost-weighted coherence-transfer ratio'; P-IMAGO supplies an analogy of participation, not a coherence metric, measurement protocol, physical law, or empirical data."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main statement is definitional. The later 'Kindness Metric Properties' theorem includes non-negativity and additivity, but its cost-sensitivity claim is ambiguous/contradictory: the formula B/(C+ε) decreases as self-cost C increases for fixed benefit B, while the prose says higher cost yields a higher kindness score. The 'Kindness Efficiency Theorem' is a generic constrained optimization without enough concrete specification to encode faithfully. Thus the main claim cannot be checked as a pr",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

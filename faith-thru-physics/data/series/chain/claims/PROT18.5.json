@@ -1,0 +1,58 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "PROT18.5",
+ "claim_id": "PROT18.5",
+ "type": "CLAIM",
+ "text": "A protocol can empirically test whether measured integrated information (Phi) positively correlates with moral virtue indicators.",
+ "source": {
+  "file": "source/nodes/PROT18.5.yaml",
+  "quote": "A protocol can empirically test whether measured integrated information (Phi) positively correlates with moral virtue indicators.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "observable",
+  "composition_level": 1,
+  "claim_role": "empirical_hypothesis",
+  "register": "embodied"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "IIT's Phi, or a proxy such as PCI/EEG coherence, validly measures consciousness integration.; Moral realism: objective moral facts/virtues exist (A11.1).; Virtue is linked to or increases coherence/integration (T10.1).; Coherence is a reliable correlate of Phi.; Selected virtue inventories, behavioral tasks, peer ratings, and life outcomes validly measure virtue.; The proposed sample sizes, controls, and falsification thresholds are methodologically adequate.; Empirical data show a positive Phi-virtue correlation and robustness across cultures and confounds.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/PROT18.5.yaml#PROT18.5::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "T11.1",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "PROT18.5",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "IIT's Phi, or a proxy such as PCI/EEG coherence, validly measures consciousness integration.",
+  "Moral realism: objective moral facts/virtues exist (A11.1).",
+  "Virtue is linked to or increases coherence/integration (T10.1).",
+  "Coherence is a reliable correlate of Phi.",
+  "Selected virtue inventories, behavioral tasks, peer ratings, and life outcomes validly measure virtue.",
+  "The proposed sample sizes, controls, and falsification thresholds are methodologically adequate.",
+  "Empirical data show a positive Phi-virtue correlation and robustness across cultures and confounds."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "PROT18.5/Q15/0182",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "P-IMAGO yields only a general analogy between creaturely consciousness/goodness and God. The derivation fails when moving from that general analogy to any specific empirical claim that measured integrated information (Phi) correlates with virtue indicators."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

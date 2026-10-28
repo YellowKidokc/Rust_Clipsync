@@ -1,0 +1,40 @@
+{
+ "id": "D4.2",
+ "title": "D4.2 Compression Ratio",
+ "lifecycle": "definition",
+ "tier": 5,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [
+  "A2.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "D4.2/Q15/0037",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "No derivation from A0 or P-IMAGO occurs; the formula is an independent formal definition."
+  }
+ ],
+ "ports": [],
+ "main": "D4.2",
+ "claims": [
+  "D4.2"
+ ],
+ "source": "source/nodes/D4.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

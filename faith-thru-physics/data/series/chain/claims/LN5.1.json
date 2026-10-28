@@ -1,0 +1,61 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "LN5.1",
+ "claim_id": "LN5.1",
+ "type": "CLAIM",
+ "text": "An observer is necessary for χ to be actualized; without observers, χ remains only potential.",
+ "source": {
+  "file": "source/nodes/LN5.1.yaml",
+  "quote": "An observer is necessary for χ to be actualized; without observers, χ remains only potential.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "embodied"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "An observer-dependent actualization premise: χ is a potential such that measurement or observation is required for actualization.; A specified definition of 'observer' and 'χ' within an ontological or quantum model.; Empirical or interpretive support from EXP5.2 Quantum-Eraser or a quantum measurement interpretation.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/LN5.1.yaml#LN5.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A5.1",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "LN5.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "An observer-dependent actualization premise: χ is a potential such that measurement or observation is required for actualization.",
+  "A specified definition of 'observer' and 'χ' within an ontological or quantum model.",
+  "Empirical or interpretive support from EXP5.2 Quantum-Eraser or a quantum measurement interpretation."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "LN5.1/Q15/0052",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "duplicate node identity",
+   "reason": "David merged the source into A5.1; retain its claim and provenance at that destination. Warrant is not upgraded."
+  },
+  {
+   "id": "LN5.1/Q15/0053",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the inference from P-IMAGO's creaturely participation in God to the physical/ontological necessity of an observer for χ-actualization; P-IMAGO explicitly does not yield physical laws, measurement outcomes, or empirical findings."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

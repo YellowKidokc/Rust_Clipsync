@@ -1,0 +1,52 @@
+{
+ "id": "PRED18.2",
+ "title": "GCP Event Prediction",
+ "lifecycle": "prediction",
+ "tier": 16,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "HY_EVIDENCE",
+ "declared": [
+  "EV15.2"
+ ],
+ "proposed": [
+  "EV15.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "PRED18.2/Q15/0184",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "P-IMAGO stops at general creaturely resemblance, order, intelligibility, relation, consciousness, agency, and moral goodness; it does not license any specific phase-transition dynamics, chi-field, critical exponents, RNG bias, GCP statistics, or historical anomaly interpretation."
+  }
+ ],
+ "ports": [],
+ "main": "PRED18.2",
+ "claims": [
+  "PRED18.2",
+  "PRED18.2::split-01",
+  "PRED18.2::split-02",
+  "PRED18.2::split-03",
+  "PRED18.2::split-04",
+  "PRED18.2::split-05",
+  "PRED18.2::split-06",
+  "PRED18.2::split-07",
+  "PRED18.2::split-08",
+  "PRED18.2::split-09",
+  "PRED18.2::split-10",
+  "PRED18.2::split-11",
+  "PRED18.2::split-12"
+ ],
+ "source": "source/nodes/PRED18.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

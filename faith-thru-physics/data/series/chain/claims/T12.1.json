@@ -1,0 +1,64 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "T12.1",
+ "claim_id": "T12.1",
+ "type": "CLAIM",
+ "text": "Logos-aligned souls tend toward maximal coherence, and heaven names that terminal state.",
+ "source": {
+  "file": "source/nodes/T12.1.yaml",
+  "quote": "Logos-aligned souls tend toward maximal coherence, and heaven names that terminal state.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "E12.1 Destiny Equation: dΦ/dt = σ·γ·(Φ_max−Φ)·Φ.; Definition of Φ as a soul-coherence state variable.; Definition of σ as a binary alignment sign and identification of σ=+1 with Logos-aligned souls.; Mapping of heaven to the Φ_max attractor and purgatory to the approach phase.; Eschatological premise that Logos-aligned souls persist indefinitely and converge to final maximal union with God.; Separate premises for quantum Zeno, thermodynamic entropy, category-theoretic terminal-object, and χ-field identifications.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/T12.1.yaml#T12.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "T12.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "E12.1 Destiny Equation: dΦ/dt = σ·γ·(Φ_max−Φ)·Φ.",
+  "Definition of Φ as a soul-coherence state variable.",
+  "Definition of σ as a binary alignment sign and identification of σ=+1 with Logos-aligned souls.",
+  "Mapping of heaven to the Φ_max attractor and purgatory to the approach phase.",
+  "Eschatological premise that Logos-aligned souls persist indefinitely and converge to final maximal union with God.",
+  "Separate premises for quantum Zeno, thermodynamic entropy, category-theoretic terminal-object, and χ-field identifications."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "T12.1/Q15/0124",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "duplicate node identity",
+   "reason": "David merged the source into D12.1; retain its claim and provenance at that destination. Warrant is not upgraded."
+  },
+  {
+   "id": "T12.1/Q15/0125",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at moving from P-IMAGO’s analogy of being to a specific soul-coherence dynamical system and to identifying heaven with Φ_max; that requires E12.1 and additional model definitions."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is a continuous-time ODE asymptotic-stability statement involving limits, trajectories, and attractor semantics. Z3 can encode algebraic sign conditions or finite approximations, but faithfully encoding the actual limit/attractor theorem would require real analysis and trajectory semantics not available in the requested z3-solver setup. Checking only the derivative sign or Lyapunov algebra identity would be an easier side calculation, not the main asymptotic claim.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

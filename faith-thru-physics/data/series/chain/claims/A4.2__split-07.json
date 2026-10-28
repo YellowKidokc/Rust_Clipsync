@@ -1,0 +1,34 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "A4.2",
+ "claim_id": "A4.2::split-07",
+ "type": "CLAIM",
+ "text": "The universe's constants are tuned to a critical point between order and chaos.",
+ "source": {
+  "file": "source/nodes/A4.2.yaml",
+  "quote": "The universe's constants are tuned to a critical point between order and chaos.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/A4.2.yaml#A4.2::split-07 (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "A4.2",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+ "obstructions": [],
+ "generated_by": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+}

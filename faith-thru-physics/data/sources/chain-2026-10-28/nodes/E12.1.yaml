@@ -1,0 +1,982 @@
+{
+  "id": "E12.1",
+  "title": "E12.1 Destiny Equation",
+  "proposal_only": true,
+  "context_parent": "A0",
+  "tags": {
+    "system_part": "constitutive law",
+    "composition_level": 2,
+    "claim_role": "conjecture",
+    "warrant": {
+      "status": "unverified",
+      "kind": "proof"
+    },
+    "register": "spiritual"
+  },
+  "old_mode": "AX_SCAFFOLD",
+  "raw_csv_mode": "AX_SCAFFOLD",
+  "proposed_mode": "AX_SCAFFOLD",
+  "tier": 11,
+  "node_lifecycle": "equation",
+  "ruling": null,
+  "merged_into": null,
+  "node_vs_claim_vs_proof": "Node specifies a structure; claims below own their warrants; proofs are exact scoped receipts.",
+  "sources": {
+    "v3_line": "E12.1 Destiny Equation           ← BC6           [AX_SCAFFOLD]",
+    "current_root_record": "sources\\current_nodes\\E12_1_Destiny_Equation.md",
+    "october_review": "sources\\october_review\\AX-097.json"
+  },
+  "dependencies": {
+    "source_declared": [
+      "BC6"
+    ],
+    "source_relation": "depends_on",
+    "proposed_primary_support": [
+      "BC6"
+    ],
+    "stance_ceiling_sources": [],
+    "merge_scope": "Incoming claims retain their own premises; source and current-root graph versions are not silently equated."
+  },
+  "coherences": {
+    "C-info": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-moral": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-spiritual": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    }
+  },
+  "claims": [
+    {
+      "id": "E12.1::main",
+      "statement": "Moral orientation toward God tends toward final maximal coherence/union with God, while orientation away from God tends toward final fragmentation/zero coherence.",
+      "tags": {
+        "system_part": "constitutive law",
+        "composition_level": 2,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+      "proof_refs": [],
+      "conditional_premises": [
+        "Creaturely moral coherence follows a one-dimensional autonomous logistic ODE with state Phi in [0,Phi_max].",
+        "Phi is a measurable integrated-information/coherence quantity and Phi_max is divine coherence.",
+        "sigma is a binary moral sign, gamma is a positive constant, and an initial Phi0 is specified.",
+        "Eschatological final state equals the t→∞ limit of that ODE.",
+        "The Lyapunov, thermodynamic, quantum-Zeno, Lindblad, stochastic, and information-theoretic formulations are physically/spiritually applicable to souls.",
+        "Empirical or revelatory data identify the model with neural, social, spiritual, or quantum systems."
+      ],
+      "classification_proposal": {
+        "logical_role": "CONJECTURE",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "proposal only; no new frozen vocabulary applied"
+      },
+      "Q13": {
+        "register": "spiritual",
+        "domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ]
+      },
+      "Q14": {
+        "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+        "coherence_equality_assumed": false
+      },
+      "Q15": [
+        {
+          "id": "E12.1/Q15/0123",
+          "node": "E12.1",
+          "kind": "missing bridge",
+          "Q16": "OPEN",
+          "scope": "original core claim/application",
+          "reason": "The derivation fails at the move from A0+P-IMAGO's analogy of creaturely coherence to the specific logistic ODE dPhi/dt = sigma gamma (Phi_max - Phi)Phi with binary sigma, constant gamma, and Phi_max as divine coherence; P-IMAGO explicitly does not license physical laws, equations, constants, or measurements.",
+          "evidence": [
+            "sources\\october_review\\AX-097.json"
+          ]
+        }
+      ],
+      "Q16": {
+        "E12.1/Q15/0123": "OPEN"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "claim_scoped_dependencies": [
+        "BC6"
+      ],
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "E12.1::main"
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E12.1::split-01",
+      "statement": "Creature/soul coherence Phi obeys dPhi/dt = sigma gamma (Phi_max - Phi) Phi.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-097.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E12.1::split-02",
+      "statement": "Phi is integrated information/coherence in [0, Phi_max], with Phi_max identified as divine coherence.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-097.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E12.1::split-03",
+      "statement": "sigma in {-1,+1} is a binary moral sign and gamma > 0 is a constant coherence coupling rate.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-097.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E12.1::split-04",
+      "statement": "The eschatological limit is Phi_max for sigma=+1 and 0 for sigma=-1.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-097.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E12.1::split-05",
+      "statement": "The logistic kernel is derived from first principles/parsimony as the simplest bounded self-limiting dynamics for souls.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-097.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E12.1::split-06",
+      "statement": "The exact logistic solutions and half-time formula apply to creaturely moral coherence.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-097.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E12.1::split-07",
+      "statement": "Lyapunov functions V+ and V- prove global asymptotic stability of heaven/hell attractors.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-097.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E12.1::split-08",
+      "statement": "The destiny equation is a gradient flow of a thermodynamic free-energy potential U, with nonnegative entropy production.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-097.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E12.1::split-09",
+      "statement": "The Quantum Zeno effect and Lindblad master equation provide a literal dynamical analog for moral coherence/decoherence.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-097.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E12.1::split-10",
+      "statement": "A stochastic destiny equation with Wiener noise and Fokker-Planck stationary distribution models uncertainty in soul dynamics.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-097.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E12.1::split-11",
+      "statement": "Fisher information about initial conditions vanishes at the eschatological limit.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-097.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E12.1::split-12",
+      "statement": "The equation undergoes a transcritical bifurcation at sigma=0 and defines a Morse-Smale flow with contractible basins.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-097.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E12.1::split-13",
+      "statement": "Matthew 25:46 and the physics/theology/consciousness/quantum/evidence/information mappings are valid mappings of the equation.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-097.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    }
+  ],
+  "Q13": {
+    "register": "spiritual",
+    "domains": [
+      "THEOLOGICAL",
+      "MORAL"
+    ]
+  },
+  "Q14": {
+    "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+    "coherence_equality_assumed": false
+  },
+  "Q15": [
+    {
+      "id": "E12.1/Q15/0123",
+      "node": "E12.1",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "original core claim/application",
+      "reason": "The derivation fails at the move from A0+P-IMAGO's analogy of creaturely coherence to the specific logistic ODE dPhi/dt = sigma gamma (Phi_max - Phi)Phi with binary sigma, constant gamma, and Phi_max as divine coherence; P-IMAGO explicitly does not license physical laws, equations, constants, or measurements.",
+      "evidence": [
+        "sources\\october_review\\AX-097.json"
+      ]
+    },
+    {
+      "id": "E12.1/Q15/Z3-00",
+      "node": "E12.1",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "Exact October Z3 component: The Destiny Equation ODE dPhi/dt = sigma gamma (Phi_max - Phi) Phi together with its asymptotic limit to Phi_max for sigma=+1 and 0 for sigma=-1.",
+      "reason": "The main claim is analytic: it involves a differential equation, its flow/solution, and an infinite-time limit. z3-solver does not support differential operators, solution existence/uniqueness, or limits, so a faithful Z3 encoding cannot be given. Encoding only algebraic sign or fixed-point facts would be a side calculation rather than the main claim.",
+      "evidence": [
+        "sources/z3/03_PROMISING/results.json"
+      ]
+    }
+  ],
+  "Q16": {
+    "E12.1/Q15/0123": "OPEN",
+    "E12.1/Q15/Z3-00": "OPEN"
+  },
+  "ports": [],
+  "open_interface_obligation": "This rerun is a classified source/claim proposal. A full executable six-field port contract is not claimed for every older node.",
+  "reason": [
+    "Source role, domain and October limitations separated; no unproved application promoted."
+  ],
+  "soundness": {
+    "bin": "UNCHECKED",
+    "named_premises": [],
+    "receipt": [
+      "sources/z3/03_PROMISING/results.json"
+    ],
+    "denial_cost": null,
+    "scope_note": "No holds/fails call manufactured for an untested main claim.",
+    "why": "Original domain claim lacks a complete faithful, source-matched test or derivation; retained fragment receipts do not establish it.",
+    "Z3_source_verdicts": [
+      "NOT_CHECKABLE"
+    ],
+    "ranking_snapshot": {
+      "score": 1,
+      "id": "AX-097",
+      "title": "Destiny Equation",
+      "register": "formal",
+      "a0": "compatible",
+      "math": "yes_with_missing_premise",
+      "z3": "NOT_CHECKABLE",
+      "why": "math holds +premise",
+      "core": "Moral orientation toward God tends toward final maximal coherence/union with God, while orientation away from God tends toward final fragmentation/zero coherenc"
+    },
+    "A0_IMAGO_verdict": "COMPATIBLE_NOT_DERIVED",
+    "conflicts": [],
+    "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is analytic: it involves a differential equation, its flow/solution, and an infinite-time limit. z3-solver does not support differential operators, solution existence/uniqueness, or limits, so a faithful Z3 encoding cannot be given. Encoding only algebraic sign or fixed-point facts would be a side calculation rather than the main claim."
+  },
+  "grade": {
+    "match_scope": null,
+    "warrant": "unverified",
+    "outcome": null,
+    "canon_status": "open",
+    "note": "No holds/fails call manufactured for an untested main claim.",
+    "match_scope_applicable": false,
+    "assessed_claim_id": "E12.1::main"
+  },
+  "canon_rubric": {
+    "node": "E12.1",
+    "bin": "UNCHECKED",
+    "grade": {
+      "match_scope": null,
+      "warrant": "unverified",
+      "outcome": null,
+      "canon_status": "open",
+      "note": "No holds/fails call manufactured for an untested main claim.",
+      "match_scope_applicable": false,
+      "assessed_claim_id": "E12.1::main"
+    },
+    "criteria": {
+      "address": true,
+      "grade": false,
+      "receipt": false,
+      "ruling_authority": false,
+      "no_unresolved_conflict": false
+    },
+    "score": 1,
+    "meets_all_five": false,
+    "missing": [
+      "grade",
+      "receipt",
+      "ruling_authority",
+      "no_unresolved_conflict"
+    ],
+    "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+    "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+    "proposal_only": true
+  },
+  "follow_up_review": {
+    "proposal_only": true,
+    "soundness_row": {
+      "node": "E12.1",
+      "bin": "UNCHECKED",
+      "scope": "No holds/fails call manufactured for an untested main claim.",
+      "premises": [],
+      "receipt": [
+        "sources/z3/03_PROMISING/results.json"
+      ],
+      "denial_cost": null,
+      "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is analytic: it involves a differential equation, its flow/solution, and an infinite-time limit. z3-solver does not support differential operators, solution existence/uniqueness, or limits, so a faithful Z3 encoding cannot be given. Encoding only algebraic sign or fixed-point facts would be a side calculation rather than the main claim.",
+      "canon_status": "open",
+      "conflicts": [],
+      "assessment_target": "No holds/fails call manufactured for an untested main claim.",
+      "main_statement": "Moral orientation toward God tends toward final maximal coherence/union with God, while orientation away from God tends toward final fragmentation/zero coherence.",
+      "proposal_only": true,
+      "lead_summary": {
+        "WORDING": 1,
+        "UNDEFINED": 2
+      },
+      "remaining_lead_ids": [
+        "LEAD-177",
+        "LEAD-178"
+      ],
+      "strength": "Conditional",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "E12.1::main"
+      },
+      "scope_warning": "Bin assesses the named target only; neither bundled claims nor domain identification inherit its proof. A written explanation is recorded as support at its source status."
+    },
+    "canon_rubric": {
+      "node": "E12.1",
+      "bin": "UNCHECKED",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "E12.1::main"
+      },
+      "criteria": {
+        "address": true,
+        "grade": false,
+        "receipt": false,
+        "ruling_authority": false,
+        "no_unresolved_conflict": false
+      },
+      "score": 1,
+      "meets_all_five": false,
+      "missing": [
+        "grade",
+        "receipt",
+        "ruling_authority",
+        "no_unresolved_conflict"
+      ],
+      "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+      "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+      "proposal_only": true
+    },
+    "leads": [
+      {
+        "lead_id": "LEAD-034",
+        "node": "E12.1",
+        "record": "AX-097",
+        "required_key": "moral orientation is binary sign",
+        "origin": "circular",
+        "input_line": 43,
+        "class": "WORDING",
+        "definition_used": "Within the declared moral-sign model, the orientation variable has exactly the two values +1 and -1.",
+        "definition_status": "admitted binary model premise",
+        "supplier": "A8.1",
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\A8_1_Binary_Distinction.md",
+          "line": 28,
+          "text": "σ ∈ {+1, -1}; ¬∃σ=0"
+        },
+        "missing_or_reason": "",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\E12_1_Destiny_Equation.md",
+          "line": 23,
+          "text": "Destiny equation — coherence dynamics with decay and grace, sign-dependent."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-097_E12.1.md"
+        ],
+        "supplied_at_recorded_warrant_only": true,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\03_PROMISING\\097_E12.1_Destiny-Equation.z3spec.json",
+            "checkable": false,
+            "component": "The Destiny Equation ODE dPhi/dt = sigma gamma (Phi_max - Phi) Phi together with its asymptotic limit to Phi_max for sigma=+1 and 0 for sigma=-1.",
+            "faithfulness_note": "The main claim is analytic: it involves a differential equation, its flow/solution, and an infinite-time limit. z3-solver does not support differential operators, solution existence/uniqueness, or limits, so a faithful Z3 encoding cannot be given. Encoding only algebraic sign or fixed-point facts would be a side calculation rather than the main claim.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "WORDING",
+        "follow_up_evidence": [],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "closes_dependency": true,
+        "formal_proof_added_by_this_classification": false
+      },
+      {
+        "lead_id": "LEAD-177",
+        "node": "E12.1",
+        "record": "AX-097",
+        "required_key": "coherence measurable operationalizable",
+        "origin": "no-supplier",
+        "input_line": 189,
+        "class": "UNDEFINED",
+        "definition_used": "An observation protocol must map declared observations to the selected coherence quantity.",
+        "definition_status": "OPEN operational bridge",
+        "supplier": null,
+        "evidence": {
+          "file": "C:\\Users\\David\\theophysics-read\\Spiritual_Terms_Atlas_CANONICAL.md",
+          "line": 702,
+          "text": "C-info, C-moral, and C-spiritual must be specified separately whenever a requirement says “coherence.” Neither equal spelling nor a shared scalar establishes a supplier across these domains. These definitions do not supply the missing operational measurements, semantic bridge, or theological premises."
+        },
+        "missing_or_reason": "Specify instruments or behavioral observations, units/scoring, calibration, uncertainty, and domain; a symbolic C or χ is not a protocol.",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\E12_1_Destiny_Equation.md",
+          "line": 23,
+          "text": "Destiny equation — coherence dynamics with decay and grace, sign-dependent."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-097_E12.1.md"
+        ],
+        "supplied_at_recorded_warrant_only": false,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\03_PROMISING\\097_E12.1_Destiny-Equation.z3spec.json",
+            "checkable": false,
+            "component": "The Destiny Equation ODE dPhi/dt = sigma gamma (Phi_max - Phi) Phi together with its asymptotic limit to Phi_max for sigma=+1 and 0 for sigma=-1.",
+            "faithfulness_note": "The main claim is analytic: it involves a differential equation, its flow/solution, and an infinite-time limit. z3-solver does not support differential operators, solution existence/uniqueness, or limits, so a faithful Z3 encoding cannot be given. Encoding only algebraic sign or fixed-point facts would be a side calculation rather than the main claim.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "UNDEFINED",
+        "follow_up_evidence": [],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "closes_dependency": false,
+        "formal_proof_added_by_this_classification": false
+      },
+      {
+        "lead_id": "LEAD-178",
+        "node": "E12.1",
+        "record": "AX-097",
+        "required_key": "coherence defined per domain",
+        "origin": "no-supplier",
+        "input_line": 190,
+        "class": "UNDEFINED",
+        "definition_used": "A typed coherence quantity must specify whether it concerns information, moral action, or relation to God.",
+        "definition_status": "native domains defined; consumer-specific quantity OPEN",
+        "supplier": null,
+        "evidence": {
+          "file": "C:\\Users\\David\\theophysics-read\\Spiritual_Terms_Atlas_CANONICAL.md",
+          "line": 702,
+          "text": "C-info, C-moral, and C-spiritual must be specified separately whenever a requirement says “coherence.” Neither equal spelling nor a shared scalar establishes a supplier across these domains. These definitions do not supply the missing operational measurements, semantic bridge, or theological premises."
+        },
+        "missing_or_reason": "Specify C-info / C-moral / C-spiritual, its state space, and the map for this consumer. A universal spelling or weighted sum is insufficient.",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\E12_1_Destiny_Equation.md",
+          "line": 23,
+          "text": "Destiny equation — coherence dynamics with decay and grace, sign-dependent."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-097_E12.1.md"
+        ],
+        "supplied_at_recorded_warrant_only": false,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\03_PROMISING\\097_E12.1_Destiny-Equation.z3spec.json",
+            "checkable": false,
+            "component": "The Destiny Equation ODE dPhi/dt = sigma gamma (Phi_max - Phi) Phi together with its asymptotic limit to Phi_max for sigma=+1 and 0 for sigma=-1.",
+            "faithfulness_note": "The main claim is analytic: it involves a differential equation, its flow/solution, and an infinite-time limit. z3-solver does not support differential operators, solution existence/uniqueness, or limits, so a faithful Z3 encoding cannot be given. Encoding only algebraic sign or fixed-point facts would be a side calculation rather than the main claim.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "UNDEFINED",
+        "follow_up_evidence": [
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\15_Ontological_Taxonomy_Session_Synthesis.md",
+            "line": 41,
+            "end_line": 41,
+            "text": "$$I_f = \\Lambda \\cdot \\Omega$$",
+            "sha256": "771416145cb2d13fe667c2120a041ed802a6cdf8c66a4de93579ba452479f6e2"
+          }
+        ],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "fuller_source_note": "The interface taxonomy gives a capacity product, not a common metric equating C-info, C-moral and C-spiritual. Those remain separate.",
+        "closes_dependency": false,
+        "formal_proof_added_by_this_classification": false
+      }
+    ],
+    "current_ruling": null,
+    "ruling_scope": "Existing disposition only; no new canon admission.",
+    "receipt_attachments": [],
+    "Q15_follow_up": []
+  }
+}

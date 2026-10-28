@@ -1,0 +1,63 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "P5",
+ "claim_id": "P5",
+ "type": "CLAIM",
+ "text": "Finite created agents/systems are limited and cannot be their own ultimate ground, so they require external grounding beyond themselves.",
+ "source": {
+  "file": "source/nodes/P5.yaml",
+  "quote": "Finite created agents/systems are limited and cannot be their own ultimate ground, so they require external grounding beyond themselves.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "Bridge premise: every finite agent-information system is a consistent formal system containing arithmetic.; Bridge premise: formal incompleteness as such entails the need for God/Grace/Lambda.; Empirical premise: all closed physical systems always increase entropy and no created agency can supply the needed negentropy.; Physical premise: quantum decoherence/measurement is an incompleteness that requires Grace.; Theological identification premise: Lambda/Christ is the specific external negentropy/ground.",
+  "outcome": null,
+  "canon_status": "retired",
+  "grade_source": "copied:source/nodes/P5.yaml#P5::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A7.1",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "P5",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "Bridge premise: every finite agent-information system is a consistent formal system containing arithmetic.",
+  "Bridge premise: formal incompleteness as such entails the need for God/Grace/Lambda.",
+  "Empirical premise: all closed physical systems always increase entropy and no created agency can supply the needed negentropy.",
+  "Physical premise: quantum decoherence/measurement is an incompleteness that requires Grace.",
+  "Theological identification premise: Lambda/Christ is the specific external negentropy/ground."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "P5/Q15/0215",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "axiom-set membership",
+   "reason": "David retired this record; it is retained with reason and cannot serve as an active axiom. Content-level truth is not settled merely by retirement."
+  },
+  {
+   "id": "P5/Q15/0216",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The move from 'finite, dependent, partial created agent' to 'Gödel-incomplete formal system' and to 'entropy/decoherence it cannot resolve'; A0+P-IMAGO do not license the formal or physical extrapolations."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file's main claim quantifies over arbitrary formal systems and relies on meta-theorems about provability, consistency, arithmetic expressibility, and Gödel sentences. Faithfully encoding it in z3 would require formalizing syntax and proof theory for recursive formal systems, not merely finite Boolean constraints. Encoding it with uninterpreted predicates would either be unsound or would require adding Gödel's theorem itself as a premise, which would beg the question.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

@@ -1,0 +1,75 @@
+{
+ "id": "D19.1",
+ "title": "D19.1 Law I (Logos-Lagrangian)",
+ "lifecycle": "definition",
+ "tier": 13,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "D3.3"
+ ],
+ "proposed": [
+  "D3.3"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main Statement is a definition/identification plus a broad physical variational claim, not a bounded arithmetic or SMT theorem. Encoding it faithfully would require calculus of variations, differentiability, an action functional, and the physical assertion that this Lagrangian governs all dynamics; these are not formalized in the file in a way suitable for Z3.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "D19.1/Q15/0140",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the transition from the general analogical claim that created order reflects divine Logos to the specific physical equation LLC = χΣdot² − Sχ and its identification as the fundamental Lagrangian of reality. P-IMAGO explicitly does not imply any particular physical law, equation, constant, or measurement."
+  },
+  {
+   "id": "D19.1/Q15/0257",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "a literal third body is necessary for all physical captures",
+   "reason": "GravityAndGrace.capture_requires_third_body is existential for a chosen transition; no universal physical necessity theorem follows."
+  },
+  {
+   "id": "D19.1/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Law I definition identifying the Logos-Lagrangian Correspondence as LLC = chi(t)*dot(Sigma)^2 - S*chi(t) and asserting variational governance of dynamics.",
+   "reason": "The main Statement is a definition/identification plus a broad physical variational claim, not a bounded arithmetic or SMT theorem. Encoding it faithfully would require calculus of variations, differentiability, an action functional, and the physical assertion that this Lagrangian governs all dynamics; these are not formalized in the file in a way suitable for Z3."
+  }
+ ],
+ "ports": [],
+ "main": "D19.1",
+ "claims": [
+  "D19.1",
+  "D19.1::split-01",
+  "D19.1::split-02",
+  "D19.1::split-03",
+  "D19.1::split-04",
+  "D19.1::split-05",
+  "D19.1::split-06",
+  "D19.1::split-07",
+  "D19.1::split-08",
+  "D19.1::split-09",
+  "D19.1::receipt::GravityAndGrace.Iso.pres_regime",
+  "D19.1::receipt::GravityAndGrace.gravity_isomorphic_to_grace",
+  "D19.1::receipt::GravityAndGrace.no_self_capture",
+  "D19.1::receipt::GravityAndGrace.hyperbolic_stays_hyperbolic",
+  "D19.1::receipt::GravityAndGrace.adversary_changes_energy_sign",
+  "D19.1::receipt::GravityAndGrace.capture_requires_third_body",
+  "D19.1::receipt::Law1GeodesicAndRocket.Iso.pres_regime",
+  "D19.1::receipt::Law1GeodesicAndRocket.all_three_isomorphic",
+  "D19.1::receipt::Law1GeodesicAndRocket.fake_not_iso_grace",
+  "D19.1::receipt::Law1GeodesicAndRocket.fake_not_iso_rocket"
+ ],
+ "source": "source/nodes/D19.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

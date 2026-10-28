@@ -1,0 +1,56 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "PRED18.1",
+ "claim_id": "PRED18.1",
+ "type": "CLAIM",
+ "text": "Trained meditators will show a stronger quantum Zeno effect, and the Hubble tension will resolve to an intermediate H0 ≈ 70.5 ± 1.0 km/s/Mpc by 2030.",
+ "source": {
+  "file": "source/nodes/PRED18.1.yaml",
+  "quote": "Trained meditators will show a stronger quantum Zeno effect, and the Hubble tension will resolve to an intermediate H0 ≈ 70.5 ± 1.0 km/s/Mpc by 2030.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "observable",
+  "composition_level": 1,
+  "claim_role": "empirical_hypothesis",
+  "register": "physical"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A specified chi-field ontology with coupling constant α and equation of state wχ.; A physical mechanism by which observer or meditator chi coherence modulates quantum measurement rate.; A cosmological model mapping chi-field density evolution to early- and late-universe H0.; Empirical data from quantum Zeno experiments and H0 measurements.; A bridge premise licensing chi-field and physical-prediction language from A0/P-IMAGO, which is not supplied.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/PRED18.1.yaml#PRED18.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "PRED14.1",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "PRED18.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A specified chi-field ontology with coupling constant α and equation of state wχ.",
+  "A physical mechanism by which observer or meditator chi coherence modulates quantum measurement rate.",
+  "A cosmological model mapping chi-field density evolution to early- and late-universe H0.",
+  "Empirical data from quantum Zeno experiments and H0 measurements.",
+  "A bridge premise licensing chi-field and physical-prediction language from A0/P-IMAGO, which is not supplied."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "PRED18.1/Q15/0183",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "A0 and P-IMAGO license only analogical creaturely dependence and resemblance; the derivation stops at the first unlicensed step, which is the introduction of a measurable chi-field with coupling α and equation of state wχ, and then the specific Zeno enhancement and H0 values."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

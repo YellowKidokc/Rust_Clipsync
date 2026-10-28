@@ -1,0 +1,65 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "O3",
+ "claim_id": "O3",
+ "type": "CLAIM",
+ "text": "Consciousness is an irreducible ontological primitive—the capacity for experience, awareness, and distinction-making—not emergent from non-conscious matter and co-fundamental with information and coherence.",
+ "source": {
+  "file": "source/nodes/O3.yaml",
+  "quote": "Consciousness is an irreducible ontological primitive—the capacity for experience, awareness, and distinction-making—not emergent from non-conscious matter and co-fundamental with information and coherence.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "Creaturely consciousness is an irreducible, non-emergent participation in God's consciousness rather than merely an emergent property of matter.; Information and coherence are ontologically co-fundamental with consciousness.; A sound non-reductive philosophy-of-mind argument, such as the explanatory-gap or zombie-conceivability argument, is valid.; Quantum measurement requires conscious observers or consciousness causes wavefunction collapse.; Integrated Information Theory's Phi is a valid measure of consciousness.; Orch-OR is true.; The Logos/chi-field can be identified with primordial consciousness without compromising A0's single root.",
+  "outcome": null,
+  "canon_status": "retired",
+  "grade_source": "copied:source/nodes/O3.yaml#O3::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A5.1",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "O3",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "Creaturely consciousness is an irreducible, non-emergent participation in God's consciousness rather than merely an emergent property of matter.",
+  "Information and coherence are ontologically co-fundamental with consciousness.",
+  "A sound non-reductive philosophy-of-mind argument, such as the explanatory-gap or zombie-conceivability argument, is valid.",
+  "Quantum measurement requires conscious observers or consciousness causes wavefunction collapse.",
+  "Integrated Information Theory's Phi is a valid measure of consciousness.",
+  "Orch-OR is true.",
+  "The Logos/chi-field can be identified with primordial consciousness without compromising A0's single root."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "O3/Q15/0221",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "axiom-set membership",
+   "reason": "David retired this record; it is retained with reason and cannot serve as an active axiom. Content-level truth is not settled merely by retirement."
+  },
+  {
+   "id": "O3/Q15/0222",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the move from A0/P-IMAGO's God-grounded creaturely consciousness to 'consciousness is an ontological primitive co-fundamental with information and coherence'; for the full record, also at every move into quantum-mechanical, IIT, Orch-OR, GWT, free-energy, or mathematical claims, which P-IMAGO cannot supply."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is metaphysical/ontological rather than a precise mathematical assertion. The file's formal expression 'Realized(I,C) iff exists O: O experiences (I,C)' is essentially a definition or a philosophical thesis about realization, and terms like 'ontological primitive', 'emergent', 'co-fundamental', 'experiences', and 'realized' are not given formal semantics sufficient for a Z3 encoding. Encoding only the definitional equivalence would not check the main claim and would replace it wit",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

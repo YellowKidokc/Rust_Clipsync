@@ -1,0 +1,1359 @@
+{
+  "architecture": "../../NODE_ARCHITECTURE_rev25.md",
+  "components": [
+    {
+      "id": "GRACE-001",
+      "tags": {
+        "system_part": "operator",
+        "composition_level": 3,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "contains": [
+        "agents",
+        "states",
+        "boundary",
+        "operators",
+        "rules",
+        "initial conditions",
+        "symmetries",
+        "constitutive laws",
+        "conservation laws",
+        "observables"
+      ],
+      "scope": "A structural native restoration model, not the level-4 order of salvation."
+    },
+    {
+      "id": "agents",
+      "tags": {
+        "system_part": "agent",
+        "composition_level": 0,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      }
+    },
+    {
+      "id": "states",
+      "tags": {
+        "system_part": "state",
+        "composition_level": 1,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      }
+    },
+    {
+      "id": "boundary",
+      "tags": {
+        "system_part": "boundary",
+        "composition_level": 1,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      }
+    },
+    {
+      "id": "operators",
+      "tags": {
+        "system_part": "operator",
+        "composition_level": 2,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      }
+    },
+    {
+      "id": "rules",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      }
+    },
+    {
+      "id": "initial conditions",
+      "tags": {
+        "system_part": "initial condition",
+        "composition_level": 1,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      }
+    },
+    {
+      "id": "symmetries",
+      "tags": {
+        "system_part": "symmetry",
+        "composition_level": 1,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      }
+    },
+    {
+      "id": "constitutive laws",
+      "tags": {
+        "system_part": "constitutive law",
+        "composition_level": 2,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      }
+    },
+    {
+      "id": "conservation laws",
+      "tags": {
+        "system_part": "conservation law",
+        "composition_level": 2,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      }
+    },
+    {
+      "id": "observables",
+      "tags": {
+        "system_part": "observable",
+        "composition_level": 1,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "C-STATE",
+      "claim": "The native state carries person identity, three-valued phase, boundary, accepted response, three separate coherence coordinates, record, debt and audit trace.",
+      "tags": {
+        "system_part": "state",
+        "composition_level": 1,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "evidence": [
+        "grace_model.py:State"
+      ],
+      "strength": "By definition"
+    },
+    {
+      "id": "BC1",
+      "claim": "At phase -1 the person cannot open the boundary.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "assumption",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "evidence": [
+        "sources/Grace_Node_v1.md"
+      ],
+      "strength": "Conditional"
+    },
+    {
+      "id": "BC2",
+      "claim": "Awakening -1 to 0 is the Spirit alone; it restores capacity without acceptance.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "assumption",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "evidence": [
+        "sources/Grace_Node_v1.md"
+      ],
+      "strength": "Conditional"
+    },
+    {
+      "id": "BC3",
+      "claim": "The awakened person authors response R; acceptance and refusal are both permitted from the same state.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "assumption",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "evidence": [
+        "sources/Grace_Node_v1.md"
+      ],
+      "strength": "Conditional"
+    },
+    {
+      "id": "BC4",
+      "claim": "Grace never compels accepted response; restoration requires a refusable response.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "assumption",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "evidence": [
+        "sources/Grace_Node_v1.md"
+      ],
+      "strength": "Conditional"
+    },
+    {
+      "id": "BC5",
+      "claim": "The input historical record is preserved through every native transition.",
+      "tags": {
+        "system_part": "conservation law",
+        "composition_level": 3,
+        "claim_role": "assumption",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "evidence": [
+        "sources/Grace_Node_v1.md:BC5",
+        "Grace001Consent.lean:all_steps_preserve_record"
+      ],
+      "strength": "Conditional"
+    },
+    {
+      "id": "M-FREEDOM",
+      "claim": "Actual human response could genuinely have gone the other way. FREE-CHOICE-001 supplies a conditional response-selector interface; actual alternatives/authorship remain admitted, not proved.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "assumption",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "evidence": [
+        "NODE_ARCHITECTURE_rev25.md:8",
+        "sources/Grace_Node_v1.md:BC3-4",
+        "../FREE_CHOICE_001/FREE-CHOICE-001.md"
+      ],
+      "strength": "Conditional"
+    },
+    {
+      "id": "M-DPI",
+      "claim": "An information processing constraint applies to persons and entails nonincrease of the relevant moral/spiritual quantity.",
+      "tags": {
+        "system_part": "constitutive law",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "evidence": [
+        "GRACE-001.md:5"
+      ],
+      "strength": "Conditional"
+    },
+    {
+      "id": "M-K",
+      "claim": "Judge-paid debt discharge is a precondition for G in this K+G implementation.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "assumption",
+        "warrant": {
+          "status": "admitted",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "evidence": [
+        "grace_model.py:restore",
+        "sources/Grace_Node_v1.md:K"
+      ],
+      "strength": "Conditional"
+    },
+    {
+      "id": "M-GROWTH",
+      "claim": "G updates C-spiritual to (C-spiritual+1)/2; D halves moral and spiritual coordinates. These bounded toy laws are chosen, not derived.",
+      "tags": {
+        "system_part": "constitutive law",
+        "composition_level": 2,
+        "claim_role": "assumption",
+        "warrant": {
+          "status": "admitted",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "evidence": [
+        "grace_model.py:restore,corrupt"
+      ],
+      "strength": "By definition"
+    },
+    {
+      "id": "M-COORDINATES",
+      "claim": "Toy coordinates in [0,1] do not constitute measurement scales or equalities between the three coherences.",
+      "tags": {
+        "system_part": "state",
+        "composition_level": 1,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "evidence": [
+        "grace_model.py:State"
+      ],
+      "strength": "By definition"
+    },
+    {
+      "id": "BR-GRACE-RESET",
+      "claim": "The proposed scalar-to-distribution map does not intertwine native growth G with the terminal reset L.",
+      "tags": {
+        "system_part": "operator",
+        "composition_level": 1,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "bridge_attempt.json",
+        "validate_rev25.py"
+      ],
+      "strength": "Negative"
+    },
+    {
+      "id": "Wall.invariant_preserved",
+      "claim": "A finite sequence of operations each preserving q preserves q.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Wall.lean:invariant_preserved",
+        "Wall.log"
+      ],
+      "strength": "Structure"
+    },
+    {
+      "id": "Wall.change_requires_outside_op",
+      "claim": "A changed q implies a nonpreserving operation in the sequence; “outside” means outside the preserving family, not necessarily outside a physical system.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Wall.lean:change_requires_outside_op",
+        "Wall.log"
+      ],
+      "strength": "Structure"
+    },
+    {
+      "id": "Wall.grace_preserves_identity",
+      "claim": "Updating sign leaves the identity field unchanged. No record field is represented.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Wall.lean:grace_preserves_identity",
+        "Wall.log"
+      ],
+      "strength": "By definition"
+    },
+    {
+      "id": "Wall.grace_restores",
+      "claim": "The defined grace function sets sign to 1.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Wall.lean:grace_restores",
+        "Wall.log"
+      ],
+      "strength": "By definition"
+    },
+    {
+      "id": "Wall.works_cannot_flip",
+      "claim": "Works preserve sign if every listed work preserves sign. That premise needs a theological warrant.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Wall.lean:works_cannot_flip",
+        "Wall.log"
+      ],
+      "strength": "Conditional"
+    },
+    {
+      "id": "Wall.flip_requires_non_self_op",
+      "claim": "A sign change requires a nonpreserving operation; identification of all self-operations with the preserving family is additional.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Wall.lean:flip_requires_non_self_op",
+        "Wall.log"
+      ],
+      "strength": "Conditional"
+    },
+    {
+      "id": "Wall.grace_is_outside_the_family",
+      "claim": "The defined grace changes a state initially at −1, excluding it from the sign-preserving family.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Wall.lean:grace_is_outside_the_family",
+        "Wall.log"
+      ],
+      "strength": "Negative"
+    },
+    {
+      "id": "Wall.no_restoration_without_consent",
+      "claim": "`restore false s = s`.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Wall.lean:no_restoration_without_consent",
+        "Wall.log"
+      ],
+      "strength": "By definition"
+    },
+    {
+      "id": "Wall.restoration_with_consent",
+      "claim": "`restore true` sets sign to 1.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Wall.lean:restoration_with_consent",
+        "Wall.log"
+      ],
+      "strength": "By definition"
+    },
+    {
+      "id": "Wall.restore_preserves_identity",
+      "claim": "Either Boolean branch leaves identity unchanged.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Wall.lean:restore_preserves_identity",
+        "Wall.log"
+      ],
+      "strength": "By definition"
+    },
+    {
+      "id": "Wall.coherence_nonincrease",
+      "claim": "For fixed Smax and integer S1 ≤ S2, Smax−S2 ≤ Smax−S1. This proves neither DPI nor entropy nondecrease nor a moral/spiritual bridge.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Wall.lean:coherence_nonincrease",
+        "Wall.log"
+      ],
+      "strength": "Conditional"
+    },
+    {
+      "id": "ThreeAgents.sign_preserved_by_seq",
+      "claim": "Composition preserves sign when each listed operation does.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/ThreeAgents.lean:sign_preserved_by_seq",
+        "ThreeAgents.log"
+      ],
+      "strength": "Structure"
+    },
+    {
+      "id": "ThreeAgents.works_and_adversary_cannot_restore",
+      "claim": "A −1 state remains −1 under works plus adversary operations, given both preservation hypotheses.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/ThreeAgents.lean:works_and_adversary_cannot_restore",
+        "ThreeAgents.log"
+      ],
+      "strength": "Conditional"
+    },
+    {
+      "id": "ThreeAgents.grace_flips_with_consent",
+      "claim": "True consent selects grace and returns sign +1; an initial −1 hypothesis is needed to call it a flip.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/ThreeAgents.lean:grace_flips_with_consent",
+        "ThreeAgents.log"
+      ],
+      "strength": "By definition"
+    },
+    {
+      "id": "ThreeAgents.no_consent_no_restoration",
+      "claim": "False consent returns the input state.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/ThreeAgents.lean:no_consent_no_restoration",
+        "ThreeAgents.log"
+      ],
+      "strength": "By definition"
+    },
+    {
+      "id": "ThreeAgents.adversary_can_block_by_closing_consent",
+      "claim": "An initial −1 state remains −1 when consent is false. The theorem does not model or prove the adversary causing consent to become false.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/ThreeAgents.lean:adversary_can_block_by_closing_consent",
+        "ThreeAgents.log"
+      ],
+      "strength": "Conditional"
+    },
+    {
+      "id": "Law5JusticeMercy.justice_conserves",
+      "claim": "Offender pays the positive natural-number cost in full.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Law5JusticeMercy.lean:justice_conserves",
+        "Law5JusticeMercy.log"
+      ],
+      "strength": "By definition"
+    },
+    {
+      "id": "Law5JusticeMercy.mercy_conserves",
+      "claim": "Third party pays the full cost.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Law5JusticeMercy.lean:mercy_conserves",
+        "Law5JusticeMercy.log"
+      ],
+      "strength": "By definition"
+    },
+    {
+      "id": "Law5JusticeMercy.cross_conserves",
+      "claim": "Judge pays the full cost.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Law5JusticeMercy.lean:cross_conserves",
+        "Law5JusticeMercy.log"
+      ],
+      "strength": "By definition"
+    },
+    {
+      "id": "Law5JusticeMercy.justice_unique",
+      "claim": "Full offender payment plus exact conservation uniquely fixes this allocation.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Law5JusticeMercy.lean:justice_unique",
+        "Law5JusticeMercy.log"
+      ],
+      "strength": "Conditional"
+    },
+    {
+      "id": "Law5JusticeMercy.mercy_unique",
+      "claim": "Zero offender payment, full third-party payment, and conservation fix this allocation.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Law5JusticeMercy.lean:mercy_unique",
+        "Law5JusticeMercy.log"
+      ],
+      "strength": "Conditional"
+    },
+    {
+      "id": "Law5JusticeMercy.cross_unique",
+      "claim": "Conservation, zero offender payment, **and full judge payment** fix the cross allocation.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Law5JusticeMercy.lean:cross_unique",
+        "Law5JusticeMercy.log"
+      ],
+      "strength": "Conditional"
+    },
+    {
+      "id": "Law5JusticeMercy.cross_maximizes_both",
+      "claim": "Same three hypotheses as `cross_unique`; it supplies no independent optimization theorem or reason the judge must pay.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Law5JusticeMercy.lean:cross_maximizes_both",
+        "Law5JusticeMercy.log"
+      ],
+      "strength": "Conditional"
+    },
+    {
+      "id": "Law5JusticeMercy.vengeance_not_conserved",
+      "claim": "Cost+1 paid by offender fails exact equality with cost.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Law5JusticeMercy.lean:vengeance_not_conserved",
+        "Law5JusticeMercy.log"
+      ],
+      "strength": "Negative"
+    },
+    {
+      "id": "Law5JusticeMercy.enabling_not_conserved",
+      "claim": "All-zero payment fails conservation for a strictly positive cost.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Law5JusticeMercy.lean:enabling_not_conserved",
+        "Law5JusticeMercy.log"
+      ],
+      "strength": "Negative"
+    },
+    {
+      "id": "Law5JusticeMercy.not_cross_fails_condition",
+      "claim": "A conserved non-cross allocation fails zero-offender or full-judge payment. It can still conserve and release the offender.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Law5JusticeMercy.lean:not_cross_fails_condition",
+        "Law5JusticeMercy.log"
+      ],
+      "strength": "Negative"
+    },
+    {
+      "id": "Grace001.only_spirit_awakens",
+      "claim": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "Grace001Consent.lean:only_spirit_awakens",
+        "Grace001Consent.log"
+      ],
+      "strength": "By definition"
+    },
+    {
+      "id": "Grace001.awakening_not_alignment",
+      "claim": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "Grace001Consent.lean:awakening_not_alignment",
+        "Grace001Consent.log"
+      ],
+      "strength": "By definition"
+    },
+    {
+      "id": "Grace001.only_person_responds",
+      "claim": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "Grace001Consent.lean:only_person_responds",
+        "Grace001Consent.log"
+      ],
+      "strength": "By definition"
+    },
+    {
+      "id": "Grace001.dead_cannot_respond",
+      "claim": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "Grace001Consent.lean:dead_cannot_respond",
+        "Grace001Consent.log"
+      ],
+      "strength": "By definition"
+    },
+    {
+      "id": "Grace001.both_responses_permitted",
+      "claim": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "Grace001Consent.lean:both_responses_permitted",
+        "Grace001Consent.log"
+      ],
+      "strength": "By definition"
+    },
+    {
+      "id": "Grace001.refusal_blocks_restoration",
+      "claim": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "Grace001Consent.lean:refusal_blocks_restoration",
+        "Grace001Consent.log"
+      ],
+      "strength": "By definition"
+    },
+    {
+      "id": "Grace001.response_then_restoration",
+      "claim": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "Grace001Consent.lean:response_then_restoration",
+        "Grace001Consent.log"
+      ],
+      "strength": "By definition"
+    },
+    {
+      "id": "Grace001.no_restoration_before_response",
+      "claim": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "Grace001Consent.lean:no_restoration_before_response",
+        "Grace001Consent.log"
+      ],
+      "strength": "By definition"
+    },
+    {
+      "id": "Grace001.all_steps_preserve_record",
+      "claim": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+      "tags": {
+        "system_part": "conservation law",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "Grace001Consent.lean:all_steps_preserve_record",
+        "Grace001Consent.log"
+      ],
+      "strength": "Structure"
+    },
+    {
+      "id": "Grace001.all_steps_preserve_identity",
+      "claim": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+      "tags": {
+        "system_part": "conservation law",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "Grace001Consent.lean:all_steps_preserve_identity",
+        "Grace001Consent.log"
+      ],
+      "strength": "Structure"
+    }
+  ],
+  "operational_ports": [
+    {
+      "id": "A",
+      "tags": {
+        "system_part": "operator",
+        "composition_level": 2,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "input": {
+        "state": "State, phase=-1"
+      },
+      "output": {
+        "state": "same person/record; phase=0; closed; not accepted; C-spiritual unchanged"
+      },
+      "agent": [
+        "Spirit"
+      ],
+      "boundary": "Only Spirit may invoke A on phase -1.",
+      "constraints": [
+        "BC1",
+        "BC2",
+        "BC5",
+        "No compelled +1 or acceptance"
+      ],
+      "evidence": [
+        "grace_model.py:awaken",
+        "Grace001Consent.lean:only_spirit_awakens,awakening_not_alignment"
+      ],
+      "claim_dependencies": [
+        "C-STATE",
+        "BC1",
+        "BC2",
+        "BC5"
+      ],
+      "warrant_boundary": "Native theological interpretation admitted; finite implementation/proof only establishes encoded contract behavior."
+    },
+    {
+      "id": "R",
+      "tags": {
+        "system_part": "operator",
+        "composition_level": 2,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "input": {
+        "state": "State, phase=0",
+        "choice": "explicit Boolean, supplied by person; both values admissible"
+      },
+      "output": {
+        "accept": "phase=+1, boundary open, accepted; no C-spiritual increase",
+        "refuse": "phase=-1, boundary closed; G unavailable"
+      },
+      "agent": [
+        "person"
+      ],
+      "boundary": "Phase=0 only; no agent substitution or automatic invocation by A.",
+      "constraints": [
+        "BC3",
+        "BC4",
+        "BC5",
+        "identical pre-state admits both alternatives",
+        "M-FREEDOM is admitted, item-2 provider unresolved"
+      ],
+      "evidence": [
+        "grace_model.py:respond",
+        "Grace001Consent.lean:both_responses_permitted,only_person_responds"
+      ],
+      "claim_dependencies": [
+        "C-STATE",
+        "BC3",
+        "BC4",
+        "BC5",
+        "M-FREEDOM"
+      ],
+      "warrant_boundary": "Native theological interpretation admitted; finite implementation/proof only establishes encoded contract behavior."
+    },
+    {
+      "id": "G",
+      "tags": {
+        "system_part": "operator",
+        "composition_level": 2,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "input": {
+        "state": "State, phase=+1, accepted, boundary open; R:accept provenance; debt=0"
+      },
+      "output": {
+        "state": "same identity/record/C-info/C-moral; C-spiritual -> (C-spiritual+1)/2; saturated at 1"
+      },
+      "agent": [
+        "Father through Son"
+      ],
+      "boundary": "Only after accepted R and discharged cost; refusal rejects invocation.",
+      "constraints": [
+        "BC4",
+        "BC5",
+        "M-K",
+        "M-GROWTH",
+        "No physical or moral improvement theorem",
+        "No universal idempotence claim"
+      ],
+      "evidence": [
+        "grace_model.py:restore",
+        "Grace001Consent.lean:refusal_blocks_restoration,response_then_restoration",
+        "validation_results.json"
+      ],
+      "claim_dependencies": [
+        "C-STATE",
+        "BC4",
+        "BC5",
+        "M-K",
+        "M-GROWTH",
+        "M-COORDINATES"
+      ],
+      "warrant_boundary": "Native theological interpretation admitted; finite implementation/proof only establishes encoded contract behavior."
+    },
+    {
+      "id": "K",
+      "tags": {
+        "system_part": "operator",
+        "composition_level": 2,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "input": {
+        "state": "State with nonnegative debt and judge_paid"
+      },
+      "output": {
+        "state": "debt=0; judge_paid increases by prior debt; record unchanged"
+      },
+      "agent": [
+        "Son"
+      ],
+      "boundary": "Authorized Son payer; may occur before or after R; payment does not open boundary.",
+      "constraints": [
+        "BC5",
+        "debt+judge_paid conserved",
+        "No assertion that other payers are logically impossible"
+      ],
+      "evidence": [
+        "grace_model.py:cost",
+        "../../LEAN/Law5JusticeMercy.lean:cross_conserves,cross_unique"
+      ],
+      "claim_dependencies": [
+        "C-STATE",
+        "BC5",
+        "M-K"
+      ],
+      "warrant_boundary": "Native theological interpretation admitted; finite implementation/proof only establishes encoded contract behavior."
+    },
+    {
+      "id": "P",
+      "tags": {
+        "system_part": "operator",
+        "composition_level": 2,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "input": {
+        "state": "State"
+      },
+      "output": {
+        "state": "unchanged coordinates with audit event"
+      },
+      "agent": [
+        "person"
+      ],
+      "boundary": "Internal-only operation; no restoration permission produced.",
+      "constraints": [
+        "BC5",
+        "Identity operation is the only instantiated P; no universal DPI-to-person inference"
+      ],
+      "evidence": [
+        "grace_model.py:process",
+        "../../LEAN/Wall.lean:invariant_preserved"
+      ],
+      "claim_dependencies": [
+        "C-STATE",
+        "BC5"
+      ],
+      "warrant_boundary": "Native theological interpretation admitted; finite implementation/proof only establishes encoded contract behavior."
+    },
+    {
+      "id": "D",
+      "tags": {
+        "system_part": "operator",
+        "composition_level": 2,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "input": {
+        "state": "State"
+      },
+      "output": {
+        "state": "C-moral and C-spiritual halved; phase/consent/identity/record unchanged"
+      },
+      "agent": [
+        "corruption"
+      ],
+      "boundary": "Damage operator; cannot invoke A, R, K or G.",
+      "constraints": [
+        "BC5",
+        "M-GROWTH",
+        "Zero is a fixed point; strict loss only above zero"
+      ],
+      "evidence": [
+        "grace_model.py:corrupt",
+        "validation_results.json"
+      ],
+      "claim_dependencies": [
+        "C-STATE",
+        "BC5",
+        "M-GROWTH"
+      ],
+      "warrant_boundary": "Native theological interpretation admitted; finite implementation/proof only establishes encoded contract behavior."
+    },
+    {
+      "id": "W",
+      "tags": {
+        "system_part": "observable",
+        "composition_level": 2,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "observation"
+        },
+        "register": "embodied"
+      },
+      "input": {
+        "Son": "assessed pass/fail/undetermined",
+        "Spirit": "assessed pass/fail/undetermined",
+        "Father": "assessed pass/fail/undetermined"
+      },
+      "output": {
+        "verdict": "fail if established contradiction; otherwise undetermined if any unresolved; else pass within tested scope"
+      },
+      "agent": [
+        "person as assessor"
+      ],
+      "boundary": "Assessment requires source-specific evidence; Son contradiction veto; silence is not contradiction.",
+      "constraints": [
+        "No claim to read phase or independently measure C-spiritual",
+        "No statistical independence assumed"
+      ],
+      "evidence": [
+        "sources/Grace_Node_v1.md:11",
+        "grace_model.py:witness_outcome",
+        "validation_results.json"
+      ],
+      "claim_dependencies": [],
+      "warrant_boundary": "Native theological interpretation admitted; finite implementation/proof only establishes encoded contract behavior.",
+      "cross_register_note": "Receives already assessed observations/interpretations; does not turn spiritual state into measured fruit. The inference of divine origin remains unverified."
+    }
+  ],
+  "open_imports": [
+    {
+      "key": "sign_sigma_freely_chosen",
+      "used_by": "R",
+      "claim": "M-FREEDOM",
+      "provider": "../FREE_CHOICE_001/node_contracts.json",
+      "status": "conditional working provider; actual freedom still admitted"
+    }
+  ],
+  "bridge_record": "bridge_attempt.json",
+  "closure": "Native outputs are model-conditional; no unconditional external bridge or free-choice result is exported."
+}

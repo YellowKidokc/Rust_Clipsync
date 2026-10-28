@@ -1,0 +1,56 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "P9.5",
+ "claim_id": "P9.5",
+ "type": "CLAIM",
+ "text": "Grace is universally available to every conscious soul, and any exclusion is due to voluntary rejection rather than ontological unavailability.",
+ "source": {
+  "file": "source/nodes/P9.5.yaml",
+  "quote": "Grace is universally available to every conscious soul, and any exclusion is due to voluntary rejection rather than ontological unavailability.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "God wills the salvation of all or offers sufficient prevenient grace to every conscious soul.; Existence and omnipresence of the χ-field (D2.1/D2.2).; Definition of the grace operator Ĝ (D9.1).; Voluntary coupling BC8 as the reception mechanism.; Consciousness is identical to or requires χ-field coupling.; Empirical evidence for χ-field effects and cross-cultural conversion patterns.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/P9.5.yaml#P9.5::main (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "P9.5",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "God wills the salvation of all or offers sufficient prevenient grace to every conscious soul.",
+  "Existence and omnipresence of the χ-field (D2.1/D2.2).",
+  "Definition of the grace operator Ĝ (D9.1).",
+  "Voluntary coupling BC8 as the reception mechanism.",
+  "Consciousness is identical to or requires χ-field coupling.",
+  "Empirical evidence for χ-field effects and cross-cultural conversion patterns."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "P9.5/Q15/0105",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The core fails at the step from A0's goodness/love plus P-IMAGO's analogical participation to a universal grace-offer; the full record fails at the step asserting χ-field omnipresence and consciousness-as-χ-coupling as available premises."
+  }
+ ],
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

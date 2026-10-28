@@ -1,0 +1,49 @@
+{
+ "id": "A7.1",
+ "title": "A7.1 Closure Requirement",
+ "lifecycle": "framework_commitment",
+ "tier": 8,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "LN6.1"
+ ],
+ "proposed": [
+  "LN6.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "A7.1/Q15/0066",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the move from P-IMAGO's general analogy of creaturely order and intelligibility to a requirement on complete physical theories; P-IMAGO explicitly does not yield physical laws, boundary conditions, constants, or empirical tuning."
+  }
+ ],
+ "ports": [],
+ "main": "A7.1",
+ "claims": [
+  "A7.1",
+  "A7.1::split-01",
+  "A7.1::split-02",
+  "A7.1::split-03",
+  "A7.1::split-04",
+  "A7.1::split-05",
+  "A7.1::split-06",
+  "A7.1::split-07",
+  "A7.1::split-08",
+  "A7.1::split-09"
+ ],
+ "source": "source/nodes/A7.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

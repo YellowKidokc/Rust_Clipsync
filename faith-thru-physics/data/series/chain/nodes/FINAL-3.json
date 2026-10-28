@@ -1,0 +1,66 @@
+{
+ "id": "FINAL-3",
+ "title": "Unique Solution (Christianity)",
+ "lifecycle": "open",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [
+  "A2.2",
+  "BC1",
+  "BC2",
+  "BC3",
+  "BC4a",
+  "BC5",
+  "BC6",
+  "BC7",
+  "BC8",
+  "BC9"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is a comparative theological/metaphysical uniqueness claim over an undefined universe of worldviews with undefined predicates. A Z3 encoding would require arbitrary formalization of 'Christianity', 'other worldview', 'self-grounding ground', 'information primacy', 'terminal observer', 'external grace', and 'redeemable agent'. Encoding a finite list of named religions with booleans for the BCs would either presuppose the conclusion or encode an arbitrary taxonomy, so it would not f",
+  "receipt": [
+   "sources/z3/02_RERUN/results.json",
+   "sources/z3/02_TESTED_FAILURE_OR_MISSING_ASSUMPTION/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "FINAL-3/Q15/0235",
+   "kind": "type mismatch",
+   "status": "OPEN",
+   "scope": "worldview uniqueness quantified domain",
+   "reason": "October rerun is NOT_CHECKABLE, preceded by ASK_FAILED. Operational worldview predicates/domain are undefined; do not report a countermodel that the solver did not produce."
+  },
+  {
+   "id": "FINAL-3/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Uniqueness of Christianity as the sole worldview satisfying all five boundary conditions BC1–BC5.",
+   "reason": "The main claim is a comparative theological/metaphysical uniqueness claim over an undefined universe of worldviews with undefined predicates. A Z3 encoding would require arbitrary formalization of 'Christianity', 'other worldview', 'self-grounding ground', 'information primacy', 'terminal observer', 'external grace', and 'redeemable agent'. Encoding a finite list of named religions with booleans for the BCs would either presuppose the conclusion or encode an arbitrary taxonomy, so it would not faithfully check the file's main claim."
+  },
+  {
+   "id": "FINAL-3/Q15/Z3-result-01",
+   "kind": "type mismatch",
+   "status": "OPEN",
+   "scope": "Verification process; no domain verdict: 186_FINAL-3_Unique-Solution.md",
+   "reason": "Expecting value: line 1 column 1 (char 0) Faithfulness to the intended domain is a separate obligation."
+  }
+ ],
+ "ports": [],
+ "main": "FINAL-3",
+ "claims": [
+  "FINAL-3"
+ ],
+ "source": "source/nodes/FINAL-3.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

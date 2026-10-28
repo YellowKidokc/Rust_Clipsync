@@ -1,0 +1,55 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "LN4.1",
+ "claim_id": "LN4.1",
+ "type": "CLAIM",
+ "text": "The universe is an information-compression algorithm.",
+ "source": {
+  "file": "source/nodes/LN4.1.yaml",
+  "quote": "The universe is an information-compression algorithm.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "An information-theoretic physical premise identifying the universe with a compression algorithm.; A mapping premise identifying general relativity as compressed output and quantum mechanics as compression process.; A premise establishing that this model is logically necessary rather than an interpretive analogy.; T4.2 Action Principle as Minimal K, if it were admitted and shown to entail the compression-algorithm model.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/LN4.1.yaml#LN4.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "LN4.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "An information-theoretic physical premise identifying the universe with a compression algorithm.",
+  "A mapping premise identifying general relativity as compressed output and quantum mechanics as compression process.",
+  "A premise establishing that this model is logically necessary rather than an interpretive analogy.",
+  "T4.2 Action Principle as Minimal K, if it were admitted and shown to entail the compression-algorithm model."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "LN4.1/Q15/0041",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the inference from P-IMAGO's analogical creaturely order/intelligibility to a specific physical/information-theoretic compression algorithm and GR/QM mapping; no such bridge is licensed."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

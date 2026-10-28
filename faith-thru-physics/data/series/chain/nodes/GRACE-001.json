@@ -1,0 +1,232 @@
+{
+ "id": "GRACE-001",
+ "title": "GRACE-001",
+ "lifecycle": "working_proposal",
+ "tier": null,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [],
+ "proposed": [
+  "FREE-CHOICE-001"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "CONDITIONAL",
+  "named_premises": [
+   "BC1-5 and authorized A/R/G/K transitions; genuine alternatives and authorship are admitted; cost/record/growth rules are the chosen native model."
+  ],
+  "denial_cost": null,
+  "checkable_by": null,
+  "receipt": [
+   "Grace001.both_responses_permitted",
+   "sources/native/GRACE_001/Grace001Consent.lean"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "GRACE-001/Q15/0245",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "physical instantiation and full external connections",
+   "reason": "Native node walked per David; open bridges do not trigger the architectural kill condition. The old growth/reset map failed; actual free choice remains admitted."
+  }
+ ],
+ "ports": [
+  {
+   "id": "A",
+   "agent": [
+    "Spirit"
+   ],
+   "boundary": "Only Spirit may invoke A on phase -1.",
+   "input": {
+    "state": "State, phase=-1"
+   },
+   "output": {
+    "state": "same person/record; phase=0; closed; not accepted; C-spiritual unchanged"
+   },
+   "evidence": [
+    "grace_model.py:awaken",
+    "Grace001Consent.lean:only_spirit_awakens,awakening_not_alignment"
+   ]
+  },
+  {
+   "id": "R",
+   "agent": [
+    "person"
+   ],
+   "boundary": "Phase=0 only; no agent substitution or automatic invocation by A.",
+   "input": {
+    "state": "State, phase=0",
+    "choice": "explicit Boolean, supplied by person; both values admissible"
+   },
+   "output": {
+    "accept": "phase=+1, boundary open, accepted; no C-spiritual increase",
+    "refuse": "phase=-1, boundary closed; G unavailable"
+   },
+   "evidence": [
+    "grace_model.py:respond",
+    "Grace001Consent.lean:both_responses_permitted,only_person_responds"
+   ]
+  },
+  {
+   "id": "G",
+   "agent": [
+    "Father through Son"
+   ],
+   "boundary": "Only after accepted R and discharged cost; refusal rejects invocation.",
+   "input": {
+    "state": "State, phase=+1, accepted, boundary open; R:accept provenance; debt=0"
+   },
+   "output": {
+    "state": "same identity/record/C-info/C-moral; C-spiritual -> (C-spiritual+1)/2; saturated at 1"
+   },
+   "evidence": [
+    "grace_model.py:restore",
+    "Grace001Consent.lean:refusal_blocks_restoration,response_then_restoration",
+    "validation_results.json"
+   ]
+  },
+  {
+   "id": "K",
+   "agent": [
+    "Son"
+   ],
+   "boundary": "Authorized Son payer; may occur before or after R; payment does not open boundary.",
+   "input": {
+    "state": "State with nonnegative debt and judge_paid"
+   },
+   "output": {
+    "state": "debt=0; judge_paid increases by prior debt; record unchanged"
+   },
+   "evidence": [
+    "grace_model.py:cost",
+    "../../LEAN/Law5JusticeMercy.lean:cross_conserves,cross_unique"
+   ]
+  },
+  {
+   "id": "P",
+   "agent": [
+    "person"
+   ],
+   "boundary": "Internal-only operation; no restoration permission produced.",
+   "input": {
+    "state": "State"
+   },
+   "output": {
+    "state": "unchanged coordinates with audit event"
+   },
+   "evidence": [
+    "grace_model.py:process",
+    "../../LEAN/Wall.lean:invariant_preserved"
+   ]
+  },
+  {
+   "id": "D",
+   "agent": [
+    "corruption"
+   ],
+   "boundary": "Damage operator; cannot invoke A, R, K or G.",
+   "input": {
+    "state": "State"
+   },
+   "output": {
+    "state": "C-moral and C-spiritual halved; phase/consent/identity/record unchanged"
+   },
+   "evidence": [
+    "grace_model.py:corrupt",
+    "validation_results.json"
+   ]
+  },
+  {
+   "id": "W",
+   "agent": [
+    "person as assessor"
+   ],
+   "boundary": "Assessment requires source-specific evidence; Son contradiction veto; silence is not contradiction.",
+   "input": {
+    "Son": "assessed pass/fail/undetermined",
+    "Spirit": "assessed pass/fail/undetermined",
+    "Father": "assessed pass/fail/undetermined"
+   },
+   "output": {
+    "verdict": "fail if established contradiction; otherwise undetermined if any unresolved; else pass within tested scope"
+   },
+   "evidence": [
+    "sources/Grace_Node_v1.md:11",
+    "grace_model.py:witness_outcome",
+    "validation_results.json"
+   ]
+  }
+ ],
+ "main": "GRACE-001",
+ "claims": [
+  "GRACE-001",
+  "GRACE-001::native-1",
+  "GRACE-001::native-2",
+  "GRACE-001::native-3",
+  "GRACE-001::native-4",
+  "GRACE-001::native-5",
+  "GRACE-001::native-6",
+  "GRACE-001::native-7",
+  "GRACE-001::native-8",
+  "GRACE-001::native-9",
+  "GRACE-001::native-10",
+  "GRACE-001::native-11",
+  "GRACE-001::native-12",
+  "GRACE-001::native-13",
+  "GRACE-001::native-14",
+  "GRACE-001::native-15",
+  "GRACE-001::native-16",
+  "GRACE-001::native-17",
+  "GRACE-001::native-18",
+  "GRACE-001::native-19",
+  "GRACE-001::native-20",
+  "GRACE-001::native-21",
+  "GRACE-001::native-22",
+  "GRACE-001::native-23",
+  "GRACE-001::native-24",
+  "GRACE-001::native-25",
+  "GRACE-001::native-26",
+  "GRACE-001::native-27",
+  "GRACE-001::native-28",
+  "GRACE-001::native-29",
+  "GRACE-001::native-30",
+  "GRACE-001::native-31",
+  "GRACE-001::native-32",
+  "GRACE-001::native-33",
+  "GRACE-001::native-34",
+  "GRACE-001::native-35",
+  "GRACE-001::native-36",
+  "GRACE-001::native-37",
+  "GRACE-001::native-38",
+  "GRACE-001::native-39",
+  "GRACE-001::native-40",
+  "GRACE-001::native-41",
+  "GRACE-001::native-42",
+  "GRACE-001::native-43",
+  "GRACE-001::native-44",
+  "GRACE-001::native-45",
+  "GRACE-001::native-46",
+  "GRACE-001::native-47",
+  "GRACE-001::native-48",
+  "GRACE-001::receipt::ThreeAgents.sign_preserved_by_seq",
+  "GRACE-001::receipt::ThreeAgents.works_and_adversary_cannot_restore",
+  "GRACE-001::receipt::ThreeAgents.grace_flips_with_consent",
+  "GRACE-001::receipt::ThreeAgents.no_consent_no_restoration",
+  "GRACE-001::receipt::ThreeAgents.adversary_can_block_by_closing_consent",
+  "GRACE-001::receipt::Law5JusticeMercy.justice_conserves",
+  "GRACE-001::receipt::Law5JusticeMercy.mercy_conserves",
+  "GRACE-001::receipt::Law5JusticeMercy.cross_conserves",
+  "GRACE-001::receipt::Law5JusticeMercy.justice_unique",
+  "GRACE-001::receipt::Law5JusticeMercy.mercy_unique",
+  "GRACE-001::receipt::Law5JusticeMercy.cross_unique",
+  "GRACE-001::receipt::Law5JusticeMercy.cross_maximizes_both",
+  "GRACE-001::receipt::Law5JusticeMercy.vengeance_not_conserved",
+  "GRACE-001::receipt::Law5JusticeMercy.enabling_not_conserved",
+  "GRACE-001::receipt::Law5JusticeMercy.not_cross_fails_condition"
+ ],
+ "source": "source/nodes/GRACE-001.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

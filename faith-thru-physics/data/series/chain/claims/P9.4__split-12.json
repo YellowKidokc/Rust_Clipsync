@@ -1,0 +1,34 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "P9.4",
+ "claim_id": "P9.4::split-12",
+ "type": "CLAIM",
+ "text": "The initial σ=-1 condition from sin inheritance is an expectation value with quantum fluctuations, not a definite eigenstate.",
+ "source": {
+  "file": "source/nodes/P9.4.yaml",
+  "quote": "The initial σ=-1 condition from sin inheritance is an expectation value with quantum fluctuations, not a definite eigenstate.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/P9.4.yaml#P9.4::split-12 (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "P9.4",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+ "obstructions": [],
+ "generated_by": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+}

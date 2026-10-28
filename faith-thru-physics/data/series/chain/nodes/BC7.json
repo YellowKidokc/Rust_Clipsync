@@ -1,0 +1,71 @@
+{
+ "id": "BC7",
+ "title": "BC7 Information Conservation",
+ "lifecycle": "boundary",
+ "tier": 8,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file lists several mathematical analogies (unitary evolution, Liouville theorem, conserved soul number N_S, category-theoretic isomorphism), but the title/statement claim is broader than any one of these. Encoding only unitarity or a conserved integer N_S would be an impermissible substitution of an easier side calculation for the main claim, which quantifies over 'all transformations' and invokes underdefined soul information.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "BC7/Q15/0079",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "infinite capacity -> information conservation",
+   "reason": "The supplied derivations do not establish that an infinite source preserves personal history/information; an explicit conservation model/premise is needed."
+  },
+  {
+   "id": "BC7/Q15/0080",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the step from the analogy of being/order to a physical conservation law: P-IMAGO gives no warrant for quantum unitarity, information conservation, χ-field soul ontology, or N_S conservation."
+  },
+  {
+   "id": "BC7/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: No checkable formal component: the main claim is information preservation through all transformations, including soul information, but the file does not define a single formal transformation class, information measure, or soul-state model sufficient to encode the claim faithfully.",
+   "reason": "The file lists several mathematical analogies (unitary evolution, Liouville theorem, conserved soul number N_S, category-theoretic isomorphism), but the title/statement claim is broader than any one of these. Encoding only unitarity or a conserved integer N_S would be an impermissible substitution of an easier side calculation for the main claim, which quantifies over 'all transformations' and invokes underdefined soul information."
+  }
+ ],
+ "ports": [],
+ "main": "BC7",
+ "claims": [
+  "BC7",
+  "BC7::split-01",
+  "BC7::split-02",
+  "BC7::split-03",
+  "BC7::split-04",
+  "BC7::split-05",
+  "BC7::split-06",
+  "BC7::split-07",
+  "BC7::split-08",
+  "BC7::split-09",
+  "BC7::split-10",
+  "BC7::split-11",
+  "BC7::split-12",
+  "BC7::split-13",
+  "BC7::split-14",
+  "BC7::split-15"
+ ],
+ "source": "source/nodes/BC7.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

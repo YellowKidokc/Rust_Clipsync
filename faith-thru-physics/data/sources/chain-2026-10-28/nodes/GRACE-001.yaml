@@ -1,0 +1,3293 @@
+{
+  "id": "GRACE-001",
+  "title": "GRACE-001",
+  "proposal_only": true,
+  "context_parent": "A0",
+  "tags": {
+    "system_part": "operator",
+    "composition_level": 3,
+    "claim_role": "definition",
+    "warrant": {
+      "status": "admitted",
+      "kind": "revelation"
+    },
+    "register": "spiritual"
+  },
+  "old_mode": null,
+  "proposed_mode": "FW_EXTENDED",
+  "tier": null,
+  "node_lifecycle": "working_proposal",
+  "dependencies": {
+    "source_declared": [],
+    "proposed_primary_support": [
+      "FREE-CHOICE-001"
+    ],
+    "stance_ceiling_sources": []
+  },
+  "claims": [
+    {
+      "id": "GRACE-001::main",
+      "statement": "Native GRACE-001 model with its independently labeled premises and scoped results.",
+      "tags": {
+        "system_part": "operator",
+        "composition_level": 3,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\native\\GRACE_001\\node_contracts.json"
+      ],
+      "classification_proposal": {
+        "logical_role": "DEFINITION",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL",
+          "RELATIONAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "claim_scoped_dependencies": [],
+      "grade": {
+        "match_scope": "states only",
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+        "match_scope_applicable": true,
+        "assessed_claim_id": "GRACE-001::main"
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-1",
+      "claim": "The native state carries person identity, three-valued phase, boundary, accepted response, three separate coherence coordinates, record, debt and audit trace.",
+      "tags": {
+        "system_part": "state",
+        "composition_level": 1,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "evidence": [
+        "grace_model.py:State"
+      ],
+      "strength": "By definition",
+      "canon_status": "open",
+      "statement": "The native state carries person identity, three-valued phase, boundary, accepted response, three separate coherence coordinates, record, debt and audit trace.",
+      "classification_proposal": {
+        "logical_role": "DEFINITION",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL",
+          "RELATIONAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "admitted",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-2",
+      "claim": "At phase -1 the person cannot open the boundary.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "assumption",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "evidence": [
+        "sources/Grace_Node_v1.md"
+      ],
+      "strength": "Conditional",
+      "canon_status": "open",
+      "statement": "At phase -1 the person cannot open the boundary.",
+      "classification_proposal": {
+        "logical_role": "ASSUMPTION",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL",
+          "RELATIONAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "admitted",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-3",
+      "claim": "Awakening -1 to 0 is the Spirit alone; it restores capacity without acceptance.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "assumption",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "evidence": [
+        "sources/Grace_Node_v1.md"
+      ],
+      "strength": "Conditional",
+      "canon_status": "open",
+      "statement": "Awakening -1 to 0 is the Spirit alone; it restores capacity without acceptance.",
+      "classification_proposal": {
+        "logical_role": "ASSUMPTION",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL",
+          "RELATIONAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "admitted",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-4",
+      "claim": "The awakened person authors response R; acceptance and refusal are both permitted from the same state.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "assumption",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "evidence": [
+        "sources/Grace_Node_v1.md"
+      ],
+      "strength": "Conditional",
+      "canon_status": "open",
+      "statement": "The awakened person authors response R; acceptance and refusal are both permitted from the same state.",
+      "classification_proposal": {
+        "logical_role": "ASSUMPTION",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL",
+          "RELATIONAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "admitted",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-5",
+      "claim": "Grace never compels accepted response; restoration requires a refusable response.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "assumption",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "evidence": [
+        "sources/Grace_Node_v1.md"
+      ],
+      "strength": "Conditional",
+      "canon_status": "open",
+      "statement": "Grace never compels accepted response; restoration requires a refusable response.",
+      "classification_proposal": {
+        "logical_role": "ASSUMPTION",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL",
+          "RELATIONAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "admitted",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-6",
+      "claim": "The input historical record is preserved through every native transition.",
+      "tags": {
+        "system_part": "conservation law",
+        "composition_level": 3,
+        "claim_role": "assumption",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "evidence": [
+        "sources/Grace_Node_v1.md:BC5",
+        "Grace001Consent.lean:all_steps_preserve_record"
+      ],
+      "strength": "Conditional",
+      "canon_status": "open",
+      "statement": "The input historical record is preserved through every native transition.",
+      "classification_proposal": {
+        "logical_role": "ASSUMPTION",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL",
+          "RELATIONAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "admitted",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-7",
+      "claim": "Actual human response could genuinely have gone the other way. FREE-CHOICE-001 supplies a conditional response-selector interface; actual alternatives/authorship remain admitted, not proved.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "assumption",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "evidence": [
+        "NODE_ARCHITECTURE_rev25.md:8",
+        "sources/Grace_Node_v1.md:BC3-4",
+        "../FREE_CHOICE_001/FREE-CHOICE-001.md"
+      ],
+      "strength": "Conditional",
+      "canon_status": "open",
+      "statement": "Actual human response could genuinely have gone the other way. FREE-CHOICE-001 supplies a conditional response-selector interface; actual alternatives/authorship remain admitted, not proved.",
+      "classification_proposal": {
+        "logical_role": "ASSUMPTION",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL",
+          "RELATIONAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "admitted",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-8",
+      "claim": "An information processing constraint applies to persons and entails nonincrease of the relevant moral/spiritual quantity.",
+      "tags": {
+        "system_part": "constitutive law",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "evidence": [
+        "GRACE-001.md:5"
+      ],
+      "strength": "Conditional",
+      "canon_status": "open",
+      "statement": "An information processing constraint applies to persons and entails nonincrease of the relevant moral/spiritual quantity.",
+      "classification_proposal": {
+        "logical_role": "CONJECTURE",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL",
+          "RELATIONAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "GRACE-001::native-9",
+      "claim": "Judge-paid debt discharge is a precondition for G in this K+G implementation.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "assumption",
+        "warrant": {
+          "status": "admitted",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "evidence": [
+        "grace_model.py:restore",
+        "sources/Grace_Node_v1.md:K"
+      ],
+      "strength": "Conditional",
+      "canon_status": "open",
+      "statement": "Judge-paid debt discharge is a precondition for G in this K+G implementation.",
+      "classification_proposal": {
+        "logical_role": "ASSUMPTION",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL",
+          "RELATIONAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "admitted",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-10",
+      "claim": "G updates C-spiritual to (C-spiritual+1)/2; D halves moral and spiritual coordinates. These bounded toy laws are chosen, not derived.",
+      "tags": {
+        "system_part": "constitutive law",
+        "composition_level": 2,
+        "claim_role": "assumption",
+        "warrant": {
+          "status": "admitted",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "evidence": [
+        "grace_model.py:restore,corrupt"
+      ],
+      "strength": "By definition",
+      "canon_status": "open",
+      "statement": "G updates C-spiritual to (C-spiritual+1)/2; D halves moral and spiritual coordinates. These bounded toy laws are chosen, not derived.",
+      "classification_proposal": {
+        "logical_role": "ASSUMPTION",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL",
+          "RELATIONAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "admitted",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-11",
+      "claim": "Toy coordinates in [0,1] do not constitute measurement scales or equalities between the three coherences.",
+      "tags": {
+        "system_part": "state",
+        "composition_level": 1,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "evidence": [
+        "grace_model.py:State"
+      ],
+      "strength": "By definition",
+      "canon_status": "open",
+      "statement": "Toy coordinates in [0,1] do not constitute measurement scales or equalities between the three coherences.",
+      "classification_proposal": {
+        "logical_role": "DEFINITION",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL",
+          "RELATIONAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "admitted",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-12",
+      "claim": "The proposed scalar-to-distribution map does not intertwine native growth G with the terminal reset L.",
+      "tags": {
+        "system_part": "operator",
+        "composition_level": 1,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "bridge_attempt.json",
+        "validate_rev25.py"
+      ],
+      "strength": "Negative",
+      "canon_status": "open",
+      "statement": "The proposed scalar-to-distribution map does not intertwine native growth G with the terminal reset L.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "fails",
+        "canon_status": "open",
+        "note": "Negative outcome concerns the named target assertion; a proof of its failure is not a failed proof."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-13",
+      "claim": "A finite sequence of operations each preserving q preserves q.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Wall.lean:invariant_preserved",
+        "Wall.log"
+      ],
+      "strength": "Structure",
+      "canon_status": "open",
+      "statement": "A finite sequence of operations each preserving q preserves q.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": "states only",
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-14",
+      "claim": "A changed q implies a nonpreserving operation in the sequence; “outside” means outside the preserving family, not necessarily outside a physical system.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Wall.lean:change_requires_outside_op",
+        "Wall.log"
+      ],
+      "strength": "Structure",
+      "canon_status": "open",
+      "statement": "A changed q implies a nonpreserving operation in the sequence; “outside” means outside the preserving family, not necessarily outside a physical system.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": "states only",
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-15",
+      "claim": "Updating sign leaves the identity field unchanged. No record field is represented.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Wall.lean:grace_preserves_identity",
+        "Wall.log"
+      ],
+      "strength": "By definition",
+      "canon_status": "open",
+      "statement": "Updating sign leaves the identity field unchanged. No record field is represented.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-16",
+      "claim": "The defined grace function sets sign to 1.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Wall.lean:grace_restores",
+        "Wall.log"
+      ],
+      "strength": "By definition",
+      "canon_status": "open",
+      "statement": "The defined grace function sets sign to 1.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-17",
+      "claim": "Works preserve sign if every listed work preserves sign. That premise needs a theological warrant.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Wall.lean:works_cannot_flip",
+        "Wall.log"
+      ],
+      "strength": "Conditional",
+      "canon_status": "open",
+      "statement": "Works preserve sign if every listed work preserves sign. That premise needs a theological warrant.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-18",
+      "claim": "A sign change requires a nonpreserving operation; identification of all self-operations with the preserving family is additional.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Wall.lean:flip_requires_non_self_op",
+        "Wall.log"
+      ],
+      "strength": "Conditional",
+      "canon_status": "open",
+      "statement": "A sign change requires a nonpreserving operation; identification of all self-operations with the preserving family is additional.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-19",
+      "claim": "The defined grace changes a state initially at −1, excluding it from the sign-preserving family.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Wall.lean:grace_is_outside_the_family",
+        "Wall.log"
+      ],
+      "strength": "Negative",
+      "canon_status": "open",
+      "statement": "The defined grace changes a state initially at −1, excluding it from the sign-preserving family.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "fails",
+        "canon_status": "open",
+        "note": "Negative outcome concerns the named target assertion; a proof of its failure is not a failed proof."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-20",
+      "claim": "`restore false s = s`.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Wall.lean:no_restoration_without_consent",
+        "Wall.log"
+      ],
+      "strength": "By definition",
+      "canon_status": "open",
+      "statement": "`restore false s = s`.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-21",
+      "claim": "`restore true` sets sign to 1.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Wall.lean:restoration_with_consent",
+        "Wall.log"
+      ],
+      "strength": "By definition",
+      "canon_status": "open",
+      "statement": "`restore true` sets sign to 1.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-22",
+      "claim": "Either Boolean branch leaves identity unchanged.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Wall.lean:restore_preserves_identity",
+        "Wall.log"
+      ],
+      "strength": "By definition",
+      "canon_status": "open",
+      "statement": "Either Boolean branch leaves identity unchanged.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-23",
+      "claim": "For fixed Smax and integer S1 ≤ S2, Smax−S2 ≤ Smax−S1. This proves neither DPI nor entropy nondecrease nor a moral/spiritual bridge.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Wall.lean:coherence_nonincrease",
+        "Wall.log"
+      ],
+      "strength": "Conditional",
+      "canon_status": "open",
+      "statement": "For fixed Smax and integer S1 ≤ S2, Smax−S2 ≤ Smax−S1. This proves neither DPI nor entropy nondecrease nor a moral/spiritual bridge.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-24",
+      "claim": "Composition preserves sign when each listed operation does.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/ThreeAgents.lean:sign_preserved_by_seq",
+        "ThreeAgents.log"
+      ],
+      "strength": "Structure",
+      "canon_status": "open",
+      "statement": "Composition preserves sign when each listed operation does.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": "states only",
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-25",
+      "claim": "A −1 state remains −1 under works plus adversary operations, given both preservation hypotheses.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/ThreeAgents.lean:works_and_adversary_cannot_restore",
+        "ThreeAgents.log"
+      ],
+      "strength": "Conditional",
+      "canon_status": "open",
+      "statement": "A −1 state remains −1 under works plus adversary operations, given both preservation hypotheses.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-26",
+      "claim": "True consent selects grace and returns sign +1; an initial −1 hypothesis is needed to call it a flip.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/ThreeAgents.lean:grace_flips_with_consent",
+        "ThreeAgents.log"
+      ],
+      "strength": "By definition",
+      "canon_status": "open",
+      "statement": "True consent selects grace and returns sign +1; an initial −1 hypothesis is needed to call it a flip.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-27",
+      "claim": "False consent returns the input state.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/ThreeAgents.lean:no_consent_no_restoration",
+        "ThreeAgents.log"
+      ],
+      "strength": "By definition",
+      "canon_status": "open",
+      "statement": "False consent returns the input state.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-28",
+      "claim": "An initial −1 state remains −1 when consent is false. The theorem does not model or prove the adversary causing consent to become false.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/ThreeAgents.lean:adversary_can_block_by_closing_consent",
+        "ThreeAgents.log"
+      ],
+      "strength": "Conditional",
+      "canon_status": "open",
+      "statement": "An initial −1 state remains −1 when consent is false. The theorem does not model or prove the adversary causing consent to become false.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-29",
+      "claim": "Offender pays the positive natural-number cost in full.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Law5JusticeMercy.lean:justice_conserves",
+        "Law5JusticeMercy.log"
+      ],
+      "strength": "By definition",
+      "canon_status": "open",
+      "statement": "Offender pays the positive natural-number cost in full.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-30",
+      "claim": "Third party pays the full cost.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Law5JusticeMercy.lean:mercy_conserves",
+        "Law5JusticeMercy.log"
+      ],
+      "strength": "By definition",
+      "canon_status": "open",
+      "statement": "Third party pays the full cost.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-31",
+      "claim": "Judge pays the full cost.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Law5JusticeMercy.lean:cross_conserves",
+        "Law5JusticeMercy.log"
+      ],
+      "strength": "By definition",
+      "canon_status": "open",
+      "statement": "Judge pays the full cost.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-32",
+      "claim": "Full offender payment plus exact conservation uniquely fixes this allocation.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Law5JusticeMercy.lean:justice_unique",
+        "Law5JusticeMercy.log"
+      ],
+      "strength": "Conditional",
+      "canon_status": "open",
+      "statement": "Full offender payment plus exact conservation uniquely fixes this allocation.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-33",
+      "claim": "Zero offender payment, full third-party payment, and conservation fix this allocation.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Law5JusticeMercy.lean:mercy_unique",
+        "Law5JusticeMercy.log"
+      ],
+      "strength": "Conditional",
+      "canon_status": "open",
+      "statement": "Zero offender payment, full third-party payment, and conservation fix this allocation.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-34",
+      "claim": "Conservation, zero offender payment, **and full judge payment** fix the cross allocation.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Law5JusticeMercy.lean:cross_unique",
+        "Law5JusticeMercy.log"
+      ],
+      "strength": "Conditional",
+      "canon_status": "open",
+      "statement": "Conservation, zero offender payment, **and full judge payment** fix the cross allocation.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-35",
+      "claim": "Same three hypotheses as `cross_unique`; it supplies no independent optimization theorem or reason the judge must pay.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Law5JusticeMercy.lean:cross_maximizes_both",
+        "Law5JusticeMercy.log"
+      ],
+      "strength": "Conditional",
+      "canon_status": "open",
+      "statement": "Same three hypotheses as `cross_unique`; it supplies no independent optimization theorem or reason the judge must pay.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-36",
+      "claim": "Cost+1 paid by offender fails exact equality with cost.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Law5JusticeMercy.lean:vengeance_not_conserved",
+        "Law5JusticeMercy.log"
+      ],
+      "strength": "Negative",
+      "canon_status": "open",
+      "statement": "Cost+1 paid by offender fails exact equality with cost.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "fails",
+        "canon_status": "open",
+        "note": "Negative outcome concerns the named target assertion; a proof of its failure is not a failed proof."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-37",
+      "claim": "All-zero payment fails conservation for a strictly positive cost.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Law5JusticeMercy.lean:enabling_not_conserved",
+        "Law5JusticeMercy.log"
+      ],
+      "strength": "Negative",
+      "canon_status": "open",
+      "statement": "All-zero payment fails conservation for a strictly positive cost.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "fails",
+        "canon_status": "open",
+        "note": "Negative outcome concerns the named target assertion; a proof of its failure is not a failed proof."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-38",
+      "claim": "A conserved non-cross allocation fails zero-offender or full-judge payment. It can still conserve and release the offender.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "../../LEAN/Law5JusticeMercy.lean:not_cross_fails_condition",
+        "Law5JusticeMercy.log"
+      ],
+      "strength": "Negative",
+      "canon_status": "open",
+      "statement": "A conserved non-cross allocation fails zero-offender or full-judge payment. It can still conserve and release the offender.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "fails",
+        "canon_status": "open",
+        "note": "Negative outcome concerns the named target assertion; a proof of its failure is not a failed proof."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-39",
+      "claim": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "Grace001Consent.lean:only_spirit_awakens",
+        "Grace001Consent.log"
+      ],
+      "strength": "By definition",
+      "canon_status": "open",
+      "statement": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-40",
+      "claim": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "Grace001Consent.lean:awakening_not_alignment",
+        "Grace001Consent.log"
+      ],
+      "strength": "By definition",
+      "canon_status": "open",
+      "statement": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-41",
+      "claim": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "Grace001Consent.lean:only_person_responds",
+        "Grace001Consent.log"
+      ],
+      "strength": "By definition",
+      "canon_status": "open",
+      "statement": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-42",
+      "claim": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "Grace001Consent.lean:dead_cannot_respond",
+        "Grace001Consent.log"
+      ],
+      "strength": "By definition",
+      "canon_status": "open",
+      "statement": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-43",
+      "claim": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "Grace001Consent.lean:both_responses_permitted",
+        "Grace001Consent.log"
+      ],
+      "strength": "By definition",
+      "canon_status": "open",
+      "statement": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-44",
+      "claim": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "Grace001Consent.lean:refusal_blocks_restoration",
+        "Grace001Consent.log"
+      ],
+      "strength": "By definition",
+      "canon_status": "open",
+      "statement": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-45",
+      "claim": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "Grace001Consent.lean:response_then_restoration",
+        "Grace001Consent.log"
+      ],
+      "strength": "By definition",
+      "canon_status": "open",
+      "statement": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-46",
+      "claim": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "Grace001Consent.lean:no_restoration_before_response",
+        "Grace001Consent.log"
+      ],
+      "strength": "By definition",
+      "canon_status": "open",
+      "statement": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-47",
+      "claim": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+      "tags": {
+        "system_part": "conservation law",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "Grace001Consent.lean:all_steps_preserve_record",
+        "Grace001Consent.log"
+      ],
+      "strength": "Structure",
+      "canon_status": "open",
+      "statement": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": "states only",
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::native-48",
+      "claim": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+      "tags": {
+        "system_part": "conservation law",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "evidence": [
+        "Grace001Consent.lean:all_steps_preserve_identity",
+        "Grace001Consent.log"
+      ],
+      "strength": "Structure",
+      "canon_status": "open",
+      "statement": "Exact theorem signature in Grace001Consent.lean; authorization and refusal alternatives are encoded premises.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": "states only",
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::receipt::ThreeAgents.sign_preserved_by_seq",
+      "statement": "Exact compiled declaration ThreeAgents.sign_preserved_by_seq",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Structure",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\ThreeAgents.lean",
+        "receipts/ThreeAgents.log"
+      ],
+      "scope_limit": "Works/adversary sign preservation are hypotheses; consent gate is defined. The false-consent result does not prove the adversary causes refusal.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "CONSERVATION",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": "states only",
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::receipt::ThreeAgents.works_and_adversary_cannot_restore",
+      "statement": "Exact compiled declaration ThreeAgents.works_and_adversary_cannot_restore",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\ThreeAgents.lean",
+        "receipts/ThreeAgents.log"
+      ],
+      "scope_limit": "Works/adversary sign preservation are hypotheses; consent gate is defined. The false-consent result does not prove the adversary causes refusal.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::receipt::ThreeAgents.grace_flips_with_consent",
+      "statement": "Exact compiled declaration ThreeAgents.grace_flips_with_consent",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\ThreeAgents.lean",
+        "receipts/ThreeAgents.log"
+      ],
+      "scope_limit": "Works/adversary sign preservation are hypotheses; consent gate is defined. The false-consent result does not prove the adversary causes refusal.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::receipt::ThreeAgents.no_consent_no_restoration",
+      "statement": "Exact compiled declaration ThreeAgents.no_consent_no_restoration",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\ThreeAgents.lean",
+        "receipts/ThreeAgents.log"
+      ],
+      "scope_limit": "Works/adversary sign preservation are hypotheses; consent gate is defined. The false-consent result does not prove the adversary causes refusal.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::receipt::ThreeAgents.adversary_can_block_by_closing_consent",
+      "statement": "Exact compiled declaration ThreeAgents.adversary_can_block_by_closing_consent",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\ThreeAgents.lean",
+        "receipts/ThreeAgents.log"
+      ],
+      "scope_limit": "Works/adversary sign preservation are hypotheses; consent gate is defined. The false-consent result does not prove the adversary causes refusal.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::receipt::Law5JusticeMercy.justice_conserves",
+      "statement": "Exact compiled declaration Law5JusticeMercy.justice_conserves",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law5JusticeMercy.lean",
+        "receipts/Law5JusticeMercy.log"
+      ],
+      "scope_limit": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "CONSERVATION",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::receipt::Law5JusticeMercy.mercy_conserves",
+      "statement": "Exact compiled declaration Law5JusticeMercy.mercy_conserves",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law5JusticeMercy.lean",
+        "receipts/Law5JusticeMercy.log"
+      ],
+      "scope_limit": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "CONSERVATION",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::receipt::Law5JusticeMercy.cross_conserves",
+      "statement": "Exact compiled declaration Law5JusticeMercy.cross_conserves",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law5JusticeMercy.lean",
+        "receipts/Law5JusticeMercy.log"
+      ],
+      "scope_limit": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "CONSERVATION",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::receipt::Law5JusticeMercy.justice_unique",
+      "statement": "Exact compiled declaration Law5JusticeMercy.justice_unique",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law5JusticeMercy.lean",
+        "receipts/Law5JusticeMercy.log"
+      ],
+      "scope_limit": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::receipt::Law5JusticeMercy.mercy_unique",
+      "statement": "Exact compiled declaration Law5JusticeMercy.mercy_unique",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law5JusticeMercy.lean",
+        "receipts/Law5JusticeMercy.log"
+      ],
+      "scope_limit": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::receipt::Law5JusticeMercy.cross_unique",
+      "statement": "Exact compiled declaration Law5JusticeMercy.cross_unique",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law5JusticeMercy.lean",
+        "receipts/Law5JusticeMercy.log"
+      ],
+      "scope_limit": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::receipt::Law5JusticeMercy.cross_maximizes_both",
+      "statement": "Exact compiled declaration Law5JusticeMercy.cross_maximizes_both",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law5JusticeMercy.lean",
+        "receipts/Law5JusticeMercy.log"
+      ],
+      "scope_limit": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::receipt::Law5JusticeMercy.vengeance_not_conserved",
+      "statement": "Exact compiled declaration Law5JusticeMercy.vengeance_not_conserved",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Negative",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law5JusticeMercy.lean",
+        "receipts/Law5JusticeMercy.log"
+      ],
+      "scope_limit": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "CONSERVATION",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "fails",
+        "canon_status": "open",
+        "note": "Negative outcome concerns the named target assertion; a proof of its failure is not a failed proof."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::receipt::Law5JusticeMercy.enabling_not_conserved",
+      "statement": "Exact compiled declaration Law5JusticeMercy.enabling_not_conserved",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Negative",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law5JusticeMercy.lean",
+        "receipts/Law5JusticeMercy.log"
+      ],
+      "scope_limit": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "CONSERVATION",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "fails",
+        "canon_status": "open",
+        "note": "Negative outcome concerns the named target assertion; a proof of its failure is not a failed proof."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "GRACE-001::receipt::Law5JusticeMercy.not_cross_fails_condition",
+      "statement": "Exact compiled declaration Law5JusticeMercy.not_cross_fails_condition",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Negative",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law5JusticeMercy.lean",
+        "receipts/Law5JusticeMercy.log"
+      ],
+      "scope_limit": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "ASYMMETRY",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "fails",
+        "canon_status": "open",
+        "note": "Negative outcome concerns the named target assertion; a proof of its failure is not a failed proof."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    }
+  ],
+  "ports": [
+    {
+      "id": "A",
+      "tags": {
+        "system_part": "operator",
+        "composition_level": 2,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "input": {
+        "state": "State, phase=-1"
+      },
+      "output": {
+        "state": "same person/record; phase=0; closed; not accepted; C-spiritual unchanged"
+      },
+      "agent": [
+        "Spirit"
+      ],
+      "boundary": "Only Spirit may invoke A on phase -1.",
+      "constraints": [
+        "BC1",
+        "BC2",
+        "BC5",
+        "No compelled +1 or acceptance"
+      ],
+      "evidence": [
+        "grace_model.py:awaken",
+        "Grace001Consent.lean:only_spirit_awakens,awakening_not_alignment"
+      ],
+      "claim_dependencies": [
+        "C-STATE",
+        "BC1",
+        "BC2",
+        "BC5"
+      ],
+      "warrant_boundary": "Native theological interpretation admitted; finite implementation/proof only establishes encoded contract behavior."
+    },
+    {
+      "id": "R",
+      "tags": {
+        "system_part": "operator",
+        "composition_level": 2,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "input": {
+        "state": "State, phase=0",
+        "choice": "explicit Boolean, supplied by person; both values admissible"
+      },
+      "output": {
+        "accept": "phase=+1, boundary open, accepted; no C-spiritual increase",
+        "refuse": "phase=-1, boundary closed; G unavailable"
+      },
+      "agent": [
+        "person"
+      ],
+      "boundary": "Phase=0 only; no agent substitution or automatic invocation by A.",
+      "constraints": [
+        "BC3",
+        "BC4",
+        "BC5",
+        "identical pre-state admits both alternatives",
+        "M-FREEDOM is admitted, item-2 provider unresolved"
+      ],
+      "evidence": [
+        "grace_model.py:respond",
+        "Grace001Consent.lean:both_responses_permitted,only_person_responds"
+      ],
+      "claim_dependencies": [
+        "C-STATE",
+        "BC3",
+        "BC4",
+        "BC5",
+        "M-FREEDOM"
+      ],
+      "warrant_boundary": "Native theological interpretation admitted; finite implementation/proof only establishes encoded contract behavior."
+    },
+    {
+      "id": "G",
+      "tags": {
+        "system_part": "operator",
+        "composition_level": 2,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "input": {
+        "state": "State, phase=+1, accepted, boundary open; R:accept provenance; debt=0"
+      },
+      "output": {
+        "state": "same identity/record/C-info/C-moral; C-spiritual -> (C-spiritual+1)/2; saturated at 1"
+      },
+      "agent": [
+        "Father through Son"
+      ],
+      "boundary": "Only after accepted R and discharged cost; refusal rejects invocation.",
+      "constraints": [
+        "BC4",
+        "BC5",
+        "M-K",
+        "M-GROWTH",
+        "No physical or moral improvement theorem",
+        "No universal idempotence claim"
+      ],
+      "evidence": [
+        "grace_model.py:restore",
+        "Grace001Consent.lean:refusal_blocks_restoration,response_then_restoration",
+        "validation_results.json"
+      ],
+      "claim_dependencies": [
+        "C-STATE",
+        "BC4",
+        "BC5",
+        "M-K",
+        "M-GROWTH",
+        "M-COORDINATES"
+      ],
+      "warrant_boundary": "Native theological interpretation admitted; finite implementation/proof only establishes encoded contract behavior."
+    },
+    {
+      "id": "K",
+      "tags": {
+        "system_part": "operator",
+        "composition_level": 2,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "input": {
+        "state": "State with nonnegative debt and judge_paid"
+      },
+      "output": {
+        "state": "debt=0; judge_paid increases by prior debt; record unchanged"
+      },
+      "agent": [
+        "Son"
+      ],
+      "boundary": "Authorized Son payer; may occur before or after R; payment does not open boundary.",
+      "constraints": [
+        "BC5",
+        "debt+judge_paid conserved",
+        "No assertion that other payers are logically impossible"
+      ],
+      "evidence": [
+        "grace_model.py:cost",
+        "../../LEAN/Law5JusticeMercy.lean:cross_conserves,cross_unique"
+      ],
+      "claim_dependencies": [
+        "C-STATE",
+        "BC5",
+        "M-K"
+      ],
+      "warrant_boundary": "Native theological interpretation admitted; finite implementation/proof only establishes encoded contract behavior."
+    },
+    {
+      "id": "P",
+      "tags": {
+        "system_part": "operator",
+        "composition_level": 2,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "input": {
+        "state": "State"
+      },
+      "output": {
+        "state": "unchanged coordinates with audit event"
+      },
+      "agent": [
+        "person"
+      ],
+      "boundary": "Internal-only operation; no restoration permission produced.",
+      "constraints": [
+        "BC5",
+        "Identity operation is the only instantiated P; no universal DPI-to-person inference"
+      ],
+      "evidence": [
+        "grace_model.py:process",
+        "../../LEAN/Wall.lean:invariant_preserved"
+      ],
+      "claim_dependencies": [
+        "C-STATE",
+        "BC5"
+      ],
+      "warrant_boundary": "Native theological interpretation admitted; finite implementation/proof only establishes encoded contract behavior."
+    },
+    {
+      "id": "D",
+      "tags": {
+        "system_part": "operator",
+        "composition_level": 2,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "input": {
+        "state": "State"
+      },
+      "output": {
+        "state": "C-moral and C-spiritual halved; phase/consent/identity/record unchanged"
+      },
+      "agent": [
+        "corruption"
+      ],
+      "boundary": "Damage operator; cannot invoke A, R, K or G.",
+      "constraints": [
+        "BC5",
+        "M-GROWTH",
+        "Zero is a fixed point; strict loss only above zero"
+      ],
+      "evidence": [
+        "grace_model.py:corrupt",
+        "validation_results.json"
+      ],
+      "claim_dependencies": [
+        "C-STATE",
+        "BC5",
+        "M-GROWTH"
+      ],
+      "warrant_boundary": "Native theological interpretation admitted; finite implementation/proof only establishes encoded contract behavior."
+    },
+    {
+      "id": "W",
+      "tags": {
+        "system_part": "observable",
+        "composition_level": 2,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "observation"
+        },
+        "register": "embodied"
+      },
+      "input": {
+        "Son": "assessed pass/fail/undetermined",
+        "Spirit": "assessed pass/fail/undetermined",
+        "Father": "assessed pass/fail/undetermined"
+      },
+      "output": {
+        "verdict": "fail if established contradiction; otherwise undetermined if any unresolved; else pass within tested scope"
+      },
+      "agent": [
+        "person as assessor"
+      ],
+      "boundary": "Assessment requires source-specific evidence; Son contradiction veto; silence is not contradiction.",
+      "constraints": [
+        "No claim to read phase or independently measure C-spiritual",
+        "No statistical independence assumed"
+      ],
+      "evidence": [
+        "sources/Grace_Node_v1.md:11",
+        "grace_model.py:witness_outcome",
+        "validation_results.json"
+      ],
+      "claim_dependencies": [],
+      "warrant_boundary": "Native theological interpretation admitted; finite implementation/proof only establishes encoded contract behavior.",
+      "cross_register_note": "Receives already assessed observations/interpretations; does not turn spiritual state into measured fruit. The inference of divine origin remains unverified."
+    }
+  ],
+  "Q13": {
+    "register": "spiritual",
+    "domains": [
+      "THEOLOGICAL",
+      "MORAL",
+      "RELATIONAL"
+    ]
+  },
+  "Q14": {
+    "transfer": "only source-record-scoped formal mapping; no physical identity",
+    "coherence_equality_assumed": false
+  },
+  "Q15": [
+    {
+      "id": "GRACE-001/Q15/0245",
+      "node": "GRACE-001",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "physical instantiation and full external connections",
+      "reason": "Native node walked per David; open bridges do not trigger the architectural kill condition. The old growth/reset map failed; actual free choice remains admitted.",
+      "evidence": []
+    }
+  ],
+  "Q16": {
+    "GRACE-001/Q15/0245": "OPEN"
+  },
+  "coherences": {
+    "C-info": {
+      "conversion_to_other_coherences": null
+    },
+    "C-moral": {
+      "conversion_to_other_coherences": null
+    },
+    "C-spiritual": {
+      "conversion_to_other_coherences": null
+    }
+  },
+  "reason": [
+    "New proposal only; proof warrant is distinct from canon status."
+  ],
+  "attached_receipts": [
+    {
+      "file": "sources\\october_lean\\ThreeAgents.lean",
+      "strength": "scoped per declaration",
+      "proof_does_not_promote_core": true
+    },
+    {
+      "file": "sources\\october_lean\\Law5JusticeMercy.lean",
+      "strength": "scoped per declaration",
+      "proof_does_not_promote_core": true
+    }
+  ],
+  "soundness": {
+    "bin": "CONDITIONAL",
+    "named_premises": [
+      "BC1-5 and authorized A/R/G/K transitions; genuine alternatives and authorship are admitted; cost/record/growth rules are the chosen native model."
+    ],
+    "receipt": [
+      "Grace001.both_responses_permitted",
+      "sources/native/GRACE_001/Grace001Consent.lean"
+    ],
+    "denial_cost": null,
+    "scope_note": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+    "why": "Named formal/native conditional only; actual application retains each hypothesis.",
+    "Z3_source_verdicts": [],
+    "ranking_snapshot": null,
+    "A0_IMAGO_verdict": null,
+    "conflicts": [],
+    "what_makes_checkable": null
+  },
+  "grade": {
+    "match_scope": "states only",
+    "warrant": "conditionally proved",
+    "outcome": "holds",
+    "canon_status": "open",
+    "note": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+    "match_scope_applicable": true,
+    "assessed_claim_id": "GRACE-001::main"
+  },
+  "canon_rubric": {
+    "node": "GRACE-001",
+    "bin": "CONDITIONAL",
+    "grade": {
+      "match_scope": "states only",
+      "warrant": "conditionally proved",
+      "outcome": "holds",
+      "canon_status": "open",
+      "note": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+      "match_scope_applicable": true,
+      "assessed_claim_id": "GRACE-001::main"
+    },
+    "criteria": {
+      "address": true,
+      "grade": true,
+      "receipt": true,
+      "ruling_authority": false,
+      "no_unresolved_conflict": false
+    },
+    "score": 3,
+    "meets_all_five": false,
+    "missing": [
+      "ruling_authority",
+      "no_unresolved_conflict"
+    ],
+    "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+    "receipt_scope": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+    "proposal_only": true
+  },
+  "follow_up_review": {
+    "proposal_only": true,
+    "soundness_row": {
+      "node": "GRACE-001",
+      "bin": "CONDITIONAL",
+      "scope": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+      "premises": [
+        "BC1-5 and authorized A/R/G/K transitions; genuine alternatives and authorship are admitted; cost/record/growth rules are the chosen native model."
+      ],
+      "receipt": [
+        "Grace001.both_responses_permitted",
+        "sources/native/GRACE_001/Grace001Consent.lean"
+      ],
+      "denial_cost": null,
+      "what_makes_checkable": null,
+      "canon_status": "open",
+      "conflicts": [],
+      "assessment_target": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+      "main_statement": "Native GRACE-001 model with its independently labeled premises and scoped results.",
+      "proposal_only": true,
+      "lead_summary": {},
+      "remaining_lead_ids": [],
+      "strength": "Conditional",
+      "grade": {
+        "match_scope": "states only",
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+        "match_scope_applicable": true,
+        "assessed_claim_id": "GRACE-001::main"
+      },
+      "scope_warning": "Bin assesses the named target only; neither bundled claims nor domain identification inherit its proof. A written explanation is recorded as support at its source status."
+    },
+    "canon_rubric": {
+      "node": "GRACE-001",
+      "bin": "CONDITIONAL",
+      "grade": {
+        "match_scope": "states only",
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+        "match_scope_applicable": true,
+        "assessed_claim_id": "GRACE-001::main"
+      },
+      "criteria": {
+        "address": true,
+        "grade": true,
+        "receipt": true,
+        "ruling_authority": false,
+        "no_unresolved_conflict": false
+      },
+      "score": 3,
+      "meets_all_five": false,
+      "missing": [
+        "ruling_authority",
+        "no_unresolved_conflict"
+      ],
+      "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+      "receipt_scope": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+      "proposal_only": true
+    },
+    "leads": [],
+    "current_ruling": null,
+    "ruling_scope": "Existing disposition only; no new canon admission.",
+    "receipt_attachments": [
+      {
+        "original": "C:\\theophysics\\OPUS\\AXIOMS\\LEAN\\BeatitudesOrder.lean",
+        "copy": "receipts\\BeatitudesOrder.lean",
+        "sha256": "3304a6014b007d507c01f14752e1f4a94a1044204e099a980c778e13601a5ac6",
+        "toolchain": "C:\\Users\\David\\.elan\\toolchains\\leanprover--lean4---v4.31.0\\bin\\lean.exe",
+        "returncode": 0,
+        "passed": true,
+        "custom_axiom_declarations": false,
+        "theorems": [
+          "BeatitudesOrder.contradiction_from_self_lt",
+          "BeatitudesOrder.no_mono_extends_violation",
+          "BeatitudesOrder.h3_reformed_8_not_mono_mourn_meek",
+          "BeatitudesOrder.h3_reformed_8_not_mono_pure_peacemakers",
+          "BeatitudesOrder.h3_reformed_8_no_mono_extension",
+          "BeatitudesOrder.h3_reformed_9_not_mono",
+          "BeatitudesOrder.h3_arminian_8_not_mono_mourn_meek",
+          "BeatitudesOrder.h3_arminian_8_no_mono_extension",
+          "BeatitudesOrder.h3_arminian_9_not_mono",
+          "BeatitudesOrder.h4_rocket_8_not_mono_mourn_pure",
+          "BeatitudesOrder.h4_rocket_8_not_mono_mourn_persecuted",
+          "BeatitudesOrder.h4_rocket_8_no_mono_extension",
+          "BeatitudesOrder.h4_rocket_9_not_mono",
+          "BeatitudesOrder.h3_shuffled_8_not_mono",
+          "BeatitudesOrder.equal_length_admits_some_mono",
+          "BeatitudesOrder.no_mono_exists_reformed_8",
+          "BeatitudesOrder.no_mono_exists_arminian_8",
+          "BeatitudesOrder.no_mono_exists_rocket_8"
+        ],
+        "log": "receipts\\BeatitudesOrder.log",
+        "semantic_scope": "Negative monotonicity results apply to explicit chosen assignments, not all Reformed/Arminian theology; Calvin-Arminius stays located, not settled.",
+        "candidate_nodes": [
+          "GRACE-001"
+        ],
+        "attachment_status": "Topic attachment only; use exact theorem signatures, never the filename number as node identity."
+      },
+      {
+        "original": "C:\\theophysics\\OPUS\\AXIOMS\\LEAN\\GravityAndGrace.lean",
+        "copy": "receipts\\GravityAndGrace.lean",
+        "sha256": "dc7cd88947a0c944914cadec8a9e9b54f8f6d4228b4d793615713f99edeb6784",
+        "toolchain": "C:\\Users\\David\\.elan\\toolchains\\leanprover--lean4---v4.31.0\\bin\\lean.exe",
+        "returncode": 0,
+        "passed": true,
+        "custom_axiom_declarations": false,
+        "theorems": [
+          "GravityAndGrace.Iso.pres_regime",
+          "GravityAndGrace.gravity_isomorphic_to_grace",
+          "GravityAndGrace.no_self_capture",
+          "GravityAndGrace.hyperbolic_stays_hyperbolic",
+          "GravityAndGrace.adversary_changes_energy_sign",
+          "GravityAndGrace.capture_requires_third_body"
+        ],
+        "log": "receipts\\GravityAndGrace.log",
+        "semantic_scope": "Integer energy/regime abstraction. Outside preserving family is not necessarily a literal third body.",
+        "candidate_nodes": [
+          "GRACE-001"
+        ],
+        "attachment_status": "Topic attachment only; use exact theorem signatures, never the filename number as node identity."
+      },
+      {
+        "original": "C:\\theophysics\\OPUS\\AXIOMS\\LEAN\\Law1GeodesicAndRocket.lean",
+        "copy": "receipts\\Law1GeodesicAndRocket.lean",
+        "sha256": "424bfa8a1287232af4aa3e784917d60e773e321c166b011d8c77ec4d5adf2d48",
+        "toolchain": "C:\\Users\\David\\.elan\\toolchains\\leanprover--lean4---v4.31.0\\bin\\lean.exe",
+        "returncode": 0,
+        "passed": true,
+        "custom_axiom_declarations": false,
+        "theorems": [
+          "Law1GeodesicAndRocket.Iso.pres_regime",
+          "Law1GeodesicAndRocket.all_three_isomorphic",
+          "Law1GeodesicAndRocket.fake_not_iso_grace",
+          "Law1GeodesicAndRocket.fake_not_iso_rocket"
+        ],
+        "log": "receipts\\Law1GeodesicAndRocket.log",
+        "semantic_scope": "Three-regime dictionaries; no relativistic/geodesic or rocket differential dynamics formalized.",
+        "candidate_nodes": [
+          "GRACE-001"
+        ],
+        "attachment_status": "Topic attachment only; use exact theorem signatures, never the filename number as node identity."
+      },
+      {
+        "original": "C:\\theophysics\\OPUS\\AXIOMS\\LEAN\\Law5JusticeMercy.lean",
+        "copy": "receipts\\Law5JusticeMercy.lean",
+        "sha256": "b083fa0a9c69f657122f60e53210f6ab79e5611ec335d3b04321c10727833831",
+        "toolchain": "C:\\Users\\David\\.elan\\toolchains\\leanprover--lean4---v4.31.0\\bin\\lean.exe",
+        "returncode": 0,
+        "passed": true,
+        "custom_axiom_declarations": false,
+        "theorems": [
+          "Law5JusticeMercy.justice_conserves",
+          "Law5JusticeMercy.mercy_conserves",
+          "Law5JusticeMercy.cross_conserves",
+          "Law5JusticeMercy.justice_unique",
+          "Law5JusticeMercy.mercy_unique",
+          "Law5JusticeMercy.cross_unique",
+          "Law5JusticeMercy.cross_maximizes_both",
+          "Law5JusticeMercy.vengeance_not_conserved",
+          "Law5JusticeMercy.enabling_not_conserved",
+          "Law5JusticeMercy.not_cross_fails_condition"
+        ],
+        "log": "receipts\\Law5JusticeMercy.log",
+        "semantic_scope": "cross_unique includes judge payment as a hypothesis; justice and mercy alone do not force that payer.",
+        "candidate_nodes": [
+          "JUSTIFICATION-001",
+          "GRACE-001"
+        ],
+        "attachment_status": "Topic attachment only; use exact theorem signatures, never the filename number as node identity."
+      },
+      {
+        "original": "C:\\theophysics\\OPUS\\AXIOMS\\LEAN\\LawToLaw.lean",
+        "copy": "receipts\\LawToLaw.lean",
+        "sha256": "a9cca70077464df7e39e6ec6acdea053fad29528f49d118ecc607cc37daf699a",
+        "toolchain": "C:\\Users\\David\\.elan\\toolchains\\leanprover--lean4---v4.31.0\\bin\\lean.exe",
+        "returncode": 0,
+        "passed": true,
+        "custom_axiom_declarations": false,
+        "theorems": [
+          "LawToLaw.four_laws_share_one_shape",
+          "LawToLaw.person_pattern_not_law_pattern"
+        ],
+        "log": "receipts\\LawToLaw.log",
+        "semantic_scope": "Finite model states and declared step preserved. No physical dynamics derived.",
+        "candidate_nodes": [
+          "GRACE-001"
+        ],
+        "attachment_status": "Topic attachment only; use exact theorem signatures, never the filename number as node identity."
+      },
+      {
+        "original": "C:\\theophysics\\OPUS\\AXIOMS\\LEAN\\ThreeAgents.lean",
+        "copy": "receipts\\ThreeAgents.lean",
+        "sha256": "0f201e587af2752cb02b880d6530b24fa7bc5983de7526bd12026a07e252c1b6",
+        "toolchain": "C:\\Users\\David\\.elan\\toolchains\\leanprover--lean4---v4.31.0\\bin\\lean.exe",
+        "returncode": 0,
+        "passed": true,
+        "custom_axiom_declarations": false,
+        "theorems": [
+          "ThreeAgents.sign_preserved_by_seq",
+          "ThreeAgents.works_and_adversary_cannot_restore",
+          "ThreeAgents.grace_flips_with_consent",
+          "ThreeAgents.no_consent_no_restoration",
+          "ThreeAgents.adversary_can_block_by_closing_consent"
+        ],
+        "log": "receipts\\ThreeAgents.log",
+        "semantic_scope": "Chosen agent rules and consent gate; no proof of metaphysical alternatives.",
+        "candidate_nodes": [
+          "GRACE-001",
+          "FREE-CHOICE-001"
+        ],
+        "attachment_status": "Topic attachment only; use exact theorem signatures, never the filename number as node identity."
+      }
+    ],
+    "Q15_follow_up": []
+  }
+}

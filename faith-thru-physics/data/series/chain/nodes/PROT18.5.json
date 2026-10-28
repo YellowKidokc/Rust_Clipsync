@@ -1,0 +1,50 @@
+{
+ "id": "PROT18.5",
+ "title": "Phi-Virtue Correlation Study",
+ "lifecycle": "protocol",
+ "tier": 16,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "HY_EVIDENCE",
+ "declared": [
+  "T11.1"
+ ],
+ "proposed": [
+  "T11.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "PROT18.5/Q15/0182",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "P-IMAGO yields only a general analogy between creaturely consciousness/goodness and God. The derivation fails when moving from that general analogy to any specific empirical claim that measured integrated information (Phi) correlates with virtue indicators."
+  }
+ ],
+ "ports": [],
+ "main": "PROT18.5",
+ "claims": [
+  "PROT18.5",
+  "PROT18.5::split-01",
+  "PROT18.5::split-02",
+  "PROT18.5::split-03",
+  "PROT18.5::split-04",
+  "PROT18.5::split-05",
+  "PROT18.5::split-06",
+  "PROT18.5::split-07",
+  "PROT18.5::split-08",
+  "PROT18.5::split-09",
+  "PROT18.5::split-10"
+ ],
+ "source": "source/nodes/PROT18.5.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

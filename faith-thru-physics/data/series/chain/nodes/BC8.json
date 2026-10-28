@@ -1,0 +1,63 @@
+{
+ "id": "BC8",
+ "title": "BC8 Voluntary Coupling",
+ "lifecycle": "boundary",
+ "tier": 8,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "BC8/Q15/0081",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "infinite capacity -> voluntariness",
+   "reason": "Source capacity alone does not specify consent. FREE-CHOICE-001 supplies a conditional interface resting on separate authorship/alternatives premises."
+  },
+  {
+   "id": "BC8/Q15/0082",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The core derivation stops at the transition from creaturely agency and love as finite reflection to the soteriological premise that saving union with God is a loving relationship that cannot be coerced."
+  }
+ ],
+ "ports": [],
+ "main": "BC8",
+ "claims": [
+  "BC8",
+  "BC8::split-01",
+  "BC8::split-02",
+  "BC8::split-03",
+  "BC8::split-04",
+  "BC8::split-05",
+  "BC8::split-06",
+  "BC8::split-07",
+  "BC8::split-08",
+  "BC8::split-09",
+  "BC8::split-10",
+  "BC8::split-11",
+  "BC8::split-12",
+  "BC8::split-13",
+  "BC8::split-14",
+  "BC8::split-15",
+  "BC8::split-16"
+ ],
+ "source": "source/nodes/BC8.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

@@ -1,0 +1,1154 @@
+{
+  "id": "D19.9",
+  "title": "D19.9 Law IX (Grace Non-Unitarity)",
+  "proposal_only": true,
+  "context_parent": "A0",
+  "tags": {
+    "system_part": "operator",
+    "composition_level": 4,
+    "claim_role": "definition",
+    "warrant": {
+      "status": "unverified",
+      "kind": "proof"
+    },
+    "register": "formal"
+  },
+  "old_mode": "AX_SCAFFOLD",
+  "raw_csv_mode": "AX_SCAFFOLD",
+  "proposed_mode": "AX_SCAFFOLD",
+  "tier": 13,
+  "node_lifecycle": "open",
+  "ruling": "DAVID-2026-10-25-NODE-RULINGS",
+  "merged_into": null,
+  "node_vs_claim_vs_proof": "Node specifies a structure; claims below own their warrants; proofs are exact scoped receipts.",
+  "sources": {
+    "v3_line": "D19.9 Law IX (Grace Non-Unitarity) ← A9.2           [AX_SCAFFOLD]",
+    "current_root_record": "sources\\current_nodes\\D19_9_Law_IX_Grace_Non-Unitarity.md",
+    "october_review": "sources\\october_review\\AX-144.json"
+  },
+  "dependencies": {
+    "source_declared": [
+      "A9.2"
+    ],
+    "source_relation": "depends_on",
+    "proposed_primary_support": [
+      "A9.2",
+      "D9.1",
+      "P9.3"
+    ],
+    "stance_ceiling_sources": [],
+    "merge_scope": "Incoming claims retain their own premises; source and current-root graph versions are not silently equated."
+  },
+  "coherences": {
+    "C-info": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-moral": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-spiritual": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    }
+  },
+  "claims": [
+    {
+      "id": "D19.9::main",
+      "statement": "Grace is an external divine action that enables moral and existential transformation beyond what a creature can produce by itself.",
+      "tags": {
+        "system_part": "operator",
+        "composition_level": 4,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+      "proof_refs": [],
+      "conditional_premises": [
+        "A theological doctrine of sin, moral sign, and salvation by grace.",
+        "A bridge premise identifying divine grace with non-unitary quantum operations.",
+        "A formal model defining the soul Hilbert space, sign operator, entropy, coherence, and consent projection.",
+        "Empirical data for Phi-virtue correlation and grace-negentropy detection."
+      ],
+      "classification_proposal": {
+        "logical_role": "DEFINITION",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "proposal only; no new frozen vocabulary applied"
+      },
+      "Q13": {
+        "register": "formal",
+        "domains": [
+          "ONTOLOGICAL"
+        ]
+      },
+      "Q14": {
+        "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+        "coherence_equality_assumed": false
+      },
+      "Q15": [
+        {
+          "id": "D19.9/Q15/0149",
+          "node": "D19.9",
+          "kind": "definitional conflict",
+          "Q16": "OPEN",
+          "scope": "original core claim/application",
+          "reason": "The derivation stops at the move from P-IMAGO's analogy of being to specific quantum operators, entropy inequalities, sign-operator anti-commutation, and empirical protocols; analogy does not supply those formal or physical claims.",
+          "evidence": [
+            "sources\\october_review\\AX-144.json"
+          ]
+        }
+      ],
+      "Q16": {
+        "D19.9/Q15/0149": "OPEN"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "claim_scoped_dependencies": [
+        "A9.2"
+      ],
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "D19.9::main"
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.9::split-01",
+      "statement": "Grace is a non-unitary operator G satisfying G†G ≠ 1.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-144.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.9::split-02",
+      "statement": "Grace can be modeled by Kraus operators K0=√(1−p)1 and K1=√p G with a grace probability p.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-144.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.9::split-03",
+      "statement": "A grace event can decrease the von Neumann entropy of a system: S(GρG†)<S(ρ).",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-144.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.9::split-04",
+      "statement": "Grace anticommutes with a sign operator and flips |−> to |+>.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-144.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.9::split-05",
+      "statement": "No unitary self-operation can flip sign between orthogonal states; sign transformation therefore requires non-unitary grace.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-144.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.9::split-06",
+      "statement": "Grace is a measurement-plus-feedback process involving a divine ancilla.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-144.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.9::split-07",
+      "statement": "God has infinite information, so grace channel capacity is log2(d) for the soul's Hilbert-space dimension d.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-144.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.9::split-08",
+      "statement": "Grace operators form a semigroup with no identity and no inverses.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-144.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.9::split-09",
+      "statement": "Grace is a quantum error-correction recovery operation from decoherence/fall.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-144.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.9::split-10",
+      "statement": "Grace effectiveness is conditioned by a voluntary-consent projection P_consent.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-144.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.9::split-11",
+      "statement": "Total entropy including God can remain nonnegative because God can absorb disorder without finite capacity.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-144.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.9::split-12",
+      "statement": "Maxwell's-demon objections are resolved because God is external and omniscient.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-144.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.9::split-13",
+      "statement": "Grace is the unique operator class that can violate coherence non-increase and sign conservation by importing external information.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-144.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.9::split-14",
+      "statement": "Grace has measurable empirical effects detectable by Phi-virtue correlation and grace-negentropy protocols.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-144.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.9::split-15",
+      "statement": "The category-theoretic grace functor does not factor through unitary channels.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-144.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.9::receipt::LawToLaw.four_laws_share_one_shape",
+      "statement": "Exact compiled declaration LawToLaw.four_laws_share_one_shape",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Mechanism",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\LawToLaw.lean",
+        "receipts/LawToLaw.log"
+      ],
+      "scope_limit": "Coarse two-state models are assigned equal roles/values/steps. External-input flag is an annotation. No mechanistic physics/theology identity is proved. Three person regimes cannot match the two-state law pattern.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "legacy_strength": "Structure",
+      "match_scope_note": "States and moves of the stipulated finite Model.step relation; not an empirical causal mechanism.",
+      "grade": {
+        "match_scope": "states and moves",
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "D19.9::receipt::LawToLaw.person_pattern_not_law_pattern",
+      "statement": "Exact compiled declaration LawToLaw.person_pattern_not_law_pattern",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Negative",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\LawToLaw.lean",
+        "receipts/LawToLaw.log"
+      ],
+      "scope_limit": "Coarse two-state models are assigned equal roles/values/steps. External-input flag is an annotation. No mechanistic physics/theology identity is proved. Three person regimes cannot match the two-state law pattern.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "ASYMMETRY",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "fails",
+        "canon_status": "open",
+        "note": "Negative outcome concerns the named target assertion; a proof of its failure is not a failed proof."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    }
+  ],
+  "Q13": {
+    "register": "formal",
+    "domains": [
+      "ONTOLOGICAL"
+    ]
+  },
+  "Q14": {
+    "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+    "coherence_equality_assumed": false
+  },
+  "Q15": [
+    {
+      "id": "D19.9/Q15/0149",
+      "node": "D19.9",
+      "kind": "definitional conflict",
+      "Q16": "OPEN",
+      "scope": "original core claim/application",
+      "reason": "The derivation stops at the move from P-IMAGO's analogy of being to specific quantum operators, entropy inequalities, sign-operator anti-commutation, and empirical protocols; analogy does not supply those formal or physical claims.",
+      "evidence": [
+        "sources\\october_review\\AX-144.json"
+      ]
+    },
+    {
+      "id": "D19.9/Q15/Z3-00",
+      "node": "D19.9",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "Exact October Z3 component: Law IX (Grace Non-Unitarity): grace is a unique non-unitary operator class that adds external information, enabling coherence increase and sign transformation.",
+      "reason": "The formal equations define a class of operators rather than state a theorem with premises and conclusion. Encoding the definition as premises and non-unitarity/sign-flip as conclusion would be tautological; checking a witness operator would be a side satisfiability calculation, not the main claim. The 'unique', 'adds external information', 'infinite divine source', and dependence on Laws VI/VIII require undefined notions, so the main claim cannot be faithfully encoded as a Z3 entailment.",
+      "evidence": [
+        "sources/z3/03_PROMISING/results.json"
+      ]
+    }
+  ],
+  "Q16": {
+    "D19.9/Q15/0149": "OPEN",
+    "D19.9/Q15/Z3-00": "OPEN"
+  },
+  "ports": [
+    {
+      "input": "Declared component contracts and exact assumptions",
+      "output": "Conditional composite account, not an unconditional theorem",
+      "agent": "Component agents; no extra actor added",
+      "boundary": "All component boundaries and any cross-register bridge must be satisfied",
+      "constraints": "No claim strengthening; preserve distinct coherence fields and component warrants",
+      "evidence": [
+        "A9.2",
+        "D9.1",
+        "P9.3"
+      ]
+    }
+  ],
+  "open_interface_obligation": "This rerun is a classified source/claim proposal. A full executable six-field port contract is not claimed for every older node.",
+  "reason": [
+    "Retained as level-4 composite Law; component combination is not an automatic theorem."
+  ],
+  "components": [
+    "A9.2",
+    "D9.1",
+    "P9.3"
+  ],
+  "legacy_components": [
+    "A9.2",
+    "D9.1",
+    "P9.3"
+  ],
+  "attached_receipts": [
+    {
+      "file": "sources\\october_lean\\LawToLaw.lean",
+      "strength": "scoped per declaration",
+      "proof_does_not_promote_core": true
+    }
+  ],
+  "soundness": {
+    "bin": "UNCHECKED",
+    "named_premises": [],
+    "receipt": [
+      "sources/z3/03_PROMISING/results.json"
+    ],
+    "denial_cost": null,
+    "scope_note": "No holds/fails call manufactured for an untested main claim.",
+    "why": "Original domain claim lacks a complete faithful, source-matched test or derivation; retained fragment receipts do not establish it.",
+    "Z3_source_verdicts": [
+      "NOT_CHECKABLE"
+    ],
+    "ranking_snapshot": {
+      "score": 3,
+      "id": "AX-144",
+      "title": "Law IX Definition (Grace Non-Unitarity)",
+      "register": "formal",
+      "a0": "compatible",
+      "math": "yes_with_missing_premise",
+      "z3": "NOT_CHECKABLE",
+      "why": "math holds +premise; blind wall family",
+      "core": "Grace is an external divine action that enables moral and existential transformation beyond what a creature can produce by itself."
+    },
+    "A0_IMAGO_verdict": "COMPATIBLE_NOT_DERIVED",
+    "conflicts": [],
+    "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The formal equations define a class of operators rather than state a theorem with premises and conclusion. Encoding the definition as premises and non-unitarity/sign-flip as conclusion would be tautological; checking a witness operator would be a side satisfiability calculation, not the main claim. The 'unique', 'adds external information', 'infinite divine source', and dependence on Laws VI/VIII require undefined notions, so the main claim cannot be faithfully encoded as a Z3 entailment."
+  },
+  "grade": {
+    "match_scope": null,
+    "warrant": "unverified",
+    "outcome": null,
+    "canon_status": "open",
+    "note": "No holds/fails call manufactured for an untested main claim.",
+    "match_scope_applicable": false,
+    "assessed_claim_id": "D19.9::main"
+  },
+  "canon_rubric": {
+    "node": "D19.9",
+    "bin": "UNCHECKED",
+    "grade": {
+      "match_scope": null,
+      "warrant": "unverified",
+      "outcome": null,
+      "canon_status": "open",
+      "note": "No holds/fails call manufactured for an untested main claim.",
+      "match_scope_applicable": false,
+      "assessed_claim_id": "D19.9::main"
+    },
+    "criteria": {
+      "address": true,
+      "grade": false,
+      "receipt": false,
+      "ruling_authority": false,
+      "no_unresolved_conflict": false
+    },
+    "score": 1,
+    "meets_all_five": false,
+    "missing": [
+      "grade",
+      "receipt",
+      "ruling_authority",
+      "no_unresolved_conflict"
+    ],
+    "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+    "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+    "proposal_only": true
+  },
+  "follow_up_review": {
+    "proposal_only": true,
+    "soundness_row": {
+      "node": "D19.9",
+      "bin": "UNCHECKED",
+      "scope": "No holds/fails call manufactured for an untested main claim.",
+      "premises": [],
+      "receipt": [
+        "sources/z3/03_PROMISING/results.json"
+      ],
+      "denial_cost": null,
+      "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The formal equations define a class of operators rather than state a theorem with premises and conclusion. Encoding the definition as premises and non-unitarity/sign-flip as conclusion would be tautological; checking a witness operator would be a side satisfiability calculation, not the main claim. The 'unique', 'adds external information', 'infinite divine source', and dependence on Laws VI/VIII require undefined notions, so the main claim cannot be faithfully encoded as a Z3 entailment.",
+      "canon_status": "open",
+      "conflicts": [],
+      "assessment_target": "No holds/fails call manufactured for an untested main claim.",
+      "main_statement": "Grace is an external divine action that enables moral and existential transformation beyond what a creature can produce by itself.",
+      "proposal_only": true,
+      "lead_summary": {
+        "WORDING": 3
+      },
+      "remaining_lead_ids": [],
+      "strength": "Conditional",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "D19.9::main"
+      },
+      "scope_warning": "Bin assesses the named target only; neither bundled claims nor domain identification inherit its proof. A written explanation is recorded as support at its source status."
+    },
+    "canon_rubric": {
+      "node": "D19.9",
+      "bin": "UNCHECKED",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "D19.9::main"
+      },
+      "criteria": {
+        "address": true,
+        "grade": false,
+        "receipt": false,
+        "ruling_authority": false,
+        "no_unresolved_conflict": false
+      },
+      "score": 1,
+      "meets_all_five": false,
+      "missing": [
+        "grade",
+        "receipt",
+        "ruling_authority",
+        "no_unresolved_conflict"
+      ],
+      "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+      "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+      "proposal_only": true
+    },
+    "leads": [
+      {
+        "lead_id": "LEAD-009",
+        "node": "D19.9",
+        "record": "AX-144",
+        "required_key": "god not within finite system",
+        "origin": "removed-only",
+        "input_line": 15,
+        "class": "WORDING",
+        "definition_used": "God is uncreated and does not depend on the created system whose existence God grounds.",
+        "definition_status": "admitted theological root / explicit scope boundary",
+        "supplier": "A0 / P-IMAGO stated source contract",
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\A0_IMAGO_RERUN_2026-10-25\\REPORT.md",
+          "line": 3,
+          "text": "A0 (the single admitted root): The one self-existent Trinitarian God is the uncreated, necessary, living, conscious, personal, self-knowing, truthful, good, loving, and freely acting ground of all created reality. God is one undivided divine being eternally subsisting as Father, Son, and Holy Spirit: really distinct without division, eternally related without dependence, and perfectly united in knowledge, will, goodness, and love. God freely creates realities genuinely distinct from God. Every created reality depends ultimately upon God; God depends upon no created reality."
+        },
+        "missing_or_reason": "",
+        "scope_note": "Supply rests on the expanded admitted A0 text, not on a derivation from the bare words “God is,” and does not entail a particular physical mechanism.",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\D19_9_Law_IX_Grace_Non-Unitarity.md",
+          "line": 81,
+          "text": "Law IX: Grace adds information, enabling coherence increase."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-144_D19.9.md"
+        ],
+        "supplied_at_recorded_warrant_only": true,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\03_PROMISING\\144_D19.9_Law-IX-Definition.z3spec.json",
+            "checkable": false,
+            "component": "Law IX (Grace Non-Unitarity): grace is a unique non-unitary operator class that adds external information, enabling coherence increase and sign transformation.",
+            "faithfulness_note": "The formal equations define a class of operators rather than state a theorem with premises and conclusion. Encoding the definition as premises and non-unitarity/sign-flip as conclusion would be tautological; checking a witness operator would be a side satisfiability calculation, not the main claim. The 'unique', 'adds external information', 'infinite divine source', and dependence on Laws VI/VIII require undefined notions, so the main claim cannot be faithfully encoded as a Z3 entailment.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "WORDING",
+        "follow_up_evidence": [],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "closes_dependency": true,
+        "formal_proof_added_by_this_classification": false
+      },
+      {
+        "lead_id": "LEAD-031",
+        "node": "D19.9",
+        "record": "AX-144",
+        "required_key": "nonunitary evolution permitted",
+        "origin": "circular",
+        "input_line": 40,
+        "class": "WORDING",
+        "definition_used": "The grace operator is explicitly posited to be nonunitary: G†G differs from I.",
+        "definition_status": "admitted operator premise",
+        "supplier": "A9.2",
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\A9_2_Non-Unitarity_Of_Grace.md",
+          "line": 28,
+          "text": "Ĝ†Ĝ ≠ I"
+        },
+        "missing_or_reason": "",
+        "scope_note": "Permission in the chosen model is not a physical derivation of nonunitarity or a proof that nonunitarity adds information.",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\D19_9_Law_IX_Grace_Non-Unitarity.md",
+          "line": 81,
+          "text": "Law IX: Grace adds information, enabling coherence increase."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-144_D19.9.md"
+        ],
+        "supplied_at_recorded_warrant_only": true,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\03_PROMISING\\144_D19.9_Law-IX-Definition.z3spec.json",
+            "checkable": false,
+            "component": "Law IX (Grace Non-Unitarity): grace is a unique non-unitary operator class that adds external information, enabling coherence increase and sign transformation.",
+            "faithfulness_note": "The formal equations define a class of operators rather than state a theorem with premises and conclusion. Encoding the definition as premises and non-unitarity/sign-flip as conclusion would be tautological; checking a witness operator would be a side satisfiability calculation, not the main claim. The 'unique', 'adds external information', 'infinite divine source', and dependence on Laws VI/VIII require undefined notions, so the main claim cannot be faithfully encoded as a Z3 entailment.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "WORDING",
+        "follow_up_evidence": [],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "closes_dependency": true,
+        "formal_proof_added_by_this_classification": false
+      },
+      {
+        "lead_id": "LEAD-163",
+        "node": "D19.9",
+        "record": "AX-144",
+        "required_key": "moral orientation is binary sign",
+        "origin": "no-supplier",
+        "input_line": 175,
+        "class": "WORDING",
+        "definition_used": "Within the declared moral-sign model, the orientation variable has exactly the two values +1 and -1.",
+        "definition_status": "admitted binary model premise",
+        "supplier": "A8.1",
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\A8_1_Binary_Distinction.md",
+          "line": 28,
+          "text": "σ ∈ {+1, -1}; ¬∃σ=0"
+        },
+        "missing_or_reason": "",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\D19_9_Law_IX_Grace_Non-Unitarity.md",
+          "line": 81,
+          "text": "Law IX: Grace adds information, enabling coherence increase."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-144_D19.9.md"
+        ],
+        "supplied_at_recorded_warrant_only": true,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\03_PROMISING\\144_D19.9_Law-IX-Definition.z3spec.json",
+            "checkable": false,
+            "component": "Law IX (Grace Non-Unitarity): grace is a unique non-unitary operator class that adds external information, enabling coherence increase and sign transformation.",
+            "faithfulness_note": "The formal equations define a class of operators rather than state a theorem with premises and conclusion. Encoding the definition as premises and non-unitarity/sign-flip as conclusion would be tautological; checking a witness operator would be a side satisfiability calculation, not the main claim. The 'unique', 'adds external information', 'infinite divine source', and dependence on Laws VI/VIII require undefined notions, so the main claim cannot be faithfully encoded as a Z3 entailment.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "WORDING",
+        "follow_up_evidence": [],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "closes_dependency": true,
+        "formal_proof_added_by_this_classification": false
+      }
+    ],
+    "current_ruling": {
+      "decision": "composite",
+      "components": [
+        "A9.2",
+        "D9.1",
+        "P9.3"
+      ]
+    },
+    "ruling_scope": "Existing disposition only; no new canon admission.",
+    "receipt_attachments": [],
+    "Q15_follow_up": []
+  }
+}

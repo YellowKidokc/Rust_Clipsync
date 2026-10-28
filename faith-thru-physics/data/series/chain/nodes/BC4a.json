@@ -1,0 +1,61 @@
+{
+ "id": "BC4a",
+ "title": "BC4a Three Roles Required",
+ "lifecycle": "boundary",
+ "tier": 8,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "ADMITTED",
+  "named_premises": [
+   "Complete self-referential knowledge requires exactly three irreducible functional roles (knower, known, knowing)."
+  ],
+  "denial_cost": "Exactly three irreducible functional roles is no longer available as a premise; triadic closure/identification applications require another argument, not rejection of self-reference itself.",
+  "checkable_by": null,
+  "receipt": [
+   "sources/august/AXIOM_CHAIN_MASTER_v3.md"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "BC4a/Q15/0073",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the move from a three-term mathematical expression or triadic analogy to a necessary physical count of three observers/operators; A0+P-IMAGO do not license that step."
+  },
+  {
+   "id": "BC4a/Q15/0074",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "v3 versus current-root source identity",
+   "reason": "v3 repairs/splits this concept, while current source file BC4_Three_Observers_Required.md retains another title/claim version. Both source spans are preserved; do not equate them by identifier alone."
+  },
+  {
+   "id": "BC4a/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: BC4's main claim that minimal self-referential observation closure requires exactly three distinct observer-states",
+   "reason": "Not Z3-checkable as stated: key terms such as 'observer-state', 'self-referential observation closure', 'minimal closure model', 'adjudication', and 'reduces to N=3 basis' are not given a precise mathematical definition. The file explicitly says a proof sketch is required and defers the full proof, so encoding would require inventing an unstated graph/closure predicate, which would trivialize or beg the claim. I did not substitute easier side claims about the Born Rule or Gleason dimension constraints."
+  }
+ ],
+ "ports": [],
+ "main": "BC4a",
+ "claims": [
+  "BC4a",
+  "BC4a::split-01",
+  "BC4a::split-02",
+  "BC4a::split-03",
+  "BC4a::split-04",
+  "BC4a::split-05",
+  "BC4a::split-06",
+  "BC4a::split-07"
+ ],
+ "source": "source/nodes/BC4a.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

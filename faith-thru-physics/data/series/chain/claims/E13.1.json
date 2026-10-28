@@ -1,0 +1,55 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "E13.1",
+ "claim_id": "E13.1",
+ "type": "CLAIM",
+ "text": "An extended Einstein field equation adds a κ-scaled stress-energy tensor for a scalar chi/Logos field to the ordinary matter stress-energy term.",
+ "source": {
+  "file": "source/nodes/E13.1.yaml",
+  "quote": "An extended Einstein field equation adds a κ-scaled stress-energy tensor for a scalar chi/Logos field to the ordinary matter stress-energy term.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "constitutive_law",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "physical"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "D13.1 Unified Field Lagrangian with a scalar chi-field non-minimally coupled to curvature; Identification of the chi-field with a physical Logos/information/consciousness field; A specified value or constraint for κ ≈ 10⁻⁶⁹ J⁻¹m⁻²; Empirical data and a full cosmological/perturbation model for the GW-speed, fifth-force, and dark-energy predictions",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/E13.1.yaml#E13.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "E13.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "D13.1 Unified Field Lagrangian with a scalar chi-field non-minimally coupled to curvature",
+  "Identification of the chi-field with a physical Logos/information/consciousness field",
+  "A specified value or constraint for κ ≈ 10⁻⁶⁹ J⁻¹m⁻²",
+  "Empirical data and a full cosmological/perturbation model for the GW-speed, fifth-force, and dark-energy predictions"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "E13.1/Q15/0131",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at any move from A0/P-IMAGO to a concrete physical scalar field χ, its stress-energy tensor, the coupling κ, or empirical predictions; P-IMAGO grounds only analogical creaturely reflection, not physical equations."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file's main claim is a proposed tensor field equation/definition derived informally from a variational principle over a Lagrangian on a differentiable manifold. Faithfully encoding it would require formalizing Lorentzian geometry, tensor fields, covariant derivatives, the variational derivation, and the component definitions. Encoding only real-valued tensor components at an abstract point would turn the claimed field equation into an arbitrary scalar equality with no nontrivial premises, i.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

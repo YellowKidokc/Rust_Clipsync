@@ -1,0 +1,55 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D5.2",
+ "claim_id": "D5.2",
+ "type": "CLAIM",
+ "text": "Integrated Information Phi is defined as a measure of an observer's capacity.",
+ "source": {
+  "file": "source/nodes/D5.2.yaml",
+  "quote": "Integrated Information Phi is defined as a measure of an observer's capacity.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "state",
+  "composition_level": 0,
+  "claim_role": "definition",
+  "register": "embodied"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "D5.1 observer definition; An IIT/Phi operational definition stipulating that Phi measures observer capacity; Empirical premises for Wheeler 2007/Ma 2016 and the quantum observer effect; Interpretive premises for the Participatory Universe, Participatio, and Romans 8:28 mappings",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D5.2.yaml#D5.2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A5.1",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "D5.2",
+ "is_main": true,
+ "strength": "By definition",
+ "conditional_premises": [
+  "D5.1 observer definition",
+  "An IIT/Phi operational definition stipulating that Phi measures observer capacity",
+  "Empirical premises for Wheeler 2007/Ma 2016 and the quantum observer effect",
+  "Interpretive premises for the Participatory Universe, Participatio, and Romans 8:28 mappings"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "D5.2/Q15/0045",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the step from P-IMAGO's general claim that creaturely consciousness is an analogical participation in God to the specific claim that Integrated Information Phi measures observer capacity."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

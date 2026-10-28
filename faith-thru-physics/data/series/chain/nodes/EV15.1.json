@@ -1,0 +1,50 @@
+{
+ "id": "EV15.1",
+ "title": "Biblical Prophecy Validation",
+ "lifecycle": "evidence",
+ "tier": 16,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "HY_EVIDENCE",
+ "declared": [
+  "ID7.1"
+ ],
+ "proposed": [
+  "ID7.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "EV15.1/Q15/0174",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the inference from general creaturely resemblance (P-IMAGO) and God as Creator (A0) to the specific linguistic/exegetical and cosmological claim that natah passages predicted Hubble expansion; no bridge premise identifies Scripture or the Logos Field with such predictive information."
+  }
+ ],
+ "ports": [],
+ "main": "EV15.1",
+ "claims": [
+  "EV15.1",
+  "EV15.1::split-01",
+  "EV15.1::split-02",
+  "EV15.1::split-03",
+  "EV15.1::split-04",
+  "EV15.1::split-05",
+  "EV15.1::split-06",
+  "EV15.1::split-07",
+  "EV15.1::split-08",
+  "EV15.1::split-09",
+  "EV15.1::split-10"
+ ],
+ "source": "source/nodes/EV15.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

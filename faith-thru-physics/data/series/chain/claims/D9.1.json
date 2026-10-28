@@ -1,0 +1,59 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D9.1",
+ "claim_id": "D9.1",
+ "type": "CLAIM",
+ "text": "Grace is an external operation, outside an agent’s self-generated powers, that can transform a morally opposed state (-1) into an aligned state (+1).",
+ "source": {
+  "file": "source/nodes/D9.1.yaml",
+  "quote": "Grace is an external operation, outside an agent’s self-generated powers, that can transform a morally opposed state (-1) into an aligned state (+1).",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "operator",
+  "composition_level": 0,
+  "claim_role": "definition",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "admitted",
+  "warrant_premise": "God actually acts to redeem or transform creatures from moral opposition to moral alignment.; Moral opposition and alignment can be modeled as discrete signs -1 and +1.; Grace can be represented as a linear operator on a moral Hilbert space.; External means outside an individual's closed self-operation algebra.; Moral states form the two-dimensional Hilbert space span{|+>, |->}.; The soul has a quantum or field-theoretic description with a moral sign component.; The χ-field or Logos couples to souls through Lindblad or Kraus dynamics.; Voluntary coupling (BC8) determines whether the grace coupling constant κ is nonzero.; Entropy and information conservation claims apply to the proposed soul/Logos system.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D9.1.yaml#D9.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "Proved by construction, not measured."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "D9.1",
+ "is_main": true,
+ "strength": "By definition",
+ "conditional_premises": [
+  "God actually acts to redeem or transform creatures from moral opposition to moral alignment.",
+  "Moral opposition and alignment can be modeled as discrete signs -1 and +1.",
+  "Grace can be represented as a linear operator on a moral Hilbert space.",
+  "External means outside an individual's closed self-operation algebra.",
+  "Moral states form the two-dimensional Hilbert space span{|+>, |->}.",
+  "The soul has a quantum or field-theoretic description with a moral sign component.",
+  "The χ-field or Logos couples to souls through Lindblad or Kraus dynamics.",
+  "Voluntary coupling (BC8) determines whether the grace coupling constant κ is nonzero.",
+  "Entropy and information conservation claims apply to the proposed soul/Logos system."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "D9.1/Q15/0098",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the move from P-IMAGO's analogy of being to a specific two-level moral Hilbert space and a linear operator Ĝ with matrix representation; neither A0 nor P-IMAGO supplies any such mathematical or physical structure."
+  }
+ ],
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

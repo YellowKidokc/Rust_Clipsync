@@ -1,0 +1,47 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "T11.2",
+ "claim_id": "T11.2::z3-conditional-component",
+ "type": "CLAIM",
+ "text": "Therefore dΦ/dt < 0, i.e., vice decreases coherence at that state.",
+ "source": {
+  "file": "source/nodes/T11.2.yaml",
+  "quote": "Therefore dΦ/dt < 0, i.e., vice decreases coherence at that state.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "theorem",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "conditionally_proved",
+  "warrant_premise": "Integrated information Φ is positive at the considered soul state.; Vice intensity is positive.; The decoherence rate Γ_vice is a positive proportionality of vice intensity.; The stated rate equation is dΦ/dt = -Γ_vice · Φ.; The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge.",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/T11.2.yaml#T11.2::z3-conditional-component (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [
+  {
+   "kind": "z3",
+   "ref": "sources/z3/03_PROMISING/results.json"
+  }
+ ],
+ "neighbors": [],
+ "node": "T11.2",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Reported Z3 encoded component; domain bridge remains unverified; this is not a new solver run.",
+ "conditional_premises": [
+  "Integrated information Φ is positive at the considered soul state.",
+  "Vice intensity is positive.",
+  "The decoherence rate Γ_vice is a positive proportionality of vice intensity.",
+  "The stated rate equation is dΦ/dt = -Γ_vice · Φ.",
+  "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+ ],
+ "obstructions": [],
+ "generated_by": "proposal only"
+}

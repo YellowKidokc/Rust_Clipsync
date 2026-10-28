@@ -1,0 +1,46 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "P9.1",
+ "claim_id": "P9.1::z3-conditional-component",
+ "type": "CLAIM",
+ "text": "Applying the grace operator twice gives the same operator as applying it once: Ĝ² = Ĝ on the two-dimensional moral Hilbert space.",
+ "source": {
+  "file": "source/nodes/P9.1.yaml",
+  "quote": "Applying the grace operator twice gives the same operator as applying it once: Ĝ² = Ĝ on the two-dimensional moral Hilbert space.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "theorem",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "conditionally_proved",
+  "warrant_premise": "Model the grace operator as a linear operator on the two-dimensional basis {|+⟩, |−⟩}, with matrix entries a,b,c,d.; The definition of the grace operator gives Ĝ|+⟩ = |+⟩, so the first column of the matrix is (1,0).; The definition gives Ĝ|−⟩ = |+⟩, so the second column of the matrix is (1,0).; The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge.",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/P9.1.yaml#P9.1::z3-conditional-component (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [
+  {
+   "kind": "z3",
+   "ref": "sources/z3/01_TESTED_COHERENT_COMPONENT/results.json"
+  }
+ ],
+ "neighbors": [],
+ "node": "P9.1",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Reported Z3 encoded component; domain bridge remains unverified; this is not a new solver run.",
+ "conditional_premises": [
+  "Model the grace operator as a linear operator on the two-dimensional basis {|+⟩, |−⟩}, with matrix entries a,b,c,d.",
+  "The definition of the grace operator gives Ĝ|+⟩ = |+⟩, so the first column of the matrix is (1,0).",
+  "The definition gives Ĝ|−⟩ = |+⟩, so the second column of the matrix is (1,0).",
+  "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+ ],
+ "obstructions": [],
+ "generated_by": "proposal only"
+}

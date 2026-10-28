@@ -1,0 +1,33 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "GRACE-001",
+ "claim_id": "GRACE-001::native-15",
+ "type": "CLAIM",
+ "text": "Updating sign leaves the identity field unchanged. No record field is represented.",
+ "source": {
+  "file": "source/nodes/GRACE-001.yaml",
+  "quote": "Updating sign leaves the identity field unchanged. No record field is represented.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "theorem",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "proved",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/GRACE-001.yaml#GRACE-001::native-15 (Axiom HTML Update, 2026-10-28)",
+  "note": "Proved by construction, not measured."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "GRACE-001",
+ "is_main": false,
+ "strength": "By definition",
+ "obstructions": [],
+ "generated_by": "proposed finer classification; no vocabulary change applied"
+}
