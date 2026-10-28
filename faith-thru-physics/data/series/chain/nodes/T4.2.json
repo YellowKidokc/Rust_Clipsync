@@ -1,0 +1,47 @@
+{
+ "id": "T4.2",
+ "title": "T4.2 Action = Minimal K",
+ "lifecycle": "theorem",
+ "tier": 5,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [
+  "A2.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "T4.2/Q15/0040",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the step from general created order/intelligibility (P-IMAGO) to the specific physical-information equivalence 'action principle = minimal-K path selection'; P-IMAGO explicitly forbids that leap."
+  }
+ ],
+ "ports": [],
+ "main": "T4.2",
+ "claims": [
+  "T4.2",
+  "T4.2::split-01",
+  "T4.2::split-02",
+  "T4.2::split-03",
+  "T4.2::split-04",
+  "T4.2::split-05",
+  "T4.2::split-06",
+  "T4.2::split-07"
+ ],
+ "source": "source/nodes/T4.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

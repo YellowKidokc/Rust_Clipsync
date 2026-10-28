@@ -1,0 +1,56 @@
+{
+ "id": "JUSTIFICATION-RESET-BRIDGE",
+ "title": "JUSTIFICATION-RESET-BRIDGE",
+ "lifecycle": "working_proposal",
+ "tier": null,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [],
+ "proposed": [
+  "JUSTIFICATION-001",
+  "BINARY-RESET-001"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "CONDITIONAL",
+  "named_premises": [
+   "Authorized native declaration; eligibility gate preserved; only the binary-standing quotient maps bijectively to pure basis states."
+  ],
+  "denial_cost": null,
+  "checkable_by": null,
+  "receipt": [
+   "JustificationReset.intertwining",
+   "sources/native/JUSTIFICATION_RESET_BRIDGE/JustificationReset.lean"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "JUSTIFICATION-RESET-BRIDGE/Q15/0249",
+   "kind": "known countermodel",
+   "status": "FATAL",
+   "scope": "ungated matrix and full-person isomorphism",
+   "reason": "Closed-gate state violates bare reset equality; two distinct persons share phi. Only gated standing quotient intertwining/inverse passes."
+  }
+ ],
+ "ports": [
+  {
+   "agent": "Investigator applies representation map; legitimate Judge/controller actions remain distinct",
+   "boundary": "Reset enabled iff native response_received AND cost_satisfied; bare matrix is insufficient",
+   "input": "Native Person, legitimate Judge invocation; phi encodes standing and preserves eligibility context",
+   "output": "Binary Register after gated reset, agreeing with mapped legal declaration",
+   "evidence": [
+    "../JUSTIFICATION_RESET_SIDES_FIXED_BEFORE_BRIDGE.json",
+    "JustificationReset.lean",
+    "validation_results.json"
+   ]
+  }
+ ],
+ "main": "JUSTIFICATION-RESET-BRIDGE",
+ "claims": [
+  "JUSTIFICATION-RESET-BRIDGE"
+ ],
+ "source": "source/nodes/JUSTIFICATION-RESET-BRIDGE.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

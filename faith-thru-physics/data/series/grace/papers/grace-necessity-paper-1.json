@@ -6,12 +6,12 @@
   "subtitle": "Paper I",
   "author": "David Lowe",
   "date": "October 2026",
-  "sample_note": "Sample prose for layout. The claims and their grades are real records; the sentences around them are placeholders until the paper's text is loaded.",
+  "sample_note": "Sample prose for layout. Every marked phrase points at a real claim record from the axiom chain (snapshot 2026-10-27); the sentences around them are placeholders until the paper's text is loaded.",
   "ten_second": {
     "ground": "The will has an orientation, toward God or away; call it its sign.",
     "question": "Can a will turned away turn itself back by its own operations?",
     "claim": "C8.1",
-    "break_it": "Show one operation open to a fallen will that reverses its orientation. That breaks P-SIGN, and C8.1 falls with it."
+    "break_it": "Show one internal operation open to a creature that reverses its moral orientation, or show that the formal sign does not represent that orientation. Either premise failing takes C8.1 down."
   },
   "sections": [
     {
@@ -22,12 +22,7 @@
           "Every person faces somewhere. The old word for turning around is repentance, and the old puzzle is whether the turning is ours to start."
         ],
         [
-          "This paper defends a narrow answer. ",
-          {
-            "claim": "C8.1",
-            "text": "No person can flip their own sign"
-          },
-          ", provided the moves open to a fallen will keep its orientation."
+          "This paper defends a narrow answer: no person can flip their own sign, provided the moves open to a fallen will keep its orientation. The precise claim is below."
         ]
       ]
     },
@@ -38,19 +33,19 @@
         [
           "Picture a door with no handle on the outside. ",
           {
-            "claim": "BC1",
+            "claim": "GRACE-001::native-2",
             "text": "At phase −1 the person cannot open the boundary"
           },
           ". Someone must knock."
         ],
         [
           {
-            "claim": "BC2",
+            "claim": "GRACE-001::native-3",
             "text": "Awakening is the Spirit's alone"
           },
           "; it gives back the capacity to answer without answering for the person. Then ",
           {
-            "claim": "BC3",
+            "claim": "GRACE-001::native-4",
             "text": "the awakened person authors the response"
           },
           ", and acceptance and refusal are both open from the same state."
@@ -58,7 +53,7 @@
         [
           "Nothing here is forced: ",
           {
-            "claim": "BC4",
+            "claim": "GRACE-001::native-5",
             "text": "grace never compels the accepted response"
           },
           "."
@@ -72,7 +67,7 @@
         [
           "Restoration in this model also waits on a cost being paid. In the toy accounting, ",
           {
-            "claim": "Law5JusticeMercy.cross_conserves",
+            "claim": "GRACE-001::native-31",
             "text": "when the judge pays, the full cost is paid"
           },
           ", so the ledger closes without the offender paying."
@@ -84,9 +79,14 @@
       "level": 3,
       "paragraphs": [
         [
-          "The technical heart is an invariant. If every operation a person can perform preserves the sign, so does any sequence of them. Whether information-processing limits apply to persons the same way is still open: ",
+          "The technical heart is an invariant. If every operation a person can perform preserves the sign, so does any sequence of them: ",
           {
-            "claim": "M-DPI",
+            "claim": "C8.1",
+            "text": "no creature can by its own internal self-operation reverse its fundamental moral orientation"
+          },
+          ". Whether information-processing limits apply to persons the same way is still open: ",
+          {
+            "claim": "GRACE-001::native-8",
             "text": "an information processing constraint applies to persons"
           },
           " has not been checked."

@@ -1,0 +1,36 @@
+AXIOM HTML PAGE UPDATE — October 28, 2026
+
+UNZIP FIRST, THEN OPEN OPEN_AXIOMS.html.
+This is a standalone offline reader and an update packet for an existing page. It does not overwrite your website or original HTML.
+
+WHAT TO USE
+- OPEN_AXIOMS.html: search all records, inspect claims, source roles, status, premises, operators and boundaries.
+- Hierarchy.html: full declared/proposed support and an active reduced display. A0 grounding is separate from proof dependencies.
+- data/axiom_page_data.json: complete source records, metadata and the separately labeled update overlay.
+- data/source_nodes: the 210 original node files. Their .yaml files contain JSON; preserve that content.
+- data/proposed_page_updates.json: the concrete update list, with scope/status for each entry.
+- data/architecture_results.json: includes all 45 declared/proposed dependency differences and cycle checks.
+- THEOREM_INDEX.html: theorem and lemma declarations from the audited source modules, diagnostics and candidate contracts; exact premises remain in the source files.
+- verification: original mathematical audit packets and the targeted workbook checks.
+
+IMPORTING INTO YOUR EXISTING HTML
+1. Back up the current page.
+2. Use each node's id as the stable key. Keep all claim IDs and their separate status/premise fields.
+3. Preserve node_lifecycle. The default view can show 182 active records; keep the 28 historical records accessible.
+4. Keep context_parent distinct from dependencies.source_declared, dependencies.proposed_primary_support and per-claim dependencies. Do not convert all context links into proof arrows.
+5. Display source grades and the new update overlay separately. A source classification or model theorem does not certify every claim in the node.
+6. Preserve source claim roles rather than forcing every record into axiom/lemma/proposition. Mathematical theorems in the receipts are separate proof items. Their precise names, assumptions and compilation results are in the evidence packets.
+7. For agents, preserve original names and add a separate reviewed alias map. Generic God must not silently become Father. Son/the Son variants should not become unrelated agents.
+8. Keep candidate_operator_contracts.json marked PROPOSAL_NOT_CANON. It is a pilot, not the complete operator inventory.
+9. Keep 67 unchecked main claims visibly open. Proof of a narrower side claim does not close a main claim.
+
+EXISTING FINDINGS
+The new operator pass added 18 compiling Lean theorems with no sorryAx in their printed dependencies. Z3 checked 34 directions (27 entailments, 7 countermodels). Native operator tests covered 64,800 calls on 1,296 chosen finite-grid states. These receipts preserve their original scopes and dates; this packaging pass does not pretend to rerun unchanged mathematical proofs.
+
+The active proposed dependency widths are 16,68,22,41,27,6,2. Every relationship view in the architecture check is acyclic; that is not a consistency or theological truth proof. The shared-key connector graph is a different graph and contains a large strongly connected component.
+
+COHERENCE AND TRINITY
+Workbook candidates now identified include per-domain coherence metrics and the explicit potential/pattern/actualization Trinity mapping. Their correspondence with current node vocabulary still needs assessment. The workbook's universal normalization, threshold inference and ratio/difference equality require corrections recorded in the update overlay. Three functional roles alone do not establish exactly three divine persons.
+
+REMAINING WORK
+Full sentence-versus-math review; faithful alignment of Lean/Z3/Python state machines including debt and historical provenance; remaining operational definitions and invariants; reconciliation of dependency and Ten Laws variants. No canonical source or adopted axiom was changed by this packet.

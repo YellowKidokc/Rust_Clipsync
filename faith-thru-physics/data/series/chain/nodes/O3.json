@@ -1,0 +1,79 @@
+{
+ "id": "O3",
+ "title": "O3 Primitive 3",
+ "lifecycle": "retired",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A5.1"
+ ],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is metaphysical/ontological rather than a precise mathematical assertion. The file's formal expression 'Realized(I,C) iff exists O: O experiences (I,C)' is essentially a definition or a philosophical thesis about realization, and terms like 'ontological primitive', 'emergent', 'co-fundamental', 'experiences', and 'realized' are not given formal semantics sufficient for a Z3 encoding. Encoding only the definitional equivalence would not check the main claim and would replace it wit",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "O3/Q15/0221",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "axiom-set membership",
+   "reason": "David retired this record; it is retained with reason and cannot serve as an active axiom. Content-level truth is not settled merely by retirement."
+  },
+  {
+   "id": "O3/Q15/0222",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the move from A0/P-IMAGO's God-grounded creaturely consciousness to 'consciousness is an ontological primitive co-fundamental with information and coherence'; for the full record, also at every move into quantum-mechanical, IIT, Orch-OR, GWT, free-energy, or mathematical claims, which P-IMAGO cannot supply."
+  },
+  {
+   "id": "O3/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Consciousness is an irreducible ontological primitive co-fundamental with information and coherence, not emergent from non-conscious matter.",
+   "reason": "The main claim is metaphysical/ontological rather than a precise mathematical assertion. The file's formal expression 'Realized(I,C) iff exists O: O experiences (I,C)' is essentially a definition or a philosophical thesis about realization, and terms like 'ontological primitive', 'emergent', 'co-fundamental', 'experiences', and 'realized' are not given formal semantics sufficient for a Z3 encoding. Encoding only the definitional equivalence would not check the main claim and would replace it with a trivial side formalization, so checkable is false."
+  }
+ ],
+ "ports": [],
+ "main": "O3",
+ "claims": [
+  "O3",
+  "O3::split-01",
+  "O3::split-02",
+  "O3::split-03",
+  "O3::split-04",
+  "O3::split-05",
+  "O3::split-06",
+  "O3::split-07",
+  "O3::split-08",
+  "O3::split-09",
+  "O3::split-10",
+  "O3::split-11",
+  "O3::split-12",
+  "O3::split-13",
+  "O3::split-14",
+  "O3::split-15",
+  "O3::split-16",
+  "O3::split-17",
+  "O3::split-18",
+  "O3::split-19",
+  "O3::split-20",
+  "O3::split-21",
+  "O3::split-22",
+  "O3::split-23",
+  "O3::split-24",
+  "O3::split-25"
+ ],
+ "source": "source/nodes/O3.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

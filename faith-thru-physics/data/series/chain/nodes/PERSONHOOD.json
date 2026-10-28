@@ -1,0 +1,58 @@
+{
+ "id": "PERSONHOOD",
+ "title": "Agency, Intentionality, Relational Capacity",
+ "lifecycle": "axiomatic_gap",
+ "tier": 9,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "PERSONHOOD/Q15/0085",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "From A0 + P-IMAGO alone, it stops at inferring a von Neumann/Φ = ∞ Terminal Observer and at converting property similarity into identity; those require BC1, a property-matching bridge, and any empirical premises."
+  }
+ ],
+ "ports": [],
+ "main": "PERSONHOOD",
+ "claims": [
+  "PERSONHOOD",
+  "PERSONHOOD::split-01",
+  "PERSONHOOD::split-02",
+  "PERSONHOOD::split-03",
+  "PERSONHOOD::split-04",
+  "PERSONHOOD::split-05",
+  "PERSONHOOD::split-06",
+  "PERSONHOOD::split-07",
+  "PERSONHOOD::split-08",
+  "PERSONHOOD::split-09",
+  "PERSONHOOD::split-10",
+  "PERSONHOOD::split-11",
+  "PERSONHOOD::split-12",
+  "PERSONHOOD::split-13",
+  "PERSONHOOD::split-14",
+  "PERSONHOOD::split-15",
+  "PERSONHOOD::split-16",
+  "PERSONHOOD::split-17",
+  "PERSONHOOD::split-18"
+ ],
+ "source": "source/nodes/PERSONHOOD.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

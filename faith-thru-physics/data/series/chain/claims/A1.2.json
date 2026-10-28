@@ -1,0 +1,52 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "A1.2",
+ "claim_id": "A1.2",
+ "type": "CLAIM",
+ "text": "For anything to be describable or knowable, it must be distinguishable from something else.",
+ "source": {
+  "file": "source/nodes/A1.2.yaml",
+  "quote": "For anything to be describable or knowable, it must be distinguishable from something else.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 0,
+  "claim_role": "assumption",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "admitted",
+  "warrant_premise": "Quantum mechanics measurement postulates; Thermodynamics and statistical mechanics; Information theory; Category theory/metric topology; Empirical psychophysics such as Weber-Fechner; The χ-field model",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/A1.2.yaml#A1.2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "Holds as an expressly adopted premise, not established as an empirical or premise-free theorem."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "A1.2",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "Quantum mechanics measurement postulates",
+  "Thermodynamics and statistical mechanics",
+  "Information theory",
+  "Category theory/metric topology",
+  "Empirical psychophysics such as Weber-Fechner",
+  "The χ-field model"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "A1.2/Q15/0003",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The core derivation stops at the general epistemic/ontological condition; the record overreaches when it moves to quantum, thermodynamic, information-theoretic, category-theoretic, psychophysical, and χ-field specifics, which require independent formal or empirical premises."
+  }
+ ],
+ "denial_cost": "The chain lacks its chosen primitive distinction language; information/state constructions require another definition or premise.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

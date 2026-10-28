@@ -1,0 +1,67 @@
+{
+ "id": "A10.1",
+ "title": "A10.1 Consciousness Substrate",
+ "lifecycle": "framework_commitment",
+ "tier": 11,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file's main claim is a metaphysical/axiomatic sentence. Although the file later gives informal physical analogies and formal definitions of a soul-field as a localized chi-field excitation with integrated information Phi > 0, it does not give a precise formal criterion for 'individual consciousness', 'requires', or a formally stated implication from consciousness to localized field structure. Encoding it with uninterpreted predicates would only test an arbitrary abstraction, not the file's a",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "A10.1/Q15/0106",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the inference to 'localized field structure': A0 + P-IMAGO yield only that creaturely consciousness is dependent and analogical, not that it is a field, localized, or governed by Φ or Klein-Gordon dynamics."
+  },
+  {
+   "id": "A10.1/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: A10.1: Individual consciousness requires localized field structure",
+   "reason": "The file's main claim is a metaphysical/axiomatic sentence. Although the file later gives informal physical analogies and formal definitions of a soul-field as a localized chi-field excitation with integrated information Phi > 0, it does not give a precise formal criterion for 'individual consciousness', 'requires', or a formally stated implication from consciousness to localized field structure. Encoding it with uninterpreted predicates would only test an arbitrary abstraction, not the file's actual claim."
+  }
+ ],
+ "ports": [],
+ "main": "A10.1",
+ "claims": [
+  "A10.1",
+  "A10.1::split-01",
+  "A10.1::split-02",
+  "A10.1::split-03",
+  "A10.1::split-04",
+  "A10.1::split-05",
+  "A10.1::split-06",
+  "A10.1::split-07",
+  "A10.1::split-08",
+  "A10.1::split-09",
+  "A10.1::split-10",
+  "A10.1::split-11",
+  "A10.1::split-12",
+  "A10.1::split-13",
+  "A10.1::split-14",
+  "A10.1::split-15",
+  "A10.1::split-16",
+  "A10.1::split-17",
+  "A10.1::split-18"
+ ],
+ "source": "source/nodes/A10.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

@@ -1,0 +1,63 @@
+{
+ "id": "BC1",
+ "title": "BC1 Observation Chain Terminates in Self-Grounding Act",
+ "lifecycle": "boundary",
+ "tier": 8,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "LN6.1",
+  "A7.1"
+ ],
+ "proposed": [
+  "LN6.1",
+  "A7.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "BC1/Q15/0068",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "After A0 gives God as the ultimate conscious ground and P-IMAGO gives analogical participation: the step to 'therefore the von Neumann measurement chain requires this God as a terminal observer' fails; P-IMAGO expressly excludes deriving physical laws, equations, or empirical findings."
+  },
+  {
+   "id": "BC1/Q15/0069",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "v3 versus current-root source identity",
+   "reason": "v3 repairs/splits this concept, while current source file BC1_Terminal_Observer_Exists.md retains another title/claim version. Both source spans are preserved; do not equate them by identifier alone."
+  }
+ ],
+ "ports": [],
+ "main": "BC1",
+ "claims": [
+  "BC1",
+  "BC1::split-01",
+  "BC1::split-02",
+  "BC1::split-03",
+  "BC1::split-04",
+  "BC1::split-05",
+  "BC1::split-06",
+  "BC1::split-07",
+  "BC1::split-08",
+  "BC1::split-09",
+  "BC1::split-10",
+  "BC1::split-11",
+  "BC1::split-12",
+  "BC1::split-13",
+  "BC1::split-14"
+ ],
+ "source": "source/nodes/BC1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

@@ -1,0 +1,53 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "BC9",
+ "claim_id": "BC9",
+ "type": "CLAIM",
+ "text": "The terminal observer is opaque — it cannot be fully measured from within the system.",
+ "source": {
+  "file": "source/nodes/BC9.yaml",
+  "quote": "The terminal observer is opaque — it cannot be fully measured from within the system.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "boundary",
+  "composition_level": 1,
+  "claim_role": "assumption",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "admitted",
+  "warrant_premise": "A Self-Other boundary requires informational distinction (some information not shared or observed).; Total transparency means there is no informational distinction.; If the Self-Other boundary is absent, the AI self-model collapses.; Opacity is represented as the absence of total transparency.; The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/BC9.yaml#BC9::main (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC4a",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "BC9",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "BC9/Q15/0083",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "domain application rather than mere notation",
+   "reason": "Terminal-observer opacity is an adopted epistemic boundary condition, not a derived formal result."
+  }
+ ],
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

@@ -1,0 +1,53 @@
+{
+ "id": "D11.1",
+ "title": "D11.1 Moral Coherence Bridge",
+ "lifecycle": "definition",
+ "tier": 11,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "D11.1/Q15/0115",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at identifying moral coherence with non-contradiction in an agent's informational structure; A0+P-IMAGO support only analogical moral resemblance, not this formal definition or its SNR/C[χ] extensions."
+  },
+  {
+   "id": "D11.1/Q15/0116",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "v3 versus current-root source identity",
+   "reason": "v3 repairs/splits this concept, while current source file D11_1_Moral_Coherence_Definition.md retains another title/claim version. Both source spans are preserved; do not equate them by identifier alone."
+  }
+ ],
+ "ports": [],
+ "main": "D11.1",
+ "claims": [
+  "D11.1",
+  "D11.1::split-01",
+  "D11.1::split-02",
+  "D11.1::split-03",
+  "D11.1::split-04",
+  "D11.1::split-05",
+  "D11.1::split-06"
+ ],
+ "source": "source/nodes/D11.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

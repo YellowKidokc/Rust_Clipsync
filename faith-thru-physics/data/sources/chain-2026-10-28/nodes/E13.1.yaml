@@ -1,0 +1,937 @@
+{
+  "id": "E13.1",
+  "title": "E13.1 GR-QM Bridge Equation",
+  "proposal_only": true,
+  "context_parent": "A0",
+  "tags": {
+    "system_part": "constitutive law",
+    "composition_level": 2,
+    "claim_role": "conjecture",
+    "warrant": {
+      "status": "unverified",
+      "kind": "proof"
+    },
+    "register": "physical"
+  },
+  "old_mode": "AX_SCAFFOLD",
+  "raw_csv_mode": "AX_SCAFFOLD",
+  "proposed_mode": "AX_SCAFFOLD",
+  "tier": 12,
+  "node_lifecycle": "equation",
+  "ruling": null,
+  "merged_into": null,
+  "node_vs_claim_vs_proof": "Node specifies a structure; claims below own their warrants; proofs are exact scoped receipts.",
+  "sources": {
+    "v3_line": "E13.1 GR-QM Bridge Equation     ← BC6           [AX_SCAFFOLD]",
+    "current_root_record": "sources\\current_nodes\\E13_1_GR-QM_Bridge_Equation.md",
+    "october_review": "sources\\october_review\\AX-103.json"
+  },
+  "dependencies": {
+    "source_declared": [
+      "BC6"
+    ],
+    "source_relation": "depends_on",
+    "proposed_primary_support": [
+      "BC6"
+    ],
+    "stance_ceiling_sources": [],
+    "merge_scope": "Incoming claims retain their own premises; source and current-root graph versions are not silently equated."
+  },
+  "coherences": {
+    "C-info": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-moral": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-spiritual": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    }
+  },
+  "claims": [
+    {
+      "id": "E13.1::main",
+      "statement": "An extended Einstein field equation adds a κ-scaled stress-energy tensor for a scalar chi/Logos field to the ordinary matter stress-energy term.",
+      "tags": {
+        "system_part": "constitutive law",
+        "composition_level": 2,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+      "proof_refs": [],
+      "conditional_premises": [
+        "D13.1 Unified Field Lagrangian with a scalar chi-field non-minimally coupled to curvature",
+        "Identification of the chi-field with a physical Logos/information/consciousness field",
+        "A specified value or constraint for κ ≈ 10⁻⁶⁹ J⁻¹m⁻²",
+        "Empirical data and a full cosmological/perturbation model for the GW-speed, fifth-force, and dark-energy predictions"
+      ],
+      "classification_proposal": {
+        "logical_role": "CONJECTURE",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "proposal only; no new frozen vocabulary applied"
+      },
+      "Q13": {
+        "register": "physical",
+        "domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ]
+      },
+      "Q14": {
+        "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+        "coherence_equality_assumed": false
+      },
+      "Q15": [
+        {
+          "id": "E13.1/Q15/0131",
+          "node": "E13.1",
+          "kind": "missing bridge",
+          "Q16": "OPEN",
+          "scope": "original core claim/application",
+          "reason": "The derivation stops at any move from A0/P-IMAGO to a concrete physical scalar field χ, its stress-energy tensor, the coupling κ, or empirical predictions; P-IMAGO grounds only analogical creaturely reflection, not physical equations.",
+          "evidence": [
+            "sources\\october_review\\AX-103.json"
+          ]
+        }
+      ],
+      "Q16": {
+        "E13.1/Q15/0131": "OPEN"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "claim_scoped_dependencies": [
+        "BC6"
+      ],
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "E13.1::main"
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E13.1::split-01",
+      "statement": "The chi-field is a physical Logos/information/consciousness field.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-103.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E13.1::split-02",
+      "statement": "The chi-field stress-energy tensor has the specific kinetic, potential, and non-minimal-coupling form stated.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-103.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E13.1::split-03",
+      "statement": "The geometry-Logos coupling constant κ is approximately 10⁻⁶⁹ J⁻¹m⁻² and is fixed by information-theoretic constraints.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-103.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E13.1::split-04",
+      "statement": "A chi-field background modifies gravitational-wave speed by Δc/c ~ 2κχ₀² ~ 10⁻¹⁸.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-103.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E13.1::split-05",
+      "statement": "The chi-field mediates a fifth force between information-processing systems, attracting similar consciousness states and repelling orthogonal states.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-103.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E13.1::split-06",
+      "statement": "The chi-field modifies the Friedmann equation as H² = (8πG/3)ρ_matter + Λ/3 + (κ/3)ρ_χ and produces specific dark-energy, structure-formation, and CMB effects.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-103.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E13.1::split-07",
+      "statement": "The bridge equation is well-posed and has unique local solutions under the stated initial data.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-103.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E13.1::split-08",
+      "statement": "The total effective stress-energy is covariantly conserved with matter-chi energy exchange.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-103.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E13.1::split-09",
+      "statement": "The bridge equation reduces to standard GR as χ→0 or κ→0 and admits linearized plane-wave solutions.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-103.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E13.1::split-10",
+      "statement": "The chi-field gives meaning to geometry by analogy with the Higgs mechanism and satisfies dS_geometry = κ dS_information.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-103.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    }
+  ],
+  "Q13": {
+    "register": "physical",
+    "domains": [
+      "COSMOLOGICAL",
+      "PHYSICAL"
+    ]
+  },
+  "Q14": {
+    "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+    "coherence_equality_assumed": false
+  },
+  "Q15": [
+    {
+      "id": "E13.1/Q15/0131",
+      "node": "E13.1",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "original core claim/application",
+      "reason": "The derivation stops at any move from A0/P-IMAGO to a concrete physical scalar field χ, its stress-energy tensor, the coupling κ, or empirical predictions; P-IMAGO grounds only analogical creaturely reflection, not physical equations.",
+      "evidence": [
+        "sources\\october_review\\AX-103.json"
+      ]
+    },
+    {
+      "id": "E13.1/Q15/Z3-00",
+      "node": "E13.1",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "Exact October Z3 component: The full GR-QM Bridge tensor equation G_{μν}+Λg_{μν} = (8πG/c^4)T_{μν}+κχ_{μν}.",
+      "reason": "The file's main claim is a proposed tensor field equation/definition derived informally from a variational principle over a Lagrangian on a differentiable manifold. Faithfully encoding it would require formalizing Lorentzian geometry, tensor fields, covariant derivatives, the variational derivation, and the component definitions. Encoding only real-valued tensor components at an abstract point would turn the claimed field equation into an arbitrary scalar equality with no nontrivial premises, i.e. it would restate the conclusion rather than check it. Therefore the main claim is not checkable as a Z3 entailment without adding the equation itself as a premise or substituting an easier component calculation.",
+      "evidence": [
+        "sources/z3/03_PROMISING/results.json"
+      ]
+    }
+  ],
+  "Q16": {
+    "E13.1/Q15/0131": "OPEN",
+    "E13.1/Q15/Z3-00": "OPEN"
+  },
+  "ports": [],
+  "open_interface_obligation": "This rerun is a classified source/claim proposal. A full executable six-field port contract is not claimed for every older node.",
+  "reason": [
+    "Source role, domain and October limitations separated; no unproved application promoted."
+  ],
+  "soundness": {
+    "bin": "UNCHECKED",
+    "named_premises": [],
+    "receipt": [
+      "sources/z3/03_PROMISING/results.json"
+    ],
+    "denial_cost": null,
+    "scope_note": "No holds/fails call manufactured for an untested main claim.",
+    "why": "Original domain claim lacks a complete faithful, source-matched test or derivation; retained fragment receipts do not establish it.",
+    "Z3_source_verdicts": [
+      "NOT_CHECKABLE"
+    ],
+    "ranking_snapshot": {
+      "score": 3,
+      "id": "AX-103",
+      "title": "GR-QM Bridge Equation",
+      "register": "formal",
+      "a0": "derived+premise",
+      "math": "yes_with_missing_premise",
+      "z3": "NOT_CHECKABLE",
+      "why": "derived w/ one premise; math holds +premise",
+      "core": "An extended Einstein field equation adds a κ-scaled stress-energy tensor for a scalar chi/Logos field to the ordinary matter stress-energy term."
+    },
+    "A0_IMAGO_verdict": "ENTAILED_WITH_OTHER_PREMISE",
+    "conflicts": [],
+    "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file's main claim is a proposed tensor field equation/definition derived informally from a variational principle over a Lagrangian on a differentiable manifold. Faithfully encoding it would require formalizing Lorentzian geometry, tensor fields, covariant derivatives, the variational derivation, and the component definitions. Encoding only real-valued tensor components at an abstract point would turn the claimed field equation into an arbitrary scalar equality with no nontrivial premises, i."
+  },
+  "grade": {
+    "match_scope": null,
+    "warrant": "unverified",
+    "outcome": null,
+    "canon_status": "open",
+    "note": "No holds/fails call manufactured for an untested main claim.",
+    "match_scope_applicable": false,
+    "assessed_claim_id": "E13.1::main"
+  },
+  "canon_rubric": {
+    "node": "E13.1",
+    "bin": "UNCHECKED",
+    "grade": {
+      "match_scope": null,
+      "warrant": "unverified",
+      "outcome": null,
+      "canon_status": "open",
+      "note": "No holds/fails call manufactured for an untested main claim.",
+      "match_scope_applicable": false,
+      "assessed_claim_id": "E13.1::main"
+    },
+    "criteria": {
+      "address": true,
+      "grade": false,
+      "receipt": false,
+      "ruling_authority": false,
+      "no_unresolved_conflict": false
+    },
+    "score": 1,
+    "meets_all_five": false,
+    "missing": [
+      "grade",
+      "receipt",
+      "ruling_authority",
+      "no_unresolved_conflict"
+    ],
+    "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+    "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+    "proposal_only": true
+  },
+  "follow_up_review": {
+    "proposal_only": true,
+    "soundness_row": {
+      "node": "E13.1",
+      "bin": "UNCHECKED",
+      "scope": "No holds/fails call manufactured for an untested main claim.",
+      "premises": [],
+      "receipt": [
+        "sources/z3/03_PROMISING/results.json"
+      ],
+      "denial_cost": null,
+      "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file's main claim is a proposed tensor field equation/definition derived informally from a variational principle over a Lagrangian on a differentiable manifold. Faithfully encoding it would require formalizing Lorentzian geometry, tensor fields, covariant derivatives, the variational derivation, and the component definitions. Encoding only real-valued tensor components at an abstract point would turn the claimed field equation into an arbitrary scalar equality with no nontrivial premises, i.",
+      "canon_status": "open",
+      "conflicts": [],
+      "assessment_target": "No holds/fails call manufactured for an untested main claim.",
+      "main_statement": "An extended Einstein field equation adds a κ-scaled stress-energy tensor for a scalar chi/Logos field to the ordinary matter stress-energy term.",
+      "proposal_only": true,
+      "lead_summary": {
+        "REAL GAP": 2,
+        "WORDING": 1
+      },
+      "remaining_lead_ids": [
+        "LEAD-179",
+        "LEAD-181"
+      ],
+      "strength": "Conditional",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "E13.1::main"
+      },
+      "scope_warning": "Bin assesses the named target only; neither bundled claims nor domain identification inherit its proof. A written explanation is recorded as support at its source status."
+    },
+    "canon_rubric": {
+      "node": "E13.1",
+      "bin": "UNCHECKED",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "E13.1::main"
+      },
+      "criteria": {
+        "address": true,
+        "grade": false,
+        "receipt": false,
+        "ruling_authority": false,
+        "no_unresolved_conflict": false
+      },
+      "score": 1,
+      "meets_all_five": false,
+      "missing": [
+        "grade",
+        "receipt",
+        "ruling_authority",
+        "no_unresolved_conflict"
+      ],
+      "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+      "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+      "proposal_only": true
+    },
+    "leads": [
+      {
+        "lead_id": "LEAD-179",
+        "node": "E13.1",
+        "record": "AX-103",
+        "required_key": "chi field lagrangian defined",
+        "origin": "no-supplier",
+        "input_line": 191,
+        "class": "REAL GAP",
+        "definition_used": "The explicit scalar-tensor draft action displayed in source; candidate physical model, not the unique universal master action.",
+        "definition_status": "draft definition located; consumer adapter and equation consistency OPEN",
+        "supplier": null,
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\D3_3_Interaction_Lagrangian.md",
+          "line": 28,
+          "text": "L_int = g·χ·ψ̄ψ — Yukawa-type coupling"
+        },
+        "missing_or_reason": "Select and attach the draft action to this surviving consumer, reconcile its variational equation and demonstrate that its fields/interactions match the consumer. The missing item is now a model bridge, not unwritten mathematics.",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\E13_1_GR-QM_Bridge_Equation.md",
+          "line": 23,
+          "text": "GR-QM bridge equation — modified Einstein field equation with χ-field source."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-103_E13.1.md"
+        ],
+        "supplied_at_recorded_warrant_only": false,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\03_PROMISING\\103_E13.1_GR-QM-Bridge-Equation.z3spec.json",
+            "checkable": false,
+            "component": "The full GR-QM Bridge tensor equation G_{μν}+Λg_{μν} = (8πG/c^4)T_{μν}+κχ_{μν}.",
+            "faithfulness_note": "The file's main claim is a proposed tensor field equation/definition derived informally from a variational principle over a Lagrangian on a differentiable manifold. Faithfully encoding it would require formalizing Lorentzian geometry, tensor fields, covariant derivatives, the variational derivation, and the component definitions. Encoding only real-valued tensor components at an abstract point would turn the claimed field equation into an arbitrary scalar equality with no nontrivial premises, i.e. it would restate the conclusion rather than check it. Therefore the main claim is not checkable as a Z3 entailment without adding the equation itself as a premise or substituting an easier component calculation.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "UNDEFINED",
+        "follow_up_evidence": [
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\05_Minimal_Chi_Action_Physical_Degrees_of_Freedom.md",
+            "line": 129,
+            "end_line": 129,
+            "text": "$$S_\\chi = \\int d^4x \\sqrt{-g} \\left[ \\frac{1}{2\\kappa_0}(1 + \\xi \\kappa_0 \\chi^2) R - \\frac{1}{2} g^{\\mu\\nu} \\partial_\\mu \\chi \\partial_\\nu \\chi - \\frac{1}{2} m_\\chi^2 \\chi^2 - \\frac{\\lambda}{4} \\chi^4 + \\mathcal{L}_{\\text{matter}} \\right]$$",
+            "sha256": "dff0212ac6174046ad9076b95ae203ee5793dad63a918be31cba3bea3ee3af8d"
+          },
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\05_Minimal_Chi_Action_Physical_Degrees_of_Freedom.md",
+            "line": 167,
+            "end_line": 167,
+            "text": "$$\\Box \\chi - m_\\chi^2 \\chi - \\lambda \\chi^3 + \\xi \\kappa_0 \\chi R = 0$$",
+            "sha256": "dff0212ac6174046ad9076b95ae203ee5793dad63a918be31cba3bea3ee3af8d"
+          }
+        ],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "fuller_source_note": "An explicit draft scalar-tensor action is written. This resolves the claim that no action was written in the searched material. A surviving node must select and attach that action with its domain, parameters, boundary assumptions and model adapter. The draft action is not the same as every legacy master equation.",
+        "closes_dependency": false,
+        "formal_proof_added_by_this_classification": false
+      },
+      {
+        "lead_id": "LEAD-180",
+        "node": "E13.1",
+        "record": "AX-103",
+        "required_key": "chi field equation of motion",
+        "origin": "no-supplier",
+        "input_line": 192,
+        "class": "WORDING",
+        "definition_used": "The declared schematic χ dynamics are □χ + V'(χ) = J(χ).",
+        "definition_status": "declared schematic equation / AX_SCAFFOLD",
+        "supplier": "E2.1",
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\E2_1_Master_Equation_First_Form.md",
+          "line": 28,
+          "text": "□χ + V'(χ) = J(χ) — Klein-Gordon with self-interaction and source"
+        },
+        "missing_or_reason": "",
+        "scope_note": "Only the schematic equation is supplied. V, J, domain, units, initial data, and a derivation from a specified action remain separate obligations.",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\E13_1_GR-QM_Bridge_Equation.md",
+          "line": 23,
+          "text": "GR-QM bridge equation — modified Einstein field equation with χ-field source."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-103_E13.1.md"
+        ],
+        "supplied_at_recorded_warrant_only": true,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\03_PROMISING\\103_E13.1_GR-QM-Bridge-Equation.z3spec.json",
+            "checkable": false,
+            "component": "The full GR-QM Bridge tensor equation G_{μν}+Λg_{μν} = (8πG/c^4)T_{μν}+κχ_{μν}.",
+            "faithfulness_note": "The file's main claim is a proposed tensor field equation/definition derived informally from a variational principle over a Lagrangian on a differentiable manifold. Faithfully encoding it would require formalizing Lorentzian geometry, tensor fields, covariant derivatives, the variational derivation, and the component definitions. Encoding only real-valued tensor components at an abstract point would turn the claimed field equation into an arbitrary scalar equality with no nontrivial premises, i.e. it would restate the conclusion rather than check it. Therefore the main claim is not checkable as a Z3 entailment without adding the equation itself as a premise or substituting an easier component calculation.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "WORDING",
+        "follow_up_evidence": [
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\05_Minimal_Chi_Action_Physical_Degrees_of_Freedom.md",
+            "line": 129,
+            "end_line": 129,
+            "text": "$$S_\\chi = \\int d^4x \\sqrt{-g} \\left[ \\frac{1}{2\\kappa_0}(1 + \\xi \\kappa_0 \\chi^2) R - \\frac{1}{2} g^{\\mu\\nu} \\partial_\\mu \\chi \\partial_\\nu \\chi - \\frac{1}{2} m_\\chi^2 \\chi^2 - \\frac{\\lambda}{4} \\chi^4 + \\mathcal{L}_{\\text{matter}} \\right]$$",
+            "sha256": "dff0212ac6174046ad9076b95ae203ee5793dad63a918be31cba3bea3ee3af8d"
+          },
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\05_Minimal_Chi_Action_Physical_Degrees_of_Freedom.md",
+            "line": 167,
+            "end_line": 167,
+            "text": "$$\\Box \\chi - m_\\chi^2 \\chi - \\lambda \\chi^3 + \\xi \\kappa_0 \\chi R = 0$$",
+            "sha256": "dff0212ac6174046ad9076b95ae203ee5793dad63a918be31cba3bea3ee3af8d"
+          },
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\D19_4_Law_IV_Grace_Dynamics.md",
+            "line": 25,
+            "end_line": 29,
+            "text": "## Current scope\n\nCompose the grace operator definition with its proposed non-unitary form. Keep consent and legal-standing reset separate from sanctification growth; no matrix alone supplies consent.\n\n## Components",
+            "sha256": "071eee88957af4397ba0d5dd1e07520f0211bd39ae8da519e4d733952c79a394"
+          },
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\D19_6_Law_VI_Coherence_Non-Increase.md",
+            "line": 25,
+            "end_line": 29,
+            "text": "## Current scope\n\nCompose the coherence definition with the conditional nonincrease claim. The allowed operation family, coherence metric and closed-boundary assumptions must be stated; no universal moral/spiritual nonincrease is imported from physics.\n\n## Components",
+            "sha256": "a88a9a1743e52fcae9654949fd3b964418f9b980dee50e07bfc816425873e3a2"
+          }
+        ],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "fuller_source_note": "The fuller draft supplies a concrete proposed equation in addition to E2.1’s schematic equation. These are distinct model versions, not interchangeable receipts.",
+        "closes_dependency": true,
+        "formal_proof_added_by_this_classification": false
+      },
+      {
+        "lead_id": "LEAD-181",
+        "node": "E13.1",
+        "record": "AX-103",
+        "required_key": "chi field physically measurable",
+        "origin": "no-supplier",
+        "input_line": 193,
+        "class": "REAL GAP",
+        "definition_used": "A calibrated observable distinguishes the proposed physical χ-field from alternatives.",
+        "definition_status": "requirement defined; supply not established in inspected sources",
+        "supplier": null,
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\D2_1_Logos_Field_Definition.md",
+          "line": 28,
+          "text": "χ: M → ℝ (scalar field over manifold M)"
+        },
+        "missing_or_reason": "An empirical bridge/protocol with units, calibration, predictions, and discrimination is needed. D2.1's formal field definition and the existing protocols do not supply that measurement.",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\E13_1_GR-QM_Bridge_Equation.md",
+          "line": 23,
+          "text": "GR-QM bridge equation — modified Einstein field equation with χ-field source."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-103_E13.1.md"
+        ],
+        "supplied_at_recorded_warrant_only": false,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\03_PROMISING\\103_E13.1_GR-QM-Bridge-Equation.z3spec.json",
+            "checkable": false,
+            "component": "The full GR-QM Bridge tensor equation G_{μν}+Λg_{μν} = (8πG/c^4)T_{μν}+κχ_{μν}.",
+            "faithfulness_note": "The file's main claim is a proposed tensor field equation/definition derived informally from a variational principle over a Lagrangian on a differentiable manifold. Faithfully encoding it would require formalizing Lorentzian geometry, tensor fields, covariant derivatives, the variational derivation, and the component definitions. Encoding only real-valued tensor components at an abstract point would turn the claimed field equation into an arbitrary scalar equality with no nontrivial premises, i.e. it would restate the conclusion rather than check it. Therefore the main claim is not checkable as a Z3 entailment without adding the equation itself as a premise or substituting an easier component calculation.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "REAL GAP",
+        "follow_up_evidence": [],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "closes_dependency": false,
+        "formal_proof_added_by_this_classification": false
+      }
+    ],
+    "current_ruling": null,
+    "ruling_scope": "Existing disposition only; no new canon admission.",
+    "receipt_attachments": [],
+    "Q15_follow_up": [
+      {
+        "id": "FOLLOWUP/Q15/ACTION-EOM",
+        "node": "D19.1",
+        "kind": "equation consistency",
+        "Q16": "OPEN",
+        "scope": "minimal scalar action as a proposed supplier, not the framework as a whole",
+        "reason": "The displayed curvature term is (ξ/2)χ²R, whose partial derivative w.r.t. χ is ξχR. The displayed χ equation instead has ξκ₀χR. State a rescaling/convention or correct the candidate before attaching it as an exact variational receipt. No upstream correction made.",
+        "evidence": [
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\05_Minimal_Chi_Action_Physical_Degrees_of_Freedom.md",
+            "line": 129,
+            "end_line": 129,
+            "text": "$$S_\\chi = \\int d^4x \\sqrt{-g} \\left[ \\frac{1}{2\\kappa_0}(1 + \\xi \\kappa_0 \\chi^2) R - \\frac{1}{2} g^{\\mu\\nu} \\partial_\\mu \\chi \\partial_\\nu \\chi - \\frac{1}{2} m_\\chi^2 \\chi^2 - \\frac{\\lambda}{4} \\chi^4 + \\mathcal{L}_{\\text{matter}} \\right]$$",
+            "sha256": "dff0212ac6174046ad9076b95ae203ee5793dad63a918be31cba3bea3ee3af8d"
+          },
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\05_Minimal_Chi_Action_Physical_Degrees_of_Freedom.md",
+            "line": 167,
+            "end_line": 167,
+            "text": "$$\\Box \\chi - m_\\chi^2 \\chi - \\lambda \\chi^3 + \\xi \\kappa_0 \\chi R = 0$$",
+            "sha256": "dff0212ac6174046ad9076b95ae203ee5793dad63a918be31cba3bea3ee3af8d"
+          }
+        ],
+        "affected_nodes": [
+          "A10.2",
+          "A13.2",
+          "D19.1",
+          "D19.5",
+          "D3.1",
+          "D3.3",
+          "E13.1",
+          "E14.1",
+          "E19.1",
+          "E4.1",
+          "LN1.1",
+          "P2.2",
+          "SC-QUANTUM"
+        ]
+      }
+    ]
+  }
+}

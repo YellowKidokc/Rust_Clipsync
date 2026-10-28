@@ -1,0 +1,88 @@
+{
+ "id": "D19.5",
+ "title": "D19.5 Law V (Conservation)",
+ "lifecycle": "open",
+ "tier": 13,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "P3.2"
+ ],
+ "proposed": [
+  "D13.1",
+  "D3.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is a continuous/Lagrangian Noether-correspondence statement requiring differential calculus, field functionals, continuous symmetry groups, and time derivatives. Z3 cannot faithfully encode this general claim without either formalizing substantial calculus/analysis or reducing to a finite example, which would substitute an easier side calculation. Therefore the main claim is not checkable as a precise z3-solver assertion within the required encoding.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "D19.5/Q15/0144",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "conservation of coherence",
+   "reason": "P3.2 is retired; source action and coherence definitions do not themselves supply symmetry/regularity/boundary assumptions or a conserved current."
+  },
+  {
+   "id": "D19.5/Q15/0145",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the leap from P-IMAGO to a concrete chi-field Lagrangian and its continuous symmetry group; P-IMAGO explicitly does not entail physical laws or equations."
+  },
+  {
+   "id": "D19.5/Q15/0256",
+   "kind": "known countermodel",
+   "status": "FATAL",
+   "scope": "justice + offender release alone -> judge pays",
+   "reason": "The positive-cost allocation offender=0,third-party=cost,judge=0 conserves and releases. cross_unique assumes judge pays."
+  },
+  {
+   "id": "D19.5/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Law V (Conservation Symmetry): every continuous symmetry of the chi-field generates a conserved Noether quantity.",
+   "reason": "The main claim is a continuous/Lagrangian Noether-correspondence statement requiring differential calculus, field functionals, continuous symmetry groups, and time derivatives. Z3 cannot faithfully encode this general claim without either formalizing substantial calculus/analysis or reducing to a finite example, which would substitute an easier side calculation. Therefore the main claim is not checkable as a precise z3-solver assertion within the required encoding."
+  }
+ ],
+ "ports": [],
+ "main": "D19.5",
+ "claims": [
+  "D19.5",
+  "D19.5::split-01",
+  "D19.5::split-02",
+  "D19.5::split-03",
+  "D19.5::split-04",
+  "D19.5::split-05",
+  "D19.5::split-06",
+  "D19.5::split-07",
+  "D19.5::split-08",
+  "D19.5::split-09",
+  "D19.5::split-10",
+  "D19.5::split-11",
+  "D19.5::split-12",
+  "D19.5::receipt::LawToLaw.four_laws_share_one_shape",
+  "D19.5::receipt::LawToLaw.person_pattern_not_law_pattern",
+  "D19.5::receipt::Law5JusticeMercy.justice_conserves",
+  "D19.5::receipt::Law5JusticeMercy.mercy_conserves",
+  "D19.5::receipt::Law5JusticeMercy.cross_conserves",
+  "D19.5::receipt::Law5JusticeMercy.justice_unique",
+  "D19.5::receipt::Law5JusticeMercy.mercy_unique",
+  "D19.5::receipt::Law5JusticeMercy.cross_unique",
+  "D19.5::receipt::Law5JusticeMercy.cross_maximizes_both",
+  "D19.5::receipt::Law5JusticeMercy.vengeance_not_conserved",
+  "D19.5::receipt::Law5JusticeMercy.enabling_not_conserved",
+  "D19.5::receipt::Law5JusticeMercy.not_cross_fails_condition"
+ ],
+ "source": "source/nodes/D19.5.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

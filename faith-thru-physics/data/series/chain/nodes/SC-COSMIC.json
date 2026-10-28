@@ -1,0 +1,51 @@
+{
+ "id": "SC-COSMIC",
+ "title": "Cosmic Scale Coherence",
+ "lifecycle": "scale_definition",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [
+  "A2.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "SC-COSMIC/Q15/0229",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation reaches a general analogical claim that cosmic created order reflects God, but fails when the record assigns that claim a specific χ_cosmic integral, differential equation, fine-tuning probability, constant-selection mechanism, curvature coupling, and guaranteed Omega convergence; these are asserted as derived rather than supported by A0 plus P-IMAGO."
+  }
+ ],
+ "ports": [],
+ "main": "SC-COSMIC",
+ "claims": [
+  "SC-COSMIC",
+  "SC-COSMIC::split-01",
+  "SC-COSMIC::split-02",
+  "SC-COSMIC::split-03",
+  "SC-COSMIC::split-04",
+  "SC-COSMIC::split-05",
+  "SC-COSMIC::split-06",
+  "SC-COSMIC::split-07",
+  "SC-COSMIC::split-08",
+  "SC-COSMIC::split-09",
+  "SC-COSMIC::split-10",
+  "SC-COSMIC::split-11"
+ ],
+ "source": "source/nodes/SC-COSMIC.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

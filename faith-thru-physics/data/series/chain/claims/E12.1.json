@@ -1,0 +1,57 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "E12.1",
+ "claim_id": "E12.1",
+ "type": "CLAIM",
+ "text": "Moral orientation toward God tends toward final maximal coherence/union with God, while orientation away from God tends toward final fragmentation/zero coherence.",
+ "source": {
+  "file": "source/nodes/E12.1.yaml",
+  "quote": "Moral orientation toward God tends toward final maximal coherence/union with God, while orientation away from God tends toward final fragmentation/zero coherence.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "constitutive_law",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "Creaturely moral coherence follows a one-dimensional autonomous logistic ODE with state Phi in [0,Phi_max].; Phi is a measurable integrated-information/coherence quantity and Phi_max is divine coherence.; sigma is a binary moral sign, gamma is a positive constant, and an initial Phi0 is specified.; Eschatological final state equals the t→∞ limit of that ODE.; The Lyapunov, thermodynamic, quantum-Zeno, Lindblad, stochastic, and information-theoretic formulations are physically/spiritually applicable to souls.; Empirical or revelatory data identify the model with neural, social, spiritual, or quantum systems.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/E12.1.yaml#E12.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "E12.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "Creaturely moral coherence follows a one-dimensional autonomous logistic ODE with state Phi in [0,Phi_max].",
+  "Phi is a measurable integrated-information/coherence quantity and Phi_max is divine coherence.",
+  "sigma is a binary moral sign, gamma is a positive constant, and an initial Phi0 is specified.",
+  "Eschatological final state equals the t→∞ limit of that ODE.",
+  "The Lyapunov, thermodynamic, quantum-Zeno, Lindblad, stochastic, and information-theoretic formulations are physically/spiritually applicable to souls.",
+  "Empirical or revelatory data identify the model with neural, social, spiritual, or quantum systems."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "E12.1/Q15/0123",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the move from A0+P-IMAGO's analogy of creaturely coherence to the specific logistic ODE dPhi/dt = sigma gamma (Phi_max - Phi)Phi with binary sigma, constant gamma, and Phi_max as divine coherence; P-IMAGO explicitly does not license physical laws, equations, constants, or measurements."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is analytic: it involves a differential equation, its flow/solution, and an infinite-time limit. z3-solver does not support differential operators, solution existence/uniqueness, or limits, so a faithful Z3 encoding cannot be given. Encoding only algebraic sign or fixed-point facts would be a side calculation rather than the main claim.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

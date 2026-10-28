@@ -1,7 +1,7 @@
 {
  "format": "town-agents/1",
  "name": "Rival: people cross the Wall on their own",
- "note": "The Grace town with BC1 removed: a person at the Wall can climb through on their own one time in ten, and enters Response awake without the Spirit's knock. Everything else is unchanged. This is not a claim anyone holds; it is here to show what that one rule changes.",
+ "note": "The Grace town with BC1 removed: a person at the Wall can climb through on their own one time in ten, and enters Response awake without the Spirit's knock. Everything else is unchanged. This is not a claim anyone holds; it is here to show what that one rule changes. Operator W (witness, an observable assessed by a person) is not simulated: it reads assessments and changes no state.",
  "source": "FOR_DESIGN_2026-10-25/03_ONE_NODE_BUILT_ALL_THE_WAY/node_contracts.json",
  "params": [
   {
@@ -103,7 +103,8 @@
    "report": "yes",
    "vars": {
     "debt": 1,
-    "c_spiritual": 0.25
+    "c_spiritual": 0.25,
+    "c_moral": 0.5
    },
    "each": "Person"
   }
@@ -165,6 +166,20 @@
    "door": "Pressure delays the answer; it cannot answer for the person.",
    "warrant": "modeling choice (not in the contract)",
    "receipt": "none: added for the simulation"
+  },
+  {
+   "id": "D",
+   "label": "Corrupt",
+   "actor": "adversary",
+   "target": "person",
+   "when": "t.c_moral > 0.01 or t.c_spiritual > 0.01",
+   "chance": "0.2",
+   "then": "t.c_moral = round(t.c_moral / 2, 3); t.c_spiritual = round(t.c_spiritual / 2, 3)",
+   "actor_to": "target",
+   "say": "Corruption halves {t}'s moral and spiritual coherence. It cannot awaken, answer, pay or restore.",
+   "door": "Damage only: D cannot invoke A, R, K or G.",
+   "warrant": "admitted (revelation)",
+   "receipt": "node_contracts.json: operator D; grace_model.py: corrupt"
   },
   {
    "id": "R",
@@ -271,6 +286,18 @@
    "receipt": "none: movement only"
   },
   {
+   "id": "P",
+   "label": "Process inside",
+   "actor": "person",
+   "when": "true",
+   "chance": "0.08",
+   "always": "yes",
+   "say": "{a} works it over inside. Nothing changes, and it gives no permission to restore.",
+   "door": "Internal only: P produces no restoration permission.",
+   "warrant": "admitted (revelation)",
+   "receipt": "node_contracts.json: operator P; Wall.lean: invariant_preserved"
+  },
+  {
    "id": "ROAM",
    "label": "Roam",
    "actor": "adversary",
@@ -316,6 +343,10 @@
   {
    "label": "Hesitations under the adversary",
    "measure": "count:HES"
+  },
+  {
+   "label": "Times corruption damaged someone",
+   "measure": "count:D"
   },
   {
    "label": "Anyone through the Wall alone",

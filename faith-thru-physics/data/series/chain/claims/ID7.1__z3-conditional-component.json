@@ -1,0 +1,47 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "ID7.1",
+ "claim_id": "ID7.1::z3-conditional-component",
+ "type": "CLAIM",
+ "text": "The Terminal Observer is God (TO = G).",
+ "source": {
+  "file": "source/nodes/ID7.1.yaml",
+  "quote": "The Terminal Observer is God (TO = G).",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "theorem",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "conditionally_proved",
+  "warrant_premise": "Terminal Observer has the seven properties: Φ=∞, necessary existence, omnipresence, maximal coherence, source of all actuality, self-grounding, and voluntary/personal coupling.; God has the matching traditional divine attributes: omniscience, aseity, omnipresence, perfection, creator, uncaused cause, and personal/relational.; The physical and theological attributes are isomorphic (encoded as shared predicates).; Identity of indiscernibles: any two entities with the same listed properties are identical.; The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge.",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/ID7.1.yaml#ID7.1::z3-conditional-component (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [
+  {
+   "kind": "z3",
+   "ref": "sources/z3/03_PROMISING/results.json"
+  }
+ ],
+ "neighbors": [],
+ "node": "ID7.1",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Reported Z3 encoded component; domain bridge remains unverified; this is not a new solver run.",
+ "conditional_premises": [
+  "Terminal Observer has the seven properties: Φ=∞, necessary existence, omnipresence, maximal coherence, source of all actuality, self-grounding, and voluntary/personal coupling.",
+  "God has the matching traditional divine attributes: omniscience, aseity, omnipresence, perfection, creator, uncaused cause, and personal/relational.",
+  "The physical and theological attributes are isomorphic (encoded as shared predicates).",
+  "Identity of indiscernibles: any two entities with the same listed properties are identical.",
+  "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+ ],
+ "obstructions": [],
+ "generated_by": "proposal only"
+}

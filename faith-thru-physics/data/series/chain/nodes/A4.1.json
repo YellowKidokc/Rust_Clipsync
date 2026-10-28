@@ -1,0 +1,64 @@
+{
+ "id": "A4.1",
+ "title": "A4.1 Parsimony",
+ "lifecycle": "framework_commitment",
+ "tier": 5,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [
+  "A2.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is metaphysical and interpretive. It lacks a precise formal predicate for 'nature prefers', a defined set of alternative descriptions, and criteria for minimality over physical laws or worlds. Encoding it in Z3 would require adding unstated semantics, so it is not faithfully checkable as stated.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "A4.1/Q15/0034",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails when moving from 'creation reflects God's order/intelligibility' to 'nature prefers minimal description' or 'parsimony is a physical/ontological compression law'; P-IMAGO explicitly disclaims derivation of physical laws, equations, constants, or measurements."
+  },
+  {
+   "id": "A4.1/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: A4.1 Parsimony: Nature prefers minimal description.",
+   "reason": "The main claim is metaphysical and interpretive. It lacks a precise formal predicate for 'nature prefers', a defined set of alternative descriptions, and criteria for minimality over physical laws or worlds. Encoding it in Z3 would require adding unstated semantics, so it is not faithfully checkable as stated."
+  }
+ ],
+ "ports": [],
+ "main": "A4.1",
+ "claims": [
+  "A4.1",
+  "A4.1::split-01",
+  "A4.1::split-02",
+  "A4.1::split-03",
+  "A4.1::split-04",
+  "A4.1::split-05",
+  "A4.1::split-06",
+  "A4.1::split-07",
+  "A4.1::split-08",
+  "A4.1::split-09",
+  "A4.1::split-10",
+  "A4.1::split-11",
+  "A4.1::split-12",
+  "A4.1::split-13",
+  "A4.1::split-14",
+  "A4.1::split-15"
+ ],
+ "source": "source/nodes/A4.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

@@ -1,0 +1,57 @@
+{
+ "id": "D13.1",
+ "title": "D13.1 Unified Field Lagrangian",
+ "lifecycle": "definition",
+ "tier": 12,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file's main formal statement is a physical definition with units and an order-of-magnitude empirical estimate, not a precise mathematical theorem. Encoding only the dimension exponents or the numerical approximation in Z3 would be a side calculation rather than a faithful check of the main claim. The derivation also relies on observational/empirical assumptions and is internally revised in the text, so the statement cannot be faithfully encoded without adding unstated assumptions.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "D13.1/Q15/0130",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the assertion that A13.2 plus A0/P-IMAGO yields a specific χ-field Lagrangian and a numeric κ; P-IMAGO licenses only creaturely resemblance/participation, not physical field identification, equations, constants, or measurements."
+  },
+  {
+   "id": "D13.1/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Definition and approximate physical value of the geometry–Logos coupling constant κ in the Unified Field Lagrangian.",
+   "reason": "The file's main formal statement is a physical definition with units and an order-of-magnitude empirical estimate, not a precise mathematical theorem. Encoding only the dimension exponents or the numerical approximation in Z3 would be a side calculation rather than a faithful check of the main claim. The derivation also relies on observational/empirical assumptions and is internally revised in the text, so the statement cannot be faithfully encoded without adding unstated assumptions."
+  }
+ ],
+ "ports": [],
+ "main": "D13.1",
+ "claims": [
+  "D13.1",
+  "D13.1::split-01",
+  "D13.1::split-02",
+  "D13.1::split-03",
+  "D13.1::split-04",
+  "D13.1::split-05",
+  "D13.1::split-06",
+  "D13.1::split-07",
+  "D13.1::split-08"
+ ],
+ "source": "source/nodes/D13.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

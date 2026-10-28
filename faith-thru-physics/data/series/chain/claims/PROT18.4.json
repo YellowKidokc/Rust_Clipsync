@@ -1,0 +1,57 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "PROT18.4",
+ "claim_id": "PROT18.4",
+ "type": "CLAIM",
+ "text": "Spiritual conversion can be empirically tested for a discontinuity in coherence rather than merely gradual change.",
+ "source": {
+  "file": "source/nodes/PROT18.4.yaml",
+  "quote": "Spiritual conversion can be empirically tested for a discontinuity in coherence rather than merely gradual change.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "observable",
+  "composition_level": 1,
+  "claim_role": "empirical_hypothesis",
+  "register": "embodied"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "Coherence is a measurable quantity that can be operationalized across EEG, HRV, psychological, and behavioral levels.; Conversion events have identifiable times t_c.; Phase-transition-like discontinuity in coherence would be evidence of a real qualitative spiritual state change.; Social or aggregate coherence exists and can be measured.; Moral states relate to coherence as in A8.1.; A chi-field or equivalent mechanism may link spiritual conversion to physical coherence.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/PROT18.4.yaml#PROT18.4::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "E3.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "PROT18.4",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "Coherence is a measurable quantity that can be operationalized across EEG, HRV, psychological, and behavioral levels.",
+  "Conversion events have identifiable times t_c.",
+  "Phase-transition-like discontinuity in coherence would be evidence of a real qualitative spiritual state change.",
+  "Social or aggregate coherence exists and can be measured.",
+  "Moral states relate to coherence as in A8.1.",
+  "A chi-field or equivalent mechanism may link spiritual conversion to physical coherence."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "PROT18.4/Q15/0181",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the move from P-IMAGO's general analogy/participation to a specific measurable discontinuity in conversion coherence; A0+P-IMAGO do not entail EEG/HRV phase transitions, a chi-field mechanism, or that conversion is discrete rather than gradual."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

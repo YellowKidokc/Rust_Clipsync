@@ -1,0 +1,60 @@
+{
+ "id": "LN1.2",
+ "title": "LN1.2 It From Bit",
+ "lifecycle": "merged",
+ "tier": 1,
+ "context_parent": "A0",
+ "merged_into": "LN1.1",
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A1.1",
+  "A1.2"
+ ],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "LN1.2/Q15/0009",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "duplicate node identity",
+   "reason": "David merged the source into LN1.1; retain its claim and provenance at that destination. Warrant is not upgraded."
+  },
+  {
+   "id": "LN1.2/Q15/0010",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the leap from P-IMAGO's general analogy of being and intelligibility to the physical-informational thesis that physical reality supervenes on bits; P-IMAGO explicitly does not license physical laws, equations, constants, measurements, or information primacy."
+  }
+ ],
+ "ports": [],
+ "main": "LN1.2",
+ "claims": [
+  "LN1.2",
+  "LN1.2::split-01",
+  "LN1.2::split-02",
+  "LN1.2::split-03",
+  "LN1.2::split-04",
+  "LN1.2::split-05",
+  "LN1.2::split-06",
+  "LN1.2::split-07",
+  "LN1.2::split-08",
+  "LN1.2::split-09",
+  "LN1.2::split-10",
+  "LN1.2::split-11",
+  "LN1.2::split-12",
+  "LN1.2::split-13",
+  "LN1.2::split-14"
+ ],
+ "source": "source/nodes/LN1.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

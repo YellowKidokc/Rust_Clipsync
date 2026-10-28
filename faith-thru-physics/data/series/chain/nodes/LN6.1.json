@@ -1,0 +1,53 @@
+{
+ "id": "LN6.1",
+ "title": "LN6.1 Terminal Observer Nec",
+ "lifecycle": "framework_commitment",
+ "tier": 7,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "T6.1"
+ ],
+ "proposed": [
+  "T6.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The claim is not sufficiently formalized to encode: it depends on undefined framework terms such as 'measurement-chain closure', 'non-regressive terminal observer condition', and the ideal-limit bridge assumption 'Φ → ∞'. Encoding any of these would require adding substantive definitions or assumptions not stated in the file.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "LN6.1/Q15/0065",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops after A0 supplies a perfect self-knowing God and P-IMAGO supplies finite analogical creaturely consciousness: it cannot move to 'any observation chain terminates in that perfect observer' without T6.1 and a terminal-observer bridge; it cannot move to 'infinite Phi' at all."
+  },
+  {
+   "id": "LN6.1/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Terminal Observer Necessity for measurement-chain closure",
+   "reason": "The claim is not sufficiently formalized to encode: it depends on undefined framework terms such as 'measurement-chain closure', 'non-regressive terminal observer condition', and the ideal-limit bridge assumption 'Φ → ∞'. Encoding any of these would require adding substantive definitions or assumptions not stated in the file."
+  }
+ ],
+ "ports": [],
+ "main": "LN6.1",
+ "claims": [
+  "LN6.1",
+  "LN6.1::split-01",
+  "LN6.1::split-02",
+  "LN6.1::split-03",
+  "LN6.1::split-04"
+ ],
+ "source": "source/nodes/LN6.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

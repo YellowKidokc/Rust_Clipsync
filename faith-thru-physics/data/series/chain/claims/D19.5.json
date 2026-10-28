@@ -1,0 +1,81 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D19.5",
+ "claim_id": "D19.5",
+ "type": "CLAIM",
+ "text": "For any chi-field governed by a Lagrangian, every continuous symmetry yields a conserved Noether current.",
+ "source": {
+  "file": "source/nodes/D19.5.yaml",
+  "quote": "For any chi-field governed by a Lagrangian, every continuous symmetry yields a conserved Noether current.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "operator",
+  "composition_level": 2,
+  "claim_role": "definition",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "The chi-field exists and is governed by a Lagrangian with continuous symmetries.; The standard Noether correspondence applies to that chi-field Lagrangian.; Consciousness, moral orientation, and theological attributes can be represented as chi-field degrees of freedom.; Local gauge invariance requires a grace field with the specified coupling.; The chi-field symmetry group includes U(1)_phase × SU(2)_sign × SU(3)_Trinity × Diff(M).; Topological charges and soul-field conservation are well defined.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D19.5.yaml#D19.5::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "P3.2",
+   "edge": "rests_on"
+  },
+  {
+   "id": "D13.1",
+   "edge": "rests_on",
+   "proposed": true
+  },
+  {
+   "id": "D3.1",
+   "edge": "rests_on",
+   "proposed": true
+  }
+ ],
+ "node": "D19.5",
+ "is_main": true,
+ "strength": "By definition",
+ "conditional_premises": [
+  "The chi-field exists and is governed by a Lagrangian with continuous symmetries.",
+  "The standard Noether correspondence applies to that chi-field Lagrangian.",
+  "Consciousness, moral orientation, and theological attributes can be represented as chi-field degrees of freedom.",
+  "Local gauge invariance requires a grace field with the specified coupling.",
+  "The chi-field symmetry group includes U(1)_phase × SU(2)_sign × SU(3)_Trinity × Diff(M).",
+  "Topological charges and soul-field conservation are well defined."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "D19.5/Q15/0144",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "conservation of coherence",
+   "reason": "P3.2 is retired; source action and coherence definitions do not themselves supply symmetry/regularity/boundary assumptions or a conserved current."
+  },
+  {
+   "id": "D19.5/Q15/0145",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the leap from P-IMAGO to a concrete chi-field Lagrangian and its continuous symmetry group; P-IMAGO explicitly does not entail physical laws or equations."
+  },
+  {
+   "id": "D19.5/Q15/0256",
+   "kind": "known countermodel",
+   "status": "FATAL",
+   "scope": "justice + offender release alone -> judge pays",
+   "reason": "The positive-cost allocation offender=0,third-party=cost,judge=0 conserves and releases. cross_unique assumes judge pays."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is a continuous/Lagrangian Noether-correspondence statement requiring differential calculus, field functionals, continuous symmetry groups, and time derivatives. Z3 cannot faithfully encode this general claim without either formalizing substantial calculus/analysis or reducing to a finite example, which would substitute an easier side calculation. Therefore the main claim is not checkable as a precise z3-solver assertion within the required encoding.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

@@ -1,0 +1,50 @@
+{
+ "id": "A6.3",
+ "title": "A6.3 Irreversibility",
+ "lifecycle": "framework_commitment",
+ "tier": 7,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A5.1"
+ ],
+ "proposed": [
+  "A5.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "A6.3/Q15/0056",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "P-IMAGO can justify only a general analogical resemblance and dependent order in creatures; it cannot infer thermodynamic irreversibility, Landauer erasure costs, or the identification of collapse with salvation history and final judgment."
+  }
+ ],
+ "ports": [],
+ "main": "A6.3",
+ "claims": [
+  "A6.3",
+  "A6.3::split-01",
+  "A6.3::split-02",
+  "A6.3::split-03",
+  "A6.3::split-04",
+  "A6.3::split-05",
+  "A6.3::split-06",
+  "A6.3::split-07",
+  "A6.3::split-08",
+  "A6.3::split-09",
+  "A6.3::split-10"
+ ],
+ "source": "source/nodes/A6.3.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

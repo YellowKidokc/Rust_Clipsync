@@ -1,0 +1,42 @@
+{
+ "id": "EXP5.2",
+ "title": "EXP5.2 Quantum Eraser",
+ "lifecycle": "experimental",
+ "tier": 6,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "HY_EVIDENCE",
+ "declared": [
+  "A5.1"
+ ],
+ "proposed": [
+  "A5.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "EXP5.2/Q15/0051",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "A0 + P-IMAGO cannot derive a specific quantum-eraser measurement; and the move from quantum which-path information to LN5.1 'Chi Requires Observer For Actualization' lacks a bridge premise, so the full record is overclaimed as stated."
+  }
+ ],
+ "ports": [],
+ "main": "EXP5.2",
+ "claims": [
+  "EXP5.2",
+  "EXP5.2::split-01",
+  "EXP5.2::split-02"
+ ],
+ "source": "source/nodes/EXP5.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

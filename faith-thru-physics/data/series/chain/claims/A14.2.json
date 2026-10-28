@@ -1,0 +1,54 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "A14.2",
+ "claim_id": "A14.2",
+ "type": "CLAIM",
+ "text": "The effective cosmological constant (dark energy) is a function of the universe's collective consciousness.",
+ "source": {
+  "file": "source/nodes/A14.2.yaml",
+  "quote": "The effective cosmological constant (dark energy) is a function of the universe's collective consciousness.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "observable",
+  "composition_level": 1,
+  "claim_role": "empirical_hypothesis",
+  "register": "physical"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A physical bridge law specifying Λ = f(Ψ_collective) or a causal mechanism by which collective consciousness changes effective dark energy.; Operational definitions and measurements of Ψ_collective, Φ, and the Logos Field χ.; Empirical evidence distinguishing a consciousness-responsive Λ from a constant Λ or other dark-energy models.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/A14.2.yaml#A14.2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "A14.2",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A physical bridge law specifying Λ = f(Ψ_collective) or a causal mechanism by which collective consciousness changes effective dark energy.",
+  "Operational definitions and measurements of Ψ_collective, Φ, and the Logos Field χ.",
+  "Empirical evidence distinguishing a consciousness-responsive Λ from a constant Λ or other dark-energy models."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "A14.2/Q15/0135",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the inference that creaturely consciousness or participation in God entails a specific functional dependence of the cosmological constant on collective consciousness; P-IMAGO explicitly excludes physical-law/constant consequences."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file states a provisional qualitative hypothesis, Lambda = Lambda(Psi_collective), with no precise domain, functional form, units, or empirical constraints. A Z3 encoding would either be vacuous, since an arbitrary function can always be posited, or would require unstated assumptions. Therefore the main claim cannot be faithfully encoded as a checkable mathematical component.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

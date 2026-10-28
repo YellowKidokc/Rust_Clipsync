@@ -1,0 +1,71 @@
+{
+ "id": "A11.2",
+ "title": "A11.2 Coherence-Morality Identity",
+ "lifecycle": "stance",
+ "tier": 11,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. Not encoded: the main claim is an asserted identity/axiom between moral predicates and a coherence quantity. The file does not give a formal semantics for 'good', 'evil', or 'destruction' independent of the identity itself, and the proposed 'exceptionless explanatory correlation = identity' step is not a formal logical inference. Encoding it as Good(a) iff coherence increases would merely restate the conclusion.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "A11.2/Q15/0113",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "information/moral/spiritual coherence identity",
+   "reason": "C-info, C-moral and C-spiritual lack an established conversion/equality bridge; a single scalar must not carry all three warrants."
+  },
+  {
+   "id": "A11.2/Q15/0114",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the step from 'creaturely moral goodness is finite participation in God's goodness/order' to 'Goodness ≡ coherence maximization and evil ≡ destruction'; the identity is asserted, not derived."
+  },
+  {
+   "id": "A11.2/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Coherence-morality identity: goodness is coherence maximization or coherence increase, and evil is destruction or coherence decrease.",
+   "reason": "Not encoded: the main claim is an asserted identity/axiom between moral predicates and a coherence quantity. The file does not give a formal semantics for 'good', 'evil', or 'destruction' independent of the identity itself, and the proposed 'exceptionless explanatory correlation = identity' step is not a formal logical inference. Encoding it as Good(a) iff coherence increases would merely restate the conclusion."
+  }
+ ],
+ "ports": [],
+ "main": "A11.2",
+ "claims": [
+  "A11.2",
+  "A11.2::split-01",
+  "A11.2::split-02",
+  "A11.2::split-03",
+  "A11.2::split-04",
+  "A11.2::split-05",
+  "A11.2::split-06",
+  "A11.2::split-07",
+  "A11.2::split-08",
+  "A11.2::split-09",
+  "A11.2::split-10",
+  "A11.2::split-11",
+  "A11.2::split-12",
+  "A11.2::split-13",
+  "A11.2::split-14",
+  "A11.2::split-15"
+ ],
+ "source": "source/nodes/A11.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

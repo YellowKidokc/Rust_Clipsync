@@ -1,0 +1,62 @@
+{
+ "id": "BC6",
+ "title": "BC6 Infinite Energy Source",
+ "lifecycle": "boundary",
+ "tier": 8,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "ADMITTED",
+  "named_premises": [
+   "Permanent defeat of entropy/eternal sustained coherence requires an infinite energy source, identified with God/Logos."
+  ],
+  "denial_cost": "The chosen infinite-source boundary model and source-specific grace/soul/cosmic applications lose that support. The formal Wall theorem and its BC6-free invariant implication survive.",
+  "checkable_by": null,
+  "receipt": [
+   "sources/august/AXIOM_CHAIN_MASTER_v3.md"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "BC6/Q15/0078",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at inferring that God/Logos is an infinite energy source or capacity from A0's grounding and P-IMAGO's analogy; P-IMAGO bars moving from analogy to physical laws or quantities, and A0 alone does not specify infinite physical energy or power."
+  },
+  {
+   "id": "BC6/Q15/Z3-result-00",
+   "kind": "type mismatch",
+   "status": "OPEN",
+   "scope": "Verification process; no domain verdict: Defeating entropy for infinite time requires unbounded cumulative energy (no finite source capacity suffices).",
+   "reason": "solver timed out or could not decide Faithfulness to the intended domain is a separate obligation."
+  }
+ ],
+ "ports": [],
+ "main": "BC6",
+ "claims": [
+  "BC6",
+  "BC6::split-01",
+  "BC6::split-02",
+  "BC6::split-03",
+  "BC6::split-04",
+  "BC6::split-05",
+  "BC6::split-06",
+  "BC6::split-07",
+  "BC6::split-08",
+  "BC6::split-09",
+  "BC6::split-10",
+  "BC6::split-11",
+  "BC6::split-12",
+  "BC6::split-13",
+  "BC6::split-14",
+  "BC6::split-15"
+ ],
+ "source": "source/nodes/BC6.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

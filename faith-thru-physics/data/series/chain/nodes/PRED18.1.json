@@ -1,0 +1,54 @@
+{
+ "id": "PRED18.1",
+ "title": "H0 Prediction 2025-2030",
+ "lifecycle": "prediction",
+ "tier": 16,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "HY_EVIDENCE",
+ "declared": [
+  "PRED14.1"
+ ],
+ "proposed": [
+  "PRED14.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "PRED18.1/Q15/0183",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "A0 and P-IMAGO license only analogical creaturely dependence and resemblance; the derivation stops at the first unlicensed step, which is the introduction of a measurable chi-field with coupling α and equation of state wχ, and then the specific Zeno enhancement and H0 values."
+  }
+ ],
+ "ports": [],
+ "main": "PRED18.1",
+ "claims": [
+  "PRED18.1",
+  "PRED18.1::split-01",
+  "PRED18.1::split-02",
+  "PRED18.1::split-03",
+  "PRED18.1::split-04",
+  "PRED18.1::split-05",
+  "PRED18.1::split-06",
+  "PRED18.1::split-07",
+  "PRED18.1::split-08",
+  "PRED18.1::split-09",
+  "PRED18.1::split-10",
+  "PRED18.1::split-11",
+  "PRED18.1::split-12",
+  "PRED18.1::split-13",
+  "PRED18.1::split-14"
+ ],
+ "source": "source/nodes/PRED18.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

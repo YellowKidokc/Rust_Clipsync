@@ -1,0 +1,55 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D6.1",
+ "claim_id": "D6.1",
+ "type": "CLAIM",
+ "text": "Collapse rate γ is defined as the rate of transition from a superposition to an eigenstate.",
+ "source": {
+  "file": "source/nodes/D6.1.yaml",
+  "quote": "Collapse rate γ is defined as the rate of transition from a superposition to an eigenstate.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "state",
+  "composition_level": 0,
+  "claim_role": "definition",
+  "register": "embodied"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "Quantum-mechanical framework admitting superpositions and eigenstates; A physical collapse or measurement process with a well-defined transition rate; A bridge premise linking theological claims to specific physical quantities (not supplied by P-IMAGO); A6.3 Irreversibility as an upstream physical premise",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D6.1.yaml#D6.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A5.1",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "D6.1",
+ "is_main": true,
+ "strength": "By definition",
+ "conditional_premises": [
+  "Quantum-mechanical framework admitting superpositions and eigenstates",
+  "A physical collapse or measurement process with a well-defined transition rate",
+  "A bridge premise linking theological claims to specific physical quantities (not supplied by P-IMAGO)",
+  "A6.3 Irreversibility as an upstream physical premise"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "D6.1/Q15/0057",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "No derivation reaches a specific quantum-mechanical collapse rate; A0 and P-IMAGO stop at general created dependence and analogical resemblance, and P-IMAGO explicitly excludes physical laws, equations, constants, and measurements."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file is a definition/relabeling rather than a mathematical theorem with specified domains, transition dynamics, or measurable quantities. Encoding it as an unconstrained equality between two Real variables would not faithfully test the intended definition; it would only restate the definitional identity. Hence the main claim is not precisely checkable from the file as given.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

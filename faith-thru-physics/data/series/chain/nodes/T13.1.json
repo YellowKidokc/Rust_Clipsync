@@ -1,0 +1,59 @@
+{
+ "id": "T13.1",
+ "title": "T13.1 Dark Energy As χ Potential",
+ "lifecycle": "theorem",
+ "tier": 12,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is not a single precise mathematical theorem suitable for a faithful Z3 encoding. It is primarily a physical identification, and the file itself alternates between incompatible formulas and admits sign-convention confusion. Encoding any one formula would require choosing definitions or corrections not consistently stated in the source.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "T13.1/Q15/0132",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the identification of the formal χ-field vacuum contribution κV(χ0) with observed dark energy; A0+P-IMAGO do not supply this bridge, and the record's own equations are sign/dimension inconsistent."
+  },
+  {
+   "id": "T13.1/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Dark energy as the vacuum potential energy of the chi-field, stated as Λ_eff = (8πG/c^4)V(χ0) and later as Λ_eff = (8πGκ/c^4)V(χ0).",
+   "reason": "The main claim is not a single precise mathematical theorem suitable for a faithful Z3 encoding. It is primarily a physical identification, and the file itself alternates between incompatible formulas and admits sign-convention confusion. Encoding any one formula would require choosing definitions or corrections not consistently stated in the source."
+  }
+ ],
+ "ports": [],
+ "main": "T13.1",
+ "claims": [
+  "T13.1",
+  "T13.1::split-01",
+  "T13.1::split-02",
+  "T13.1::split-03",
+  "T13.1::split-04",
+  "T13.1::split-05",
+  "T13.1::split-06",
+  "T13.1::split-07",
+  "T13.1::split-08",
+  "T13.1::split-09",
+  "T13.1::split-10"
+ ],
+ "source": "source/nodes/T13.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

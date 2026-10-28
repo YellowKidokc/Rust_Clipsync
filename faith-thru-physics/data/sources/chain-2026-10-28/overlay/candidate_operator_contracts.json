@@ -1,0 +1,119 @@
+{
+  "schema": "theophysics-operator-contract-candidate-v1",
+  "status": "PROPOSAL_NOT_CANON",
+  "purpose": "Typed pilot separating mathematical definitions, theological commitments, operations and boundary conditions",
+  "scope": "Awakening-response-restoration pilot. Not a complete axiom set and not a validation of theology.",
+  "state": {
+    "identity": "I, uninterpreted stable identifier",
+    "phase": [
+      "dormant",
+      "awakened",
+      "restored"
+    ],
+    "record": "List E, uninterpreted historical/evidence records"
+  },
+  "quantities_kept_distinct": [
+    "physical entropy",
+    "information coherence",
+    "moral responsibility",
+    "spiritual standing",
+    "development or sanctification"
+  ],
+  "operators": [
+    {
+      "name": "awaken",
+      "actor": "Divine actor in the intended interpretation; not inferred by Lean",
+      "requires": "A PersonState",
+      "transition": "dormant -> awakened; other phases unchanged",
+      "preserves": [
+        "identity",
+        "record"
+      ],
+      "strength": "DEFINITION",
+      "open_obligation": "Independently justify phase meanings and divine attribution."
+    },
+    {
+      "name": "respond",
+      "actor": "Person in intended interpretation",
+      "input": "consent Bool supplied externally to the function",
+      "requires": "awakened and consent=true to reach restored",
+      "transition": "awakened -> restored; otherwise identity operation",
+      "preserves": [
+        "identity",
+        "record"
+      ],
+      "strength": "DEFINITION",
+      "open_obligation": "Input Bool does not prove free will, informed consent, absence of manipulation, or a universal soteriology."
+    },
+    {
+      "name": "restore_standing",
+      "actor": "Interpretation of the composed route, not an added physical force",
+      "transition": "respond true after awaken",
+      "strength": "DERIVED_WITHIN_CANDIDATE_DEFINITIONS",
+      "open_obligation": "Do not conflate standing with all psychological, moral or physical properties."
+    },
+    {
+      "name": "sanctify",
+      "status": "NOT_IMPLEMENTED",
+      "reason": "Ongoing development needs its own state and operation; idempotent standing reset does not imply growth is idempotent."
+    },
+    {
+      "name": "forgive_or_pay",
+      "status": "SEPARATE_LEDGER_MODULE",
+      "open_obligation": "Differentiate creditor, victim, judge, debtor and willing substitute. Paid debt + released offender does not select the judge."
+    }
+  ],
+  "boundary_conditions": [
+    {
+      "id": "CAPACITY",
+      "condition": "Response does not awaken a dormant state",
+      "mathematical_status": "PROVED_WITHIN_CANDIDATE"
+    },
+    {
+      "id": "CONSENT",
+      "condition": "False consent input blocks response restoration",
+      "mathematical_status": "PROVED_BY_DEFINITION",
+      "not_proved": "Causal non-coercion or resistibility across Christian traditions"
+    },
+    {
+      "id": "IDENTITY",
+      "condition": "awaken/respond preserve the identity field",
+      "mathematical_status": "PROVED_BY_DEFINITION",
+      "not_proved": "Metaphysical identity survival"
+    },
+    {
+      "id": "RECORD",
+      "condition": "awaken/respond preserve the record field",
+      "mathematical_status": "PROVED_BY_DEFINITION",
+      "not_proved": "Physical information conservation or inexhaustible historical ledger"
+    },
+    {
+      "id": "ORDER",
+      "condition": "awaken and respond do not commute at a dormant starting state with consent true",
+      "mathematical_status": "PROVED_IN_LEAN"
+    },
+    {
+      "id": "NONVACUITY",
+      "condition": "A restored state is reachable by the defined sequence",
+      "mathematical_status": "PROVED_IN_LEAN"
+    },
+    {
+      "id": "EXTERNALITY",
+      "condition": "Outside means outside a named family of admissible operations",
+      "mathematical_status": "REQUIRES_APPLICATION_PREMISE",
+      "not_proved": "Outside nature or the universe"
+    },
+    {
+      "id": "UNBOUNDED_DEMAND",
+      "condition": "Uniform positive integer cost per step implies cumulative demand exceeds any finite capacity",
+      "mathematical_status": "PROVED_CONDITIONAL_IN_LEAN",
+      "not_proved": "An actually infinite reservoir exists or is God"
+    }
+  ],
+  "tests": {
+    "lean": "GraceNodeCandidate.lean",
+    "adversarial_lean": "AdversarialAudit.lean",
+    "z3": "adversarial_z3_results.json"
+  },
+  "acceptance_gate": "Do not promote to canonical spiritual definitions until theological justification, rival interpretations, source version and empirical interpretation where applicable are reviewed."
+}

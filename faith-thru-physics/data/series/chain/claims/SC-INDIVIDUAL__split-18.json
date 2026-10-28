@@ -1,0 +1,34 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "SC-INDIVIDUAL",
+ "claim_id": "SC-INDIVIDUAL::split-18",
+ "type": "CLAIM",
+ "text": "Self-information and predictive-self formulas measure how the self reduces environmental uncertainty and mediates past/future.",
+ "source": {
+  "file": "source/nodes/SC-INDIVIDUAL.yaml",
+  "quote": "Self-information and predictive-self formulas measure how the self reduces environmental uncertainty and mediates past/future.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/SC-INDIVIDUAL.yaml#SC-INDIVIDUAL::split-18 (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "SC-INDIVIDUAL",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+ "obstructions": [],
+ "generated_by": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+}

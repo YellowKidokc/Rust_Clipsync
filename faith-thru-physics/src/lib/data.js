@@ -14,6 +14,7 @@ export function getJSON(path) {
   return cache.get(path);
 }
 export const claimPath = (id) => `claims/${encodeURIComponent(encodeURIComponent(id))}.json`;
+export const nodePath = (id) => `nodes/${encodeURIComponent(encodeURIComponent(id))}.json`;
 export const dataURL = (path) => BASE + path;
 
 // { data, error } for one path; null path = nothing to load

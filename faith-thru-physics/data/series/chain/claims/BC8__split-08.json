@@ -1,0 +1,34 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "BC8",
+ "claim_id": "BC8::split-08",
+ "type": "CLAIM",
+ "text": "Consent and rejection can be represented as projections onto v=1 and v=0 eigenspaces of a voluntary coupling operator V-hat, with partial consent as 0<v<1.",
+ "source": {
+  "file": "source/nodes/BC8.yaml",
+  "quote": "Consent and rejection can be represented as projections onto v=1 and v=0 eigenspaces of a voluntary coupling operator V-hat, with partial consent as 0<v<1.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/BC8.yaml#BC8::split-08 (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "BC8",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+ "obstructions": [],
+ "generated_by": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+}

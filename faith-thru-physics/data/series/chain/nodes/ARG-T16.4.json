@@ -1,0 +1,36 @@
+{
+ "id": "ARG-T16.4",
+ "title": "Buddhist accounts and the proposed grounding/observer criterion",
+ "lifecycle": "open_argument",
+ "tier": null,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "ARG-T16.4/Q15/0252",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "comparative argument, not active axiom",
+   "reason": "Operational boundary criteria, defined comparison domains, faithful mappings and rival tests are required."
+  }
+ ],
+ "ports": [],
+ "main": "ARG-T16.4",
+ "claims": [
+  "ARG-T16.4"
+ ],
+ "source": "source/nodes/ARG-T16.4.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

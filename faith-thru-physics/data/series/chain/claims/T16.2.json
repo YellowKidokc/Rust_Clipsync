@@ -1,0 +1,65 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "T16.2",
+ "claim_id": "T16.2",
+ "type": "CLAIM",
+ "text": "Islam fails BC4 because Tawhid lacks the internal observer-plurality required for measurement closure.",
+ "source": {
+  "file": "source/nodes/T16.2.yaml",
+  "quote": "Islam fails BC4 because Tawhid lacks the internal observer-plurality required for measurement closure.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "identification",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "BC4 Three-Observers Requirement: measurement closure requires exactly three distinct internal observers in the Terminal Observer.; Born Rule-to-divine-observer bridge: the three-term Born Rule structure corresponds to real observer plurality in God.; Tawhid premise: orthodox Islamic Tawhid entails no real internal observer distinctions (N_obs = 1).; BC2 Grace External to System: salvation must be by external grace alone, not works.; BC3 Measurement Orthogonality: orthogonal observers are required.; Gleason-theorem observer bridge: Gleason's theorem constrains theological observer count.; T16.1: Christianity satisfies all eight boundary conditions.",
+  "outcome": null,
+  "canon_status": "retired",
+  "grade_source": "copied:source/nodes/T16.2.yaml#T16.2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC4a",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "T16.2",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "BC4 Three-Observers Requirement: measurement closure requires exactly three distinct internal observers in the Terminal Observer.",
+  "Born Rule-to-divine-observer bridge: the three-term Born Rule structure corresponds to real observer plurality in God.",
+  "Tawhid premise: orthodox Islamic Tawhid entails no real internal observer distinctions (N_obs = 1).",
+  "BC2 Grace External to System: salvation must be by external grace alone, not works.",
+  "BC3 Measurement Orthogonality: orthogonal observers are required.",
+  "Gleason-theorem observer bridge: Gleason's theorem constrains theological observer count.",
+  "T16.1: Christianity satisfies all eight boundary conditions."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "T16.2/Q15/0159",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "axiom-set membership",
+   "reason": "David retired this record; it is retained with reason and cannot serve as an active axiom. Content-level truth is not settled merely by retirement."
+  },
+  {
+   "id": "T16.2/Q15/0160",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The A0 + P-IMAGO-only derivation fails at the step from the Born Rule's three-term mathematical form to exactly three internal divine observers; P-IMAGO only allows analogical resemblance and does not extend to physics, equations, or measurements."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

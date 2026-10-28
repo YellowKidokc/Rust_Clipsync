@@ -1,0 +1,62 @@
+{
+ "id": "FALS18.1",
+ "title": "Chi Field Falsification",
+ "lifecycle": "falsification",
+ "tier": 16,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "HY_EVIDENCE",
+ "declared": [
+  "D2.1"
+ ],
+ "proposed": [
+  "D2.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "FALS18.1/Q15/0185",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the transition from P-IMAGO's general analogy of being to a specific chi-field variable with two stable ego/grace modes and a required bimodal probability distribution; P-IMAGO explicitly does not derive particular physical laws, equations, constants, or measurements."
+  }
+ ],
+ "ports": [],
+ "main": "FALS18.1",
+ "claims": [
+  "FALS18.1",
+  "FALS18.1::split-01",
+  "FALS18.1::split-02",
+  "FALS18.1::split-03",
+  "FALS18.1::split-04",
+  "FALS18.1::split-05",
+  "FALS18.1::split-06",
+  "FALS18.1::split-07",
+  "FALS18.1::split-08",
+  "FALS18.1::split-09",
+  "FALS18.1::split-10",
+  "FALS18.1::split-11",
+  "FALS18.1::split-12",
+  "FALS18.1::split-13",
+  "FALS18.1::split-14",
+  "FALS18.1::split-15",
+  "FALS18.1::split-16",
+  "FALS18.1::split-17",
+  "FALS18.1::split-18",
+  "FALS18.1::split-19",
+  "FALS18.1::split-20",
+  "FALS18.1::split-21",
+  "FALS18.1::split-22"
+ ],
+ "source": "source/nodes/FALS18.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

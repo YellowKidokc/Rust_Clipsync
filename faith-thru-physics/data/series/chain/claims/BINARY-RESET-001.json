@@ -1,0 +1,38 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "BINARY-RESET-001",
+ "claim_id": "BINARY-RESET-001",
+ "type": "CLAIM",
+ "text": "Native BINARY-RESET-001 model with its independently labeled premises and scoped results.",
+ "source": {
+  "file": "source/nodes/BINARY-RESET-001.yaml",
+  "quote": "Native BINARY-RESET-001 model with its independently labeled premises and scoped results.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "operator",
+  "composition_level": 3,
+  "claim_role": "definition",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "proved",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/BINARY-RESET-001.yaml#BINARY-RESET-001::main (Axiom HTML Update, 2026-10-28)",
+  "note": "Formal integer-column reset/idempotence algebra only; not all rational stochastic semantics or physical implementation."
+ },
+ "receipts": [
+  {
+   "kind": "source",
+   "ref": "sources/native/BINARY_RESET_001/node_contracts.json"
+  }
+ ],
+ "neighbors": [],
+ "node": "BINARY-RESET-001",
+ "is_main": true,
+ "strength": "Conditional",
+ "obstructions": [],
+ "generated_by": "proposed finer classification; no vocabulary change applied"
+}

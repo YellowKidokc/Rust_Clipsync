@@ -1,0 +1,48 @@
+{
+ "id": "INV9",
+ "title": "INV9 Attunement Calibration",
+ "lifecycle": "retired",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC4a",
+  "BC6"
+ ],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is qualitative/normative: it uses undefined notions such as 'self-modeling agent', 'affordances', 'changing environment', 'must', 'brittleness', and 'misalignment'. The file gives illustrative formulas and control-theoretic analogies, but it does not state precise mathematical conditions under which the claimed necessity or misalignment result follows. Encoding only the calibration equations would ignore the main claim, and encoding the qualitative claim would require unstated for",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "INV9/Q15/0240",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "axiom-set membership",
+   "reason": "David retired this record; it is retained with reason and cannot serve as an active axiom. Content-level truth is not settled merely by retirement."
+  },
+  {
+   "id": "INV9/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: INV9 Attunement Calibration: a self-modeling agent in a changing environment must continuously update context-sensitive affordance calibration; static rigid rulesets produce brittleness and misalignment.",
+   "reason": "The main claim is qualitative/normative: it uses undefined notions such as 'self-modeling agent', 'affordances', 'changing environment', 'must', 'brittleness', and 'misalignment'. The file gives illustrative formulas and control-theoretic analogies, but it does not state precise mathematical conditions under which the claimed necessity or misalignment result follows. Encoding only the calibration equations would ignore the main claim, and encoding the qualitative claim would require unstated formal assumptions."
+  }
+ ],
+ "ports": [],
+ "main": "INV9",
+ "claims": [
+  "INV9"
+ ],
+ "source": "source/nodes/INV9.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

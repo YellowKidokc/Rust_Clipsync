@@ -1,0 +1,1550 @@
+{
+  "id": "D19.5",
+  "title": "D19.5 Law V (Conservation)",
+  "proposal_only": true,
+  "context_parent": "A0",
+  "tags": {
+    "system_part": "operator",
+    "composition_level": 2,
+    "claim_role": "definition",
+    "warrant": {
+      "status": "admitted",
+      "kind": "proof"
+    },
+    "register": "formal"
+  },
+  "old_mode": "AX_SCAFFOLD",
+  "raw_csv_mode": "AX_SCAFFOLD",
+  "proposed_mode": "AX_SCAFFOLD",
+  "tier": 13,
+  "node_lifecycle": "open",
+  "ruling": "DAVID-2026-10-25-NODE-RULINGS",
+  "merged_into": null,
+  "node_vs_claim_vs_proof": "Node specifies a structure; claims below own their warrants; proofs are exact scoped receipts.",
+  "sources": {
+    "v3_line": "D19.5 Law V (Conservation)         ← P3.2           [AX_SCAFFOLD]",
+    "current_root_record": "sources\\current_nodes\\D19_5_Law_V_Conservation_Symmetry.md",
+    "october_review": "sources\\october_review\\AX-140.json"
+  },
+  "dependencies": {
+    "source_declared": [
+      "P3.2"
+    ],
+    "source_relation": "depends_on",
+    "proposed_primary_support": [
+      "D13.1",
+      "D3.1"
+    ],
+    "stance_ceiling_sources": [
+      "A2.2"
+    ],
+    "merge_scope": "Incoming claims retain their own premises; source and current-root graph versions are not silently equated."
+  },
+  "coherences": {
+    "C-info": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-moral": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-spiritual": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    }
+  },
+  "claims": [
+    {
+      "id": "D19.5::main",
+      "statement": "For any chi-field governed by a Lagrangian, every continuous symmetry yields a conserved Noether current.",
+      "tags": {
+        "system_part": "operator",
+        "composition_level": 2,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "canon_status": "open",
+      "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+      "proof_refs": [],
+      "conditional_premises": [
+        "The chi-field exists and is governed by a Lagrangian with continuous symmetries.",
+        "The standard Noether correspondence applies to that chi-field Lagrangian.",
+        "Consciousness, moral orientation, and theological attributes can be represented as chi-field degrees of freedom.",
+        "Local gauge invariance requires a grace field with the specified coupling.",
+        "The chi-field symmetry group includes U(1)_phase × SU(2)_sign × SU(3)_Trinity × Diff(M).",
+        "Topological charges and soul-field conservation are well defined."
+      ],
+      "classification_proposal": {
+        "logical_role": "DEFINITION",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "proposal only; no new frozen vocabulary applied"
+      },
+      "Q13": {
+        "register": "formal",
+        "domains": [
+          "ONTOLOGICAL"
+        ]
+      },
+      "Q14": {
+        "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+        "coherence_equality_assumed": false
+      },
+      "Q15": [
+        {
+          "id": "D19.5/Q15/0144",
+          "node": "D19.5",
+          "kind": "missing bridge",
+          "Q16": "OPEN",
+          "scope": "conservation of coherence",
+          "reason": "P3.2 is retired; source action and coherence definitions do not themselves supply symmetry/regularity/boundary assumptions or a conserved current.",
+          "evidence": []
+        },
+        {
+          "id": "D19.5/Q15/0145",
+          "node": "D19.5",
+          "kind": "definitional conflict",
+          "Q16": "OPEN",
+          "scope": "original core claim/application",
+          "reason": "At the leap from P-IMAGO to a concrete chi-field Lagrangian and its continuous symmetry group; P-IMAGO explicitly does not entail physical laws or equations.",
+          "evidence": [
+            "sources\\october_review\\AX-140.json"
+          ]
+        },
+        {
+          "id": "D19.5/Q15/0256",
+          "node": "D19.5",
+          "kind": "known countermodel",
+          "Q16": "FATAL",
+          "scope": "justice + offender release alone -> judge pays",
+          "reason": "The positive-cost allocation offender=0,third-party=cost,judge=0 conserves and releases. cross_unique assumes judge pays.",
+          "evidence": [
+            "receipt_inventory.json"
+          ]
+        }
+      ],
+      "Q16": {
+        "D19.5/Q15/0144": "OPEN",
+        "D19.5/Q15/0145": "OPEN",
+        "D19.5/Q15/0256": "FATAL"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "claim_scoped_dependencies": [
+        "P3.2"
+      ],
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "D19.5::main"
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "D19.5::split-01",
+      "statement": "The chi-field Lagrangian includes consciousness, moral orientation, and their couplings as physical degrees of freedom.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-140.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.5::split-02",
+      "statement": "Consciousness-related symmetries of the chi-field generate soul-field conservation.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-140.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.5::split-03",
+      "statement": "The information measure I[chi] is conserved under a zero-gradient phase symmetry.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-140.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.5::split-04",
+      "statement": "Local gauge invariance of the chi-field requires a grace field A_mu and a gauge-covariant conservation law.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-140.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.5::split-05",
+      "statement": "The chi-field symmetry group is U(1)_phase × SU(2)_sign × SU(3)_Trinity × Diff(M).",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-140.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.5::split-06",
+      "statement": "Each factor of that symmetry group maps to information charge, sign conservation, Trinity closure, and stress-energy conservation.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-140.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.5::split-07",
+      "statement": "Topological charges ensure soul-field conservation under singular transformations.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-140.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.5::split-08",
+      "statement": "Divine attributes are conserved by theological gauge invariance, with Malachi 3:6 as evidence.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-140.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.5::split-09",
+      "statement": "Observed conservation laws are evidence for Law V.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-140.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.5::split-10",
+      "statement": "Law V grounds BC7 information conservation and S28 soul conservation.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-140.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.5::split-11",
+      "statement": "The Noether functor from symmetries to conserved quantities is faithful and essentially surjective in the stated category-theoretic sense.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-140.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.5::split-12",
+      "statement": "The von Neumann entropy of the chi-field is conserved under unitary evolution.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-140.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.5::receipt::LawToLaw.four_laws_share_one_shape",
+      "statement": "Exact compiled declaration LawToLaw.four_laws_share_one_shape",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Mechanism",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\LawToLaw.lean",
+        "receipts/LawToLaw.log"
+      ],
+      "scope_limit": "Coarse two-state models are assigned equal roles/values/steps. External-input flag is an annotation. No mechanistic physics/theology identity is proved. Three person regimes cannot match the two-state law pattern.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "legacy_strength": "Structure",
+      "match_scope_note": "States and moves of the stipulated finite Model.step relation; not an empirical causal mechanism.",
+      "grade": {
+        "match_scope": "states and moves",
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "D19.5::receipt::LawToLaw.person_pattern_not_law_pattern",
+      "statement": "Exact compiled declaration LawToLaw.person_pattern_not_law_pattern",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Negative",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\LawToLaw.lean",
+        "receipts/LawToLaw.log"
+      ],
+      "scope_limit": "Coarse two-state models are assigned equal roles/values/steps. External-input flag is an annotation. No mechanistic physics/theology identity is proved. Three person regimes cannot match the two-state law pattern.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "ASYMMETRY",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "fails",
+        "canon_status": "open",
+        "note": "Negative outcome concerns the named target assertion; a proof of its failure is not a failed proof."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "D19.5::receipt::Law5JusticeMercy.justice_conserves",
+      "statement": "Exact compiled declaration Law5JusticeMercy.justice_conserves",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law5JusticeMercy.lean",
+        "receipts/Law5JusticeMercy.log"
+      ],
+      "scope_limit": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "CONSERVATION",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "D19.5::receipt::Law5JusticeMercy.mercy_conserves",
+      "statement": "Exact compiled declaration Law5JusticeMercy.mercy_conserves",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law5JusticeMercy.lean",
+        "receipts/Law5JusticeMercy.log"
+      ],
+      "scope_limit": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "CONSERVATION",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "D19.5::receipt::Law5JusticeMercy.cross_conserves",
+      "statement": "Exact compiled declaration Law5JusticeMercy.cross_conserves",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law5JusticeMercy.lean",
+        "receipts/Law5JusticeMercy.log"
+      ],
+      "scope_limit": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "CONSERVATION",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "D19.5::receipt::Law5JusticeMercy.justice_unique",
+      "statement": "Exact compiled declaration Law5JusticeMercy.justice_unique",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law5JusticeMercy.lean",
+        "receipts/Law5JusticeMercy.log"
+      ],
+      "scope_limit": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "D19.5::receipt::Law5JusticeMercy.mercy_unique",
+      "statement": "Exact compiled declaration Law5JusticeMercy.mercy_unique",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law5JusticeMercy.lean",
+        "receipts/Law5JusticeMercy.log"
+      ],
+      "scope_limit": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "D19.5::receipt::Law5JusticeMercy.cross_unique",
+      "statement": "Exact compiled declaration Law5JusticeMercy.cross_unique",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law5JusticeMercy.lean",
+        "receipts/Law5JusticeMercy.log"
+      ],
+      "scope_limit": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "D19.5::receipt::Law5JusticeMercy.cross_maximizes_both",
+      "statement": "Exact compiled declaration Law5JusticeMercy.cross_maximizes_both",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law5JusticeMercy.lean",
+        "receipts/Law5JusticeMercy.log"
+      ],
+      "scope_limit": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "D19.5::receipt::Law5JusticeMercy.vengeance_not_conserved",
+      "statement": "Exact compiled declaration Law5JusticeMercy.vengeance_not_conserved",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Negative",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law5JusticeMercy.lean",
+        "receipts/Law5JusticeMercy.log"
+      ],
+      "scope_limit": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "CONSERVATION",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "fails",
+        "canon_status": "open",
+        "note": "Negative outcome concerns the named target assertion; a proof of its failure is not a failed proof."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "D19.5::receipt::Law5JusticeMercy.enabling_not_conserved",
+      "statement": "Exact compiled declaration Law5JusticeMercy.enabling_not_conserved",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Negative",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law5JusticeMercy.lean",
+        "receipts/Law5JusticeMercy.log"
+      ],
+      "scope_limit": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "CONSERVATION",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "fails",
+        "canon_status": "open",
+        "note": "Negative outcome concerns the named target assertion; a proof of its failure is not a failed proof."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "D19.5::receipt::Law5JusticeMercy.not_cross_fails_condition",
+      "statement": "Exact compiled declaration Law5JusticeMercy.not_cross_fails_condition",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Negative",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law5JusticeMercy.lean",
+        "receipts/Law5JusticeMercy.log"
+      ],
+      "scope_limit": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "ASYMMETRY",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "fails",
+        "canon_status": "open",
+        "note": "Negative outcome concerns the named target assertion; a proof of its failure is not a failed proof."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    }
+  ],
+  "Q13": {
+    "register": "formal",
+    "domains": [
+      "ONTOLOGICAL"
+    ]
+  },
+  "Q14": {
+    "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+    "coherence_equality_assumed": false
+  },
+  "Q15": [
+    {
+      "id": "D19.5/Q15/0144",
+      "node": "D19.5",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "conservation of coherence",
+      "reason": "P3.2 is retired; source action and coherence definitions do not themselves supply symmetry/regularity/boundary assumptions or a conserved current.",
+      "evidence": []
+    },
+    {
+      "id": "D19.5/Q15/0145",
+      "node": "D19.5",
+      "kind": "definitional conflict",
+      "Q16": "OPEN",
+      "scope": "original core claim/application",
+      "reason": "At the leap from P-IMAGO to a concrete chi-field Lagrangian and its continuous symmetry group; P-IMAGO explicitly does not entail physical laws or equations.",
+      "evidence": [
+        "sources\\october_review\\AX-140.json"
+      ]
+    },
+    {
+      "id": "D19.5/Q15/0256",
+      "node": "D19.5",
+      "kind": "known countermodel",
+      "Q16": "FATAL",
+      "scope": "justice + offender release alone -> judge pays",
+      "reason": "The positive-cost allocation offender=0,third-party=cost,judge=0 conserves and releases. cross_unique assumes judge pays.",
+      "evidence": [
+        "receipt_inventory.json"
+      ]
+    },
+    {
+      "id": "D19.5/Q15/Z3-00",
+      "node": "D19.5",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "Exact October Z3 component: Law V (Conservation Symmetry): every continuous symmetry of the chi-field generates a conserved Noether quantity.",
+      "reason": "The main claim is a continuous/Lagrangian Noether-correspondence statement requiring differential calculus, field functionals, continuous symmetry groups, and time derivatives. Z3 cannot faithfully encode this general claim without either formalizing substantial calculus/analysis or reducing to a finite example, which would substitute an easier side calculation. Therefore the main claim is not checkable as a precise z3-solver assertion within the required encoding.",
+      "evidence": [
+        "sources/z3/03_PROMISING/results.json"
+      ]
+    }
+  ],
+  "Q16": {
+    "D19.5/Q15/0144": "OPEN",
+    "D19.5/Q15/0145": "OPEN",
+    "D19.5/Q15/0256": "FATAL",
+    "D19.5/Q15/Z3-00": "OPEN"
+  },
+  "ports": [],
+  "open_interface_obligation": "This rerun is a classified source/claim proposal. A full executable six-field port contract is not claimed for every older node.",
+  "reason": [
+    "Weakest-premise ceiling inherited from A2.2."
+  ],
+  "attached_receipts": [
+    {
+      "file": "sources\\october_lean\\LawToLaw.lean",
+      "strength": "scoped per declaration",
+      "proof_does_not_promote_core": true
+    },
+    {
+      "file": "sources\\october_lean\\Law5JusticeMercy.lean",
+      "strength": "scoped per declaration",
+      "proof_does_not_promote_core": true
+    }
+  ],
+  "soundness": {
+    "bin": "UNCHECKED",
+    "named_premises": [],
+    "receipt": [
+      "sources/z3/03_PROMISING/results.json"
+    ],
+    "denial_cost": null,
+    "scope_note": "No holds/fails call manufactured for an untested main claim.",
+    "why": "Original domain claim lacks a complete faithful, source-matched test or derivation; retained fragment receipts do not establish it.",
+    "Z3_source_verdicts": [
+      "NOT_CHECKABLE"
+    ],
+    "ranking_snapshot": {
+      "score": 3,
+      "id": "AX-140",
+      "title": "Law V Definition (Conservation Symmetry)",
+      "register": "formal",
+      "a0": "derived+premise",
+      "math": "yes_with_missing_premise",
+      "z3": "NOT_CHECKABLE",
+      "why": "derived w/ one premise; math holds +premise",
+      "core": "For any chi-field governed by a Lagrangian, every continuous symmetry yields a conserved Noether current."
+    },
+    "A0_IMAGO_verdict": "ENTAILED_WITH_OTHER_PREMISE",
+    "conflicts": [],
+    "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is a continuous/Lagrangian Noether-correspondence statement requiring differential calculus, field functionals, continuous symmetry groups, and time derivatives. Z3 cannot faithfully encode this general claim without either formalizing substantial calculus/analysis or reducing to a finite example, which would substitute an easier side calculation. Therefore the main claim is not checkable as a precise z3-solver assertion within the required encoding."
+  },
+  "grade": {
+    "match_scope": null,
+    "warrant": "unverified",
+    "outcome": null,
+    "canon_status": "open",
+    "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery.",
+    "match_scope_applicable": false,
+    "assessed_claim_id": "D19.5::main"
+  },
+  "canon_rubric": {
+    "node": "D19.5",
+    "bin": "UNCHECKED",
+    "grade": {
+      "match_scope": null,
+      "warrant": "unverified",
+      "outcome": null,
+      "canon_status": "open",
+      "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery.",
+      "match_scope_applicable": false,
+      "assessed_claim_id": "D19.5::main"
+    },
+    "criteria": {
+      "address": true,
+      "grade": false,
+      "receipt": false,
+      "ruling_authority": false,
+      "no_unresolved_conflict": false
+    },
+    "score": 1,
+    "meets_all_five": false,
+    "missing": [
+      "grade",
+      "receipt",
+      "ruling_authority",
+      "no_unresolved_conflict"
+    ],
+    "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+    "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+    "proposal_only": true
+  },
+  "follow_up_review": {
+    "proposal_only": true,
+    "soundness_row": {
+      "node": "D19.5",
+      "bin": "UNCHECKED",
+      "scope": "No holds/fails call manufactured for an untested main claim.",
+      "premises": [],
+      "receipt": [
+        "sources/z3/03_PROMISING/results.json"
+      ],
+      "denial_cost": null,
+      "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is a continuous/Lagrangian Noether-correspondence statement requiring differential calculus, field functionals, continuous symmetry groups, and time derivatives. Z3 cannot faithfully encode this general claim without either formalizing substantial calculus/analysis or reducing to a finite example, which would substitute an easier side calculation. Therefore the main claim is not checkable as a precise z3-solver assertion within the required encoding.",
+      "canon_status": "open",
+      "conflicts": [],
+      "assessment_target": "No holds/fails call manufactured for an untested main claim.",
+      "main_statement": "For any chi-field governed by a Lagrangian, every continuous symmetry yields a conserved Noether current.",
+      "proposal_only": true,
+      "lead_summary": {
+        "REAL GAP": 1,
+        "WORDING": 1
+      },
+      "remaining_lead_ids": [
+        "LEAD-030"
+      ],
+      "strength": "By definition",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "D19.5::main"
+      },
+      "scope_warning": "Bin assesses the named target only; neither bundled claims nor domain identification inherit its proof. A written explanation is recorded as support at its source status."
+    },
+    "canon_rubric": {
+      "node": "D19.5",
+      "bin": "UNCHECKED",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "D19.5::main"
+      },
+      "criteria": {
+        "address": true,
+        "grade": false,
+        "receipt": false,
+        "ruling_authority": false,
+        "no_unresolved_conflict": false
+      },
+      "score": 1,
+      "meets_all_five": false,
+      "missing": [
+        "grade",
+        "receipt",
+        "ruling_authority",
+        "no_unresolved_conflict"
+      ],
+      "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+      "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+      "proposal_only": true
+    },
+    "leads": [
+      {
+        "lead_id": "LEAD-030",
+        "node": "D19.5",
+        "record": "AX-140",
+        "required_key": "chi field lagrangian defined",
+        "origin": "circular",
+        "input_line": 39,
+        "class": "REAL GAP",
+        "definition_used": "The explicit scalar-tensor draft action displayed in source; candidate physical model, not the unique universal master action.",
+        "definition_status": "draft definition located; consumer adapter and equation consistency OPEN",
+        "supplier": null,
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\D3_3_Interaction_Lagrangian.md",
+          "line": 28,
+          "text": "L_int = g·χ·ψ̄ψ — Yukawa-type coupling"
+        },
+        "missing_or_reason": "Select and attach the draft action to this surviving consumer, reconcile its variational equation and demonstrate that its fields/interactions match the consumer. The missing item is now a model bridge, not unwritten mathematics.",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\D19_5_Law_V_Conservation_Symmetry.md",
+          "line": 65,
+          "text": "Law V: Every continuous symmetry of χ generates a conserved quantity."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-140_D19.5.md"
+        ],
+        "supplied_at_recorded_warrant_only": false,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\03_PROMISING\\140_D19.5_Law-V-Definition.z3spec.json",
+            "checkable": false,
+            "component": "Law V (Conservation Symmetry): every continuous symmetry of the chi-field generates a conserved Noether quantity.",
+            "faithfulness_note": "The main claim is a continuous/Lagrangian Noether-correspondence statement requiring differential calculus, field functionals, continuous symmetry groups, and time derivatives. Z3 cannot faithfully encode this general claim without either formalizing substantial calculus/analysis or reducing to a finite example, which would substitute an easier side calculation. Therefore the main claim is not checkable as a precise z3-solver assertion within the required encoding.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "UNDEFINED",
+        "follow_up_evidence": [
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\05_Minimal_Chi_Action_Physical_Degrees_of_Freedom.md",
+            "line": 129,
+            "end_line": 129,
+            "text": "$$S_\\chi = \\int d^4x \\sqrt{-g} \\left[ \\frac{1}{2\\kappa_0}(1 + \\xi \\kappa_0 \\chi^2) R - \\frac{1}{2} g^{\\mu\\nu} \\partial_\\mu \\chi \\partial_\\nu \\chi - \\frac{1}{2} m_\\chi^2 \\chi^2 - \\frac{\\lambda}{4} \\chi^4 + \\mathcal{L}_{\\text{matter}} \\right]$$",
+            "sha256": "dff0212ac6174046ad9076b95ae203ee5793dad63a918be31cba3bea3ee3af8d"
+          },
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\05_Minimal_Chi_Action_Physical_Degrees_of_Freedom.md",
+            "line": 167,
+            "end_line": 167,
+            "text": "$$\\Box \\chi - m_\\chi^2 \\chi - \\lambda \\chi^3 + \\xi \\kappa_0 \\chi R = 0$$",
+            "sha256": "dff0212ac6174046ad9076b95ae203ee5793dad63a918be31cba3bea3ee3af8d"
+          }
+        ],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "fuller_source_note": "An explicit draft scalar-tensor action is written. This resolves the claim that no action was written in the searched material. A surviving node must select and attach that action with its domain, parameters, boundary assumptions and model adapter. The draft action is not the same as every legacy master equation.",
+        "closes_dependency": false,
+        "formal_proof_added_by_this_classification": false
+      },
+      {
+        "lead_id": "LEAD-157",
+        "node": "D19.5",
+        "record": "AX-140",
+        "required_key": "chi field equation of motion",
+        "origin": "no-supplier",
+        "input_line": 169,
+        "class": "WORDING",
+        "definition_used": "The declared schematic χ dynamics are □χ + V'(χ) = J(χ).",
+        "definition_status": "declared schematic equation / AX_SCAFFOLD",
+        "supplier": "E2.1",
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\E2_1_Master_Equation_First_Form.md",
+          "line": 28,
+          "text": "□χ + V'(χ) = J(χ) — Klein-Gordon with self-interaction and source"
+        },
+        "missing_or_reason": "",
+        "scope_note": "Only the schematic equation is supplied. V, J, domain, units, initial data, and a derivation from a specified action remain separate obligations.",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\D19_5_Law_V_Conservation_Symmetry.md",
+          "line": 65,
+          "text": "Law V: Every continuous symmetry of χ generates a conserved quantity."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-140_D19.5.md"
+        ],
+        "supplied_at_recorded_warrant_only": true,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\03_PROMISING\\140_D19.5_Law-V-Definition.z3spec.json",
+            "checkable": false,
+            "component": "Law V (Conservation Symmetry): every continuous symmetry of the chi-field generates a conserved Noether quantity.",
+            "faithfulness_note": "The main claim is a continuous/Lagrangian Noether-correspondence statement requiring differential calculus, field functionals, continuous symmetry groups, and time derivatives. Z3 cannot faithfully encode this general claim without either formalizing substantial calculus/analysis or reducing to a finite example, which would substitute an easier side calculation. Therefore the main claim is not checkable as a precise z3-solver assertion within the required encoding.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "WORDING",
+        "follow_up_evidence": [
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\05_Minimal_Chi_Action_Physical_Degrees_of_Freedom.md",
+            "line": 129,
+            "end_line": 129,
+            "text": "$$S_\\chi = \\int d^4x \\sqrt{-g} \\left[ \\frac{1}{2\\kappa_0}(1 + \\xi \\kappa_0 \\chi^2) R - \\frac{1}{2} g^{\\mu\\nu} \\partial_\\mu \\chi \\partial_\\nu \\chi - \\frac{1}{2} m_\\chi^2 \\chi^2 - \\frac{\\lambda}{4} \\chi^4 + \\mathcal{L}_{\\text{matter}} \\right]$$",
+            "sha256": "dff0212ac6174046ad9076b95ae203ee5793dad63a918be31cba3bea3ee3af8d"
+          },
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\05_Minimal_Chi_Action_Physical_Degrees_of_Freedom.md",
+            "line": 167,
+            "end_line": 167,
+            "text": "$$\\Box \\chi - m_\\chi^2 \\chi - \\lambda \\chi^3 + \\xi \\kappa_0 \\chi R = 0$$",
+            "sha256": "dff0212ac6174046ad9076b95ae203ee5793dad63a918be31cba3bea3ee3af8d"
+          },
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\D19_4_Law_IV_Grace_Dynamics.md",
+            "line": 25,
+            "end_line": 29,
+            "text": "## Current scope\n\nCompose the grace operator definition with its proposed non-unitary form. Keep consent and legal-standing reset separate from sanctification growth; no matrix alone supplies consent.\n\n## Components",
+            "sha256": "071eee88957af4397ba0d5dd1e07520f0211bd39ae8da519e4d733952c79a394"
+          },
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\D19_6_Law_VI_Coherence_Non-Increase.md",
+            "line": 25,
+            "end_line": 29,
+            "text": "## Current scope\n\nCompose the coherence definition with the conditional nonincrease claim. The allowed operation family, coherence metric and closed-boundary assumptions must be stated; no universal moral/spiritual nonincrease is imported from physics.\n\n## Components",
+            "sha256": "a88a9a1743e52fcae9654949fd3b964418f9b980dee50e07bfc816425873e3a2"
+          }
+        ],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "fuller_source_note": "The fuller draft supplies a concrete proposed equation in addition to E2.1’s schematic equation. These are distinct model versions, not interchangeable receipts.",
+        "closes_dependency": true,
+        "formal_proof_added_by_this_classification": false
+      }
+    ],
+    "current_ruling": null,
+    "ruling_scope": "Existing disposition only; no new canon admission.",
+    "receipt_attachments": [],
+    "Q15_follow_up": [
+      {
+        "id": "FOLLOWUP/Q15/ACTION-EOM",
+        "node": "D19.1",
+        "kind": "equation consistency",
+        "Q16": "OPEN",
+        "scope": "minimal scalar action as a proposed supplier, not the framework as a whole",
+        "reason": "The displayed curvature term is (ξ/2)χ²R, whose partial derivative w.r.t. χ is ξχR. The displayed χ equation instead has ξκ₀χR. State a rescaling/convention or correct the candidate before attaching it as an exact variational receipt. No upstream correction made.",
+        "evidence": [
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\05_Minimal_Chi_Action_Physical_Degrees_of_Freedom.md",
+            "line": 129,
+            "end_line": 129,
+            "text": "$$S_\\chi = \\int d^4x \\sqrt{-g} \\left[ \\frac{1}{2\\kappa_0}(1 + \\xi \\kappa_0 \\chi^2) R - \\frac{1}{2} g^{\\mu\\nu} \\partial_\\mu \\chi \\partial_\\nu \\chi - \\frac{1}{2} m_\\chi^2 \\chi^2 - \\frac{\\lambda}{4} \\chi^4 + \\mathcal{L}_{\\text{matter}} \\right]$$",
+            "sha256": "dff0212ac6174046ad9076b95ae203ee5793dad63a918be31cba3bea3ee3af8d"
+          },
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\05_Minimal_Chi_Action_Physical_Degrees_of_Freedom.md",
+            "line": 167,
+            "end_line": 167,
+            "text": "$$\\Box \\chi - m_\\chi^2 \\chi - \\lambda \\chi^3 + \\xi \\kappa_0 \\chi R = 0$$",
+            "sha256": "dff0212ac6174046ad9076b95ae203ee5793dad63a918be31cba3bea3ee3af8d"
+          }
+        ],
+        "affected_nodes": [
+          "A10.2",
+          "A13.2",
+          "D19.1",
+          "D19.5",
+          "D3.1",
+          "D3.3",
+          "E13.1",
+          "E14.1",
+          "E19.1",
+          "E4.1",
+          "LN1.1",
+          "P2.2",
+          "SC-QUANTUM"
+        ]
+      }
+    ]
+  }
+}

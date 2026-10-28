@@ -1,0 +1,52 @@
+{
+ "id": "EV15.2",
+ "title": "GCP Correlation",
+ "lifecycle": "evidence_contested",
+ "tier": 16,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "HY_EVIDENCE",
+ "declared": [
+  "P5.2",
+  "D5.2"
+ ],
+ "proposed": [
+  "P5.2",
+  "D5.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "EV15.2/Q15/0175",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the inference from P-IMAGO's general creaturely participation to specific RNG deviations and statistical correlations; P-IMAGO expressly excludes particular physical laws, equations, constants, and measurements."
+  }
+ ],
+ "ports": [],
+ "main": "EV15.2",
+ "claims": [
+  "EV15.2",
+  "EV15.2::split-01",
+  "EV15.2::split-02",
+  "EV15.2::split-03",
+  "EV15.2::split-04",
+  "EV15.2::split-05",
+  "EV15.2::split-06",
+  "EV15.2::split-07",
+  "EV15.2::split-08",
+  "EV15.2::split-09",
+  "EV15.2::split-10"
+ ],
+ "source": "source/nodes/EV15.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

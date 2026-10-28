@@ -1,0 +1,84 @@
+{
+ "id": "D19.6",
+ "title": "D19.6 Law VI (Coherence Non-Inc)",
+ "lifecycle": "open",
+ "tier": 13,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "T3.1"
+ ],
+ "proposed": [
+  "T3.1",
+  "D3.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "D19.6/Q15/0146",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the inference from P-IMAGO's general analogy of creaturely order/coherence to the specific physical/informational law dS_chi/dt >= 0; P-IMAGO explicitly excludes physical laws, equations, constants, and measurements."
+  },
+  {
+   "id": "D19.6/Q15/Z3-result-00",
+   "kind": "known countermodel",
+   "status": "FATAL",
+   "scope": "Encoded fragment under exactly the listed premises, not every interpretation of this node: Law VI (Coherence Non-Increase): an isolated chi-system's entropy is non-decreasing, equivalently its coherence C=-S is non-increasing.",
+   "reason": "[Isolated = True,\n C = [21238 -> 0, else -> -1/2],\n S = [else -> -1*C(Var(0))]] Faithfulness to the intended domain is a separate obligation."
+  }
+ ],
+ "ports": [
+  {
+   "agent": "Component agents; no extra actor added",
+   "boundary": "All component boundaries and any cross-register bridge must be satisfied",
+   "input": "Declared component contracts and exact assumptions",
+   "output": "Conditional composite account, not an unconditional theorem",
+   "evidence": [
+    "T3.1",
+    "D3.1"
+   ]
+  }
+ ],
+ "main": "D19.6",
+ "claims": [
+  "D19.6",
+  "D19.6::split-01",
+  "D19.6::split-02",
+  "D19.6::split-03",
+  "D19.6::split-04",
+  "D19.6::split-05",
+  "D19.6::split-06",
+  "D19.6::split-07",
+  "D19.6::split-08",
+  "D19.6::split-09",
+  "D19.6::split-10",
+  "D19.6::split-11",
+  "D19.6::split-12",
+  "D19.6::receipt::Wall.invariant_preserved",
+  "D19.6::receipt::Wall.change_requires_outside_op",
+  "D19.6::receipt::Wall.grace_preserves_identity",
+  "D19.6::receipt::Wall.grace_restores",
+  "D19.6::receipt::Wall.works_cannot_flip",
+  "D19.6::receipt::Wall.flip_requires_non_self_op",
+  "D19.6::receipt::Wall.grace_is_outside_the_family",
+  "D19.6::receipt::Wall.no_restoration_without_consent",
+  "D19.6::receipt::Wall.restoration_with_consent",
+  "D19.6::receipt::Wall.restore_preserves_identity",
+  "D19.6::receipt::Wall.coherence_nonincrease"
+ ],
+ "source": "source/nodes/D19.6.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

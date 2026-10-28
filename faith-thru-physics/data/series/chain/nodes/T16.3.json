@@ -1,0 +1,67 @@
+{
+ "id": "T16.3",
+ "title": "T16.3 Judaism Fails BC Completion",
+ "lifecycle": "retired",
+ "tier": 14,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC1",
+  "BC2",
+  "BC3",
+  "BC4a",
+  "BC5",
+  "BC6",
+  "BC7",
+  "BC8",
+  "BC9"
+ ],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "T16.3/Q15/0161",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "axiom-set membership",
+   "reason": "David retired this record; it is retained with reason and cannot serve as an active axiom. Content-level truth is not settled merely by retirement."
+  },
+  {
+   "id": "T16.3/Q15/0162",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "Core derivation stops only if the listed BC/historical premises are granted; the full record stops at the unadmitted step that BC1–BC8, especially BC4, are derived from physics/Born Rule and at the claim that the whole comparative score is a theorem."
+  }
+ ],
+ "ports": [],
+ "main": "T16.3",
+ "claims": [
+  "T16.3",
+  "T16.3::split-01",
+  "T16.3::split-02",
+  "T16.3::split-03",
+  "T16.3::split-04",
+  "T16.3::split-05",
+  "T16.3::split-06",
+  "T16.3::split-07",
+  "T16.3::split-08",
+  "T16.3::split-09",
+  "T16.3::split-10",
+  "T16.3::split-11",
+  "T16.3::split-12"
+ ],
+ "source": "source/nodes/T16.3.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

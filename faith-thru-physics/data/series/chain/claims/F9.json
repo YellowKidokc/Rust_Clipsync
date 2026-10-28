@@ -1,0 +1,54 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "F9",
+ "claim_id": "F9",
+ "type": "CLAIM",
+ "text": "Self-control is a real creaturely regulatory capacity by which an agent resists immediate impulses to maintain higher-order moral coherence, functioning as the stabilizing completion of the fruit sequence.",
+ "source": {
+  "file": "source/nodes/F9.yaml",
+  "quote": "Self-control is a real creaturely regulatory capacity by which an agent resists immediate impulses to maintain higher-order moral coherence, functioning as the stabilizing completion of the fruit sequence.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "observable",
+  "composition_level": 1,
+  "claim_role": "empirical_hypothesis",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "Biblical revelation identifying self-control (enkrateia) as a fruit of the Spirit and specifying its place in the fruit sequence, e.g. Gal 5:22-23.; A moral-psychological/control-theory premise that coherent moral agency requires a distinct regulatory meta-capacity called self-control.; Empirical and formal-scientific premises/data for the specific measurement equations, control-theory mapping, neural correlates, quantum model, category-theoretic structure, and cross-cultural universality.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/F9.yaml#F9::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "FRUIT-GEN",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "F9",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "Biblical revelation identifying self-control (enkrateia) as a fruit of the Spirit and specifying its place in the fruit sequence, e.g. Gal 5:22-23.",
+  "A moral-psychological/control-theory premise that coherent moral agency requires a distinct regulatory meta-capacity called self-control.",
+  "Empirical and formal-scientific premises/data for the specific measurement equations, control-theory mapping, neural correlates, quantum model, category-theoretic structure, and cross-cultural universality."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "F9/Q15/0203",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the move from 'creaturely coherence/agency is a finite reflection of God' to 'self-control is a distinct, ninth/culminating meta-fruit with the stated measurable formal and empirical structure.'"
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main Statement is too programmatic and vague for a precise Z3 truth claim: it does not specify domains, measurable quantities, or truth conditions for 'measurable coherence domain.' The integral formula defines an energy functional using unspecified arbitrary functions without measurable/domain assumptions. The later 'Regulation Necessity' theorem is a subsidiary formal claim, not the title/Statement main claim, so encoding it would substitute a side result.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

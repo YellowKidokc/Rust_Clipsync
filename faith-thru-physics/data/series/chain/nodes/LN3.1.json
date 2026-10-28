@@ -1,0 +1,44 @@
+{
+ "id": "LN3.1",
+ "title": "LN3.1 Meaningful Config Nec",
+ "lifecycle": "logical_necessity",
+ "tier": 4,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [
+  "A2.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "LN3.1/Q15/0033",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "After P-IMAGO: there is no bridge from creaturely intelligibility/order to a formal coherence measure, nor to the necessity of such a measure for meaningful/meaningless distinction."
+  }
+ ],
+ "ports": [],
+ "main": "LN3.1",
+ "claims": [
+  "LN3.1",
+  "LN3.1::split-01",
+  "LN3.1::split-02",
+  "LN3.1::split-03",
+  "LN3.1::split-04"
+ ],
+ "source": "source/nodes/LN3.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

@@ -1,0 +1,62 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "LN2.1",
+ "claim_id": "LN2.1",
+ "type": "CLAIM",
+ "text": "Created information/order requires an ultimate self-grounding anchor.",
+ "source": {
+  "file": "source/nodes/LN2.1.yaml",
+  "quote": "Created information/order requires an ultimate self-grounding anchor.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A premise identifying the Logos Field (χ) with the self-grounding God/Logos.; A premise that physical laws, properties of matter, spacetime structure, and information conservation are specific created information/order requiring this anchor.; A premise that absence of this anchor produces loss of causal efficacy, arbitrary meaning, or chaos.; A premise that scientific reproducibility or conservation requires this metaphysical anchor.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/LN2.1.yaml#LN2.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "LN2.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A premise identifying the Logos Field (χ) with the self-grounding God/Logos.",
+  "A premise that physical laws, properties of matter, spacetime structure, and information conservation are specific created information/order requiring this anchor.",
+  "A premise that absence of this anchor produces loss of causal efficacy, arbitrary meaning, or chaos.",
+  "A premise that scientific reproducibility or conservation requires this metaphysical anchor."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "LN2.1/Q15/0018",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "duplicate node identity",
+   "reason": "David merged the source into A2.1; retain its claim and provenance at that destination. Warrant is not upgraded."
+  },
+  {
+   "id": "LN2.1/Q15/0019",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "Core derivation succeeds for created information's ultimate dependence on God; the full record fails at identifying the Logos Field χ with the self-grounding substrate and at extending the anchor to physical laws, spacetime, conservation, causal efficacy, meaning-stability, and chaos consequences."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim cannot be encoded faithfully in Z3 from the file as stated. Key terms such as 'information', 'ontological ground', 'coherence', 'self-grounding', 'depends on', 'Logos', and 'arbitrary brute fact' are metaphysical and lack precise formal definitions. A finite Boolean dependency model would either trivialize the claim or require adding unstated assumptions and would therefore not check the file's actual claim.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

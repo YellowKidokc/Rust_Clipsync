@@ -1,0 +1,69 @@
+{
+ "id": "P0",
+ "title": "P0 Stage 0",
+ "lifecycle": "merged",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": "A1.1",
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A1.1"
+ ],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is ontological and meta-logical. Z3/FOL assumes a nonempty domain, so encoding ∃x(x ≠ ∅) would either be trivially true under standard semantics or merely assert the existence of a nonempty set in an unspecified set-theoretic universe. The file does not provide a precise first-order theory of 'Something', 'Nothing', absolute non-existence, or the empty set sufficient to avoid assuming the intended conclusion.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "P0/Q15/0207",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "duplicate node identity",
+   "reason": "David merged the source into A1.1; retain its claim and provenance at that destination. Warrant is not upgraded."
+  },
+  {
+   "id": "P0/Q15/0208",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "A0 gives bare existence; the derivation fails when the record turns that into an active-assertion metaphysics, a primordial information bit, a modal nonempty-world proof, Shannon/entropy consequences, or physical and cosmological claims."
+  },
+  {
+   "id": "P0/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: P0 Origin Stage: There is Something rather than Nothing",
+   "reason": "The main claim is ontological and meta-logical. Z3/FOL assumes a nonempty domain, so encoding ∃x(x ≠ ∅) would either be trivially true under standard semantics or merely assert the existence of a nonempty set in an unspecified set-theoretic universe. The file does not provide a precise first-order theory of 'Something', 'Nothing', absolute non-existence, or the empty set sufficient to avoid assuming the intended conclusion."
+  }
+ ],
+ "ports": [],
+ "main": "P0",
+ "claims": [
+  "P0",
+  "P0::split-01",
+  "P0::split-02",
+  "P0::split-03",
+  "P0::split-04",
+  "P0::split-05",
+  "P0::split-06",
+  "P0::split-07",
+  "P0::split-08",
+  "P0::split-09",
+  "P0::split-10",
+  "P0::split-11",
+  "P0::split-12",
+  "P0::split-13",
+  "P0::split-14",
+  "P0::split-15"
+ ],
+ "source": "source/nodes/P0.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

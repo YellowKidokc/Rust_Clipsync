@@ -1,0 +1,36 @@
+{
+ "id": "ARG-T16.2",
+ "title": "Islam and the proposed triadic criterion",
+ "lifecycle": "open_argument",
+ "tier": null,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "ARG-T16.2/Q15/0250",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "comparative argument, not active axiom",
+   "reason": "Operational boundary criteria, defined comparison domains, faithful mappings and rival tests are required."
+  }
+ ],
+ "ports": [],
+ "main": "ARG-T16.2",
+ "claims": [
+  "ARG-T16.2"
+ ],
+ "source": "source/nodes/ARG-T16.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

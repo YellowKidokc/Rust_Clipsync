@@ -1,0 +1,34 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "SC-SOCIAL",
+ "claim_id": "SC-SOCIAL::split-16",
+ "type": "CLAIM",
+ "text": "Social coherence monitoring and forecasting can predict revolutions and market crashes.",
+ "source": {
+  "file": "source/nodes/SC-SOCIAL.yaml",
+  "quote": "Social coherence monitoring and forecasting can predict revolutions and market crashes.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "conjecture",
+  "register": "embodied"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/SC-SOCIAL.yaml#SC-SOCIAL::split-16 (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "SC-SOCIAL",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+ "obstructions": [],
+ "generated_by": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+}

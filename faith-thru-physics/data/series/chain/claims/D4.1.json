@@ -1,0 +1,49 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D4.1",
+ "claim_id": "D4.1",
+ "type": "CLAIM",
+ "text": "Kolmogorov complexity K(x) is the length of the shortest program that generates x.",
+ "source": {
+  "file": "source/nodes/D4.1.yaml",
+  "quote": "Kolmogorov complexity K(x) is the length of the shortest program that generates x.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "state",
+  "composition_level": 0,
+  "claim_role": "definition",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D4.1.yaml#D4.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "D4.1",
+ "is_main": true,
+ "strength": "By definition",
+ "conditional_premises": [],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "D4.1/Q15/0036",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The core definition does not derive from A0 or P-IMAGO; it is independent. The extra dependency/collapse claim fails at the assertion that a formal definition of K(x) requires A4.2, which neither A0 nor P-IMAGO establishes."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

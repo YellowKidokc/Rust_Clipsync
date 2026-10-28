@@ -1,0 +1,61 @@
+{
+ "id": "P5",
+ "title": "P5 Stage 5",
+ "lifecycle": "retired",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A7.1"
+ ],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file's main claim quantifies over arbitrary formal systems and relies on meta-theorems about provability, consistency, arithmetic expressibility, and Gödel sentences. Faithfully encoding it in z3 would require formalizing syntax and proof theory for recursive formal systems, not merely finite Boolean constraints. Encoding it with uninterpreted predicates would either be unsound or would require adding Gödel's theorem itself as a premise, which would beg the question.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "P5/Q15/0215",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "axiom-set membership",
+   "reason": "David retired this record; it is retained with reason and cannot serve as an active axiom. Content-level truth is not settled merely by retirement."
+  },
+  {
+   "id": "P5/Q15/0216",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The move from 'finite, dependent, partial created agent' to 'Gödel-incomplete formal system' and to 'entropy/decoherence it cannot resolve'; A0+P-IMAGO do not license the formal or physical extrapolations."
+  },
+  {
+   "id": "P5/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: P5 Incompleteness: any consistent formal system containing arithmetic is Gödel incomplete and cannot prove its own consistency.",
+   "reason": "The file's main claim quantifies over arbitrary formal systems and relies on meta-theorems about provability, consistency, arithmetic expressibility, and Gödel sentences. Faithfully encoding it in z3 would require formalizing syntax and proof theory for recursive formal systems, not merely finite Boolean constraints. Encoding it with uninterpreted predicates would either be unsound or would require adding Gödel's theorem itself as a premise, which would beg the question."
+  }
+ ],
+ "ports": [],
+ "main": "P5",
+ "claims": [
+  "P5",
+  "P5::split-01",
+  "P5::split-02",
+  "P5::split-03",
+  "P5::split-04",
+  "P5::split-05",
+  "P5::split-06",
+  "P5::split-07"
+ ],
+ "source": "source/nodes/P5.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

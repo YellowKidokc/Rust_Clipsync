@@ -1,0 +1,33 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "JUSTIFICATION-001",
+ "claim_id": "JUSTIFICATION-001::native-5",
+ "type": "CLAIM",
+ "text": "Justification changes standing, not C-info, C-moral or C-spiritual; sanctification growth is a separate operator.",
+ "source": {
+  "file": "source/nodes/JUSTIFICATION-001.yaml",
+  "quote": "Justification changes standing, not C-info, C-moral or C-spiritual; sanctification growth is a separate operator.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "definition",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "admitted",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/JUSTIFICATION-001.yaml#JUSTIFICATION-001::native-5 (Axiom HTML Update, 2026-10-28)",
+  "note": "Proved by construction, not measured."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "JUSTIFICATION-001",
+ "is_main": false,
+ "strength": "By definition",
+ "obstructions": [],
+ "generated_by": "proposed finer classification; no vocabulary change applied"
+}

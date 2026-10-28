@@ -1,0 +1,40 @@
+{
+ "id": "A0",
+ "title": "A0",
+ "lifecycle": "admitted_root",
+ "tier": null,
+ "context_parent": null,
+ "merged_into": null,
+ "proposal_only": false,
+ "mode": "AX_CORE",
+ "declared": [],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "ADMITTED",
+  "named_premises": [
+   "God is"
+  ],
+  "denial_cost": "The framework gives up its governing theological root; the graph proof itself neither proves nor refutes God.",
+  "checkable_by": null,
+  "receipt": [
+   "sources/august/AXIOM_CHAIN_MASTER_v3.md"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "A0/Q15/0242",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "one-root graph architecture",
+   "reason": "One designated A0 root is governance/graph data; the Lean graph theorem is not a proof of God from no premises."
+  }
+ ],
+ "ports": [],
+ "main": "A0",
+ "claims": [
+  "A0"
+ ],
+ "source": "source/nodes/A0.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

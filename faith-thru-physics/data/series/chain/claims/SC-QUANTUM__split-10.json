@@ -1,0 +1,34 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "SC-QUANTUM",
+ "claim_id": "SC-QUANTUM::split-10",
+ "type": "CLAIM",
+ "text": "The standard quantum formalism (density matrix, Lindblad decoherence, Bell states, concurrence, entropy, topos) stands as independent formal or empirical physics and is not derived from A0 plus P-IMAGO.",
+ "source": {
+  "file": "source/nodes/SC-QUANTUM.yaml",
+  "quote": "The standard quantum formalism (density matrix, Lindblad decoherence, Bell states, concurrence, entropy, topos) stands as independent formal or empirical physics and is not derived from A0 plus P-IMAGO.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/SC-QUANTUM.yaml#SC-QUANTUM::split-10 (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "SC-QUANTUM",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+ "obstructions": [],
+ "generated_by": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+}

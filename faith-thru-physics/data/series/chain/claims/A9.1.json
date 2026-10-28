@@ -1,0 +1,55 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "A9.1",
+ "claim_id": "A9.1",
+ "type": "CLAIM",
+ "text": "A genuine moral/spiritual sign-flip from a negative state (-1) to its positive opposite (+1) cannot be produced solely by operations internal to that moral system; it requires an external operator or cause.",
+ "source": {
+  "file": "source/nodes/A9.1.yaml",
+  "quote": "A genuine moral/spiritual sign-flip from a negative state (-1) to its positive opposite (+1) cannot be produced solely by operations internal to that moral system; it requires an external operator or cause.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "conditionally_proved",
+  "warrant_premise": "A8.2 sign-conservation/unitarity for moral self-operations; a formal mapping of moral/spiritual state to a two-valued sign sigma in {+1,-1}; an empirical premise that genuine conversion/sign-flip from -1 to +1 occurs; a definition that internal self-operations are exactly the sign-preserving operations; C8.2 Works Salvation Impossible, if the result is applied specifically to salvation",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/A9.1.yaml#A9.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "Outcome holds in the declared conditional scope, not unconditionally in the world."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "A9.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A8.2 sign-conservation/unitarity for moral self-operations",
+  "a formal mapping of moral/spiritual state to a two-valued sign sigma in {+1,-1}",
+  "an empirical premise that genuine conversion/sign-flip from -1 to +1 occurs",
+  "a definition that internal self-operations are exactly the sign-preserving operations",
+  "C8.2 Works Salvation Impossible, if the result is applied specifically to salvation"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "A9.1/Q15/0096",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the transition from A0/P-IMAGO to the moral-sign formalism and sign-conservation premise; P-IMAGO explicitly forbids stretching it to physical/mathematical laws or empirical findings, so the proof requires A8.2, a sign model, and observed conversion."
+  }
+ ],
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

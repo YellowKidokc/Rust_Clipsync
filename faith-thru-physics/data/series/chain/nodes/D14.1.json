@@ -1,0 +1,63 @@
+{
+ "id": "D14.1",
+ "title": "D14.1 Cosmological Grace Function",
+ "lifecycle": "definition",
+ "tier": 12,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file's main statement is a definition/stipulation and a semantic replacement rule for Λ in the Friedmann equations, not a derivable mathematical proposition. It also gives several alternative forms (general factorized form, multiple f and g choices, canonical tanh form) without a single precise theorem to prove. Encoding the defining equation as a conclusion with no premises would be tautological, while encoding it as a premise would violate the rule against assuming the conclusion.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "D14.1/Q15/0136",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the step from analogical creaturely participation in God to a specific consciousness-dependent replacement for Λ in the Friedmann equations; P-IMAGO expressly excludes that physical/mathematical inference."
+  },
+  {
+   "id": "D14.1/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Cosmological grace function definition replacing the static cosmological constant Λ by G(t, Ψ_collective)",
+   "reason": "The file's main statement is a definition/stipulation and a semantic replacement rule for Λ in the Friedmann equations, not a derivable mathematical proposition. It also gives several alternative forms (general factorized form, multiple f and g choices, canonical tanh form) without a single precise theorem to prove. Encoding the defining equation as a conclusion with no premises would be tautological, while encoding it as a premise would violate the rule against assuming the conclusion."
+  }
+ ],
+ "ports": [],
+ "main": "D14.1",
+ "claims": [
+  "D14.1",
+  "D14.1::split-01",
+  "D14.1::split-02",
+  "D14.1::split-03",
+  "D14.1::split-04",
+  "D14.1::split-05",
+  "D14.1::split-06",
+  "D14.1::split-07",
+  "D14.1::split-08",
+  "D14.1::split-09",
+  "D14.1::split-10",
+  "D14.1::split-11",
+  "D14.1::split-12",
+  "D14.1::split-13",
+  "D14.1::split-14"
+ ],
+ "source": "source/nodes/D14.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

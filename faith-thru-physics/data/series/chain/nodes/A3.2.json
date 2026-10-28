@@ -1,0 +1,55 @@
+{
+ "id": "A3.2",
+ "title": "A3.2 Coherence Measure",
+ "lifecycle": "merged",
+ "tier": 4,
+ "context_parent": "A0",
+ "merged_into": "D3.1",
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "A3.2/Q15/0021",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "duplicate node identity",
+   "reason": "David merged the source into D3.1; retain its claim and provenance at that destination. Warrant is not upgraded."
+  },
+  {
+   "id": "A3.2/Q15/0022",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at moving from P-IMAGO's qualitative analogy of creaturely order/goodness to an objective quantitative coherence measure, and further to a Logos Field minimizing Kolmogorov complexity; P-IMAGO explicitly excludes physical laws, equations, constants, and measurements."
+  }
+ ],
+ "ports": [],
+ "main": "A3.2",
+ "claims": [
+  "A3.2",
+  "A3.2::split-01",
+  "A3.2::split-02",
+  "A3.2::split-03",
+  "A3.2::split-04",
+  "A3.2::split-05",
+  "A3.2::split-06",
+  "A3.2::split-07",
+  "A3.2::split-08",
+  "A3.2::split-09",
+  "A3.2::split-10"
+ ],
+ "source": "source/nodes/A3.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

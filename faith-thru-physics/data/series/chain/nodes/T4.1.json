@@ -1,0 +1,48 @@
+{
+ "id": "T4.1",
+ "title": "T4.1 Laws Are Low-K",
+ "lifecycle": "theorem",
+ "tier": 5,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [
+  "A2.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "T4.1/Q15/0039",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The step from P-IMAGO's general analogy of created order/intelligibility to the specific information-theoretic claim that physical laws are low-K/MDL descriptions; P-IMAGO explicitly excludes particular physical laws, equations, constants, and measurements."
+  }
+ ],
+ "ports": [],
+ "main": "T4.1",
+ "claims": [
+  "T4.1",
+  "T4.1::split-01",
+  "T4.1::split-02",
+  "T4.1::split-03",
+  "T4.1::split-04",
+  "T4.1::split-05",
+  "T4.1::split-06",
+  "T4.1::split-07",
+  "T4.1::split-08"
+ ],
+ "source": "source/nodes/T4.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

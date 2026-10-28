@@ -1,0 +1,55 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D2.1",
+ "claim_id": "D2.1",
+ "type": "CLAIM",
+ "text": "The term 'Logos Field' (χ-field) names a supposed self-grounding informational substrate.",
+ "source": {
+  "file": "source/nodes/D2.1.yaml",
+  "quote": "The term 'Logos Field' (χ-field) names a supposed self-grounding informational substrate.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "state",
+  "composition_level": 0,
+  "claim_role": "definition",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A2.2 Self-Grounding and the preceding information-ontology chain (A1.3, D1.1-D1.2, LN1.1-LN1.2, A2.1).; A separate identification of χ with God (e.g., ID7.1) or a proof that χ is not a second ultimate reality.; Empirical/mathematical warrant for a real scalar field χ(x,t), its Lagrangian/Klein-Gordon dynamics, couplings, holographic encoding, and cosmological effects.; A semantic-information premise explaining how a field carries meaning rather than syntax.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D2.1.yaml#D2.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "D2.1",
+ "is_main": true,
+ "strength": "By definition",
+ "conditional_premises": [
+  "A2.2 Self-Grounding and the preceding information-ontology chain (A1.3, D1.1-D1.2, LN1.1-LN1.2, A2.1).",
+  "A separate identification of χ with God (e.g., ID7.1) or a proof that χ is not a second ultimate reality.",
+  "Empirical/mathematical warrant for a real scalar field χ(x,t), its Lagrangian/Klein-Gordon dynamics, couplings, holographic encoding, and cosmological effects.",
+  "A semantic-information premise explaining how a field carries meaning rather than syntax."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "D2.1/Q15/0013",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the inference that the self-grounding ground/order/intelligibility must be a real scalar field χ(x,t) with semantic content, spacetime priority, equations, and couplings; A0+P-IMAGO provide no field ontology or empirical data."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main statement is definitional and depends on undefined theological/physical terms (divine ordering principle, coherence, grounding, manifestation, etc.), an unspecified causal spacetime integration domain, and unformalized variables G through C. A z3 encoding would either check a trivial satisfiability of an arbitrary nonnegative function or a side property such as nonnegativity of a product, neither of which is the file's main claim.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

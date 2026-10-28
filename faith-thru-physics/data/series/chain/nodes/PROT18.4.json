@@ -1,0 +1,47 @@
+{
+ "id": "PROT18.4",
+ "title": "Social Coherence Monitoring",
+ "lifecycle": "protocol",
+ "tier": 16,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "HY_EVIDENCE",
+ "declared": [
+  "E3.2"
+ ],
+ "proposed": [
+  "E3.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "PROT18.4/Q15/0181",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the move from P-IMAGO's general analogy/participation to a specific measurable discontinuity in conversion coherence; A0+P-IMAGO do not entail EEG/HRV phase transitions, a chi-field mechanism, or that conversion is discrete rather than gradual."
+  }
+ ],
+ "ports": [],
+ "main": "PROT18.4",
+ "claims": [
+  "PROT18.4",
+  "PROT18.4::split-01",
+  "PROT18.4::split-02",
+  "PROT18.4::split-03",
+  "PROT18.4::split-04",
+  "PROT18.4::split-05",
+  "PROT18.4::split-06",
+  "PROT18.4::split-07"
+ ],
+ "source": "source/nodes/PROT18.4.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

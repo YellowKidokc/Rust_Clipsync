@@ -1,0 +1,65 @@
+{
+ "id": "A8.1",
+ "title": "A8.1 Binary Distinction",
+ "lifecycle": "framework_commitment",
+ "tier": 9,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. This is not checkable as a mathematical entailment in Z3 without restating the conclusion as a premise or assuming the desired binary domain outright. The file itself notes the binary claim depends on a modeling choice and requires defense, so the main claim is an axiomatic stipulation rather than a derivable theorem.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "A8.1/Q15/0086",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at moving from A0+P-IMAGO's real creaturely moral participation and relation to God to the record's exact exhaustive two-valued cardinality (+1/-1) and exclusion of neutral/continuous/multi-axis moral orientation; the physical spin analogy adds no entailment."
+  },
+  {
+   "id": "A8.1/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: A8.1 Binary Distinction: moral orientation is modeled as binary with sign values +1 or -1.",
+   "reason": "This is not checkable as a mathematical entailment in Z3 without restating the conclusion as a premise or assuming the desired binary domain outright. The file itself notes the binary claim depends on a modeling choice and requires defense, so the main claim is an axiomatic stipulation rather than a derivable theorem."
+  }
+ ],
+ "ports": [],
+ "main": "A8.1",
+ "claims": [
+  "A8.1",
+  "A8.1::split-01",
+  "A8.1::split-02",
+  "A8.1::split-03",
+  "A8.1::split-04",
+  "A8.1::split-05",
+  "A8.1::split-06",
+  "A8.1::split-07",
+  "A8.1::split-08",
+  "A8.1::split-09",
+  "A8.1::split-10",
+  "A8.1::split-11",
+  "A8.1::split-12",
+  "A8.1::split-13",
+  "A8.1::split-14",
+  "A8.1::split-15",
+  "A8.1::split-16"
+ ],
+ "source": "source/nodes/A8.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

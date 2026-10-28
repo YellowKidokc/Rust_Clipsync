@@ -1,0 +1,53 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "F1",
+ "claim_id": "F1",
+ "type": "CLAIM",
+ "text": "Love can be measured as the degree of coherent integration between a person and others.",
+ "source": {
+  "file": "source/nodes/F1.yaml",
+  "quote": "Love can be measured as the degree of coherent integration between a person and others.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "observable",
+  "composition_level": 1,
+  "claim_role": "empirical_hypothesis",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "Love is equivalent to coherent integration; Mutual information measures coherent integration",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/F1.yaml#F1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "FRUIT-GEN",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "F1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "Love is equivalent to coherent integration",
+  "Mutual information measures coherent integration"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "F1/Q15/0195",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation from A0+P-IMAGO stops before identifying creaturely love with coherent integration and before claiming mutual information measures it; those are added premises."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

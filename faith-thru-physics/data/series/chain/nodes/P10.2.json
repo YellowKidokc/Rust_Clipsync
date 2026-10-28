@@ -1,0 +1,58 @@
+{
+ "id": "P10.2",
+ "title": "P10.2 Soul Identity Persistence",
+ "lifecycle": "property",
+ "tier": 11,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "P10.2/Q15/0111",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the move from creaturely consciousness/identity being a finite participation in God to a quantitative proportionality between soul intensity and integrated information Φ; P-IMAGO explicitly cannot supply physical/mathematical equations or empirical measures."
+  },
+  {
+   "id": "P10.2/Q15/Z3-result-00",
+   "kind": "known countermodel",
+   "status": "FATAL",
+   "scope": "Encoded fragment under exactly the listed premises, not every interpretation of this node: Soul intensity is proportional to integrated information Φ via a positive global coupling constant k_S.",
+   "reason": "[I1 = 0, phi2 = 0, I2 = -1, phi1 = 0] Faithfulness to the intended domain is a separate obligation."
+  }
+ ],
+ "ports": [],
+ "main": "P10.2",
+ "claims": [
+  "P10.2",
+  "P10.2::split-01",
+  "P10.2::split-02",
+  "P10.2::split-03",
+  "P10.2::split-04",
+  "P10.2::split-05",
+  "P10.2::split-06",
+  "P10.2::split-07",
+  "P10.2::split-08",
+  "P10.2::split-09"
+ ],
+ "source": "source/nodes/P10.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

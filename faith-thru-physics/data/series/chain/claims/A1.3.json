@@ -1,0 +1,66 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "A1.3",
+ "claim_id": "A1.3",
+ "type": "CLAIM",
+ "text": "Distinction enables information; identity with information is not asserted by the repaired v3 source.",
+ "source": {
+  "file": "source/nodes/A1.3.yaml",
+  "quote": "Distinction enables information; identity with information is not asserted by the repaired v3 source.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A definitional premise that distinguishability is identical to information.; A metaphysical premise that information is ontologically primitive or foundational in the relevant sense.; A premise that created order/intelligibility is best modeled as information rather than merely analogically reflecting God.; A premise that matter and energy reduce to informational patterns.; A premise that Shannon entropy is an ontological measure, not only a formal/operational measure.; A premise that the χ-field exists as an informational substrate.; A premise that fine-tuning is information selection in χ.; Empirical and physical premises for digital physics, Landauer's principle, holography, Wheeler's It from Bit, and quantum Darwinism.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/A1.3.yaml#A1.3::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A1.0",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "A1.3",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A definitional premise that distinguishability is identical to information.",
+  "A metaphysical premise that information is ontologically primitive or foundational in the relevant sense.",
+  "A premise that created order/intelligibility is best modeled as information rather than merely analogically reflecting God.",
+  "A premise that matter and energy reduce to informational patterns.",
+  "A premise that Shannon entropy is an ontological measure, not only a formal/operational measure.",
+  "A premise that the χ-field exists as an informational substrate.",
+  "A premise that fine-tuning is information selection in χ.",
+  "Empirical and physical premises for digital physics, Landauer's principle, holography, Wheeler's It from Bit, and quantum Darwinism."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "A1.3/Q15/0004",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "A0 + P-IMAGO can at most support created order/intelligibility/relation as a finite reflection of God; the derivation stops before 'distinguishability IS information' and before 'information is ontologically primitive.' The physical reductions and χ-field claims fail even earlier because P-IMAGO explicitly does not yield physical laws, numbers, equations, constants, or empirical findings."
+  },
+  {
+   "id": "A1.3/Q15/0005",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "v3 versus current-root source identity",
+   "reason": "v3 repairs/splits this concept, while current source file A1_3_Information_Primacy.md retains another title/claim version. Both source spans are preserved; do not equate them by identifier alone."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

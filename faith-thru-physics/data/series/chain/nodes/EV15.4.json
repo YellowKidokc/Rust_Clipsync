@@ -1,0 +1,52 @@
+{
+ "id": "EV15.4",
+ "title": "Social Coherence 5.7 Sigma",
+ "lifecycle": "evidence",
+ "tier": 16,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "HY_EVIDENCE",
+ "declared": [
+  "A3.2",
+  "E3.2"
+ ],
+ "proposed": [
+  "D3.1",
+  "E3.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "EV15.4/Q15/0177",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the move from P-IMAGO's analogy of being to specific social-science measurements, statistical thresholds, causal field effects, or physical mechanisms; P-IMAGO explicitly excludes deriving physical laws, numbers, constants, or empirical findings."
+  }
+ ],
+ "ports": [],
+ "main": "EV15.4",
+ "claims": [
+  "EV15.4",
+  "EV15.4::split-01",
+  "EV15.4::split-02",
+  "EV15.4::split-03",
+  "EV15.4::split-04",
+  "EV15.4::split-05",
+  "EV15.4::split-06",
+  "EV15.4::split-07",
+  "EV15.4::split-08",
+  "EV15.4::split-09",
+  "EV15.4::split-10"
+ ],
+ "source": "source/nodes/EV15.4.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

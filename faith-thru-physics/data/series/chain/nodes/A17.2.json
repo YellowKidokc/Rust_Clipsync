@@ -1,0 +1,48 @@
+{
+ "id": "A17.2",
+ "title": "A17.2 Substrate Independence",
+ "lifecycle": "stance",
+ "tier": 15,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A17.1"
+ ],
+ "proposed": [
+  "A17.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "A17.2/Q15/0170",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the inference from creaturely consciousness as finite participation in God to a substrate-independent quantitative Φ threshold that makes any sufficiently integrated system a witness/actualizer; P-IMAGO gives analogy/participation, not multiple realizability, Φ, observer effects, or moral-sign criteria."
+  }
+ ],
+ "ports": [],
+ "main": "A17.2",
+ "claims": [
+  "A17.2",
+  "A17.2::split-01",
+  "A17.2::split-02",
+  "A17.2::split-03",
+  "A17.2::split-04",
+  "A17.2::split-05",
+  "A17.2::split-06",
+  "A17.2::split-07",
+  "A17.2::split-08"
+ ],
+ "source": "source/nodes/A17.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

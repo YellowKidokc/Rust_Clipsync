@@ -1,0 +1,56 @@
+{
+ "id": "U4",
+ "title": "U4 Fruits Universal",
+ "lifecycle": "universal",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "HY_EVIDENCE",
+ "declared": [
+  "LOVE-ROOT"
+ ],
+ "proposed": [
+  "LOVE-ROOT"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "U4/Q15/0192",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The core follows through P-IMAGO's claim that creaturely moral goodness participates in God; the derivation stops when the record adds measurable coherence observables, σ=+1 sign-state, Logos field, completeness, information-theoretic necessity, and empirical/physical predictions."
+  }
+ ],
+ "ports": [],
+ "main": "U4",
+ "claims": [
+  "U4",
+  "U4::split-01",
+  "U4::split-02",
+  "U4::split-03",
+  "U4::split-04",
+  "U4::split-05",
+  "U4::split-06",
+  "U4::split-07",
+  "U4::split-08",
+  "U4::split-09",
+  "U4::split-10",
+  "U4::split-11",
+  "U4::split-12",
+  "U4::split-13",
+  "U4::split-14",
+  "U4::split-15",
+  "U4::split-16"
+ ],
+ "source": "source/nodes/U4.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

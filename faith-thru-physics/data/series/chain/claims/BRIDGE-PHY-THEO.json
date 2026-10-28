@@ -1,0 +1,53 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "BRIDGE-PHY-THEO",
+ "claim_id": "BRIDGE-PHY-THEO",
+ "type": "CLAIM",
+ "text": "The bridge between physics and theology via χ = Logos identification.",
+ "source": {
+  "file": "source/nodes/BRIDGE-PHY-THEO.yaml",
+  "quote": "The bridge between physics and theology via χ = Logos identification.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "observable",
+  "composition_level": 1,
+  "claim_role": "empirical_hypothesis",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/BRIDGE-PHY-THEO.yaml#BRIDGE-PHY-THEO::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "ID7.1",
+   "edge": "rests_on"
+  },
+  {
+   "id": "D2.1",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "BRIDGE-PHY-THEO",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "BRIDGE-PHY-THEO/Q15/0204",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "domain application rather than mere notation",
+   "reason": "The χ=Logos connection is an interpretive identification rather than a formal physics-theology bridge."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim cannot be faithfully encoded in Z3 without adding undefined formal semantics for chi-field, theological interpretation, divine action, L_theological, and the correspondence between physical and theological predicates. The file contains some formal-looking structures, such as Lagrangians, limits, functors, and mutual information, but these are not specified precisely enough to encode the central ontological-identity claim; checking only one side structure, such as a functor propert",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

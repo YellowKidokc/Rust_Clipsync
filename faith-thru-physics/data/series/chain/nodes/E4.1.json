@@ -1,0 +1,49 @@
+{
+ "id": "E4.1",
+ "title": "E4.1 Complexity Decrease / Chi",
+ "lifecycle": "equation",
+ "tier": 5,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [
+  "A2.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "E4.1/Q15/0038",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The move from P-IMAGO's general analogical order/simplicity to the specific claim dK/dt = -alpha*chi(t); P-IMAGO explicitly excludes deriving physical laws, equations, numbers, constants, or measurements."
+  }
+ ],
+ "ports": [],
+ "main": "E4.1",
+ "claims": [
+  "E4.1",
+  "E4.1::split-01",
+  "E4.1::split-02",
+  "E4.1::split-03",
+  "E4.1::split-04",
+  "E4.1::split-05",
+  "E4.1::split-06",
+  "E4.1::split-07",
+  "E4.1::split-08",
+  "E4.1::split-09"
+ ],
+ "source": "source/nodes/E4.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

@@ -1,0 +1,33 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "FREE-CHOICE-001",
+ "claim_id": "FREE-CHOICE-001::native-13",
+ "type": "CLAIM",
+ "text": "Exact theorem signature in FreeChoice.lean. No actual human freedom follows without the declared premises.",
+ "source": {
+  "file": "source/nodes/FREE-CHOICE-001.yaml",
+  "quote": "Exact theorem signature in FreeChoice.lean. No actual human freedom follows without the declared premises.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "theorem",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "proved",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/FREE-CHOICE-001.yaml#FREE-CHOICE-001::native-13 (Axiom HTML Update, 2026-10-28)",
+  "note": "Proved by construction, not measured."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "FREE-CHOICE-001",
+ "is_main": false,
+ "strength": "By definition",
+ "obstructions": [],
+ "generated_by": "proposed finer classification; no vocabulary change applied"
+}

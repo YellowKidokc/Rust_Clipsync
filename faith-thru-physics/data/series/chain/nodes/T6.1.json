@@ -1,0 +1,44 @@
+{
+ "id": "T6.1",
+ "title": "T6.1 Von Neumann Chain Term",
+ "lifecycle": "theorem",
+ "tier": 7,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A5.1",
+  "A6.2"
+ ],
+ "proposed": [
+  "A5.1",
+  "A6.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "T6.1/Q15/0064",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At any attempt to infer a specific physical/interpretive claim about measurement-chain termination from P-IMAGO; P-IMAGO does not reach physical laws or empirical findings."
+  }
+ ],
+ "ports": [],
+ "main": "T6.1",
+ "claims": [
+  "T6.1",
+  "T6.1::split-01",
+  "T6.1::split-02"
+ ],
+ "source": "source/nodes/T6.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

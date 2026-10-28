@@ -44,13 +44,15 @@ export function validate(r) {
 // A failed outcome overrides the warrant for display: failures stay visible.
 export function binOf(grade) {
   if (!grade) return "open";
-  if (grade.outcome === "fails") return "failed";
+  // A proved claim whose outcome is "fails" is a proof that the named assertion is false:
+  // a negative result, not a failed proof. Only an unproved claim that fails shows as failed.
+  if (grade.outcome === "fails") return grade.warrant === "proved" ? "negative" : "failed";
   return { proved: "proved", conditionally_proved: "conditional", admitted: "admitted", unverified: "open", disputed: "disputed" }[grade.warrant] || "open";
 }
 
 export const BIN_LABEL = {
   proved: "Proved", conditional: "Proved, if a premise holds", admitted: "Admitted",
-  open: "Open / unverified", disputed: "Disputed", failed: "Tested and failed",
+  open: "Open / unverified", disputed: "Disputed", failed: "Tested and failed", negative: "Proved: the target is false",
 };
 
 const WORD = {

@@ -1,0 +1,70 @@
+{
+ "id": "O1",
+ "title": "O1 Primitive 1",
+ "lifecycle": "merged",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": "A1.3",
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A1.3"
+ ],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is metaphysical and depends on undefined predicates/relations such as 'Physical', 'Information', 'reducible to', 'more fundamental', and functions F/g over an unspecified universe of entities. Encoding it in Z3 would require stipulating formal meanings and domains that the file does not provide; any finite encoding would either restate the conclusion or trivialize it. Therefore the main claim is not checkable as a precise mathematical entailment without adding unstated assumptions",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "O1/Q15/0217",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "duplicate node identity",
+   "reason": "David merged the source into A1.3; retain its claim and provenance at that destination. Warrant is not upgraded."
+  },
+  {
+   "id": "O1/Q15/0218",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops after real, dependent creaturely order/intelligibility; it cannot move to 'information is the irreducible primitive/basic stuff' or to any physical, mathematical, or empirical informational claim."
+  },
+  {
+   "id": "O1/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Information is an ontological primitive: every physical entity is a function of information, and information is not reducible to anything non-informational.",
+   "reason": "The main claim is metaphysical and depends on undefined predicates/relations such as 'Physical', 'Information', 'reducible to', 'more fundamental', and functions F/g over an unspecified universe of entities. Encoding it in Z3 would require stipulating formal meanings and domains that the file does not provide; any finite encoding would either restate the conclusion or trivialize it. Therefore the main claim is not checkable as a precise mathematical entailment without adding unstated assumptions."
+  }
+ ],
+ "ports": [],
+ "main": "O1",
+ "claims": [
+  "O1",
+  "O1::split-01",
+  "O1::split-02",
+  "O1::split-03",
+  "O1::split-04",
+  "O1::split-05",
+  "O1::split-06",
+  "O1::split-07",
+  "O1::split-08",
+  "O1::split-09",
+  "O1::split-10",
+  "O1::split-11",
+  "O1::split-12",
+  "O1::split-13",
+  "O1::split-14",
+  "O1::split-15",
+  "O1::split-16"
+ ],
+ "source": "source/nodes/O1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

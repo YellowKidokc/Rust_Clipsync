@@ -1,0 +1,62 @@
+{
+ "id": "D19.7",
+ "title": "D19.7 Law VII (Actualization)",
+ "lifecycle": "definition",
+ "tier": 13,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "LN5.1"
+ ],
+ "proposed": [
+  "A5.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "D19.7/Q15/0147",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at moving from creaturely dependence/reflection of God (A0 + P-IMAGO) to the universal act/potency law; for the full record it stops again at identifying that law with quantum wavefunction collapse requiring an external observer/terminal actualizer."
+  },
+  {
+   "id": "D19.7/Q15/Z3-result-00",
+   "kind": "known countermodel",
+   "status": "FATAL",
+   "scope": "Encoded fragment under exactly the listed premises, not every interpretation of this node: The 2D real Hilbert-space form of Law VII's no-self-actualization theorem: no unitary self-operation maps a nontrivial normalized superposition to a basis eigenstate.",
+   "reason": "[x = -0.8660254037?, y = -1/2] Faithfulness to the intended domain is a separate obligation."
+  }
+ ],
+ "ports": [],
+ "main": "D19.7",
+ "claims": [
+  "D19.7",
+  "D19.7::split-01",
+  "D19.7::split-02",
+  "D19.7::split-03",
+  "D19.7::split-04",
+  "D19.7::split-05",
+  "D19.7::split-06",
+  "D19.7::split-07",
+  "D19.7::split-08",
+  "D19.7::split-09",
+  "D19.7::split-10",
+  "D19.7::split-11",
+  "D19.7::split-12",
+  "D19.7::split-13"
+ ],
+ "source": "source/nodes/D19.7.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

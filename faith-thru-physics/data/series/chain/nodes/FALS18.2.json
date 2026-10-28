@@ -1,0 +1,53 @@
+{
+ "id": "FALS18.2",
+ "title": "Grace Falsification",
+ "lifecycle": "falsification",
+ "tier": 16,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "HY_EVIDENCE",
+ "declared": [
+  "D9.1"
+ ],
+ "proposed": [
+  "D9.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "FALS18.2/Q15/0186",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the inference from 'creaturely goodness is dependent participation in God' to 'a genuine increase in chi requires G_ext > 0 in dχ/dt = -γχ + G_ext + η'; A0+P-IMAGO do not supply the chi-field, its ODE, its double-well potential, or the empirical measurement model."
+  }
+ ],
+ "ports": [],
+ "main": "FALS18.2",
+ "claims": [
+  "FALS18.2",
+  "FALS18.2::split-01",
+  "FALS18.2::split-02",
+  "FALS18.2::split-03",
+  "FALS18.2::split-04",
+  "FALS18.2::split-05",
+  "FALS18.2::split-06",
+  "FALS18.2::split-07",
+  "FALS18.2::split-08",
+  "FALS18.2::split-09",
+  "FALS18.2::split-10",
+  "FALS18.2::split-11",
+  "FALS18.2::split-12",
+  "FALS18.2::split-13"
+ ],
+ "source": "source/nodes/FALS18.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

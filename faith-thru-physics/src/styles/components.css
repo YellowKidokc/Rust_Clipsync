@@ -150,3 +150,10 @@ button.ftp-marker:focus-visible { outline: 2px solid var(--gold); outline-offset
 .tw-ai-row input { flex: 1 1 200px; }
 .tw-ai-out { border: 1px solid var(--hairline); border-radius: var(--radius-sm); padding: 10px; margin-top: 8px; font: 400 15px/22px var(--font-serif); }
 .tw-ai-out p { margin: 0 0 6px; }
+
+/* proved negative: a proof that the target assertion is false */
+.ftp-bin-negative { color: var(--warrant-proved); }
+.ftp-marker .cut { stroke: var(--surface-100); stroke-width: 1.8; }
+.ftp-negative { margin: 0; font-size: 13px; line-height: 18px; color: var(--ink); padding: 6px 8px; border: 1px solid var(--warrant-proved); border-radius: var(--radius-sm); }
+.ftp-gnote { margin: 0; font-size: 12.5px; line-height: 17px; color: var(--ink-muted); font-style: italic; }
+.ftp-bin-edge-negative .ftp-face { border-top-color: var(--warrant-proved); }

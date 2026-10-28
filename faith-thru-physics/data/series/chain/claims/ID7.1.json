@@ -1,0 +1,55 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "ID7.1",
+ "claim_id": "ID7.1",
+ "type": "CLAIM",
+ "text": "The terminal observer of the von Neumann measurement chain is God.",
+ "source": {
+  "file": "source/nodes/ID7.1.yaml",
+  "quote": "The terminal observer of the von Neumann measurement chain is God.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "identification",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "BC1: a unique Terminal Observer with Φ=∞ and necessary, self-grounding existence exists and terminates the von Neumann chain.; A quantum-measurement interpretation requiring a terminal conscious observer.; An IIT bridge claiming Φ=∞ entails omniscience and personal integrated awareness.; A property-matching/Leibnizian bridge allowing analogical divine attributes to identify the Terminal Observer as the one God.; χ-field ontology and empirical GCP/grace data for the full record’s stronger claims.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/ID7.1.yaml#ID7.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "ID7.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "BC1: a unique Terminal Observer with Φ=∞ and necessary, self-grounding existence exists and terminates the von Neumann chain.",
+  "A quantum-measurement interpretation requiring a terminal conscious observer.",
+  "An IIT bridge claiming Φ=∞ entails omniscience and personal integrated awareness.",
+  "A property-matching/Leibnizian bridge allowing analogical divine attributes to identify the Terminal Observer as the one God.",
+  "χ-field ontology and empirical GCP/grace data for the full record’s stronger claims."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "ID7.1/Q15/0084",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the move from P-IMAGO’s analogical resemblance to a specific quantum/IIT Terminal Observer; P-IMAGO explicitly does not yield physical laws, Φ=∞, empirical measurements, or identity of a creature with God. Without BC1 and a property-matching bridge, TO = God is not established."
+  }
+ ],
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

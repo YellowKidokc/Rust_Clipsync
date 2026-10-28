@@ -1,0 +1,51 @@
+{
+ "id": "E6.2",
+ "title": "E6.2 Φ-Dependent Collapse",
+ "lifecycle": "equation",
+ "tier": 7,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "A5.1",
+  "D5.2",
+  "A6.2"
+ ],
+ "proposed": [
+  "A5.1",
+  "D5.2",
+  "A6.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "E6.2/Q15/0060",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the move from P-IMAGO's general analogy of being to the specific non-Hermitian collapse equation iħ d|ψ>/dt = (H − iγΦ)|ψ>; P-IMAGO explicitly excludes particular physical laws and equations."
+  }
+ ],
+ "ports": [],
+ "main": "E6.2",
+ "claims": [
+  "E6.2",
+  "E6.2::split-01",
+  "E6.2::split-02",
+  "E6.2::split-03",
+  "E6.2::split-04",
+  "E6.2::split-05",
+  "E6.2::split-06",
+  "E6.2::split-07"
+ ],
+ "source": "source/nodes/E6.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

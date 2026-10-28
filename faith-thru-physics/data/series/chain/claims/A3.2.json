@@ -1,0 +1,64 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "A3.2",
+ "claim_id": "A3.2",
+ "type": "CLAIM",
+ "text": "There is an objective coherence measure by which created order can be assessed, distinguishing local efficiency from global harmony, with good as fractal coherence and evil as parasitic local coherence.",
+ "source": {
+  "file": "source/nodes/A3.2.yaml",
+  "quote": "There is an objective coherence measure by which created order can be assessed, distinguishing local efficiency from global harmony, with good as fractal coherence and evil as parasitic local coherence.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "An empirical/metaphysical premise that a Logos Field χ exists and operates in the universe.; A formal premise identifying χ's operation with minimization of total Kolmogorov complexity.; A bridge premise that moral goodness is identical to global/fractal coherence and evil to parasitic local coherence.; A quantitative premise that local/global coherence can be measured, e.g. by Φ or another metric.; A thermodynamic premise that constructal-law optimization is the physical mechanism of coherence.; A unification premise that physics and morality share a single measurable metric.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/A3.2.yaml#A3.2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "A3.2",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "An empirical/metaphysical premise that a Logos Field χ exists and operates in the universe.",
+  "A formal premise identifying χ's operation with minimization of total Kolmogorov complexity.",
+  "A bridge premise that moral goodness is identical to global/fractal coherence and evil to parasitic local coherence.",
+  "A quantitative premise that local/global coherence can be measured, e.g. by Φ or another metric.",
+  "A thermodynamic premise that constructal-law optimization is the physical mechanism of coherence.",
+  "A unification premise that physics and morality share a single measurable metric."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "A3.2/Q15/0021",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "duplicate node identity",
+   "reason": "David merged the source into D3.1; retain its claim and provenance at that destination. Warrant is not upgraded."
+  },
+  {
+   "id": "A3.2/Q15/0022",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at moving from P-IMAGO's qualitative analogy of creaturely order/goodness to an objective quantitative coherence measure, and further to a Logos Field minimizing Kolmogorov complexity; P-IMAGO explicitly excludes physical laws, equations, constants, and measurements."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

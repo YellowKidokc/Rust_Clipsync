@@ -1,0 +1,34 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "SC-NEURAL",
+ "claim_id": "SC-NEURAL::split-14",
+ "type": "CLAIM",
+ "text": "The specific equations and metrics in the physics and mathematical layers are valid descriptions of consciousness.",
+ "source": {
+  "file": "source/nodes/SC-NEURAL.yaml",
+  "quote": "The specific equations and metrics in the physics and mathematical layers are valid descriptions of consciousness.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "conjecture",
+  "register": "embodied"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/SC-NEURAL.yaml#SC-NEURAL::split-14 (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "SC-NEURAL",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+ "obstructions": [],
+ "generated_by": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+}

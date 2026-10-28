@@ -1,0 +1,43 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "A9.1",
+ "claim_id": "A9.1::receipt::GravityAndGrace.adversary_changes_energy_sign",
+ "type": "RECEIPT",
+ "text": "Exact compiled declaration GravityAndGrace.adversary_changes_energy_sign",
+ "source": {
+  "file": "source/nodes/A9.1.yaml",
+  "quote": "Exact compiled declaration GravityAndGrace.adversary_changes_energy_sign",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "theorem",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "proved",
+  "outcome": "fails",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/A9.1.yaml#A9.1::receipt::GravityAndGrace.adversary_changes_energy_sign (Axiom HTML Update, 2026-10-28)",
+  "note": "Negative outcome concerns the named target assertion; a proof of its failure is not a failed proof."
+ },
+ "receipts": [
+  {
+   "kind": "lean",
+   "ref": "sources/october_lean/GravityAndGrace.lean"
+  },
+  {
+   "kind": "source",
+   "ref": "receipts/GravityAndGrace.log"
+  }
+ ],
+ "neighbors": [],
+ "node": "A9.1",
+ "is_main": false,
+ "strength": "Negative",
+ "scope": "Integer energies and three regimes are encoded. No self-capture is conditional on sign preservation. capture_requires_third_body only exhibits a chosen capturing operation, not a theorem that every capture needs a literal third body.",
+ "obstructions": [],
+ "generated_by": "subtype is a proposal only; no new field added to frozen five tags"
+}

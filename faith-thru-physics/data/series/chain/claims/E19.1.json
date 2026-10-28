@@ -1,0 +1,92 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "E19.1",
+ "claim_id": "E19.1",
+ "type": "CLAIM",
+ "text": "A single chi-field master equation can unify the Ten Theophysics Laws into one formal expression.",
+ "source": {
+  "file": "source/nodes/E19.1.yaml",
+  "quote": "A single chi-field master equation can unify the Ten Theophysics Laws into one formal expression.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "constitutive_law",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A mathematical definition of χ and each of the ten variables as well-defined fields/operators on a common space; A bridge premise mapping each Theophysics Law to its claimed mathematical object; A physical Lagrangian with empirical calibration and consistency checks; Independent proofs for existence/uniqueness, renormalizability, symmetry structure, and claimed limiting cases; Empirical protocols and data for the stated predictions",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/E19.1.yaml#E19.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "D19.1",
+   "edge": "rests_on"
+  },
+  {
+   "id": "D19.2",
+   "edge": "rests_on"
+  },
+  {
+   "id": "D19.3",
+   "edge": "rests_on"
+  },
+  {
+   "id": "D19.4",
+   "edge": "rests_on"
+  },
+  {
+   "id": "D19.5",
+   "edge": "rests_on"
+  },
+  {
+   "id": "D19.6",
+   "edge": "rests_on"
+  },
+  {
+   "id": "D19.7",
+   "edge": "rests_on"
+  },
+  {
+   "id": "D19.8",
+   "edge": "rests_on"
+  },
+  {
+   "id": "D19.9",
+   "edge": "rests_on"
+  },
+  {
+   "id": "D19.10",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "E19.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A mathematical definition of χ and each of the ten variables as well-defined fields/operators on a common space",
+  "A bridge premise mapping each Theophysics Law to its claimed mathematical object",
+  "A physical Lagrangian with empirical calibration and consistency checks",
+  "Independent proofs for existence/uniqueness, renormalizability, symmetry structure, and claimed limiting cases",
+  "Empirical protocols and data for the stated predictions"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "E19.1/Q15/0152",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the transition from P-IMAGO's general analogy of being to the specific ten-variable product integral and its identification as a Grand Unified Field Equation or Theory of Everything; no premise here defines χ, the variables, the measure, or the physical correspondences."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

@@ -1,0 +1,66 @@
+{
+ "id": "T16.5",
+ "title": "T16.5 Hinduism Fails BC Uniqueness",
+ "lifecycle": "retired",
+ "tier": 14,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A7.2"
+ ],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. Not checkable in Z3: the file does not formally define 'Hinduism' as a set of structures, the BC predicates, what it means for a path or school to satisfy all BCs, or the selection/uniqueness mechanism. The 'Mathematical Layer' uses undefined predicates such as BC_i(H_i) and |{H_i: BC(H_i)}| and its proof does not rigorously entail the conclusion. Encoding would require inventing a formalization not stated in the file.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "T16.5/Q15/0165",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "axiom-set membership",
+   "reason": "David retired this record; it is retained with reason and cannot serve as an active axiom. Content-level truth is not settled merely by retirement."
+  },
+  {
+   "id": "T16.5/Q15/0166",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "Without P_BC and P_H, the derivation stops after P-IMAGO: analogical creaturely reflection does not specify the BC1–BC8 unique-solution system or the contested pluralism of Hindu schools. For the full record, it additionally fails at treating physical uniqueness, wave-equation mathematics, quantum superposition, and historical/theological comparisons as established theorem components."
+  },
+  {
+   "id": "T16.5/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Hinduism fails BC-uniqueness due to its plurality of valid paths, multiple divine forms, and non-unified Trimurti.",
+   "reason": "Not checkable in Z3: the file does not formally define 'Hinduism' as a set of structures, the BC predicates, what it means for a path or school to satisfy all BCs, or the selection/uniqueness mechanism. The 'Mathematical Layer' uses undefined predicates such as BC_i(H_i) and |{H_i: BC(H_i)}| and its proof does not rigorously entail the conclusion. Encoding would require inventing a formalization not stated in the file."
+  }
+ ],
+ "ports": [],
+ "main": "T16.5",
+ "claims": [
+  "T16.5",
+  "T16.5::split-01",
+  "T16.5::split-02",
+  "T16.5::split-03",
+  "T16.5::split-04",
+  "T16.5::split-05",
+  "T16.5::split-06",
+  "T16.5::split-07",
+  "T16.5::split-08",
+  "T16.5::split-09",
+  "T16.5::split-10",
+  "T16.5::split-11",
+  "T16.5::split-12"
+ ],
+ "source": "source/nodes/T16.5.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

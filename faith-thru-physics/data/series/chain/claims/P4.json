@@ -1,0 +1,58 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "P4",
+ "claim_id": "P4",
+ "type": "CLAIM",
+ "text": "Genuine agency, understood as selection from multiple possibilities, is required to move coherent potentiality into actual definite reality.",
+ "source": {
+  "file": "source/nodes/P4.yaml",
+  "quote": "Genuine agency, understood as selection from multiple possibilities, is required to move coherent potentiality into actual definite reality.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "P3 (coherence of information structures) if the antecedent of P4 is to be affirmed.; A metaphysical premise that every transition from potentiality to actuality requires an agent or selector.; A quantum-measurement premise that wavefunction collapse or measurement is an agent's selection.; A libertarian-agency premise that genuine freedom requires indeterministic openness and is incompatible with compatibilism.; Empirical premises about quantum indeterminacy, Bell tests, Born rule, quantum Zeno, Libet, brain quantum coherence, and thermodynamics.; A theological premise such as Molinism or middle knowledge to reconcile divine sovereignty with libertarian freedom.; A premise identifying finite creaturely agency as a participation in the Logos or divine self-selecting agency.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/P4.yaml#P4::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A5.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "P4",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "P3 (coherence of information structures) if the antecedent of P4 is to be affirmed.",
+  "A metaphysical premise that every transition from potentiality to actuality requires an agent or selector.",
+  "A quantum-measurement premise that wavefunction collapse or measurement is an agent's selection.",
+  "A libertarian-agency premise that genuine freedom requires indeterministic openness and is incompatible with compatibilism.",
+  "Empirical premises about quantum indeterminacy, Bell tests, Born rule, quantum Zeno, Libet, brain quantum coherence, and thermodynamics.",
+  "A theological premise such as Molinism or middle knowledge to reconcile divine sovereignty with libertarian freedom.",
+  "A premise identifying finite creaturely agency as a participation in the Logos or divine self-selecting agency."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "P4/Q15/0214",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at 'coherence implies a selection process that requires agency': neither A0 nor P-IMAGO supplies the premise that every transition from potentiality to actuality needs an agent, nor any physical claim about quantum collapse or measurement."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim uses interpretive terms such as 'coherence', 'potentiality', 'actuality', 'agency', and 'genuine selection' without precise formal axioms. The file's 'Selection Necessity' proof only shows that if an actual basis state is given, a projection operator can be defined that maps a superposition to it; that does not establish the main metaphysical claim that actuality requires agency. Encoding the claim would require adding an unstated equivalence between arbitrary selection/projection",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

@@ -15,6 +15,7 @@ export function WarrantMarker({ grade, bin, label, active, onClick, showLabel })
         {b === "admitted" && <circle cx="6" cy="6" r="4.4" className="s" />}
         {b === "disputed" && <><circle cx="6" cy="6" r="4.4" className="s" /><path d="M3 6 H9" className="s" /></>}
         {b === "failed" && <path d="M2.5 2.5 L9.5 9.5 M9.5 2.5 L2.5 9.5" className="s x" />}
+        {b === "negative" && <><circle cx="6" cy="6" r="5" className="f" /><path d="M3.2 6 H8.8" className="cut" /></>}
         {b === "open" && <circle cx="6" cy="6" r="4.4" className="s d" />}
       </svg>
       {showLabel && <span className="ftp-marker-label">{BIN_LABEL[b]}</span>}
@@ -30,12 +31,14 @@ export function GradeBlock({ grade = {} }) {
     <div className="ftp-grade">
       <div className="ftp-grade-head"><WarrantMarker grade={grade} showLabel /></div>
       {grade.warrant === "conditionally_proved" && <p className="ftp-premise"><span className="ftp-if">If </span>{grade.warrant_premise}</p>}
+      {binOf(grade) === "negative" && <p className="ftp-negative">This is a proof that the named assertion is false: a negative result, not a failed proof.</p>}
       <dl className="ftp-fields">
         <Field label="Warrant">{word(grade.warrant)}</Field>
         <Field label="Outcome">{word(grade.outcome)}</Field>
         <Field label="Match scope">{word(grade.match_scope || null)}</Field>
         <Field label="Canon status">{word(grade.canon_status)}</Field>
       </dl>
+      {grade.note && <p className="ftp-gnote">{grade.note}</p>}
       <p className="ftp-source">Grade copied from <code>{grade.grade_source || "no source"}</code></p>
     </div>
   );
@@ -78,7 +81,7 @@ export function ClaimCard({ record }) {
           )}
           {r.receipts?.length ? (
             <ul className="ftp-receipts">{r.receipts.map((x, i) => (
-              <li key={i}><span className="ftp-kind">{x.kind}</span><code>{x.ref}</code><span className={`ftp-ver ftp-ver-${x.verification}`}>{word(x.verification)}</span></li>
+              <li key={i}><span className="ftp-kind">{x.kind}</span><code>{x.ref}</code><span className={`ftp-ver ftp-ver-${x.verification || "none"}`}>{x.verification ? word(x.verification) : "how it was checked is not stated"}</span></li>
             ))}</ul>
           ) : <p className="ftp-empty">No receipt on file.</p>}
           {r.generated_by && <p className="ftp-ai">{r.generated_by}</p>}

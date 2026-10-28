@@ -1,0 +1,77 @@
+{
+ "id": "A2.2",
+ "title": "A2.2 Self-Grounding",
+ "lifecycle": "stance",
+ "tier": 2,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A2.1"
+ ],
+ "proposed": [
+  "A2.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "ADMITTED",
+  "named_premises": [
+   "There must be a self-grounding/self-instantiating fundamental ground that terminates any infinite regress of dependence."
+  ],
+  "denial_cost": "Well-founded/self-grounded explanatory termination is no longer guaranteed; field/coherence/compression applications that use this stance need new support.",
+  "checkable_by": null,
+  "receipt": [
+   "sources/august/AXIOM_CHAIN_MASTER_v3.md"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "A2.2/Q15/0012",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The core terminates at A0's self-existent necessary ground. The record fails when it identifies that ground with the Logos Field χ(x,t) and then asserts scalar-field, master-equation, semantic, fine-tuning, entropy, and empirical properties without entailment."
+  },
+  {
+   "id": "A2.2/Q15/0260",
+   "kind": "definitional conflict",
+   "status": "FATAL",
+   "scope": "naive merged-premise union asserted acyclic",
+   "reason": "Folding LN2.1 into A2.1 and unioning its v3 A2.2 premise creates A2.1 -> A2.2 -> A2.1. This is not an acyclic derivation and cannot serve as independent proof."
+  },
+  {
+   "id": "A2.2/Q15/0261",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "claim-scoped merge representation",
+   "reason": "Keep the incoming LN2.1 claim and its A2.2 premise separate from the survivor A2.1 primary definition/support. Do not delete the premise or upgrade its warrant."
+  }
+ ],
+ "ports": [],
+ "main": "A2.2",
+ "claims": [
+  "A2.2",
+  "A2.2::split-01",
+  "A2.2::split-02",
+  "A2.2::split-03",
+  "A2.2::split-04",
+  "A2.2::split-05",
+  "A2.2::split-06",
+  "A2.2::split-07",
+  "A2.2::split-08",
+  "A2.2::split-09",
+  "A2.2::split-10",
+  "A2.2::split-11",
+  "A2.2::split-12",
+  "A2.2::split-13",
+  "A2.2::split-14",
+  "A2.2::split-15",
+  "A2.2::split-16",
+  "A2.2::split-17",
+  "A2.2::split-18",
+  "A2.2::split-19"
+ ],
+ "source": "source/nodes/A2.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

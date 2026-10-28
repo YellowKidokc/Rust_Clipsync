@@ -1,0 +1,33 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "FREE-CHOICE-001",
+ "claim_id": "FREE-CHOICE-001::native-7",
+ "type": "CLAIM",
+ "text": "sigma_response is +1 for acceptance, -1 for refusal; this selector is not a proof that a person changes the conserved Soul.sign unaided.",
+ "source": {
+  "file": "source/nodes/FREE-CHOICE-001.yaml",
+  "quote": "sigma_response is +1 for acceptance, -1 for refusal; this selector is not a proof that a person changes the conserved Soul.sign unaided.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "operator",
+  "composition_level": 1,
+  "claim_role": "definition",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "proved",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/FREE-CHOICE-001.yaml#FREE-CHOICE-001::native-7 (Axiom HTML Update, 2026-10-28)",
+  "note": "Proved by construction, not measured."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "FREE-CHOICE-001",
+ "is_main": false,
+ "strength": "By definition",
+ "obstructions": [],
+ "generated_by": "proposed finer classification; no vocabulary change applied"
+}

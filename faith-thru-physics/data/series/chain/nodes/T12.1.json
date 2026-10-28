@@ -1,0 +1,68 @@
+{
+ "id": "T12.1",
+ "title": "T12.1 Heaven As High-Φ Attractor",
+ "lifecycle": "merged",
+ "tier": 11,
+ "context_parent": "A0",
+ "merged_into": "D12.1",
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is a continuous-time ODE asymptotic-stability statement involving limits, trajectories, and attractor semantics. Z3 can encode algebraic sign conditions or finite approximations, but faithfully encoding the actual limit/attractor theorem would require real analysis and trajectory semantics not available in the requested z3-solver setup. Checking only the derivative sign or Lyapunov algebra identity would be an easier side calculation, not the main asymptotic claim.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "T12.1/Q15/0124",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "duplicate node identity",
+   "reason": "David merged the source into D12.1; retain its claim and provenance at that destination. Warrant is not upgraded."
+  },
+  {
+   "id": "T12.1/Q15/0125",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at moving from P-IMAGO’s analogy of being to a specific soul-coherence dynamical system and to identifying heaven with Φ_max; that requires E12.1 and additional model definitions."
+  },
+  {
+   "id": "T12.1/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: For σ = +1 soul states governed by dΦ/dt = γ(Φ_max − Φ)Φ with 0 < Φ < Φ_max and γ > 0, Φ(t) tends asymptotically to Φ_max, making heaven the high-Φ attractor.",
+   "reason": "The main claim is a continuous-time ODE asymptotic-stability statement involving limits, trajectories, and attractor semantics. Z3 can encode algebraic sign conditions or finite approximations, but faithfully encoding the actual limit/attractor theorem would require real analysis and trajectory semantics not available in the requested z3-solver setup. Checking only the derivative sign or Lyapunov algebra identity would be an easier side calculation, not the main asymptotic claim."
+  }
+ ],
+ "ports": [],
+ "main": "T12.1",
+ "claims": [
+  "T12.1",
+  "T12.1::split-01",
+  "T12.1::split-02",
+  "T12.1::split-03",
+  "T12.1::split-04",
+  "T12.1::split-05",
+  "T12.1::split-06",
+  "T12.1::split-07",
+  "T12.1::split-08",
+  "T12.1::split-09",
+  "T12.1::split-10",
+  "T12.1::split-11",
+  "T12.1::split-12",
+  "T12.1::split-13",
+  "T12.1::split-14"
+ ],
+ "source": "source/nodes/T12.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

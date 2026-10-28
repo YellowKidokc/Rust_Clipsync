@@ -1,0 +1,64 @@
+{
+ "id": "A6.2",
+ "title": "A6.2 Collapse",
+ "lifecycle": "framework_commitment",
+ "tier": 7,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A5.1"
+ ],
+ "proposed": [
+  "A5.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is a metaphysical/framework-commitment postulate. The file does not provide a precise formal semantics for 'observation induces transition' or a complete measurement/collapse dynamics sufficient to encode it in Z3 without adding unstated assumptions. Encoding it as an abstract transition relation would either assume the conclusion or model an arbitrary convention. The mathematical side results in the file (projection idempotence, non-unitarity, Landauer cost, etc.) are not the mai",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "A6.2/Q15/0055",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the move from a general Creator/creature analogy, including consciousness and order as creaturely participations, to the specific quantum-measurement claim that observation causes non-unitary projection to an eigenstate; P-IMAGO is explicitly barred from licensing that physical law."
+  },
+  {
+   "id": "A6.2/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: A6.2 Collapse main statement: Observation induces transition from superposition to definite eigenstate.",
+   "reason": "The main claim is a metaphysical/framework-commitment postulate. The file does not provide a precise formal semantics for 'observation induces transition' or a complete measurement/collapse dynamics sufficient to encode it in Z3 without adding unstated assumptions. Encoding it as an abstract transition relation would either assume the conclusion or model an arbitrary convention. The mathematical side results in the file (projection idempotence, non-unitarity, Landauer cost, etc.) are not the main claim and were not substituted."
+  }
+ ],
+ "ports": [],
+ "main": "A6.2",
+ "claims": [
+  "A6.2",
+  "A6.2::split-01",
+  "A6.2::split-02",
+  "A6.2::split-03",
+  "A6.2::split-04",
+  "A6.2::split-05",
+  "A6.2::split-06",
+  "A6.2::split-07",
+  "A6.2::split-08",
+  "A6.2::split-09",
+  "A6.2::split-10",
+  "A6.2::split-11",
+  "A6.2::split-12",
+  "A6.2::split-13",
+  "A6.2::split-14",
+  "A6.2::split-15"
+ ],
+ "source": "source/nodes/A6.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

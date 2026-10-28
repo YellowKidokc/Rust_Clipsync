@@ -1,0 +1,54 @@
+{
+ "id": "A6.1",
+ "title": "A6.1 Superposition",
+ "lifecycle": "framework_commitment",
+ "tier": 7,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A5.1"
+ ],
+ "proposed": [
+  "A5.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "A6.1/Q15/0054",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the step from P-IMAGO's general analogy of creaturely order, relation, and agency to a specific quantum-physical state (superposition) and to theological identifications such as F-Field or Symmetry of the Godhead; P-IMAGO does not reach physical laws or measurement ontology."
+  }
+ ],
+ "ports": [],
+ "main": "A6.1",
+ "claims": [
+  "A6.1",
+  "A6.1::split-01",
+  "A6.1::split-02",
+  "A6.1::split-03",
+  "A6.1::split-04",
+  "A6.1::split-05",
+  "A6.1::split-06",
+  "A6.1::split-07",
+  "A6.1::split-08",
+  "A6.1::split-09",
+  "A6.1::split-10",
+  "A6.1::split-11",
+  "A6.1::split-12",
+  "A6.1::split-13",
+  "A6.1::split-14"
+ ],
+ "source": "source/nodes/A6.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

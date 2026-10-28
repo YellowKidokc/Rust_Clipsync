@@ -1,0 +1,63 @@
+{
+ "id": "D2.1",
+ "title": "D2.1 Logos Field Definition",
+ "lifecycle": "definition",
+ "tier": 3,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [
+  "A2.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main statement is definitional and depends on undefined theological/physical terms (divine ordering principle, coherence, grounding, manifestation, etc.), an unspecified causal spacetime integration domain, and unformalized variables G through C. A z3 encoding would either check a trivial satisfiability of an arbitrary nonnegative function or a side property such as nonnegativity of a product, neither of which is the file's main claim.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "D2.1/Q15/0013",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the inference that the self-grounding ground/order/intelligibility must be a real scalar field χ(x,t) with semantic content, spacetime priority, equations, and couplings; A0+P-IMAGO provide no field ontology or empirical data."
+  },
+  {
+   "id": "D2.1/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: D2.1's main claim defines the Logos Field χ as a nonnegative scalar field over spacetime with a Master Equation given by an integral of ten unformalized variables.",
+   "reason": "The main statement is definitional and depends on undefined theological/physical terms (divine ordering principle, coherence, grounding, manifestation, etc.), an unspecified causal spacetime integration domain, and unformalized variables G through C. A z3 encoding would either check a trivial satisfiability of an arbitrary nonnegative function or a side property such as nonnegativity of a product, neither of which is the file's main claim."
+  }
+ ],
+ "ports": [],
+ "main": "D2.1",
+ "claims": [
+  "D2.1",
+  "D2.1::split-01",
+  "D2.1::split-02",
+  "D2.1::split-03",
+  "D2.1::split-04",
+  "D2.1::split-05",
+  "D2.1::split-06",
+  "D2.1::split-07",
+  "D2.1::split-08",
+  "D2.1::split-09",
+  "D2.1::split-10",
+  "D2.1::split-11",
+  "D2.1::split-12",
+  "D2.1::split-13",
+  "D2.1::split-14"
+ ],
+ "source": "source/nodes/D2.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

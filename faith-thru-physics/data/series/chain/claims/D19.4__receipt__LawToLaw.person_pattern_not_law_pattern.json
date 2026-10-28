@@ -1,0 +1,43 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D19.4",
+ "claim_id": "D19.4::receipt::LawToLaw.person_pattern_not_law_pattern",
+ "type": "RECEIPT",
+ "text": "Exact compiled declaration LawToLaw.person_pattern_not_law_pattern",
+ "source": {
+  "file": "source/nodes/D19.4.yaml",
+  "quote": "Exact compiled declaration LawToLaw.person_pattern_not_law_pattern",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "theorem",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "proved",
+  "outcome": "fails",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D19.4.yaml#D19.4::receipt::LawToLaw.person_pattern_not_law_pattern (Axiom HTML Update, 2026-10-28)",
+  "note": "Negative outcome concerns the named target assertion; a proof of its failure is not a failed proof."
+ },
+ "receipts": [
+  {
+   "kind": "lean",
+   "ref": "sources/october_lean/LawToLaw.lean"
+  },
+  {
+   "kind": "source",
+   "ref": "receipts/LawToLaw.log"
+  }
+ ],
+ "neighbors": [],
+ "node": "D19.4",
+ "is_main": false,
+ "strength": "Negative",
+ "scope": "Coarse two-state models are assigned equal roles/values/steps. External-input flag is an annotation. No mechanistic physics/theology identity is proved. Three person regimes cannot match the two-state law pattern.",
+ "obstructions": [],
+ "generated_by": "subtype is a proposal only; no new field added to frozen five tags"
+}

@@ -1,0 +1,34 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "E9.1",
+ "claim_id": "E9.1::split-09",
+ "type": "CLAIM",
+ "text": "The equation makes grace computable and turns grace into physics, serving as the source code or algorithm of salvation.",
+ "source": {
+  "file": "source/nodes/E9.1.yaml",
+  "quote": "The equation makes grace computable and turns grace into physics, serving as the source code or algorithm of salvation.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/E9.1.yaml#E9.1::split-09 (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "E9.1",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+ "obstructions": [],
+ "generated_by": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+}

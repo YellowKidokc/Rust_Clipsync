@@ -1,0 +1,63 @@
+{
+ "id": "A12.1",
+ "title": "A12.1 Asymptotic Behavior",
+ "lifecycle": "framework_commitment",
+ "tier": 11,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "CONDITIONAL",
+  "named_premises": [
+   "State variable Φ lies in the compact interval [0, Φ_max].",
+   "Sign σ is conserved and takes values +1 or -1.",
+   "The scalar destiny equation dΦ/dt = σ γ Φ (Φ_max - Φ) determines the flow: for σ=+1, Φ monotonically increases toward Φ_max; for σ=-1, Φ monotonically decreases toward 0.",
+   "Φ_max is a positive bound (finite discretization uses Φ_max=4).",
+   "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+  ],
+  "denial_cost": null,
+  "checkable_by": null,
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json",
+   "Convergence of all soul trajectories to one of two fixed points under the scalar destiny equation"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "A12.1/Q15/0119",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the move from A0/P-IMAGO's general analogical order and compatibility with finality to the specific dynamical-system claim that every soul trajectory converges to a fixed-point attractor; no equation, state space, bounded Φ, or eschatological finality follows from A0+P-IMAGO alone."
+  }
+ ],
+ "ports": [],
+ "main": "A12.1",
+ "claims": [
+  "A12.1",
+  "A12.1::split-01",
+  "A12.1::split-02",
+  "A12.1::split-03",
+  "A12.1::split-04",
+  "A12.1::split-05",
+  "A12.1::split-06",
+  "A12.1::split-07",
+  "A12.1::split-08",
+  "A12.1::split-09",
+  "A12.1::split-10",
+  "A12.1::split-11",
+  "A12.1::split-12",
+  "A12.1::split-13",
+  "A12.1::z3-conditional-component"
+ ],
+ "source": "source/nodes/A12.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

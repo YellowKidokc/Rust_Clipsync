@@ -1,0 +1,49 @@
+{
+ "id": "LN5.1",
+ "title": "LN5.1 χ Requires Observer",
+ "lifecycle": "merged",
+ "tier": 6,
+ "context_parent": "A0",
+ "merged_into": "A5.1",
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A5.1"
+ ],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "LN5.1/Q15/0052",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "duplicate node identity",
+   "reason": "David merged the source into A5.1; retain its claim and provenance at that destination. Warrant is not upgraded."
+  },
+  {
+   "id": "LN5.1/Q15/0053",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the inference from P-IMAGO's creaturely participation in God to the physical/ontological necessity of an observer for χ-actualization; P-IMAGO explicitly does not yield physical laws, measurement outcomes, or empirical findings."
+  }
+ ],
+ "ports": [],
+ "main": "LN5.1",
+ "claims": [
+  "LN5.1",
+  "LN5.1::split-01",
+  "LN5.1::split-02",
+  "LN5.1::split-03",
+  "LN5.1::split-04"
+ ],
+ "source": "source/nodes/LN5.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

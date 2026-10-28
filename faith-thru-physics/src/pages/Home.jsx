@@ -10,8 +10,9 @@ export default function Home() {
         <Link to="/graph" className="home-way"><span className="home-way-title">Explore the graph</span><span>Every claim as a dot, from the one axiom down.</span></Link>
         <Link to="/town" className="home-way"><span className="home-way-title">Walk the Town</span><span>Load a set of rules, add people, and watch what can happen.</span></Link>
       </div>
+      <p className="home-status"><Link to="/status">Where it stands</Link>: every node of the chain, what is proved, what holds only if a premise holds, and what is still open.</p>
       <dl className="home-key" aria-label="What the markers mean">
-        {["proved", "conditional", "admitted", "open", "disputed", "failed"].map((b) => <div key={b}><WarrantMarker bin={b} showLabel /></div>)}
+        {["proved", "negative", "conditional", "admitted", "open", "disputed", "failed"].map((b) => <div key={b}><WarrantMarker bin={b} showLabel /></div>)}
       </dl>
     </div>
   );

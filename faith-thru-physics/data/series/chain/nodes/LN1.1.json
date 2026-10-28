@@ -1,0 +1,68 @@
+{
+ "id": "LN1.1",
+ "title": "LN1.1 Matter-Energy Derivative",
+ "lifecycle": "logical_necessity",
+ "tier": 1,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A1.1",
+  "A1.2"
+ ],
+ "proposed": [
+  "A1.1",
+  "A1.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is a metaphysical/ontological priority claim using undefined notions such as 'primitive', 'derivative', 'ground', and 'prior'. The file gives quantitative support via the Bekenstein bound and Landauer principle, but those do not formalize the priority relation and are not the main claim. Encoding the claim as arbitrary Boolean predicates would be trivial and not a faithful mathematical check.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "LN1.1/Q15/0008",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The core derivation stops at the move from P-IMAGO's general creaturely order/intelligibility to 'information is ontologically primitive' and 'matter/energy are fully specified by informational properties'; the full record's physical/mathematical extras stop even earlier because P-IMAGO explicitly does not entail physical laws, equations, constants, or measurements."
+  },
+  {
+   "id": "LN1.1/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Ontological priority of information over matter/energy in LN1.1",
+   "reason": "The main claim is a metaphysical/ontological priority claim using undefined notions such as 'primitive', 'derivative', 'ground', and 'prior'. The file gives quantitative support via the Bekenstein bound and Landauer principle, but those do not formalize the priority relation and are not the main claim. Encoding the claim as arbitrary Boolean predicates would be trivial and not a faithful mathematical check."
+  }
+ ],
+ "ports": [],
+ "main": "LN1.1",
+ "claims": [
+  "LN1.1",
+  "LN1.1::split-01",
+  "LN1.1::split-02",
+  "LN1.1::split-03",
+  "LN1.1::split-04",
+  "LN1.1::split-05",
+  "LN1.1::split-06",
+  "LN1.1::split-07",
+  "LN1.1::split-08",
+  "LN1.1::split-09",
+  "LN1.1::split-10",
+  "LN1.1::split-11",
+  "LN1.1::split-12",
+  "LN1.1::split-13",
+  "LN1.1::split-14",
+  "LN1.1::split-15",
+  "LN1.1::split-16",
+  "LN1.1::split-17"
+ ],
+ "source": "source/nodes/LN1.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

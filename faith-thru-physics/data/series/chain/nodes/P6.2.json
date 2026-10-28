@@ -1,0 +1,45 @@
+{
+ "id": "P6.2",
+ "title": "P6.2 Collapse Generates Heat",
+ "lifecycle": "property",
+ "tier": 7,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A6.3"
+ ],
+ "proposed": [
+  "A6.3"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "P6.2/Q15/0063",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "P-IMAGO stops before physical heat/energy equations; no step licenses identifying collapse with an N-state erasure or deriving Q = k_B T ln N."
+  }
+ ],
+ "ports": [],
+ "main": "P6.2",
+ "claims": [
+  "P6.2",
+  "P6.2::split-01",
+  "P6.2::split-02",
+  "P6.2::split-03",
+  "P6.2::split-04",
+  "P6.2::split-05"
+ ],
+ "source": "source/nodes/P6.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

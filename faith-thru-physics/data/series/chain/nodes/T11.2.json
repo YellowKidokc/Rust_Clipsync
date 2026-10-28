@@ -1,0 +1,73 @@
+{
+ "id": "T11.2",
+ "title": "T11.2 Vice As Decoherence",
+ "lifecycle": "theorem",
+ "tier": 11,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "CONDITIONAL",
+  "named_premises": [
+   "Integrated information Φ is positive at the considered soul state.",
+   "Vice intensity is positive.",
+   "The decoherence rate Γ_vice is a positive proportionality of vice intensity.",
+   "The stated rate equation is dΦ/dt = -Γ_vice · Φ.",
+   "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+  ],
+  "denial_cost": null,
+  "checkable_by": null,
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json",
+   "Positive vice-induced decoherence rate makes the coherence derivative negative."
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "T11.2/Q15/0118",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the inference from vice as opposition to creaturely participation in God's goodness to vice as a measurable decrease of integrated information Φ/decoherence; no metric, identity, or empirical bridge is supplied by A0 + P-IMAGO."
+  }
+ ],
+ "ports": [],
+ "main": "T11.2",
+ "claims": [
+  "T11.2",
+  "T11.2::split-01",
+  "T11.2::split-02",
+  "T11.2::split-03",
+  "T11.2::split-04",
+  "T11.2::split-05",
+  "T11.2::split-06",
+  "T11.2::split-07",
+  "T11.2::split-08",
+  "T11.2::split-09",
+  "T11.2::split-10",
+  "T11.2::split-11",
+  "T11.2::split-12",
+  "T11.2::split-13",
+  "T11.2::split-14",
+  "T11.2::split-15",
+  "T11.2::split-16",
+  "T11.2::split-17",
+  "T11.2::split-18",
+  "T11.2::split-19",
+  "T11.2::split-20",
+  "T11.2::split-21",
+  "T11.2::split-22",
+  "T11.2::split-23",
+  "T11.2::z3-conditional-component"
+ ],
+ "source": "source/nodes/T11.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

@@ -191,3 +191,64 @@ input, select { font: 400 14px/20px var(--font-sans); color: var(--ink); backgro
 @media (min-width: 981px) {
   .at-side { position: sticky; top: 64px; max-height: calc(100vh - 76px); overflow-y: auto; padding-right: 4px; scrollbar-width: thin; }
 }
+.node-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px 20px; margin: 0; }
+.node-facts dt { font: 600 11px/16px var(--font-sans); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-muted); }
+.node-facts dd { margin: 0; font: 400 16px/22px var(--font-serif); }
+.node-p { font: 400 16px/24px var(--font-serif); margin: 12px 0 0 !important; }
+.h2-gap { margin-top: 20px !important; }
+.plain-list.cols { columns: 2 220px; display: block; }
+.plain-list.cols li { margin-bottom: 6px; break-inside: avoid; }
+.node-claims { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; max-height: 520px; overflow: auto; font: 400 15px/22px var(--font-serif); }
+.node-claims a { color: var(--ink); text-decoration: none; }
+.node-claims a:hover { color: var(--gold); }
+.node-claims .is-rejected { font-size: 13px; }
+.obstruction-list li { font-size: 14px; line-height: 20px; }
+.ob-status { font: 600 10.5px/16px var(--font-sans); letter-spacing: .06em; padding: 1px 6px; border-radius: 3px; border: 1px solid var(--hairline); }
+.ob-open { border-color: var(--warrant-disputed); color: var(--warrant-disputed); }
+.ob-fatal { border-color: var(--warrant-failed); color: var(--warrant-failed); }
+.ob-resolved { color: var(--ink-muted); }
+
+/* status page */
+.status-page { max-width: 900px; margin: 0 auto; padding: var(--space-6) var(--space-4); display: grid; gap: 28px; }
+.status-page h2 { font: 600 22px/28px var(--font-serif); margin: 0 0 8px; }
+.status-page .lede { font: 400 20px/30px var(--font-serif); margin: 0; }
+.status-page section > p { margin: 6px 0 0; }
+.status-counts, .receipt-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; }
+.status-counts > div, .receipt-grid > div { border: 1px solid var(--hairline); border-radius: var(--radius-md); background: var(--surface-100); padding: 14px; display: grid; gap: 4px; font-size: 13.5px; color: var(--ink-muted); }
+.big { font: 600 34px/38px var(--font-serif); color: var(--ink); font-variant-numeric: tabular-nums; }
+.bin-bars { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+.bin-bars li { display: grid; grid-template-columns: 230px 1fr 40px; gap: 12px; align-items: center; }
+.bin-bars .bar { height: 10px; background: var(--surface-200); border-radius: 999px; overflow: hidden; }
+.bin-bars .bar i { display: block; height: 100%; background: currentColor; border-radius: 999px; }
+.bin-bars b { text-align: right; font-variant-numeric: tabular-nums; }
+@media (max-width: 600px) { .bin-bars li { grid-template-columns: 1fr 50px; } .bin-bars .bar { grid-column: 1 / -1; grid-row: 2; } }
+.status-list summary { font: 600 14px/20px var(--font-sans); color: var(--gold); cursor: pointer; margin-top: 8px; }
+.status-list ul { padding-left: 18px; display: grid; gap: 12px; margin-top: 12px; }
+.status-list li { font-size: 14px; line-height: 20px; }
+.status-list li p { margin: 4px 0 0; font: 400 15px/22px var(--font-serif); }
+.status-list code { margin-right: 6px; }
+.pass { font: 600 11px/16px var(--font-sans); color: var(--warrant-proved); }
+.update-list { list-style: none; padding: 0; margin: 12px 0 0; display: grid; gap: 10px; }
+.update-list li { border: 1px solid var(--hairline); border-radius: var(--radius-md); padding: 12px 14px; background: var(--surface-100); }
+.update-list p { margin: 6px 0 0; font: 400 15px/22px var(--font-serif); }
+.upd-top { display: flex; gap: 8px; flex-wrap: wrap; align-items: baseline; }
+.upd-top code { color: var(--gold); }
+.upd-status { font: 600 10.5px/16px var(--font-sans); letter-spacing: .06em; text-transform: uppercase; padding: 1px 7px; border-radius: 3px; border: 1px solid var(--hairline); color: var(--ink-muted); margin-left: auto; }
+h2 .upd-status { margin-left: 8px; vertical-align: middle; }
+.tone-open { border-color: var(--warrant-disputed); color: var(--warrant-disputed); }
+.tone-proposed { border-color: var(--warrant-admitted); color: var(--warrant-admitted); }
+.home-status { margin: 28px 0 0; font-size: 15px; color: var(--ink-muted); }
+.unchecked-box { border: 1px dashed var(--warrant-open); border-radius: var(--radius-md); padding: var(--space-4); }
+.unchecked-box p { font: 400 16px/24px var(--font-serif) !important; margin: 0 0 8px !important; }
+/* graph additions */
+.graph-controls { display: grid; gap: 8px; margin-top: var(--space-4); }
+.graph-toggles { display: flex; flex-wrap: wrap; gap: 8px 20px; align-items: center; }
+.graph-toggles input[type=search] { width: 260px; }
+.graph-dot.is-desc { border-color: var(--ink-muted); border-style: dashed; }
+.graph-dot.is-hist { opacity: .55; }
+.graph-dot.is-root { border-color: var(--warrant-admitted); }
+.link-mode { display: inline-flex; border: 1px solid var(--hairline); border-radius: var(--radius-sm); overflow: hidden; }
+.link-mode button { font: 600 13px/18px var(--font-sans); color: var(--ink-muted); background: none; border: 0; border-right: 1px solid var(--hairline); padding: 6px 12px; cursor: pointer; }
+.link-mode button:last-child { border-right: 0; }
+.link-mode button[aria-checked="true"] { background: var(--gold-soft); color: var(--ink); }
+.graph-widths { font-size: 13px; margin: 8px 0 0; font-variant-numeric: tabular-nums; }

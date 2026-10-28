@@ -1,0 +1,54 @@
+{
+ "id": "BC5",
+ "title": "BC5 Superposition Preserved",
+ "lifecycle": "boundary",
+ "tier": 8,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC4a"
+ ],
+ "proposed": [
+  "BC4a"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "BC5/Q15/0077",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the move from A0/P-IMAGO's metaphysical analogy of being and divine observation to a specific quantum-mechanical collapse rule; no physical superposition, decoherence, or measurement dynamics follows."
+  }
+ ],
+ "ports": [],
+ "main": "BC5",
+ "claims": [
+  "BC5",
+  "BC5::split-01",
+  "BC5::split-02",
+  "BC5::split-03",
+  "BC5::split-04",
+  "BC5::split-05",
+  "BC5::split-06",
+  "BC5::split-07",
+  "BC5::split-08",
+  "BC5::split-09",
+  "BC5::split-10",
+  "BC5::split-11",
+  "BC5::split-12",
+  "BC5::split-13",
+  "BC5::split-14"
+ ],
+ "source": "source/nodes/BC5.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

@@ -1,0 +1,59 @@
+{
+ "id": "F6",
+ "title": "Goodness Measurement Domain",
+ "lifecycle": "fruit",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "HY_EVIDENCE",
+ "declared": [
+  "FRUIT-GEN"
+ ],
+ "proposed": [
+  "FRUIT-GEN"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "CONDITIONAL",
+  "named_premises": [
+   "Goodness is computed as total weighted positive coherence contribution P minus λ times total weighted negative coherence contribution H, i.e. F = P - λH.",
+   "The action has equal positive and negative effects: P = H > 0.",
+   "The harm penalty factor satisfies λ > 1.",
+   "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+  ],
+  "denial_cost": null,
+  "checkable_by": null,
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json",
+   "Harm-aversion/optimization property of the F6 Goodness metric: equal positive and negative coherence effects are net-negative when λ > 1."
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "F6/Q15/0200",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the transition from P-IMAGO's analogical participation of creaturely goodness in God's goodness to the quantitative claim that goodness equals a weighted net sum of measurable coherence changes with an objective λ>1 harm penalty."
+  }
+ ],
+ "ports": [],
+ "main": "F6",
+ "claims": [
+  "F6",
+  "F6::split-01",
+  "F6::split-02",
+  "F6::split-03",
+  "F6::split-04",
+  "F6::split-05",
+  "F6::split-06",
+  "F6::split-07",
+  "F6::split-08",
+  "F6::split-09",
+  "F6::split-10",
+  "F6::z3-conditional-component"
+ ],
+ "source": "source/nodes/F6.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

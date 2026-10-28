@@ -1,0 +1,34 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "A2.2",
+ "claim_id": "A2.2::split-17",
+ "type": "CLAIM",
+ "text": "Gödel's incompleteness theorem implies that no physical theory can ground itself and that the χ-field is the required meta-mathematical ground.",
+ "source": {
+  "file": "source/nodes/A2.2.yaml",
+  "quote": "Gödel's incompleteness theorem implies that no physical theory can ground itself and that the χ-field is the required meta-mathematical ground.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/A2.2.yaml#A2.2::split-17 (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "A2.2",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+ "obstructions": [],
+ "generated_by": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+}

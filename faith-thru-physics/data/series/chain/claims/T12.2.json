@@ -1,0 +1,64 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "T12.2",
+ "claim_id": "T12.2",
+ "type": "CLAIM",
+ "text": "Hell is the stable minimal-coherence state reached by a soul that persistently chooses vice.",
+ "source": {
+  "file": "source/nodes/T12.2.yaml",
+  "quote": "Hell is the stable minimal-coherence state reached by a soul that persistently chooses vice.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "Integrated Information Theory and Phi as a consciousness/integration measure; Moral-coherence and vice-as-decoherence dynamics from T11.1, T11.2, and D11.1; Bimodal asymptotic soul dynamics from A12.1, A12.2, and T12.1; Soul conservation/psi_S from A10.2 and D10.1; A specified phase-space dynamical system with Gamma, D, lambda, sigma, and stability conditions; Empirical evidence correlating sustained vice, fragmentation, dissociation, and Phi reduction",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/T12.2.yaml#T12.2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "T12.2",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "Integrated Information Theory and Phi as a consciousness/integration measure",
+  "Moral-coherence and vice-as-decoherence dynamics from T11.1, T11.2, and D11.1",
+  "Bimodal asymptotic soul dynamics from A12.1, A12.2, and T12.1",
+  "Soul conservation/psi_S from A10.2 and D10.1",
+  "A specified phase-space dynamical system with Gamma, D, lambda, sigma, and stability conditions",
+  "Empirical evidence correlating sustained vice, fragmentation, dissociation, and Phi reduction"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "T12.2/Q15/0126",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "duplicate node identity",
+   "reason": "David merged the source into D12.2; retain its claim and provenance at that destination. Warrant is not upgraded."
+  },
+  {
+   "id": "T12.2/Q15/0127",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the inference from 'vice is defective participation in God/goodness' to 'vice produces a quantifiable decrease in Phi and a stable low-Phi attractor'; P-IMAGO supplies no Phi metric, dynamics, stability theorem, or empirical identification."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. A faithful Z3 encoding would require continuous-time differential equations, differentiability/continuity of Gamma and D, limits as t tends to infinity, and Lyapunov/asymptotic stability over a real phase space. Z3/SMT cannot natively express these analytic notions. A finite-state or finite-step discretization would replace asymptotic convergence with eventual finite reachability, which is a different claim, so the main theorem is marked non-checkable rather than encoding an unfaithful simplifie",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

@@ -1,0 +1,45 @@
+{
+ "id": "P5.1",
+ "title": "P5.1 Φ Admits Degrees",
+ "lifecycle": "property",
+ "tier": 6,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A5.1"
+ ],
+ "proposed": [
+  "A5.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "P5.1/Q15/0048",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at moving from P-IMAGO's general finite/partial creaturely consciousness to the specific measure Φ and its degrees; P-IMAGO cannot license Φ or any numeric scale."
+  }
+ ],
+ "ports": [],
+ "main": "P5.1",
+ "claims": [
+  "P5.1",
+  "P5.1::split-01",
+  "P5.1::split-02",
+  "P5.1::split-03",
+  "P5.1::split-04",
+  "P5.1::split-05"
+ ],
+ "source": "source/nodes/P5.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

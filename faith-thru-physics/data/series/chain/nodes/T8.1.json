@@ -1,0 +1,82 @@
+{
+ "id": "T8.1",
+ "title": "T8.1 Sign Invariance Theorem",
+ "lifecycle": "theorem",
+ "tier": 9,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "WALL-ORBIT"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "CONDITIONAL",
+  "named_premises": [
+   "Every allowed internal operation preserves the interpreted sign; definitions of the operation family and sign are faithful."
+  ],
+  "denial_cost": null,
+  "checkable_by": null,
+  "receipt": [
+   "Wall.invariant_preserved",
+   "sources/october_lean/Wall.lean"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "T8.1/Q15/0090",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "spiritual use of invariant theorem",
+   "reason": "Wall proves preservation conditional on every allowed operation preserving q; it does not show all actual self-operations preserve a moral sign."
+  },
+  {
+   "id": "T8.1/Q15/0091",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the unargued claim that [σ̂, H_self] = 0 and that self-generated moral operations are unitary quantum operations preserving a moral sign; A0 + P-IMAGO do not supply this physical/moral model."
+  },
+  {
+   "id": "T8.1/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Sign invariance: any self-generated unitary commutes with the sign operator.",
+   "reason": "The main claim is an operator-theoretic statement involving the exponential exp(-iHt/ℏ) of a Hamiltonian on a Hilbert space and the spectral theorem. Z3 has no native support for complex Hilbert-space operators or operator exponentials. A finite-dimensional matrix toy model would require unstated simplifications (e.g. fixed small dimension, polynomial/algebraic substitute for the exponential) and would check only a fragment or a stronger algebraic side fact rather than the stated general theorem."
+  }
+ ],
+ "ports": [],
+ "main": "T8.1",
+ "claims": [
+  "T8.1",
+  "T8.1::split-01",
+  "T8.1::split-02",
+  "T8.1::split-03",
+  "T8.1::split-04",
+  "T8.1::split-05",
+  "T8.1::split-06",
+  "T8.1::split-07",
+  "T8.1::split-08",
+  "T8.1::split-09",
+  "T8.1::split-10",
+  "T8.1::split-11",
+  "T8.1::split-12",
+  "T8.1::receipt::Wall.invariant_preserved",
+  "T8.1::receipt::Wall.change_requires_outside_op",
+  "T8.1::receipt::Wall.grace_preserves_identity",
+  "T8.1::receipt::Wall.grace_restores",
+  "T8.1::receipt::Wall.works_cannot_flip",
+  "T8.1::receipt::Wall.flip_requires_non_self_op",
+  "T8.1::receipt::Wall.grace_is_outside_the_family",
+  "T8.1::receipt::Wall.no_restoration_without_consent",
+  "T8.1::receipt::Wall.restoration_with_consent",
+  "T8.1::receipt::Wall.restore_preserves_identity",
+  "T8.1::receipt::Wall.coherence_nonincrease"
+ ],
+ "source": "source/nodes/T8.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

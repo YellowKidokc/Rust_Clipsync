@@ -1,0 +1,54 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "P2.2",
+ "claim_id": "P2.2",
+ "type": "CLAIM",
+ "text": "χ (the Logos Field) carries semantic content (meaning), not merely syntax.",
+ "source": {
+  "file": "source/nodes/P2.2.yaml",
+  "quote": "χ (the Logos Field) carries semantic content (meaning), not merely syntax.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "P2.1 Chi-Ontological-Priority (the record's stated dependency).; A definition or identification of χ/Logos Field as God's self-expressive Logos or as a created informational order that participates in divine intelligibility.; A bridge showing that the relevant information or field has semantic content, not merely syntactic structure.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/P2.2.yaml#P2.2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "P2.2",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "P2.1 Chi-Ontological-Priority (the record's stated dependency).",
+  "A definition or identification of χ/Logos Field as God's self-expressive Logos or as a created informational order that participates in divine intelligibility.",
+  "A bridge showing that the relevant information or field has semantic content, not merely syntactic structure."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "P2.2/Q15/0017",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the step identifying χ/Logos Field with God's self-knowing Logos or with a genuinely semantic created order; P-IMAGO only warrants creaturely participation in divine intelligibility, not the semantic content of χ as written."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

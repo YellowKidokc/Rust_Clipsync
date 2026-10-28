@@ -1,0 +1,57 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "PRED14.1",
+ "claim_id": "PRED14.1",
+ "type": "CLAIM",
+ "text": "The H0 tension can be resolved by a grace-modified Friedmann equation whose effective cosmological term evolves with collective consciousness.",
+ "source": {
+  "file": "source/nodes/PRED14.1.yaml",
+  "quote": "The H0 tension can be resolved by a grace-modified Friedmann equation whose effective cosmological term evolves with collective consciousness.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "observable",
+  "composition_level": 1,
+  "claim_role": "empirical_hypothesis",
+  "register": "physical"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "E14.1 modified Friedmann equation; consciousness-vacuum coupling / grace function G(t,Ψ); empirical H0 measurements and their error model; parameterization and fitted values of Ψ_collective(z), α, z_*, and n; additional cosmological datasets and model-comparison assumptions; theological identification of grace with a physical field",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/PRED14.1.yaml#PRED14.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "E14.1",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "PRED14.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "E14.1 modified Friedmann equation",
+  "consciousness-vacuum coupling / grace function G(t,Ψ)",
+  "empirical H0 measurements and their error model",
+  "parameterization and fitted values of Ψ_collective(z), α, z_*, and n",
+  "additional cosmological datasets and model-comparison assumptions",
+  "theological identification of grace with a physical field"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "PRED14.1/Q15/0139",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "A0 gives God as ground and P-IMAGO gives analogical creaturely participation; neither yields the consciousness-coupled Friedmann term G(t,Ψ), its parameterization, or the numerical H0 resolution. The derivation fails at the transition from analogical participation to a specific physical law and empirical prediction."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

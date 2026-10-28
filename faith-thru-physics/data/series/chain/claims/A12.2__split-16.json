@@ -1,0 +1,34 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "A12.2",
+ "claim_id": "A12.2::split-16",
+ "type": "CLAIM",
+ "text": "Universal reconciliation is false; Hell must be a permanent stable equilibrium for love and autonomy to be structurally real.",
+ "source": {
+  "file": "source/nodes/A12.2.yaml",
+  "quote": "Universal reconciliation is false; Hell must be a permanent stable equilibrium for love and autonomy to be structurally real.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/A12.2.yaml#A12.2::split-16 (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "A12.2",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+ "obstructions": [],
+ "generated_by": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+}

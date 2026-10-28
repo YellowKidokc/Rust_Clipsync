@@ -44,6 +44,22 @@ scripts/build-data.mjs                 validates everything, writes public/data/
 scripts/import-node-contracts.mjs      converts a node_contracts.json into claim records
 ```
 
+### The axiom chain
+
+The chain comes from the node files (`*.yaml`, which hold JSON) of a chain snapshot. To load a newer snapshot:
+
+```
+node scripts/import-chain.mjs path/to/source_nodes "Axiom HTML Update, 2026-10-28"
+```
+
+It replaces `data/series/chain/` completely: one claim file per claim (2,634 in the 2026-10-28 snapshot) and one file per node. Every grade, premise, dependency (declared and AI-proposed kept apart), obstruction and soundness note is copied. The few mechanical changes are listed at the top of the script. Keep the snapshot itself in `data/sources/<name>/nodes/`. Put its update overlay (`proposed_page_updates.json`, `unchecked_main_claims.json`, the Lean, Z3 and native results, `layer_widths.csv`) in `data/sources/<name>/overlay/`. The "Where it stands" page shows that overlay apart from the source grades, and the newest overlay folder wins.
+
+Two display rules come from the records themselves:
+- A proved claim whose outcome is "fails" is a proof that the named assertion is false. It shows as **Proved: the target is false**, never as a failure.
+- A conditionally proved claim needs its premise (its `conditional_premises`, or for a node's main claim, the node's named premises). Without one it is rejected, so the site never shows a conditional claim without its "if".
+
+`npm test` rebuilds the data and checks that the graph's layer widths match the snapshot's `layer_widths.csv` for every link type.
+
 `npm run data` writes `public/data/claims/<id>.json` (one per valid claim), small index files (`index/claims.json`, `index/papers.json`, `index/series.json`, `index/towns.json`), and `rejects.json`. The browser loads only the index plus the records a page needs.
 
 To add a series: make `data/series/<name>/series.json` and put one claim file per claim in `claims/`. Run `npm run data` and read the output: every rejected record is printed with its reasons.
@@ -109,7 +125,7 @@ Optional fields the site uses: `breaks_if` (the claim page's "What would break i
 | Laws | system_part rule, conservation_law, constitutive_law |
 | Bridges | identification, isomorphism, or any bridges_to edge |
 
-Depth (down the page) is the longest chain of `rests_on` edges; the top row rests on nothing on file. That is not the same as being an axiom: most top-row claims simply have no recorded links yet. Columns are the system part.
+Depth (down the page) is the longest chain of support links, using the declared links, the AI-proposed links, or both (a switch on the graph); the top row rests on nothing recorded. Context links (a node placed under A0) never count as support. The graph shows the 182 active nodes by default, with the 28 historical ones a switch away. That is not the same as being an axiom: most top-row claims simply have no recorded links yet. Columns are the system part.
 
 ## A paper (paper/1)
 
@@ -173,6 +189,6 @@ The Town's "Ask an AI" uses the visitor's own Anthropic key. It is stored in the
 ## What is sample data
 
 - The paper's sentences are placeholders around real claim records.
-- `C8.1` is copied from the claim-record contract's example. `B-GRAV` and `AX-GOD` are design fixtures, and their `grade_source` says so.
-- The 55 GRACE-001 records are converted from `node_contracts.json` with grades copied. `canon_status` is not in that file, so it is written `open`, and each record's `grade_source` says so. Nine conditionally proved claims name no premise, so they are rejected.
+- `B-GRAV` (the failed gravity-grace comparison in the sample paper) is a design fixture, and its `grade_source` says so.
+- Claims come from the axiom chain snapshot (2026-10-28): 210 nodes and 2,634 claims, with grades copied. 58 conditionally proved claims name no premise, so they are rejected and listed on `/rejected`.
 - In the agent town, walking between the World and the Wall, the adversary's pressure and every starting number are modeling choices, and those rules say so in their `warrant`.

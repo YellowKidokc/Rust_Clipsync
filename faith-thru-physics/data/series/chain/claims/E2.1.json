@@ -1,0 +1,55 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "E2.1",
+ "claim_id": "E2.1",
+ "type": "CLAIM",
+ "text": "The Logos Field χ is formally modeled as the integral of geometry G times complexity K over configuration space Ω: χ = ∫(G·K)dΩ.",
+ "source": {
+  "file": "source/nodes/E2.1.yaml",
+  "quote": "The Logos Field χ is formally modeled as the integral of geometry G times complexity K over configuration space Ω: χ = ∫(G·K)dΩ.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "constitutive_law",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A definition or axiom positing χ as a scalar informational field/Logos Field.; Mathematical definitions specifying G as geometry, K as complexity/Kolmogorov complexity, and Ω as configuration space.; A bridge premise mapping creaturely order and intelligibility to this specific integral and to physical reality.; Empirical or physical input connecting the equation to measurable laws, constants, or predictions; P-IMAGO cannot supply this.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/E2.1.yaml#E2.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "E2.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A definition or axiom positing χ as a scalar informational field/Logos Field.",
+  "Mathematical definitions specifying G as geometry, K as complexity/Kolmogorov complexity, and Ω as configuration space.",
+  "A bridge premise mapping creaturely order and intelligibility to this specific integral and to physical reality.",
+  "Empirical or physical input connecting the equation to measurable laws, constants, or predictions; P-IMAGO cannot supply this."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "E2.1/Q15/0015",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "P-IMAGO licenses only analogical claims about creaturely order and intelligibility; it does not license the move to the specific equation χ = ∫(G·K)dΩ, to G/K/Ω as physical quantities, or to computational and measurable consequences."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

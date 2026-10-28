@@ -1,0 +1,61 @@
+{
+ "id": "A9.2",
+ "title": "A9.2 Non-Unitarity Of Grace",
+ "lifecycle": "framework_commitment",
+ "tier": 10,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "CONDITIONAL",
+  "named_premises": [
+   "The grace operator in the {|+1>,|-1>} basis is the 2x2 real matrix G = [[1,0],[1,0]].",
+   "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+  ],
+  "denial_cost": null,
+  "checkable_by": null,
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json",
+   "The 2x2 grace operator matrix G = [[1,0],[1,0]] is non-unitary, i.e., G†G ≠ I."
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "A9.2/Q15/0097",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at identifying an external divine action with a specific non-unitary Grace Operator Ĝ, a two-state sign-flip, information addition, and its matrix/Planck/Lindblad/category formulations."
+  }
+ ],
+ "ports": [],
+ "main": "A9.2",
+ "claims": [
+  "A9.2",
+  "A9.2::split-01",
+  "A9.2::split-02",
+  "A9.2::split-03",
+  "A9.2::split-04",
+  "A9.2::split-05",
+  "A9.2::split-06",
+  "A9.2::split-07",
+  "A9.2::split-08",
+  "A9.2::split-09",
+  "A9.2::split-10",
+  "A9.2::split-11",
+  "A9.2::split-12",
+  "A9.2::split-13",
+  "A9.2::split-14",
+  "A9.2::z3-conditional-component"
+ ],
+ "source": "source/nodes/A9.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

@@ -33,6 +33,7 @@ export default function Layout() {
         <nav aria-label="Main">
           <NavLink to="/papers">Papers</NavLink>
           <NavLink to="/graph">Graph</NavLink>
+          <NavLink to="/status">Where it stands</NavLink>
           <NavLink to="/town">The Town</NavLink>
         </nav>
         <Search />

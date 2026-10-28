@@ -1,0 +1,40 @@
+{
+ "id": "M-FREEDOM",
+ "title": "M-FREEDOM",
+ "lifecycle": "working_proposal",
+ "tier": null,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "ADMITTED",
+  "named_premises": [
+   "God-enabled capacity, personal authorship, and actual acceptance/refusal alternatives under the same complete antecedents; no self-supplied restoration."
+  ],
+  "denial_cost": "The native genuinely-refusable response account must be replaced or weakened. A deterministic/compatibilist account can keep permitted choices while denying identical-antecedent alternatives; A0 alone is not contradicted.",
+  "checkable_by": null,
+  "receipt": [
+   "sources/august/AXIOM_CHAIN_MASTER_v3.md"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "M-FREEDOM/Q15/0244",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "metaphysical authorship/alternatives",
+   "reason": "Two permitted branches do not prove actual freedom. This is what the framework goes by, openly admitted; denial changes the native freedom account rather than refuting A0."
+  }
+ ],
+ "ports": [],
+ "main": "M-FREEDOM",
+ "claims": [
+  "M-FREEDOM"
+ ],
+ "source": "source/nodes/M-FREEDOM.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

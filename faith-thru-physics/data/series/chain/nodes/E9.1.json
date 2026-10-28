@@ -1,0 +1,58 @@
+{
+ "id": "E9.1",
+ "title": "E9.1 Grace Function G(t)",
+ "lifecycle": "equation",
+ "tier": 10,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "E9.1/Q15/0099",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the leap from creaturely moral transformation as analogical participation in God's goodness to the specific two-state Hilbert-space representation and matrix equation Ĝ = [[1,0],[1,0]] with G(t); P-IMAGO explicitly excludes deriving particular equations, laws, constants, or measurements."
+  },
+  {
+   "id": "E9.1/Q15/Z3-result-00",
+   "kind": "known countermodel",
+   "status": "FATAL",
+   "scope": "Encoded fragment under exactly the listed premises, not every interpretation of this node: Uniqueness of the 2x2 grace operator matrix from its action on the {|+1>,|-1>} basis.",
+   "reason": "[c = 0, d = 0, b = 1, a = 1] Faithfulness to the intended domain is a separate obligation."
+  }
+ ],
+ "ports": [],
+ "main": "E9.1",
+ "claims": [
+  "E9.1",
+  "E9.1::split-01",
+  "E9.1::split-02",
+  "E9.1::split-03",
+  "E9.1::split-04",
+  "E9.1::split-05",
+  "E9.1::split-06",
+  "E9.1::split-07",
+  "E9.1::split-08",
+  "E9.1::split-09"
+ ],
+ "source": "source/nodes/E9.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

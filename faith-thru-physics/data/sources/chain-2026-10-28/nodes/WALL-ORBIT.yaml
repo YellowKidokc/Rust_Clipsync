@@ -1,0 +1,746 @@
+{
+  "id": "WALL-ORBIT",
+  "title": "WALL-ORBIT",
+  "proposal_only": true,
+  "context_parent": "A0",
+  "tags": {
+    "system_part": "rule",
+    "composition_level": 2,
+    "claim_role": "theorem",
+    "warrant": {
+      "status": "proved",
+      "kind": "proof"
+    },
+    "register": "formal"
+  },
+  "old_mode": null,
+  "proposed_mode": "AX_DERIVED",
+  "tier": null,
+  "node_lifecycle": "working_proposal",
+  "dependencies": {
+    "source_declared": [],
+    "proposed_primary_support": [],
+    "stance_ceiling_sources": []
+  },
+  "claims": [
+    {
+      "id": "WALL-ORBIT::main",
+      "statement": "Every finite composition of q-preserving operations preserves q.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Structure",
+      "canon_status": "open",
+      "proof_refs": [
+        "Wall.invariant_preserved"
+      ],
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "CONSERVATION",
+        "approval": "Theorem subtype field is proposed only and requires David; this is a generic invariant, not physical conservation."
+      },
+      "conditional_premises": "Universally quantified q/ops/preservation hypotheses; no custom theological axioms or concrete sign-preservation assertion.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "claim_scoped_dependencies": [],
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Universal finite-composition invariant theorem, not an application to actual self-operations.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "WALL-ORBIT::main"
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "WALL-ORBIT::receipt::Wall.invariant_preserved",
+      "statement": "Exact compiled declaration Wall.invariant_preserved",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Structure",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Wall.lean",
+        "receipts/Wall.log"
+      ],
+      "scope_limit": "Pure orbit theorem is universal conditional mathematics. Application to all actual human self-operations requires sign-preservation and interpretation premises. Outside family does not by itself mean outside physical system.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "CONSERVATION",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": "states only",
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "WALL-ORBIT::receipt::Wall.change_requires_outside_op",
+      "statement": "Exact compiled declaration Wall.change_requires_outside_op",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Structure",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Wall.lean",
+        "receipts/Wall.log"
+      ],
+      "scope_limit": "Pure orbit theorem is universal conditional mathematics. Application to all actual human self-operations requires sign-preservation and interpretation premises. Outside family does not by itself mean outside physical system.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": "states only",
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "WALL-ORBIT::receipt::Wall.grace_preserves_identity",
+      "statement": "Exact compiled declaration Wall.grace_preserves_identity",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Wall.lean",
+        "receipts/Wall.log"
+      ],
+      "scope_limit": "Pure orbit theorem is universal conditional mathematics. Application to all actual human self-operations requires sign-preservation and interpretation premises. Outside family does not by itself mean outside physical system.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "CONSERVATION",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "WALL-ORBIT::receipt::Wall.grace_restores",
+      "statement": "Exact compiled declaration Wall.grace_restores",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Wall.lean",
+        "receipts/Wall.log"
+      ],
+      "scope_limit": "Pure orbit theorem is universal conditional mathematics. Application to all actual human self-operations requires sign-preservation and interpretation premises. Outside family does not by itself mean outside physical system.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "WALL-ORBIT::receipt::Wall.works_cannot_flip",
+      "statement": "Exact compiled declaration Wall.works_cannot_flip",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Wall.lean",
+        "receipts/Wall.log"
+      ],
+      "scope_limit": "Pure orbit theorem is universal conditional mathematics. Application to all actual human self-operations requires sign-preservation and interpretation premises. Outside family does not by itself mean outside physical system.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "WALL-ORBIT::receipt::Wall.flip_requires_non_self_op",
+      "statement": "Exact compiled declaration Wall.flip_requires_non_self_op",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Wall.lean",
+        "receipts/Wall.log"
+      ],
+      "scope_limit": "Pure orbit theorem is universal conditional mathematics. Application to all actual human self-operations requires sign-preservation and interpretation premises. Outside family does not by itself mean outside physical system.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "WALL-ORBIT::receipt::Wall.grace_is_outside_the_family",
+      "statement": "Exact compiled declaration Wall.grace_is_outside_the_family",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Negative",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Wall.lean",
+        "receipts/Wall.log"
+      ],
+      "scope_limit": "Pure orbit theorem is universal conditional mathematics. Application to all actual human self-operations requires sign-preservation and interpretation premises. Outside family does not by itself mean outside physical system.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "ASYMMETRY",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "fails",
+        "canon_status": "open",
+        "note": "Negative outcome concerns the named target assertion; a proof of its failure is not a failed proof."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "WALL-ORBIT::receipt::Wall.no_restoration_without_consent",
+      "statement": "Exact compiled declaration Wall.no_restoration_without_consent",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Wall.lean",
+        "receipts/Wall.log"
+      ],
+      "scope_limit": "Pure orbit theorem is universal conditional mathematics. Application to all actual human self-operations requires sign-preservation and interpretation premises. Outside family does not by itself mean outside physical system.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "WALL-ORBIT::receipt::Wall.restoration_with_consent",
+      "statement": "Exact compiled declaration Wall.restoration_with_consent",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Wall.lean",
+        "receipts/Wall.log"
+      ],
+      "scope_limit": "Pure orbit theorem is universal conditional mathematics. Application to all actual human self-operations requires sign-preservation and interpretation premises. Outside family does not by itself mean outside physical system.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "WALL-ORBIT::receipt::Wall.restore_preserves_identity",
+      "statement": "Exact compiled declaration Wall.restore_preserves_identity",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Wall.lean",
+        "receipts/Wall.log"
+      ],
+      "scope_limit": "Pure orbit theorem is universal conditional mathematics. Application to all actual human self-operations requires sign-preservation and interpretation premises. Outside family does not by itself mean outside physical system.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "CONSERVATION",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "WALL-ORBIT::receipt::Wall.coherence_nonincrease",
+      "statement": "Exact compiled declaration Wall.coherence_nonincrease",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Wall.lean",
+        "receipts/Wall.log"
+      ],
+      "scope_limit": "Pure orbit theorem is universal conditional mathematics. Application to all actual human self-operations requires sign-preservation and interpretation premises. Outside family does not by itself mean outside physical system.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    }
+  ],
+  "ports": [
+    {
+      "input": "X,Q,q:X->Q,finite ops,proof each operation preserves q",
+      "output": "proof composite preserves q",
+      "agent": "Mathematician supplies formal inputs; no causal actor inferred",
+      "boundary": "Only the stated invariant-preserving family",
+      "constraints": "All hypotheses visible; no physical/theological identification",
+      "evidence": [
+        "sources/october_lean/Wall.lean:invariant_preserved",
+        "receipts/Wall.log"
+      ]
+    }
+  ],
+  "Q13": {
+    "register": "formal",
+    "domains": [
+      "MATHEMATICAL",
+      "INFORMATIONAL"
+    ]
+  },
+  "Q14": {
+    "transfer": "only source-record-scoped formal mapping; no physical identity",
+    "coherence_equality_assumed": false
+  },
+  "Q15": [
+    {
+      "id": "WALL-ORBIT/Q15/0243",
+      "node": "WALL-ORBIT",
+      "kind": "missing bridge",
+      "Q16": "RESOLVED",
+      "scope": "pure formal orbit implication",
+      "reason": "Exact theorem Wall.invariant_preserved compiled, all theorem axioms probed. Its quantified preservation hypothesis is not an assertion that concrete human operations satisfy it.",
+      "evidence": [
+        "receipts/Wall.log"
+      ]
+    }
+  ],
+  "Q16": {
+    "WALL-ORBIT/Q15/0243": "RESOLVED"
+  },
+  "coherences": {
+    "C-info": {
+      "conversion_to_other_coherences": null
+    },
+    "C-moral": {
+      "conversion_to_other_coherences": null
+    },
+    "C-spiritual": {
+      "conversion_to_other_coherences": null
+    }
+  },
+  "reason": [
+    "New proposal only; proof warrant is distinct from canon status."
+  ],
+  "attached_receipts": [
+    {
+      "file": "sources\\october_lean\\Wall.lean",
+      "strength": "scoped per declaration",
+      "proof_does_not_promote_core": true
+    }
+  ],
+  "soundness": {
+    "bin": "PROVED",
+    "named_premises": [],
+    "receipt": [
+      "sources/october_lean/Wall.lean",
+      "Wall.invariant_preserved"
+    ],
+    "denial_cost": null,
+    "scope_note": "Universal finite-composition invariant theorem, not an application to actual self-operations.",
+    "why": "Universal finite-composition invariant theorem, not an application to actual self-operations.",
+    "Z3_source_verdicts": [],
+    "ranking_snapshot": null,
+    "A0_IMAGO_verdict": null,
+    "conflicts": [],
+    "what_makes_checkable": null
+  },
+  "grade": {
+    "match_scope": null,
+    "warrant": "proved",
+    "outcome": "holds",
+    "canon_status": "open",
+    "note": "Universal finite-composition invariant theorem, not an application to actual self-operations.",
+    "match_scope_applicable": false,
+    "assessed_claim_id": "WALL-ORBIT::main"
+  },
+  "canon_rubric": {
+    "node": "WALL-ORBIT",
+    "bin": "PROVED",
+    "grade": {
+      "match_scope": null,
+      "warrant": "proved",
+      "outcome": "holds",
+      "canon_status": "open",
+      "note": "Universal finite-composition invariant theorem, not an application to actual self-operations.",
+      "match_scope_applicable": false,
+      "assessed_claim_id": "WALL-ORBIT::main"
+    },
+    "criteria": {
+      "address": true,
+      "grade": true,
+      "receipt": true,
+      "ruling_authority": false,
+      "no_unresolved_conflict": true
+    },
+    "score": 4,
+    "meets_all_five": false,
+    "missing": [
+      "ruling_authority"
+    ],
+    "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+    "receipt_scope": "Universal finite-composition invariant theorem, not an application to actual self-operations.",
+    "proposal_only": true
+  },
+  "follow_up_review": {
+    "proposal_only": true,
+    "soundness_row": {
+      "node": "WALL-ORBIT",
+      "bin": "PROVED",
+      "scope": "Universal finite-composition invariant theorem, not an application to actual self-operations.",
+      "premises": [],
+      "receipt": [
+        "sources/october_lean/Wall.lean",
+        "Wall.invariant_preserved"
+      ],
+      "denial_cost": null,
+      "what_makes_checkable": null,
+      "canon_status": "open",
+      "conflicts": [],
+      "assessment_target": "Universal finite-composition invariant theorem, not an application to actual self-operations.",
+      "main_statement": "Every finite composition of q-preserving operations preserves q.",
+      "proposal_only": true,
+      "lead_summary": {},
+      "remaining_lead_ids": [],
+      "strength": "Structure",
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Universal finite-composition invariant theorem, not an application to actual self-operations.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "WALL-ORBIT::main"
+      },
+      "scope_warning": "Bin assesses the named target only; neither bundled claims nor domain identification inherit its proof. A written explanation is recorded as support at its source status."
+    },
+    "canon_rubric": {
+      "node": "WALL-ORBIT",
+      "bin": "PROVED",
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Universal finite-composition invariant theorem, not an application to actual self-operations.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "WALL-ORBIT::main"
+      },
+      "criteria": {
+        "address": true,
+        "grade": true,
+        "receipt": true,
+        "ruling_authority": false,
+        "no_unresolved_conflict": true
+      },
+      "score": 4,
+      "meets_all_five": false,
+      "missing": [
+        "ruling_authority"
+      ],
+      "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+      "receipt_scope": "Universal finite-composition invariant theorem, not an application to actual self-operations.",
+      "proposal_only": true
+    },
+    "leads": [],
+    "current_ruling": null,
+    "ruling_scope": "Existing disposition only; no new canon admission.",
+    "receipt_attachments": [
+      {
+        "original": "C:\\theophysics\\OPUS\\AXIOMS\\LEAN\\Wall.lean",
+        "copy": "receipts\\Wall.lean",
+        "sha256": "3736cffbc4fb20a83213860b96fee353b346643b15c26730d21722cd35446906",
+        "toolchain": "C:\\Users\\David\\.elan\\toolchains\\leanprover--lean4---v4.31.0\\bin\\lean.exe",
+        "returncode": 0,
+        "passed": true,
+        "custom_axiom_declarations": false,
+        "theorems": [
+          "Wall.invariant_preserved",
+          "Wall.change_requires_outside_op",
+          "Wall.grace_preserves_identity",
+          "Wall.grace_restores",
+          "Wall.works_cannot_flip",
+          "Wall.flip_requires_non_self_op",
+          "Wall.grace_is_outside_the_family",
+          "Wall.no_restoration_without_consent",
+          "Wall.restoration_with_consent",
+          "Wall.restore_preserves_identity",
+          "Wall.coherence_nonincrease"
+        ],
+        "log": "receipts\\Wall.log",
+        "semantic_scope": "Finite orbit logic; all internal-operation sign preservation and interpretation are stated premises.",
+        "candidate_nodes": [
+          "WALL-ORBIT",
+          "T3.1",
+          "T8.1",
+          "C8.1",
+          "C8.2"
+        ],
+        "attachment_status": "Topic attachment only; use exact theorem signatures, never the filename number as node identity."
+      }
+    ],
+    "Q15_follow_up": []
+  }
+}
