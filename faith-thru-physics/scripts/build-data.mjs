@@ -94,6 +94,16 @@ write("index/series.json", series);
 write("rejects.json", rejects);
 for (const f of fs.readdirSync(path.join(SRC, "towns"))) fs.copyFileSync(path.join(SRC, "towns", f), path.join(OUT, "towns", f));
 write("index/towns.json", fs.readdirSync(path.join(SRC, "towns")).map((f) => { const t = JSON.parse(fs.readFileSync(path.join(SRC, "towns", f), "utf8")); return { file: f, name: t.name, format: t.format || "town-rules/1" }; }));
+// For hosts that cannot hold thousands of files (a preview page), BUNDLE=1 also writes
+// every data file into one data/bundle.json: { "<path>": <contents> }.
+if (process.env.BUNDLE) {
+  const bundle = {};
+  const walk = (d) => { for (const f of fs.readdirSync(path.join(OUT, d))) { const rel = d ? `${d}/${f}` : f; const full = path.join(OUT, rel);
+    if (fs.statSync(full).isDirectory()) walk(rel); else if (f.endsWith(".json") && rel !== "bundle.json") bundle[rel] = JSON.parse(fs.readFileSync(full, "utf8")); } };
+  walk("");
+  fs.writeFileSync(path.join(OUT, "bundle.json"), JSON.stringify(bundle));
+  console.log(`bundle: ${Object.keys(bundle).length} files in data/bundle.json`);
+}
 console.log(`nodes: ${nodes.size} · claims: ${claims.size} valid, ${rejects.length} rejected · papers: ${papers.length} · towns copied`);
 const why = {}; for (const r of rejects) for (const e of r.errors) why[e] = (why[e] || 0) + 1;
 for (const [e, n] of Object.entries(why)) console.log(`  rejected ${n}: ${e}`);

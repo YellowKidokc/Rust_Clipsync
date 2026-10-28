@@ -7,7 +7,7 @@
     "data": "node scripts/build-data.mjs",
     "dev": "npm run data && vite",
     "build": "npm run data && vite build",
-    "build:preview": "npm run data && vite build --mode preview",
+    "build:preview": "BUNDLE=1 node scripts/build-data.mjs && vite build --mode preview && node -e \"const fs=require('fs');for(const d of fs.readdirSync('dist-preview/data'))if(d!=='bundle.json')fs.rmSync('dist-preview/data/'+d,{recursive:true})\"",
     "test": "npm run data && node --test tests/*.test.mjs"
   },
   "dependencies": {
