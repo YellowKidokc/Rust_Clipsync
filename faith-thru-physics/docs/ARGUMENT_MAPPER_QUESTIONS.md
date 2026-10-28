@@ -122,6 +122,48 @@ From the links in Q3 and the hidden premises in Q4:
 
 Use frontmatter for the fields and wikilinks for the links (`supports:: [[C3]]`), so Obsidian's graph shows the argument and Dataview can query it.
 
+## On the paper itself: notes right after each sentence
+
+David wants to read the verdict where it happens: after the sentence, in a different color and font, on the paper.
+
+**Two files, never one.** The original paper is never edited. The plugin writes a second copy beside it, `<Paper name> (mapped).md`, which holds the same text with notes inserted after the sentences they concern. Re-running the mapper rewrites only the mapped copy. A command switches between the two (`Argument Mapper: open mapped copy` / `open clean copy`).
+
+**How a note looks.** Right after the sentence, on the same line, as a small span the CSS snippet colors:
+
+```markdown
+No person can flip their own sign. <span class="am am-gap">⟶ Gap: this rests on an unstated premise, that every operation open to a fallen will preserves its orientation (inferred). Named in the chain as C8.1's premise.</span>
+```
+
+Six kinds of note, each its own color (the snippet goes in `.obsidian/snippets/argument-mapper.css`):
+
+| Class | Says | Color |
+|---|---|---|
+| `am-strong` | This step holds: the support is there and the reasoning fits | gold |
+| `am-gap` | A hidden premise is carrying it (Q4) | teal |
+| `am-weak` | The support is thin, or the reasoning is the wrong kind for the claim (Q3) | amber |
+| `am-overclaim` | The wording is stronger than the grade (Q7 versus the copied grade) | red-orange |
+| `am-break` | The fastest way to break it (Q8), or an objection the text doesn't answer (Q9) | red |
+| `am-match` | This is chain node X, graded Y (Q6, grade copied) | blue |
+
+Rules for the notes:
+- **Short:** one or two sentences. Each one links to its full Claim note for the detail.
+- **Labeled:** every note starts with its kind ("Gap:", "Overclaim:"), so it reads correctly without color too, as on the website.
+- **Strong and weak are structural, not opinions.** "Strong" means the links found in Q3 and the classifications check out. It never means the claim is proved; only a copied grade says that.
+- **No more than one note per sentence** in the running text. Sentences with several findings get the most serious one; the rest go in the Claim note.
+
+```css
+/* .obsidian/snippets/argument-mapper.css */
+.am { font-family: var(--font-interface); font-size: .82em; font-style: italic; margin-left: .35em; padding: 0 .3em; border-radius: 3px; }
+.am-strong    { color: #b8901f; }
+.am-gap       { color: #2a9d8f; }
+.am-weak      { color: #c98a1a; }
+.am-overclaim { color: #d0603a; }
+.am-break     { color: #c0392b; }
+.am-match     { color: #4a78c8; }
+```
+
+The plugin could instead draw the notes in Reading view only (a Markdown post-processor), leaving the file untouched. That works too, but the notes then won't show in Live Preview, exports or other apps. The mapped copy is plainer and travels anywhere.
+
 ## Export to the website
 
 Each Claim note exports as one `claim-record/1` file. The fields map like this:
