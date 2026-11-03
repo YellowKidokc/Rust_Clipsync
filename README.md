@@ -79,3 +79,8 @@ npx wrangler pages deploy dist --project-name clipsync
 
 The API Worker has to allow this site's origin (CORS). No secrets belong in this repo: the Worker holds
 its own keys as Worker secrets, and everything built into the front end is public by nature.
+
+## Desktop app, prompt library, NAS vault
+
+Tray app with a `Ctrl+Shift+Space` picker (Tauri, `src-tauri/`), the prompt library, the Synology vault
+(`server/`) and AI triage are described in [DESKTOP.md](DESKTOP.md).

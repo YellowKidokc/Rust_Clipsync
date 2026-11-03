@@ -1,0 +1,16 @@
+{
+  "name": "clipsync-vault",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ClipSync vault on the Synology: full history in Postgres, mirrors the Worker API, syncs with Cloudflare without an open port",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "pg": "^8.13.1"
+  }
+}

@@ -1,0 +1,33 @@
+name: Desktop installer
+
+on:
+  push:
+    branches: [Main]
+    paths: ['src/**', 'src-tauri/**', 'picker.html', 'package.json', '.github/workflows/desktop.yml']
+  pull_request:
+    paths: ['src/**', 'src-tauri/**', 'picker.html', 'package.json', '.github/workflows/desktop.yml']
+  workflow_dispatch:
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: src-tauri
+      - run: npm ci
+      - run: cargo test --manifest-path src-tauri/Cargo.toml --lib
+      - run: npx tauri build
+      - name: Report installer size
+        shell: pwsh
+        run: Get-ChildItem src-tauri/target/release/bundle/nsis/*.exe | ForEach-Object { "{0}  {1:N1} MB" -f $_.Name, ($_.Length / 1MB) }
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ClipSync-windows-installer
+          path: src-tauri/target/release/bundle/nsis/*.exe

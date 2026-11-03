@@ -1,0 +1,25 @@
+# ClipSync vault on the Synology (Container Manager → Project → point at this folder).
+#   docker compose up -d                      # poll mode: no inbound port needed from the internet
+#   docker compose --profile tunnel up -d     # also run cloudflared so the Worker can call the vault
+services:
+  vault:
+    build:
+      context: ..
+      dockerfile: server/Dockerfile
+    image: clipsync-vault:latest
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "8790:8790"   # LAN only: web UI + API at http://192.168.2.50:8790 (do NOT forward on the router)
+
+  # Optional: Cloudflare Tunnel. Outbound-only connection from the NAS to Cloudflare; in the Zero
+  # Trust dashboard route e.g. vault.theophysics.pro → http://vault:8790 and protect it with an
+  # Access service token that only the Worker holds.
+  cloudflared:
+    image: cloudflare/cloudflared:2025.11.1
+    profiles: ["tunnel"]
+    restart: unless-stopped
+    command: tunnel --no-autoupdate run
+    environment:
+      - TUNNEL_TOKEN=${TUNNEL_TOKEN}
+    depends_on: [vault]

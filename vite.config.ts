@@ -51,6 +51,19 @@ export default defineConfig({
       }
     })
   ],
+  build: {
+    rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, 'index.html'),
+        picker: path.resolve(__dirname, 'picker.html'),
+        desktop: path.resolve(__dirname, 'desktop.html'),
+      },
+    },
+  },
+  // Tauri expects a fixed dev port and must see Rust errors in the terminal.
+  clearScreen: false,
+  server: { port: 5173, strictPort: true },
+  envPrefix: ['VITE_', 'TAURI_ENV_'],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

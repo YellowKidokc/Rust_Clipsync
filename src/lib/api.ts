@@ -153,6 +153,15 @@ class ApiClient {
   }
 
   // Prompts
+  // Meaning-based search. Served by the Worker (Vectorize) or the NAS vault (pgvector); the
+  // caller falls back to local fuzzy matching when neither has it.
+  async semanticSearch(q: string, options: { type?: ItemType; limit?: number } = {}): Promise<{ items: Item[] }> {
+    return this.fetch('/search/semantic', {
+      method: 'POST',
+      body: JSON.stringify({ q, type: options.type, limit: options.limit ?? 20 })
+    })
+  }
+
   async getPrompts() {
     return this.fetch('/prompts')
   }
