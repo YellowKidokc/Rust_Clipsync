@@ -1,8 +1,10 @@
 mod capture;
 mod config;
 mod secrets;
+mod store;
 
 use config::{Config, ConfigPatch};
+use store::{Item, Query, Store};
 use std::{path::PathBuf, sync::{Arc, Mutex}, thread, time::Duration};
 use tauri::{
     menu::{CheckMenuItem, Menu, MenuItem, PredefinedMenuItem},
@@ -20,6 +22,34 @@ pub struct State {
 }
 
 // ---------- commands called from the React side ----------
+
+type Db<'a> = tauri::State<'a, Arc<Store>>;
+fn err(e: rusqlite::Error) -> String { e.to_string() }
+
+#[tauri::command]
+fn list_items(db: Db, query: Query) -> Result<Vec<Item>, String> { db.list(query).map_err(err) }
+
+#[tauri::command]
+fn save_item(db: Db, item: Item) -> Result<Item, String> { db.save(item).map_err(err) }
+
+#[tauri::command]
+fn delete_item(db: Db, id: i64) -> Result<(), String> { db.delete(id).map_err(err) }
+
+#[tauri::command]
+fn set_pinned(db: Db, id: i64, pinned: bool) -> Result<(), String> { db.set_pinned(id, pinned).map_err(err) }
+
+#[tauri::command]
+fn mark_used(db: Db, id: i64) -> Result<(), String> { db.mark_used(id).map_err(err) }
+
+#[tauri::command]
+fn clear_clips(db: Db) -> Result<usize, String> { db.clear_clips().map_err(err) }
+
+/// Copy without pasting (from the main window).
+#[tauri::command]
+fn copy_text(state: tauri::State<Arc<State>>, text: String) -> Result<(), String> {
+    *state.last_hash.lock().unwrap() = capture::hash(&text);
+    arboard::Clipboard::new().and_then(|mut c| c.set_text(text)).map_err(|e| e.to_string())
+}
 
 #[tauri::command]
 fn get_config(state: tauri::State<Arc<State>>) -> Config {
@@ -141,7 +171,7 @@ pub fn run() {
                 })
                 .build(),
         )
-        .invoke_handler(tauri::generate_handler![get_config, set_config, paste_text, hide_picker, show_main])
+        .invoke_handler(tauri::generate_handler![get_config, set_config, paste_text, hide_picker, show_main, list_items, save_item, delete_item, set_pinned, mark_used, clear_clips, copy_text])
         .setup(|app| {
             let handle = app.handle().clone();
             let dir = app.path().app_config_dir()?;
@@ -155,6 +185,8 @@ pub fn run() {
                 config_path,
             });
             app.manage(state.clone());
+            let store = Arc::new(Store::open(&app.path().app_data_dir()?.join("clipsync.db"))?);
+            app.manage(store.clone());
 
             if let Err(e) = app.global_shortcut().register(cfg.hotkey.as_str()) {
                 eprintln!("could not register hotkey {}: {e}", cfg.hotkey);
@@ -198,7 +230,7 @@ pub fn run() {
                 })
                 .build(app)?;
 
-            capture::spawn(handle.clone(), state, dir.join("queue.json"));
+            capture::spawn(handle.clone(), state, store, dir.join("queue.json"));
 
             // Launched by hand (not by autostart): show the main window once.
             if !std::env::args().any(|a| a == "--hidden") {

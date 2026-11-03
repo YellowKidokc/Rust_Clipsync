@@ -24,6 +24,7 @@ ureq = { version = "2", features = ["json"] }
 regex = "1"
 once_cell = "1"
 enigo = "0.2"
+rusqlite = { version = "0.32", features = ["bundled"] }
 
 # Size: the installer target is <10 MB. These settings get the exe to ~4-6 MB.
 [profile.release]

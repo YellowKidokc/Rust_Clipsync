@@ -1,25 +1,27 @@
 # ClipSync: desktop, library, vault, triage
 
-What was built for the four phases, how to run each, and what is still open.
+What was built for the four phases, how to run each, and what is still open. The desktop app (1) stands
+on its own; 2–4 are for the web app and the optional server side, and the desktop app does not depend on them.
 
-## 1. Desktop shell (Tauri 2), `src-tauri/`
+## 1. Desktop app (Tauri 2), `src-tauri/` + `desktop.html`
 
-- Wraps the existing React app. The same bundle runs on Pages and in the desktop app; `src/lib/desktop.ts`
-  is a no-op in the browser.
-- **Tray icon**: left click opens ClipSync; menu has Open, Quick picker, Capture clipboard (toggle), Quit.
+**A standalone clipboard manager.** It does not need the Cloudflare API, the Worker or the NAS: clips and
+prompts live in a SQLite file on the PC (`%APPDATA%\pro.theophysics.clipsync\clipsync.db`). The web app
+(`index.html`, the PWA) is a separate app and is not part of the desktop build's main window.
+
+- **Window** (`src/desktop/DesktopApp.tsx`): Clipboard (history, search, copy, pin, save to library, clear),
+  Library (folders, tags, create/edit, import .md or a whole folder), Settings.
+- **Tray icon**: left click opens it; menu has Open, Quick picker, Capture clipboard (toggle), Quit.
   Closing the window keeps the app in the tray. A second launch just focuses the running one.
-- **Global hotkey `Ctrl+Shift+Space`** opens the picker (`picker.html`) at the mouse cursor, kept on the
-  cursor's monitor. It hides when it loses focus. Hotkey is configurable in Settings → General → Desktop.
-- **Picker**: type a few characters → Enter pastes into the app you were in (clipboard + simulated Ctrl+V).
-  `?` at the start searches by meaning. Tab cycles All/Prompts/Clips. Ctrl+1…9 pastes row N. Prompts with
-  `{{variables}}` ask for the values first.
-- **Auto-capture**: a Rust thread polls the clipboard every 500 ms, masks secrets
-  (`src-tauri/src/secrets.rs`), and pushes to `POST {api}/clips/push`. Offline pushes queue to
-  `%APPDATA%\pro.theophysics.clipsync\queue.json` and retry. The picker's own pastes are not re-captured.
-- **Starts on boot** (autostart plugin, launches hidden with `--hidden`). NSIS installer, per-user install.
-- **Size**: release profile is LTO + `opt-level="s"` + strip; Tauri NSIS installers for an app this size
-  usually land at 3–6 MB. Not measured yet; the CI job prints the real number.
-- Talks only to the Worker URL set in Settings → API (synced to the Rust side on startup).
+- **Global hotkey `Ctrl+Shift+Space`** opens the picker at the mouse cursor (kept on that monitor). Type a
+  few characters, Enter pastes into the app you were in. Tab cycles All/Prompts/Clips, Ctrl+1…9 pastes row N,
+  prompts with `{{blanks}}` ask for the values first. Hotkey is changeable in Settings.
+- **Capture**: polls the clipboard every 500 ms, masks passwords/keys/tokens (`src-tauri/src/secrets.rs`)
+  before saving, de-duplicates (copying the same text again moves it to the top), keeps the newest 1000
+  clips (configurable; pinned clips are never trimmed). The picker's own pastes are not re-captured.
+- **Starts with Windows** (launches hidden). NSIS installer, per-user. **2.8 MB** (measured in CI).
+- **Sync is optional and off.** Settings → "Also send clips to a server" pushes new clips to an API URL
+  (with an offline queue). Nothing else uses the network.
 
 Run / build (Windows, needs Rust + Node + WebView2, which Windows 11 has):
 
@@ -38,7 +40,7 @@ npm run desktop:build
 The installer lands in `src-tauri/target/release/bundle/nsis/`. `.github/workflows/desktop.yml` builds it
 on every push to Main and uploads it as an artifact.
 
-## 2. Prompt / paste library (Prompts view → "Prompt Library")
+## 2. Prompt library in the web app (Prompts view → "Prompt Library")
 
 - Folder tree (folders are `a/b/c` paths on the item), tag chips to filter, folder + tags on create/edit.
 - Search ranks title/shortcut hits above body hits (`src/lib/library.ts`); the ✨ button switches to
@@ -86,5 +88,5 @@ docker compose up -d --build
 
 - The Forge Worker still needs the edge module wired in (`/api/sync/*`, triage on push, `/search/semantic`).
 - A UI page for reviewing triage suggestions (the API is there).
-- Installer size and the paste-focus behaviour need checking on a real Windows box.
+- Paste-into-previous-app behaviour needs checking on a real Windows box.
 - The Worker API has no auth visible from this repo; the desktop app sends none.

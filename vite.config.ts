@@ -56,6 +56,7 @@ export default defineConfig({
       input: {
         main: path.resolve(__dirname, 'index.html'),
         picker: path.resolve(__dirname, 'picker.html'),
+        desktop: path.resolve(__dirname, 'desktop.html'),
       },
     },
   },

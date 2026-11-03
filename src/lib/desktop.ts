@@ -8,6 +8,8 @@ async function core() {
 
 export interface DesktopConfig {
   api_url: string
+  sync_enabled: boolean
+  max_clips: number
   device_id: string
   capture_enabled: boolean
   hotkey: string

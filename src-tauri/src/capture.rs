@@ -1,6 +1,6 @@
-//! Clipboard watcher: polls the clipboard, masks secrets, pushes new text to the Worker.
-//! Pushes that fail (offline, Worker down) go to an on-disk queue and are retried.
-use crate::{secrets, State};
+//! Clipboard watcher: polls the clipboard, masks secrets, saves new text to the local store.
+//! Only if sync is turned on in Settings is it also pushed to an API; failed pushes are queued.
+use crate::{secrets, store::Store, State};
 use serde_json::json;
 use std::{
     collections::hash_map::DefaultHasher,
@@ -23,7 +23,7 @@ pub fn hash(s: &str) -> u64 {
     h.finish()
 }
 
-pub fn spawn(app: AppHandle, state: Arc<State>, queue_path: PathBuf) {
+pub fn spawn(app: AppHandle, state: Arc<State>, store: Arc<Store>, queue_path: PathBuf) {
     thread::spawn(move || {
         let mut clipboard = match arboard::Clipboard::new() {
             Ok(c) => c,
@@ -55,6 +55,10 @@ pub fn spawn(app: AppHandle, state: Arc<State>, queue_path: PathBuf) {
                     drop(last);
                     if cfg.capture_enabled && !text.trim().is_empty() && text.len() <= MAX_LEN {
                         let m = secrets::mask(&text);
+                        if let Err(e) = store.add_clip(&m.text, !m.found.is_empty(), cfg.max_clips) {
+                            eprintln!("store: {e}");
+                        }
+                        if cfg.sync_enabled && !cfg.api_url.is_empty() {
                         queue.push(json!({
                             "content": m.text,
                             "device_id": cfg.device_id,
@@ -65,6 +69,7 @@ pub fn spawn(app: AppHandle, state: Arc<State>, queue_path: PathBuf) {
                         if queue.len() > MAX_QUEUE {
                             queue.drain(..queue.len() - MAX_QUEUE);
                         }
+                        }
                         captured = true;
                         let _ = app.emit("clip-captured", ());
                     }
@@ -72,7 +77,7 @@ pub fn spawn(app: AppHandle, state: Arc<State>, queue_path: PathBuf) {
             }
 
             // Flush right after a capture, otherwise retry every ~15s.
-            if !queue.is_empty() && (captured || ticks % 30 == 0) {
+            if !queue.is_empty() && cfg.sync_enabled && !cfg.api_url.is_empty() && (captured || ticks % 30 == 0) {
                 flush(&cfg.api_url, &mut queue);
                 let _ = fs::write(&queue_path, serde_json::to_string(&queue).unwrap_or_default());
             }
