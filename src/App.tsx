@@ -18,6 +18,7 @@ import { ThemeProvider } from '@/components/ThemeProvider'
 import { useAppStore } from '@/stores/appStore'
 import { api } from '@/lib/api'
 import { toast } from 'sonner'
+import { isDesktop, setDesktopConfig } from '@/lib/desktop'
 
 function AppContent() {
   const { 
@@ -27,8 +28,14 @@ function AppContent() {
     setItems, 
     setTags,
     setIsLoading,
-    apiUrl
+    apiUrl,
+    deviceId
   } = useAppStore()
+
+  // Desktop shell: the Rust clipboard watcher pushes to the same Worker the UI uses.
+  useEffect(() => {
+    if (isDesktop) setDesktopConfig({ api_url: apiUrl, device_id: deviceId }).catch(() => {})
+  }, [apiUrl, deviceId])
 
   // Load initial data
   useEffect(() => {

@@ -9,6 +9,7 @@ import { useAppStore } from '@/stores/appStore'
 import { useTheme } from '@/components/ThemeProvider'
 import { api } from '@/lib/api'
 import { toast } from 'sonner'
+import { DesktopSettings } from '@/components/DesktopSettings'
 
 export function SettingsView() {
   const { apiUrl, setApiUrl, deviceId, setDeviceId } = useAppStore()
@@ -54,6 +55,7 @@ export function SettingsView() {
         </TabsList>
 
         <TabsContent value="general" className="space-y-4">
+          <DesktopSettings />
           <Card>
             <CardHeader>
               <CardTitle>Appearance</CardTitle>

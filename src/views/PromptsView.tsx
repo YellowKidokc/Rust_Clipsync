@@ -1,5 +1,5 @@
-import { useMemo, useState } from 'react'
-import { Terminal, Plus, Star, Trash2, Copy, Code, Pin, Download } from 'lucide-react'
+import { useEffect, useMemo, useRef, useState } from 'react'
+import { Terminal, Plus, Star, Trash2, Copy, Code, Pin, Download, Upload, Folder, FolderOpen, Sparkles, Tag } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from '@/components/ui/dialog'
@@ -10,6 +10,7 @@ import { api } from '@/lib/api'
 import type { Item, Prompt } from '@/types'
 import { toast } from 'sonner'
 import { cn } from '@/lib/utils'
+import { folderCounts, fuzzyScore, parseMarkdownPrompts, type ImportedPrompt } from '@/lib/library'
 
 export function PromptsView() {
   const { items, setItems } = useAppStore()
@@ -19,25 +20,60 @@ export function PromptsView() {
   const [newPrompt, setNewPrompt] = useState({
     title: '',
     template: '',
-    shortcut: ''
+    shortcut: '',
+    folder: '',
+    tags: ''
   })
+  const [folder, setFolder] = useState<string>('') // '' = all
+  const [tagFilter, setTagFilter] = useState<string[]>([])
+  const [semanticOn, setSemanticOn] = useState(false)
+  const [semanticIds, setSemanticIds] = useState<string[] | null>(null)
+  const [importing, setImporting] = useState<ImportedPrompt[] | null>(null)
+  const fileRef = useRef<HTMLInputElement>(null)
+  const dirRef = useRef<HTMLInputElement>(null)
 
   const promptItems = items.filter(i => i.type === 'prompt') as (Item & { prompt?: Prompt })[]
 
+  const folders = useMemo(() => [...folderCounts(promptItems).entries()].sort(([a], [b]) => a.localeCompare(b)), [promptItems])
+  const allTags = useMemo(() => {
+    const c = new Map<string, number>()
+    promptItems.forEach(p => (p.tags || []).forEach(t => c.set(t, (c.get(t) || 0) + 1)))
+    return [...c.entries()].sort((a, b) => b[1] - a[1]).slice(0, 30)
+  }, [promptItems])
+
+  // Meaning-based search: ask the API, keep its ranking. Falls back to fuzzy if unsupported.
+  useEffect(() => {
+    const q = filter.trim()
+    if (!semanticOn || q.length < 3) { setSemanticIds(null); return }
+    const t = setTimeout(async () => {
+      try {
+        const r = await api.semanticSearch(q, { type: 'prompt', limit: 50 })
+        setSemanticIds((r.items || []).map((i: Item) => i.id))
+      } catch {
+        setSemanticIds(null)
+        toast.message('Semantic search not available on this server, using text match')
+        setSemanticOn(false)
+      }
+    }, 350)
+    return () => clearTimeout(t)
+  }, [filter, semanticOn])
+
   const filteredPrompts = useMemo(() => {
-    const q = filter.trim().toLowerCase()
-    const base = !q ? promptItems : promptItems.filter((p) => {
-      const template = (p.prompt?.template || p.content || '').toLowerCase()
-      const title = (p.title || '').toLowerCase()
-      const shortcut = (p.prompt?.shortcut || '').toLowerCase()
-      const tags = (p.tags || []).join(' ').toLowerCase()
-      return (
-        template.includes(q) ||
-        title.includes(q) ||
-        shortcut.includes(q) ||
-        tags.includes(q)
-      )
-    })
+    let base = promptItems.filter(p =>
+      (!folder || p.folder === folder || (p.folder || '').startsWith(folder + '/')) &&
+      tagFilter.every(t => (p.tags || []).includes(t)))
+    if (semanticIds) {
+      const rank = new Map(semanticIds.map((id, i) => [id, i]))
+      return base.filter(p => rank.has(p.id)).sort((a, b) => rank.get(a.id)! - rank.get(b.id)!)
+    }
+    const q = filter.trim()
+    if (q) {
+      return base
+        .map(p => ({ p, s: fuzzyScore(p, q) }))
+        .filter(r => r.s > 0)
+        .sort((a, b) => b.s - a.s)
+        .map(r => r.p)
+    }
     return [...base].sort((a, b) => {
       const ap = a.metadata?.pinned ? 1 : 0
       const bp = b.metadata?.pinned ? 1 : 0
@@ -46,7 +82,32 @@ export function PromptsView() {
       const bt = (b.updated_at || b.created_at || 0)
       return bt - at
     })
-  }, [filter, promptItems])
+  }, [filter, promptItems, folder, tagFilter, semanticIds])
+
+  const handleFiles = async (files: FileList | null) => {
+    if (!files?.length) return
+    const parsed: ImportedPrompt[] = []
+    for (const f of Array.from(files)) {
+      if (!/\.(md|markdown|txt)$/i.test(f.name)) continue
+      parsed.push(...parseMarkdownPrompts(f.name, await f.text(), (f as any).webkitRelativePath || ''))
+    }
+    if (!parsed.length) toast.error('No prompts found in those files')
+    else setImporting(parsed)
+  }
+
+  const confirmImport = async () => {
+    if (!importing) return
+    const created: Item[] = []
+    let failed = 0
+    for (const p of importing) {
+      try {
+        created.push(await api.createPrompt({ title: p.title, template: p.template, folder: p.folder, tags: p.tags, shortcut: p.shortcut }))
+      } catch { failed++ }
+    }
+    setItems([...created, ...items])
+    setImporting(null)
+    toast[failed ? 'warning' : 'success'](`Imported ${created.length} prompt(s)${failed ? `, ${failed} failed` : ''}`)
+  }
 
   const handleTogglePin = async (item: Item) => {
     const pinned = !item.metadata?.pinned
@@ -72,10 +133,11 @@ export function PromptsView() {
         title: newPrompt.title,
         template: newPrompt.template,
         shortcut: newPrompt.shortcut || undefined,
-        tags: ['ai']
+        folder: newPrompt.folder.trim() || folder || undefined,
+        tags: newPrompt.tags.split(',').map(t => t.trim()).filter(Boolean)
       })
       setItems([prompt, ...items])
-      setNewPrompt({ title: '', template: '', shortcut: '' })
+      setNewPrompt({ title: '', template: '', shortcut: '', folder: '', tags: '' })
       setIsCreating(false)
       toast.success('Prompt created')
     } catch (error) {
@@ -142,8 +204,19 @@ export function PromptsView() {
     <div className="space-y-4">
       {/* Header */}
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-        <h2 className="text-2xl font-bold">Prompts</h2>
+        <h2 className="text-2xl font-bold">Prompt Library</h2>
         <div className="flex flex-col gap-2 sm:flex-row sm:gap-2">
+          <input ref={fileRef} type="file" accept=".md,.markdown,.txt" multiple hidden onChange={e => { handleFiles(e.target.files); e.target.value = '' }} />
+          <input ref={dirRef} type="file" hidden onChange={e => { handleFiles(e.target.files); e.target.value = '' }}
+            {...({ webkitdirectory: '', directory: '' } as any)} />
+          <Button variant="outline" onClick={() => fileRef.current?.click()} className="justify-center">
+            <Upload className="w-4 h-4 mr-2" />
+            Import .md
+          </Button>
+          <Button variant="outline" onClick={() => dirRef.current?.click()} className="justify-center" title="Import a folder of markdown files; subfolders become library folders">
+            <FolderOpen className="w-4 h-4 mr-2" />
+            Import folder
+          </Button>
           <Button variant="outline" onClick={handleExportAllAhk} className="justify-center">
             <Download className="w-4 h-4 mr-2" />
             Export All AHK
@@ -157,11 +230,44 @@ export function PromptsView() {
 
       <div className="flex items-center gap-2">
         <Input
-          placeholder="Search prompts..."
+          placeholder={semanticOn ? 'Describe what you need…' : 'Search prompts, snippets, templates…'}
           value={filter}
           onChange={(e) => setFilter(e.target.value)}
         />
+        <Button variant={semanticOn ? 'default' : 'outline'} size="icon" title="Search by meaning" onClick={() => setSemanticOn(v => !v)}>
+          <Sparkles className="w-4 h-4" />
+        </Button>
       </div>
+
+      {allTags.length > 0 && (
+        <div className="flex flex-wrap items-center gap-1.5">
+          <Tag className="w-3.5 h-3.5 text-muted-foreground" />
+          {allTags.map(([t, n]) => (
+            <Badge key={t} variant={tagFilter.includes(t) ? 'default' : 'outline'} className="cursor-pointer"
+              onClick={() => setTagFilter(tf => tf.includes(t) ? tf.filter(x => x !== t) : [...tf, t])}>
+              {t} <span className="ml-1 opacity-60">{n}</span>
+            </Badge>
+          ))}
+        </div>
+      )}
+
+      <div className="flex flex-col gap-4 md:flex-row">
+      <aside className="md:w-52 shrink-0 space-y-0.5 text-sm">
+        <button onClick={() => setFolder('')} className={cn('flex w-full items-center gap-2 rounded px-2 py-1 text-left hover:bg-accent', !folder && 'bg-accent font-medium')}>
+          <Folder className="w-4 h-4" /> All <span className="ml-auto text-xs text-muted-foreground">{promptItems.length}</span>
+        </button>
+        {folders.map(([f, n]) => {
+          const depth = f.split('/').length - 1
+          return (
+            <button key={f} onClick={() => setFolder(f)} style={{ paddingLeft: 8 + depth * 12 }}
+              className={cn('flex w-full items-center gap-2 rounded py-1 pr-2 text-left hover:bg-accent', folder === f && 'bg-accent font-medium')}>
+              <Folder className="w-3.5 h-3.5 shrink-0" /> <span className="truncate">{f.split('/').pop()}</span>
+              <span className="ml-auto text-xs text-muted-foreground">{n}</span>
+            </button>
+          )
+        })}
+      </aside>
+      <div className="flex-1 min-w-0">
 
       {filteredPrompts.length === 0 ? (
         <div className="text-center py-12 text-muted-foreground">
@@ -192,6 +298,29 @@ export function PromptsView() {
           })}
         </div>
       )}
+      </div>
+      </div>
+
+      {/* Markdown import preview */}
+      <Dialog open={!!importing} onOpenChange={() => setImporting(null)}>
+        <DialogContent className="max-w-2xl">
+          <DialogHeader>
+            <DialogTitle>Import {importing?.length} prompt(s)</DialogTitle>
+          </DialogHeader>
+          <div className="max-h-[50vh] space-y-1 overflow-auto text-sm">
+            {importing?.map((p, i) => (
+              <div key={i} className="rounded border px-2 py-1">
+                <div className="font-medium">{p.title}</div>
+                <div className="text-xs text-muted-foreground">{p.folder}{p.tags.length ? ` · ${p.tags.join(', ')}` : ''} · {p.template.length} chars</div>
+              </div>
+            ))}
+          </div>
+          <DialogFooter>
+            <Button variant="outline" onClick={() => setImporting(null)}>Cancel</Button>
+            <Button onClick={confirmImport}>Import</Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
 
       {/* Create Prompt Dialog */}
       <Dialog open={isCreating} onOpenChange={setIsCreating}>
@@ -219,6 +348,18 @@ export function PromptsView() {
               <p className="text-xs text-muted-foreground mt-1">
                 Use {'{{variable}}'} syntax for placeholders
               </p>
+            </div>
+            <div className="grid grid-cols-2 gap-2">
+              <div>
+                <label className="text-sm font-medium">Folder</label>
+                <Input placeholder={folder || 'e.g. writing/email'} value={newPrompt.folder}
+                  onChange={(e) => setNewPrompt({ ...newPrompt, folder: e.target.value })} />
+              </div>
+              <div>
+                <label className="text-sm font-medium">Tags</label>
+                <Input placeholder="comma, separated" value={newPrompt.tags}
+                  onChange={(e) => setNewPrompt({ ...newPrompt, tags: e.target.value })} />
+              </div>
             </div>
             <div>
               <label className="text-sm font-medium">AutoHotkey Shortcut (optional)</label>
@@ -269,6 +410,16 @@ export function PromptsView() {
                   id="edit-template"
                 />
               </div>
+              <div className="grid grid-cols-2 gap-2">
+                <div>
+                  <label className="text-sm font-medium">Folder</label>
+                  <Input defaultValue={editingPrompt.folder || ''} id="edit-folder" />
+                </div>
+                <div>
+                  <label className="text-sm font-medium">Tags</label>
+                  <Input defaultValue={(editingPrompt.tags || []).join(', ')} id="edit-tags" />
+                </div>
+              </div>
               <div>
                 <label className="text-sm font-medium">Shortcut</label>
                 <Input
@@ -287,9 +438,11 @@ export function PromptsView() {
               if (!editingPrompt) return
               const template = (document.getElementById('edit-template') as HTMLTextAreaElement)?.value
               const shortcut = (document.getElementById('edit-shortcut') as HTMLInputElement)?.value
-              
+              const folder = (document.getElementById('edit-folder') as HTMLInputElement)?.value.trim()
+              const tags = (document.getElementById('edit-tags') as HTMLInputElement)?.value.split(',').map(t => t.trim()).filter(Boolean)
+
               try {
-                await api.updatePrompt(editingPrompt.id, { template, shortcut })
+                await api.updatePrompt(editingPrompt.id, { template, shortcut, folder, tags })
                 toast.success('Prompt updated')
                 setEditingPrompt(null)
                 // Reload prompts

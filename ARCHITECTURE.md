@@ -1,6 +1,7 @@
 # ClipSync architecture (plan)
 
-Three apps, one flow of clips. Status: design notes, nothing below is built yet unless marked.
+Three apps, one flow of clips. Status: first versions of the desktop shell, prompt library, vault and
+triage are built; see [DESKTOP.md](DESKTOP.md) for what exists and what is still open.
 
 ```
  devices (desktop, Android, other PCs)      Cloudflare (always up)            Synology (home)
@@ -37,7 +38,14 @@ Three apps, one flow of clips. Status: design notes, nothing below is built yet 
   through the Worker, so devices only ever talk to one address.
 - Offline: the device queues pastes and pushes when it reconnects.
 
-## Open questions
+## Decisions taken (Nov 2026)
+
+- Triage runs twice: cheap at the edge on ingest, deep on the NAS with Ollama (organizer + embeddings).
+- Worker ↔ NAS: the NAS polls by default; a Tunnel is optional for older-than-hot reads.
+- Postgres on the NAS, pgvector when installed, full-text otherwise.
+- Conflicts: last write wins on `updated_at`, everywhere.
+
+## Open questions (original)
 
 - Is triage done once at the edge, or redone on the Synology with a bigger model?
 - How does the Worker reach the NAS: a Tunnel (recommended) or the NAS polling?
