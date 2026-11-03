@@ -19,7 +19,7 @@ prompts live in a SQLite file on the PC (`%APPDATA%\pro.theophysics.clipsync\cli
 - **Capture**: polls the clipboard every 500 ms, masks passwords/keys/tokens (`src-tauri/src/secrets.rs`)
   before saving, de-duplicates (copying the same text again moves it to the top), keeps the newest 1000
   clips (configurable; pinned clips are never trimmed). The picker's own pastes are not re-captured.
-- **Starts with Windows** (launches hidden). NSIS installer, per-user. **2.8 MB** (measured in CI).
+- **Starts with Windows** (launches hidden). NSIS installer, per-user. about **3.4 MB** (measured in CI, with SQLite bundled).
 - **Sync is optional and off.** Settings → "Also send clips to a server" pushes new clips to an API URL
   (with an offline queue). Nothing else uses the network.
 
