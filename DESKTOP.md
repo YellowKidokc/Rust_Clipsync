@@ -36,7 +36,7 @@ npm run desktop:build
 ```
 
 The installer lands in `src-tauri/target/release/bundle/nsis/`. `.github/workflows/desktop.yml` builds it
-on every push to main and uploads it as an artifact.
+on every push to Main and uploads it as an artifact.
 
 ## 2. Prompt / paste library (Prompts view → "Prompt Library")
 

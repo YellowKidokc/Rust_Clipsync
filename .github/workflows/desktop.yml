@@ -2,7 +2,7 @@ name: Desktop installer
 
 on:
   push:
-    branches: [main]
+    branches: [Main]
     paths: ['src/**', 'src-tauri/**', 'picker.html', 'package.json', '.github/workflows/desktop.yml']
   pull_request:
     paths: ['src/**', 'src-tauri/**', 'picker.html', 'package.json', '.github/workflows/desktop.yml']
