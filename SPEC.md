@@ -37,8 +37,23 @@ plaintext**, including the secrets triage is supposed to protect. Those two goal
 - AI runs on **trusted hardware you own**: the desktop app (local model / Ollama) and the NAS
   (bigger model, embeddings, OCR backfill). Phone gets AI results because tags/embeddings/captions
   are computed on desktop or NAS, encrypted, and synced as item metadata.
+- **Default backend: Ollama on the desktop's own disk.** No cloud AI unless turned on.
+- **User picks when AI runs** (Settings → AI → Run): `Manual` (button / hotkey on a selection),
+  `Every N minutes` (batch the unprocessed clips), or `On every copy`. Default = Manual.
+  Secret detection is the only thing that always runs on copy — it's regex, no model, and it's
+  what keeps keys out of sync and out of the AI.
 - Optional cloud LLM (Claude API) for heavy actions only on explicit user request per item, never
   on ingest, never for items flagged secret.
+
+## The flow the user expects (confirmed)
+
+1. Install the desktop app (React UI inside Tauri) on the PC. It captures clips and keeps them on
+   local disk.
+2. Sign in / connect the desktop to the Cloudflare relay. Desktop pushes clips up (encrypted).
+3. Open the app URL on the phone → "Add to Home Screen" (PWA) → scan the QR shown on desktop to
+   link it. Phone now pulls clips; anything added on the phone pushes back up.
+4. Second laptop: install the same desktop app, scan the QR, done.
+5. NAS joins the same way, headless, and keeps the full history.
 
 ## Decision 2: stack
 
