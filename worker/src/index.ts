@@ -8,6 +8,7 @@ const downloadRoute = new RegExp(`^/v1/events/(${ulid})/(${ulid})$`)
 interface Device {
   account: string
   device: string
+  archive_only: number
 }
 
 export class AccountEvents extends DurableObject {
@@ -40,7 +41,7 @@ async function authenticate(request: Request, env: Env): Promise<Device | null> 
   if (!token) return null
   const digest = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(token))
   const hash = Array.from(new Uint8Array(digest), (byte) => byte.toString(16).padStart(2, '0')).join('')
-  return env.RELAY_DB.prepare('SELECT account, device FROM devices WHERE token_hash = ?')
+  return env.RELAY_DB.prepare('SELECT account, device, archive_only FROM devices WHERE token_hash = ?')
     .bind(hash).first<Device>()
 }
 
@@ -51,7 +52,7 @@ async function route(request: Request, env: Env, ctx: ExecutionContext): Promise
   if (!session) return reply({ error: 'Unauthorized device' }, 401)
   const { account, device } = session
 
-  if (request.method === 'GET' && url.pathname === '/v1/session') return reply(session)
+  if (request.method === 'GET' && url.pathname === '/v1/session') return reply(session.archive_only ? { account, device, archiveOnly: true } : { account, device })
   if (request.method === 'GET' && url.pathname === '/v1/live') {
     return env.ACCOUNT_EVENTS.getByName(account).fetch(new Request(request.url, {
       headers: { Upgrade: request.headers.get('Upgrade') ?? '' },
@@ -67,6 +68,7 @@ async function route(request: Request, env: Env, ctx: ExecutionContext): Promise
   }
   const upload = operationRoute.exec(url.pathname)
   if (request.method === 'PUT' && upload) {
+    if (session.archive_only) return reply({ error: 'Archive devices can only read' }, 403)
     const op = upload[1]
     const db = env.RELAY_DB.withSession('first-primary')
     const existing = await db.prepare('SELECT seq FROM events WHERE account=? AND device=? AND op=?')

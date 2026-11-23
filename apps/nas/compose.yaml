@@ -1,0 +1,29 @@
+services:
+  archive:
+    build:
+      context: ../..
+      dockerfile: apps/nas/Dockerfile
+    user: "${CLIPSYNC_NAS_UID:-10001}:${CLIPSYNC_NAS_GID:-10001}"
+    restart: unless-stopped
+    read_only: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    environment:
+      CLIPSYNC_RELAY_ORIGIN: "${CLIPSYNC_RELAY_ORIGIN:?Set the HTTPS relay origin}"
+      CLIPSYNC_DATABASE_URL_FILE: /run/clipsync/database-url
+      CLIPSYNC_SYNC_KEY_FILE: /run/clipsync/sync-key
+      CLIPSYNC_DEVICE_TOKEN_FILE: /run/clipsync/device-token
+      CLIPSYNC_ALLOW_PLAINTEXT_DB: "${CLIPSYNC_ALLOW_PLAINTEXT_DB:-0}"
+    volumes:
+      - type: bind
+        source: "${CLIPSYNC_NAS_SECRETS:?Set the Synology path holding the three credential files}"
+        target: /run/clipsync
+        read_only: true
+        bind:
+          create_host_path: false
+    logging:
+      options:
+        max-size: 10m
+        max-file: "3"

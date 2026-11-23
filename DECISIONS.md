@@ -14,3 +14,8 @@
 - Connecting queues existing non-secret clips. Clipboard capture and editing still work without connectivity. SQLite commits each local change and its encrypted outbox entry together. Pause keeps changes queued. The WebSocket provides wake-ups, and cursor-based polling recovers from disconnections and missed updates.
 - The wire transfer uses encrypted full snapshots for saves. Once received, clip content and its original capture metadata are immutable. Keep, tags, and note each resolve by Lamport clock and event ID. Delete is terminal for the item ID. Synced clips stay in the local store until deleted, so the offline cache policy cannot silently discard synced history.
 - A corrupted event leaves the cursor at the last authenticated event and surfaces a sync error. The relay serves ciphertext and routing metadata. The shared sync key stays on the desktops.
+
+## Phase 4 decisions
+
+- The NAS uses an outbound HTTPS poll and a dedicated read-only relay token. PostgreSQL stores the authenticated original envelopes and a minimal sequence and item index. It retains snapshots and deletion events independently of the desktop vault.
+- Archive status, history and recovery are local commands in the container. Recovery decrypts a selected event using the existing account key. PostgreSQL stores no decrypted clip payloads. Vector indexing and NAS AI belong to a later phase.

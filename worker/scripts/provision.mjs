@@ -1,10 +1,12 @@
 import { createHash, randomBytes } from 'node:crypto'
 import { readFileSync, writeFileSync } from 'node:fs'
 
-const [credentialsFile, sqlFile, rawCount = '2', existingFile] = process.argv.slice(2)
+const args = process.argv.slice(2)
+const archive = args.includes('--archive')
+const [credentialsFile, sqlFile, rawCount = '2', existingFile] = args.filter(arg => arg !== '--archive')
 const count = Number(rawCount)
 if (!credentialsFile || !sqlFile || !Number.isInteger(count) || count < 1 || count > 32) {
-  throw new Error('Usage: node scripts/provision.mjs <credentials.json> <devices.sql> [count] [existing-credentials.json]')
+  throw new Error('Usage: node scripts/provision.mjs <credentials.json> <devices.sql> [count] [existing-credentials.json] [--archive]')
 }
 const syncKey = existingFile
   ? JSON.parse(readFileSync(existingFile, 'utf8')).syncKey
@@ -30,6 +32,7 @@ function ulid() {
 const devices = Array.from({ length: count }, () => ({ id: ulid(), token: 'csdev_' + randomBytes(32).toString('hex') }))
 const sql = devices.map(({ id, token }) => {
   const hash = createHash('sha256').update(token).digest('hex')
+  if (archive) return `INSERT INTO devices (account,device,token_hash,archive_only) VALUES ('${account}','${id}','${hash}',1);`
   return `INSERT INTO devices (account,device,token_hash) VALUES ('${account}','${id}','${hash}');`
 }).join('\n')
 

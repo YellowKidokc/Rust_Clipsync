@@ -1,0 +1,17 @@
+**
+!Cargo.toml
+!Cargo.lock
+!crates/
+!crates/clip-core/
+!crates/clip-core/**
+!crates/clip-crypto/
+!crates/clip-crypto/**
+!apps/
+!apps/nas/
+!apps/nas/Cargo.toml
+!apps/nas/src/
+!apps/nas/src/**
+!apps/desktop/
+!apps/desktop/Cargo.toml
+!apps/desktop/src/
+!apps/desktop/src/main.rs

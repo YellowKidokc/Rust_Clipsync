@@ -31,3 +31,7 @@ See [Phase 1 decisions](DECISIONS.md) and the [build spec](SPEC.md) for platform
 ## Encrypted desktop sync
 
 Phase 2 adds opt-in desktop sync through a Cloudflare relay. **Settings → Encrypted sync** enrolls a device or pauses sync while retaining local changes. See the [relay setup](worker/README.md) to run it locally or configure Cloudflare and issue device credentials.
+
+## Synology archive
+
+Phase 4 adds a headless Docker service that archives synced clip history in PostgreSQL. See [Synology setup and clip recovery](apps/nas/README.md).

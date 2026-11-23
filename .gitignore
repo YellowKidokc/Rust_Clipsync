@@ -6,3 +6,5 @@ apps/desktop/gen/schemas/
 worker/.wrangler/
 worker/worker-configuration.d.ts
 worker/.dev.vars*
+
+apps/nas/.env

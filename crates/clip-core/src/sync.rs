@@ -65,6 +65,70 @@ fn aad(account: &str, device: &str, op: &str) -> String {
     format!("clipsync-relay-v1/{account}/{device}/{op}")
 }
 
+#[derive(Serialize)]
+#[serde(tag = "kind", content = "data", rename_all = "snake_case")]
+pub enum ArchiveEvent {
+    Snapshot(Box<Clip>),
+    Delete(String),
+}
+
+pub fn open_archive_event(
+    key: &Key,
+    account: &str,
+    event: &Event,
+    body: &[u8],
+) -> Result<ArchiveEvent> {
+    Ok(match decode_event(key, account, event, body)?.change {
+        Change::Save(clip, _) => ArchiveEvent::Snapshot(clip),
+        Change::Delete(id) => ArchiveEvent::Delete(id),
+    })
+}
+
+fn decode_event(key: &Key, account: &str, event: &Event, body: &[u8]) -> Result<Message> {
+    ensure!(
+        event.seq > 0 && valid_id(&event.device) && valid_id(&event.op),
+        "Invalid relay event"
+    );
+    ensure!(
+        (41..=MAX_ENVELOPE).contains(&body.len()) && body.len() == event.size,
+        "Invalid relay payload size"
+    );
+    let bytes = Zeroizing::new(clip_crypto::open(
+        key,
+        aad(account, &event.device, &event.op).as_bytes(),
+        body,
+    )?);
+    let message: Message = codecs().deserialize(&bytes)?;
+    ensure!(
+        (1..i64::MAX - 1).contains(&message.clock),
+        "Invalid sync clock"
+    );
+    match &message.change {
+        Change::Delete(id) => ensure!(valid_id(id), "Invalid clip ID"),
+        Change::Save(incoming, versions) => {
+            let id = &incoming.item.id;
+            ensure!(
+                valid_id(id) && incoming.item.kind == incoming.content.kind(),
+                "Invalid clip"
+            );
+            ensure!(
+                !incoming.item.is_secret && !incoming.content.is_secret(),
+                "Secret clip rejected"
+            );
+            ensure!(
+                [&versions.kept, &versions.tags, &versions.note]
+                    .into_iter()
+                    .all(|stamp| {
+                        (stamp.0 == 0 && stamp.1.is_empty())
+                            || ((1..=message.clock).contains(&stamp.0) && valid_id(&stamp.1))
+                    }),
+                "Invalid clip version"
+            );
+        }
+    }
+    Ok(message)
+}
+
 fn codecs() -> impl Options {
     bincode::DefaultOptions::new()
         .with_fixint_encoding()
@@ -252,32 +316,14 @@ impl Store {
         event: &Event,
         body: &[u8],
     ) -> Result<bool> {
-        ensure!(
-            event.seq > 0 && valid_id(&event.device) && valid_id(&event.op),
-            "Invalid relay event"
-        );
-        ensure!(
-            (41..=MAX_ENVELOPE).contains(&body.len()) && body.len() == event.size,
-            "Invalid relay payload size"
-        );
         if event.seq <= self.sync_cursor()? {
             return Ok(false);
         }
-        let bytes = Zeroizing::new(clip_crypto::open(
-            key,
-            aad(account, &event.device, &event.op).as_bytes(),
-            body,
-        )?);
-        let message: Message = codecs().deserialize(&bytes)?;
-        ensure!(
-            (1..i64::MAX - 1).contains(&message.clock),
-            "Invalid sync clock"
-        );
+        let message = decode_event(key, account, event, body)?;
         let disk = self.db.transaction()?;
         let memory = self.index.transaction()?;
         let changed = match message.change {
             Change::Delete(id) => {
-                ensure!(valid_id(&id), "Invalid clip ID");
                 let changed = tracked(&disk, &id)?;
                 if changed {
                     disk.execute("DELETE FROM clips WHERE id=?", [&id])?;
@@ -288,23 +334,6 @@ impl Store {
             }
             Change::Save(mut incoming, versions) => {
                 let id = incoming.item.id.clone();
-                ensure!(
-                    valid_id(&id) && incoming.item.kind == incoming.content.kind(),
-                    "Invalid clip"
-                );
-                ensure!(
-                    !incoming.item.is_secret && !incoming.content.is_secret(),
-                    "Secret clip rejected"
-                );
-                ensure!(
-                    [&versions.kept, &versions.tags, &versions.note]
-                        .into_iter()
-                        .all(|stamp| {
-                            (stamp.0 == 0 && stamp.1.is_empty())
-                                || ((1..=message.clock).contains(&stamp.0) && valid_id(&stamp.1))
-                        }),
-                    "Invalid clip version"
-                );
                 let (mut local, deleted) = read_versions(&disk, &id)?;
                 if deleted {
                     false

@@ -59,3 +59,5 @@ All `/v1/` endpoints require the device bearer token.
 The ciphertext uses the [ClipSync v1 envelope](../crates/clip-crypto/FORMAT.md). Associated data is the UTF-8 string `clipsync-relay-v1/{account}/{device}/{operation}`. The desktop payload is a bincode 1.x message with a Lamport clock and either a clip snapshot with field clocks or a deletion tombstone. Operation IDs are canonical ULIDs. Retries preserve IDs; a duplicate upload returns the first receipt and keeps the first stored ciphertext. D1 publishes an event only after R2 stores it.
 
 The relay is an append-only event log in this phase. A delete hides the clip on devices and prevents older events from restoring it. Earlier ciphertext remains in R2. A new desktop replays that history to catch up.
+
+For a NAS token, apply all D1 migrations and pass `--archive` with the existing credentials file to the provisioning script. That token can download ciphertext for its account and the Worker rejects its uploads. See the [Synology setup](../apps/nas/README.md).

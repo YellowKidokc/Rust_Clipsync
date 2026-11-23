@@ -29,10 +29,16 @@ try {
   const run = (args) => execFileSync(process.execPath, args, { env, stdio: 'pipe' })
   run(['scripts/provision.mjs', credentials, seed, '2'])
   run(['scripts/provision.mjs', otherCredentials, otherSeed, '1'])
+  const archiveCredentials = join(scratch, 'archive.json')
+  const archiveSeed = join(scratch, 'archive.sql')
+  run(['scripts/provision.mjs', archiveCredentials, archiveSeed, '1', credentials, '--archive'])
   run([cli, ...db, '--file', 'migrations/0001_relay.sql'])
+  run([cli, ...db, '--file', 'migrations/0002_archive_devices.sql'])
+  run([cli, ...db, '--file', archiveSeed])
   run([cli, ...db, '--file', seed])
   run([cli, ...db, '--file', otherSeed])
   const { account, devices: [a, b] } = JSON.parse(await readFile(credentials, 'utf8'))
+  const { devices: [archive] } = JSON.parse(await readFile(archiveCredentials, 'utf8'))
   const { devices: [other] } = JSON.parse(await readFile(otherCredentials, 'utf8'))
 
   worker = spawn(process.execPath, [cli, 'dev', '--ip', '127.0.0.1', '--port', String(port), '--persist-to', scratch], { env })
@@ -79,6 +85,12 @@ try {
   assert.deepEqual(Buffer.from(await (await request(resource, b)).arrayBuffer()), payload)
   assert.deepEqual(await (await request('/v1/events', other)).json(), [])
   assert.equal((await request(resource, other)).status, 404)
+  assert.deepEqual(await (await request('/v1/session', archive)).json(), {
+    account, device: archive.id, archiveOnly: true,
+  })
+  assert.deepEqual(await (await request('/v1/events', archive)).json(), events)
+  assert.deepEqual(Buffer.from(await (await request(resource, archive)).arrayBuffer()), payload)
+  assert.equal((await request(`/v1/events/${archive.id}`, archive, { method: 'PUT', body: payload })).status, 403)
   const wrongToken = { token: 'csdev_' + createHash('sha256').update(a.token).digest('hex') }
   assert.equal((await request(resource, wrongToken)).status, 401)
   console.log('Relay verified device authentication, account isolation, idempotent ciphertext upload, cursor, R2 download, and WebSocket notification.')

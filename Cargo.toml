@@ -1,5 +1,5 @@
 [workspace]
-members = ["crates/clip-crypto", "crates/clip-core", "apps/desktop"]
+members = ["crates/clip-crypto", "crates/clip-core", "apps/desktop", "apps/nas"]
 resolver = "2"
 
 [workspace.package]
