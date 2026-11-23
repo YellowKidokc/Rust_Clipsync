@@ -1,0 +1,16 @@
+{
+  "name": "clipsync-relay",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "types": "wrangler types",
+    "check": "npm run types && tsc --noEmit",
+    "dev": "wrangler dev --port 8787",
+    "test": "node scripts/test-relay.mjs"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "wrangler": "^4.50.0",
+    "ws": "^8.23.0"
+  }
+}

@@ -1,0 +1,8 @@
+node_modules/
+dist/
+target/
+*.tsbuildinfo
+apps/desktop/gen/schemas/
+worker/.wrangler/
+worker/worker-configuration.d.ts
+worker/.dev.vars*

@@ -1,13 +1,14 @@
 {
-  "name": "my-app",
+  "name": "clipsync",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "dev": "vite --config apps/web/vite.config.ts",
+    "build": "tsc -b apps/web && vite build --config apps/web/vite.config.ts",
+    "lint": "eslint --config apps/web/eslint.config.js apps/web",
+    "preview": "vite preview --config apps/web/vite.config.ts",
+    "tauri": "node scripts/tauri.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
@@ -38,6 +39,7 @@
     "@radix-ui/react-toggle-group": "^1.1.11",
     "@radix-ui/react-tooltip": "^1.2.8",
     "@tanstack/react-query": "^5.90.21",
+    "@tauri-apps/api": "^2.0.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
@@ -58,12 +60,12 @@
     "sonner": "^2.0.7",
     "tailwind-merge": "^3.4.0",
     "vaul": "^1.1.2",
-    "vite-plugin-pwa": "^1.2.0",
     "zod": "^4.3.5",
     "zustand": "^5.0.11"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
+    "@tauri-apps/cli": "^2.0.0",
     "@types/node": "^24.10.1",
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",

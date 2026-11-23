@@ -1,0 +1,19 @@
+{
+  "productName": "ClipSync",
+  "version": "0.1.0",
+  "identifier": "com.clipsync.desktop",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://127.0.0.1:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../web/dist"
+  },
+  "app": {
+    "windows": [
+      { "label": "main", "title": "ClipSync", "width": 1060, "height": 720 },
+      { "label": "popup", "title": "ClipSync Quick Search", "url": "index.html?popup", "width": 660, "height": 435, "center": true, "visible": false, "alwaysOnTop": true, "skipTaskbar": true, "decorations": false }
+    ],
+    "security": { "csp": "default-src 'self'; connect-src ipc: http://ipc.localhost; img-src 'self' data: blob:; style-src 'self' 'unsafe-inline'; font-src 'self'" }
+  },
+  "bundle": { "active": true, "icon": ["icons/icon.png", "icons/icon.ico", "icons/icon.icns"] }
+}

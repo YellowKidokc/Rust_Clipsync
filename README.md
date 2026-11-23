@@ -1,81 +1,33 @@
 # ClipSync
 
-The front end for ClipSync: a React + Vite + Tailwind (shadcn/ui) PWA for clips, notes, prompts,
-bookmarks and research, synced across devices through a ClipSync API running as a Cloudflare Worker.
+ClipSync Phase 1 is an offline desktop clipboard manager. It captures text, images, and regular files into an encrypted local vault. Open quick search with **Ctrl+Shift+V**. Use the arrow keys and **Enter** to paste, or **Alt+1–5** for the first five matches. You can keep or delete a clip in either window. Closing the main window leaves capture running in the tray. Choose **Quit** from the tray to exit.
 
-It used to live in `YellowKidokc/Rust_AI_API` as `clipsync-cloudflare-app/`; its history came across
-with it.
+## Run locally
 
-## What's here
+Install Node.js 24, a current stable Rust toolchain, and the [Tauri 2 prerequisites](https://v2.tauri.app/start/prerequisites/) for your platform. On Windows, install the MSVC C++ build tools and WebView2. On Linux, use an X11 session with an unlocked Secret Service keyring. In addition to the Tauri libraries, install the D-Bus and libxkbcommon development packages (`libdbus-1-dev` and `libxkbcommon-dev` on Debian/Ubuntu). On macOS, grant Accessibility permission if the popup cannot send paste to the previous app.
 
-- `src/` is the main app. Views: Dashboard, Clips, Notes, Prompts, Bookmarks, Research, Deep Research,
-  Chat, Crawlers, Stewards, Settings. All network calls go through `src/lib/api.ts`.
-- `public/clipboard/` is a standalone, single-file clipboard page (slots, pins, tags) with its own
-  service worker. It's served at `/clipboard/`.
-- `dist/` is a committed build. Rebuild it rather than editing it.
-
-## Run it
-
-Node 20+.
-
-```bash
+```sh
 npm ci
-npm run dev        # http://localhost:5173
-npm run build      # type-check + production build into dist/
-npm run preview    # serve dist/ locally
+npm run tauri dev
 ```
 
-## Which API it talks to
+On first launch, create a vault passphrase. ClipSync derives its encryption key and saves the key in the OS keychain. **Settings** lets you pause capture, choose which clip types to save, and set the maximum clip size.
 
-**Not forge.** Every request goes to the ClipSync Worker API, whose code is not in this repo. The base
-URL is resolved in this order:
+## Local AI
 
-1. Settings → API URL in the app (stored in `localStorage` under `clipsync-storage`)
-2. `VITE_API_URL` at build time
-3. `http://localhost:8787/api` (the default `wrangler dev` port)
+Run Ollama with an installed local model. In **Settings → AI**, enter the model name and leave the URL at `http://localhost:11434` for the default Ollama setup. Select a text clip and choose **Tag this** or **Summarize**. Secret clips are masked, excluded from search indexing and AI, and cleared from the clipboard after 30 seconds if they are still current.
 
-`/api` is added if missing. `public/clipboard/` resolves its own base separately:
-`window.CLIPSYNC_API`, then `localStorage.clipsync_api`, then `http://localhost:3456/api` on localhost,
-then the production Worker URL hard-coded in `public/clipboard/index.html`.
+## Verify and build
 
-Endpoints the app calls (all under the base above):
-
-| Area | Endpoints |
-|---|---|
-| Health | `GET /health` |
-| Items | `/items`, `/items/{id}`, `/items/{id}/star`, `/tags`, `/tags/{tag}/items` |
-| Clips | `POST /clips/push`, `GET /clips/latest`, `GET /clips/history?limit=` |
-| Notes / prompts | `/notes`, `/notes/{id}/content`, `/prompts`, `/prompts/{id}`, `POST /prompts/import` |
-| Bookmarks / scraping | `/bookmarks`, `/bookmarks/scrape`, `/bookmarks/{id}/extracted`, `/scrape`, `/scrape/crawl` |
-| Research | `POST /research/start`, `/research/{id}`, `/research/{id}/status` |
-| AI | `POST /ai/summarize`, `POST /ai/expand-prompt` |
-| Uploads | `POST /uploads/init`, `/uploads/{attachmentId}`, `/uploads/item/{itemId}` |
-
-The Crawlers and Stewards views embed two other deployed sites in iframes (URLs in those view files).
-
-### Relationship to forge
-
-Forge (`YellowKidokc/Rust_AI_API`) keeps the clipboard librarian: `forge clips sort` (files clips by
-category and holds back anything that looks like a password or key) and `forge clips review`. Those
-stay in the engine so API keys, routing, and cost tracking live in one place. This app doesn't call
-forge's gateway today. If it should, the forge side to target is `forge serve` on `127.0.0.1:8790`,
-and that wiring hasn't been built.
-
-## Deploy to Cloudflare Pages
-
-Dashboard (Git integration):
-
-1. Workers & Pages → Create → Pages → connect this repo.
-2. Framework preset: **Vite**. Build command: `npm run build`. Output directory: `dist`.
-3. Environment variables: `VITE_API_URL` = your Worker's URL (for example
-   `https://<worker>.<subdomain>.workers.dev/api`), and `NODE_VERSION` = `20`.
-
-Or from the command line:
-
-```bash
+```sh
 npm run build
-npx wrangler pages deploy dist --project-name clipsync
+cargo test --locked
+cargo clippy --locked -- -D warnings
+npm run tauri -- build
 ```
 
-The API Worker has to allow this site's origin (CORS). No secrets belong in this repo: the Worker holds
-its own keys as Worker secrets, and everything built into the front end is public by nature.
+See [Phase 1 decisions](DECISIONS.md) and the [build spec](SPEC.md) for platform behavior and later phases.
+
+## Encrypted desktop sync
+
+Phase 2 adds opt-in desktop sync through a Cloudflare relay. **Settings → Encrypted sync** enrolls a device or pauses sync while retaining local changes. See the [relay setup](worker/README.md) to run it locally or configure Cloudflare and issue device credentials.
