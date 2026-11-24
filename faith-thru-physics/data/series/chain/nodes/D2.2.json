@@ -1,0 +1,57 @@
+{
+ "id": "D2.2",
+ "title": "D2.2 Chi Field Properties",
+ "lifecycle": "definition",
+ "tier": 3,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [
+  "A2.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. Not checkable faithfully in Z3 because the main claim is a definition/postulate involving universal quantification over all of R^4, topological/analytic regularity such as C² except on a singularity set and L¹ integrability, plus informal notions of scalar/frame-independence and singularity. A finite SMT encoding would only check a trivial finite sample or satisfiability of χ ≥ 0, not the actual main claim.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "D2.2/Q15/0014",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the inference from God's omnipresence/Logos substrate to 'χ must be a real scalar field pervading all spacetime'; P-IMAGO supplies only analogical resemblance, not a physical field or spacetime model."
+  },
+  {
+   "id": "D2.2/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: D2.2 defines χ as a nonnegative real scalar field on all spacetime, scalar/frame-independent, and C² except at singularities with L¹ integrability.",
+   "reason": "Not checkable faithfully in Z3 because the main claim is a definition/postulate involving universal quantification over all of R^4, topological/analytic regularity such as C² except on a singularity set and L¹ integrability, plus informal notions of scalar/frame-independence and singularity. A finite SMT encoding would only check a trivial finite sample or satisfiability of χ ≥ 0, not the actual main claim."
+  }
+ ],
+ "ports": [],
+ "main": "D2.2",
+ "claims": [
+  "D2.2",
+  "D2.2::split-01",
+  "D2.2::split-02",
+  "D2.2::split-03",
+  "D2.2::split-04",
+  "D2.2::split-05",
+  "D2.2::split-06",
+  "D2.2::split-07",
+  "D2.2::split-08"
+ ],
+ "source": "source/nodes/D2.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

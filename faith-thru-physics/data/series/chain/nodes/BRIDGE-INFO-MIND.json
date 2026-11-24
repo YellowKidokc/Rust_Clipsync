@@ -1,0 +1,42 @@
+{
+ "id": "BRIDGE-INFO-MIND",
+ "title": "BRIDGE-INFO-MIND",
+ "lifecycle": "bridge",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "HY_EVIDENCE",
+ "declared": [
+  "A5.1",
+  "D2.1"
+ ],
+ "proposed": [
+  "A5.1",
+  "D2.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "BRIDGE-INFO-MIND/Q15/0205",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "domain application rather than mere notation",
+   "reason": "This is an interpretive linkage between information and Φ-consciousness, not an established formal bridge."
+  }
+ ],
+ "ports": [],
+ "main": "BRIDGE-INFO-MIND",
+ "claims": [
+  "BRIDGE-INFO-MIND"
+ ],
+ "source": "source/nodes/BRIDGE-INFO-MIND.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

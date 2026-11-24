@@ -1,0 +1,52 @@
+{
+ "id": "P10.1",
+ "title": "P10.1 Soul Continuity",
+ "lifecycle": "property",
+ "tier": 11,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "P10.1/Q15/0110",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the move from P-IMAGO's analogical participation in creaturely consciousness/relation/agency to a specific soul-field coupling g_SB; P-IMAGO explicitly does not yield physical laws, equations, constants, or measurements."
+  }
+ ],
+ "ports": [],
+ "main": "P10.1",
+ "claims": [
+  "P10.1",
+  "P10.1::split-01",
+  "P10.1::split-02",
+  "P10.1::split-03",
+  "P10.1::split-04",
+  "P10.1::split-05",
+  "P10.1::split-06",
+  "P10.1::split-07",
+  "P10.1::split-08",
+  "P10.1::split-09",
+  "P10.1::split-10",
+  "P10.1::split-11",
+  "P10.1::split-12"
+ ],
+ "source": "source/nodes/P10.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

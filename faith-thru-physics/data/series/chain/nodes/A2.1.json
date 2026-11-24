@@ -1,0 +1,76 @@
+{
+ "id": "A2.1",
+ "title": "A2.1 Substrate Requirement",
+ "lifecycle": "primitive",
+ "tier": 2,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A1.0"
+ ],
+ "proposed": [
+  "A1.0"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "ADMITTED",
+  "named_premises": [
+   "Information requires a substrate for instantiation."
+  ],
+  "denial_cost": "The universal substrate requirement is dropped; the branch requiring every information configuration to have an underlying support must be rebuilt. No physical substrate law is proved from the root label.",
+  "checkable_by": null,
+  "receipt": [
+   "sources/august/AXIOM_CHAIN_MASTER_v3.md"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "A2.1/Q15/0011",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the inference from created dependence and analogical participation to a universal substrate requirement for information; the record then overextends to physical laws, mathematics, and the χ-field."
+  },
+  {
+   "id": "A2.1/Q15/0258",
+   "kind": "definitional conflict",
+   "status": "FATAL",
+   "scope": "naive merged-premise union asserted acyclic",
+   "reason": "Folding LN2.1 into A2.1 and unioning its v3 A2.2 premise creates A2.1 -> A2.2 -> A2.1. This is not an acyclic derivation and cannot serve as independent proof."
+  },
+  {
+   "id": "A2.1/Q15/0259",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "claim-scoped merge representation",
+   "reason": "Keep the incoming LN2.1 claim and its A2.2 premise separate from the survivor A2.1 primary definition/support. Do not delete the premise or upgrade its warrant."
+  },
+  {
+   "id": "A2.1/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: A2.1 Substrate Requirement: information requires a substrate for instantiation",
+   "reason": "The main claim relies on undefined metaphysical terms ('information', 'substrate', 'instantiation', 'exists'). The file gives only a schematic formalization using predicates with no precise domain, definitions, or testable mathematical content. Encoding it with uninterpreted predicates would not constitute a meaningful Z3 check; it would merely restate the axiom."
+  }
+ ],
+ "ports": [],
+ "main": "A2.1",
+ "claims": [
+  "A2.1",
+  "A2.1::split-01",
+  "A2.1::split-02",
+  "A2.1::split-03",
+  "A2.1::split-04",
+  "A2.1::split-05",
+  "A2.1::split-06",
+  "A2.1::split-07",
+  "A2.1::split-08",
+  "A2.1::split-09",
+  "A2.1::split-10",
+  "A2.1::split-11"
+ ],
+ "source": "source/nodes/A2.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

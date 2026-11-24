@@ -1,0 +1,49 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "T3.2",
+ "claim_id": "T3.2",
+ "type": "CLAIM",
+ "text": "Moral coherence is not reducible to thermal order; this does not itself identify outside input as Grace.",
+ "source": {
+  "file": "source/nodes/T3.2.yaml",
+  "quote": "Moral coherence is not reducible to thermal order; this does not itself identify outside input as Grace.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/T3.2.yaml#T3.2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "T3.1",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "T3.2",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "T3.2/Q15/0032",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "receipt-to-source matching",
+   "reason": "August Lean T3_2 means restorationOccurs; master T3.2 means moral != thermal order. The proof labels are not content-equivalent."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

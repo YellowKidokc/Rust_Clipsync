@@ -1,0 +1,51 @@
+{
+ "id": "P2.2",
+ "title": "P2.2 Chi Semantic Content",
+ "lifecycle": "property",
+ "tier": 3,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [
+  "A2.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "P2.2/Q15/0017",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the step identifying χ/Logos Field with God's self-knowing Logos or with a genuinely semantic created order; P-IMAGO only warrants creaturely participation in divine intelligibility, not the semantic content of χ as written."
+  }
+ ],
+ "ports": [],
+ "main": "P2.2",
+ "claims": [
+  "P2.2",
+  "P2.2::split-01",
+  "P2.2::split-02",
+  "P2.2::split-03",
+  "P2.2::split-04",
+  "P2.2::split-05",
+  "P2.2::split-06",
+  "P2.2::split-07",
+  "P2.2::split-08",
+  "P2.2::split-09",
+  "P2.2::split-10",
+  "P2.2::split-11"
+ ],
+ "source": "source/nodes/P2.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

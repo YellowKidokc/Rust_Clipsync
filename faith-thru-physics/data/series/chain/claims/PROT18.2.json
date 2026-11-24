@@ -1,0 +1,59 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "PROT18.2",
+ "claim_id": "PROT18.2",
+ "type": "CLAIM",
+ "text": "A protocol can empirically test whether high-coherence conscious states produce measurable gravitational deviations.",
+ "source": {
+  "file": "source/nodes/PROT18.2.yaml",
+  "quote": "A protocol can empirically test whether high-coherence conscious states produce measurable gravitational deviations.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "observable",
+  "composition_level": 1,
+  "claim_role": "empirical_hypothesis",
+  "register": "embodied"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A chi-field-to-gravity coupling premise with a defined stress-energy tensor; An Orch-OR or other consciousness-collapse mechanism premise; Empirical calibration of effect size and detection sensitivity; A5.1 observation requirement, T7.1 coherence-dependent collapse rate, and D5.2 Phi-as-consciousness assumptions",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/PROT18.2.yaml#PROT18.2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A6.2",
+   "edge": "rests_on"
+  },
+  {
+   "id": "E6.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "PROT18.2",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A chi-field-to-gravity coupling premise with a defined stress-energy tensor",
+  "An Orch-OR or other consciousness-collapse mechanism premise",
+  "Empirical calibration of effect size and detection sensitivity",
+  "A5.1 observation requirement, T7.1 coherence-dependent collapse rate, and D5.2 Phi-as-consciousness assumptions"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "PROT18.2/Q15/0179",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the inference from creaturely consciousness reflecting God to a measurable gravitational deviation produced by high-coherence consciousness via a chi-field."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

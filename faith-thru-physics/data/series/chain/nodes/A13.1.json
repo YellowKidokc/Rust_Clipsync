@@ -1,0 +1,61 @@
+{
+ "id": "A13.1",
+ "title": "A13.1 χ Mediates Unification",
+ "lifecycle": "framework_commitment",
+ "tier": 12,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The central claim is not a precise mathematical proposition in the file. Terms such as 'fundamental theory', 'must', 'unifies', 'gravity', 'quantum mechanics', 'chi-field', 'mediates', 'emerges in the classical/microscopic limit', and 'information substrate' lack formal definitions or axiomatization. Encoding them in Z3 would require inventing unstated semantics and assumptions, so the main claim cannot be faithfully checked as a mathematical component here.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "A13.1/Q15/0128",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the move from analogical creaturely order/unity to a specific physical substrate (chi-field) and a specific GR-QM unification mechanism; P-IMAGO explicitly does not license physical laws, equations, constants, or empirical predictions."
+  },
+  {
+   "id": "A13.1/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: A13.1 — Chi Mediates Unification, i.e. the claim that a chi-field/information substrate mediates the unification of general relativity and quantum mechanics, and that fundamental theory must unify them.",
+   "reason": "The central claim is not a precise mathematical proposition in the file. Terms such as 'fundamental theory', 'must', 'unifies', 'gravity', 'quantum mechanics', 'chi-field', 'mediates', 'emerges in the classical/microscopic limit', and 'information substrate' lack formal definitions or axiomatization. Encoding them in Z3 would require inventing unstated semantics and assumptions, so the main claim cannot be faithfully checked as a mathematical component here."
+  }
+ ],
+ "ports": [],
+ "main": "A13.1",
+ "claims": [
+  "A13.1",
+  "A13.1::split-01",
+  "A13.1::split-02",
+  "A13.1::split-03",
+  "A13.1::split-04",
+  "A13.1::split-05",
+  "A13.1::split-06",
+  "A13.1::split-07",
+  "A13.1::split-08",
+  "A13.1::split-09",
+  "A13.1::split-10",
+  "A13.1::split-11",
+  "A13.1::split-12"
+ ],
+ "source": "source/nodes/A13.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

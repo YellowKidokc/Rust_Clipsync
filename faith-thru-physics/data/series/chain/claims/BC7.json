@@ -1,0 +1,63 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "BC7",
+ "claim_id": "BC7",
+ "type": "CLAIM",
+ "text": "Global information is preserved through all transformations rather than destroyed.",
+ "source": {
+  "file": "source/nodes/BC7.yaml",
+  "quote": "Global information is preserved through all transformations rather than destroyed.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "boundary",
+  "composition_level": 1,
+  "claim_role": "assumption",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "Quantum mechanics is globally unitary, or the no-hiding theorem applies universally to all relevant transformations.; Souls are information structures/χ-field configurations.; N_S is a strictly conserved soul identifier.; Bodily death is decoupling rather than destruction of soul information.; Resurrection is information recovery/error correction performed by God.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/BC7.yaml#BC7::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "BC7",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "Quantum mechanics is globally unitary, or the no-hiding theorem applies universally to all relevant transformations.",
+  "Souls are information structures/χ-field configurations.",
+  "N_S is a strictly conserved soul identifier.",
+  "Bodily death is decoupling rather than destruction of soul information.",
+  "Resurrection is information recovery/error correction performed by God."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "BC7/Q15/0079",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "infinite capacity -> information conservation",
+   "reason": "The supplied derivations do not establish that an infinite source preserves personal history/information; an explicit conservation model/premise is needed."
+  },
+  {
+   "id": "BC7/Q15/0080",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the step from the analogy of being/order to a physical conservation law: P-IMAGO gives no warrant for quantum unitarity, information conservation, χ-field soul ontology, or N_S conservation."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file lists several mathematical analogies (unitary evolution, Liouville theorem, conserved soul number N_S, category-theoretic isomorphism), but the title/statement claim is broader than any one of these. Encoding only unitarity or a conserved integer N_S would be an impermissible substitution of an easier side calculation for the main claim, which quantifies over 'all transformations' and invokes underdefined soul information.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

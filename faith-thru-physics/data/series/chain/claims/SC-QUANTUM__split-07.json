@@ -1,0 +1,34 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "SC-QUANTUM",
+ "claim_id": "SC-QUANTUM::split-07",
+ "type": "CLAIM",
+ "text": "Physical-scale coherence is obtained by coarse-graining quantum chi-field coherence via chi_P = integral chi_Q W.",
+ "source": {
+  "file": "source/nodes/SC-QUANTUM.yaml",
+  "quote": "Physical-scale coherence is obtained by coarse-graining quantum chi-field coherence via chi_P = integral chi_Q W.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/SC-QUANTUM.yaml#SC-QUANTUM::split-07 (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "SC-QUANTUM",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+ "obstructions": [],
+ "generated_by": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+}

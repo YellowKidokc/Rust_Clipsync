@@ -1,0 +1,58 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "EV15.2",
+ "claim_id": "EV15.2",
+ "type": "CLAIM",
+ "text": "The Global Consciousness Project provides evidence of statistically significant correlation between global events of collective attention and deviations in random number generator outputs.",
+ "source": {
+  "file": "source/nodes/EV15.2.yaml",
+  "quote": "The Global Consciousness Project provides evidence of statistically significant correlation between global events of collective attention and deviations in random number generator outputs.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "constitutive_law",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "embodied"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "Independent empirical validation and analysis of GCP data.; A causal bridge from collective attention to RNG deviations.; A further premise identifying the Logos Field as a physical mediator and linking it to entropy or coherence.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/EV15.2.yaml#EV15.2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "P5.2",
+   "edge": "rests_on"
+  },
+  {
+   "id": "D5.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "EV15.2",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "Independent empirical validation and analysis of GCP data.",
+  "A causal bridge from collective attention to RNG deviations.",
+  "A further premise identifying the Logos Field as a physical mediator and linking it to entropy or coherence."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "EV15.2/Q15/0175",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the inference from P-IMAGO's general creaturely participation to specific RNG deviations and statistical correlations; P-IMAGO expressly excludes particular physical laws, equations, constants, and measurements."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

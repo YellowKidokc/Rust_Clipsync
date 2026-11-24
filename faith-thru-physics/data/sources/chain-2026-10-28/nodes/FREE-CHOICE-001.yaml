@@ -1,0 +1,1173 @@
+{
+  "id": "FREE-CHOICE-001",
+  "title": "FREE-CHOICE-001",
+  "proposal_only": true,
+  "context_parent": "A0",
+  "tags": {
+    "system_part": "rule",
+    "composition_level": 3,
+    "claim_role": "definition",
+    "warrant": {
+      "status": "admitted",
+      "kind": "revelation"
+    },
+    "register": "spiritual"
+  },
+  "old_mode": null,
+  "proposed_mode": "FW_EXTENDED",
+  "tier": null,
+  "node_lifecycle": "working_proposal",
+  "dependencies": {
+    "source_declared": [],
+    "proposed_primary_support": [
+      "M-FREEDOM"
+    ],
+    "stance_ceiling_sources": []
+  },
+  "claims": [
+    {
+      "id": "FREE-CHOICE-001::main",
+      "statement": "Native FREE-CHOICE-001 model with its independently labeled premises and scoped results.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 3,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\native\\FREE_CHOICE_001\\node_contracts.json"
+      ],
+      "classification_proposal": {
+        "logical_role": "DEFINITION",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL",
+          "RELATIONAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "claim_scoped_dependencies": [],
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "FREE-CHOICE-001::main"
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "FREE-CHOICE-001::native-1",
+      "claim": "God enables the response; the person cannot supply initial awakening.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "assumption",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "evidence": [
+        "Grace v1 BC1-2",
+        "John 6:44",
+        "Philippians 2:12-13"
+      ],
+      "canon_status": "open",
+      "statement": "God enables the response; the person cannot supply initial awakening.",
+      "classification_proposal": {
+        "logical_role": "ASSUMPTION",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL",
+          "RELATIONAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "admitted",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "FREE-CHOICE-001::native-2",
+      "claim": "The response is truly attributable to the enabled person, not a coerced override.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "assumption",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "evidence": [
+        "Grace v1 BC3-4",
+        "David ruling",
+        "O4_Agency_Primitive.md"
+      ],
+      "canon_status": "open",
+      "statement": "The response is truly attributable to the enabled person, not a coerced override.",
+      "classification_proposal": {
+        "logical_role": "ASSUMPTION",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL",
+          "RELATIONAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "admitted",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "FREE-CHOICE-001::native-3",
+      "claim": "Under the same complete antecedent conditions at the enabled response, the person can genuinely accept or refuse.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "assumption",
+        "warrant": {
+          "status": "admitted",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "evidence": [
+        "Explicit philosophical/theological premise; not deduced from the cited passages alone"
+      ],
+      "canon_status": "open",
+      "statement": "Under the same complete antecedent conditions at the enabled response, the person can genuinely accept or refuse.",
+      "classification_proposal": {
+        "logical_role": "ASSUMPTION",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL",
+          "RELATIONAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "admitted",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "FREE-CHOICE-001::native-4",
+      "claim": "Love does not compel the response. This normative claim does not by itself entail FP-ALTERNATIVES.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "assumption",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "evidence": [
+        "Grace v1 BC4",
+        "God Is framing"
+      ],
+      "canon_status": "open",
+      "statement": "Love does not compel the response. This normative claim does not by itself entail FP-ALTERNATIVES.",
+      "classification_proposal": {
+        "logical_role": "ASSUMPTION",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL",
+          "RELATIONAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "admitted",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "FREE-CHOICE-001::native-5",
+      "claim": "Response changes neither personal identity nor the incoming historical record.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "assumption",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "evidence": [
+        "Grace v1 BC5"
+      ],
+      "canon_status": "open",
+      "statement": "Response changes neither personal identity nor the incoming historical record.",
+      "classification_proposal": {
+        "logical_role": "ASSUMPTION",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL",
+          "RELATIONAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "admitted",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "FREE-CHOICE-001::native-6",
+      "claim": "FP-ENABLED + FP-AUTHOR + FP-ALTERNATIVES constrain the response step. Actual realization/authorship remain admitted premises.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "assumption",
+        "warrant": {
+          "status": "admitted",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "evidence": [
+        "FREE-CHOICE-001.md"
+      ],
+      "canon_status": "open",
+      "statement": "FP-ENABLED + FP-AUTHOR + FP-ALTERNATIVES constrain the response step. Actual realization/authorship remain admitted premises.",
+      "classification_proposal": {
+        "logical_role": "ASSUMPTION",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL",
+          "RELATIONAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "admitted",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "FREE-CHOICE-001::native-7",
+      "claim": "sigma_response is +1 for acceptance, -1 for refusal; this selector is not a proof that a person changes the conserved Soul.sign unaided.",
+      "tags": {
+        "system_part": "operator",
+        "composition_level": 1,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "evidence": [
+        "free_choice.py:sigma_response",
+        "FreeChoice.lean:sigma_binary"
+      ],
+      "canon_status": "open",
+      "statement": "sigma_response is +1 for acceptance, -1 for refusal; this selector is not a proof that a person changes the conserved Soul.sign unaided.",
+      "classification_proposal": {
+        "logical_role": "DEFINITION",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL",
+          "RELATIONAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "FREE-CHOICE-001::native-8",
+      "claim": "Exact theorem signature in FreeChoice.lean. No actual human freedom follows without the declared premises.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "evidence": [
+        "FreeChoice.lean:both_permitted",
+        "FreeChoice.log"
+      ],
+      "canon_status": "open",
+      "statement": "Exact theorem signature in FreeChoice.lean. No actual human freedom follows without the declared premises.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "FREE-CHOICE-001::native-9",
+      "claim": "Exact theorem signature in FreeChoice.lean. No actual human freedom follows without the declared premises.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "evidence": [
+        "FreeChoice.lean:dead_not_permitted",
+        "FreeChoice.log"
+      ],
+      "canon_status": "open",
+      "statement": "Exact theorem signature in FreeChoice.lean. No actual human freedom follows without the declared premises.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "FREE-CHOICE-001::native-10",
+      "claim": "Exact theorem signature in FreeChoice.lean. No actual human freedom follows without the declared premises.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "evidence": [
+        "FreeChoice.lean:other_not_authorized",
+        "FreeChoice.log"
+      ],
+      "canon_status": "open",
+      "statement": "Exact theorem signature in FreeChoice.lean. No actual human freedom follows without the declared premises.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "FREE-CHOICE-001::native-11",
+      "claim": "Exact theorem signature in FreeChoice.lean. No actual human freedom follows without the declared premises.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "evidence": [
+        "FreeChoice.lean:distinct_responses",
+        "FreeChoice.log"
+      ],
+      "canon_status": "open",
+      "statement": "Exact theorem signature in FreeChoice.lean. No actual human freedom follows without the declared premises.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "FREE-CHOICE-001::native-12",
+      "claim": "Exact theorem signature in FreeChoice.lean. No actual human freedom follows without the declared premises.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "evidence": [
+        "FreeChoice.lean:response_preserves_record",
+        "FreeChoice.log"
+      ],
+      "canon_status": "open",
+      "statement": "Exact theorem signature in FreeChoice.lean. No actual human freedom follows without the declared premises.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "FREE-CHOICE-001::native-13",
+      "claim": "Exact theorem signature in FreeChoice.lean. No actual human freedom follows without the declared premises.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "evidence": [
+        "FreeChoice.lean:response_preserves_identity",
+        "FreeChoice.log"
+      ],
+      "canon_status": "open",
+      "statement": "Exact theorem signature in FreeChoice.lean. No actual human freedom follows without the declared premises.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "FREE-CHOICE-001::native-14",
+      "claim": "Exact theorem signature in FreeChoice.lean. No actual human freedom follows without the declared premises.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "evidence": [
+        "FreeChoice.lean:sigma_binary",
+        "FreeChoice.log"
+      ],
+      "canon_status": "open",
+      "statement": "Exact theorem signature in FreeChoice.lean. No actual human freedom follows without the declared premises.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "FREE-CHOICE-001::native-15",
+      "claim": "Exact theorem signature in FreeChoice.lean. No actual human freedom follows without the declared premises.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Negative",
+      "evidence": [
+        "FreeChoice.lean:permissions_do_not_force_two_realizations",
+        "FreeChoice.log"
+      ],
+      "canon_status": "open",
+      "statement": "Exact theorem signature in FreeChoice.lean. No actual human freedom follows without the declared premises.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "fails",
+        "canon_status": "open",
+        "note": "Negative outcome concerns the named target assertion; a proof of its failure is not a failed proof."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "FREE-CHOICE-001::native-16",
+      "claim": "Exact theorem signature in FreeChoice.lean. No actual human freedom follows without the declared premises.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "evidence": [
+        "FreeChoice.lean:alternatives_require_premise",
+        "FreeChoice.log"
+      ],
+      "canon_status": "open",
+      "statement": "Exact theorem signature in FreeChoice.lean. No actual human freedom follows without the declared premises.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "FREE-CHOICE-001::receipt::Law1GeodesicAndRocket.Iso.pres_regime",
+      "statement": "Exact compiled declaration Law1GeodesicAndRocket.Iso.pres_regime",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Structure",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law1GeodesicAndRocket.lean",
+        "receipts/Law1GeodesicAndRocket.log"
+      ],
+      "scope_limit": "Regime/energy dictionaries are finite definitions; Newtonian/relativistic dynamics and independent physical derivations are not formalized here.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": "states only",
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "FREE-CHOICE-001::receipt::Law1GeodesicAndRocket.all_three_isomorphic",
+      "statement": "Exact compiled declaration Law1GeodesicAndRocket.all_three_isomorphic",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Structure",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law1GeodesicAndRocket.lean",
+        "receipts/Law1GeodesicAndRocket.log"
+      ],
+      "scope_limit": "Regime/energy dictionaries are finite definitions; Newtonian/relativistic dynamics and independent physical derivations are not formalized here.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": "states only",
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "FREE-CHOICE-001::receipt::Law1GeodesicAndRocket.fake_not_iso_grace",
+      "statement": "Exact compiled declaration Law1GeodesicAndRocket.fake_not_iso_grace",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Negative",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law1GeodesicAndRocket.lean",
+        "receipts/Law1GeodesicAndRocket.log"
+      ],
+      "scope_limit": "Regime/energy dictionaries are finite definitions; Newtonian/relativistic dynamics and independent physical derivations are not formalized here.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "ASYMMETRY",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "fails",
+        "canon_status": "open",
+        "note": "Negative outcome concerns the named target assertion; a proof of its failure is not a failed proof."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "FREE-CHOICE-001::receipt::Law1GeodesicAndRocket.fake_not_iso_rocket",
+      "statement": "Exact compiled declaration Law1GeodesicAndRocket.fake_not_iso_rocket",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Negative",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law1GeodesicAndRocket.lean",
+        "receipts/Law1GeodesicAndRocket.log"
+      ],
+      "scope_limit": "Regime/energy dictionaries are finite definitions; Newtonian/relativistic dynamics and independent physical derivations are not formalized here.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "ASYMMETRY",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "fails",
+        "canon_status": "open",
+        "note": "Negative outcome concerns the named target assertion; a proof of its failure is not a failed proof."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    }
+  ],
+  "ports": [
+    {
+      "input": {
+        "state": "GRACE-001 State at -1"
+      },
+      "output": {
+        "state": "phase 0, closed and not accepted"
+      },
+      "agent": [
+        "Spirit"
+      ],
+      "boundary": "Calls existing A; person cannot invoke it as self-enabling.",
+      "constraints": [
+        "FP-ENABLED",
+        "identity/record retained"
+      ],
+      "evidence": [
+        "../GRACE_001/grace_model.py:awaken",
+        "Grace v1 BC2"
+      ]
+    },
+    {
+      "input": {
+        "state": "same GRACE-001 State at 0",
+        "choice": "explicit accept/refuse from person"
+      },
+      "output": {
+        "state": "accepted/open/+1 OR refused/closed/-1",
+        "sigma_response": "int +1/-1"
+      },
+      "agent": [
+        "person"
+      ],
+      "boundary": "Enabled phase 0 only; both choices are permitted; actual alternatives require FP-ALTERNATIVES.",
+      "constraints": [
+        "FP-AUTHOR",
+        "FP-ALTERNATIVES",
+        "FP-RECORD",
+        "C-info/C-moral/C-spiritual and debt unchanged",
+        "No restoring source term"
+      ],
+      "evidence": [
+        "free_choice.py:choose",
+        "FreeChoice.lean:both_permitted,distinct_responses",
+        "M-FREEDOM"
+      ]
+    },
+    {
+      "input": {
+        "state": "output of RESPONSE"
+      },
+      "output": {
+        "accepted": "state satisfies existing GRACE R consent fields; K and other G conditions still required",
+        "refused": "G rejects"
+      },
+      "agent": [
+        "person supplies R; Father through Son restores"
+      ],
+      "boundary": "No unconditional source of free choice is exported; no bypass of K or G guards.",
+      "constraints": [
+        "M-FREEDOM conditional",
+        "no change to upstream GRACE-001 code"
+      ],
+      "evidence": [
+        "../GRACE_001/grace_model.py:cost,restore",
+        "validation_results.json"
+      ]
+    }
+  ],
+  "Q13": {
+    "register": "spiritual",
+    "domains": [
+      "THEOLOGICAL",
+      "MORAL",
+      "RELATIONAL"
+    ]
+  },
+  "Q14": {
+    "transfer": "only source-record-scoped formal mapping; no physical identity",
+    "coherence_equality_assumed": false
+  },
+  "Q15": [
+    {
+      "id": "FREE-CHOICE-001/Q15/0246",
+      "node": "FREE-CHOICE-001",
+      "kind": "known countermodel",
+      "Q16": "FATAL",
+      "scope": "permission implies causal alternative realization",
+      "reason": "A deterministic policy can realize just one of two permitted choices. The native freedom premise remains admitted, not refuted by that countermodel.",
+      "evidence": []
+    }
+  ],
+  "Q16": {
+    "FREE-CHOICE-001/Q15/0246": "FATAL"
+  },
+  "coherences": {
+    "C-info": {
+      "conversion_to_other_coherences": null
+    },
+    "C-moral": {
+      "conversion_to_other_coherences": null
+    },
+    "C-spiritual": {
+      "conversion_to_other_coherences": null
+    }
+  },
+  "reason": [
+    "New proposal only; proof warrant is distinct from canon status."
+  ],
+  "attached_receipts": [
+    {
+      "file": "sources\\october_lean\\Law1GeodesicAndRocket.lean",
+      "strength": "scoped per declaration",
+      "proof_does_not_promote_core": true
+    }
+  ],
+  "soundness": {
+    "bin": "CONDITIONAL",
+    "named_premises": [
+      "FP-ENABLED, FP-AUTHOR and FP-ALTERNATIVES; two permissions alone do not establish two causal realizations."
+    ],
+    "receipt": [
+      "FreeChoice.permissions_do_not_force_two_realizations",
+      "sources/native/FREE_CHOICE_001/FreeChoice.lean"
+    ],
+    "denial_cost": null,
+    "scope_note": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+    "why": "Named formal/native conditional only; actual application retains each hypothesis.",
+    "Z3_source_verdicts": [],
+    "ranking_snapshot": null,
+    "A0_IMAGO_verdict": null,
+    "conflicts": [],
+    "what_makes_checkable": null
+  },
+  "grade": {
+    "match_scope": null,
+    "warrant": "conditionally proved",
+    "outcome": "holds",
+    "canon_status": "open",
+    "note": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+    "match_scope_applicable": false,
+    "assessed_claim_id": "FREE-CHOICE-001::main"
+  },
+  "canon_rubric": {
+    "node": "FREE-CHOICE-001",
+    "bin": "CONDITIONAL",
+    "grade": {
+      "match_scope": null,
+      "warrant": "conditionally proved",
+      "outcome": "holds",
+      "canon_status": "open",
+      "note": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+      "match_scope_applicable": false,
+      "assessed_claim_id": "FREE-CHOICE-001::main"
+    },
+    "criteria": {
+      "address": true,
+      "grade": true,
+      "receipt": true,
+      "ruling_authority": false,
+      "no_unresolved_conflict": true
+    },
+    "score": 4,
+    "meets_all_five": false,
+    "missing": [
+      "ruling_authority"
+    ],
+    "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+    "receipt_scope": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+    "proposal_only": true
+  },
+  "follow_up_review": {
+    "proposal_only": true,
+    "soundness_row": {
+      "node": "FREE-CHOICE-001",
+      "bin": "CONDITIONAL",
+      "scope": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+      "premises": [
+        "FP-ENABLED, FP-AUTHOR and FP-ALTERNATIVES; two permissions alone do not establish two causal realizations."
+      ],
+      "receipt": [
+        "FreeChoice.permissions_do_not_force_two_realizations",
+        "sources/native/FREE_CHOICE_001/FreeChoice.lean"
+      ],
+      "denial_cost": null,
+      "what_makes_checkable": null,
+      "canon_status": "open",
+      "conflicts": [],
+      "assessment_target": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+      "main_statement": "Native FREE-CHOICE-001 model with its independently labeled premises and scoped results.",
+      "proposal_only": true,
+      "lead_summary": {},
+      "remaining_lead_ids": [],
+      "strength": "Conditional",
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "FREE-CHOICE-001::main"
+      },
+      "scope_warning": "Bin assesses the named target only; neither bundled claims nor domain identification inherit its proof. A written explanation is recorded as support at its source status."
+    },
+    "canon_rubric": {
+      "node": "FREE-CHOICE-001",
+      "bin": "CONDITIONAL",
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "FREE-CHOICE-001::main"
+      },
+      "criteria": {
+        "address": true,
+        "grade": true,
+        "receipt": true,
+        "ruling_authority": false,
+        "no_unresolved_conflict": true
+      },
+      "score": 4,
+      "meets_all_five": false,
+      "missing": [
+        "ruling_authority"
+      ],
+      "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+      "receipt_scope": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+      "proposal_only": true
+    },
+    "leads": [],
+    "current_ruling": null,
+    "ruling_scope": "Existing disposition only; no new canon admission.",
+    "receipt_attachments": [
+      {
+        "original": "C:\\theophysics\\OPUS\\AXIOMS\\LEAN\\ThreeAgents.lean",
+        "copy": "receipts\\ThreeAgents.lean",
+        "sha256": "0f201e587af2752cb02b880d6530b24fa7bc5983de7526bd12026a07e252c1b6",
+        "toolchain": "C:\\Users\\David\\.elan\\toolchains\\leanprover--lean4---v4.31.0\\bin\\lean.exe",
+        "returncode": 0,
+        "passed": true,
+        "custom_axiom_declarations": false,
+        "theorems": [
+          "ThreeAgents.sign_preserved_by_seq",
+          "ThreeAgents.works_and_adversary_cannot_restore",
+          "ThreeAgents.grace_flips_with_consent",
+          "ThreeAgents.no_consent_no_restoration",
+          "ThreeAgents.adversary_can_block_by_closing_consent"
+        ],
+        "log": "receipts\\ThreeAgents.log",
+        "semantic_scope": "Chosen agent rules and consent gate; no proof of metaphysical alternatives.",
+        "candidate_nodes": [
+          "GRACE-001",
+          "FREE-CHOICE-001"
+        ],
+        "attachment_status": "Topic attachment only; use exact theorem signatures, never the filename number as node identity."
+      }
+    ],
+    "Q15_follow_up": []
+  }
+}

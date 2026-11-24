@@ -1,0 +1,49 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D6.2",
+ "claim_id": "D6.2",
+ "type": "CLAIM",
+ "text": "A projection operator P̂ can be defined as the mathematical representation of collapse.",
+ "source": {
+  "file": "source/nodes/D6.2.yaml",
+  "quote": "A projection operator P̂ can be defined as the mathematical representation of collapse.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "state",
+  "composition_level": 0,
+  "claim_role": "definition",
+  "register": "embodied"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D6.2.yaml#D6.2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A5.1",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "D6.2",
+ "is_main": true,
+ "strength": "By definition",
+ "conditional_premises": [],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "D6.2/Q15/0058",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "P-IMAGO explicitly stops before physical laws, equations, and measurements; moving from a formal projection operator to a physical collapse representation, D6.1 dependence, and E6.1 use requires additional quantum-collapse premises."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

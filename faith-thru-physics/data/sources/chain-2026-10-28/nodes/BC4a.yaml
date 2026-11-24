@@ -1,0 +1,609 @@
+{
+  "id": "BC4a",
+  "title": "BC4a Three Roles Required",
+  "proposal_only": true,
+  "context_parent": "A0",
+  "tags": {
+    "system_part": "boundary",
+    "composition_level": 1,
+    "claim_role": "assumption",
+    "warrant": {
+      "status": "admitted",
+      "kind": "revelation"
+    },
+    "register": "spiritual"
+  },
+  "old_mode": "FW_EXTENDED",
+  "raw_csv_mode": "FW_EXTENDED",
+  "proposed_mode": "FW_EXTENDED",
+  "tier": 8,
+  "node_lifecycle": "boundary",
+  "ruling": null,
+  "merged_into": null,
+  "node_vs_claim_vs_proof": "Node specifies a structure; claims below own their warrants; proofs are exact scoped receipts.",
+  "sources": {
+    "v3_line": "BC4a Three Roles Required       ← (graph root, FW_EXTENDED framework) [FW_EXTENDED — reclassified from AX_DERIVED,",
+    "current_root_record": "sources\\current_nodes\\BC4_Three_Observers_Required.md",
+    "october_review": "sources\\october_review\\AX-061.json"
+  },
+  "dependencies": {
+    "source_declared": [],
+    "source_relation": "depends_on",
+    "proposed_primary_support": [],
+    "stance_ceiling_sources": [],
+    "merge_scope": "Incoming claims retain their own premises; source and current-root graph versions are not silently equated."
+  },
+  "coherences": {
+    "C-info": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-moral": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-spiritual": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    }
+  },
+  "claims": [
+    {
+      "id": "BC4a::main",
+      "statement": "Complete self-referential knowledge requires exactly three irreducible functional roles (knower, known, knowing).",
+      "tags": {
+        "system_part": "boundary",
+        "composition_level": 1,
+        "claim_role": "assumption",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+      "proof_refs": [],
+      "conditional_premises": [
+        "A physical/measurement premise identifying the bra, ket, and norm of the Born Rule with three distinct observers or operators.",
+        "A formal theorem that measurement closure requires exactly three observers and fails for N<3 and N>3.",
+        "A premise linking quantum measurement structure to the Christian Trinity rather than only analogy."
+      ],
+      "classification_proposal": {
+        "logical_role": "ASSUMPTION",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "proposal only; no new frozen vocabulary applied"
+      },
+      "Q13": {
+        "register": "spiritual",
+        "domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ]
+      },
+      "Q14": {
+        "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+        "coherence_equality_assumed": false
+      },
+      "Q15": [
+        {
+          "id": "BC4a/Q15/0073",
+          "node": "BC4a",
+          "kind": "missing bridge",
+          "Q16": "OPEN",
+          "scope": "original core claim/application",
+          "reason": "The derivation stops at the move from a three-term mathematical expression or triadic analogy to a necessary physical count of three observers/operators; A0+P-IMAGO do not license that step.",
+          "evidence": [
+            "sources\\october_review\\AX-061.json"
+          ]
+        },
+        {
+          "id": "BC4a/Q15/0074",
+          "node": "BC4a",
+          "kind": "definitional conflict",
+          "Q16": "OPEN",
+          "scope": "v3 versus current-root source identity",
+          "reason": "v3 repairs/splits this concept, while current source file BC4_Three_Observers_Required.md retains another title/claim version. Both source spans are preserved; do not equate them by identifier alone.",
+          "evidence": []
+        }
+      ],
+      "Q16": {
+        "BC4a/Q15/0073": "OPEN",
+        "BC4a/Q15/0074": "OPEN"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "claim_scoped_dependencies": [],
+      "grade": {
+        "match_scope": null,
+        "warrant": "admitted",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Holds as an expressly adopted premise, not established as an empirical or premise-free theorem.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "BC4a::main"
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "BC4a::split-01",
+      "statement": "The Born Rule P=|⟨φ|ψ⟩|² has exactly three terms: bra, ket, and norm.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-061.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "BC4a::split-02",
+      "statement": "The Born Rule's three-term mathematical structure requires three distinct physical observers/operators.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-061.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "BC4a::split-03",
+      "statement": "N_observers = 3 is necessary for a zero-uncertainty state.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-061.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "BC4a::split-04",
+      "statement": "Gleason's theorem and Kochen-Specker imply a triad of observers.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-061.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "BC4a::split-05",
+      "statement": "SU(2)/SO(3) three-parameter structure and complex multiplication prove observer triads.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-061.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "BC4a::split-06",
+      "statement": "The Trinity is the minimal self-resolving measurement structure.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-061.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "BC4a::split-07",
+      "statement": "Father, Son, and Spirit map respectively to bra/source, ket/distinction, and norm/relation.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-061.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    }
+  ],
+  "Q13": {
+    "register": "spiritual",
+    "domains": [
+      "THEOLOGICAL",
+      "MORAL"
+    ]
+  },
+  "Q14": {
+    "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+    "coherence_equality_assumed": false
+  },
+  "Q15": [
+    {
+      "id": "BC4a/Q15/0073",
+      "node": "BC4a",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "original core claim/application",
+      "reason": "The derivation stops at the move from a three-term mathematical expression or triadic analogy to a necessary physical count of three observers/operators; A0+P-IMAGO do not license that step.",
+      "evidence": [
+        "sources\\october_review\\AX-061.json"
+      ]
+    },
+    {
+      "id": "BC4a/Q15/0074",
+      "node": "BC4a",
+      "kind": "definitional conflict",
+      "Q16": "OPEN",
+      "scope": "v3 versus current-root source identity",
+      "reason": "v3 repairs/splits this concept, while current source file BC4_Three_Observers_Required.md retains another title/claim version. Both source spans are preserved; do not equate them by identifier alone.",
+      "evidence": []
+    },
+    {
+      "id": "BC4a/Q15/Z3-00",
+      "node": "BC4a",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "Exact October Z3 component: BC4's main claim that minimal self-referential observation closure requires exactly three distinct observer-states",
+      "reason": "Not Z3-checkable as stated: key terms such as 'observer-state', 'self-referential observation closure', 'minimal closure model', 'adjudication', and 'reduces to N=3 basis' are not given a precise mathematical definition. The file explicitly says a proof sketch is required and defers the full proof, so encoding would require inventing an unstated graph/closure predicate, which would trivialize or beg the claim. I did not substitute easier side claims about the Born Rule or Gleason dimension constraints.",
+      "evidence": [
+        "sources/z3/03_PROMISING/results.json"
+      ]
+    }
+  ],
+  "Q16": {
+    "BC4a/Q15/0073": "OPEN",
+    "BC4a/Q15/0074": "OPEN",
+    "BC4a/Q15/Z3-00": "OPEN"
+  },
+  "ports": [],
+  "open_interface_obligation": "This rerun is a classified source/claim proposal. A full executable six-field port contract is not claimed for every older node.",
+  "reason": [
+    "Source role, domain and October limitations separated; no unproved application promoted."
+  ],
+  "soundness": {
+    "bin": "ADMITTED",
+    "named_premises": [
+      "Complete self-referential knowledge requires exactly three irreducible functional roles (knower, known, knowing)."
+    ],
+    "receipt": [
+      "sources/august/AXIOM_CHAIN_MASTER_v3.md"
+    ],
+    "denial_cost": "Exactly three irreducible functional roles is no longer available as a premise; triadic closure/identification applications require another argument, not rejection of self-reference itself.",
+    "scope_note": "Holds as an expressly adopted premise, not established as an empirical or premise-free theorem.",
+    "why": "Exactly three irreducible functional roles is no longer available as a premise; triadic closure/identification applications require another argument, not rejection of self-reference itself.",
+    "Z3_source_verdicts": [
+      "NOT_CHECKABLE"
+    ],
+    "ranking_snapshot": {
+      "score": 1,
+      "id": "AX-061",
+      "title": "Three Observers Required",
+      "register": "formal",
+      "a0": "compatible",
+      "math": "yes_with_missing_premise",
+      "z3": "NOT_CHECKABLE",
+      "why": "math holds +premise",
+      "core": "A closed measurement scheme requires a minimal triad of subject, object, and relation (or three observers/operators) to determine outcomes."
+    },
+    "A0_IMAGO_verdict": "COMPATIBLE_NOT_DERIVED",
+    "conflicts": [
+      "v3/current-source/receipt content version mismatch is preserved in Q15; identifier agreement is not enough."
+    ],
+    "what_makes_checkable": null
+  },
+  "grade": {
+    "match_scope": null,
+    "warrant": "admitted",
+    "outcome": "holds",
+    "canon_status": "open",
+    "note": "Holds as an expressly adopted premise, not established as an empirical or premise-free theorem.",
+    "match_scope_applicable": false,
+    "assessed_claim_id": "BC4a::main"
+  },
+  "canon_rubric": {
+    "node": "BC4a",
+    "bin": "ADMITTED",
+    "grade": {
+      "match_scope": null,
+      "warrant": "admitted",
+      "outcome": "holds",
+      "canon_status": "open",
+      "note": "Holds as an expressly adopted premise, not established as an empirical or premise-free theorem.",
+      "match_scope_applicable": false,
+      "assessed_claim_id": "BC4a::main"
+    },
+    "criteria": {
+      "address": true,
+      "grade": true,
+      "receipt": true,
+      "ruling_authority": false,
+      "no_unresolved_conflict": false
+    },
+    "score": 3,
+    "meets_all_five": false,
+    "missing": [
+      "ruling_authority",
+      "no_unresolved_conflict"
+    ],
+    "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+    "receipt_scope": "Holds as an expressly adopted premise, not established as an empirical or premise-free theorem.",
+    "proposal_only": true
+  },
+  "follow_up_review": {
+    "proposal_only": true,
+    "soundness_row": {
+      "node": "BC4a",
+      "bin": "ADMITTED",
+      "scope": "Holds as an expressly adopted premise, not established as an empirical or premise-free theorem.",
+      "premises": [
+        "Complete self-referential knowledge requires exactly three irreducible functional roles (knower, known, knowing)."
+      ],
+      "receipt": [
+        "sources/august/AXIOM_CHAIN_MASTER_v3.md"
+      ],
+      "denial_cost": "Exactly three irreducible functional roles is no longer available as a premise; triadic closure/identification applications require another argument, not rejection of self-reference itself.",
+      "what_makes_checkable": null,
+      "canon_status": "open",
+      "conflicts": [
+        "v3/current-source/receipt content version mismatch is preserved in Q15; identifier agreement is not enough."
+      ],
+      "assessment_target": "Holds as an expressly adopted premise, not established as an empirical or premise-free theorem.",
+      "main_statement": "Complete self-referential knowledge requires exactly three irreducible functional roles (knower, known, knowing).",
+      "proposal_only": true,
+      "lead_summary": {},
+      "remaining_lead_ids": [],
+      "strength": "Conditional",
+      "grade": {
+        "match_scope": null,
+        "warrant": "admitted",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Holds as an expressly adopted premise, not established as an empirical or premise-free theorem.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "BC4a::main"
+      },
+      "scope_warning": "Bin assesses the named target only; neither bundled claims nor domain identification inherit its proof. A written explanation is recorded as support at its source status."
+    },
+    "canon_rubric": {
+      "node": "BC4a",
+      "bin": "ADMITTED",
+      "grade": {
+        "match_scope": null,
+        "warrant": "admitted",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Holds as an expressly adopted premise, not established as an empirical or premise-free theorem.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "BC4a::main"
+      },
+      "criteria": {
+        "address": true,
+        "grade": true,
+        "receipt": true,
+        "ruling_authority": false,
+        "no_unresolved_conflict": false
+      },
+      "score": 3,
+      "meets_all_five": false,
+      "missing": [
+        "ruling_authority",
+        "no_unresolved_conflict"
+      ],
+      "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+      "receipt_scope": "Holds as an expressly adopted premise, not established as an empirical or premise-free theorem.",
+      "proposal_only": true
+    },
+    "leads": [],
+    "current_ruling": null,
+    "ruling_scope": "Existing disposition only; no new canon admission.",
+    "receipt_attachments": [],
+    "Q15_follow_up": []
+  }
+}

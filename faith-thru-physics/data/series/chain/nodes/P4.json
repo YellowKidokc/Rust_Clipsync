@@ -1,0 +1,75 @@
+{
+ "id": "P4",
+ "title": "P4 Stage 4",
+ "lifecycle": "stage",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A5.2"
+ ],
+ "proposed": [
+  "A5.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim uses interpretive terms such as 'coherence', 'potentiality', 'actuality', 'agency', and 'genuine selection' without precise formal axioms. The file's 'Selection Necessity' proof only shows that if an actual basis state is given, a projection operator can be defined that maps a superposition to it; that does not establish the main metaphysical claim that actuality requires agency. Encoding the claim would require adding an unstated equivalence between arbitrary selection/projection",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "P4/Q15/0214",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at 'coherence implies a selection process that requires agency': neither A0 nor P-IMAGO supplies the premise that every transition from potentiality to actuality needs an agent, nor any physical claim about quantum collapse or measurement."
+  },
+  {
+   "id": "P4/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: P4 Agency Stage: coherence implies the collapse of potentiality into actuality, and this selection process requires agency.",
+   "reason": "The main claim uses interpretive terms such as 'coherence', 'potentiality', 'actuality', 'agency', and 'genuine selection' without precise formal axioms. The file's 'Selection Necessity' proof only shows that if an actual basis state is given, a projection operator can be defined that maps a superposition to it; that does not establish the main metaphysical claim that actuality requires agency. Encoding the claim would require adding an unstated equivalence between arbitrary selection/projection and agency, so the main claim is not checkable faithfully in Z3."
+  }
+ ],
+ "ports": [],
+ "main": "P4",
+ "claims": [
+  "P4",
+  "P4::split-01",
+  "P4::split-02",
+  "P4::split-03",
+  "P4::split-04",
+  "P4::split-05",
+  "P4::split-06",
+  "P4::split-07",
+  "P4::split-08",
+  "P4::split-09",
+  "P4::split-10",
+  "P4::split-11",
+  "P4::split-12",
+  "P4::split-13",
+  "P4::split-14",
+  "P4::split-15",
+  "P4::split-16",
+  "P4::split-17",
+  "P4::split-18",
+  "P4::split-19",
+  "P4::split-20",
+  "P4::split-21",
+  "P4::split-22",
+  "P4::split-23",
+  "P4::split-24",
+  "P4::split-25",
+  "P4::split-26"
+ ],
+ "source": "source/nodes/P4.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

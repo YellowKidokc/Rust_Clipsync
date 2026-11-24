@@ -1,0 +1,48 @@
+{
+ "id": "D5.2",
+ "title": "D5.2 Integrated Information Φ",
+ "lifecycle": "definition",
+ "tier": 6,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "A5.1"
+ ],
+ "proposed": [
+  "A5.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "D5.2/Q15/0045",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the step from P-IMAGO's general claim that creaturely consciousness is an analogical participation in God to the specific claim that Integrated Information Phi measures observer capacity."
+  }
+ ],
+ "ports": [],
+ "main": "D5.2",
+ "claims": [
+  "D5.2",
+  "D5.2::split-01",
+  "D5.2::split-02",
+  "D5.2::split-03",
+  "D5.2::split-04",
+  "D5.2::split-05",
+  "D5.2::split-06",
+  "D5.2::split-07",
+  "D5.2::split-08"
+ ],
+ "source": "source/nodes/D5.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

@@ -1,0 +1,43 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "C8.1",
+ "claim_id": "C8.1::receipt::ThreeAgents.adversary_can_block_by_closing_consent",
+ "type": "RECEIPT",
+ "text": "Exact compiled declaration ThreeAgents.adversary_can_block_by_closing_consent",
+ "source": {
+  "file": "source/nodes/C8.1.yaml",
+  "quote": "Exact compiled declaration ThreeAgents.adversary_can_block_by_closing_consent",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "theorem",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "conditionally_proved",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/C8.1.yaml#C8.1::receipt::ThreeAgents.adversary_can_block_by_closing_consent (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [
+  {
+   "kind": "lean",
+   "ref": "sources/october_lean/ThreeAgents.lean"
+  },
+  {
+   "kind": "source",
+   "ref": "receipts/ThreeAgents.log"
+  }
+ ],
+ "neighbors": [],
+ "node": "C8.1",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Works/adversary sign preservation are hypotheses; consent gate is defined. The false-consent result does not prove the adversary causes refusal.",
+ "obstructions": [],
+ "generated_by": "subtype is a proposal only; no new field added to frozen five tags"
+}

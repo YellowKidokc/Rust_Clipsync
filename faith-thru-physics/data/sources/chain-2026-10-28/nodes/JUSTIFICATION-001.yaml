@@ -1,0 +1,1209 @@
+{
+  "id": "JUSTIFICATION-001",
+  "title": "JUSTIFICATION-001",
+  "proposal_only": true,
+  "context_parent": "A0",
+  "tags": {
+    "system_part": "operator",
+    "composition_level": 3,
+    "claim_role": "definition",
+    "warrant": {
+      "status": "admitted",
+      "kind": "revelation"
+    },
+    "register": "spiritual"
+  },
+  "old_mode": null,
+  "proposed_mode": "FW_EXTENDED",
+  "tier": null,
+  "node_lifecycle": "working_proposal",
+  "dependencies": {
+    "source_declared": [],
+    "proposed_primary_support": [],
+    "stance_ceiling_sources": []
+  },
+  "claims": [
+    {
+      "id": "JUSTIFICATION-001::main",
+      "statement": "Native JUSTIFICATION-001 model with its independently labeled premises and scoped results.",
+      "tags": {
+        "system_part": "operator",
+        "composition_level": 3,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\native\\JUSTIFICATION_001\\node_contracts.json"
+      ],
+      "classification_proposal": {
+        "logical_role": "DEFINITION",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL",
+          "RELATIONAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "claim_scoped_dependencies": [],
+      "grade": {
+        "match_scope": "states only",
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+        "match_scope_applicable": true,
+        "assessed_claim_id": "JUSTIFICATION-001::main"
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "JUSTIFICATION-001::native-1",
+      "claim": "The legitimate Judge declares standing; the accused cannot authorize their own verdict.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "assumption",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "evidence": [
+        "JUSTIFICATION-001.md",
+        "legal_model.py"
+      ],
+      "canon_status": "open",
+      "statement": "The legitimate Judge declares standing; the accused cannot authorize their own verdict.",
+      "classification_proposal": {
+        "logical_role": "ASSUMPTION",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL",
+          "RELATIONAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "admitted",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "JUSTIFICATION-001::native-2",
+      "claim": "The receipt of response and satisfied cost are preconditions in this native model; not inferred from a matrix.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "assumption",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "evidence": [
+        "JUSTIFICATION-001.md",
+        "legal_model.py"
+      ],
+      "canon_status": "open",
+      "statement": "The receipt of response and satisfied cost are preconditions in this native model; not inferred from a matrix.",
+      "classification_proposal": {
+        "logical_role": "ASSUMPTION",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL",
+          "RELATIONAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "admitted",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "JUSTIFICATION-001::native-3",
+      "claim": "Justification is a legal declaration with no second increment when already righteous; no claim here settles every apostasy/perseverance debate.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "assumption",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "evidence": [
+        "JUSTIFICATION-001.md",
+        "legal_model.py"
+      ],
+      "canon_status": "open",
+      "statement": "Justification is a legal declaration with no second increment when already righteous; no claim here settles every apostasy/perseverance debate.",
+      "classification_proposal": {
+        "logical_role": "ASSUMPTION",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL",
+          "RELATIONAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "admitted",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "JUSTIFICATION-001::native-4",
+      "claim": "Declaration preserves the incoming identity and history, not denials of wrongdoing.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "assumption",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "evidence": [
+        "JUSTIFICATION-001.md",
+        "legal_model.py"
+      ],
+      "canon_status": "open",
+      "statement": "Declaration preserves the incoming identity and history, not denials of wrongdoing.",
+      "classification_proposal": {
+        "logical_role": "ASSUMPTION",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL",
+          "RELATIONAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "admitted",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "JUSTIFICATION-001::native-5",
+      "claim": "Justification changes standing, not C-info, C-moral or C-spiritual; sanctification growth is a separate operator.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "admitted",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "By definition",
+      "evidence": [
+        "JUSTIFICATION-001.md",
+        "legal_model.py"
+      ],
+      "canon_status": "open",
+      "statement": "Justification changes standing, not C-info, C-moral or C-spiritual; sanctification growth is a separate operator.",
+      "classification_proposal": {
+        "logical_role": "DEFINITION",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL",
+          "RELATIONAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "admitted",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "JUSTIFICATION-001::native-6",
+      "claim": "Exact theorem signature; native rules stipulated.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "evidence": [
+        "JUSTIFICATION-001.md",
+        "legal_model.py"
+      ],
+      "canon_status": "open",
+      "statement": "Exact theorem signature; native rules stipulated.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "JUSTIFICATION-001::native-7",
+      "claim": "Exact theorem signature; native rules stipulated.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "evidence": [
+        "JUSTIFICATION-001.md",
+        "legal_model.py"
+      ],
+      "canon_status": "open",
+      "statement": "Exact theorem signature; native rules stipulated.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "JUSTIFICATION-001::native-8",
+      "claim": "Exact theorem signature; native rules stipulated.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "evidence": [
+        "JUSTIFICATION-001.md",
+        "legal_model.py"
+      ],
+      "canon_status": "open",
+      "statement": "Exact theorem signature; native rules stipulated.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "JUSTIFICATION-001::native-9",
+      "claim": "Exact theorem signature; native rules stipulated.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "evidence": [
+        "JUSTIFICATION-001.md",
+        "legal_model.py"
+      ],
+      "canon_status": "open",
+      "statement": "Exact theorem signature; native rules stipulated.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "JUSTIFICATION-001::native-10",
+      "claim": "Exact theorem signature; native rules stipulated.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Structure",
+      "evidence": [
+        "JUSTIFICATION-001.md",
+        "legal_model.py"
+      ],
+      "canon_status": "open",
+      "statement": "Exact theorem signature; native rules stipulated.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": "states only",
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "JUSTIFICATION-001::native-11",
+      "claim": "Exact theorem signature; native rules stipulated.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Structure",
+      "evidence": [
+        "JUSTIFICATION-001.md",
+        "legal_model.py"
+      ],
+      "canon_status": "open",
+      "statement": "Exact theorem signature; native rules stipulated.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": "states only",
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "JUSTIFICATION-001::native-12",
+      "claim": "Exact theorem signature; native rules stipulated.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Structure",
+      "evidence": [
+        "JUSTIFICATION-001.md",
+        "legal_model.py"
+      ],
+      "canon_status": "open",
+      "statement": "Exact theorem signature; native rules stipulated.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": "states only",
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "JUSTIFICATION-001::receipt::Law5JusticeMercy.justice_conserves",
+      "statement": "Exact compiled declaration Law5JusticeMercy.justice_conserves",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law5JusticeMercy.lean",
+        "receipts/Law5JusticeMercy.log"
+      ],
+      "scope_limit": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "CONSERVATION",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "JUSTIFICATION-001::receipt::Law5JusticeMercy.mercy_conserves",
+      "statement": "Exact compiled declaration Law5JusticeMercy.mercy_conserves",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law5JusticeMercy.lean",
+        "receipts/Law5JusticeMercy.log"
+      ],
+      "scope_limit": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "CONSERVATION",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "JUSTIFICATION-001::receipt::Law5JusticeMercy.cross_conserves",
+      "statement": "Exact compiled declaration Law5JusticeMercy.cross_conserves",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law5JusticeMercy.lean",
+        "receipts/Law5JusticeMercy.log"
+      ],
+      "scope_limit": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "CONSERVATION",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "JUSTIFICATION-001::receipt::Law5JusticeMercy.justice_unique",
+      "statement": "Exact compiled declaration Law5JusticeMercy.justice_unique",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law5JusticeMercy.lean",
+        "receipts/Law5JusticeMercy.log"
+      ],
+      "scope_limit": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "JUSTIFICATION-001::receipt::Law5JusticeMercy.mercy_unique",
+      "statement": "Exact compiled declaration Law5JusticeMercy.mercy_unique",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law5JusticeMercy.lean",
+        "receipts/Law5JusticeMercy.log"
+      ],
+      "scope_limit": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "JUSTIFICATION-001::receipt::Law5JusticeMercy.cross_unique",
+      "statement": "Exact compiled declaration Law5JusticeMercy.cross_unique",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law5JusticeMercy.lean",
+        "receipts/Law5JusticeMercy.log"
+      ],
+      "scope_limit": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "JUSTIFICATION-001::receipt::Law5JusticeMercy.cross_maximizes_both",
+      "statement": "Exact compiled declaration Law5JusticeMercy.cross_maximizes_both",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law5JusticeMercy.lean",
+        "receipts/Law5JusticeMercy.log"
+      ],
+      "scope_limit": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "JUSTIFICATION-001::receipt::Law5JusticeMercy.vengeance_not_conserved",
+      "statement": "Exact compiled declaration Law5JusticeMercy.vengeance_not_conserved",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Negative",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law5JusticeMercy.lean",
+        "receipts/Law5JusticeMercy.log"
+      ],
+      "scope_limit": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "CONSERVATION",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "fails",
+        "canon_status": "open",
+        "note": "Negative outcome concerns the named target assertion; a proof of its failure is not a failed proof."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "JUSTIFICATION-001::receipt::Law5JusticeMercy.enabling_not_conserved",
+      "statement": "Exact compiled declaration Law5JusticeMercy.enabling_not_conserved",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Negative",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law5JusticeMercy.lean",
+        "receipts/Law5JusticeMercy.log"
+      ],
+      "scope_limit": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "CONSERVATION",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "fails",
+        "canon_status": "open",
+        "note": "Negative outcome concerns the named target assertion; a proof of its failure is not a failed proof."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "JUSTIFICATION-001::receipt::Law5JusticeMercy.not_cross_fails_condition",
+      "statement": "Exact compiled declaration Law5JusticeMercy.not_cross_fails_condition",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Negative",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\Law5JusticeMercy.lean",
+        "receipts/Law5JusticeMercy.log"
+      ],
+      "scope_limit": "Uniqueness includes full judge payment as a hypothesis. Conservation plus offender release also permits third-party payment. No historical event, moral-price metric, offender-nature condition or exclusivity-from-logic is established.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "ASYMMETRY",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "fails",
+        "canon_status": "open",
+        "note": "Negative outcome concerns the named target assertion; a proof of its failure is not a failed proof."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    }
+  ],
+  "ports": [
+    {
+      "input": "Person, response/cost preconditions; legitimate Judge invokes",
+      "output": "Righteous standing if eligible, otherwise unchanged; once declared no second increment",
+      "agent": "legitimate Judge",
+      "boundary": "Eligibility required for change; unauthorized actor rejected",
+      "constraints": "Identity/history and all three coherence coordinates preserved; no growth claim",
+      "evidence": [
+        "legal_model.py:declare",
+        "Justification.lean",
+        "David ruling",
+        "Romans 5:1"
+      ]
+    }
+  ],
+  "Q13": {
+    "register": "spiritual",
+    "domains": [
+      "THEOLOGICAL",
+      "MORAL",
+      "RELATIONAL"
+    ]
+  },
+  "Q14": {
+    "transfer": "only source-record-scoped formal mapping; no physical identity",
+    "coherence_equality_assumed": false
+  },
+  "Q15": [
+    {
+      "id": "JUSTIFICATION-001/Q15/0247",
+      "node": "JUSTIFICATION-001",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "actual domain instantiation",
+      "reason": "The finite native model has scoped receipts; theological interpretation and empirical case verification remain separate.",
+      "evidence": []
+    }
+  ],
+  "Q16": {
+    "JUSTIFICATION-001/Q15/0247": "OPEN"
+  },
+  "coherences": {
+    "C-info": {
+      "conversion_to_other_coherences": null
+    },
+    "C-moral": {
+      "conversion_to_other_coherences": null
+    },
+    "C-spiritual": {
+      "conversion_to_other_coherences": null
+    }
+  },
+  "reason": [
+    "New proposal only; proof warrant is distinct from canon status."
+  ],
+  "attached_receipts": [
+    {
+      "file": "sources\\october_lean\\Law5JusticeMercy.lean",
+      "strength": "scoped per declaration",
+      "proof_does_not_promote_core": true
+    }
+  ],
+  "soundness": {
+    "bin": "CONDITIONAL",
+    "named_premises": [
+      "Legitimate Judge authorization, received response and satisfied cost; legal standing declaration is distinct from growth."
+    ],
+    "receipt": [
+      "Justification.idempotent",
+      "sources/native/JUSTIFICATION_001/Justification.lean"
+    ],
+    "denial_cost": null,
+    "scope_note": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+    "why": "Named formal/native conditional only; actual application retains each hypothesis.",
+    "Z3_source_verdicts": [],
+    "ranking_snapshot": null,
+    "A0_IMAGO_verdict": null,
+    "conflicts": [],
+    "what_makes_checkable": null
+  },
+  "grade": {
+    "match_scope": "states only",
+    "warrant": "conditionally proved",
+    "outcome": "holds",
+    "canon_status": "open",
+    "note": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+    "match_scope_applicable": true,
+    "assessed_claim_id": "JUSTIFICATION-001::main"
+  },
+  "canon_rubric": {
+    "node": "JUSTIFICATION-001",
+    "bin": "CONDITIONAL",
+    "grade": {
+      "match_scope": "states only",
+      "warrant": "conditionally proved",
+      "outcome": "holds",
+      "canon_status": "open",
+      "note": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+      "match_scope_applicable": true,
+      "assessed_claim_id": "JUSTIFICATION-001::main"
+    },
+    "criteria": {
+      "address": true,
+      "grade": true,
+      "receipt": true,
+      "ruling_authority": false,
+      "no_unresolved_conflict": false
+    },
+    "score": 3,
+    "meets_all_five": false,
+    "missing": [
+      "ruling_authority",
+      "no_unresolved_conflict"
+    ],
+    "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+    "receipt_scope": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+    "proposal_only": true
+  },
+  "follow_up_review": {
+    "proposal_only": true,
+    "soundness_row": {
+      "node": "JUSTIFICATION-001",
+      "bin": "CONDITIONAL",
+      "scope": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+      "premises": [
+        "Legitimate Judge authorization, received response and satisfied cost; legal standing declaration is distinct from growth."
+      ],
+      "receipt": [
+        "Justification.idempotent",
+        "sources/native/JUSTIFICATION_001/Justification.lean"
+      ],
+      "denial_cost": null,
+      "what_makes_checkable": null,
+      "canon_status": "open",
+      "conflicts": [],
+      "assessment_target": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+      "main_statement": "Native JUSTIFICATION-001 model with its independently labeled premises and scoped results.",
+      "proposal_only": true,
+      "lead_summary": {},
+      "remaining_lead_ids": [],
+      "strength": "Conditional",
+      "grade": {
+        "match_scope": "states only",
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+        "match_scope_applicable": true,
+        "assessed_claim_id": "JUSTIFICATION-001::main"
+      },
+      "scope_warning": "Bin assesses the named target only; neither bundled claims nor domain identification inherit its proof. A written explanation is recorded as support at its source status."
+    },
+    "canon_rubric": {
+      "node": "JUSTIFICATION-001",
+      "bin": "CONDITIONAL",
+      "grade": {
+        "match_scope": "states only",
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+        "match_scope_applicable": true,
+        "assessed_claim_id": "JUSTIFICATION-001::main"
+      },
+      "criteria": {
+        "address": true,
+        "grade": true,
+        "receipt": true,
+        "ruling_authority": false,
+        "no_unresolved_conflict": false
+      },
+      "score": 3,
+      "meets_all_five": false,
+      "missing": [
+        "ruling_authority",
+        "no_unresolved_conflict"
+      ],
+      "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+      "receipt_scope": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+      "proposal_only": true
+    },
+    "leads": [],
+    "current_ruling": null,
+    "ruling_scope": "Existing disposition only; no new canon admission.",
+    "receipt_attachments": [
+      {
+        "original": "C:\\theophysics\\OPUS\\AXIOMS\\LEAN\\Law5JusticeMercy.lean",
+        "copy": "receipts\\Law5JusticeMercy.lean",
+        "sha256": "b083fa0a9c69f657122f60e53210f6ab79e5611ec335d3b04321c10727833831",
+        "toolchain": "C:\\Users\\David\\.elan\\toolchains\\leanprover--lean4---v4.31.0\\bin\\lean.exe",
+        "returncode": 0,
+        "passed": true,
+        "custom_axiom_declarations": false,
+        "theorems": [
+          "Law5JusticeMercy.justice_conserves",
+          "Law5JusticeMercy.mercy_conserves",
+          "Law5JusticeMercy.cross_conserves",
+          "Law5JusticeMercy.justice_unique",
+          "Law5JusticeMercy.mercy_unique",
+          "Law5JusticeMercy.cross_unique",
+          "Law5JusticeMercy.cross_maximizes_both",
+          "Law5JusticeMercy.vengeance_not_conserved",
+          "Law5JusticeMercy.enabling_not_conserved",
+          "Law5JusticeMercy.not_cross_fails_condition"
+        ],
+        "log": "receipts\\Law5JusticeMercy.log",
+        "semantic_scope": "cross_unique includes judge payment as a hypothesis; justice and mercy alone do not force that payer.",
+        "candidate_nodes": [
+          "JUSTIFICATION-001",
+          "GRACE-001"
+        ],
+        "attachment_status": "Topic attachment only; use exact theorem signatures, never the filename number as node identity."
+      }
+    ],
+    "Q15_follow_up": []
+  }
+}

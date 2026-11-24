@@ -1,0 +1,41 @@
+{
+ "id": "P5.2",
+ "title": "P5.2 Observer Effect ∝ Φ",
+ "lifecycle": "property",
+ "tier": 6,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A5.1"
+ ],
+ "proposed": [
+  "A5.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "P5.2/Q15/0049",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the step from the analogical/metaphysical claim that creaturely observation is dependent and participatory to the quantitative empirical law 'observer effect magnitude ∝ Φ'."
+  }
+ ],
+ "ports": [],
+ "main": "P5.2",
+ "claims": [
+  "P5.2",
+  "P5.2::split-01"
+ ],
+ "source": "source/nodes/P5.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

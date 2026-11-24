@@ -1,0 +1,88 @@
+{
+ "id": "A8.2",
+ "title": "A8.2 Sign Conservation",
+ "lifecycle": "framework_commitment",
+ "tier": 9,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": [
+   "sources/z3/02_RERUN/results.json",
+   "sources/z3/02_TESTED_FAILURE_OR_MISSING_ASSUMPTION/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "A8.2/Q15/0087",
+   "kind": "known countermodel",
+   "status": "FATAL",
+   "scope": "formal fragment: all unitary self-operations preserve sign",
+   "reason": "The rerun Z3 matrix countermodel changes sign while unitary; preservation requires commutation/invariance as an additional premise."
+  },
+  {
+   "id": "A8.2/Q15/0088",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the move from creaturely dependence and analogical participation to a conserved ±1 moral sign; A0 + P-IMAGO do not supply the sign operator, eigenvalue model, or unitary closed-system dynamics."
+  },
+  {
+   "id": "A8.2/Q15/Z3-result-00",
+   "kind": "known countermodel",
+   "status": "FATAL",
+   "scope": "Encoded fragment under exactly the listed premises, not every interpretation of this node: Self-generated unitary operations cannot flip the ±1 sign eigenvalue.",
+   "reason": "[c = -1, d = 0, b = 1, a = 0, sg = True] Faithfulness to the intended domain is a separate obligation."
+  },
+  {
+   "id": "A8.2/Q15/Z3-result-01",
+   "kind": "known countermodel",
+   "status": "FATAL",
+   "scope": "Encoded fragment under exactly the listed premises, not every interpretation of this node: Unitary evolution preserves a +1 eigenstate of the sign operator.",
+   "reason": "[c = -1, a = 0, b = -1, d = 0, /0 = [else -> 0]] Faithfulness to the intended domain is a separate obligation."
+  }
+ ],
+ "ports": [],
+ "main": "A8.2",
+ "claims": [
+  "A8.2",
+  "A8.2::split-01",
+  "A8.2::split-02",
+  "A8.2::split-03",
+  "A8.2::split-04",
+  "A8.2::split-05",
+  "A8.2::split-06",
+  "A8.2::split-07",
+  "A8.2::split-08",
+  "A8.2::split-09",
+  "A8.2::split-10",
+  "A8.2::split-11",
+  "A8.2::split-12",
+  "A8.2::split-13",
+  "A8.2::receipt::Wall.invariant_preserved",
+  "A8.2::receipt::Wall.change_requires_outside_op",
+  "A8.2::receipt::Wall.grace_preserves_identity",
+  "A8.2::receipt::Wall.grace_restores",
+  "A8.2::receipt::Wall.works_cannot_flip",
+  "A8.2::receipt::Wall.flip_requires_non_self_op",
+  "A8.2::receipt::Wall.grace_is_outside_the_family",
+  "A8.2::receipt::Wall.no_restoration_without_consent",
+  "A8.2::receipt::Wall.restoration_with_consent",
+  "A8.2::receipt::Wall.restore_preserves_identity",
+  "A8.2::receipt::Wall.coherence_nonincrease"
+ ],
+ "source": "source/nodes/A8.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

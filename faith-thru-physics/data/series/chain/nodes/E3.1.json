@@ -1,0 +1,49 @@
+{
+ "id": "E3.1",
+ "title": "E3.1 Master Coherence Equation",
+ "lifecycle": "equation",
+ "tier": 4,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [
+  "A2.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "E3.1/Q15/0026",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "After P-IMAGO's general analogy of created order to divine order; the specific action integral and cross-domain mappings require further formal, physical, empirical, and interpretive premises."
+  }
+ ],
+ "ports": [],
+ "main": "E3.1",
+ "claims": [
+  "E3.1",
+  "E3.1::split-01",
+  "E3.1::split-02",
+  "E3.1::split-03",
+  "E3.1::split-04",
+  "E3.1::split-05",
+  "E3.1::split-06",
+  "E3.1::split-07",
+  "E3.1::split-08",
+  "E3.1::split-09"
+ ],
+ "source": "source/nodes/E3.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

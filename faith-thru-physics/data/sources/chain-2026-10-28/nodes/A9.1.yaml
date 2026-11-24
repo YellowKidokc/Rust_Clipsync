@@ -1,0 +1,1397 @@
+{
+  "id": "A9.1",
+  "title": "A9.1 External Intervention Req",
+  "proposal_only": true,
+  "context_parent": "A0",
+  "tags": {
+    "system_part": "rule",
+    "composition_level": 2,
+    "claim_role": "conjecture",
+    "warrant": {
+      "status": "unverified",
+      "kind": "proof"
+    },
+    "register": "spiritual"
+  },
+  "old_mode": "FW_EXTENDED",
+  "raw_csv_mode": "FW_EXTENDED",
+  "proposed_mode": "FW_EXTENDED",
+  "tier": 10,
+  "node_lifecycle": "framework_commitment",
+  "ruling": null,
+  "merged_into": null,
+  "node_vs_claim_vs_proof": "Node specifies a structure; claims below own their warrants; proofs are exact scoped receipts.",
+  "sources": {
+    "v3_line": "A9.1 External Intervention Req   ← BC6           [FW_EXTENDED]",
+    "current_root_record": "sources\\current_nodes\\A9_1_External_Intervention_Required.md",
+    "october_review": "sources\\october_review\\AX-073.json"
+  },
+  "dependencies": {
+    "source_declared": [
+      "BC6"
+    ],
+    "source_relation": "depends_on",
+    "proposed_primary_support": [
+      "BC6"
+    ],
+    "stance_ceiling_sources": [],
+    "merge_scope": "Incoming claims retain their own premises; source and current-root graph versions are not silently equated."
+  },
+  "coherences": {
+    "C-info": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-moral": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-spiritual": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    }
+  },
+  "claims": [
+    {
+      "id": "A9.1::main",
+      "statement": "A genuine moral/spiritual sign-flip from a negative state (-1) to its positive opposite (+1) cannot be produced solely by operations internal to that moral system; it requires an external operator or cause.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+      "proof_refs": [],
+      "conditional_premises": [
+        "A8.2 sign-conservation/unitarity for moral self-operations",
+        "a formal mapping of moral/spiritual state to a two-valued sign sigma in {+1,-1}",
+        "an empirical premise that genuine conversion/sign-flip from -1 to +1 occurs",
+        "a definition that internal self-operations are exactly the sign-preserving operations",
+        "C8.2 Works Salvation Impossible, if the result is applied specifically to salvation"
+      ],
+      "classification_proposal": {
+        "logical_role": "CONJECTURE",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "proposal only; no new frozen vocabulary applied"
+      },
+      "Q13": {
+        "register": "spiritual",
+        "domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ]
+      },
+      "Q14": {
+        "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+        "coherence_equality_assumed": false
+      },
+      "Q15": [
+        {
+          "id": "A9.1/Q15/0096",
+          "node": "A9.1",
+          "kind": "missing bridge",
+          "Q16": "OPEN",
+          "scope": "original core claim/application",
+          "reason": "At the transition from A0/P-IMAGO to the moral-sign formalism and sign-conservation premise; P-IMAGO explicitly forbids stretching it to physical/mathematical laws or empirical findings, so the proof requires A8.2, a sign model, and observed conversion.",
+          "evidence": [
+            "sources\\october_review\\AX-073.json"
+          ]
+        }
+      ],
+      "Q16": {
+        "A9.1/Q15/0096": "OPEN"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "claim_scoped_dependencies": [
+        "BC6"
+      ],
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "A9.1::main"
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A9.1::split-01",
+      "statement": "Moral or spiritual state can be represented by a binary sign sigma in {+1,-1}.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-073.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A9.1::split-02",
+      "statement": "All self-generated operations on a moral system are unitary and preserve the sign eigenvalue.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-073.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A9.1::split-03",
+      "statement": "Genuine conversion is an empirically observed -1 to +1 sign-flip.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-073.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A9.1::split-04",
+      "statement": "The required external intervention is the Lindblad coupling L_k / grace operator G-hat in an open quantum master equation.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-073.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A9.1::split-05",
+      "statement": "The moral/spiritual system's dynamics are described by the Lindblad equation d rho/dt = -i/hbar [H,rho] + sum_k (L_k rho L_k† - 1/2 {L_k†L_k,rho}).",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-073.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A9.1::split-06",
+      "statement": "Moral transformation is thermodynamically analogous to a refrigerator decreasing internal entropy by coupling to an external reservoir.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-073.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A9.1::split-07",
+      "statement": "There is a chi-field with chi_total = chi_Logos + sum_i chi_soul_i.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-073.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A9.1::split-08",
+      "statement": "Grace flow obeys G_i(t) = kappa (chi_Logos - chi_soul_i).",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-073.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A9.1::split-09",
+      "statement": "External intervention is a category-theoretic morphism from the Logos to the soul rather than an endomorphism of the soul.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-073.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A9.1::split-10",
+      "statement": "The transcendental argument establishes the existence of grace empirically from observed conversion.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-073.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A9.1::split-11",
+      "statement": "The Incarnation is the mathematical necessity of Christ, with the Logos entering the system to provide a non-unitary shock.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-073.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A9.1::split-12",
+      "statement": "The life, death, and resurrection of Christ are historically documented evidence of this external breach.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-073.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A9.1::split-13",
+      "statement": "A9.1 proves the axiom of the Savior and renders the Incarnation non-redundant.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-073.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A9.1::split-14",
+      "statement": "The specific coherent, self-sacrificial nature of sanctification is a targeted control signal G(t) rather than random noise.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-073.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "A9.1::receipt::GravityAndGrace.Iso.pres_regime",
+      "statement": "Exact compiled declaration GravityAndGrace.Iso.pres_regime",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Structure",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\GravityAndGrace.lean",
+        "receipts/GravityAndGrace.log"
+      ],
+      "scope_limit": "Integer energies and three regimes are encoded. No self-capture is conditional on sign preservation. capture_requires_third_body only exhibits a chosen capturing operation, not a theorem that every capture needs a literal third body.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": "states only",
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "A9.1::receipt::GravityAndGrace.gravity_isomorphic_to_grace",
+      "statement": "Exact compiled declaration GravityAndGrace.gravity_isomorphic_to_grace",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Structure",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\GravityAndGrace.lean",
+        "receipts/GravityAndGrace.log"
+      ],
+      "scope_limit": "Integer energies and three regimes are encoded. No self-capture is conditional on sign preservation. capture_requires_third_body only exhibits a chosen capturing operation, not a theorem that every capture needs a literal third body.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": "states only",
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "A9.1::receipt::GravityAndGrace.no_self_capture",
+      "statement": "Exact compiled declaration GravityAndGrace.no_self_capture",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\GravityAndGrace.lean",
+        "receipts/GravityAndGrace.log"
+      ],
+      "scope_limit": "Integer energies and three regimes are encoded. No self-capture is conditional on sign preservation. capture_requires_third_body only exhibits a chosen capturing operation, not a theorem that every capture needs a literal third body.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "A9.1::receipt::GravityAndGrace.hyperbolic_stays_hyperbolic",
+      "statement": "Exact compiled declaration GravityAndGrace.hyperbolic_stays_hyperbolic",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\GravityAndGrace.lean",
+        "receipts/GravityAndGrace.log"
+      ],
+      "scope_limit": "Integer energies and three regimes are encoded. No self-capture is conditional on sign preservation. capture_requires_third_body only exhibits a chosen capturing operation, not a theorem that every capture needs a literal third body.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "A9.1::receipt::GravityAndGrace.adversary_changes_energy_sign",
+      "statement": "Exact compiled declaration GravityAndGrace.adversary_changes_energy_sign",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Negative",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\GravityAndGrace.lean",
+        "receipts/GravityAndGrace.log"
+      ],
+      "scope_limit": "Integer energies and three regimes are encoded. No self-capture is conditional on sign preservation. capture_requires_third_body only exhibits a chosen capturing operation, not a theorem that every capture needs a literal third body.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "ASYMMETRY",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "fails",
+        "canon_status": "open",
+        "note": "Negative outcome concerns the named target assertion; a proof of its failure is not a failed proof."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "A9.1::receipt::GravityAndGrace.capture_requires_third_body",
+      "statement": "Exact compiled declaration GravityAndGrace.capture_requires_third_body",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\GravityAndGrace.lean",
+        "receipts/GravityAndGrace.log"
+      ],
+      "scope_limit": "Integer energies and three regimes are encoded. No self-capture is conditional on sign preservation. capture_requires_third_body only exhibits a chosen capturing operation, not a theorem that every capture needs a literal third body.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    }
+  ],
+  "Q13": {
+    "register": "spiritual",
+    "domains": [
+      "THEOLOGICAL",
+      "MORAL"
+    ]
+  },
+  "Q14": {
+    "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+    "coherence_equality_assumed": false
+  },
+  "Q15": [
+    {
+      "id": "A9.1/Q15/0096",
+      "node": "A9.1",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "original core claim/application",
+      "reason": "At the transition from A0/P-IMAGO to the moral-sign formalism and sign-conservation premise; P-IMAGO explicitly forbids stretching it to physical/mathematical laws or empirical findings, so the proof requires A8.2, a sign model, and observed conversion.",
+      "evidence": [
+        "sources\\october_review\\AX-073.json"
+      ]
+    }
+  ],
+  "Q16": {
+    "A9.1/Q15/0096": "OPEN"
+  },
+  "ports": [],
+  "open_interface_obligation": "This rerun is a classified source/claim proposal. A full executable six-field port contract is not claimed for every older node.",
+  "reason": [
+    "Source role, domain and October limitations separated; no unproved application promoted."
+  ],
+  "attached_receipts": [
+    {
+      "file": "sources\\october_lean\\GravityAndGrace.lean",
+      "strength": "scoped per declaration",
+      "proof_does_not_promote_core": true
+    }
+  ],
+  "soundness": {
+    "bin": "CONDITIONAL",
+    "named_premises": [
+      "The target quantity is invariant under all internal operations; actual restoration occurs; causal alternatives are exhaustive; identification of the source as divine Grace is separately supplied."
+    ],
+    "receipt": [
+      "external_restorer_follows_with_causal_exhaustiveness",
+      "sources/august_lean/T3GraceSemantics.lean"
+    ],
+    "denial_cost": null,
+    "scope_note": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+    "why": "Named formal/native conditional only; actual application retains each hypothesis.",
+    "Z3_source_verdicts": [
+      "VALID"
+    ],
+    "ranking_snapshot": {
+      "score": 6,
+      "id": "AX-073",
+      "title": "A9.1 — External Intervention Required",
+      "register": "formal",
+      "a0": "derived+premise",
+      "math": "yes_with_missing_premise",
+      "z3": "VALID",
+      "why": "derived w/ one premise; math holds +premise; Z3 valid; blind wall family",
+      "core": "A genuine moral/spiritual sign-flip from a negative state (-1) to its positive opposite (+1) cannot be produced solely by operations internal to that moral syst"
+    },
+    "A0_IMAGO_verdict": "ENTAILED_WITH_OTHER_PREMISE",
+    "conflicts": [],
+    "what_makes_checkable": null
+  },
+  "grade": {
+    "match_scope": null,
+    "warrant": "conditionally proved",
+    "outcome": "holds",
+    "canon_status": "open",
+    "note": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+    "match_scope_applicable": false,
+    "assessed_claim_id": "A9.1::main"
+  },
+  "canon_rubric": {
+    "node": "A9.1",
+    "bin": "CONDITIONAL",
+    "grade": {
+      "match_scope": null,
+      "warrant": "conditionally proved",
+      "outcome": "holds",
+      "canon_status": "open",
+      "note": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+      "match_scope_applicable": false,
+      "assessed_claim_id": "A9.1::main"
+    },
+    "criteria": {
+      "address": true,
+      "grade": true,
+      "receipt": true,
+      "ruling_authority": false,
+      "no_unresolved_conflict": false
+    },
+    "score": 3,
+    "meets_all_five": false,
+    "missing": [
+      "ruling_authority",
+      "no_unresolved_conflict"
+    ],
+    "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+    "receipt_scope": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+    "proposal_only": true
+  },
+  "follow_up_review": {
+    "proposal_only": true,
+    "soundness_row": {
+      "node": "A9.1",
+      "bin": "CONDITIONAL",
+      "scope": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+      "premises": [
+        "The target quantity is invariant under all internal operations; actual restoration occurs; causal alternatives are exhaustive; identification of the source as divine Grace is separately supplied."
+      ],
+      "receipt": [
+        "external_restorer_follows_with_causal_exhaustiveness",
+        "sources/august_lean/T3GraceSemantics.lean"
+      ],
+      "denial_cost": null,
+      "what_makes_checkable": null,
+      "canon_status": "open",
+      "conflicts": [],
+      "assessment_target": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+      "main_statement": "A genuine moral/spiritual sign-flip from a negative state (-1) to its positive opposite (+1) cannot be produced solely by operations internal to that moral system; it requires an external operator or cause.",
+      "proposal_only": true,
+      "lead_summary": {
+        "REAL GAP": 4,
+        "WORDING": 1,
+        "UNDEFINED": 1
+      },
+      "remaining_lead_ids": [
+        "LEAD-020",
+        "LEAD-120",
+        "LEAD-121",
+        "LEAD-122",
+        "LEAD-123"
+      ],
+      "strength": "Conditional",
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "A9.1::main"
+      },
+      "scope_warning": "Bin assesses the named target only; neither bundled claims nor domain identification inherit its proof. A written explanation is recorded as support at its source status."
+    },
+    "canon_rubric": {
+      "node": "A9.1",
+      "bin": "CONDITIONAL",
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "A9.1::main"
+      },
+      "criteria": {
+        "address": true,
+        "grade": true,
+        "receipt": true,
+        "ruling_authority": false,
+        "no_unresolved_conflict": false
+      },
+      "score": 3,
+      "meets_all_five": false,
+      "missing": [
+        "ruling_authority",
+        "no_unresolved_conflict"
+      ],
+      "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+      "receipt_scope": "Outcome holds in the declared conditional scope, not unconditionally in the world.",
+      "proposal_only": true
+    },
+    "leads": [
+      {
+        "lead_id": "LEAD-020",
+        "node": "A9.1",
+        "record": "AX-073",
+        "required_key": "moral system open to grace",
+        "origin": "circular",
+        "input_line": 29,
+        "class": "REAL GAP",
+        "definition_used": "A damaged person can receive the offered restoration under the stated response conditions.",
+        "definition_status": "requirement defined; supply not established in inspected sources",
+        "supplier": null,
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\GRACE_001\\GRACE-001.md",
+          "line": 11,
+          "text": "**Consent is answered first:** A is authorized only for the Spirit and moves −1 to 0 without acceptance or restoration. From exactly that same awakened state, only the person can invoke R, with either acceptance or refusal. R does not supply restoring coherence. G is authorized only after accepted R, an open boundary, and discharged cost. Refusal makes G unavailable even when cost has been paid. These alternatives are encoded and tested; the assertion that an actual human could have chosen otherwise remains the admitted premise M-FREEDOM. No Boolean parameter or program establishes that metaphysical premise."
+        },
+        "missing_or_reason": "The native GRACE-001 contract exists; A9.1's Hilbert/sign representation still requires a faithful state/operation adapter.",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\A9_1_External_Intervention_Required.md",
+          "line": 23,
+          "text": "Sign flip requires external intervention — grace from outside the system."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-073_A9.1.md"
+        ],
+        "supplied_at_recorded_warrant_only": false,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\01_TESTED_COHERENT_COMPONENT\\073_A9.1_External-Intervention-Required.z3spec.json",
+            "checkable": true,
+            "component": "Sign-flip requires an external (non-self-generated) operation, given that self-generated operations preserve sign.",
+            "faithfulness_note": "States are modeled as integers; sigma is an uninterpreted Int-valued sign function; operations are modeled by an uninterpreted binary apply function; SelfGenerated is an uninterpreted predicate, and 'external' is represented as Not(SelfGenerated(g)). Temporal indices t1,t2 are simplified to arbitrary states s1,s2, and the sign-flip claim is stated as a universally quantified implication.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "REAL GAP",
+        "follow_up_evidence": [],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "closes_dependency": false,
+        "formal_proof_added_by_this_classification": false
+      },
+      {
+        "lead_id": "LEAD-119",
+        "node": "A9.1",
+        "record": "AX-073",
+        "required_key": "moral orientation is binary sign",
+        "origin": "no-supplier",
+        "input_line": 131,
+        "class": "WORDING",
+        "definition_used": "Within the declared moral-sign model, the orientation variable has exactly the two values +1 and -1.",
+        "definition_status": "admitted binary model premise",
+        "supplier": "A8.1",
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\A8_1_Binary_Distinction.md",
+          "line": 28,
+          "text": "σ ∈ {+1, -1}; ¬∃σ=0"
+        },
+        "missing_or_reason": "",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\A9_1_External_Intervention_Required.md",
+          "line": 23,
+          "text": "Sign flip requires external intervention — grace from outside the system."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-073_A9.1.md"
+        ],
+        "supplied_at_recorded_warrant_only": true,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\01_TESTED_COHERENT_COMPONENT\\073_A9.1_External-Intervention-Required.z3spec.json",
+            "checkable": true,
+            "component": "Sign-flip requires an external (non-self-generated) operation, given that self-generated operations preserve sign.",
+            "faithfulness_note": "States are modeled as integers; sigma is an uninterpreted Int-valued sign function; operations are modeled by an uninterpreted binary apply function; SelfGenerated is an uninterpreted predicate, and 'external' is represented as Not(SelfGenerated(g)). Temporal indices t1,t2 are simplified to arbitrary states s1,s2, and the sign-flip claim is stated as a universally quantified implication.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "WORDING",
+        "follow_up_evidence": [],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "closes_dependency": true,
+        "formal_proof_added_by_this_classification": false
+      },
+      {
+        "lead_id": "LEAD-120",
+        "node": "A9.1",
+        "record": "AX-073",
+        "required_key": "global unitarity",
+        "origin": "no-supplier",
+        "input_line": 132,
+        "class": "REAL GAP",
+        "definition_used": "The specified complete system evolves through unitary maps.",
+        "definition_status": "requirement defined; supply not established in inspected sources",
+        "supplier": null,
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\BC7_Information_Conservation.md",
+          "line": 28,
+          "text": "dI_total/dt = 0 (information neither created nor destroyed)"
+        },
+        "missing_or_reason": "Name the complete system, evolution and applicable unitarity premise/proof. BC7's information-conservation assertion is not a derivation of unitarity.",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\A9_1_External_Intervention_Required.md",
+          "line": 23,
+          "text": "Sign flip requires external intervention — grace from outside the system."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-073_A9.1.md"
+        ],
+        "supplied_at_recorded_warrant_only": false,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\01_TESTED_COHERENT_COMPONENT\\073_A9.1_External-Intervention-Required.z3spec.json",
+            "checkable": true,
+            "component": "Sign-flip requires an external (non-self-generated) operation, given that self-generated operations preserve sign.",
+            "faithfulness_note": "States are modeled as integers; sigma is an uninterpreted Int-valued sign function; operations are modeled by an uninterpreted binary apply function; SelfGenerated is an uninterpreted predicate, and 'external' is represented as Not(SelfGenerated(g)). Temporal indices t1,t2 are simplified to arbitrary states s1,s2, and the sign-flip claim is stated as a universally quantified implication.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "REAL GAP",
+        "follow_up_evidence": [],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "closes_dependency": false,
+        "formal_proof_added_by_this_classification": false
+      },
+      {
+        "lead_id": "LEAD-121",
+        "node": "A9.1",
+        "record": "AX-073",
+        "required_key": "external coupling possible",
+        "origin": "no-supplier",
+        "input_line": 133,
+        "class": "REAL GAP",
+        "definition_used": "The chosen modeled system admits a specified external intervention.",
+        "definition_status": "requirement defined; supply not established in inspected sources",
+        "supplier": null,
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\GRACE_001\\GRACE-001.md",
+          "line": 11,
+          "text": "**Consent is answered first:** A is authorized only for the Spirit and moves −1 to 0 without acceptance or restoration. From exactly that same awakened state, only the person can invoke R, with either acceptance or refusal. R does not supply restoring coherence. G is authorized only after accepted R, an open boundary, and discharged cost. Refusal makes G unavailable even when cost has been paid. These alternatives are encoded and tested; the assertion that an actual human could have chosen otherwise remains the admitted premise M-FREEDOM. No Boolean parameter or program establishes that metaphysical premise."
+        },
+        "missing_or_reason": "GRACE-001 supplies native response/restoration ports, but A9.1 requires an adapter to its sign/operator state space; provide that bridge rather than connecting by label.",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\A9_1_External_Intervention_Required.md",
+          "line": 23,
+          "text": "Sign flip requires external intervention — grace from outside the system."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-073_A9.1.md"
+        ],
+        "supplied_at_recorded_warrant_only": false,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\01_TESTED_COHERENT_COMPONENT\\073_A9.1_External-Intervention-Required.z3spec.json",
+            "checkable": true,
+            "component": "Sign-flip requires an external (non-self-generated) operation, given that self-generated operations preserve sign.",
+            "faithfulness_note": "States are modeled as integers; sigma is an uninterpreted Int-valued sign function; operations are modeled by an uninterpreted binary apply function; SelfGenerated is an uninterpreted predicate, and 'external' is represented as Not(SelfGenerated(g)). Temporal indices t1,t2 are simplified to arbitrary states s1,s2, and the sign-flip claim is stated as a universally quantified implication.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "REAL GAP",
+        "follow_up_evidence": [],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "closes_dependency": false,
+        "formal_proof_added_by_this_classification": false
+      },
+      {
+        "lead_id": "LEAD-122",
+        "node": "A9.1",
+        "record": "AX-073",
+        "required_key": "lindblad decoherence rate",
+        "origin": "no-supplier",
+        "input_line": 134,
+        "class": "UNDEFINED",
+        "definition_used": "The rate is a coefficient of a declared open-system dissipator.",
+        "definition_status": "UNDEFINED / operationally incomplete",
+        "supplier": null,
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\D6_1_Collapse_Rate_Gamma.md",
+          "line": 28,
+          "text": "Γ = collapse rate; Γ ∝ f(Φ)"
+        },
+        "missing_or_reason": "Specify the generator, jump operators, rate units, and environment. D6.1 names a collapse rate; that alone is not this Lindblad rate.",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\A9_1_External_Intervention_Required.md",
+          "line": 23,
+          "text": "Sign flip requires external intervention — grace from outside the system."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-073_A9.1.md"
+        ],
+        "supplied_at_recorded_warrant_only": false,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\01_TESTED_COHERENT_COMPONENT\\073_A9.1_External-Intervention-Required.z3spec.json",
+            "checkable": true,
+            "component": "Sign-flip requires an external (non-self-generated) operation, given that self-generated operations preserve sign.",
+            "faithfulness_note": "States are modeled as integers; sigma is an uninterpreted Int-valued sign function; operations are modeled by an uninterpreted binary apply function; SelfGenerated is an uninterpreted predicate, and 'external' is represented as Not(SelfGenerated(g)). Temporal indices t1,t2 are simplified to arbitrary states s1,s2, and the sign-flip claim is stated as a universally quantified implication.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "UNDEFINED",
+        "follow_up_evidence": [],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "closes_dependency": false,
+        "formal_proof_added_by_this_classification": false
+      },
+      {
+        "lead_id": "LEAD-123",
+        "node": "A9.1",
+        "record": "AX-073",
+        "required_key": "chi field exists",
+        "origin": "no-supplier",
+        "input_line": 135,
+        "class": "REAL GAP",
+        "definition_used": "The proposed χ-field is physically instantiated, beyond being a declared scalar-field model.",
+        "definition_status": "requirement defined; supply not established in inspected sources",
+        "supplier": null,
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\D2_1_Logos_Field_Definition.md",
+          "line": 28,
+          "text": "χ: M → ℝ (scalar field over manifold M)"
+        },
+        "missing_or_reason": "An independently supported physical existence premise/empirical identification is required; a definition cannot supply existence of its physical referent.",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\A9_1_External_Intervention_Required.md",
+          "line": 23,
+          "text": "Sign flip requires external intervention — grace from outside the system."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-073_A9.1.md"
+        ],
+        "supplied_at_recorded_warrant_only": false,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\01_TESTED_COHERENT_COMPONENT\\073_A9.1_External-Intervention-Required.z3spec.json",
+            "checkable": true,
+            "component": "Sign-flip requires an external (non-self-generated) operation, given that self-generated operations preserve sign.",
+            "faithfulness_note": "States are modeled as integers; sigma is an uninterpreted Int-valued sign function; operations are modeled by an uninterpreted binary apply function; SelfGenerated is an uninterpreted predicate, and 'external' is represented as Not(SelfGenerated(g)). Temporal indices t1,t2 are simplified to arbitrary states s1,s2, and the sign-flip claim is stated as a universally quantified implication.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "REAL GAP",
+        "follow_up_evidence": [],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "closes_dependency": false,
+        "formal_proof_added_by_this_classification": false
+      }
+    ],
+    "current_ruling": null,
+    "ruling_scope": "Existing disposition only; no new canon admission.",
+    "receipt_attachments": [],
+    "Q15_follow_up": []
+  }
+}

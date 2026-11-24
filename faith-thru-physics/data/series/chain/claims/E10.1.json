@@ -1,0 +1,57 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "E10.1",
+ "claim_id": "E10.1",
+ "type": "CLAIM",
+ "text": "The soul is modeled by a scalar field Ψ_S satisfying the Klein-Gordon equation (□ + m_S²)Ψ_S = 0.",
+ "source": {
+  "file": "source/nodes/E10.1.yaml",
+  "quote": "The soul is modeled by a scalar field Ψ_S satisfying the Klein-Gordon equation (□ + m_S²)Ψ_S = 0.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "constitutive_law",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "Consciousness/soul is a field-like entity.; The soul field is scalar, or adequately approximated as scalar.; Its free dynamics are relativistic and specifically Klein-Gordon.; The soul mass parameter m_S is positive.; There is a χ-field substrate and a specified coupling g.; Second quantization and conserved soul number apply to souls.; IIT's Φ is proportional to the proposed field integral.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/E10.1.yaml#E10.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "E10.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "Consciousness/soul is a field-like entity.",
+  "The soul field is scalar, or adequately approximated as scalar.",
+  "Its free dynamics are relativistic and specifically Klein-Gordon.",
+  "The soul mass parameter m_S is positive.",
+  "There is a χ-field substrate and a specified coupling g.",
+  "Second quantization and conserved soul number apply to souls.",
+  "IIT's Φ is proportional to the proposed field integral."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "E10.1/Q15/0109",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the move from P-IMAGO's analogical order/intelligibility of created consciousness to a specific field ontology and the Klein-Gordon equation. A0+P-IMAGO do not decide any physical equation, field type, mass parameter, coupling, or empirical prediction."
+  }
+ ],
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

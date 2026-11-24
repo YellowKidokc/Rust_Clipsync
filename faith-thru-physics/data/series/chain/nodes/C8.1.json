@@ -1,0 +1,82 @@
+{
+ "id": "C8.1",
+ "title": "C8.1 Self-Flip Impossible",
+ "lifecycle": "corollary",
+ "tier": 9,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "WALL-ORBIT"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "CONDITIONAL",
+  "named_premises": [
+   "Every internal self-operation preserves the sign; a genuine sign change occurs only through an operation outside that family."
+  ],
+  "denial_cost": null,
+  "checkable_by": null,
+  "receipt": [
+   "Wall.change_requires_outside_op",
+   "sources/october_lean/Wall.lean"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "C8.1/Q15/0092",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "self means all actual operations",
+   "reason": "Outside the invariant-preserving family does not automatically mean outside the person or closed physical system."
+  },
+  {
+   "id": "C8.1/Q15/0093",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops when the record moves from A0/P-IMAGO's dependence-and-participation claim to T8.1's [σ̂,Û]=0 and to the identification of moral orientation with a binary quantum sign; those are additional model premises, and the physical/thermodynamic analogies are not entailed."
+  }
+ ],
+ "ports": [],
+ "main": "C8.1",
+ "claims": [
+  "C8.1",
+  "C8.1::split-01",
+  "C8.1::split-02",
+  "C8.1::split-03",
+  "C8.1::split-04",
+  "C8.1::split-05",
+  "C8.1::split-06",
+  "C8.1::split-07",
+  "C8.1::split-08",
+  "C8.1::split-09",
+  "C8.1::split-10",
+  "C8.1::split-11",
+  "C8.1::split-12",
+  "C8.1::split-13",
+  "C8.1::split-14",
+  "C8.1::receipt::Wall.invariant_preserved",
+  "C8.1::receipt::Wall.change_requires_outside_op",
+  "C8.1::receipt::Wall.grace_preserves_identity",
+  "C8.1::receipt::Wall.grace_restores",
+  "C8.1::receipt::Wall.works_cannot_flip",
+  "C8.1::receipt::Wall.flip_requires_non_self_op",
+  "C8.1::receipt::Wall.grace_is_outside_the_family",
+  "C8.1::receipt::Wall.no_restoration_without_consent",
+  "C8.1::receipt::Wall.restoration_with_consent",
+  "C8.1::receipt::Wall.restore_preserves_identity",
+  "C8.1::receipt::Wall.coherence_nonincrease",
+  "C8.1::receipt::ThreeAgents.sign_preserved_by_seq",
+  "C8.1::receipt::ThreeAgents.works_and_adversary_cannot_restore",
+  "C8.1::receipt::ThreeAgents.grace_flips_with_consent",
+  "C8.1::receipt::ThreeAgents.no_consent_no_restoration",
+  "C8.1::receipt::ThreeAgents.adversary_can_block_by_closing_consent"
+ ],
+ "source": "source/nodes/C8.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

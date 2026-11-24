@@ -1,0 +1,35 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "M-FREEDOM",
+ "claim_id": "M-FREEDOM",
+ "type": "CLAIM",
+ "text": "God-enabled capacity, personal authorship, and actual acceptance/refusal alternatives under the same complete antecedents; no self-supplied restoration.",
+ "source": {
+  "file": "source/nodes/M-FREEDOM.yaml",
+  "quote": "God-enabled capacity, personal authorship, and actual acceptance/refusal alternatives under the same complete antecedents; no self-supplied restoration.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "assumption",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "admitted",
+  "warrant_premise": "God-enabled capacity, personal authorship, and actual acceptance/refusal alternatives under the same complete antecedents; no self-supplied restoration.",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/M-FREEDOM.yaml#M-FREEDOM::main (Axiom HTML Update, 2026-10-28)",
+  "note": "Holds as an expressly adopted premise, not established as an empirical or premise-free theorem."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "M-FREEDOM",
+ "is_main": true,
+ "strength": "Conditional",
+ "obstructions": [],
+ "denial_cost": "The native genuinely-refusable response account must be replaced or weakened. A deterministic/compatibilist account can keep permitted choices while denying identical-antecedent alternatives; A0 alone is not contradicted.",
+ "generated_by": "proposed finer classification; no vocabulary change applied"
+}

@@ -1,0 +1,56 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "FALS18.1",
+ "claim_id": "FALS18.1",
+ "type": "CLAIM",
+ "text": "The Theophysics framework is falsified if the chi-field distribution is continuous unimodal rather than bimodal.",
+ "source": {
+  "file": "source/nodes/FALS18.1.yaml",
+  "quote": "The Theophysics framework is falsified if the chi-field distribution is continuous unimodal rather than bimodal.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "observable",
+  "composition_level": 1,
+  "claim_role": "empirical_hypothesis",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A definition of a measurable chi-field and its relation to consciousness or moral state.; A premise that sin/grace corresponds to two stable physical phases with a required bimodal distribution.; A premise that bimodality is a necessary condition of the Theophysics framework.; Empirical data and validated measurement/statistical methods for P(chi).; A statistical premise that failing to reject unimodality establishes falsification.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/FALS18.1.yaml#FALS18.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "D2.1",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "FALS18.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A definition of a measurable chi-field and its relation to consciousness or moral state.",
+  "A premise that sin/grace corresponds to two stable physical phases with a required bimodal distribution.",
+  "A premise that bimodality is a necessary condition of the Theophysics framework.",
+  "Empirical data and validated measurement/statistical methods for P(chi).",
+  "A statistical premise that failing to reject unimodality establishes falsification."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "FALS18.1/Q15/0185",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the transition from P-IMAGO's general analogy of being to a specific chi-field variable with two stable ego/grace modes and a required bimodal probability distribution; P-IMAGO explicitly does not derive particular physical laws, equations, constants, or measurements."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

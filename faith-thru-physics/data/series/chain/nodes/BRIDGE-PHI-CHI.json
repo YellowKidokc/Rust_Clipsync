@@ -1,0 +1,42 @@
+{
+ "id": "BRIDGE-PHI-CHI",
+ "title": "BRIDGE-PHI-CHI",
+ "lifecycle": "bridge",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "HY_EVIDENCE",
+ "declared": [
+  "D5.2",
+  "D2.2"
+ ],
+ "proposed": [
+  "D5.2",
+  "D2.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "BRIDGE-PHI-CHI/Q15/0206",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "domain application rather than mere notation",
+   "reason": "The individual-Φ to social-χ link lacks a stated bridge law and should be marked speculative."
+  }
+ ],
+ "ports": [],
+ "main": "BRIDGE-PHI-CHI",
+ "claims": [
+  "BRIDGE-PHI-CHI"
+ ],
+ "source": "source/nodes/BRIDGE-PHI-CHI.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

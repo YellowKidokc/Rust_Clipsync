@@ -1,0 +1,57 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "F8",
+ "claim_id": "F8",
+ "type": "CLAIM",
+ "text": "Gentleness is the calibrated application of only the minimum force necessary for a coherent outcome, neither excessive nor insufficient.",
+ "source": {
+  "file": "source/nodes/F8.yaml",
+  "quote": "Gentleness is the calibrated application of only the minimum force necessary for a coherent outcome, neither excessive nor insufficient.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "observable",
+  "composition_level": 1,
+  "claim_role": "empirical_hypothesis",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "Definition/stipulation that gentleness is the moral virtue of applying only necessary force or power for a coherent good outcome.; Operational definitions and measurements of F_required and F_applied across physical, verbal, and social contexts.; Empirical validation that the ratio formula actually tracks ordinary moral judgments of gentleness.; Physical/field-theoretic and neural models if the operator, field equation, and neural correlates are asserted.; Information-theoretic, Kolmogorov-complexity, and Phi identifications if the cross-domain mappings are asserted.; Revelational premise that gentleness is a fruit of the Spirit.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/F8.yaml#F8::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "FRUIT-GEN",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "F8",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "Definition/stipulation that gentleness is the moral virtue of applying only necessary force or power for a coherent good outcome.",
+  "Operational definitions and measurements of F_required and F_applied across physical, verbal, and social contexts.",
+  "Empirical validation that the ratio formula actually tracks ordinary moral judgments of gentleness.",
+  "Physical/field-theoretic and neural models if the operator, field equation, and neural correlates are asserted.",
+  "Information-theoretic, Kolmogorov-complexity, and Phi identifications if the cross-domain mappings are asserted.",
+  "Revelational premise that gentleness is a fruit of the Spirit."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "F8/Q15/0202",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the move from creaturely moral goodness as finite participation in God (P-IMAGO) to the specific identification of gentleness with F_required / F_applied and to quantitative, physical, neural, or measurement claims."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

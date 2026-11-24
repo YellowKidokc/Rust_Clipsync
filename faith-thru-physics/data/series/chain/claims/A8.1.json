@@ -1,0 +1,57 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "A8.1",
+ "claim_id": "A8.1",
+ "type": "CLAIM",
+ "text": "An agent's moral orientation relative to God/Logos admits exactly two exhaustive values, +1 aligned/toward or -1 opposed/against, with no stable neutral third value.",
+ "source": {
+  "file": "source/nodes/A8.1.yaml",
+  "quote": "An agent's moral orientation relative to God/Logos admits exactly two exhaustive values, +1 aligned/toward or -1 opposed/against, with no stable neutral third value.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A premise that moral orientation is an exhaustive binary property with exactly two values.; A premise that no neutral, continuous, or multi-axis moral orientation is possible.; A premise identifying moral orientation with an observable Hermitian operator in a two-dimensional moral Hilbert space.; A premise that quantum spin-1/2 discreteness is a legitimate formal template for moral ontology.; Empirical input concerning Stern-Gerlach results and spin-1/2 measurements.; A premise that active evil is a positive decohering vector rather than mere privation.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/A8.1.yaml#A8.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "A8.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A premise that moral orientation is an exhaustive binary property with exactly two values.",
+  "A premise that no neutral, continuous, or multi-axis moral orientation is possible.",
+  "A premise identifying moral orientation with an observable Hermitian operator in a two-dimensional moral Hilbert space.",
+  "A premise that quantum spin-1/2 discreteness is a legitimate formal template for moral ontology.",
+  "Empirical input concerning Stern-Gerlach results and spin-1/2 measurements.",
+  "A premise that active evil is a positive decohering vector rather than mere privation."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "A8.1/Q15/0086",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at moving from A0+P-IMAGO's real creaturely moral participation and relation to God to the record's exact exhaustive two-valued cardinality (+1/-1) and exclusion of neutral/continuous/multi-axis moral orientation; the physical spin analogy adds no entailment."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. This is not checkable as a mathematical entailment in Z3 without restating the conclusion as a premise or assuming the desired binary domain outright. The file itself notes the binary claim depends on a modeling choice and requires defense, so the main claim is an axiomatic stipulation rather than a derivable theorem.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

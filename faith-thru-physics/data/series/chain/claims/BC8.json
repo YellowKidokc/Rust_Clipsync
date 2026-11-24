@@ -1,0 +1,63 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "BC8",
+ "claim_id": "BC8",
+ "type": "CLAIM",
+ "text": "For a fully formed conscious creature, saving union with God (grace-coupling) must be voluntary and cannot be coerced.",
+ "source": {
+  "file": "source/nodes/BC8.yaml",
+  "quote": "For a fully formed conscious creature, saving union with God (grace-coupling) must be voluntary and cannot be coerced.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "boundary",
+  "composition_level": 1,
+  "claim_role": "assumption",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "Genuine love/union cannot be coerced, and salvation/grace-coupling is a loving interpersonal union with God requiring the creature's consent.; Libertarian free will or agent causation is real for created agents.; Conscious choice influences quantum collapse outcomes.; The G(t), V(Psi), and chi-field equations are valid representations of soteriological coupling.; Retrocausal, game-theoretic, modal, and category-theoretic formalisms apply literally to salvation.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/BC8.yaml#BC8::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "BC8",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "Genuine love/union cannot be coerced, and salvation/grace-coupling is a loving interpersonal union with God requiring the creature's consent.",
+  "Libertarian free will or agent causation is real for created agents.",
+  "Conscious choice influences quantum collapse outcomes.",
+  "The G(t), V(Psi), and chi-field equations are valid representations of soteriological coupling.",
+  "Retrocausal, game-theoretic, modal, and category-theoretic formalisms apply literally to salvation."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "BC8/Q15/0081",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "infinite capacity -> voluntariness",
+   "reason": "Source capacity alone does not specify consent. FREE-CHOICE-001 supplies a conditional interface resting on separate authorship/alternatives premises."
+  },
+  {
+   "id": "BC8/Q15/0082",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The core derivation stops at the transition from creaturely agency and love as finite reflection to the soteriological premise that saving union with God is a loving relationship that cannot be coerced."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

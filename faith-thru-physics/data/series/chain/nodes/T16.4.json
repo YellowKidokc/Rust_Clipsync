@@ -1,0 +1,58 @@
+{
+ "id": "T16.4",
+ "title": "T16.4 Buddhism Fails BC1",
+ "lifecycle": "retired",
+ "tier": 14,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC1"
+ ],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "T16.4/Q15/0163",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "axiom-set membership",
+   "reason": "David retired this record; it is retained with reason and cannot serve as an active axiom. Content-level truth is not settled merely by retirement."
+  },
+  {
+   "id": "T16.4/Q15/0164",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at moving from A0’s ultimate divine observer and P-IMAGO’s analogical participation to the specific BC1 requirement (Phi = infinity and measurement-chain termination) and then to a comparative verdict on Buddhism; A0 + P-IMAGO do not supply those BC, measurement, or doctrinal premises."
+  }
+ ],
+ "ports": [],
+ "main": "T16.4",
+ "claims": [
+  "T16.4",
+  "T16.4::split-01",
+  "T16.4::split-02",
+  "T16.4::split-03",
+  "T16.4::split-04",
+  "T16.4::split-05",
+  "T16.4::split-06",
+  "T16.4::split-07",
+  "T16.4::split-08",
+  "T16.4::split-09",
+  "T16.4::split-10",
+  "T16.4::split-11"
+ ],
+ "source": "source/nodes/T16.4.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

@@ -1,0 +1,1028 @@
+{
+  "id": "E14.1",
+  "title": "E14.1 Modified Friedmann Equation",
+  "proposal_only": true,
+  "context_parent": "A0",
+  "tags": {
+    "system_part": "constitutive law",
+    "composition_level": 2,
+    "claim_role": "conjecture",
+    "warrant": {
+      "status": "unverified",
+      "kind": "proof"
+    },
+    "register": "physical"
+  },
+  "old_mode": "FW_EXTENDED",
+  "raw_csv_mode": "FW_EXTENDED",
+  "proposed_mode": "FW_EXTENDED",
+  "tier": 12,
+  "node_lifecycle": "open",
+  "ruling": "DAVID-2026-10-25-NODE-RULINGS",
+  "merged_into": null,
+  "node_vs_claim_vs_proof": "Node specifies a structure; claims below own their warrants; proofs are exact scoped receipts.",
+  "sources": {
+    "v3_line": "E14.1 Modified Friedmann Equation ← BC6          [FW_EXTENDED]",
+    "current_root_record": "sources\\current_nodes\\E14_1_Modified_Friedmann_Equation.md",
+    "october_review": "sources\\october_review\\AX-108.json"
+  },
+  "dependencies": {
+    "source_declared": [
+      "BC6"
+    ],
+    "source_relation": "depends_on",
+    "proposed_primary_support": [
+      "BC6"
+    ],
+    "stance_ceiling_sources": [],
+    "merge_scope": "Incoming claims retain their own premises; source and current-root graph versions are not silently equated."
+  },
+  "coherences": {
+    "C-info": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-moral": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-spiritual": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    }
+  },
+  "claims": [
+    {
+      "id": "E14.1::main",
+      "statement": "Cosmic expansion can be modeled by a Friedmann-like equation in which a dynamic grace term replaces the cosmological constant.",
+      "tags": {
+        "system_part": "constitutive law",
+        "composition_level": 2,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+      "proof_refs": [],
+      "conditional_premises": [
+        "General relativity and FLRW cosmology",
+        "A specified physical action or field equation for the grace function G",
+        "A specified consciousness-vacuum coupling law",
+        "Identification of Ψ_collective as a physical order parameter",
+        "Empirical cosmological data and parameter fitting"
+      ],
+      "classification_proposal": {
+        "logical_role": "CONJECTURE",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "proposal only; no new frozen vocabulary applied"
+      },
+      "Q13": {
+        "register": "physical",
+        "domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ]
+      },
+      "Q14": {
+        "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+        "coherence_equality_assumed": false
+      },
+      "Q15": [
+        {
+          "id": "E14.1/Q15/0137",
+          "node": "E14.1",
+          "kind": "missing bridge",
+          "Q16": "OPEN",
+          "scope": "cosmology/chi identification",
+          "reason": "David retained E14.1 open/flagged; a modified equation needs independent physical derivation and observational discrimination, not a theological label.",
+          "evidence": []
+        },
+        {
+          "id": "E14.1/Q15/0138",
+          "node": "E14.1",
+          "kind": "missing bridge",
+          "Q16": "OPEN",
+          "scope": "original core claim/application",
+          "reason": "The derivation stops at the generic claim that created cosmic order reflects God's sustaining agency. It cannot cross to a specific Friedmann modification, G(t,Ψ) form, consciousness coupling, or numerical prediction.",
+          "evidence": [
+            "sources\\october_review\\AX-108.json"
+          ]
+        }
+      ],
+      "Q16": {
+        "E14.1/Q15/0137": "OPEN",
+        "E14.1/Q15/0138": "OPEN"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "claim_scoped_dependencies": [
+        "BC6"
+      ],
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "E14.1::main"
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E14.1::split-01",
+      "statement": "The cosmological constant Λ is replaced by a dynamic grace function G(t,Ψ).",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-108.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E14.1::split-02",
+      "statement": "The grace function has the specific form G(t,Ψ)=Λ0+αΨ_collective+β(dΨ/dt).",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-108.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E14.1::split-03",
+      "statement": "Collective consciousness Ψ_collective(t) physically modulates cosmic expansion.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-108.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E14.1::split-04",
+      "statement": "A consciousness-vacuum coupling constant α of order ~10^-122 J^-1 m^-2 exists and is physically meaningful.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-108.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E14.1::split-05",
+      "statement": "The modified equation resolves the H0 tension by yielding local H0≈73 and CMB-derived H0≈67.4.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-108.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E14.1::split-06",
+      "statement": "The effective dark-energy equation of state is w_eff=-1-αΨ/(3H²).",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-108.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E14.1::split-07",
+      "statement": "The modified continuity equation has source Q_grace=-(1/8πG)dG/dt and represents energy exchange with the χ-field.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-108.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E14.1::split-08",
+      "statement": "The specific numerical predictions H0=73.0±1.0, Ωm=0.298, w_eff=-1.03±0.02, and σ8=0.795 follow.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-108.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E14.1::split-09",
+      "statement": "The grace-modified equation predicts w(z) evolution and structure-growth signatures testable by DESI, Euclid, and Roman.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-108.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E14.1::split-10",
+      "statement": "The U(1)_Ψ consciousness phase symmetry and conserved consciousness charge exist.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-108.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "E14.1::split-11",
+      "statement": "The de Sitter fixed-point stability theorem applies to the grace-modified system as stated.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "physical"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "COSMOLOGICAL",
+          "PHYSICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-108.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    }
+  ],
+  "Q13": {
+    "register": "physical",
+    "domains": [
+      "COSMOLOGICAL",
+      "PHYSICAL"
+    ]
+  },
+  "Q14": {
+    "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+    "coherence_equality_assumed": false
+  },
+  "Q15": [
+    {
+      "id": "E14.1/Q15/0137",
+      "node": "E14.1",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "cosmology/chi identification",
+      "reason": "David retained E14.1 open/flagged; a modified equation needs independent physical derivation and observational discrimination, not a theological label.",
+      "evidence": []
+    },
+    {
+      "id": "E14.1/Q15/0138",
+      "node": "E14.1",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "original core claim/application",
+      "reason": "The derivation stops at the generic claim that created cosmic order reflects God's sustaining agency. It cannot cross to a specific Friedmann modification, G(t,Ψ) form, consciousness coupling, or numerical prediction.",
+      "evidence": [
+        "sources\\october_review\\AX-108.json"
+      ]
+    }
+  ],
+  "Q16": {
+    "E14.1/Q15/0137": "OPEN",
+    "E14.1/Q15/0138": "OPEN"
+  },
+  "ports": [],
+  "open_interface_obligation": "This rerun is a classified source/claim proposal. A full executable six-field port contract is not claimed for every older node.",
+  "reason": [
+    "Source role, domain and October limitations separated; no unproved application promoted."
+  ],
+  "merged_claims": [
+    {
+      "source_node": "A14.1",
+      "claim_ids": [
+        "A14.1::main",
+        "A14.1::split-01",
+        "A14.1::split-02",
+        "A14.1::split-03",
+        "A14.1::split-04",
+        "A14.1::split-05",
+        "A14.1::split-06",
+        "A14.1::split-07",
+        "A14.1::split-08",
+        "A14.1::split-09",
+        "A14.1::split-10",
+        "A14.1::split-11",
+        "A14.1::split-12"
+      ],
+      "source_claim_premises": [
+        "BC6"
+      ],
+      "note": "Claim-scoped premises, not automatically premises of the destination primary claim."
+    }
+  ],
+  "soundness": {
+    "bin": "UNCHECKED",
+    "named_premises": [],
+    "receipt": [],
+    "denial_cost": null,
+    "scope_note": "No holds/fails call manufactured for an untested main claim.",
+    "why": "Original domain claim lacks a complete faithful, source-matched test or derivation; retained fragment receipts do not establish it.",
+    "Z3_source_verdicts": [],
+    "ranking_snapshot": {
+      "score": 1,
+      "id": "AX-108",
+      "title": "Modified Friedmann Equation",
+      "register": "physical",
+      "a0": "compatible",
+      "math": "yes_with_missing_premise",
+      "z3": "-",
+      "why": "math holds +premise",
+      "core": "Cosmic expansion can be modeled by a Friedmann-like equation in which a dynamic grace term replaces the cosmological constant."
+    },
+    "A0_IMAGO_verdict": "COMPATIBLE_NOT_DERIVED",
+    "conflicts": [],
+    "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. "
+  },
+  "grade": {
+    "match_scope": null,
+    "warrant": "unverified",
+    "outcome": null,
+    "canon_status": "open",
+    "note": "No holds/fails call manufactured for an untested main claim.",
+    "match_scope_applicable": false,
+    "assessed_claim_id": "E14.1::main"
+  },
+  "canon_rubric": {
+    "node": "E14.1",
+    "bin": "UNCHECKED",
+    "grade": {
+      "match_scope": null,
+      "warrant": "unverified",
+      "outcome": null,
+      "canon_status": "open",
+      "note": "No holds/fails call manufactured for an untested main claim.",
+      "match_scope_applicable": false,
+      "assessed_claim_id": "E14.1::main"
+    },
+    "criteria": {
+      "address": true,
+      "grade": false,
+      "receipt": false,
+      "ruling_authority": false,
+      "no_unresolved_conflict": false
+    },
+    "score": 1,
+    "meets_all_five": false,
+    "missing": [
+      "grade",
+      "receipt",
+      "ruling_authority",
+      "no_unresolved_conflict"
+    ],
+    "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+    "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+    "proposal_only": true
+  },
+  "follow_up_review": {
+    "proposal_only": true,
+    "soundness_row": {
+      "node": "E14.1",
+      "bin": "UNCHECKED",
+      "scope": "No holds/fails call manufactured for an untested main claim.",
+      "premises": [],
+      "receipt": [],
+      "denial_cost": null,
+      "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+      "canon_status": "open",
+      "conflicts": [],
+      "assessment_target": "No holds/fails call manufactured for an untested main claim.",
+      "main_statement": "Cosmic expansion can be modeled by a Friedmann-like equation in which a dynamic grace term replaces the cosmological constant.",
+      "proposal_only": true,
+      "lead_summary": {
+        "WORDING": 2,
+        "REAL GAP": 3
+      },
+      "remaining_lead_ids": [
+        "LEAD-184",
+        "LEAD-185",
+        "LEAD-186"
+      ],
+      "strength": "Conditional",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "E14.1::main"
+      },
+      "scope_warning": "Bin assesses the named target only; neither bundled claims nor domain identification inherit its proof. A written explanation is recorded as support at its source status."
+    },
+    "canon_rubric": {
+      "node": "E14.1",
+      "bin": "UNCHECKED",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "E14.1::main"
+      },
+      "criteria": {
+        "address": true,
+        "grade": false,
+        "receipt": false,
+        "ruling_authority": false,
+        "no_unresolved_conflict": false
+      },
+      "score": 1,
+      "meets_all_five": false,
+      "missing": [
+        "grade",
+        "receipt",
+        "ruling_authority",
+        "no_unresolved_conflict"
+      ],
+      "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+      "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+      "proposal_only": true
+    },
+    "leads": [
+      {
+        "lead_id": "LEAD-182",
+        "node": "E14.1",
+        "record": "AX-108",
+        "required_key": "created reality dependent on god",
+        "origin": "no-supplier",
+        "input_line": 194,
+        "class": "WORDING",
+        "definition_used": "Every created reality depends ultimately on God; God depends on no created reality.",
+        "definition_status": "admitted theological root / explicit scope boundary",
+        "supplier": "A0 / P-IMAGO stated source contract",
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\A0_IMAGO_RERUN_2026-10-25\\REPORT.md",
+          "line": 3,
+          "text": "A0 (the single admitted root): The one self-existent Trinitarian God is the uncreated, necessary, living, conscious, personal, self-knowing, truthful, good, loving, and freely acting ground of all created reality. God is one undivided divine being eternally subsisting as Father, Son, and Holy Spirit: really distinct without division, eternally related without dependence, and perfectly united in knowledge, will, goodness, and love. God freely creates realities genuinely distinct from God. Every created reality depends ultimately upon God; God depends upon no created reality."
+        },
+        "missing_or_reason": "",
+        "scope_note": "Supply rests on the expanded admitted A0 text, not on a derivation from the bare words “God is,” and does not entail a particular physical mechanism.",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\E14_1_Modified_Friedmann_Equation.md",
+          "line": 61,
+          "text": "(ȧ/a)² = (8πG/3)ρ - k/a² + G(t)/3 — Modified Friedmann with Grace Function."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-108_E14.1.md"
+        ],
+        "supplied_at_recorded_warrant_only": true,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [],
+        "previous_class": "WORDING",
+        "follow_up_evidence": [],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "closes_dependency": true,
+        "formal_proof_added_by_this_classification": false
+      },
+      {
+        "lead_id": "LEAD-183",
+        "node": "E14.1",
+        "record": "AX-108",
+        "required_key": "grace comes from outside",
+        "origin": "no-supplier",
+        "input_line": 195,
+        "class": "WORDING",
+        "definition_used": "Restoration is supplied from outside the damaged system rather than produced by its internal operations.",
+        "definition_status": "theological boundary premise",
+        "supplier": "BC2",
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\BC2_Grace_External_To_System.md",
+          "line": 28,
+          "text": "Grace ∉ System; Grace ∈ External"
+        },
+        "missing_or_reason": "",
+        "scope_note": "BC2 states the premise; the missing Shannon-to-moral bridge is not supplied by restating it. GRACE-001 separately builds its native conditional contract.",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\E14_1_Modified_Friedmann_Equation.md",
+          "line": 61,
+          "text": "(ȧ/a)² = (8πG/3)ρ - k/a² + G(t)/3 — Modified Friedmann with Grace Function."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-108_E14.1.md"
+        ],
+        "supplied_at_recorded_warrant_only": true,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [],
+        "previous_class": "WORDING",
+        "follow_up_evidence": [],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "closes_dependency": true,
+        "formal_proof_added_by_this_classification": false
+      },
+      {
+        "lead_id": "LEAD-184",
+        "node": "E14.1",
+        "record": "AX-108",
+        "required_key": "flrw homogeneity isotropy",
+        "origin": "no-supplier",
+        "input_line": 196,
+        "class": "REAL GAP",
+        "definition_used": "The cosmological model assumes spatial homogeneity and isotropy at the modeled scale.",
+        "definition_status": "requirement defined; supply not established in inspected sources",
+        "supplier": null,
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\E14_1_Modified_Friedmann_Equation.md",
+          "line": 25,
+          "text": "(ȧ/a)² = (8πG/3)ρ - k/a² + G(t)/3"
+        },
+        "missing_or_reason": "A named cosmological modeling premise with metric and scale is needed; a modified Friedmann formula does not establish that premise.",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\E14_1_Modified_Friedmann_Equation.md",
+          "line": 61,
+          "text": "(ȧ/a)² = (8πG/3)ρ - k/a² + G(t)/3 — Modified Friedmann with Grace Function."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-108_E14.1.md"
+        ],
+        "supplied_at_recorded_warrant_only": false,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [],
+        "previous_class": "REAL GAP",
+        "follow_up_evidence": [],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "closes_dependency": false,
+        "formal_proof_added_by_this_classification": false
+      },
+      {
+        "lead_id": "LEAD-185",
+        "node": "E14.1",
+        "record": "AX-108",
+        "required_key": "grace negengropy input",
+        "origin": "no-supplier",
+        "input_line": 197,
+        "class": "REAL GAP",
+        "definition_used": "A proposed physical grace source supplies an entropy/coherence budget in the cosmological model.",
+        "definition_status": "requirement defined; supply not established in inspected sources",
+        "supplier": null,
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\E14_1_Modified_Friedmann_Equation.md",
+          "line": 25,
+          "text": "(ȧ/a)² = (8πG/3)ρ - k/a² + G(t)/3"
+        },
+        "missing_or_reason": "A dimensional source term and physical-to-spiritual bridge are needed; native restorative grace and the energy-regime toy isomorphism do not supply them.",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\E14_1_Modified_Friedmann_Equation.md",
+          "line": 61,
+          "text": "(ȧ/a)² = (8πG/3)ρ - k/a² + G(t)/3 — Modified Friedmann with Grace Function."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-108_E14.1.md"
+        ],
+        "supplied_at_recorded_warrant_only": false,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [],
+        "previous_class": "REAL GAP",
+        "follow_up_evidence": [],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "closes_dependency": false,
+        "formal_proof_added_by_this_classification": false
+      },
+      {
+        "lead_id": "LEAD-186",
+        "node": "E14.1",
+        "record": "AX-108",
+        "required_key": "chi field lagrangian defined",
+        "origin": "no-supplier",
+        "input_line": 198,
+        "class": "REAL GAP",
+        "definition_used": "The explicit scalar-tensor draft action displayed in source; candidate physical model, not the unique universal master action.",
+        "definition_status": "draft definition located; consumer adapter and equation consistency OPEN",
+        "supplier": null,
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\D3_3_Interaction_Lagrangian.md",
+          "line": 28,
+          "text": "L_int = g·χ·ψ̄ψ — Yukawa-type coupling"
+        },
+        "missing_or_reason": "Select and attach the draft action to this surviving consumer, reconcile its variational equation and demonstrate that its fields/interactions match the consumer. The missing item is now a model bridge, not unwritten mathematics.",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\E14_1_Modified_Friedmann_Equation.md",
+          "line": 61,
+          "text": "(ȧ/a)² = (8πG/3)ρ - k/a² + G(t)/3 — Modified Friedmann with Grace Function."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-108_E14.1.md"
+        ],
+        "supplied_at_recorded_warrant_only": false,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [],
+        "previous_class": "UNDEFINED",
+        "follow_up_evidence": [
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\05_Minimal_Chi_Action_Physical_Degrees_of_Freedom.md",
+            "line": 129,
+            "end_line": 129,
+            "text": "$$S_\\chi = \\int d^4x \\sqrt{-g} \\left[ \\frac{1}{2\\kappa_0}(1 + \\xi \\kappa_0 \\chi^2) R - \\frac{1}{2} g^{\\mu\\nu} \\partial_\\mu \\chi \\partial_\\nu \\chi - \\frac{1}{2} m_\\chi^2 \\chi^2 - \\frac{\\lambda}{4} \\chi^4 + \\mathcal{L}_{\\text{matter}} \\right]$$",
+            "sha256": "dff0212ac6174046ad9076b95ae203ee5793dad63a918be31cba3bea3ee3af8d"
+          },
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\05_Minimal_Chi_Action_Physical_Degrees_of_Freedom.md",
+            "line": 167,
+            "end_line": 167,
+            "text": "$$\\Box \\chi - m_\\chi^2 \\chi - \\lambda \\chi^3 + \\xi \\kappa_0 \\chi R = 0$$",
+            "sha256": "dff0212ac6174046ad9076b95ae203ee5793dad63a918be31cba3bea3ee3af8d"
+          }
+        ],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "fuller_source_note": "An explicit draft scalar-tensor action is written. This resolves the claim that no action was written in the searched material. A surviving node must select and attach that action with its domain, parameters, boundary assumptions and model adapter. The draft action is not the same as every legacy master equation.",
+        "closes_dependency": false,
+        "formal_proof_added_by_this_classification": false
+      }
+    ],
+    "current_ruling": {
+      "decision": "survivor",
+      "merged_from": [
+        "A14.1"
+      ]
+    },
+    "ruling_scope": "Existing disposition only; no new canon admission.",
+    "receipt_attachments": [],
+    "Q15_follow_up": [
+      {
+        "id": "FOLLOWUP/Q15/ACTION-EOM",
+        "node": "D19.1",
+        "kind": "equation consistency",
+        "Q16": "OPEN",
+        "scope": "minimal scalar action as a proposed supplier, not the framework as a whole",
+        "reason": "The displayed curvature term is (ξ/2)χ²R, whose partial derivative w.r.t. χ is ξχR. The displayed χ equation instead has ξκ₀χR. State a rescaling/convention or correct the candidate before attaching it as an exact variational receipt. No upstream correction made.",
+        "evidence": [
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\05_Minimal_Chi_Action_Physical_Degrees_of_Freedom.md",
+            "line": 129,
+            "end_line": 129,
+            "text": "$$S_\\chi = \\int d^4x \\sqrt{-g} \\left[ \\frac{1}{2\\kappa_0}(1 + \\xi \\kappa_0 \\chi^2) R - \\frac{1}{2} g^{\\mu\\nu} \\partial_\\mu \\chi \\partial_\\nu \\chi - \\frac{1}{2} m_\\chi^2 \\chi^2 - \\frac{\\lambda}{4} \\chi^4 + \\mathcal{L}_{\\text{matter}} \\right]$$",
+            "sha256": "dff0212ac6174046ad9076b95ae203ee5793dad63a918be31cba3bea3ee3af8d"
+          },
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\05_Minimal_Chi_Action_Physical_Degrees_of_Freedom.md",
+            "line": 167,
+            "end_line": 167,
+            "text": "$$\\Box \\chi - m_\\chi^2 \\chi - \\lambda \\chi^3 + \\xi \\kappa_0 \\chi R = 0$$",
+            "sha256": "dff0212ac6174046ad9076b95ae203ee5793dad63a918be31cba3bea3ee3af8d"
+          }
+        ],
+        "affected_nodes": [
+          "A10.2",
+          "A13.2",
+          "D19.1",
+          "D19.5",
+          "D3.1",
+          "D3.3",
+          "E13.1",
+          "E14.1",
+          "E19.1",
+          "E4.1",
+          "LN1.1",
+          "P2.2",
+          "SC-QUANTUM"
+        ]
+      }
+    ]
+  }
+}

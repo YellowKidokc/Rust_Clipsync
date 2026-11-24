@@ -1,0 +1,61 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "T16.5",
+ "claim_id": "T16.5",
+ "type": "CLAIM",
+ "text": "Hinduism cannot satisfy the BC system's uniqueness requirement because its plural paths, multiple divine candidates, and non-coessential Trimurti yield multiple incompatible candidate solutions rather than one coherent structure.",
+ "source": {
+  "file": "source/nodes/T16.5.yaml",
+  "quote": "Hinduism cannot satisfy the BC system's uniqueness requirement because its plural paths, multiple divine candidates, and non-coessential Trimurti yield multiple incompatible candidate solutions rather than one coherent structure.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "identification",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "P_BC: the BC1–BC8 boundary-condition system and the requirement that exactly one worldview satisfy all eight simultaneously.; P_H: the descriptive/theological premise that Hindu margas and divine candidates constitute multiple incompatible candidate solutions rather than subordinate expressions of one unique solution.; P_Trimurti: the structural premise that the Trimurti lacks co-eternality, co-essentiality, mutual indwelling, and functional unity required by BC4.",
+  "outcome": null,
+  "canon_status": "retired",
+  "grade_source": "copied:source/nodes/T16.5.yaml#T16.5::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A7.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "T16.5",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "P_BC: the BC1–BC8 boundary-condition system and the requirement that exactly one worldview satisfy all eight simultaneously.",
+  "P_H: the descriptive/theological premise that Hindu margas and divine candidates constitute multiple incompatible candidate solutions rather than subordinate expressions of one unique solution.",
+  "P_Trimurti: the structural premise that the Trimurti lacks co-eternality, co-essentiality, mutual indwelling, and functional unity required by BC4."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "T16.5/Q15/0165",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "axiom-set membership",
+   "reason": "David retired this record; it is retained with reason and cannot serve as an active axiom. Content-level truth is not settled merely by retirement."
+  },
+  {
+   "id": "T16.5/Q15/0166",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "Without P_BC and P_H, the derivation stops after P-IMAGO: analogical creaturely reflection does not specify the BC1–BC8 unique-solution system or the contested pluralism of Hindu schools. For the full record, it additionally fails at treating physical uniqueness, wave-equation mathematics, quantum superposition, and historical/theological comparisons as established theorem components."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. Not checkable in Z3: the file does not formally define 'Hinduism' as a set of structures, the BC predicates, what it means for a path or school to satisfy all BCs, or the selection/uniqueness mechanism. The 'Mathematical Layer' uses undefined predicates such as BC_i(H_i) and |{H_i: BC(H_i)}| and its proof does not rigorously entail the conclusion. Encoding would require inventing a formalization not stated in the file.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

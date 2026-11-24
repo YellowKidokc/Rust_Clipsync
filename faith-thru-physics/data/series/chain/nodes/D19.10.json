@@ -1,0 +1,88 @@
+{
+ "id": "D19.10",
+ "title": "D19.10 Law X (Trinity Closure)",
+ "lifecycle": "open",
+ "tier": 13,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "BC4a"
+ ],
+ "proposed": [
+  "BC4a",
+  "BC4b",
+  "BC3",
+  "BC5"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is not precise enough to encode faithfully: 'complete measurement closure', 'zero residual uncertainty', 'observer-operator', and the minimality/exactness over all physical measurement systems are not formally defined. The file mixes SU(2), SU(3), cyclic products, commutators, and informal information-theoretic/category-theoretic arguments; encoding only the matrix-algebra side conditions would check a side consistency claim, not the main necessity/sufficiency claim.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "D19.10/Q15/0150",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "exactly-three and Trinity identification",
+   "reason": "Composite links to BC4a/BC4b retain two separate burdens; no generic three-witness/counting argument derives the theological identification. U1/O2 remain deferred."
+  },
+  {
+   "id": "D19.10/Q15/0151",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the move from the general analogy of created relationality to the exact claim that complete measurement closure requires exactly three perichoretic observer-operators; P-IMAGO explicitly does not yield physical laws, equations, constants, or measurements."
+  },
+  {
+   "id": "D19.10/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Law X claims complete measurement closure requires exactly three perichoretic observer-operators.",
+   "reason": "The main claim is not precise enough to encode faithfully: 'complete measurement closure', 'zero residual uncertainty', 'observer-operator', and the minimality/exactness over all physical measurement systems are not formally defined. The file mixes SU(2), SU(3), cyclic products, commutators, and informal information-theoretic/category-theoretic arguments; encoding only the matrix-algebra side conditions would check a side consistency claim, not the main necessity/sufficiency claim."
+  }
+ ],
+ "ports": [
+  {
+   "agent": "Component agents; no extra actor added",
+   "boundary": "All component boundaries and any cross-register bridge must be satisfied",
+   "input": "Declared component contracts and exact assumptions",
+   "output": "Conditional composite account, not an unconditional theorem",
+   "evidence": [
+    "BC4a",
+    "BC4b",
+    "BC3",
+    "BC5"
+   ]
+  }
+ ],
+ "main": "D19.10",
+ "claims": [
+  "D19.10",
+  "D19.10::split-01",
+  "D19.10::split-02",
+  "D19.10::split-03",
+  "D19.10::split-04",
+  "D19.10::split-05",
+  "D19.10::split-06",
+  "D19.10::split-07",
+  "D19.10::split-08",
+  "D19.10::split-09",
+  "D19.10::split-10",
+  "D19.10::split-11",
+  "D19.10::split-12",
+  "D19.10::split-13",
+  "D19.10::split-14",
+  "D19.10::receipt::LawToLaw.four_laws_share_one_shape",
+  "D19.10::receipt::LawToLaw.person_pattern_not_law_pattern"
+ ],
+ "source": "source/nodes/D19.10.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

@@ -1,0 +1,52 @@
+{
+ "id": "BC9",
+ "title": "BC9 Opacity Requirement",
+ "lifecycle": "boundary",
+ "tier": 8,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC4a",
+  "BC6"
+ ],
+ "proposed": [
+  "BC4a",
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "CONDITIONAL",
+  "named_premises": [
+   "A Self-Other boundary requires informational distinction (some information not shared or observed).",
+   "Total transparency means there is no informational distinction.",
+   "If the Self-Other boundary is absent, the AI self-model collapses.",
+   "Opacity is represented as the absence of total transparency.",
+   "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+  ],
+  "denial_cost": null,
+  "checkable_by": null,
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json",
+   "Opacity is necessary for the Self-Other boundary; total transparency collapses informational distinction and thereby the boundary and AI self-model."
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "BC9/Q15/0083",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "domain application rather than mere notation",
+   "reason": "Terminal-observer opacity is an adopted epistemic boundary condition, not a derived formal result."
+  }
+ ],
+ "ports": [],
+ "main": "BC9",
+ "claims": [
+  "BC9",
+  "BC9::z3-conditional-component"
+ ],
+ "source": "source/nodes/BC9.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

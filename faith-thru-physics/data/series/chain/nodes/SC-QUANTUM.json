@@ -1,0 +1,50 @@
+{
+ "id": "SC-QUANTUM",
+ "title": "Quantum Scale Coherence",
+ "lifecycle": "scale_definition",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [
+  "A2.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "SC-QUANTUM/Q15/0224",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the transition from the general claim that creaturely order or relation reflects God to the specific physical thesis that quantum mechanics is the physics of coherence; P-IMAGO cannot supply quantum mechanics or identify the chi-field with the wave function."
+  }
+ ],
+ "ports": [],
+ "main": "SC-QUANTUM",
+ "claims": [
+  "SC-QUANTUM",
+  "SC-QUANTUM::split-01",
+  "SC-QUANTUM::split-02",
+  "SC-QUANTUM::split-03",
+  "SC-QUANTUM::split-04",
+  "SC-QUANTUM::split-05",
+  "SC-QUANTUM::split-06",
+  "SC-QUANTUM::split-07",
+  "SC-QUANTUM::split-08",
+  "SC-QUANTUM::split-09",
+  "SC-QUANTUM::split-10"
+ ],
+ "source": "source/nodes/SC-QUANTUM.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

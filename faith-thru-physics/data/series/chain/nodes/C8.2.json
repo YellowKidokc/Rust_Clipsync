@@ -1,0 +1,79 @@
+{
+ "id": "C8.2",
+ "title": "C8.2 Works Salvation Impossible",
+ "lifecycle": "corollary",
+ "tier": 9,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "WALL-ORBIT"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "CONDITIONAL",
+  "named_premises": [
+   "Every operation classified as works preserves the theological sign; that sign represents the restoration at issue."
+  ],
+  "denial_cost": null,
+  "checkable_by": null,
+  "receipt": [
+   "Wall.works_cannot_flip",
+   "sources/october_lean/Wall.lean"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "C8.2/Q15/0094",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "works salvation application",
+   "reason": "Works preserve the modeled sign is the load-bearing theological premise; conditional mathematics is not an independent proof of moral inability."
+  },
+  {
+   "id": "C8.2/Q15/0095",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "A0+P-IMAGO establish creaturely dependence and non-self-sufficiency, but the derivation stops at the claim that salvation is a discrete sign-flip and that all self-generated moral acts commute with the sign operator; those require the unadmitted T8.1/C8.1 sign-operator formalism and a specific soteriology of sin and grace."
+  }
+ ],
+ "ports": [],
+ "main": "C8.2",
+ "claims": [
+  "C8.2",
+  "C8.2::split-01",
+  "C8.2::split-02",
+  "C8.2::split-03",
+  "C8.2::split-04",
+  "C8.2::split-05",
+  "C8.2::split-06",
+  "C8.2::split-07",
+  "C8.2::split-08",
+  "C8.2::split-09",
+  "C8.2::split-10",
+  "C8.2::split-11",
+  "C8.2::split-12",
+  "C8.2::split-13",
+  "C8.2::split-14",
+  "C8.2::split-15",
+  "C8.2::split-16",
+  "C8.2::receipt::Wall.invariant_preserved",
+  "C8.2::receipt::Wall.change_requires_outside_op",
+  "C8.2::receipt::Wall.grace_preserves_identity",
+  "C8.2::receipt::Wall.grace_restores",
+  "C8.2::receipt::Wall.works_cannot_flip",
+  "C8.2::receipt::Wall.flip_requires_non_self_op",
+  "C8.2::receipt::Wall.grace_is_outside_the_family",
+  "C8.2::receipt::Wall.no_restoration_without_consent",
+  "C8.2::receipt::Wall.restoration_with_consent",
+  "C8.2::receipt::Wall.restore_preserves_identity",
+  "C8.2::receipt::Wall.coherence_nonincrease"
+ ],
+ "source": "source/nodes/C8.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

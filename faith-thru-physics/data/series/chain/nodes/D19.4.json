@@ -1,0 +1,88 @@
+{
+ "id": "D19.4",
+ "title": "D19.4 Law IV (Grace Dynamics)",
+ "lifecycle": "open",
+ "tier": 13,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "D9.1"
+ ],
+ "proposed": [
+  "D9.1",
+  "A9.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is a definitional differential equation, not a proposition that can be proven from premises. Encoding it in Z3 would either trivially restate the definition as an assumption or check only consistency, which does not verify the definitional claim. The file's theorems (existence, asymptotic behavior, stability) are downstream consequences, not the main Statement.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "D19.4/Q15/0143",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the move from general dependence/analogy to a specific scalar ODE for grace; A0+P-IMAGO do not supply the variables G,F,C, the decay/feedback terms, parameter values, or operational measurement."
+  },
+  {
+   "id": "D19.4/Q15/0255",
+   "kind": "known countermodel",
+   "status": "FATAL",
+   "scope": "unrestricted three-regime person == two-state law pattern",
+   "reason": "LawToLaw.person_pattern_not_law_pattern excludes the asserted full bijection at those cardinalities."
+  },
+  {
+   "id": "D19.4/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Law IV Grace Dynamics definition (ODE dG/dt = G_ext - gamma_G G + beta F C)",
+   "reason": "The main claim is a definitional differential equation, not a proposition that can be proven from premises. Encoding it in Z3 would either trivially restate the definition as an assumption or check only consistency, which does not verify the definitional claim. The file's theorems (existence, asymptotic behavior, stability) are downstream consequences, not the main Statement."
+  }
+ ],
+ "ports": [
+  {
+   "agent": "Component agents; no extra actor added",
+   "boundary": "All component boundaries and any cross-register bridge must be satisfied",
+   "input": "Declared component contracts and exact assumptions",
+   "output": "Conditional composite account, not an unconditional theorem",
+   "evidence": [
+    "D9.1",
+    "A9.2"
+   ]
+  }
+ ],
+ "main": "D19.4",
+ "claims": [
+  "D19.4",
+  "D19.4::split-01",
+  "D19.4::split-02",
+  "D19.4::split-03",
+  "D19.4::split-04",
+  "D19.4::split-05",
+  "D19.4::split-06",
+  "D19.4::split-07",
+  "D19.4::split-08",
+  "D19.4::split-09",
+  "D19.4::split-10",
+  "D19.4::split-11",
+  "D19.4::split-12",
+  "D19.4::split-13",
+  "D19.4::receipt::LawToLaw.four_laws_share_one_shape",
+  "D19.4::receipt::LawToLaw.person_pattern_not_law_pattern",
+  "D19.4::receipt::ThreeAgents.sign_preserved_by_seq",
+  "D19.4::receipt::ThreeAgents.works_and_adversary_cannot_restore",
+  "D19.4::receipt::ThreeAgents.grace_flips_with_consent",
+  "D19.4::receipt::ThreeAgents.no_consent_no_restoration",
+  "D19.4::receipt::ThreeAgents.adversary_can_block_by_closing_consent"
+ ],
+ "source": "source/nodes/D19.4.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

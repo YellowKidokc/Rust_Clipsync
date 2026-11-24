@@ -1,0 +1,54 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "P2.1",
+ "claim_id": "P2.1",
+ "type": "CLAIM",
+ "text": "The Logos Field (χ) is ontologically prior to spacetime, so spacetime emerges from χ rather than χ from spacetime.",
+ "source": {
+  "file": "source/nodes/P2.1.yaml",
+  "quote": "The Logos Field (χ) is ontologically prior to spacetime, so spacetime emerges from χ rather than χ from spacetime.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "P-CHI: The Logos Field χ is a real ontological substrate (or God's Logos) and is the immediate source of spacetime.; P-EMERGENCE: Spacetime is not fundamental but emergent from an informational/conscious substrate.; P-INFO-SUBSTRATE: Information requires an ontological substrate, and matter/energy are derivative of information.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/P2.1.yaml#P2.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "P2.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "P-CHI: The Logos Field χ is a real ontological substrate (or God's Logos) and is the immediate source of spacetime.",
+  "P-EMERGENCE: Spacetime is not fundamental but emergent from an informational/conscious substrate.",
+  "P-INFO-SUBSTRATE: Information requires an ontological substrate, and matter/energy are derivative of information."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "P2.1/Q15/0016",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At inferring a specific χ-to-spacetime priority/emergence relation from the general Creator-creature analogy; P-IMAGO licenses analogy only, not cosmological structure."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

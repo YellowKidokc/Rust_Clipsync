@@ -1,0 +1,49 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "FINAL-2",
+ "claim_id": "FINAL-2",
+ "type": "CLAIM",
+ "text": "The optimal state of any system is maximal coherence.",
+ "source": {
+  "file": "source/nodes/FINAL-2.yaml",
+  "quote": "The optimal state of any system is maximal coherence.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/FINAL-2.yaml#FINAL-2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "FINAL-2",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "FINAL-2/Q15/0234",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "domain application rather than mere notation",
+   "reason": "Maximal coherence is not automatically optimal without a specified objective function, so the optimality theorem is overclaimed."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim cannot be faithfully encoded in Z3 because the domain of possible reality-structures, the concrete coherence functional chi_global, the constraint set C, and the identity/representation of T_Theophysics are not formally specified. The file gives qualitative comparisons and analogies but no finite model, numerical measure, or precise mathematical constraints sufficient to state an optimization claim without inventing premises.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

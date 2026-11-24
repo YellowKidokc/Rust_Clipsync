@@ -1,0 +1,45 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "U3",
+ "claim_id": "U3::z3-conditional-component",
+ "type": "CLAIM",
+ "text": "There exists a nonzero linear operator G that anticommutes with sigma, is non-unitary, maps the +1 eigenspace to 0, and maps the -1 eigenspace nontrivially into the +1 eigenspace; any other operator satisfying exactly the same conditions is a real scalar multiple of G.",
+ "source": {
+  "file": "source/nodes/U3.yaml",
+  "quote": "There exists a nonzero linear operator G that anticommutes with sigma, is non-unitary, maps the +1 eigenspace to 0, and maps the -1 eigenspace nontrivially into the +1 eigenspace; any other operator satisfying exactly the same conditions is a real scalar multiple of G.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "theorem",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "conditionally_proved",
+  "warrant_premise": "The sign operator is fixed in a 2D basis as sigma = diag(+1, -1), so both sign eigenspaces are non-empty.; The sign operator has spectrum {-1, +1} and satisfies sigma^2 = I and sigma^dagger = sigma.; The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge.",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/U3.yaml#U3::z3-conditional-component (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [
+  {
+   "kind": "z3",
+   "ref": "sources/z3/03_PROMISING/results.json"
+  }
+ ],
+ "neighbors": [],
+ "node": "U3",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Reported Z3 encoded component; domain bridge remains unverified; this is not a new solver run.",
+ "conditional_premises": [
+  "The sign operator is fixed in a 2D basis as sigma = diag(+1, -1), so both sign eigenspaces are non-empty.",
+  "The sign operator has spectrum {-1, +1} and satisfies sigma^2 = I and sigma^dagger = sigma.",
+  "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+ ],
+ "obstructions": [],
+ "generated_by": "proposal only"
+}

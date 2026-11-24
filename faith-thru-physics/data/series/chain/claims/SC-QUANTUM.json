@@ -1,0 +1,56 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "SC-QUANTUM",
+ "claim_id": "SC-QUANTUM",
+ "type": "CLAIM",
+ "text": "Quantum mechanics at the smallest scales is fundamentally a physics of coherence, with superposition, entanglement, and interference understood as coherence phenomena.",
+ "source": {
+  "file": "source/nodes/SC-QUANTUM.yaml",
+  "quote": "Quantum mechanics at the smallest scales is fundamentally a physics of coherence, with superposition, entanglement, and interference understood as coherence phenomena.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "Standard quantum mechanics with empirical evidence for superposition, entanglement, interference, and decoherence.; A stipulated definition or bridge equating the chi-field with the quantum wave function.; A specified physical model for a grace-mediated coherence term G_quantum.; A specified measurement or collapse theory linking integrated information Phi > 0 to wavefunction collapse.; Empirical evidence for biological quantum coherence mechanisms in photosynthesis, enzymes, and magnetoreception.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/SC-QUANTUM.yaml#SC-QUANTUM::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "SC-QUANTUM",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "Standard quantum mechanics with empirical evidence for superposition, entanglement, interference, and decoherence.",
+  "A stipulated definition or bridge equating the chi-field with the quantum wave function.",
+  "A specified physical model for a grace-mediated coherence term G_quantum.",
+  "A specified measurement or collapse theory linking integrated information Phi > 0 to wavefunction collapse.",
+  "Empirical evidence for biological quantum coherence mechanisms in photosynthesis, enzymes, and magnetoreception."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "SC-QUANTUM/Q15/0224",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the transition from the general claim that creaturely order or relation reflects God to the specific physical thesis that quantum mechanics is the physics of coherence; P-IMAGO cannot supply quantum mechanics or identify the chi-field with the wave function."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

@@ -1,0 +1,60 @@
+{
+ "id": "P9.2",
+ "title": "P9.2 Voluntary Coupling Pres",
+ "lifecycle": "property",
+ "tier": 10,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main title/statement claim is 'voluntary coupling preserved,' but the file does not give a precise mathematical definition of voluntary coupling preservation, information injection, identity continuity, or consent structure. Its only fully formal calculation is the non-unitarity of a particular illustrative matrix G, which is subordinate to the main claim and would be an easier side check rather than the claimed preservation property. Therefore the main claim cannot be encoded faithfully wit",
+  "receipt": [
+   "sources/z3/02_RERUN/results.json",
+   "sources/z3/02_TESTED_FAILURE_OR_MISSING_ASSUMPTION/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "P9.2/Q15/0102",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "From A0 + P-IMAGO alone, the derivation stops at inferring that God's grace must preserve rather than override creaturely consent; that requires an additional non-coercion/consent premise. For the full record, it stops at mapping grace to specific matrices, quantum channels, chi-field information injection, Lindblad dynamics, and empirical analogies."
+  },
+  {
+   "id": "P9.2/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Voluntary coupling is preserved under the non-unitary grace operator.",
+   "reason": "The main title/statement claim is 'voluntary coupling preserved,' but the file does not give a precise mathematical definition of voluntary coupling preservation, information injection, identity continuity, or consent structure. Its only fully formal calculation is the non-unitarity of a particular illustrative matrix G, which is subordinate to the main claim and would be an easier side check rather than the claimed preservation property. Therefore the main claim cannot be encoded faithfully without adding unstated assumptions."
+  }
+ ],
+ "ports": [],
+ "main": "P9.2",
+ "claims": [
+  "P9.2",
+  "P9.2::split-01",
+  "P9.2::split-02",
+  "P9.2::split-03",
+  "P9.2::split-04",
+  "P9.2::split-05",
+  "P9.2::split-06",
+  "P9.2::split-07",
+  "P9.2::split-08",
+  "P9.2::split-09",
+  "P9.2::split-10"
+ ],
+ "source": "source/nodes/P9.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

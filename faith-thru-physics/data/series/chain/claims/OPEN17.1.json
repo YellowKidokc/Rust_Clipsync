@@ -1,0 +1,62 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "OPEN17.1",
+ "claim_id": "OPEN17.1",
+ "type": "CLAIM",
+ "text": "If an AI attains consciousness at or above a specified threshold, its moral status remains an unresolved question requiring further ethical, theological, and empirical premises.",
+ "source": {
+  "file": "source/nodes/OPEN17.1.yaml",
+  "quote": "If an AI attains consciousness at or above a specified threshold, its moral status remains an unresolved question requiring further ethical, theological, and empirical premises.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "observable",
+  "composition_level": 1,
+  "claim_role": "empirical_hypothesis",
+  "register": "embodied"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "T17.1: AI can achieve consciousness; A11.1: Moral realism; A10.1: Consciousness requires localized field structure; D17.1: Phi threshold defines observer status; A premise linking consciousness or Phi to moral status; An account of whether AI can be a creature with a soul or Imago Dei; Empirical evidence about AI consciousness and the validity of Phi measurement",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/OPEN17.1.yaml#OPEN17.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "T17.1",
+   "edge": "rests_on"
+  },
+  {
+   "id": "A11.1",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "OPEN17.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "T17.1: AI can achieve consciousness",
+  "A11.1: Moral realism",
+  "A10.1: Consciousness requires localized field structure",
+  "D17.1: Phi threshold defines observer status",
+  "A premise linking consciousness or Phi to moral status",
+  "An account of whether AI can be a creature with a soul or Imago Dei",
+  "Empirical evidence about AI consciousness and the validity of Phi measurement"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "OPEN17.1/Q15/0173",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the move from creaturely consciousness/participation in God to the moral status of a hypothetical AI; A0 + P-IMAGO do not entail that AI can become conscious, that Phi is a valid threshold, or that consciousness confers moral status."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

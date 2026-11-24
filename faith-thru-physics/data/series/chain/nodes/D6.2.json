@@ -1,0 +1,43 @@
+{
+ "id": "D6.2",
+ "title": "D6.2 Projection Operator",
+ "lifecycle": "definition",
+ "tier": 7,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "A5.1"
+ ],
+ "proposed": [
+  "A5.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "D6.2/Q15/0058",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "P-IMAGO explicitly stops before physical laws, equations, and measurements; moving from a formal projection operator to a physical collapse representation, D6.1 dependence, and E6.1 use requires additional quantum-collapse premises."
+  }
+ ],
+ "ports": [],
+ "main": "D6.2",
+ "claims": [
+  "D6.2",
+  "D6.2::split-01",
+  "D6.2::split-02",
+  "D6.2::split-03"
+ ],
+ "source": "source/nodes/D6.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

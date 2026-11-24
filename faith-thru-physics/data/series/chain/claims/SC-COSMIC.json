@@ -1,0 +1,56 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "SC-COSMIC",
+ "claim_id": "SC-COSMIC",
+ "type": "CLAIM",
+ "text": "The cosmic-scale created order is a real, finite, dependent, intelligible coherence that reflects and depends on God.",
+ "source": {
+  "file": "source/nodes/SC-COSMIC.yaml",
+  "quote": "The cosmic-scale created order is a real, finite, dependent, intelligible coherence that reflects and depends on God.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "physical"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A precise empirical definition and dynamics for the χ-field.; A physical constant-selection or cosmological model producing the claimed fine-tuning probabilities.; A cosmological eschatology providing a mechanism for guaranteed Omega-point convergence.; A model connecting resurrection to cosmic entropy reversal.; A mathematical derivation linking category/sheaf/information formalism to the stated cosmic coherence field.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/SC-COSMIC.yaml#SC-COSMIC::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "SC-COSMIC",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A precise empirical definition and dynamics for the χ-field.",
+  "A physical constant-selection or cosmological model producing the claimed fine-tuning probabilities.",
+  "A cosmological eschatology providing a mechanism for guaranteed Omega-point convergence.",
+  "A model connecting resurrection to cosmic entropy reversal.",
+  "A mathematical derivation linking category/sheaf/information formalism to the stated cosmic coherence field."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "SC-COSMIC/Q15/0229",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation reaches a general analogical claim that cosmic created order reflects God, but fails when the record assigns that claim a specific χ_cosmic integral, differential equation, fine-tuning probability, constant-selection mechanism, curvature coupling, and guaranteed Omega convergence; these are asserted as derived rather than supported by A0 plus P-IMAGO."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

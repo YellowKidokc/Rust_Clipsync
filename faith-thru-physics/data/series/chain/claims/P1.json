@@ -1,0 +1,57 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "P1",
+ "claim_id": "P1",
+ "type": "CLAIM",
+ "text": "Existence is co-original with consciousness/observation: anything determinate must be distinguished by an observer, so the capacity for distinction is fundamental rather than emergent.",
+ "source": {
+  "file": "source/nodes/P1.yaml",
+  "quote": "Existence is co-original with consciousness/observation: anything determinate must be distinguished by an observer, so the capacity for distinction is fundamental rather than emergent.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "An observer-dependent ontology: to be determinate or to exist is to be distinguished by an actual observer.; A premise that distinction requires an observer rather than an intrinsic property or structural relation.; A selected interpretation of quantum mechanics in which measurement/observation is constitutive (e.g., Copenhagen, Von Neumann-Wigner, QBism, RQM, Wheeler).; Empirical support for linking quantum measurement to consciousness rather than to decoherence or other mechanisms.; A theory of consciousness such as IIT or Orch-OR if the record's claims about Phi or microtubules are to be used.; A premise identifying the Logos/God as maximal observer/Phi and the early universe as self-observing.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/P1.yaml#P1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A5.1",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "P1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "An observer-dependent ontology: to be determinate or to exist is to be distinguished by an actual observer.",
+  "A premise that distinction requires an observer rather than an intrinsic property or structural relation.",
+  "A selected interpretation of quantum mechanics in which measurement/observation is constitutive (e.g., Copenhagen, Von Neumann-Wigner, QBism, RQM, Wheeler).",
+  "Empirical support for linking quantum measurement to consciousness rather than to decoherence or other mechanisms.",
+  "A theory of consciousness such as IIT or Orch-OR if the record's claims about Phi or microtubules are to be used.",
+  "A premise identifying the Logos/God as maximal observer/Phi and the early universe as self-observing."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "P1/Q15/0209",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at 'Distinction requires a Distinguisher (Observer)'; A0+P-IMAGO do not entail that existence is observer-dependent, only that creaturely consciousness may be a finite participation in God's consciousness."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is metaphysical and not precise enough for a faithful Z3 theorem check. The file gives a biconditional with undefined predicates, and the key temporal claim about simultaneous onset of existence and consciousness is not formalized. Encoding the displayed biconditional alone would omit the 'therefore' claim and would treat an uninterpreted primitive axiom as if it were a provable theorem.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

@@ -1,0 +1,43 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "T3.1",
+ "claim_id": "T3.1::receipt::Wall.grace_preserves_identity",
+ "type": "RECEIPT",
+ "text": "Exact compiled declaration Wall.grace_preserves_identity",
+ "source": {
+  "file": "source/nodes/T3.1.yaml",
+  "quote": "Exact compiled declaration Wall.grace_preserves_identity",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "theorem",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "proved",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/T3.1.yaml#T3.1::receipt::Wall.grace_preserves_identity (Axiom HTML Update, 2026-10-28)",
+  "note": "Proved by construction, not measured."
+ },
+ "receipts": [
+  {
+   "kind": "lean",
+   "ref": "sources/october_lean/Wall.lean"
+  },
+  {
+   "kind": "source",
+   "ref": "receipts/Wall.log"
+  }
+ ],
+ "neighbors": [],
+ "node": "T3.1",
+ "is_main": false,
+ "strength": "By definition",
+ "scope": "Pure orbit theorem is universal conditional mathematics. Application to all actual human self-operations requires sign-preservation and interpretation premises. Outside family does not by itself mean outside physical system.",
+ "obstructions": [],
+ "generated_by": "subtype is a proposal only; no new field added to frozen five tags"
+}

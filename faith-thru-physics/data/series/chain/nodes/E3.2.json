@@ -1,0 +1,44 @@
+{
+ "id": "E3.2",
+ "title": "E3.2 Universal Coherence Def",
+ "lifecycle": "equation",
+ "tier": 4,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [
+  "A2.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "E3.2/Q15/0027",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the step from P-IMAGO’s analogical creaturely order/intelligibility/relation to a formal universal coherence definition or equation; A0 + P-IMAGO provide no mathematical definition, equation, or domain-specific applicability."
+  }
+ ],
+ "ports": [],
+ "main": "E3.2",
+ "claims": [
+  "E3.2",
+  "E3.2::split-01",
+  "E3.2::split-02",
+  "E3.2::split-03",
+  "E3.2::split-04"
+ ],
+ "source": "source/nodes/E3.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

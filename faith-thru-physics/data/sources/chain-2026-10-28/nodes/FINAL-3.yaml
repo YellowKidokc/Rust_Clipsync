@@ -1,0 +1,366 @@
+{
+  "id": "FINAL-3",
+  "title": "Unique Solution (Christianity)",
+  "proposal_only": true,
+  "context_parent": "A0",
+  "tags": {
+    "system_part": "rule",
+    "composition_level": 2,
+    "claim_role": "conjecture",
+    "warrant": {
+      "status": "unverified",
+      "kind": "proof"
+    },
+    "register": "spiritual"
+  },
+  "old_mode": "FW_EXTENDED",
+  "raw_csv_mode": "FW_EXTENDED",
+  "proposed_mode": "FW_EXTENDED",
+  "tier": 17,
+  "node_lifecycle": "open",
+  "ruling": "DAVID-2026-10-25-NODE-RULINGS",
+  "merged_into": null,
+  "node_vs_claim_vs_proof": "Node specifies a structure; claims below own their warrants; proofs are exact scoped receipts.",
+  "sources": {
+    "v3_line": null,
+    "current_root_record": "sources\\current_nodes\\FINAL_3_Unique_Solution_Christianity.md",
+    "october_review": null
+  },
+  "dependencies": {
+    "source_declared": [
+      "A2.2"
+    ],
+    "source_relation": "depends_on",
+    "proposed_primary_support": [
+      "A2.2",
+      "BC1",
+      "BC2",
+      "BC3",
+      "BC4a",
+      "BC5",
+      "BC6",
+      "BC7",
+      "BC8",
+      "BC9"
+    ],
+    "stance_ceiling_sources": [
+      "A2.2",
+      "A5.1"
+    ],
+    "merge_scope": "Incoming claims retain their own premises; source and current-root graph versions are not silently equated."
+  },
+  "coherences": {
+    "C-info": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-moral": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-spiritual": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    }
+  },
+  "claims": [
+    {
+      "id": "FINAL-3::main",
+      "statement": "Christianity is the unique solution to the BC system.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+      "proof_refs": [],
+      "conditional_premises": [],
+      "classification_proposal": {
+        "logical_role": "CONJECTURE",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "proposal only; no new frozen vocabulary applied"
+      },
+      "Q13": {
+        "register": "spiritual",
+        "domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ]
+      },
+      "Q14": {
+        "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+        "coherence_equality_assumed": false
+      },
+      "Q15": [
+        {
+          "id": "FINAL-3/Q15/0235",
+          "node": "FINAL-3",
+          "kind": "type mismatch",
+          "Q16": "OPEN",
+          "scope": "worldview uniqueness quantified domain",
+          "reason": "October rerun is NOT_CHECKABLE, preceded by ASK_FAILED. Operational worldview predicates/domain are undefined; do not report a countermodel that the solver did not produce.",
+          "evidence": [
+            "sources/z3/02_RERUN/results.json"
+          ]
+        }
+      ],
+      "Q16": {
+        "FINAL-3/Q15/0235": "OPEN"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [
+          "A2.2",
+          "A5.1"
+        ],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "claim_scoped_dependencies": [
+        "A2.2"
+      ],
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "FINAL-3::main"
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    }
+  ],
+  "Q13": {
+    "register": "spiritual",
+    "domains": [
+      "THEOLOGICAL",
+      "MORAL"
+    ]
+  },
+  "Q14": {
+    "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+    "coherence_equality_assumed": false
+  },
+  "Q15": [
+    {
+      "id": "FINAL-3/Q15/0235",
+      "node": "FINAL-3",
+      "kind": "type mismatch",
+      "Q16": "OPEN",
+      "scope": "worldview uniqueness quantified domain",
+      "reason": "October rerun is NOT_CHECKABLE, preceded by ASK_FAILED. Operational worldview predicates/domain are undefined; do not report a countermodel that the solver did not produce.",
+      "evidence": [
+        "sources/z3/02_RERUN/results.json"
+      ]
+    },
+    {
+      "id": "FINAL-3/Q15/Z3-00",
+      "node": "FINAL-3",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "Exact October Z3 component: Uniqueness of Christianity as the sole worldview satisfying all five boundary conditions BC1–BC5.",
+      "reason": "The main claim is a comparative theological/metaphysical uniqueness claim over an undefined universe of worldviews with undefined predicates. A Z3 encoding would require arbitrary formalization of 'Christianity', 'other worldview', 'self-grounding ground', 'information primacy', 'terminal observer', 'external grace', and 'redeemable agent'. Encoding a finite list of named religions with booleans for the BCs would either presuppose the conclusion or encode an arbitrary taxonomy, so it would not faithfully check the file's main claim.",
+      "evidence": [
+        "sources/z3/02_RERUN/results.json"
+      ]
+    },
+    {
+      "id": "FINAL-3/Q15/Z3-result-01",
+      "node": "FINAL-3",
+      "kind": "type mismatch",
+      "Q16": "OPEN",
+      "scope": "Verification process; no domain verdict: 186_FINAL-3_Unique-Solution.md",
+      "reason": "Expecting value: line 1 column 1 (char 0) Faithfulness to the intended domain is a separate obligation.",
+      "evidence": [
+        "sources/z3/02_TESTED_FAILURE_OR_MISSING_ASSUMPTION/results.json"
+      ]
+    }
+  ],
+  "Q16": {
+    "FINAL-3/Q15/0235": "OPEN",
+    "FINAL-3/Q15/Z3-00": "OPEN",
+    "FINAL-3/Q15/Z3-result-01": "OPEN"
+  },
+  "ports": [],
+  "open_interface_obligation": "This rerun is a classified source/claim proposal. A full executable six-field port contract is not claimed for every older node.",
+  "reason": [
+    "Weakest-premise ceiling inherited from A2.2, A5.1."
+  ],
+  "merged_claims": [
+    {
+      "source_node": "T16.1",
+      "claim_ids": [
+        "T16.1::main",
+        "T16.1::split-01",
+        "T16.1::split-02",
+        "T16.1::split-03",
+        "T16.1::split-04",
+        "T16.1::split-05",
+        "T16.1::split-06",
+        "T16.1::split-07",
+        "T16.1::split-08",
+        "T16.1::split-09",
+        "T16.1::split-10",
+        "T16.1::split-11",
+        "T16.1::split-12",
+        "T16.1::split-13",
+        "T16.1::split-14",
+        "T16.1::split-15"
+      ],
+      "source_claim_premises": [
+        "BC1",
+        "BC2",
+        "BC3",
+        "BC4a",
+        "BC5",
+        "BC6",
+        "BC7",
+        "BC8",
+        "BC9"
+      ],
+      "note": "Claim-scoped premises, not automatically premises of the destination primary claim."
+    }
+  ],
+  "soundness": {
+    "bin": "UNCHECKED",
+    "named_premises": [],
+    "receipt": [
+      "sources/z3/02_RERUN/results.json",
+      "sources/z3/02_TESTED_FAILURE_OR_MISSING_ASSUMPTION/results.json"
+    ],
+    "denial_cost": null,
+    "scope_note": "No holds/fails call manufactured for an untested main claim.",
+    "why": "Original domain claim lacks a complete faithful, source-matched test or derivation; retained fragment receipts do not establish it.",
+    "Z3_source_verdicts": [
+      "ASK_FAILED",
+      "NOT_CHECKABLE"
+    ],
+    "ranking_snapshot": null,
+    "A0_IMAGO_verdict": null,
+    "conflicts": [
+      "Z3 sources disagree in verdict/scope: ASK_FAILED, NOT_CHECKABLE. Retain each encoding and its faithfulness note."
+    ],
+    "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is a comparative theological/metaphysical uniqueness claim over an undefined universe of worldviews with undefined predicates. A Z3 encoding would require arbitrary formalization of 'Christianity', 'other worldview', 'self-grounding ground', 'information primacy', 'terminal observer', 'external grace', and 'redeemable agent'. Encoding a finite list of named religions with booleans for the BCs would either presuppose the conclusion or encode an arbitrary taxonomy, so it would not f"
+  },
+  "grade": {
+    "match_scope": null,
+    "warrant": "unverified",
+    "outcome": null,
+    "canon_status": "open",
+    "note": "No holds/fails call manufactured for an untested main claim.",
+    "match_scope_applicable": false,
+    "assessed_claim_id": "FINAL-3::main"
+  },
+  "canon_rubric": {
+    "node": "FINAL-3",
+    "bin": "UNCHECKED",
+    "grade": {
+      "match_scope": null,
+      "warrant": "unverified",
+      "outcome": null,
+      "canon_status": "open",
+      "note": "No holds/fails call manufactured for an untested main claim.",
+      "match_scope_applicable": false,
+      "assessed_claim_id": "FINAL-3::main"
+    },
+    "criteria": {
+      "address": true,
+      "grade": false,
+      "receipt": false,
+      "ruling_authority": false,
+      "no_unresolved_conflict": false
+    },
+    "score": 1,
+    "meets_all_five": false,
+    "missing": [
+      "grade",
+      "receipt",
+      "ruling_authority",
+      "no_unresolved_conflict"
+    ],
+    "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+    "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+    "proposal_only": true
+  },
+  "follow_up_review": {
+    "proposal_only": true,
+    "soundness_row": {
+      "node": "FINAL-3",
+      "bin": "UNCHECKED",
+      "scope": "No holds/fails call manufactured for an untested main claim.",
+      "premises": [],
+      "receipt": [
+        "sources/z3/02_RERUN/results.json",
+        "sources/z3/02_TESTED_FAILURE_OR_MISSING_ASSUMPTION/results.json"
+      ],
+      "denial_cost": null,
+      "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is a comparative theological/metaphysical uniqueness claim over an undefined universe of worldviews with undefined predicates. A Z3 encoding would require arbitrary formalization of 'Christianity', 'other worldview', 'self-grounding ground', 'information primacy', 'terminal observer', 'external grace', and 'redeemable agent'. Encoding a finite list of named religions with booleans for the BCs would either presuppose the conclusion or encode an arbitrary taxonomy, so it would not f",
+      "canon_status": "open",
+      "conflicts": [
+        "Z3 sources disagree in verdict/scope: ASK_FAILED, NOT_CHECKABLE. Retain each encoding and its faithfulness note."
+      ],
+      "assessment_target": "No holds/fails call manufactured for an untested main claim.",
+      "main_statement": "Christianity is the unique solution to the BC system.",
+      "proposal_only": true,
+      "lead_summary": {},
+      "remaining_lead_ids": [],
+      "strength": "Conditional",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "FINAL-3::main"
+      },
+      "scope_warning": "Bin assesses the named target only; neither bundled claims nor domain identification inherit its proof. A written explanation is recorded as support at its source status."
+    },
+    "canon_rubric": {
+      "node": "FINAL-3",
+      "bin": "UNCHECKED",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "FINAL-3::main"
+      },
+      "criteria": {
+        "address": true,
+        "grade": false,
+        "receipt": false,
+        "ruling_authority": false,
+        "no_unresolved_conflict": false
+      },
+      "score": 1,
+      "meets_all_five": false,
+      "missing": [
+        "grade",
+        "receipt",
+        "ruling_authority",
+        "no_unresolved_conflict"
+      ],
+      "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+      "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+      "proposal_only": true
+    },
+    "leads": [],
+    "current_ruling": null,
+    "ruling_scope": "Existing disposition only; no new canon admission.",
+    "receipt_attachments": [],
+    "Q15_follow_up": []
+  }
+}

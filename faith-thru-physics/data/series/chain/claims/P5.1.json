@@ -1,0 +1,52 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "P5.1",
+ "claim_id": "P5.1",
+ "type": "CLAIM",
+ "text": "The witness/consciousness measure Φ admits degrees rather than being binary.",
+ "source": {
+  "file": "source/nodes/P5.1.yaml",
+  "quote": "The witness/consciousness measure Φ admits degrees rather than being binary.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "embodied"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "D5.3 Witness-Field Operator, or an equivalent definition of Φ as a graded/scalar measure.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/P5.1.yaml#P5.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A5.1",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "P5.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "D5.3 Witness-Field Operator, or an equivalent definition of Φ as a graded/scalar measure."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "P5.1/Q15/0048",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at moving from P-IMAGO's general finite/partial creaturely consciousness to the specific measure Φ and its degrees; P-IMAGO cannot license Φ or any numeric scale."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

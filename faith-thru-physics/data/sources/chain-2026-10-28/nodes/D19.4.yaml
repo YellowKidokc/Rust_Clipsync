@@ -1,0 +1,1363 @@
+{
+  "id": "D19.4",
+  "title": "D19.4 Law IV (Grace Dynamics)",
+  "proposal_only": true,
+  "context_parent": "A0",
+  "tags": {
+    "system_part": "operator",
+    "composition_level": 4,
+    "claim_role": "definition",
+    "warrant": {
+      "status": "unverified",
+      "kind": "proof"
+    },
+    "register": "formal"
+  },
+  "old_mode": "AX_SCAFFOLD",
+  "raw_csv_mode": "AX_SCAFFOLD",
+  "proposed_mode": "AX_SCAFFOLD",
+  "tier": 13,
+  "node_lifecycle": "open",
+  "ruling": "DAVID-2026-10-25-NODE-RULINGS",
+  "merged_into": null,
+  "node_vs_claim_vs_proof": "Node specifies a structure; claims below own their warrants; proofs are exact scoped receipts.",
+  "sources": {
+    "v3_line": "D19.4 Law IV (Grace Dynamics)      ← D9.1           [AX_SCAFFOLD]",
+    "current_root_record": "sources\\current_nodes\\D19_4_Law_IV_Grace_Dynamics.md",
+    "october_review": "sources\\october_review\\AX-139.json"
+  },
+  "dependencies": {
+    "source_declared": [
+      "D9.1"
+    ],
+    "source_relation": "depends_on",
+    "proposed_primary_support": [
+      "D9.1",
+      "A9.2"
+    ],
+    "stance_ceiling_sources": [],
+    "merge_scope": "Incoming claims retain their own premises; source and current-root graph versions are not silently equated."
+  },
+  "coherences": {
+    "C-info": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-moral": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-spiritual": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    }
+  },
+  "claims": [
+    {
+      "id": "D19.4::main",
+      "statement": "Grace can be modeled as evolving by an external divine source minus natural decay plus a faith-consciousness feedback term.",
+      "tags": {
+        "system_part": "operator",
+        "composition_level": 4,
+        "claim_role": "definition",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+      "proof_refs": [],
+      "conditional_premises": [
+        "A specific theological/empirical model identifying grace as a scalar dynamical quantity with decay and feedback.",
+        "Operational definitions and measurements for G, F, C, γ_G, and β.",
+        "A premise identifying grace with a physical chi-field or other measurable proxy."
+      ],
+      "classification_proposal": {
+        "logical_role": "DEFINITION",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "proposal only; no new frozen vocabulary applied"
+      },
+      "Q13": {
+        "register": "formal",
+        "domains": [
+          "ONTOLOGICAL"
+        ]
+      },
+      "Q14": {
+        "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+        "coherence_equality_assumed": false
+      },
+      "Q15": [
+        {
+          "id": "D19.4/Q15/0143",
+          "node": "D19.4",
+          "kind": "definitional conflict",
+          "Q16": "OPEN",
+          "scope": "original core claim/application",
+          "reason": "At the move from general dependence/analogy to a specific scalar ODE for grace; A0+P-IMAGO do not supply the variables G,F,C, the decay/feedback terms, parameter values, or operational measurement.",
+          "evidence": [
+            "sources\\october_review\\AX-139.json"
+          ]
+        },
+        {
+          "id": "D19.4/Q15/0255",
+          "node": "D19.4",
+          "kind": "known countermodel",
+          "Q16": "FATAL",
+          "scope": "unrestricted three-regime person == two-state law pattern",
+          "reason": "LawToLaw.person_pattern_not_law_pattern excludes the asserted full bijection at those cardinalities.",
+          "evidence": [
+            "receipt_inventory.json"
+          ]
+        }
+      ],
+      "Q16": {
+        "D19.4/Q15/0143": "OPEN",
+        "D19.4/Q15/0255": "FATAL"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "claim_scoped_dependencies": [
+        "D9.1"
+      ],
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "D19.4::main"
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.4::split-01",
+      "statement": "Grace is a scalar quantity G satisfying dG/dt = G_ext - γ_G G + β F C.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-139.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.4::split-02",
+      "statement": "External grace input has the form G_ext = G0 Θ(t - t_encounter) h(receptivity), with receptivity obeying a sigmoid h = 1/(1+e^{-k(receptivity-θ)}).",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-139.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.4::split-03",
+      "statement": "Grace decays exponentially with positive decay constant γ_G and half-life t_{1/2}=ln2/γ_G.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-139.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.4::split-04",
+      "statement": "Faith and consciousness combine multiplicatively as β F C to generate additional grace.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-139.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.4::split-05",
+      "statement": "The grace ODE has a unique solution for bounded inputs by Picard-Lindelöf.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-139.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.4::split-06",
+      "statement": "Under constant inputs, grace converges to G_ss=(G_ext+βFC)/γ_G and this equilibrium is globally asymptotically stable for γ_G>0.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-139.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.4::split-07",
+      "statement": "Without external grace, sustained positive grace requires βFC>0; net growth requires F·C > γ_G G/β.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-139.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.4::split-08",
+      "statement": "Grace dynamics admit category-theoretic and information-theoretic formulations, with grace as information plus amplification.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-139.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.4::split-09",
+      "statement": "Grace can be measured by proxies such as chi-field level, virtue outcomes, peace measures, and integration metrics.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-139.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.4::split-10",
+      "statement": "Grace is operationally defined as chi-field increase after a divine encounter.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-139.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.4::split-11",
+      "statement": "The constants γ_G, β, and G0 are determined by chi-field physics and are empirically measurable.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-139.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.4::split-12",
+      "statement": "Specific encounters such as sacraments, prayer, scripture, charity, and mystical experiences provide G_ext pulses; decay rate depends on environment, constitution, age, and circumstances.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-139.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.4::split-13",
+      "statement": "The equation is the minimal complete model of grace and makes falsifiable predictions.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 1,
+        "claim_role": "conjecture",
+        "warrant": {
+          "status": "unverified",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [],
+      "classification_proposal": {
+        "logical_role": "OPEN",
+        "ontological_domains": [
+          "ONTOLOGICAL"
+        ],
+        "approval": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+      },
+      "source": "sources\\october_review\\AX-139.json",
+      "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "proposed test target, not an earned proof warrant"
+    },
+    {
+      "id": "D19.4::receipt::LawToLaw.four_laws_share_one_shape",
+      "statement": "Exact compiled declaration LawToLaw.four_laws_share_one_shape",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Mechanism",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\LawToLaw.lean",
+        "receipts/LawToLaw.log"
+      ],
+      "scope_limit": "Coarse two-state models are assigned equal roles/values/steps. External-input flag is an annotation. No mechanistic physics/theology identity is proved. Three person regimes cannot match the two-state law pattern.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "legacy_strength": "Structure",
+      "match_scope_note": "States and moves of the stipulated finite Model.step relation; not an empirical causal mechanism.",
+      "grade": {
+        "match_scope": "states and moves",
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "D19.4::receipt::LawToLaw.person_pattern_not_law_pattern",
+      "statement": "Exact compiled declaration LawToLaw.person_pattern_not_law_pattern",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Negative",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\LawToLaw.lean",
+        "receipts/LawToLaw.log"
+      ],
+      "scope_limit": "Coarse two-state models are assigned equal roles/values/steps. External-input flag is an annotation. No mechanistic physics/theology identity is proved. Three person regimes cannot match the two-state law pattern.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "ASYMMETRY",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "fails",
+        "canon_status": "open",
+        "note": "Negative outcome concerns the named target assertion; a proof of its failure is not a failed proof."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "D19.4::receipt::ThreeAgents.sign_preserved_by_seq",
+      "statement": "Exact compiled declaration ThreeAgents.sign_preserved_by_seq",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Structure",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\ThreeAgents.lean",
+        "receipts/ThreeAgents.log"
+      ],
+      "scope_limit": "Works/adversary sign preservation are hypotheses; consent gate is defined. The false-consent result does not prove the adversary causes refusal.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "CONSERVATION",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": "states only",
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "D19.4::receipt::ThreeAgents.works_and_adversary_cannot_restore",
+      "statement": "Exact compiled declaration ThreeAgents.works_and_adversary_cannot_restore",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\ThreeAgents.lean",
+        "receipts/ThreeAgents.log"
+      ],
+      "scope_limit": "Works/adversary sign preservation are hypotheses; consent gate is defined. The false-consent result does not prove the adversary causes refusal.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "D19.4::receipt::ThreeAgents.grace_flips_with_consent",
+      "statement": "Exact compiled declaration ThreeAgents.grace_flips_with_consent",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\ThreeAgents.lean",
+        "receipts/ThreeAgents.log"
+      ],
+      "scope_limit": "Works/adversary sign preservation are hypotheses; consent gate is defined. The false-consent result does not prove the adversary causes refusal.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "D19.4::receipt::ThreeAgents.no_consent_no_restoration",
+      "statement": "Exact compiled declaration ThreeAgents.no_consent_no_restoration",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "By definition",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\ThreeAgents.lean",
+        "receipts/ThreeAgents.log"
+      ],
+      "scope_limit": "Works/adversary sign preservation are hypotheses; consent gate is defined. The false-consent result does not prove the adversary causes refusal.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Proved by construction, not measured."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "D19.4::receipt::ThreeAgents.adversary_can_block_by_closing_consent",
+      "statement": "Exact compiled declaration ThreeAgents.adversary_can_block_by_closing_consent",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "proof_refs": [
+        "sources\\october_lean\\ThreeAgents.lean",
+        "receipts/ThreeAgents.log"
+      ],
+      "scope_limit": "Works/adversary sign preservation are hypotheses; consent gate is defined. The false-consent result does not prove the adversary causes refusal.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "theorem_subtype_candidate": "DYNAMICS",
+        "approval": "subtype is a proposal only; no new field added to frozen five tags"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "formal implication only; no actual application promoted",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    }
+  ],
+  "Q13": {
+    "register": "formal",
+    "domains": [
+      "ONTOLOGICAL"
+    ]
+  },
+  "Q14": {
+    "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+    "coherence_equality_assumed": false
+  },
+  "Q15": [
+    {
+      "id": "D19.4/Q15/0143",
+      "node": "D19.4",
+      "kind": "definitional conflict",
+      "Q16": "OPEN",
+      "scope": "original core claim/application",
+      "reason": "At the move from general dependence/analogy to a specific scalar ODE for grace; A0+P-IMAGO do not supply the variables G,F,C, the decay/feedback terms, parameter values, or operational measurement.",
+      "evidence": [
+        "sources\\october_review\\AX-139.json"
+      ]
+    },
+    {
+      "id": "D19.4/Q15/0255",
+      "node": "D19.4",
+      "kind": "known countermodel",
+      "Q16": "FATAL",
+      "scope": "unrestricted three-regime person == two-state law pattern",
+      "reason": "LawToLaw.person_pattern_not_law_pattern excludes the asserted full bijection at those cardinalities.",
+      "evidence": [
+        "receipt_inventory.json"
+      ]
+    },
+    {
+      "id": "D19.4/Q15/Z3-00",
+      "node": "D19.4",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "Exact October Z3 component: Law IV Grace Dynamics definition (ODE dG/dt = G_ext - gamma_G G + beta F C)",
+      "reason": "The main claim is a definitional differential equation, not a proposition that can be proven from premises. Encoding it in Z3 would either trivially restate the definition as an assumption or check only consistency, which does not verify the definitional claim. The file's theorems (existence, asymptotic behavior, stability) are downstream consequences, not the main Statement.",
+      "evidence": [
+        "sources/z3/03_PROMISING/results.json"
+      ]
+    }
+  ],
+  "Q16": {
+    "D19.4/Q15/0143": "OPEN",
+    "D19.4/Q15/0255": "FATAL",
+    "D19.4/Q15/Z3-00": "OPEN"
+  },
+  "ports": [
+    {
+      "input": "Declared component contracts and exact assumptions",
+      "output": "Conditional composite account, not an unconditional theorem",
+      "agent": "Component agents; no extra actor added",
+      "boundary": "All component boundaries and any cross-register bridge must be satisfied",
+      "constraints": "No claim strengthening; preserve distinct coherence fields and component warrants",
+      "evidence": [
+        "D9.1",
+        "A9.2"
+      ]
+    }
+  ],
+  "open_interface_obligation": "This rerun is a classified source/claim proposal. A full executable six-field port contract is not claimed for every older node.",
+  "reason": [
+    "Retained as level-4 composite Law; component combination is not an automatic theorem."
+  ],
+  "components": [
+    "D9.1",
+    "A9.2"
+  ],
+  "legacy_components": [
+    "D9.1",
+    "A9.2"
+  ],
+  "attached_receipts": [
+    {
+      "file": "sources\\october_lean\\LawToLaw.lean",
+      "strength": "scoped per declaration",
+      "proof_does_not_promote_core": true
+    },
+    {
+      "file": "sources\\october_lean\\ThreeAgents.lean",
+      "strength": "scoped per declaration",
+      "proof_does_not_promote_core": true
+    }
+  ],
+  "soundness": {
+    "bin": "UNCHECKED",
+    "named_premises": [],
+    "receipt": [
+      "sources/z3/03_PROMISING/results.json"
+    ],
+    "denial_cost": null,
+    "scope_note": "No holds/fails call manufactured for an untested main claim.",
+    "why": "Original domain claim lacks a complete faithful, source-matched test or derivation; retained fragment receipts do not establish it.",
+    "Z3_source_verdicts": [
+      "NOT_CHECKABLE"
+    ],
+    "ranking_snapshot": {
+      "score": 1,
+      "id": "AX-139",
+      "title": "Law IV Definition — The Grace Dynamics",
+      "register": "formal",
+      "a0": "compatible",
+      "math": "yes_with_missing_premise",
+      "z3": "NOT_CHECKABLE",
+      "why": "math holds +premise",
+      "core": "Grace can be modeled as evolving by an external divine source minus natural decay plus a faith-consciousness feedback term."
+    },
+    "A0_IMAGO_verdict": "COMPATIBLE_NOT_DERIVED",
+    "conflicts": [],
+    "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is a definitional differential equation, not a proposition that can be proven from premises. Encoding it in Z3 would either trivially restate the definition as an assumption or check only consistency, which does not verify the definitional claim. The file's theorems (existence, asymptotic behavior, stability) are downstream consequences, not the main Statement."
+  },
+  "grade": {
+    "match_scope": null,
+    "warrant": "unverified",
+    "outcome": null,
+    "canon_status": "open",
+    "note": "No holds/fails call manufactured for an untested main claim.",
+    "match_scope_applicable": false,
+    "assessed_claim_id": "D19.4::main"
+  },
+  "canon_rubric": {
+    "node": "D19.4",
+    "bin": "UNCHECKED",
+    "grade": {
+      "match_scope": null,
+      "warrant": "unverified",
+      "outcome": null,
+      "canon_status": "open",
+      "note": "No holds/fails call manufactured for an untested main claim.",
+      "match_scope_applicable": false,
+      "assessed_claim_id": "D19.4::main"
+    },
+    "criteria": {
+      "address": true,
+      "grade": false,
+      "receipt": false,
+      "ruling_authority": false,
+      "no_unresolved_conflict": false
+    },
+    "score": 1,
+    "meets_all_five": false,
+    "missing": [
+      "grade",
+      "receipt",
+      "ruling_authority",
+      "no_unresolved_conflict"
+    ],
+    "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+    "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+    "proposal_only": true
+  },
+  "follow_up_review": {
+    "proposal_only": true,
+    "soundness_row": {
+      "node": "D19.4",
+      "bin": "UNCHECKED",
+      "scope": "No holds/fails call manufactured for an untested main claim.",
+      "premises": [],
+      "receipt": [
+        "sources/z3/03_PROMISING/results.json"
+      ],
+      "denial_cost": null,
+      "what_makes_checkable": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is a definitional differential equation, not a proposition that can be proven from premises. Encoding it in Z3 would either trivially restate the definition as an assumption or check only consistency, which does not verify the definitional claim. The file's theorems (existence, asymptotic behavior, stability) are downstream consequences, not the main Statement.",
+      "canon_status": "open",
+      "conflicts": [],
+      "assessment_target": "No holds/fails call manufactured for an untested main claim.",
+      "main_statement": "Grace can be modeled as evolving by an external divine source minus natural decay plus a faith-consciousness feedback term.",
+      "proposal_only": true,
+      "lead_summary": {
+        "OBSOLETE": 3
+      },
+      "remaining_lead_ids": [],
+      "strength": "Conditional",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "D19.4::main"
+      },
+      "scope_warning": "Bin assesses the named target only; neither bundled claims nor domain identification inherit its proof. A written explanation is recorded as support at its source status."
+    },
+    "canon_rubric": {
+      "node": "D19.4",
+      "bin": "UNCHECKED",
+      "grade": {
+        "match_scope": null,
+        "warrant": "unverified",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "No holds/fails call manufactured for an untested main claim.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "D19.4::main"
+      },
+      "criteria": {
+        "address": true,
+        "grade": false,
+        "receipt": false,
+        "ruling_authority": false,
+        "no_unresolved_conflict": false
+      },
+      "score": 1,
+      "meets_all_five": false,
+      "missing": [
+        "grade",
+        "receipt",
+        "ruling_authority",
+        "no_unresolved_conflict"
+      ],
+      "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+      "receipt_scope": "No holds/fails call manufactured for an untested main claim.",
+      "proposal_only": true
+    },
+    "leads": [
+      {
+        "lead_id": "LEAD-007",
+        "node": "D19.4",
+        "record": "AX-139",
+        "required_key": "faith as observer orientation",
+        "origin": "removed-only",
+        "input_line": 13,
+        "class": "OBSOLETE",
+        "definition_used": "Faith is participatory trust expressed in a personal response.",
+        "definition_status": "native definition supplied; formal bridge OPEN",
+        "supplier": null,
+        "evidence": {
+          "file": "C:\\Users\\David\\theophysics-read\\Spiritual_Terms_Atlas_CANONICAL.md",
+          "line": 674,
+          "text": "| Faith | Participatory trust expressed in a response without requiring exhaustive control or coercive sight. | PARTIAL; Armor family |"
+        },
+        "missing_or_reason": "The ruled composite composes D9.1 and A9.2; its current text keeps consent and standing separate from growth. It does not use a quantum observer-orientation variable. Remove that connector prerequisite only; retain consent and any future faith/measurement bridge separately.",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\D19_4_Law_IV_Grace_Dynamics.md",
+          "line": 80,
+          "text": "Law IV: The Grace Dynamics."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-139_D19.4.md"
+        ],
+        "supplied_at_recorded_warrant_only": false,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\03_PROMISING\\139_D19.4_Law-IV-Definition.z3spec.json",
+            "checkable": false,
+            "component": "Law IV Grace Dynamics definition (ODE dG/dt = G_ext - gamma_G G + beta F C)",
+            "faithfulness_note": "The main claim is a definitional differential equation, not a proposition that can be proven from premises. Encoding it in Z3 would either trivially restate the definition as an assumption or check only consistency, which does not verify the definitional claim. The file's theorems (existence, asymptotic behavior, stability) are downstream consequences, not the main Statement.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "UNDEFINED",
+        "follow_up_evidence": [
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\15_Ontological_Taxonomy_Session_Synthesis.md",
+            "line": 33,
+            "end_line": 33,
+            "text": "| Faith | Boundary | Ascending (↑) | κ (Alignment) | Endogenous orientation; agent-driven coupling |",
+            "sha256": "771416145cb2d13fe667c2120a041ed802a6cdf8c66a4de93579ba452479f6e2"
+          },
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\D19_4_Law_IV_Grace_Dynamics.md",
+            "line": 25,
+            "end_line": 29,
+            "text": "## Current scope\n\nCompose the grace operator definition with its proposed non-unitary form. Keep consent and legal-standing reset separate from sanctification growth; no matrix alone supplies consent.\n\n## Components",
+            "sha256": "071eee88957af4397ba0d5dd1e07520f0211bd39ae8da519e4d733952c79a394"
+          }
+        ],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "fuller_source_note": "Native faith is explicitly named as agent-driven alignment κ. That recovers its intended meaning; it does not identify κ with a quantum observer variable. The revised D19.4 scope does not require that observer identification.",
+        "closes_dependency": true,
+        "formal_proof_added_by_this_classification": false
+      },
+      {
+        "lead_id": "LEAD-155",
+        "node": "D19.4",
+        "record": "AX-139",
+        "required_key": "coherence measurable operationalizable",
+        "origin": "no-supplier",
+        "input_line": 167,
+        "class": "OBSOLETE",
+        "definition_used": "An observation protocol must map declared observations to the selected coherence quantity.",
+        "definition_status": "OPEN operational bridge",
+        "supplier": null,
+        "evidence": {
+          "file": "C:\\Users\\David\\theophysics-read\\Spiritual_Terms_Atlas_CANONICAL.md",
+          "line": 702,
+          "text": "C-info, C-moral, and C-spiritual must be specified separately whenever a requirement says “coherence.” Neither equal spelling nor a shared scalar establishes a supplier across these domains. These definitions do not supply the missing operational measurements, semantic bridge, or theological premises."
+        },
+        "missing_or_reason": "The current composite concerns the qualified operator/standing model and explicitly separates growth. A universal numeric coherence estimator is not a prerequisite for that algebraic claim; it remains necessary for claims of measured growth.",
+        "scope_note": "",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\D19_4_Law_IV_Grace_Dynamics.md",
+          "line": 80,
+          "text": "Law IV: The Grace Dynamics."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-139_D19.4.md"
+        ],
+        "supplied_at_recorded_warrant_only": false,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\03_PROMISING\\139_D19.4_Law-IV-Definition.z3spec.json",
+            "checkable": false,
+            "component": "Law IV Grace Dynamics definition (ODE dG/dt = G_ext - gamma_G G + beta F C)",
+            "faithfulness_note": "The main claim is a definitional differential equation, not a proposition that can be proven from premises. Encoding it in Z3 would either trivially restate the definition as an assumption or check only consistency, which does not verify the definitional claim. The file's theorems (existence, asymptotic behavior, stability) are downstream consequences, not the main Statement.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "UNDEFINED",
+        "follow_up_evidence": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\D19_4_Law_IV_Grace_Dynamics.md",
+            "line": 25,
+            "end_line": 29,
+            "text": "## Current scope\n\nCompose the grace operator definition with its proposed non-unitary form. Keep consent and legal-standing reset separate from sanctification growth; no matrix alone supplies consent.\n\n## Components",
+            "sha256": "071eee88957af4397ba0d5dd1e07520f0211bd39ae8da519e4d733952c79a394"
+          }
+        ],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "closes_dependency": true,
+        "formal_proof_added_by_this_classification": false
+      },
+      {
+        "lead_id": "LEAD-156",
+        "node": "D19.4",
+        "record": "AX-139",
+        "required_key": "chi field equation of motion",
+        "origin": "no-supplier",
+        "input_line": 168,
+        "class": "OBSOLETE",
+        "definition_used": "The declared schematic χ dynamics are □χ + V'(χ) = J(χ).",
+        "definition_status": "declared schematic equation / AX_SCAFFOLD",
+        "supplier": null,
+        "evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\E2_1_Master_Equation_First_Form.md",
+          "line": 28,
+          "text": "□χ + V'(χ) = J(χ) — Klein-Gordon with self-interaction and source"
+        },
+        "missing_or_reason": "The current composite concerns the grace operator and its non-unitary form, not scalar-field evolution. A χ PDE is not required for this narrower current scope.",
+        "scope_note": "Only the schematic equation is supplied. V, J, domain, units, initial data, and a derivation from a specified action remain separate obligations.",
+        "receiver_evidence": {
+          "file": "C:\\theophysics\\OPUS\\AXIOMS\\D19_4_Law_IV_Grace_Dynamics.md",
+          "line": 80,
+          "text": "Law IV: The Grace Dynamics."
+        },
+        "connector_sheet": [
+          "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\INTERACTIONS_2026-10-25\\nodes\\AX-139_D19.4.md"
+        ],
+        "supplied_at_recorded_warrant_only": true,
+        "proposal_only": true,
+        "search_scope": "Corrected connector source-file catalog (active text separated from preserved merge archives), updated Atlas, native GRACE/FREE-CHOICE contracts, targeted October Lean statements and associated Z3 specifications. Finite local review, not a global nonexistence proof.",
+        "formal_receipts": [
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\OUTBOX\\Z3_CHECKS\\03_PROMISING\\139_D19.4_Law-IV-Definition.z3spec.json",
+            "checkable": false,
+            "component": "Law IV Grace Dynamics definition (ODE dG/dt = G_ext - gamma_G G + beta F C)",
+            "faithfulness_note": "The main claim is a definitional differential equation, not a proposition that can be proven from premises. Encoding it in Z3 would either trivially restate the definition as an assumption or check only consistency, which does not verify the definitional claim. The file's theorems (existence, asymptotic behavior, stability) are downstream consequences, not the main Statement.",
+            "scope": "Existing specification; not a new run or a blanket proof of this requirement."
+          }
+        ],
+        "previous_class": "WORDING",
+        "follow_up_evidence": [
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\05_Minimal_Chi_Action_Physical_Degrees_of_Freedom.md",
+            "line": 129,
+            "end_line": 129,
+            "text": "$$S_\\chi = \\int d^4x \\sqrt{-g} \\left[ \\frac{1}{2\\kappa_0}(1 + \\xi \\kappa_0 \\chi^2) R - \\frac{1}{2} g^{\\mu\\nu} \\partial_\\mu \\chi \\partial_\\nu \\chi - \\frac{1}{2} m_\\chi^2 \\chi^2 - \\frac{\\lambda}{4} \\chi^4 + \\mathcal{L}_{\\text{matter}} \\right]$$",
+            "sha256": "dff0212ac6174046ad9076b95ae203ee5793dad63a918be31cba3bea3ee3af8d"
+          },
+          {
+            "file": "C:\\Users\\David\\Documents\\faiththruphysics.com\\10_VAULTS\\_Theophysics_v5\\04_THEOPYHISCS\\[TX_A7.7] Consciousness\\05_Minimal_Chi_Action_Physical_Degrees_of_Freedom.md",
+            "line": 167,
+            "end_line": 167,
+            "text": "$$\\Box \\chi - m_\\chi^2 \\chi - \\lambda \\chi^3 + \\xi \\kappa_0 \\chi R = 0$$",
+            "sha256": "dff0212ac6174046ad9076b95ae203ee5793dad63a918be31cba3bea3ee3af8d"
+          },
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\D19_4_Law_IV_Grace_Dynamics.md",
+            "line": 25,
+            "end_line": 29,
+            "text": "## Current scope\n\nCompose the grace operator definition with its proposed non-unitary form. Keep consent and legal-standing reset separate from sanctification growth; no matrix alone supplies consent.\n\n## Components",
+            "sha256": "071eee88957af4397ba0d5dd1e07520f0211bd39ae8da519e4d733952c79a394"
+          },
+          {
+            "file": "C:\\theophysics\\OPUS\\AXIOMS\\D19_6_Law_VI_Coherence_Non-Increase.md",
+            "line": 25,
+            "end_line": 29,
+            "text": "## Current scope\n\nCompose the coherence definition with the conditional nonincrease claim. The allowed operation family, coherence metric and closed-boundary assumptions must be stated; no universal moral/spiritual nonincrease is imported from physics.\n\n## Components",
+            "sha256": "a88a9a1743e52fcae9654949fd3b964418f9b980dee50e07bfc816425873e3a2"
+          }
+        ],
+        "review_basis": "Earlier explicit semantic review retained; checked against current receiver evidence and any fuller-source attachment listed here. No new word-match supplier inference.",
+        "fuller_source_note": "The fuller draft supplies a concrete proposed equation in addition to E2.1’s schematic equation. These are distinct model versions, not interchangeable receipts.",
+        "closes_dependency": true,
+        "formal_proof_added_by_this_classification": false
+      }
+    ],
+    "current_ruling": {
+      "decision": "composite",
+      "components": [
+        "D9.1",
+        "A9.2"
+      ]
+    },
+    "ruling_scope": "Existing disposition only; no new canon admission.",
+    "receipt_attachments": [],
+    "Q15_follow_up": []
+  }
+}

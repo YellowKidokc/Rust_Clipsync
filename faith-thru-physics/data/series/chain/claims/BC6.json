@@ -1,0 +1,51 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "BC6",
+ "claim_id": "BC6",
+ "type": "CLAIM",
+ "text": "Permanent defeat of entropy/eternal sustained coherence requires an infinite energy source, identified with God/Logos.",
+ "source": {
+  "file": "source/nodes/BC6.yaml",
+  "quote": "Permanent defeat of entropy/eternal sustained coherence requires an infinite energy source, identified with God/Logos.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "boundary",
+  "composition_level": 1,
+  "claim_role": "assumption",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "admitted",
+  "warrant_premise": "Thermodynamic premise: eternal sustained created coherence or eternal life requires continuous external negentropy input.; Thermodynamic premise: sustaining coherence forever requires an actually infinite available energy source or capacity, not merely an infinite integral of work over infinite time.; Bridge premise: the God/Logos of A0 is the relevant external infinite energy source and can supply indefinite negentropy through grace coupling.; Empirical/model premise: the universe is thermodynamically open to this source and heat death would otherwise be final.; Mathematical/model premise: the chi-field energy equation and P_Logos(t) coupling are valid.",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/BC6.yaml#BC6::main (Axiom HTML Update, 2026-10-28)",
+  "note": "Holds as an expressly adopted premise, not established as an empirical or premise-free theorem."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "BC6",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "Thermodynamic premise: eternal sustained created coherence or eternal life requires continuous external negentropy input.",
+  "Thermodynamic premise: sustaining coherence forever requires an actually infinite available energy source or capacity, not merely an infinite integral of work over infinite time.",
+  "Bridge premise: the God/Logos of A0 is the relevant external infinite energy source and can supply indefinite negentropy through grace coupling.",
+  "Empirical/model premise: the universe is thermodynamically open to this source and heat death would otherwise be final.",
+  "Mathematical/model premise: the chi-field energy equation and P_Logos(t) coupling are valid."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "BC6/Q15/0078",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at inferring that God/Logos is an infinite energy source or capacity from A0's grounding and P-IMAGO's analogy; P-IMAGO bars moving from analogy to physical laws or quantities, and A0 alone does not specify infinite physical energy or power."
+  }
+ ],
+ "denial_cost": "The chosen infinite-source boundary model and source-specific grace/soul/cosmic applications lose that support. The formal Wall theorem and its BC6-free invariant implication survive.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

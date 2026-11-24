@@ -1,0 +1,53 @@
+{
+ "id": "D3.3",
+ "title": "D3.3 Interaction Lagrangian",
+ "lifecycle": "definition",
+ "tier": 4,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [
+  "A2.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main statement is a definitional/conceptual assertion rather than a theorem with checkable premises and conclusion. The file gives multiple non-identical schematic formulas (minimal Yukawa form, extended all-orders form, and Lowe Coherence Lagrangian) and uses unformalized notions such as 'Logos field', 'meaning', and 'all fundamental fields'. Encoding any one equation would either be a tautological definition or would substitute a side formula for the main claim.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "D3.3/Q15/0025",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the move from general creaturely order/relation to a determinate physical Lagrangian coupling; no premise specifies χ, ψ, or the interaction term."
+  },
+  {
+   "id": "D3.3/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Definition of the interaction Lagrangian coupling the Logos field χ to matter fields ψ",
+   "reason": "The main statement is a definitional/conceptual assertion rather than a theorem with checkable premises and conclusion. The file gives multiple non-identical schematic formulas (minimal Yukawa form, extended all-orders form, and Lowe Coherence Lagrangian) and uses unformalized notions such as 'Logos field', 'meaning', and 'all fundamental fields'. Encoding any one equation would either be a tautological definition or would substitute a side formula for the main claim."
+  }
+ ],
+ "ports": [],
+ "main": "D3.3",
+ "claims": [
+  "D3.3",
+  "D3.3::split-01",
+  "D3.3::split-02",
+  "D3.3::split-03",
+  "D3.3::split-04"
+ ],
+ "source": "source/nodes/D3.3.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

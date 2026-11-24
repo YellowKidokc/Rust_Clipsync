@@ -1,0 +1,116 @@
+{
+ "id": "FREE-CHOICE-001",
+ "title": "FREE-CHOICE-001",
+ "lifecycle": "working_proposal",
+ "tier": null,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [],
+ "proposed": [
+  "M-FREEDOM"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "CONDITIONAL",
+  "named_premises": [
+   "FP-ENABLED, FP-AUTHOR and FP-ALTERNATIVES; two permissions alone do not establish two causal realizations."
+  ],
+  "denial_cost": null,
+  "checkable_by": null,
+  "receipt": [
+   "FreeChoice.permissions_do_not_force_two_realizations",
+   "sources/native/FREE_CHOICE_001/FreeChoice.lean"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "FREE-CHOICE-001/Q15/0246",
+   "kind": "known countermodel",
+   "status": "FATAL",
+   "scope": "permission implies causal alternative realization",
+   "reason": "A deterministic policy can realize just one of two permitted choices. The native freedom premise remains admitted, not refuted by that countermodel."
+  }
+ ],
+ "ports": [
+  {
+   "agent": [
+    "Spirit"
+   ],
+   "boundary": "Calls existing A; person cannot invoke it as self-enabling.",
+   "input": {
+    "state": "GRACE-001 State at -1"
+   },
+   "output": {
+    "state": "phase 0, closed and not accepted"
+   },
+   "evidence": [
+    "../GRACE_001/grace_model.py:awaken",
+    "Grace v1 BC2"
+   ]
+  },
+  {
+   "agent": [
+    "person"
+   ],
+   "boundary": "Enabled phase 0 only; both choices are permitted; actual alternatives require FP-ALTERNATIVES.",
+   "input": {
+    "state": "same GRACE-001 State at 0",
+    "choice": "explicit accept/refuse from person"
+   },
+   "output": {
+    "state": "accepted/open/+1 OR refused/closed/-1",
+    "sigma_response": "int +1/-1"
+   },
+   "evidence": [
+    "free_choice.py:choose",
+    "FreeChoice.lean:both_permitted,distinct_responses",
+    "M-FREEDOM"
+   ]
+  },
+  {
+   "agent": [
+    "person supplies R; Father through Son restores"
+   ],
+   "boundary": "No unconditional source of free choice is exported; no bypass of K or G guards.",
+   "input": {
+    "state": "output of RESPONSE"
+   },
+   "output": {
+    "accepted": "state satisfies existing GRACE R consent fields; K and other G conditions still required",
+    "refused": "G rejects"
+   },
+   "evidence": [
+    "../GRACE_001/grace_model.py:cost,restore",
+    "validation_results.json"
+   ]
+  }
+ ],
+ "main": "FREE-CHOICE-001",
+ "claims": [
+  "FREE-CHOICE-001",
+  "FREE-CHOICE-001::native-1",
+  "FREE-CHOICE-001::native-2",
+  "FREE-CHOICE-001::native-3",
+  "FREE-CHOICE-001::native-4",
+  "FREE-CHOICE-001::native-5",
+  "FREE-CHOICE-001::native-6",
+  "FREE-CHOICE-001::native-7",
+  "FREE-CHOICE-001::native-8",
+  "FREE-CHOICE-001::native-9",
+  "FREE-CHOICE-001::native-10",
+  "FREE-CHOICE-001::native-11",
+  "FREE-CHOICE-001::native-12",
+  "FREE-CHOICE-001::native-13",
+  "FREE-CHOICE-001::native-14",
+  "FREE-CHOICE-001::native-15",
+  "FREE-CHOICE-001::native-16",
+  "FREE-CHOICE-001::receipt::Law1GeodesicAndRocket.Iso.pres_regime",
+  "FREE-CHOICE-001::receipt::Law1GeodesicAndRocket.all_three_isomorphic",
+  "FREE-CHOICE-001::receipt::Law1GeodesicAndRocket.fake_not_iso_grace",
+  "FREE-CHOICE-001::receipt::Law1GeodesicAndRocket.fake_not_iso_rocket"
+ ],
+ "source": "source/nodes/FREE-CHOICE-001.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

@@ -1,0 +1,61 @@
+{
+ "id": "D3.2",
+ "title": "D3.2 Self-Interaction Potential",
+ "lifecycle": "definition",
+ "tier": 4,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [
+  "A2.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file is explicitly a Definition. Its title and Statement section introduce V(χ) as the self-interaction potential and interpret it as determining equilibrium attractors, but this is not stated as a precise truth-valued theorem. The core equations give illustrative polynomial/Mexican-hat forms and minima, but they contain sign-convention ambiguity (μ² positive vs negative) and the broader claim that V determines coherence equilibrium requires unformalized dynamics and coherence definitions. E",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "D3.2/Q15/0024",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops when moving from A0's divine self-knowledge/activity and P-IMAGO's analogy of being to a formal self-interaction potential V(χ) and its entropy/consciousness/QCD/GR mappings; A0 and P-IMAGO do not supply that equation, measurement, or necessity."
+  },
+  {
+   "id": "D3.2/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Definition of the Logos field self-interaction potential V(χ) and its role in selecting equilibrium coherence states",
+   "reason": "The file is explicitly a Definition. Its title and Statement section introduce V(χ) as the self-interaction potential and interpret it as determining equilibrium attractors, but this is not stated as a precise truth-valued theorem. The core equations give illustrative polynomial/Mexican-hat forms and minima, but they contain sign-convention ambiguity (μ² positive vs negative) and the broader claim that V determines coherence equilibrium requires unformalized dynamics and coherence definitions. Encoding only a Mexican-hat minimum calculation would substitute a side calculation for the main definitional/interpretive claim."
+  }
+ ],
+ "ports": [],
+ "main": "D3.2",
+ "claims": [
+  "D3.2",
+  "D3.2::split-01",
+  "D3.2::split-02",
+  "D3.2::split-03",
+  "D3.2::split-04",
+  "D3.2::split-05",
+  "D3.2::split-06",
+  "D3.2::split-07",
+  "D3.2::split-08",
+  "D3.2::split-09",
+  "D3.2::split-10",
+  "D3.2::split-11",
+  "D3.2::split-12"
+ ],
+ "source": "source/nodes/D3.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

@@ -1,0 +1,51 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "JUSTIFICATION-RESET-BRIDGE",
+ "claim_id": "JUSTIFICATION-RESET-BRIDGE",
+ "type": "CLAIM",
+ "text": "authorized, eligibility-gated legal standing update under the declared encoding",
+ "source": {
+  "file": "source/nodes/JUSTIFICATION-RESET-BRIDGE.yaml",
+  "quote": "authorized, eligibility-gated legal standing update under the declared encoding",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "boundary",
+  "composition_level": 1,
+  "claim_role": "conjecture",
+  "register": "formal"
+ },
+ "grade": {
+  "match_scope": "states_and_moves",
+  "warrant": "conditionally_proved",
+  "warrant_premise": "Authorized native declaration; eligibility gate preserved; only the binary-standing quotient maps bijectively to pure basis states.",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/JUSTIFICATION-RESET-BRIDGE.yaml#JUSTIFICATION-RESET-BRIDGE::main (Axiom HTML Update, 2026-10-28)",
+  "note": "Outcome holds in the declared conditional scope, not unconditionally in the world."
+ },
+ "receipts": [
+  {
+   "kind": "source",
+   "ref": "sources/native/JUSTIFICATION_RESET_BRIDGE/bridge_record.json"
+  }
+ ],
+ "neighbors": [
+  {
+   "id": "JUSTIFICATION-001",
+   "edge": "rests_on",
+   "proposed": true
+  },
+  {
+   "id": "BINARY-RESET-001",
+   "edge": "rests_on",
+   "proposed": true
+  }
+ ],
+ "node": "JUSTIFICATION-RESET-BRIDGE",
+ "is_main": true,
+ "strength": "Conditional",
+ "obstructions": [],
+ "generated_by": "proposed finer classification; no vocabulary change applied"
+}

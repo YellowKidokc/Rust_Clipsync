@@ -1,0 +1,65 @@
+{
+ "id": "T12.2",
+ "title": "T12.2 Hell As Low-Φ Attractor",
+ "lifecycle": "merged",
+ "tier": 11,
+ "context_parent": "A0",
+ "merged_into": "D12.2",
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. A faithful Z3 encoding would require continuous-time differential equations, differentiability/continuity of Gamma and D, limits as t tends to infinity, and Lyapunov/asymptotic stability over a real phase space. Z3/SMT cannot natively express these analytic notions. A finite-state or finite-step discretization would replace asymptotic convergence with eventual finite reachability, which is a different claim, so the main theorem is marked non-checkable rather than encoding an unfaithful simplifie",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "T12.2/Q15/0126",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "duplicate node identity",
+   "reason": "David merged the source into D12.2; retain its claim and provenance at that destination. Warrant is not upgraded."
+  },
+  {
+   "id": "T12.2/Q15/0127",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the inference from 'vice is defective participation in God/goodness' to 'vice produces a quantifiable decrease in Phi and a stable low-Phi attractor'; P-IMAGO supplies no Phi metric, dynamics, stability theorem, or empirical identification."
+  },
+  {
+   "id": "T12.2/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Hell as low-Phi attractor: sigma = -1 trajectories asymptote to minimal coherence epsilon",
+   "reason": "A faithful Z3 encoding would require continuous-time differential equations, differentiability/continuity of Gamma and D, limits as t tends to infinity, and Lyapunov/asymptotic stability over a real phase space. Z3/SMT cannot natively express these analytic notions. A finite-state or finite-step discretization would replace asymptotic convergence with eventual finite reachability, which is a different claim, so the main theorem is marked non-checkable rather than encoding an unfaithful simplified version."
+  }
+ ],
+ "ports": [],
+ "main": "T12.2",
+ "claims": [
+  "T12.2",
+  "T12.2::split-01",
+  "T12.2::split-02",
+  "T12.2::split-03",
+  "T12.2::split-04",
+  "T12.2::split-05",
+  "T12.2::split-06",
+  "T12.2::split-07",
+  "T12.2::split-08",
+  "T12.2::split-09",
+  "T12.2::split-10",
+  "T12.2::split-11"
+ ],
+ "source": "source/nodes/T12.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

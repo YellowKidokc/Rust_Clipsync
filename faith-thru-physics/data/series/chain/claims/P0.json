@@ -1,0 +1,65 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "P0",
+ "claim_id": "P0",
+ "type": "CLAIM",
+ "text": "Something exists rather than nothing; existence is actual, not illusory.",
+ "source": {
+  "file": "source/nodes/P0.yaml",
+  "quote": "Something exists rather than nothing; existence is actual, not illusory.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A metaphysical premise that existence is an active assertion against the void; A theory of information identifying the something/nothing distinction with a 1-bit state; Standard nonempty-domain semantics for first-order and modal logic; Shannon information theory; Quantum field theory; Big Bang cosmology and thermodynamics; A principle that any denial presupposes existence",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/P0.yaml#P0::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A1.1",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "P0",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A metaphysical premise that existence is an active assertion against the void",
+  "A theory of information identifying the something/nothing distinction with a 1-bit state",
+  "Standard nonempty-domain semantics for first-order and modal logic",
+  "Shannon information theory",
+  "Quantum field theory",
+  "Big Bang cosmology and thermodynamics",
+  "A principle that any denial presupposes existence"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "P0/Q15/0207",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "duplicate node identity",
+   "reason": "David merged the source into A1.1; retain its claim and provenance at that destination. Warrant is not upgraded."
+  },
+  {
+   "id": "P0/Q15/0208",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "A0 gives bare existence; the derivation fails when the record turns that into an active-assertion metaphysics, a primordial information bit, a modal nonempty-world proof, Shannon/entropy consequences, or physical and cosmological claims."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is ontological and meta-logical. Z3/FOL assumes a nonempty domain, so encoding ∃x(x ≠ ∅) would either be trivially true under standard semantics or merely assert the existence of a nonempty set in an unspecified set-theoretic universe. The file does not provide a precise first-order theory of 'Something', 'Nothing', absolute non-existence, or the empty set sufficient to avoid assuming the intended conclusion.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

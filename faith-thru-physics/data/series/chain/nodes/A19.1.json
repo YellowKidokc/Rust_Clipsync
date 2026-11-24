@@ -1,0 +1,62 @@
+{
+ "id": "A19.1",
+ "title": "A19.1 Master Equation Integration",
+ "lifecycle": "merged",
+ "tier": 13,
+ "context_parent": "A0",
+ "merged_into": "FINAL-1",
+ "proposal_only": true,
+ "mode": "HY_EVIDENCE",
+ "declared": [
+  "E2.1",
+  "E3.1"
+ ],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file states a hypothesis and gives a defining expression, but it does not provide a precise mathematical criterion for 'integration,' 'unified framework,' or any theorem to prove. Encoding the formula alone would only restate a definition, not check a substantive entailment.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "A19.1/Q15/0155",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "duplicate node identity",
+   "reason": "David merged the source into FINAL-1; retain its claim and provenance at that destination. Warrant is not upgraded."
+  },
+  {
+   "id": "A19.1/Q15/0156",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops when the record moves from 'creation has a unified and analogical ground in God' to 'all fundamental dynamics are represented by this specific ten-variable Master Equation'; neither A0 nor P-IMAGO licenses that formal or physical step."
+  },
+  {
+   "id": "A19.1/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Master Equation integration as a single unified Lagrangian framework for the ten Orthogonal Primitives",
+   "reason": "The file states a hypothesis and gives a defining expression, but it does not provide a precise mathematical criterion for 'integration,' 'unified framework,' or any theorem to prove. Encoding the formula alone would only restate a definition, not check a substantive entailment."
+  }
+ ],
+ "ports": [],
+ "main": "A19.1",
+ "claims": [
+  "A19.1",
+  "A19.1::split-01",
+  "A19.1::split-02",
+  "A19.1::split-03",
+  "A19.1::split-04",
+  "A19.1::split-05",
+  "A19.1::split-06",
+  "A19.1::split-07"
+ ],
+ "source": "source/nodes/A19.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

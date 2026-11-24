@@ -1,0 +1,59 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D19.6",
+ "claim_id": "D19.6",
+ "type": "CLAIM",
+ "text": "Closed systems cannot increase their own coherence; entropy increases or remains constant.",
+ "source": {
+  "file": "source/nodes/D19.6.yaml",
+  "quote": "Closed systems cannot increase their own coherence; entropy increases or remains constant.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "operator",
+  "composition_level": 4,
+  "claim_role": "definition",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "The empirical/statistical Second Law of Thermodynamics or an equivalent thermodynamic entropy postulate; A precise definition and dynamics for the chi-field; Separate warrants for extending thermodynamic entropy to grace, moral entropy, and theological mappings",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D19.6.yaml#D19.6::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "T3.1",
+   "edge": "rests_on"
+  },
+  {
+   "id": "D3.1",
+   "edge": "rests_on",
+   "proposed": true
+  }
+ ],
+ "node": "D19.6",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "The empirical/statistical Second Law of Thermodynamics or an equivalent thermodynamic entropy postulate",
+  "A precise definition and dynamics for the chi-field",
+  "Separate warrants for extending thermodynamic entropy to grace, moral entropy, and theological mappings"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "D19.6/Q15/0146",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the inference from P-IMAGO's general analogy of creaturely order/coherence to the specific physical/informational law dS_chi/dt >= 0; P-IMAGO explicitly excludes physical laws, equations, constants, and measurements."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

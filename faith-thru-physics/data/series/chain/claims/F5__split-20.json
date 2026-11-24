@@ -1,0 +1,34 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "F5",
+ "claim_id": "F5::split-20",
+ "type": "CLAIM",
+ "text": "The mathematical theorem proof establishes that optimal kindness allocates help where marginal coherence transfer per cost is highest.",
+ "source": {
+  "file": "source/nodes/F5.yaml",
+  "quote": "The mathematical theorem proof establishes that optimal kindness allocates help where marginal coherence transfer per cost is highest.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/F5.yaml#F5::split-20 (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "F5",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+ "obstructions": [],
+ "generated_by": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+}

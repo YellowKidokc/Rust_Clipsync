@@ -1,0 +1,46 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "P9.5",
+ "claim_id": "P9.5::z3-conditional-component",
+ "type": "CLAIM",
+ "text": "For every soul with positive consciousness measure Φ, there exists a positive coupling potential κ such that the grace operator is accessible (non-zero action) via voluntary coupling.",
+ "source": {
+  "file": "source/nodes/P9.5.yaml",
+  "quote": "For every soul with positive consciousness measure Φ, there exists a positive coupling potential κ such that the grace operator is accessible (non-zero action) via voluntary coupling.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "theorem",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "conditionally_proved",
+  "warrant_premise": "For every soul, if its consciousness measure Φ is positive, then its self χ-field coupling is non-zero.; For every soul, if its self χ-field coupling is non-zero, then the coupling potential κ is positive.; For every soul, if its self χ-field coupling is non-zero, then the grace operator has non-zero action/accessibility for that soul.; The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge.",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/P9.5.yaml#P9.5::z3-conditional-component (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [
+  {
+   "kind": "z3",
+   "ref": "sources/z3/03_PROMISING/results.json"
+  }
+ ],
+ "neighbors": [],
+ "node": "P9.5",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Reported Z3 encoded component; domain bridge remains unverified; this is not a new solver run.",
+ "conditional_premises": [
+  "For every soul, if its consciousness measure Φ is positive, then its self χ-field coupling is non-zero.",
+  "For every soul, if its self χ-field coupling is non-zero, then the coupling potential κ is positive.",
+  "For every soul, if its self χ-field coupling is non-zero, then the grace operator has non-zero action/accessibility for that soul.",
+  "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+ ],
+ "obstructions": [],
+ "generated_by": "proposal only"
+}

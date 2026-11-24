@@ -1,0 +1,52 @@
+{
+ "id": "U2",
+ "title": "U2 Decoherence Universal",
+ "lifecycle": "universal",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "T3.1"
+ ],
+ "proposed": [
+  "T3.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "U2/Q15/0190",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the leap from P-IMAGO's general analogy of creaturely participation to a specific quantum process and then to an identification of decoherence with the Fall/grace."
+  }
+ ],
+ "ports": [],
+ "main": "U2",
+ "claims": [
+  "U2",
+  "U2::split-01",
+  "U2::split-02",
+  "U2::split-03",
+  "U2::split-04",
+  "U2::split-05",
+  "U2::split-06",
+  "U2::split-07",
+  "U2::split-08",
+  "U2::split-09",
+  "U2::split-10",
+  "U2::split-11",
+  "U2::split-12"
+ ],
+ "source": "source/nodes/U2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

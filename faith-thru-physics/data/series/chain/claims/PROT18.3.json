@@ -1,0 +1,61 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "PROT18.3",
+ "claim_id": "PROT18.3",
+ "type": "CLAIM",
+ "text": "A protocol can test for a distinct grace/negentropy population by asking whether measured coherence is bimodally rather than unimodally Gaussian distributed.",
+ "source": {
+  "file": "source/nodes/PROT18.3.yaml",
+  "quote": "A protocol can test for a distinct grace/negentropy population by asking whether measured coherence is bimodally rather than unimodally Gaussian distributed.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "observable",
+  "composition_level": 1,
+  "claim_role": "empirical_hypothesis",
+  "register": "embodied"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "Grace acts as a negentropy/order input affecting measured coherence.; Natural baseline coherence is Gaussian/unimodal absent grace.; Grace reception can be indexed by prayer, meditation, ritual, or reported spiritual experience.; EEG, HRV, and psychological coherence measures are valid and convergent.; Bimodality statistics can separate grace effects from confounds with N > 1000.; A distinct grace-receiving population should yield a higher-coherence mode.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/PROT18.3.yaml#PROT18.3::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "D9.1",
+   "edge": "rests_on"
+  },
+  {
+   "id": "T3.1",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "PROT18.3",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "Grace acts as a negentropy/order input affecting measured coherence.",
+  "Natural baseline coherence is Gaussian/unimodal absent grace.",
+  "Grace reception can be indexed by prayer, meditation, ritual, or reported spiritual experience.",
+  "EEG, HRV, and psychological coherence measures are valid and convergent.",
+  "Bimodality statistics can separate grace effects from confounds with N > 1000.",
+  "A distinct grace-receiving population should yield a higher-coherence mode."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "PROT18.3/Q15/0180",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the move from the general analogy of being (creaturely coherence reflects God) to the specific empirical prediction that grace produces a bimodal distribution of EEG/HRV/psychological coherence; P-IMAGO explicitly does not license that move."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

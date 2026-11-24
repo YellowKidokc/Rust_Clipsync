@@ -1,0 +1,55 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "F2",
+ "claim_id": "F2",
+ "type": "CLAIM",
+ "text": "Joy is the affective signature of increasing coherence or of stable high coherence.",
+ "source": {
+  "file": "source/nodes/F2.yaml",
+  "quote": "Joy is the affective signature of increasing coherence or of stable high coherence.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "observable",
+  "composition_level": 1,
+  "claim_role": "empirical_hypothesis",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A precise definition and measurement of coherence C[χ].; A bridge premise that joy is the affective registration of coherence increase or sustained high coherence.; Empirical specification of α, β, C_threshold, and the neural/behavioral correlates.; Empirical confirmation of the field equations, operator forms, and phase-space predictions.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/F2.yaml#F2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "FRUIT-GEN",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "F2",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A precise definition and measurement of coherence C[χ].",
+  "A bridge premise that joy is the affective registration of coherence increase or sustained high coherence.",
+  "Empirical specification of α, β, C_threshold, and the neural/behavioral correlates.",
+  "Empirical confirmation of the field equations, operator forms, and phase-space predictions."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "F2/Q15/0196",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at identifying joy with a mathematical derivative/function of coherence: A0+P-IMAGO can at most allow an analogy of creaturely order/goodness to God, not a measurable C, constants, thresholds, field equations, or neural correlates."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The equation F_Joy = alpha dC/dt + beta C * 1_{C > C_threshold} is formal, but the Statement section uses it to define/operationalize affective joy and measurability. Z3 could encode the formula as a definition or axiom, but there is no non-definitional theorem in the title/Statement to prove. Checking derived properties such as non-negativity, boundedness, or discontinuity would be checking side theorems from later sections, not the main Statement. The phrase 'measurable as positive gradient of",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

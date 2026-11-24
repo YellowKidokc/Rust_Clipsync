@@ -1,0 +1,48 @@
+{
+ "id": "A5.2",
+ "title": "A5.2 Participatory Universe",
+ "lifecycle": "framework_commitment",
+ "tier": 6,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A5.1"
+ ],
+ "proposed": [
+  "A5.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "A5.2/Q15/0043",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails when moving from P-IMAGO's general creaturely participation/agency to the specific claim that observation or measurement actualizes physical reality; no physical, informational, or quantum-measurement premise is supplied."
+  }
+ ],
+ "ports": [],
+ "main": "A5.2",
+ "claims": [
+  "A5.2",
+  "A5.2::split-01",
+  "A5.2::split-02",
+  "A5.2::split-03",
+  "A5.2::split-04",
+  "A5.2::split-05",
+  "A5.2::split-06",
+  "A5.2::split-07",
+  "A5.2::split-08"
+ ],
+ "source": "source/nodes/A5.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

@@ -1,0 +1,49 @@
+{
+ "id": "FINAL-2",
+ "title": "Coherence Optimality",
+ "lifecycle": "optimality_theorem",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [
+  "A2.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim cannot be faithfully encoded in Z3 because the domain of possible reality-structures, the concrete coherence functional chi_global, the constraint set C, and the identity/representation of T_Theophysics are not formally specified. The file gives qualitative comparisons and analogies but no finite model, numerical measure, or precise mathematical constraints sufficient to state an optimization claim without inventing premises.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "FINAL-2/Q15/0234",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "domain application rather than mere notation",
+   "reason": "Maximal coherence is not automatically optimal without a specified objective function, so the optimality theorem is overclaimed."
+  },
+  {
+   "id": "FINAL-2/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Global coherence optimality of Theophysics among all constrained reality-structures",
+   "reason": "The main claim cannot be faithfully encoded in Z3 because the domain of possible reality-structures, the concrete coherence functional chi_global, the constraint set C, and the identity/representation of T_Theophysics are not formally specified. The file gives qualitative comparisons and analogies but no finite model, numerical measure, or precise mathematical constraints sufficient to state an optimization claim without inventing premises."
+  }
+ ],
+ "ports": [],
+ "main": "FINAL-2",
+ "claims": [
+  "FINAL-2"
+ ],
+ "source": "source/nodes/FINAL-2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

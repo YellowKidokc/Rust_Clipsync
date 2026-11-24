@@ -1,0 +1,54 @@
+{
+ "id": "SC-NEURAL",
+ "title": "Neural Scale Coherence",
+ "lifecycle": "scale_definition",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [
+  "A2.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "SC-NEURAL/Q15/0226",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "P-IMAGO can support only a general likeness/participation of creaturely consciousness in divine consciousness; it cannot entail the identity χ_N = consciousness, the chi-field, IIT Φ, gamma-band binding, or the threshold. The full record additionally overclaims empirical/mathematical models as solved or established."
+  }
+ ],
+ "ports": [],
+ "main": "SC-NEURAL",
+ "claims": [
+  "SC-NEURAL",
+  "SC-NEURAL::split-01",
+  "SC-NEURAL::split-02",
+  "SC-NEURAL::split-03",
+  "SC-NEURAL::split-04",
+  "SC-NEURAL::split-05",
+  "SC-NEURAL::split-06",
+  "SC-NEURAL::split-07",
+  "SC-NEURAL::split-08",
+  "SC-NEURAL::split-09",
+  "SC-NEURAL::split-10",
+  "SC-NEURAL::split-11",
+  "SC-NEURAL::split-12",
+  "SC-NEURAL::split-13",
+  "SC-NEURAL::split-14"
+ ],
+ "source": "source/nodes/SC-NEURAL.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

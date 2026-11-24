@@ -1,0 +1,70 @@
+{
+ "id": "FALS18.3",
+ "title": "BC Falsification",
+ "lifecycle": "falsification",
+ "tier": 16,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "HY_EVIDENCE",
+ "declared": [
+  "BC1",
+  "BC2",
+  "BC3",
+  "BC4a",
+  "BC5",
+  "BC6",
+  "BC7",
+  "BC8",
+  "BC9"
+ ],
+ "proposed": [
+  "BC1",
+  "BC2",
+  "BC3",
+  "BC4a",
+  "BC5",
+  "BC6",
+  "BC7",
+  "BC8",
+  "BC9"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "FALS18.3/Q15/0187",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "After A0+P-IMAGO, at the leap to chi-field physics and the eight BCs; no premise here yields BC1-BC8, operational satisfaction scores, or the comparative claim that only Christianity satisfies them."
+  }
+ ],
+ "ports": [],
+ "main": "FALS18.3",
+ "claims": [
+  "FALS18.3",
+  "FALS18.3::split-01",
+  "FALS18.3::split-02",
+  "FALS18.3::split-03",
+  "FALS18.3::split-04",
+  "FALS18.3::split-05",
+  "FALS18.3::split-06",
+  "FALS18.3::split-07",
+  "FALS18.3::split-08",
+  "FALS18.3::split-09",
+  "FALS18.3::split-10",
+  "FALS18.3::split-11",
+  "FALS18.3::split-12"
+ ],
+ "source": "source/nodes/FALS18.3.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

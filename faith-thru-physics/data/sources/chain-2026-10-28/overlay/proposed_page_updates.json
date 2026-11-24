@@ -1,0 +1,80 @@
+[
+  {
+    "id": "UPD-01",
+    "area": "Page data",
+    "status": "SOURCE_INVENTORY",
+    "action": "Use all 210 records (182 active, 28 retired/merged). Keep lifecycle visible and preserve the 2,634 separate claims. Do not treat record count as verified axiom count."
+  },
+  {
+    "id": "UPD-02",
+    "area": "A0 and hierarchy",
+    "status": "SOURCE_AND_PRESENTATION",
+    "action": "Show A0 as an admitted theological root. Distinguish context_parent, source_declared, proposed_primary_support and claim-scoped premises. Context is not a proven derivation."
+  },
+  {
+    "id": "UPD-03",
+    "area": "Graph edges",
+    "status": "VERIFIED_GRAPH_SCOPE",
+    "action": "Use the declared/proposed dependency graph for support exploration. Keep connector shared-key links in a separate relationship view. The connector giant loop is not the graph checked by the hierarchy audit."
+  },
+  {
+    "id": "UPD-04",
+    "area": "Dependencies",
+    "status": "UNRESOLVED",
+    "action": "Retain the 45 declared/proposed differences for reconciliation. A2.1 has A1.0 support in the v2.2 introduction but A1.3 in its tree. Do not silently choose a canonical repair."
+  },
+  {
+    "id": "UPD-05",
+    "area": "Awakening, response, restoration",
+    "status": "SCOPED_LEAN_Z3_RESULTS",
+    "action": "Separate existing flags from newly caused transitions. Conditional converse claims need their stated starting-state premises. Simplified Lean restoration does not include the full Python debt/history contract."
+  },
+  {
+    "id": "UPD-06",
+    "area": "FreeChoice operator",
+    "status": "PROPOSED_VERIFIED_ADAPTER",
+    "action": "The raw Lean respond operation is not internally permission-gated. BidirectionalContracts.guardedResponse is a proved candidate adapter. Existing Python permission enforcement was already present. Originals are unchanged."
+  },
+  {
+    "id": "UPD-07",
+    "area": "Growth and standing",
+    "status": "SCOPED_MODEL_RESULT",
+    "action": "Display repeatable coherence growth separately from idempotent legal standing. Growth saturates at the modeled ceiling; eligibility does not imply strict increase there."
+  },
+  {
+    "id": "UPD-08",
+    "area": "Sign, reset and isomorphism",
+    "status": "SCOPED_CORRECTIONS",
+    "action": "Unitarity alone does not preserve a fixed sign observable; retain the stated commutation premise. Distinguish reversible swap from noninvertible idempotent reset. Name restricted selection correspondences by their preserved operations, not full dynamics."
+  },
+  {
+    "id": "UPD-09",
+    "area": "Operators and boundaries",
+    "status": "COVERAGE_LIMIT",
+    "action": "Eleven records provide 19 prose ports; 199 records have no such ports in the reviewed node schema. This is a schema coverage gap, not proof that no definition exists in other sources. Candidate operator contracts remain proposals."
+  },
+  {
+    "id": "UPD-10",
+    "area": "Workbook coherence definitions",
+    "status": "PROPOSED_RECONCILIATION",
+    "action": "Attach workbook candidate definitions before declaring a term absent. Normalize the wave measure before asserting a [0,1] range. For dC/dt=G-Gamma*C, decay requires Gamma*C>G. Signal/noise ratio and signal-minus-noise require a transformation, not equality."
+  },
+  {
+    "id": "UPD-11",
+    "area": "Trinity and agent data",
+    "status": "UNRESOLVED_INTERPRETATION",
+    "action": "Preserve the proposed source/form/application and potential/pattern/actualization readings separately. Correct God-to-Father conflation and the Son/the Son alias split before interpreting counts. Three functional roles do not by themselves prove exactly three persons."
+  },
+  {
+    "id": "UPD-12",
+    "area": "Thresholds and external input",
+    "status": "UNRESOLVED_APPLICATION",
+    "action": "An equilibrium is not automatically a tipping threshold or hysteresis. Define each system boundary and distinguish ambient supply, new intervention and theological grace. Shared dynamical notation alone does not validate a universal coherence quantity."
+  },
+  {
+    "id": "UPD-13",
+    "area": "Outstanding verification",
+    "status": "OPEN",
+    "action": "Complete sentence-versus-math review; align the full Lean and Z3 state machines; define remaining operators and invariants. Narrow proved lemmas do not clear the 67-unchecked main-claim list."
+  }
+]

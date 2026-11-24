@@ -1,0 +1,63 @@
+{
+ "id": "A1.3",
+ "title": "A1.3 Distinction ENABLES Information",
+ "lifecycle": "derived",
+ "tier": 1,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "A1.0"
+ ],
+ "proposed": [
+  "A1.0"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "A1.3/Q15/0004",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "A0 + P-IMAGO can at most support created order/intelligibility/relation as a finite reflection of God; the derivation stops before 'distinguishability IS information' and before 'information is ontologically primitive.' The physical reductions and χ-field claims fail even earlier because P-IMAGO explicitly does not yield physical laws, numbers, equations, constants, or empirical findings."
+  },
+  {
+   "id": "A1.3/Q15/0005",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "v3 versus current-root source identity",
+   "reason": "v3 repairs/splits this concept, while current source file A1_3_Information_Primacy.md retains another title/claim version. Both source spans are preserved; do not equate them by identifier alone."
+  }
+ ],
+ "ports": [],
+ "main": "A1.3",
+ "claims": [
+  "A1.3",
+  "A1.3::split-01",
+  "A1.3::split-02",
+  "A1.3::split-03",
+  "A1.3::split-04",
+  "A1.3::split-05",
+  "A1.3::split-06",
+  "A1.3::split-07",
+  "A1.3::split-08",
+  "A1.3::split-09",
+  "A1.3::split-10",
+  "A1.3::split-11",
+  "A1.3::split-12",
+  "A1.3::split-13",
+  "A1.3::split-14",
+  "A1.3::split-15",
+  "A1.3::split-16"
+ ],
+ "source": "source/nodes/A1.3.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

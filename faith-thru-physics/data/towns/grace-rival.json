@@ -1,0 +1,357 @@
+{
+ "format": "town-agents/1",
+ "name": "Rival: people cross the Wall on their own",
+ "note": "The Grace town with BC1 removed: a person at the Wall can climb through on their own one time in ten, and enters Response awake without the Spirit's knock. Everything else is unchanged. This is not a claim anyone holds; it is here to show what that one rule changes. Operator W (witness, an observable assessed by a person) is not simulated: it reads assessments and changes no state.",
+ "source": "FOR_DESIGN_2026-10-25/03_ONE_NODE_BUILT_ALL_THE_WAY/node_contracts.json",
+ "params": [
+  {
+   "id": "accept",
+   "label": "How often an awakened person accepts",
+   "min": 0,
+   "max": 1,
+   "step": 0.05,
+   "value": 0.6
+  }
+ ],
+ "nodes": [
+  {
+   "id": "world",
+   "label": "The World",
+   "shape": "place",
+   "sub": "where everyone starts",
+   "x": 150,
+   "y": 320,
+   "front": "Anyone may be here.",
+   "back": "A path leads to the Wall."
+  },
+  {
+   "id": "wall",
+   "label": "The Wall",
+   "shape": "boundary",
+   "sub": "boundary · BC1 removed",
+   "x": 390,
+   "y": 320,
+   "front": "Anyone can walk up to it.",
+   "back": "In this rival town a person can climb it alone (rule CLIMB)."
+  },
+  {
+   "id": "resp",
+   "label": "Response",
+   "shape": "operator",
+   "sub": "operator R",
+   "x": 640,
+   "y": 170,
+   "front": "The Spirit's knock brings a person here, awake but not yet answered.",
+   "back": "The handle is on the inside: only the person opens it. Accept or refuse; both are allowed."
+  },
+  {
+   "id": "grow",
+   "label": "Growth",
+   "shape": "place",
+   "sub": "operator G",
+   "x": 820,
+   "y": 440,
+   "front": "Opens only after acceptance and a paid cost.",
+   "back": "Staying here, growth continues."
+  }
+ ],
+ "kinds": [
+  {
+   "kind": "spirit",
+   "label": "The Spirit",
+   "name": "The Spirit",
+   "count": 1,
+   "max": 3,
+   "start_node": "resp",
+   "color": "#7aa7f2"
+  },
+  {
+   "kind": "son",
+   "label": "The Son",
+   "name": "The Son",
+   "count": 1,
+   "max": 1,
+   "start_node": "grow",
+   "color": "#e8dcb0"
+  },
+  {
+   "kind": "father",
+   "label": "Father through Son",
+   "name": "Father through Son",
+   "count": 1,
+   "max": 1,
+   "start_node": "grow",
+   "color": "#c9b8f0"
+  },
+  {
+   "kind": "adversary",
+   "label": "The adversary",
+   "name": "The adversary",
+   "count": 2,
+   "max": 5,
+   "start_node": "world",
+   "color": "#8d8a84"
+  },
+  {
+   "kind": "person",
+   "label": "People",
+   "count": 6,
+   "max": 20,
+   "start_node": "world",
+   "start_state": "away",
+   "behaves": "yes",
+   "report": "yes",
+   "vars": {
+    "debt": 1,
+    "c_spiritual": 0.25,
+    "c_moral": 0.5
+   },
+   "each": "Person"
+  }
+ ],
+ "states": [
+  {
+   "kind": "person",
+   "state": "away",
+   "label": "Turned away (phase −1)",
+   "color": "#c0756b"
+  },
+  {
+   "kind": "person",
+   "state": "wake",
+   "label": "Awakened, deciding (phase 0)",
+   "color": "#e0a63e"
+  },
+  {
+   "kind": "person",
+   "state": "turn",
+   "label": "Accepted, door open (phase +1)",
+   "color": "#efd27a"
+  },
+  {
+   "kind": "person",
+   "state": "grow",
+   "label": "Growing",
+   "color": "#3cbfae"
+  }
+ ],
+ "rules": [
+  {
+   "id": "A",
+   "label": "Awaken",
+   "actor": "spirit",
+   "target": "person",
+   "when": "t.state == 'away'",
+   "then": "t.state = 'wake'",
+   "to": "resp",
+   "actor_to": "target",
+   "say": "The Spirit knocks from outside: {t} is awakened (−1 → 0). Nothing is forced.",
+   "handle": "outside",
+   "door": "The knock comes from outside. It wakes; it does not open the door or accept for the person.",
+   "warrant": "admitted (revelation)",
+   "receipt": "Grace001Consent.lean: only_spirit_awakens, awakening_not_alignment"
+  },
+  {
+   "id": "HES",
+   "label": "Press to keep the door shut",
+   "actor": "adversary",
+   "target": "person",
+   "from": "resp",
+   "when": "t.state == 'wake'",
+   "chance": "0.35",
+   "blocks": "R",
+   "actor_to": "target",
+   "always": "yes",
+   "say": "The adversary presses {t} to keep the door shut. {t} hesitates this step.",
+   "door": "Pressure delays the answer; it cannot answer for the person.",
+   "warrant": "modeling choice (not in the contract)",
+   "receipt": "none: added for the simulation"
+  },
+  {
+   "id": "D",
+   "label": "Corrupt",
+   "actor": "adversary",
+   "target": "person",
+   "when": "t.c_moral > 0.01 or t.c_spiritual > 0.01",
+   "chance": "0.2",
+   "then": "t.c_moral = round(t.c_moral / 2, 3); t.c_spiritual = round(t.c_spiritual / 2, 3)",
+   "actor_to": "target",
+   "say": "Corruption halves {t}'s moral and spiritual coherence. It cannot awaken, answer, pay or restore.",
+   "door": "Damage only: D cannot invoke A, R, K or G.",
+   "warrant": "admitted (revelation)",
+   "receipt": "node_contracts.json: operator D; grace_model.py: corrupt"
+  },
+  {
+   "id": "R",
+   "label": "Respond",
+   "actor": "person",
+   "from": "resp",
+   "when": "a.state == 'wake'",
+   "choice": "accept|refuse",
+   "lean": "accept",
+   "then_accept": "a.state = 'turn'",
+   "then_refuse": "a.state = 'away'",
+   "to_refuse": "world",
+   "say": "{a} answers from inside: {choice}.",
+   "handle": "inside",
+   "door": "The handle is on the inside. Only the person opens it; both answers are allowed from the same state.",
+   "warrant": "admitted (revelation); M-FREEDOM admitted",
+   "receipt": "Grace001Consent.lean: both_responses_permitted, only_person_responds"
+  },
+  {
+   "id": "K",
+   "label": "Pay the cost",
+   "actor": "son",
+   "target": "person",
+   "when": "t.debt > 0",
+   "then": "t.debt = 0",
+   "say": "The Son pays {t}'s cost. Payment does not open the door.",
+   "door": "May come before or after the answer; it never opens the door.",
+   "warrant": "admitted (revelation)",
+   "receipt": "Law5JusticeMercy.lean: cross_conserves, cross_unique"
+  },
+  {
+   "id": "ENTER",
+   "label": "Enter Growth",
+   "actor": "father",
+   "target": "person",
+   "from": "resp",
+   "when": "t.state == 'turn' and t.debt == 0",
+   "then": "t.state = 'grow'",
+   "to": "grow",
+   "say": "{t} enters Growth, which opens only after acceptance and a paid cost.",
+   "door": "Only after an accepted answer and a discharged cost.",
+   "warrant": "admitted (revelation)",
+   "receipt": "Grace001Consent.lean: refusal_blocks_restoration, response_then_restoration"
+  },
+  {
+   "id": "G",
+   "label": "Restore",
+   "actor": "father",
+   "target": "person",
+   "from": "grow",
+   "when": "t.state == 'grow' and t.c_spiritual < 1",
+   "then": "t.c_spiritual = round(min(1, (t.c_spiritual + 1) / 2), 3)",
+   "say": "Father through Son restores {t}: coherence grows.",
+   "warrant": "admitted (revelation)",
+   "receipt": "grace_model.py: restore"
+  },
+  {
+   "id": "WALK",
+   "label": "Walk to the Wall",
+   "actor": "person",
+   "from": "world",
+   "when": "a.state == 'away'",
+   "to": "wall",
+   "say": "{a} walks to the Wall to get through on their own.",
+   "warrant": "modeling choice",
+   "receipt": "none: movement only"
+  },
+  {
+   "id": "CLIMB",
+   "label": "Climb the Wall alone",
+   "actor": "person",
+   "from": "wall",
+   "when": "a.state == 'away'",
+   "chance": "0.1",
+   "then": "a.state = 'wake'",
+   "to": "resp",
+   "say": "{a} climbs the Wall alone and stands at Response, awake without a knock.",
+   "warrant": "rival rule (held by no one here)",
+   "receipt": "none: the rival hypothesis"
+  },
+  {
+   "id": "TRY",
+   "label": "Try the Wall alone",
+   "actor": "person",
+   "from": "wall",
+   "when": "a.state == 'away'",
+   "chance": "0.25",
+   "always": "yes",
+   "say": "{a} tries the Wall alone: no handle on the inside. Nothing opens.",
+   "handle": "inside",
+   "door": "BC1: at phase −1 the person cannot open the boundary.",
+   "warrant": "admitted (revelation)",
+   "receipt": "node_contracts.json: BC1"
+  },
+  {
+   "id": "BACK",
+   "label": "Go back to the World",
+   "actor": "person",
+   "from": "wall",
+   "when": "a.state == 'away'",
+   "to": "world",
+   "say": "{a} goes back to the World.",
+   "warrant": "modeling choice",
+   "receipt": "none: movement only"
+  },
+  {
+   "id": "P",
+   "label": "Process inside",
+   "actor": "person",
+   "when": "true",
+   "chance": "0.08",
+   "always": "yes",
+   "say": "{a} works it over inside. Nothing changes, and it gives no permission to restore.",
+   "door": "Internal only: P produces no restoration permission.",
+   "warrant": "admitted (revelation)",
+   "receipt": "node_contracts.json: operator P; Wall.lean: invariant_preserved"
+  },
+  {
+   "id": "ROAM",
+   "label": "Roam",
+   "actor": "adversary",
+   "when": "a.node != 'world'",
+   "to": "world",
+   "warrant": "modeling choice",
+   "receipt": "none: movement only"
+  }
+ ],
+ "report": [
+  {
+   "label": "Reached Growth by the end",
+   "measure": "end:state=grow"
+  },
+  {
+   "label": "Still turned away",
+   "measure": "end:state=away"
+  },
+  {
+   "label": "Awakened, still deciding",
+   "measure": "end:state=wake"
+  },
+  {
+   "label": "Accepted, waiting at the door",
+   "measure": "end:state=turn"
+  },
+  {
+   "label": "Average steps until Growth",
+   "measure": "avg_steps:state=grow"
+  },
+  {
+   "label": "Times the Spirit knocked",
+   "measure": "count:A"
+  },
+  {
+   "label": "Accepted",
+   "measure": "count:R=accept"
+  },
+  {
+   "label": "Refused",
+   "measure": "count:R=refuse"
+  },
+  {
+   "label": "Hesitations under the adversary",
+   "measure": "count:HES"
+  },
+  {
+   "label": "Times corruption damaged someone",
+   "measure": "count:D"
+  },
+  {
+   "label": "Anyone through the Wall alone",
+   "measure": "count:CLIMB",
+   "why_zero": "no rule lets a person cross the Wall on their own: BC1"
+  }
+ ]
+}

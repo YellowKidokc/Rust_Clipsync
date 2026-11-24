@@ -1,0 +1,61 @@
+{
+ "id": "A3.1",
+ "title": "A3.1 Order Requirement",
+ "lifecycle": "framework_commitment",
+ "tier": 4,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [
+  "A2.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. Not checkable as stated. The main claim uses undefined semantic terms ('meaning', 'semantic content', 'organized', 'random', 'code') with no precise formal domains or definitions. The formal lines are not a self-contained theorem: Kolmogorov complexity depends on an unspecified universal Turing machine, and the claim '∃ code C : S_organized iff |C| < |S_random|' is type-ambiguous. Encoding it would require inventing predicates/definitions not in the file, which would violate the instruction not ",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "A3.1/Q15/0020",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The inference from P-IMAGO's general God-grounded creaturely order/intelligibility to the specific necessary condition 'information must be organized to be meaningful'; A0+P-IMAGO do not supply that semantic necessity."
+  },
+  {
+   "id": "A3.1/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: A3.1 Order Requirement: organized information is necessary for meaning, and pure randomness has zero semantic content until coded/structured.",
+   "reason": "Not checkable as stated. The main claim uses undefined semantic terms ('meaning', 'semantic content', 'organized', 'random', 'code') with no precise formal domains or definitions. The formal lines are not a self-contained theorem: Kolmogorov complexity depends on an unspecified universal Turing machine, and the claim '∃ code C : S_organized iff |C| < |S_random|' is type-ambiguous. Encoding it would require inventing predicates/definitions not in the file, which would violate the instruction not to add premises."
+  }
+ ],
+ "ports": [],
+ "main": "A3.1",
+ "claims": [
+  "A3.1",
+  "A3.1::split-01",
+  "A3.1::split-02",
+  "A3.1::split-03",
+  "A3.1::split-04",
+  "A3.1::split-05",
+  "A3.1::split-06",
+  "A3.1::split-07",
+  "A3.1::split-08",
+  "A3.1::split-09",
+  "A3.1::split-10",
+  "A3.1::split-11",
+  "A3.1::split-12"
+ ],
+ "source": "source/nodes/A3.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

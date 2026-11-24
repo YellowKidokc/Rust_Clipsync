@@ -1,0 +1,49 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "SC-PHYSICAL",
+ "claim_id": "SC-PHYSICAL",
+ "type": "CLAIM",
+ "text": "Physical-scale structural, thermodynamic, and dynamical order, insofar as it is real, is a finite, dependent creaturely coherence reflecting the Creator's order.",
+ "source": {
+  "file": "source/nodes/SC-PHYSICAL.yaml",
+  "quote": "Physical-scale structural, thermodynamic, and dynamical order, insofar as it is real, is a finite, dependent creaturely coherence reflecting the Creator's order.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/SC-PHYSICAL.yaml#SC-PHYSICAL::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "SC-PHYSICAL",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "SC-PHYSICAL/Q15/0225",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops after the general claim that real creaturely order/coherence reflects God. It cannot move to the chi-field, χ_P=Σρ_i S_i, χ_P=e^(-ΔG/k_BT), the quantum-to-classical transformation, physical laws as the grammar of coherence, or coherence conservation without additional physical and empirical premises."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

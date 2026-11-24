@@ -1,0 +1,61 @@
+{
+ "id": "P9.5",
+ "title": "P9.5 Grace Available To All",
+ "lifecycle": "property",
+ "tier": 10,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "CONDITIONAL",
+  "named_premises": [
+   "For every soul, if its consciousness measure Φ is positive, then its self χ-field coupling is non-zero.",
+   "For every soul, if its self χ-field coupling is non-zero, then the coupling potential κ is positive.",
+   "For every soul, if its self χ-field coupling is non-zero, then the grace operator has non-zero action/accessibility for that soul.",
+   "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+  ],
+  "denial_cost": null,
+  "checkable_by": null,
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json",
+   "Universal grace availability: every conscious soul has a positive coupling potential κ and non-zero grace-operator accessibility."
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "P9.5/Q15/0105",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The core fails at the step from A0's goodness/love plus P-IMAGO's analogical participation to a universal grace-offer; the full record fails at the step asserting χ-field omnipresence and consciousness-as-χ-coupling as available premises."
+  }
+ ],
+ "ports": [],
+ "main": "P9.5",
+ "claims": [
+  "P9.5",
+  "P9.5::split-01",
+  "P9.5::split-02",
+  "P9.5::split-03",
+  "P9.5::split-04",
+  "P9.5::split-05",
+  "P9.5::split-06",
+  "P9.5::split-07",
+  "P9.5::split-08",
+  "P9.5::split-09",
+  "P9.5::split-10",
+  "P9.5::split-11",
+  "P9.5::split-12",
+  "P9.5::z3-conditional-component"
+ ],
+ "source": "source/nodes/P9.5.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

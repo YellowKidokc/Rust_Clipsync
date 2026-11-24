@@ -1,0 +1,54 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "P9.2",
+ "claim_id": "P9.2",
+ "type": "CLAIM",
+ "text": "Grace transforms a person without overriding voluntary consent or destroying personal identity.",
+ "source": {
+  "file": "source/nodes/P9.2.yaml",
+  "quote": "Grace transforms a person without overriding voluntary consent or destroying personal identity.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "BC8 Voluntary Coupling: grace requires and preserves voluntary consent.; A9.2/D9.1: grace is a real transforming operation, modeled as non-unitary, rather than a null or coercive force.; A theological premise that grace heals/perfects the same person rather than replacing or annihilating personal identity.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/P9.2.yaml#P9.2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "P9.2",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "BC8 Voluntary Coupling: grace requires and preserves voluntary consent.",
+  "A9.2/D9.1: grace is a real transforming operation, modeled as non-unitary, rather than a null or coercive force.",
+  "A theological premise that grace heals/perfects the same person rather than replacing or annihilating personal identity."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "P9.2/Q15/0102",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "From A0 + P-IMAGO alone, the derivation stops at inferring that God's grace must preserve rather than override creaturely consent; that requires an additional non-coercion/consent premise. For the full record, it stops at mapping grace to specific matrices, quantum channels, chi-field information injection, Lindblad dynamics, and empirical analogies."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main title/statement claim is 'voluntary coupling preserved,' but the file does not give a precise mathematical definition of voluntary coupling preservation, information injection, identity continuity, or consent structure. Its only fully formal calculation is the non-unitarity of a particular illustrative matrix G, which is subordinate to the main claim and would be an easier side check rather than the claimed preservation property. Therefore the main claim cannot be encoded faithfully wit",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

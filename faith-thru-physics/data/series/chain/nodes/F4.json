@@ -1,0 +1,62 @@
+{
+ "id": "F4",
+ "title": "Patience Measurement Domain",
+ "lifecycle": "fruit",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "HY_EVIDENCE",
+ "declared": [
+  "FRUIT-GEN"
+ ],
+ "proposed": [
+  "FRUIT-GEN"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is primarily a definition/measurement model using an infinite continuous-time integral and an unspecified coherence function/expectation. It is not a precise entailment with finite Z3-encodable premises and conclusion; encoding a finite-sum approximation or the boundedness corollary would substitute a side property for the main claim. Therefore checkable is false.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "F4/Q15/0198",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops when the record moves from the A0/P-IMAGO moral analogy to the formal equivalence patience = temporal coherence and then to equations, field dynamics, neural correlates, and empirical correlations; P-IMAGO warrants at most a creaturely participation in God's goodness, not those specific models."
+  },
+  {
+   "id": "F4/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Patience measurement formula: F_Patience = ∫_0^∞ e^{-δt} C[χ](t) dt",
+   "reason": "The main claim is primarily a definition/measurement model using an infinite continuous-time integral and an unspecified coherence function/expectation. It is not a precise entailment with finite Z3-encodable premises and conclusion; encoding a finite-sum approximation or the boundedness corollary would substitute a side property for the main claim. Therefore checkable is false."
+  }
+ ],
+ "ports": [],
+ "main": "F4",
+ "claims": [
+  "F4",
+  "F4::split-01",
+  "F4::split-02",
+  "F4::split-03",
+  "F4::split-04",
+  "F4::split-05",
+  "F4::split-06",
+  "F4::split-07",
+  "F4::split-08",
+  "F4::split-09",
+  "F4::split-10",
+  "F4::split-11",
+  "F4::split-12",
+  "F4::split-13"
+ ],
+ "source": "source/nodes/F4.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

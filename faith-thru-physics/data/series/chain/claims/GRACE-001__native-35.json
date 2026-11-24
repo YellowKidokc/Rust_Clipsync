@@ -1,0 +1,33 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "GRACE-001",
+ "claim_id": "GRACE-001::native-35",
+ "type": "CLAIM",
+ "text": "Same three hypotheses as `cross_unique`; it supplies no independent optimization theorem or reason the judge must pay.",
+ "source": {
+  "file": "source/nodes/GRACE-001.yaml",
+  "quote": "Same three hypotheses as `cross_unique`; it supplies no independent optimization theorem or reason the judge must pay.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "theorem",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "conditionally_proved",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/GRACE-001.yaml#GRACE-001::native-35 (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "GRACE-001",
+ "is_main": false,
+ "strength": "Conditional",
+ "obstructions": [],
+ "generated_by": "proposed finer classification; no vocabulary change applied"
+}

@@ -1,0 +1,57 @@
+{
+ "id": "A14.2",
+ "title": "A14.2 Grace Cosmology",
+ "lifecycle": "hypothesis",
+ "tier": 12,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "HY_EVIDENCE",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file states a provisional qualitative hypothesis, Lambda = Lambda(Psi_collective), with no precise domain, functional form, units, or empirical constraints. A Z3 encoding would either be vacuous, since an arbitrary function can always be posited, or would require unstated assumptions. Therefore the main claim cannot be faithfully encoded as a checkable mathematical component.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "A14.2/Q15/0135",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the inference that creaturely consciousness or participation in God entails a specific functional dependence of the cosmological constant on collective consciousness; P-IMAGO explicitly excludes physical-law/constant consequences."
+  },
+  {
+   "id": "A14.2/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: A14.2 Grace Cosmology: effective cosmological constant coupled to collective consciousness dynamics",
+   "reason": "The file states a provisional qualitative hypothesis, Lambda = Lambda(Psi_collective), with no precise domain, functional form, units, or empirical constraints. A Z3 encoding would either be vacuous, since an arbitrary function can always be posited, or would require unstated assumptions. Therefore the main claim cannot be faithfully encoded as a checkable mathematical component."
+  }
+ ],
+ "ports": [],
+ "main": "A14.2",
+ "claims": [
+  "A14.2",
+  "A14.2::split-01",
+  "A14.2::split-02",
+  "A14.2::split-03",
+  "A14.2::split-04",
+  "A14.2::split-05",
+  "A14.2::split-06",
+  "A14.2::split-07",
+  "A14.2::split-08"
+ ],
+ "source": "source/nodes/A14.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

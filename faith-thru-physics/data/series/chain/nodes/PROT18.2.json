@@ -1,0 +1,51 @@
+{
+ "id": "PROT18.2",
+ "title": "Consciousness Collapse Test",
+ "lifecycle": "protocol",
+ "tier": 16,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "HY_EVIDENCE",
+ "declared": [
+  "A6.2",
+  "E6.2"
+ ],
+ "proposed": [
+  "A6.2",
+  "E6.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "PROT18.2/Q15/0179",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the inference from creaturely consciousness reflecting God to a measurable gravitational deviation produced by high-coherence consciousness via a chi-field."
+  }
+ ],
+ "ports": [],
+ "main": "PROT18.2",
+ "claims": [
+  "PROT18.2",
+  "PROT18.2::split-01",
+  "PROT18.2::split-02",
+  "PROT18.2::split-03",
+  "PROT18.2::split-04",
+  "PROT18.2::split-05",
+  "PROT18.2::split-06",
+  "PROT18.2::split-07",
+  "PROT18.2::split-08",
+  "PROT18.2::split-09"
+ ],
+ "source": "source/nodes/PROT18.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

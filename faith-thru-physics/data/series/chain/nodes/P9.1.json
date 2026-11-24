@@ -1,0 +1,68 @@
+{
+ "id": "P9.1",
+ "title": "P9.1 Grace Idempotence",
+ "lifecycle": "property",
+ "tier": 10,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "CONDITIONAL",
+  "named_premises": [
+   "Model the grace operator as a linear operator on the two-dimensional basis {|+⟩, |−⟩}, with matrix entries a,b,c,d.",
+   "The definition of the grace operator gives Ĝ|+⟩ = |+⟩, so the first column of the matrix is (1,0).",
+   "The definition gives Ĝ|−⟩ = |+⟩, so the second column of the matrix is (1,0).",
+   "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+  ],
+  "denial_cost": null,
+  "checkable_by": null,
+  "receipt": [
+   "sources/z3/01_TESTED_COHERENT_COMPONENT/results.json",
+   "The grace operator Ĝ is idempotent: Ĝ² = Ĝ, given Ĝ|+⟩ = |+⟩ and Ĝ|−⟩ = |+⟩."
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "P9.1/Q15/0100",
+   "kind": "known countermodel",
+   "status": "FATAL",
+   "scope": "universal idempotence of sanctification growth",
+   "reason": "Native growth G sends 0 -> 1/2 -> 3/4. Idempotence applies to terminal legal standing/reset, not to every grace operation."
+  },
+  {
+   "id": "P9.1/Q15/0101",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at identifying the analogical Creator-creature resemblance with a specific idempotent grace operator Ĝ; P-IMAGO explicitly forbids stretching the analogy to particular formal, mathematical, or physical claims."
+  }
+ ],
+ "ports": [],
+ "main": "P9.1",
+ "claims": [
+  "P9.1",
+  "P9.1::split-01",
+  "P9.1::split-02",
+  "P9.1::split-03",
+  "P9.1::split-04",
+  "P9.1::split-05",
+  "P9.1::split-06",
+  "P9.1::split-07",
+  "P9.1::split-08",
+  "P9.1::split-09",
+  "P9.1::split-10",
+  "P9.1::split-11",
+  "P9.1::split-12",
+  "P9.1::z3-conditional-component"
+ ],
+ "source": "source/nodes/P9.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

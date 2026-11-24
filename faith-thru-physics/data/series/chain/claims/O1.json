@@ -1,0 +1,62 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "O1",
+ "claim_id": "O1",
+ "type": "CLAIM",
+ "text": "Information is an irreducible, constitutive ontological primitive of created reality, not merely descriptive.",
+ "source": {
+  "file": "source/nodes/O1.yaml",
+  "quote": "Information is an irreducible, constitutive ontological primitive of created reality, not merely descriptive.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "Informational monism or physical informationalism: all physical reality is ultimately constituted by information.; Empirical confirmation of it-from-bit/holographic/quantum-information interpretations.; A semantic-information bridge explaining how syntax plus coherence/consciousness yields semantic content.; A specific quantum-gravity or holographic model treated as more than analogy.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/O1.yaml#O1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A1.3",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "O1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "Informational monism or physical informationalism: all physical reality is ultimately constituted by information.",
+  "Empirical confirmation of it-from-bit/holographic/quantum-information interpretations.",
+  "A semantic-information bridge explaining how syntax plus coherence/consciousness yields semantic content.",
+  "A specific quantum-gravity or holographic model treated as more than analogy."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "O1/Q15/0217",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "duplicate node identity",
+   "reason": "David merged the source into A1.3; retain its claim and provenance at that destination. Warrant is not upgraded."
+  },
+  {
+   "id": "O1/Q15/0218",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops after real, dependent creaturely order/intelligibility; it cannot move to 'information is the irreducible primitive/basic stuff' or to any physical, mathematical, or empirical informational claim."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is metaphysical and depends on undefined predicates/relations such as 'Physical', 'Information', 'reducible to', 'more fundamental', and functions F/g over an unspecified universe of entities. Encoding it in Z3 would require stipulating formal meanings and domains that the file does not provide; any finite encoding would either restate the conclusion or trivialize it. Therefore the main claim is not checkable as a precise mathematical entailment without adding unstated assumptions",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

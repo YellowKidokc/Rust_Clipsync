@@ -1,0 +1,81 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "LAMBDA",
+ "claim_id": "LAMBDA",
+ "type": "CLAIM",
+ "text": "The divine Logos/Son is the self-grounding terminal completion and ultimate ground of created reality's coherence, intelligibility, and explanation.",
+ "source": {
+  "file": "source/nodes/LAMBDA.yaml",
+  "quote": "The divine Logos/Son is the self-grounding terminal completion and ultimate ground of created reality's coherence, intelligibility, and explanation.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A specified chi-field theory with coherence variables and dynamics.; A formal measurement/observer model in which God acts as a terminal observer operator.; A model of grace as external coherence injection.; An incarnation premise identifying the Logos with Jesus Christ and treating the incarnation as a physical-informational event.; Empirical/historical evidence for the resurrection and historical Jesus claims.; Fine-tuning and multiverse analysis to justify Logos selection over naturalistic explanations.; A demonstrated category/topos/fixed-point mapping from those formal systems to theological claims.; Comparative-religion criteria and an argument that only the Logos satisfies them.; IIT/consciousness and psychological/sociological measurements for the claimed predictions.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/LAMBDA.yaml#LAMBDA::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "ID7.1",
+   "edge": "rests_on"
+  },
+  {
+   "id": "O1",
+   "edge": "rests_on"
+  },
+  {
+   "id": "O2",
+   "edge": "rests_on"
+  },
+  {
+   "id": "O3",
+   "edge": "rests_on"
+  },
+  {
+   "id": "O4",
+   "edge": "rests_on"
+  },
+  {
+   "id": "A1.3",
+   "edge": "rests_on",
+   "proposed": true
+  }
+ ],
+ "node": "LAMBDA",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A specified chi-field theory with coherence variables and dynamics.",
+  "A formal measurement/observer model in which God acts as a terminal observer operator.",
+  "A model of grace as external coherence injection.",
+  "An incarnation premise identifying the Logos with Jesus Christ and treating the incarnation as a physical-informational event.",
+  "Empirical/historical evidence for the resurrection and historical Jesus claims.",
+  "Fine-tuning and multiverse analysis to justify Logos selection over naturalistic explanations.",
+  "A demonstrated category/topos/fixed-point mapping from those formal systems to theological claims.",
+  "Comparative-religion criteria and an argument that only the Logos satisfies them.",
+  "IIT/consciousness and psychological/sociological measurements for the claimed predictions."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "LAMBDA/Q15/0236",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops where A0+P-IMAGO's claim that creaturely order/coherence depends on and analogically reflects God is converted into a definite chi-field, formal Λ operator, terminal-observer/grace operators, an incarnation delta-function, physical-constant encoding, or empirical/historical evidence; P-IMAGO explicitly rules out deriving particular physical laws, equations, constants, or measurements from it."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is not precise enough to encode faithfully in Z3: the chi-field, limit as t->infinity, terminal observer operator, Grace operator, incarnation delta term, and the qualitative requirement of 'grounding/terminal completion' are not defined mathematically. Encoding would require adding unstated formal assumptions or substituting a narrower side claim.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

@@ -1,0 +1,50 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "O4",
+ "claim_id": "O4",
+ "type": "CLAIM",
+ "text": "Agency is a real, irreducible creaturely feature that depends on and participates in God's free agency, rather than being an independent or merely mechanical capacity.",
+ "source": {
+  "file": "source/nodes/O4.yaml",
+  "quote": "Agency is a real, irreducible creaturely feature that depends on and participates in God's free agency, rather than being an independent or merely mechanical capacity.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 0,
+  "claim_role": "assumption",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "admitted",
+  "warrant_premise": "Agency is a real, irreducible creaturely feature that depends on and participates in God's free agency, rather than being an independent or merely mechanical capacity.",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/O4.yaml#O4::main (Axiom HTML Update, 2026-10-28)",
+  "note": "Holds as an expressly adopted premise, not established as an empirical or premise-free theorem."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A5.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "O4",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "O4/Q15/0223",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The core derivation succeeds in grounding creaturely agency as finite participation; it stops before deriving that agency is a fourth primitive necessarily implied by Consciousness/Φ and before every specific chi-field, quantum, thermodynamic, information-theoretic, or category-theoretic formalism."
+  }
+ ],
+ "denial_cost": "Irreducible personal causal initiation is no longer an admitted primitive; the authorship account requires replacement rather than a new Boolean label.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

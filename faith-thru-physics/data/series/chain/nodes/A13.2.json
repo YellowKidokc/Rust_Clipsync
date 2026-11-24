@@ -1,0 +1,65 @@
+{
+ "id": "A13.2",
+ "title": "A13.2 Geometry From Information",
+ "lifecycle": "framework_commitment",
+ "tier": 12,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is too schematic to encode faithfully. The file does not provide a precise mapping from chi-field information or entanglement data to a spacetime metric, does not define the functional F in g_{\\mu\\nu}=F[g^{Fisher}_{ij}(\\chi)], and the equation g_{\\mu\\nu} <- \\chi is not a formal mathematical statement. Encoding it in Z3 would require adding arbitrary definitions or presupposing the conclusion, so a meaningful check is not possible.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "A13.2/Q15/0129",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the inference from created order/intelligibility reflecting God (P-IMAGO) to the physical claim that spacetime geometry emerges from information; P-IMAGO explicitly does not yield physical laws, equations, constants, or measurements, and A0 does not identify information as the substrate of spacetime."
+  },
+  {
+   "id": "A13.2/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: A13.2 Geometry From Information: spacetime geometry/metric emerges from chi-field information or entanglement structure.",
+   "reason": "The main claim is too schematic to encode faithfully. The file does not provide a precise mapping from chi-field information or entanglement data to a spacetime metric, does not define the functional F in g_{\\mu\\nu}=F[g^{Fisher}_{ij}(\\chi)], and the equation g_{\\mu\\nu} <- \\chi is not a formal mathematical statement. Encoding it in Z3 would require adding arbitrary definitions or presupposing the conclusion, so a meaningful check is not possible."
+  }
+ ],
+ "ports": [],
+ "main": "A13.2",
+ "claims": [
+  "A13.2",
+  "A13.2::split-01",
+  "A13.2::split-02",
+  "A13.2::split-03",
+  "A13.2::split-04",
+  "A13.2::split-05",
+  "A13.2::split-06",
+  "A13.2::split-07",
+  "A13.2::split-08",
+  "A13.2::split-09",
+  "A13.2::split-10",
+  "A13.2::split-11",
+  "A13.2::split-12",
+  "A13.2::split-13",
+  "A13.2::split-14",
+  "A13.2::split-15",
+  "A13.2::split-16"
+ ],
+ "source": "source/nodes/A13.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

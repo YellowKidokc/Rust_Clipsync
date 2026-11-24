@@ -1,0 +1,43 @@
+{
+ "id": "LN4.1",
+ "title": "LN4.1 Universe As Compression",
+ "lifecycle": "logical_necessity",
+ "tier": 5,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [
+  "A2.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "LN4.1/Q15/0041",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the inference from P-IMAGO's analogical creaturely order/intelligibility to a specific physical/information-theoretic compression algorithm and GR/QM mapping; no such bridge is licensed."
+  }
+ ],
+ "ports": [],
+ "main": "LN4.1",
+ "claims": [
+  "LN4.1",
+  "LN4.1::split-01",
+  "LN4.1::split-02",
+  "LN4.1::split-03"
+ ],
+ "source": "source/nodes/LN4.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

@@ -1,0 +1,80 @@
+{
+ "id": "D19.9",
+ "title": "D19.9 Law IX (Grace Non-Unitarity)",
+ "lifecycle": "open",
+ "tier": 13,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "A9.2"
+ ],
+ "proposed": [
+  "A9.2",
+  "D9.1",
+  "P9.3"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The formal equations define a class of operators rather than state a theorem with premises and conclusion. Encoding the definition as premises and non-unitarity/sign-flip as conclusion would be tautological; checking a witness operator would be a side satisfiability calculation, not the main claim. The 'unique', 'adds external information', 'infinite divine source', and dependence on Laws VI/VIII require undefined notions, so the main claim cannot be faithfully encoded as a Z3 entailment.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "D19.9/Q15/0149",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the move from P-IMAGO's analogy of being to specific quantum operators, entropy inequalities, sign-operator anti-commutation, and empirical protocols; analogy does not supply those formal or physical claims."
+  },
+  {
+   "id": "D19.9/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Law IX (Grace Non-Unitarity): grace is a unique non-unitary operator class that adds external information, enabling coherence increase and sign transformation.",
+   "reason": "The formal equations define a class of operators rather than state a theorem with premises and conclusion. Encoding the definition as premises and non-unitarity/sign-flip as conclusion would be tautological; checking a witness operator would be a side satisfiability calculation, not the main claim. The 'unique', 'adds external information', 'infinite divine source', and dependence on Laws VI/VIII require undefined notions, so the main claim cannot be faithfully encoded as a Z3 entailment."
+  }
+ ],
+ "ports": [
+  {
+   "agent": "Component agents; no extra actor added",
+   "boundary": "All component boundaries and any cross-register bridge must be satisfied",
+   "input": "Declared component contracts and exact assumptions",
+   "output": "Conditional composite account, not an unconditional theorem",
+   "evidence": [
+    "A9.2",
+    "D9.1",
+    "P9.3"
+   ]
+  }
+ ],
+ "main": "D19.9",
+ "claims": [
+  "D19.9",
+  "D19.9::split-01",
+  "D19.9::split-02",
+  "D19.9::split-03",
+  "D19.9::split-04",
+  "D19.9::split-05",
+  "D19.9::split-06",
+  "D19.9::split-07",
+  "D19.9::split-08",
+  "D19.9::split-09",
+  "D19.9::split-10",
+  "D19.9::split-11",
+  "D19.9::split-12",
+  "D19.9::split-13",
+  "D19.9::split-14",
+  "D19.9::split-15",
+  "D19.9::receipt::LawToLaw.four_laws_share_one_shape",
+  "D19.9::receipt::LawToLaw.person_pattern_not_law_pattern"
+ ],
+ "source": "source/nodes/D19.9.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

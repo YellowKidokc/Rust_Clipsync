@@ -1,0 +1,63 @@
+{
+ "id": "F8",
+ "title": "Gentleness Measurement Domain",
+ "lifecycle": "fruit",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "HY_EVIDENCE",
+ "declared": [
+  "FRUIT-GEN"
+ ],
+ "proposed": [
+  "FRUIT-GEN"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "F8/Q15/0202",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the move from creaturely moral goodness as finite participation in God (P-IMAGO) to the specific identification of gentleness with F_required / F_applied and to quantitative, physical, neural, or measurement claims."
+  },
+  {
+   "id": "F8/Q15/Z3-result-00",
+   "kind": "type mismatch",
+   "status": "OPEN",
+   "scope": "Verification process; no domain verdict: The defined gentleness metric satisfies boundedness, maximum at calibration, zero at insufficiency, monotonic decay in excess, and optimality at applied force equal to required force.",
+   "reason": "NameError: name 'Iff' is not defined Faithfulness to the intended domain is a separate obligation."
+  }
+ ],
+ "ports": [],
+ "main": "F8",
+ "claims": [
+  "F8",
+  "F8::split-01",
+  "F8::split-02",
+  "F8::split-03",
+  "F8::split-04",
+  "F8::split-05",
+  "F8::split-06",
+  "F8::split-07",
+  "F8::split-08",
+  "F8::split-09",
+  "F8::split-10",
+  "F8::split-11",
+  "F8::split-12",
+  "F8::split-13",
+  "F8::split-14"
+ ],
+ "source": "source/nodes/F8.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

@@ -1,0 +1,59 @@
+{
+ "id": "OPEN17.1",
+ "title": "OPEN17.1 AI Moral Status Question",
+ "lifecycle": "open_problem",
+ "tier": 15,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "HY_EVIDENCE",
+ "declared": [
+  "T17.1",
+  "A11.1"
+ ],
+ "proposed": [
+  "T17.1",
+  "A11.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "OPEN17.1/Q15/0173",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the move from creaturely consciousness/participation in God to the moral status of a hypothetical AI; A0 + P-IMAGO do not entail that AI can become conscious, that Phi is a valid threshold, or that consciousness confers moral status."
+  }
+ ],
+ "ports": [],
+ "main": "OPEN17.1",
+ "claims": [
+  "OPEN17.1",
+  "OPEN17.1::split-01",
+  "OPEN17.1::split-02",
+  "OPEN17.1::split-03",
+  "OPEN17.1::split-04",
+  "OPEN17.1::split-05",
+  "OPEN17.1::split-06",
+  "OPEN17.1::split-07",
+  "OPEN17.1::split-08",
+  "OPEN17.1::split-09",
+  "OPEN17.1::split-10",
+  "OPEN17.1::split-11",
+  "OPEN17.1::split-12",
+  "OPEN17.1::split-13",
+  "OPEN17.1::split-14",
+  "OPEN17.1::split-15",
+  "OPEN17.1::split-16",
+  "OPEN17.1::split-17"
+ ],
+ "source": "source/nodes/OPEN17.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

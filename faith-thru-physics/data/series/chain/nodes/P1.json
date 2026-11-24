@@ -1,0 +1,63 @@
+{
+ "id": "P1",
+ "title": "P1 Stage 1",
+ "lifecycle": "stage",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A5.1"
+ ],
+ "proposed": [
+  "A5.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is metaphysical and not precise enough for a faithful Z3 theorem check. The file gives a biconditional with undefined predicates, and the key temporal claim about simultaneous onset of existence and consciousness is not formalized. Encoding the displayed biconditional alone would omit the 'therefore' claim and would treat an uninterpreted primitive axiom as if it were a provable theorem.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "P1/Q15/0209",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at 'Distinction requires a Distinguisher (Observer)'; A0+P-IMAGO do not entail that existence is observer-dependent, only that creaturely consciousness may be a finite participation in God's consciousness."
+  },
+  {
+   "id": "P1/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Consciousness Stage: existence is equivalent to being distinguished by an observer, and existence/consciousness are co-original.",
+   "reason": "The main claim is metaphysical and not precise enough for a faithful Z3 theorem check. The file gives a biconditional with undefined predicates, and the key temporal claim about simultaneous onset of existence and consciousness is not formalized. Encoding the displayed biconditional alone would omit the 'therefore' claim and would treat an uninterpreted primitive axiom as if it were a provable theorem."
+  }
+ ],
+ "ports": [],
+ "main": "P1",
+ "claims": [
+  "P1",
+  "P1::split-01",
+  "P1::split-02",
+  "P1::split-03",
+  "P1::split-04",
+  "P1::split-05",
+  "P1::split-06",
+  "P1::split-07",
+  "P1::split-08",
+  "P1::split-09",
+  "P1::split-10",
+  "P1::split-11",
+  "P1::split-12",
+  "P1::split-13",
+  "P1::split-14"
+ ],
+ "source": "source/nodes/P1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

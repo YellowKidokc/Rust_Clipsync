@@ -1,0 +1,72 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D19.8",
+ "claim_id": "D19.8",
+ "type": "CLAIM",
+ "text": "Moral orientation has a binary ±1 sign that is preserved under self-transformation and can be flipped only by external grace.",
+ "source": {
+  "file": "source/nodes/D19.8.yaml",
+  "quote": "Moral orientation has a binary ±1 sign that is preserved under self-transformation and can be flipped only by external grace.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "operator",
+  "composition_level": 4,
+  "claim_role": "definition",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A model premise defining moral orientation as a Z₂-valued sign.; A premise that self-transformations are sign-preserving or unitary with respect to moral orientation.; A premise that grace is an external non-unitary sign-flipping operation.; An empirical or physical premise identifying moral sign with a Z₂ gauge field or Lagrangian.; A dynamical-systems premise equating moral outcomes with two attractor basins.; An information-theoretic premise assigning a one-bit cost to grace.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D19.8.yaml#D19.8::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "D8.1",
+   "edge": "rests_on"
+  },
+  {
+   "id": "A8.1",
+   "edge": "rests_on",
+   "proposed": true
+  },
+  {
+   "id": "A8.2",
+   "edge": "rests_on",
+   "proposed": true
+  },
+  {
+   "id": "A9.1",
+   "edge": "rests_on",
+   "proposed": true
+  }
+ ],
+ "node": "D19.8",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A model premise defining moral orientation as a Z₂-valued sign.",
+  "A premise that self-transformations are sign-preserving or unitary with respect to moral orientation.",
+  "A premise that grace is an external non-unitary sign-flipping operation.",
+  "An empirical or physical premise identifying moral sign with a Z₂ gauge field or Lagrangian.",
+  "A dynamical-systems premise equating moral outcomes with two attractor basins.",
+  "An information-theoretic premise assigning a one-bit cost to grace."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "D19.8/Q15/0148",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops when P-IMAGO's general analogy of creaturely moral goodness participating in God's goodness is treated as entailing a precise binary Z₂ sign algebra with conservation laws, attractor basins, and physical gauge/Lagrangian structure."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. Cannot be faithfully encoded as a single Z3 entailment without adding unstated assumptions. The statement conflates a scalar sign σ∈{+1,-1} with an operator Σ in expressions like UΣU†; it does not precisely define 'self-transformation', 'unitary', or 'grace'; and it later identifies the unitary flip operator Σ_x while still asserting that unitary operations preserve sign. A faithful check would need an added superselection/commutation condition such as [U,Σ]=0 for allowed self-transformations.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

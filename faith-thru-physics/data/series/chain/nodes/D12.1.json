@@ -1,0 +1,61 @@
+{
+ "id": "D12.1",
+ "title": "D12.1 Integration Attractor",
+ "lifecycle": "definition",
+ "tier": 11,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "CONDITIONAL",
+  "named_premises": [
+   "The moral sign is σ = +1.",
+   "The coherence dynamics obey the logistic destiny equation dΦ/dt = σ γ (Φmax − Φ) Φ.",
+   "γ > 0 and Φmax > 0.",
+   "The state lies in the interior basin 0 < Φ < Φmax.",
+   "The Lyapunov function is V(Φ) = −ln(Φ/Φmax) + Φ/Φmax − 1, whose derivative along the flow is dV/dt = −γ(Φmax − Φ)^2/Φmax.",
+   "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+  ],
+  "denial_cost": null,
+  "checkable_by": null,
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json",
+   "Positive flow and Lyapunov decrease toward the Integration Attractor for moral sign σ=+1."
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "D12.1/Q15/0121",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops when P-IMAGO's general analogy of creaturely order/coherence as finite participation in God is used to assert a specific logistic destiny equation and the identity Phi_max = maximal integrated information = eternal life/heaven; P-IMAGO explicitly does not yield physical laws, equations, or measurements."
+  }
+ ],
+ "ports": [],
+ "main": "D12.1",
+ "claims": [
+  "D12.1",
+  "D12.1::split-01",
+  "D12.1::split-02",
+  "D12.1::split-03",
+  "D12.1::split-04",
+  "D12.1::split-05",
+  "D12.1::split-06",
+  "D12.1::split-07",
+  "D12.1::split-08",
+  "D12.1::split-09",
+  "D12.1::split-10",
+  "D12.1::z3-conditional-component"
+ ],
+ "source": "source/nodes/D12.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

@@ -1,0 +1,34 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "SC-INDIVIDUAL",
+ "claim_id": "SC-INDIVIDUAL::split-19",
+ "type": "CLAIM",
+ "text": "Social coherence is chi_social = (1/N) sum_i w_i Phi_ind,i + sum_{i<j} R_ij sqrt(Phi_i Phi_j).",
+ "source": {
+  "file": "source/nodes/SC-INDIVIDUAL.yaml",
+  "quote": "Social coherence is chi_social = (1/N) sum_i w_i Phi_ind,i + sum_{i<j} R_ij sqrt(Phi_i Phi_j).",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/SC-INDIVIDUAL.yaml#SC-INDIVIDUAL::split-19 (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "SC-INDIVIDUAL",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+ "obstructions": [],
+ "generated_by": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+}

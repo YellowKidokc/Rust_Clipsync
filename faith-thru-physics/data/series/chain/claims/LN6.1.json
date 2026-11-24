@@ -1,0 +1,54 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "LN6.1",
+ "claim_id": "LN6.1",
+ "type": "CLAIM",
+ "text": "An observation or measurement chain must terminate in a perfect observer.",
+ "source": {
+  "file": "source/nodes/LN6.1.yaml",
+  "quote": "An observation or measurement chain must terminate in a perfect observer.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "embodied"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "T6.1 Von Neumann chain termination; A bridge premise that finite observation chains cannot terminate in any finite observer and must terminate in a perfect/uncreated observer; A definition or empirical justification for 'infinite Phi' as a property of the terminal observer",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/LN6.1.yaml#LN6.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "T6.1",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "LN6.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "T6.1 Von Neumann chain termination",
+  "A bridge premise that finite observation chains cannot terminate in any finite observer and must terminate in a perfect/uncreated observer",
+  "A definition or empirical justification for 'infinite Phi' as a property of the terminal observer"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "LN6.1/Q15/0065",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops after A0 supplies a perfect self-knowing God and P-IMAGO supplies finite analogical creaturely consciousness: it cannot move to 'any observation chain terminates in that perfect observer' without T6.1 and a terminal-observer bridge; it cannot move to 'infinite Phi' at all."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The claim is not sufficiently formalized to encode: it depends on undefined framework terms such as 'measurement-chain closure', 'non-regressive terminal observer condition', and the ideal-limit bridge assumption 'Φ → ∞'. Encoding any of these would require adding substantive definitions or assumptions not stated in the file.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

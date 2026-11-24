@@ -1,0 +1,34 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "A6.1",
+ "claim_id": "A6.1::split-14",
+ "type": "CLAIM",
+ "text": "No-cloning and Bell inequality violation rule out local hidden-variable and classical-mixture accounts of quantum correlations.",
+ "source": {
+  "file": "source/nodes/A6.1.yaml",
+  "quote": "No-cloning and Bell inequality violation rule out local hidden-variable and classical-mixture accounts of quantum correlations.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "conjecture",
+  "register": "embodied"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/A6.1.yaml#A6.1::split-14 (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "A6.1",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+ "obstructions": [],
+ "generated_by": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+}

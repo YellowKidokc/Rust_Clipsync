@@ -1,0 +1,43 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D9.1",
+ "claim_id": "D9.1::receipt::GravityAndGrace.hyperbolic_stays_hyperbolic",
+ "type": "RECEIPT",
+ "text": "Exact compiled declaration GravityAndGrace.hyperbolic_stays_hyperbolic",
+ "source": {
+  "file": "source/nodes/D9.1.yaml",
+  "quote": "Exact compiled declaration GravityAndGrace.hyperbolic_stays_hyperbolic",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "theorem",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "conditionally_proved",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D9.1.yaml#D9.1::receipt::GravityAndGrace.hyperbolic_stays_hyperbolic (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [
+  {
+   "kind": "lean",
+   "ref": "sources/october_lean/GravityAndGrace.lean"
+  },
+  {
+   "kind": "source",
+   "ref": "receipts/GravityAndGrace.log"
+  }
+ ],
+ "neighbors": [],
+ "node": "D9.1",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Integer energies and three regimes are encoded. No self-capture is conditional on sign preservation. capture_requires_third_body only exhibits a chosen capturing operation, not a theorem that every capture needs a literal third body.",
+ "obstructions": [],
+ "generated_by": "subtype is a proposal only; no new field added to frozen five tags"
+}

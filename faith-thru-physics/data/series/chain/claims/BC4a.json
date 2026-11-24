@@ -1,0 +1,56 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "BC4a",
+ "claim_id": "BC4a",
+ "type": "CLAIM",
+ "text": "Complete self-referential knowledge requires exactly three irreducible functional roles (knower, known, knowing).",
+ "source": {
+  "file": "source/nodes/BC4a.yaml",
+  "quote": "Complete self-referential knowledge requires exactly three irreducible functional roles (knower, known, knowing).",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "boundary",
+  "composition_level": 1,
+  "claim_role": "assumption",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "admitted",
+  "warrant_premise": "A physical/measurement premise identifying the bra, ket, and norm of the Born Rule with three distinct observers or operators.; A formal theorem that measurement closure requires exactly three observers and fails for N<3 and N>3.; A premise linking quantum measurement structure to the Christian Trinity rather than only analogy.",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/BC4a.yaml#BC4a::main (Axiom HTML Update, 2026-10-28)",
+  "note": "Holds as an expressly adopted premise, not established as an empirical or premise-free theorem."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "BC4a",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A physical/measurement premise identifying the bra, ket, and norm of the Born Rule with three distinct observers or operators.",
+  "A formal theorem that measurement closure requires exactly three observers and fails for N<3 and N>3.",
+  "A premise linking quantum measurement structure to the Christian Trinity rather than only analogy."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "BC4a/Q15/0073",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the move from a three-term mathematical expression or triadic analogy to a necessary physical count of three observers/operators; A0+P-IMAGO do not license that step."
+  },
+  {
+   "id": "BC4a/Q15/0074",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "v3 versus current-root source identity",
+   "reason": "v3 repairs/splits this concept, while current source file BC4_Three_Observers_Required.md retains another title/claim version. Both source spans are preserved; do not equate them by identifier alone."
+  }
+ ],
+ "denial_cost": "Exactly three irreducible functional roles is no longer available as a premise; triadic closure/identification applications require another argument, not rejection of self-reference itself.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

@@ -1,0 +1,50 @@
+{
+ "id": "PROT18.3",
+ "title": "Grace Negentropy Detection",
+ "lifecycle": "protocol",
+ "tier": 16,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "HY_EVIDENCE",
+ "declared": [
+  "D9.1",
+  "T3.1"
+ ],
+ "proposed": [
+  "D9.1",
+  "T3.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "PROT18.3/Q15/0180",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the move from the general analogy of being (creaturely coherence reflects God) to the specific empirical prediction that grace produces a bimodal distribution of EEG/HRV/psychological coherence; P-IMAGO explicitly does not license that move."
+  }
+ ],
+ "ports": [],
+ "main": "PROT18.3",
+ "claims": [
+  "PROT18.3",
+  "PROT18.3::split-01",
+  "PROT18.3::split-02",
+  "PROT18.3::split-03",
+  "PROT18.3::split-04",
+  "PROT18.3::split-05",
+  "PROT18.3::split-06",
+  "PROT18.3::split-07",
+  "PROT18.3::split-08"
+ ],
+ "source": "source/nodes/PROT18.3.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

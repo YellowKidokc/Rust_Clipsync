@@ -1,0 +1,61 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D5.3",
+ "claim_id": "D5.3",
+ "type": "CLAIM",
+ "text": "Define the Witness Field Φ̂ as an operator mapping potential states to actualized states (H→H_actualized).",
+ "source": {
+  "file": "source/nodes/D5.3.yaml",
+  "quote": "Define the Witness Field Φ̂ as an operator mapping potential states to actualized states (H→H_actualized).",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "state",
+  "composition_level": 0,
+  "claim_role": "definition",
+  "register": "embodied"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "An observer/consciousness model defining H and H_actualized.; A bridging premise identifying the Witness Field Φ̂ with an operator in that model.; D5.2 Integrated Information Φ and a premise linking integrated information to potential-to-actual transition.",
+  "outcome": null,
+  "canon_status": "retired",
+  "grade_source": "copied:source/nodes/D5.3.yaml#D5.3::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A5.1",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "D5.3",
+ "is_main": true,
+ "strength": "By definition",
+ "conditional_premises": [
+  "An observer/consciousness model defining H and H_actualized.",
+  "A bridging premise identifying the Witness Field Φ̂ with an operator in that model.",
+  "D5.2 Integrated Information Φ and a premise linking integrated information to potential-to-actual transition."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "D5.3/Q15/0046",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "axiom-set membership",
+   "reason": "David retired this record; it is retained with reason and cannot serve as an active axiom. Content-level truth is not settled merely by retirement."
+  },
+  {
+   "id": "D5.3/Q15/0047",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the move from P-IMAGO's analogical resemblance of creaturely consciousness/agency to a formal operator Φ̂: H→H_actualized; P-IMAGO explicitly does not yield equations, physical laws, or state-space operators."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is a definition rather than a precise mathematical proposition. The file does not define the state spaces H or H_actualized, the notion of 'potential' vs 'actual', or any properties of Φ̂ beyond being an operator between them. Encoding this would require adding unstated mathematical assumptions, so the claim is not checkable as stated.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

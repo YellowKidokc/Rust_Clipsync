@@ -1,0 +1,54 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D17.1",
+ "claim_id": "D17.1",
+ "type": "CLAIM",
+ "text": "Observer status can be operationally defined by a minimum threshold of integrated information (Phi_threshold).",
+ "source": {
+  "file": "source/nodes/D17.1.yaml",
+  "quote": "Observer status can be operationally defined by a minimum threshold of integrated information (Phi_threshold).",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "state",
+  "composition_level": 0,
+  "claim_role": "definition",
+  "register": "embodied"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "IIT 4.0 definition of Phi as integrated information; Premise identifying observer status (or consciousness relevant to observer status) with integrated information/Phi threshold; Empirical calibration of any threshold value and proxy measures",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D17.1.yaml#D17.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "D5.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "D17.1",
+ "is_main": true,
+ "strength": "By definition",
+ "conditional_premises": [
+  "IIT 4.0 definition of Phi as integrated information",
+  "Premise identifying observer status (or consciousness relevant to observer status) with integrated information/Phi threshold",
+  "Empirical calibration of any threshold value and proxy measures"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "D17.1/Q15/0171",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the step from created observer/consciousness (which P-IMAGO may analogically ground) to a quantitative Phi threshold; P-IMAGO cannot supply the IIT definition, threshold, measurement, or empirical calibration."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

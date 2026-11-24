@@ -1,0 +1,57 @@
+{
+ "id": "SC-SOCIAL",
+ "title": "Social Scale Coherence",
+ "lifecycle": "scale_definition",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [
+  "A2.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "SC-SOCIAL/Q15/0228",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the identification of the analogical chi-field with a measurable social-capital variable and at the claim that the listed equations, metrics, phase transitions, and predictions follow; P-IMAGO explicitly excludes physical laws, equations, constants, and measurements from its entailments."
+  }
+ ],
+ "ports": [],
+ "main": "SC-SOCIAL",
+ "claims": [
+  "SC-SOCIAL",
+  "SC-SOCIAL::split-01",
+  "SC-SOCIAL::split-02",
+  "SC-SOCIAL::split-03",
+  "SC-SOCIAL::split-04",
+  "SC-SOCIAL::split-05",
+  "SC-SOCIAL::split-06",
+  "SC-SOCIAL::split-07",
+  "SC-SOCIAL::split-08",
+  "SC-SOCIAL::split-09",
+  "SC-SOCIAL::split-10",
+  "SC-SOCIAL::split-11",
+  "SC-SOCIAL::split-12",
+  "SC-SOCIAL::split-13",
+  "SC-SOCIAL::split-14",
+  "SC-SOCIAL::split-15",
+  "SC-SOCIAL::split-16",
+  "SC-SOCIAL::split-17"
+ ],
+ "source": "source/nodes/SC-SOCIAL.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

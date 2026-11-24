@@ -1,0 +1,68 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "T19.1",
+ "claim_id": "T19.1",
+ "type": "CLAIM",
+ "text": "The ten Theophysical Laws are derivable from a single chi-field Master Equation and display a necessary five-pair symmetry structure.",
+ "source": {
+  "file": "source/nodes/T19.1.yaml",
+  "quote": "The ten Theophysical Laws are derivable from a single chi-field Master Equation and display a necessary five-pair symmetry structure.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "E19.1 Full Master Equation defining the chi-field and its ten variables; A specified variational action principle and Lagrange-multiplier framework; Specified gauge, closure, and information-conservation constraints; Definitions and independence criteria for the Ten Theophysical Laws; A valid proof that the specific pairings are structurally necessary and unique; A valid proof of completeness and minimality of the Ten Laws",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/T19.1.yaml#T19.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "E19.1",
+   "edge": "rests_on"
+  },
+  {
+   "id": "D2.1",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "T19.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "E19.1 Full Master Equation defining the chi-field and its ten variables",
+  "A specified variational action principle and Lagrange-multiplier framework",
+  "Specified gauge, closure, and information-conservation constraints",
+  "Definitions and independence criteria for the Ten Theophysical Laws",
+  "A valid proof that the specific pairings are structurally necessary and unique",
+  "A valid proof of completeness and minimality of the Ten Laws"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "T19.1/Q15/0153",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "duplicate node identity",
+   "reason": "David merged the source into FINAL-1; retain its claim and provenance at that destination. Warrant is not upgraded."
+  },
+  {
+   "id": "T19.1/Q15/0154",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the step from A0/P-IMAGO's general analogical created order to the specific chi-field Master Equation and the exact Ten-Law variational derivations and pairings; P-IMAGO does not license physical laws, equations, numbers, or empirical findings."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. Not checkable in Z3 as stated because the central derivation relation is not formally defined: the file does not give a precise chi-field configuration space, Master Equation, variational operator, law definitions/constraints, or a formal 'derives from' predicate. Encoding only the finite pairing map would substitute a side calculation for the main claim.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

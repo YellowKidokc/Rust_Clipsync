@@ -1,0 +1,53 @@
+{
+ "id": "SC-PHYSICAL",
+ "title": "Physical Scale Coherence",
+ "lifecycle": "scale_definition",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [
+  "A2.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "SC-PHYSICAL/Q15/0225",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops after the general claim that real creaturely order/coherence reflects God. It cannot move to the chi-field, χ_P=Σρ_i S_i, χ_P=e^(-ΔG/k_BT), the quantum-to-classical transformation, physical laws as the grammar of coherence, or coherence conservation without additional physical and empirical premises."
+  }
+ ],
+ "ports": [],
+ "main": "SC-PHYSICAL",
+ "claims": [
+  "SC-PHYSICAL",
+  "SC-PHYSICAL::split-01",
+  "SC-PHYSICAL::split-02",
+  "SC-PHYSICAL::split-03",
+  "SC-PHYSICAL::split-04",
+  "SC-PHYSICAL::split-05",
+  "SC-PHYSICAL::split-06",
+  "SC-PHYSICAL::split-07",
+  "SC-PHYSICAL::split-08",
+  "SC-PHYSICAL::split-09",
+  "SC-PHYSICAL::split-10",
+  "SC-PHYSICAL::split-11",
+  "SC-PHYSICAL::split-12",
+  "SC-PHYSICAL::split-13"
+ ],
+ "source": "source/nodes/SC-PHYSICAL.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

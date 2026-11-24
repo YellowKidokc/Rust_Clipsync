@@ -1,0 +1,63 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "P3.2",
+ "claim_id": "P3.2",
+ "type": "CLAIM",
+ "text": "Total coherence is conserved in a closed system.",
+ "source": {
+  "file": "source/nodes/P3.2.yaml",
+  "quote": "Total coherence is conserved in a closed system.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "P3.1 Coherence Non-Negativity, the record's upstream dependency.; A precise definition or measure of total coherence.; A conservation law asserting that the defined total coherence is conserved in a closed system.; A specified meaning and applicability condition for 'closed system' with respect to coherence.; Independent physical/empirical warrant for identifying coherence with Shannon entropy, von Neumann entropy, Phi, divine harmony, Proverbs Wisdom, or entropy measurements.",
+  "outcome": null,
+  "canon_status": "retired",
+  "grade_source": "copied:source/nodes/P3.2.yaml#P3.2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "P3.2",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "P3.1 Coherence Non-Negativity, the record's upstream dependency.",
+  "A precise definition or measure of total coherence.",
+  "A conservation law asserting that the defined total coherence is conserved in a closed system.",
+  "A specified meaning and applicability condition for 'closed system' with respect to coherence.",
+  "Independent physical/empirical warrant for identifying coherence with Shannon entropy, von Neumann entropy, Phi, divine harmony, Proverbs Wisdom, or entropy measurements."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "P3.2/Q15/0029",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "axiom-set membership",
+   "reason": "David retired this record; it is retained with reason and cannot serve as an active axiom. Content-level truth is not settled merely by retirement."
+  },
+  {
+   "id": "P3.2/Q15/0030",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the move from 'creaturely coherence is a finite participation in divine harmony' to 'total coherence is conserved in a closed system'; no admitted premise supplies a coherence measure or conservation law."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

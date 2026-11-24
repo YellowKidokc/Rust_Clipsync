@@ -1,0 +1,82 @@
+{
+ "id": "E19.1",
+ "title": "E19.1 Full Master Equation",
+ "lifecycle": "equation",
+ "tier": 13,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "D19.1",
+  "D19.2",
+  "D19.3",
+  "D19.4",
+  "D19.5",
+  "D19.6",
+  "D19.7",
+  "D19.8",
+  "D19.9",
+  "D19.10"
+ ],
+ "proposed": [
+  "D19.1",
+  "D19.2",
+  "D19.3",
+  "D19.4",
+  "D19.5",
+  "D19.6",
+  "D19.7",
+  "D19.8",
+  "D19.9",
+  "D19.10"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": [
+   "sources/z3/01_TESTED_COHERENT_COMPONENT/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "E19.1/Q15/0152",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the transition from P-IMAGO's general analogy of being to the specific ten-variable product integral and its identification as a Grand Unified Field Equation or Theory of Everything; no premise here defines χ, the variables, the measure, or the physical correspondences."
+  },
+  {
+   "id": "E19.1/Q15/Z3-result-00",
+   "kind": "type mismatch",
+   "status": "OPEN",
+   "scope": "Verification process; no domain verdict: 146_E19.1_Full-Master-Equation.md",
+   "reason": "Expecting value: line 1 column 1 (char 0) Faithfulness to the intended domain is a separate obligation."
+  }
+ ],
+ "ports": [],
+ "main": "E19.1",
+ "claims": [
+  "E19.1",
+  "E19.1::split-01",
+  "E19.1::split-02",
+  "E19.1::split-03",
+  "E19.1::split-04",
+  "E19.1::split-05",
+  "E19.1::split-06",
+  "E19.1::split-07",
+  "E19.1::split-08",
+  "E19.1::split-09",
+  "E19.1::split-10",
+  "E19.1::split-11",
+  "E19.1::split-12",
+  "E19.1::split-13",
+  "E19.1::split-14",
+  "E19.1::split-15"
+ ],
+ "source": "source/nodes/E19.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

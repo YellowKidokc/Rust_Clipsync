@@ -1,0 +1,34 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "OMEGA",
+ "claim_id": "OMEGA::split-12",
+ "type": "CLAIM",
+ "text": "Eschatology can be mathematized as individual coherence variables changing through death, resurrection, judgment, and eternal state.",
+ "source": {
+  "file": "source/nodes/OMEGA.yaml",
+  "quote": "Eschatology can be mathematized as individual coherence variables changing through death, resurrection, judgment, and eternal state.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/OMEGA.yaml#OMEGA::split-12 (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "OMEGA",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+ "obstructions": [],
+ "generated_by": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+}

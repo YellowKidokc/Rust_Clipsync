@@ -1,0 +1,63 @@
+{
+ "id": "BC4b",
+ "title": "BC4b Three Roles = Trinity",
+ "lifecycle": "boundary",
+ "tier": 8,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC4a"
+ ],
+ "proposed": [
+  "BC4a"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. Not Z3-checkable as stated: key terms such as 'observer-state', 'self-referential observation closure', 'minimal closure model', 'adjudication', and 'reduces to N=3 basis' are not given a precise mathematical definition. The file explicitly says a proof sketch is required and defers the full proof, so encoding would require inventing an unstated graph/closure predicate, which would trivialize or beg the claim. I did not substitute easier side claims about the Born Rule or Gleason dimension const",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "BC4b/Q15/0075",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the move from a three-term mathematical expression or triadic analogy to a necessary physical count of three observers/operators; A0+P-IMAGO do not license that step."
+  },
+  {
+   "id": "BC4b/Q15/0076",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "v3 versus current-root source identity",
+   "reason": "v3 repairs/splits this concept, while current source file BC4_Three_Observers_Required.md retains another title/claim version. Both source spans are preserved; do not equate them by identifier alone."
+  },
+  {
+   "id": "BC4b/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: BC4's main claim that minimal self-referential observation closure requires exactly three distinct observer-states",
+   "reason": "Not Z3-checkable as stated: key terms such as 'observer-state', 'self-referential observation closure', 'minimal closure model', 'adjudication', and 'reduces to N=3 basis' are not given a precise mathematical definition. The file explicitly says a proof sketch is required and defers the full proof, so encoding would require inventing an unstated graph/closure predicate, which would trivialize or beg the claim. I did not substitute easier side claims about the Born Rule or Gleason dimension constraints."
+  }
+ ],
+ "ports": [],
+ "main": "BC4b",
+ "claims": [
+  "BC4b",
+  "BC4b::split-01",
+  "BC4b::split-02",
+  "BC4b::split-03",
+  "BC4b::split-04",
+  "BC4b::split-05",
+  "BC4b::split-06",
+  "BC4b::split-07"
+ ],
+ "source": "source/nodes/BC4b.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

@@ -1,0 +1,61 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "T16.4",
+ "claim_id": "T16.4",
+ "type": "CLAIM",
+ "text": "Buddhism lacks an ultimate self-subsistent observer and therefore fails Boundary Condition 1 (Terminal Observer).",
+ "source": {
+  "file": "source/nodes/T16.4.yaml",
+  "quote": "Buddhism lacks an ultimate self-subsistent observer and therefore fails Boundary Condition 1 (Terminal Observer).",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "identification",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "BC1 as a necessary boundary condition requiring a self-subsistent terminal observer with Phi = infinity; A doctrinal premise that anatman/sunyata exclude every possible terminal observer; A measurement-theoretic premise that the von Neumann chain requires a terminal conscious observer",
+  "outcome": null,
+  "canon_status": "retired",
+  "grade_source": "copied:source/nodes/T16.4.yaml#T16.4::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC1",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "T16.4",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "BC1 as a necessary boundary condition requiring a self-subsistent terminal observer with Phi = infinity",
+  "A doctrinal premise that anatman/sunyata exclude every possible terminal observer",
+  "A measurement-theoretic premise that the von Neumann chain requires a terminal conscious observer"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "T16.4/Q15/0163",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "axiom-set membership",
+   "reason": "David retired this record; it is retained with reason and cannot serve as an active axiom. Content-level truth is not settled merely by retirement."
+  },
+  {
+   "id": "T16.4/Q15/0164",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at moving from A0’s ultimate divine observer and P-IMAGO’s analogical participation to the specific BC1 requirement (Phi = infinity and measurement-chain termination) and then to a comparative verdict on Buddhism; A0 + P-IMAGO do not supply those BC, measurement, or doctrinal premises."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

@@ -1,0 +1,34 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "SC-PHYSICAL",
+ "claim_id": "SC-PHYSICAL::split-11",
+ "type": "CLAIM",
+ "text": "Neural coherence is obtained by coarse-graining χ_P and adding integrated-information coupling terms.",
+ "source": {
+  "file": "source/nodes/SC-PHYSICAL.yaml",
+  "quote": "Neural coherence is obtained by coarse-graining χ_P and adding integrated-information coupling terms.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/SC-PHYSICAL.yaml#SC-PHYSICAL::split-11 (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "SC-PHYSICAL",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+ "obstructions": [],
+ "generated_by": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+}

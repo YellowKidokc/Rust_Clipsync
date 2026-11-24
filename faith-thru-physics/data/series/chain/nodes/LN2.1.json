@@ -1,0 +1,65 @@
+{
+ "id": "LN2.1",
+ "title": "LN2.1 Info Anchor Necessity",
+ "lifecycle": "merged",
+ "tier": 3,
+ "context_parent": "A0",
+ "merged_into": "A2.1",
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim cannot be encoded faithfully in Z3 from the file as stated. Key terms such as 'information', 'ontological ground', 'coherence', 'self-grounding', 'depends on', 'Logos', and 'arbitrary brute fact' are metaphysical and lack precise formal definitions. A finite Boolean dependency model would either trivialize the claim or require adding unstated assumptions and would therefore not check the file's actual claim.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "LN2.1/Q15/0018",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "duplicate node identity",
+   "reason": "David merged the source into A2.1; retain its claim and provenance at that destination. Warrant is not upgraded."
+  },
+  {
+   "id": "LN2.1/Q15/0019",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "Core derivation succeeds for created information's ultimate dependence on God; the full record fails at identifying the Logos Field χ with the self-grounding substrate and at extending the anchor to physical laws, spacetime, conservation, causal efficacy, meaning-stability, and chaos consequences."
+  },
+  {
+   "id": "LN2.1/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: LN2.1 Information Anchor Necessity: all information requires a self-grounding ontological substrate, identified as the Logos.",
+   "reason": "The main claim cannot be encoded faithfully in Z3 from the file as stated. Key terms such as 'information', 'ontological ground', 'coherence', 'self-grounding', 'depends on', 'Logos', and 'arbitrary brute fact' are metaphysical and lack precise formal definitions. A finite Boolean dependency model would either trivialize the claim or require adding unstated assumptions and would therefore not check the file's actual claim."
+  }
+ ],
+ "ports": [],
+ "main": "LN2.1",
+ "claims": [
+  "LN2.1",
+  "LN2.1::split-01",
+  "LN2.1::split-02",
+  "LN2.1::split-03",
+  "LN2.1::split-04",
+  "LN2.1::split-05",
+  "LN2.1::split-06",
+  "LN2.1::split-07",
+  "LN2.1::split-08",
+  "LN2.1::split-09",
+  "LN2.1::split-10",
+  "LN2.1::split-11"
+ ],
+ "source": "source/nodes/LN2.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

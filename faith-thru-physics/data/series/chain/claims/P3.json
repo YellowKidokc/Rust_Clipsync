@@ -1,0 +1,62 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "P3",
+ "claim_id": "P3",
+ "type": "CLAIM",
+ "text": "For information to function as meaningful or semantic information, it must exhibit coherent structure rather than pure randomness.",
+ "source": {
+  "file": "source/nodes/P3.yaml",
+  "quote": "For information to function as meaningful or semantic information, it must exhibit coherent structure rather than pure randomness.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "P2: information exists as an ontological substrate; A definition or premise that semantic/meaningful information requires coherent syntactic structure; Empirical physics/thermodynamics/quantum theory/cosmology/neuroscience for the layer-specific claims; A separate theological-causal bridge identifying the Logos with the chi-field and with physical coherence",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/P3.yaml#P3::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A3.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "P3",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "P2: information exists as an ontological substrate",
+  "A definition or premise that semantic/meaningful information requires coherent syntactic structure",
+  "Empirical physics/thermodynamics/quantum theory/cosmology/neuroscience for the layer-specific claims",
+  "A separate theological-causal bridge identifying the Logos with the chi-field and with physical coherence"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "P3/Q15/0212",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "duplicate node identity",
+   "reason": "David merged the source into LN3.1; retain its claim and provenance at that destination. Warrant is not upgraded."
+  },
+  {
+   "id": "P3/Q15/0213",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the move from P-IMAGO's general creaturely participation in divine order/intelligibility to the necessary-condition claim and then to the physical, mathematical, and Logos/chi-field causal claims."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

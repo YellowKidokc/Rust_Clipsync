@@ -1,0 +1,44 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "FREE-CHOICE-001",
+ "claim_id": "FREE-CHOICE-001::receipt::Law1GeodesicAndRocket.Iso.pres_regime",
+ "type": "RECEIPT",
+ "text": "Exact compiled declaration Law1GeodesicAndRocket.Iso.pres_regime",
+ "source": {
+  "file": "source/nodes/FREE-CHOICE-001.yaml",
+  "quote": "Exact compiled declaration Law1GeodesicAndRocket.Iso.pres_regime",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "theorem",
+  "register": "formal"
+ },
+ "grade": {
+  "match_scope": "states_only",
+  "warrant": "proved",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/FREE-CHOICE-001.yaml#FREE-CHOICE-001::receipt::Law1GeodesicAndRocket.Iso.pres_regime (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [
+  {
+   "kind": "lean",
+   "ref": "sources/october_lean/Law1GeodesicAndRocket.lean"
+  },
+  {
+   "kind": "source",
+   "ref": "receipts/Law1GeodesicAndRocket.log"
+  }
+ ],
+ "neighbors": [],
+ "node": "FREE-CHOICE-001",
+ "is_main": false,
+ "strength": "Structure",
+ "scope": "Regime/energy dictionaries are finite definitions; Newtonian/relativistic dynamics and independent physical derivations are not formalized here.",
+ "obstructions": [],
+ "generated_by": "subtype is a proposal only; no new field added to frozen five tags"
+}

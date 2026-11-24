@@ -1,0 +1,75 @@
+{
+ "id": "T19.1",
+ "title": "T19.1 Laws Derive From χ",
+ "lifecycle": "merged",
+ "tier": 13,
+ "context_parent": "A0",
+ "merged_into": "FINAL-1",
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "E19.1",
+  "D2.1"
+ ],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. Not checkable in Z3 as stated because the central derivation relation is not formally defined: the file does not give a precise chi-field configuration space, Master Equation, variational operator, law definitions/constraints, or a formal 'derives from' predicate. Encoding only the finite pairing map would substitute a side calculation for the main claim.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "T19.1/Q15/0153",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "duplicate node identity",
+   "reason": "David merged the source into FINAL-1; retain its claim and provenance at that destination. Warrant is not upgraded."
+  },
+  {
+   "id": "T19.1/Q15/0154",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the step from A0/P-IMAGO's general analogical created order to the specific chi-field Master Equation and the exact Ten-Law variational derivations and pairings; P-IMAGO does not license physical laws, equations, numbers, or empirical findings."
+  },
+  {
+   "id": "T19.1/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: The main claim that all ten Theophysical Laws derive from the chi-field Master Equation via variational principles and symmetry operations, and exhibit the specified symmetry pairing.",
+   "reason": "Not checkable in Z3 as stated because the central derivation relation is not formally defined: the file does not give a precise chi-field configuration space, Master Equation, variational operator, law definitions/constraints, or a formal 'derives from' predicate. Encoding only the finite pairing map would substitute a side calculation for the main claim."
+  }
+ ],
+ "ports": [],
+ "main": "T19.1",
+ "claims": [
+  "T19.1",
+  "T19.1::split-01",
+  "T19.1::split-02",
+  "T19.1::split-03",
+  "T19.1::split-04",
+  "T19.1::split-05",
+  "T19.1::split-06",
+  "T19.1::split-07",
+  "T19.1::split-08",
+  "T19.1::split-09",
+  "T19.1::split-10",
+  "T19.1::split-11",
+  "T19.1::split-12",
+  "T19.1::split-13",
+  "T19.1::split-14",
+  "T19.1::split-15",
+  "T19.1::split-16",
+  "T19.1::split-17",
+  "T19.1::split-18",
+  "T19.1::split-19",
+  "T19.1::split-20"
+ ],
+ "source": "source/nodes/T19.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

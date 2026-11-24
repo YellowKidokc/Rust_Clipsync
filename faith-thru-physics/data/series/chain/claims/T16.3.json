@@ -1,0 +1,96 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "T16.3",
+ "claim_id": "T16.3",
+ "type": "CLAIM",
+ "text": "Classical Judaism is a necessary but insufficient solution to the eight-boundary-condition system because it lacks the Trinitarian three-observer structure, grace-alone soteriology, and unambiguous resurrection/information-conservation doctrine.",
+ "source": {
+  "file": "source/nodes/T16.3.yaml",
+  "quote": "Classical Judaism is a necessary but insufficient solution to the eight-boundary-condition system because it lacks the Trinitarian three-observer structure, grace-alone soteriology, and unambiguous resurrection/information-conservation doctrine.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "identification",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "The BC1–BC8 boundary-condition system and the rule that completion requires satisfying all eight.; A premise that BC4 requires three distinct divine persons/observers.; Historical/theological premise that classical Judaism lacks such internal divine plurality.; A premise that Torah observance remains necessary for covenant standing, so BC2 is not grace-alone.; Historical premise that early Jewish resurrection doctrine is ambiguous or incomplete for BC7.; The comparative premise that Christianity satisfies the full BC system.",
+  "outcome": null,
+  "canon_status": "retired",
+  "grade_source": "copied:source/nodes/T16.3.yaml#T16.3::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC1",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC2",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC3",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC4a",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC5",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC7",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC8",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC9",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "T16.3",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "The BC1–BC8 boundary-condition system and the rule that completion requires satisfying all eight.",
+  "A premise that BC4 requires three distinct divine persons/observers.",
+  "Historical/theological premise that classical Judaism lacks such internal divine plurality.",
+  "A premise that Torah observance remains necessary for covenant standing, so BC2 is not grace-alone.",
+  "Historical premise that early Jewish resurrection doctrine is ambiguous or incomplete for BC7.",
+  "The comparative premise that Christianity satisfies the full BC system."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "T16.3/Q15/0161",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "axiom-set membership",
+   "reason": "David retired this record; it is retained with reason and cannot serve as an active axiom. Content-level truth is not settled merely by retirement."
+  },
+  {
+   "id": "T16.3/Q15/0162",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "Core derivation stops only if the listed BC/historical premises are granted; the full record stops at the unadmitted step that BC1–BC8, especially BC4, are derived from physics/Born Rule and at the claim that the whole comparative score is a theorem."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

@@ -1,0 +1,95 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "T16.1",
+ "claim_id": "T16.1",
+ "type": "CLAIM",
+ "text": "Christianity is the unique worldview that satisfies all eight proposed boundary conditions for a coherent metaphysical system.",
+ "source": {
+  "file": "source/nodes/T16.1.yaml",
+  "quote": "Christianity is the unique worldview that satisfies all eight proposed boundary conditions for a coherent metaphysical system.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "identification",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A validated derivation of the eight boundary conditions from physics/logic independent of the theological mapping.; A univocal, non-equivocal mapping from Christian doctrines to each BC.; Comparative evidence that every other major worldview fails at least one BC.; A demonstration that no alternative worldview can satisfy all eight BCs.; A justification that the BC system is necessary rather than cherry-picked.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/T16.1.yaml#T16.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC1",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC2",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC3",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC4a",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC5",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC7",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC8",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC9",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "T16.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A validated derivation of the eight boundary conditions from physics/logic independent of the theological mapping.",
+  "A univocal, non-equivocal mapping from Christian doctrines to each BC.",
+  "Comparative evidence that every other major worldview fails at least one BC.",
+  "A demonstration that no alternative worldview can satisfy all eight BCs.",
+  "A justification that the BC system is necessary rather than cherry-picked."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "T16.1/Q15/0157",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "duplicate node identity",
+   "reason": "David merged the source into FINAL-3; retain its claim and provenance at that destination. Warrant is not upgraded."
+  },
+  {
+   "id": "T16.1/Q15/0158",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the move from P-IMAGO's analogical reflection to the specific eight-equation boundary-condition system and comparative uniqueness matrix; P-IMAGO explicitly does not license physical laws, equations, numbers, or empirical findings."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim cannot be encoded faithfully in Z3 from the file as given. The key predicates 'worldview', 'Christianity', 'satisfies BCn', 'external grace', 'measurement orthogonality', 'trinity structure', 'voluntary coupling', etc., are not formally defined. The BC equations use undefined theological/physical quantities (e.g., Phi, grace G(t), observer count, soul information), and the uniqueness claim ranges over all possible worldviews, not a finite enumerated domain. Checking only the provi",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

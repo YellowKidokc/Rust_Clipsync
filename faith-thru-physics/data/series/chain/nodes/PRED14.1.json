@@ -1,0 +1,55 @@
+{
+ "id": "PRED14.1",
+ "title": "PRED14.1 H0 Tension Resolution",
+ "lifecycle": "prediction",
+ "tier": 12,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "HY_EVIDENCE",
+ "declared": [
+  "E14.1"
+ ],
+ "proposed": [
+  "E14.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "PRED14.1/Q15/0139",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "A0 gives God as ground and P-IMAGO gives analogical creaturely participation; neither yields the consciousness-coupled Friedmann term G(t,Ψ), its parameterization, or the numerical H0 resolution. The derivation fails at the transition from analogical participation to a specific physical law and empirical prediction."
+  }
+ ],
+ "ports": [],
+ "main": "PRED14.1",
+ "claims": [
+  "PRED14.1",
+  "PRED14.1::split-01",
+  "PRED14.1::split-02",
+  "PRED14.1::split-03",
+  "PRED14.1::split-04",
+  "PRED14.1::split-05",
+  "PRED14.1::split-06",
+  "PRED14.1::split-07",
+  "PRED14.1::split-08",
+  "PRED14.1::split-09",
+  "PRED14.1::split-10",
+  "PRED14.1::split-11",
+  "PRED14.1::split-12",
+  "PRED14.1::split-13",
+  "PRED14.1::split-14",
+  "PRED14.1::split-15"
+ ],
+ "source": "source/nodes/PRED14.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

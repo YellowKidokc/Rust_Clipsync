@@ -1,0 +1,56 @@
+{
+ "id": "T16.2",
+ "title": "T16.2 Islam Fails BC4a",
+ "lifecycle": "retired",
+ "tier": 14,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC4a"
+ ],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "T16.2/Q15/0159",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "axiom-set membership",
+   "reason": "David retired this record; it is retained with reason and cannot serve as an active axiom. Content-level truth is not settled merely by retirement."
+  },
+  {
+   "id": "T16.2/Q15/0160",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The A0 + P-IMAGO-only derivation fails at the step from the Born Rule's three-term mathematical form to exactly three internal divine observers; P-IMAGO only allows analogical resemblance and does not extend to physics, equations, or measurements."
+  }
+ ],
+ "ports": [],
+ "main": "T16.2",
+ "claims": [
+  "T16.2",
+  "T16.2::split-01",
+  "T16.2::split-02",
+  "T16.2::split-03",
+  "T16.2::split-04",
+  "T16.2::split-05",
+  "T16.2::split-06",
+  "T16.2::split-07",
+  "T16.2::split-08",
+  "T16.2::split-09"
+ ],
+ "source": "source/nodes/T16.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

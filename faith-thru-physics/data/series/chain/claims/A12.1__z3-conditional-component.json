@@ -1,0 +1,47 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "A12.1",
+ "claim_id": "A12.1::z3-conditional-component",
+ "type": "CLAIM",
+ "text": "Every trajectory converges to a definite limit L ∈ {0, Φ_max}; specifically, σ=+1 converges to Φ_max and σ=-1 converges to 0.",
+ "source": {
+  "file": "source/nodes/A12.1.yaml",
+  "quote": "Every trajectory converges to a definite limit L ∈ {0, Φ_max}; specifically, σ=+1 converges to Φ_max and σ=-1 converges to 0.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "theorem",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "conditionally_proved",
+  "warrant_premise": "State variable Φ lies in the compact interval [0, Φ_max].; Sign σ is conserved and takes values +1 or -1.; The scalar destiny equation dΦ/dt = σ γ Φ (Φ_max - Φ) determines the flow: for σ=+1, Φ monotonically increases toward Φ_max; for σ=-1, Φ monotonically decreases toward 0.; Φ_max is a positive bound (finite discretization uses Φ_max=4).; The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge.",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/A12.1.yaml#A12.1::z3-conditional-component (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [
+  {
+   "kind": "z3",
+   "ref": "sources/z3/03_PROMISING/results.json"
+  }
+ ],
+ "neighbors": [],
+ "node": "A12.1",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Reported Z3 encoded component; domain bridge remains unverified; this is not a new solver run.",
+ "conditional_premises": [
+  "State variable Φ lies in the compact interval [0, Φ_max].",
+  "Sign σ is conserved and takes values +1 or -1.",
+  "The scalar destiny equation dΦ/dt = σ γ Φ (Φ_max - Φ) determines the flow: for σ=+1, Φ monotonically increases toward Φ_max; for σ=-1, Φ monotonically decreases toward 0.",
+  "Φ_max is a positive bound (finite discretization uses Φ_max=4).",
+  "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+ ],
+ "obstructions": [],
+ "generated_by": "proposal only"
+}

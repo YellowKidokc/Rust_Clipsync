@@ -1,0 +1,76 @@
+{
+ "id": "U1",
+ "title": "U1 Coherence Universal",
+ "lifecycle": "deferred",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A3.2",
+  "E3.2"
+ ],
+ "proposed": [
+  "D3.1",
+  "E3.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main U1 claim cannot be faithfully encoded in Z3 as stated. It is a broad metaphysical/teleological universality claim, not a precise mathematical theorem. The file conflates inequivalent coherence measures (negative von Neumann entropy, purity, l1 off-diagonal coherence, integrated information Phi), leaves the variational action and its constraints unspecified, and invokes non-formal 'grace' conditions. Encoding only a side theorem such as coherence monotonicity under CPTP maps would not ch",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "U1/Q15/0188",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "coherence unification",
+   "reason": "U1 and O2 are deferred together to C-info/C-moral/C-spiritual separation; bears on Law 10."
+  },
+  {
+   "id": "U1/Q15/0189",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops after real created order/coherence is identified as a finite reflection of God's order/Logos; it cannot infer that coherence is the fundamental organizing principle, that reality extremizes coherence, or that any specific mathematical, physical, biological, quantum, or empirical claim follows."
+  },
+  {
+   "id": "U1/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Universal claim that coherence is the fundamental organizing principle and that reality extremizes coherence",
+   "reason": "The main U1 claim cannot be faithfully encoded in Z3 as stated. It is a broad metaphysical/teleological universality claim, not a precise mathematical theorem. The file conflates inequivalent coherence measures (negative von Neumann entropy, purity, l1 off-diagonal coherence, integrated information Phi), leaves the variational action and its constraints unspecified, and invokes non-formal 'grace' conditions. Encoding only a side theorem such as coherence monotonicity under CPTP maps would not check the main claim."
+  }
+ ],
+ "ports": [],
+ "main": "U1",
+ "claims": [
+  "U1",
+  "U1::split-01",
+  "U1::split-02",
+  "U1::split-03",
+  "U1::split-04",
+  "U1::split-05",
+  "U1::split-06",
+  "U1::split-07",
+  "U1::split-08",
+  "U1::split-09",
+  "U1::split-10",
+  "U1::split-11",
+  "U1::split-12",
+  "U1::split-13",
+  "U1::split-14",
+  "U1::split-15",
+  "U1::split-16",
+  "U1::split-17",
+  "U1::split-18"
+ ],
+ "source": "source/nodes/U1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

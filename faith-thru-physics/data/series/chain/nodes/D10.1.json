@@ -1,0 +1,61 @@
+{
+ "id": "D10.1",
+ "title": "D10.1 Soul Field Ψ_S",
+ "lifecycle": "definition",
+ "tier": 11,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file's main claim is a definitional identification, not a proposition with premises entailing a conclusion. The formal Statement relies on undefined/conceptual terms such as 'carrying individual consciousness', 'individuality', and configuration of the χ-field; the consciousness criterion and threshold are not fully formalized in this file. Encoding it in Z3 would require adding unstated semantics or reducing it to a trivial existence/type declaration, so the main claim cannot be faithfully ",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "D10.1/Q15/0108",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the analogy that created consciousness is a finite, dependent participation in God; it cannot cross to identifying the soul with a real scalar field Ψ_S or to any χ-field, Klein-Gordon, mass, coupling, quantization, or resurrection details."
+  },
+  {
+   "id": "D10.1/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Definition of the Soul Field Ψ_S as a real scalar field carrying individual consciousness",
+   "reason": "The file's main claim is a definitional identification, not a proposition with premises entailing a conclusion. The formal Statement relies on undefined/conceptual terms such as 'carrying individual consciousness', 'individuality', and configuration of the χ-field; the consciousness criterion and threshold are not fully formalized in this file. Encoding it in Z3 would require adding unstated semantics or reducing it to a trivial existence/type declaration, so the main claim cannot be faithfully checked as a mathematical implication here."
+  }
+ ],
+ "ports": [],
+ "main": "D10.1",
+ "claims": [
+  "D10.1",
+  "D10.1::split-01",
+  "D10.1::split-02",
+  "D10.1::split-03",
+  "D10.1::split-04",
+  "D10.1::split-05",
+  "D10.1::split-06",
+  "D10.1::split-07",
+  "D10.1::split-08",
+  "D10.1::split-09",
+  "D10.1::split-10",
+  "D10.1::split-11",
+  "D10.1::split-12"
+ ],
+ "source": "source/nodes/D10.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

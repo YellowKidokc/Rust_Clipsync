@@ -1,0 +1,66 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D19.4",
+ "claim_id": "D19.4",
+ "type": "CLAIM",
+ "text": "Grace can be modeled as evolving by an external divine source minus natural decay plus a faith-consciousness feedback term.",
+ "source": {
+  "file": "source/nodes/D19.4.yaml",
+  "quote": "Grace can be modeled as evolving by an external divine source minus natural decay plus a faith-consciousness feedback term.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "operator",
+  "composition_level": 4,
+  "claim_role": "definition",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A specific theological/empirical model identifying grace as a scalar dynamical quantity with decay and feedback.; Operational definitions and measurements for G, F, C, γ_G, and β.; A premise identifying grace with a physical chi-field or other measurable proxy.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D19.4.yaml#D19.4::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "D9.1",
+   "edge": "rests_on"
+  },
+  {
+   "id": "A9.2",
+   "edge": "rests_on",
+   "proposed": true
+  }
+ ],
+ "node": "D19.4",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A specific theological/empirical model identifying grace as a scalar dynamical quantity with decay and feedback.",
+  "Operational definitions and measurements for G, F, C, γ_G, and β.",
+  "A premise identifying grace with a physical chi-field or other measurable proxy."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "D19.4/Q15/0143",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the move from general dependence/analogy to a specific scalar ODE for grace; A0+P-IMAGO do not supply the variables G,F,C, the decay/feedback terms, parameter values, or operational measurement."
+  },
+  {
+   "id": "D19.4/Q15/0255",
+   "kind": "known countermodel",
+   "status": "FATAL",
+   "scope": "unrestricted three-regime person == two-state law pattern",
+   "reason": "LawToLaw.person_pattern_not_law_pattern excludes the asserted full bijection at those cardinalities."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is a definitional differential equation, not a proposition that can be proven from premises. Encoding it in Z3 would either trivially restate the definition as an assumption or check only consistency, which does not verify the definitional claim. The file's theorems (existence, asymptotic behavior, stability) are downstream consequences, not the main Statement.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

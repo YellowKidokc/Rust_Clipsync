@@ -1,0 +1,78 @@
+{
+ "id": "D19.8",
+ "title": "D19.8 Law VIII (Sign Algebra)",
+ "lifecycle": "open",
+ "tier": 13,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "D8.1"
+ ],
+ "proposed": [
+  "A8.1",
+  "A8.2",
+  "A9.1",
+  "D8.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. Cannot be faithfully encoded as a single Z3 entailment without adding unstated assumptions. The statement conflates a scalar sign σ∈{+1,-1} with an operator Σ in expressions like UΣU†; it does not precisely define 'self-transformation', 'unitary', or 'grace'; and it later identifies the unitary flip operator Σ_x while still asserting that unitary operations preserve sign. A faithful check would need an added superselection/commutation condition such as [U,Σ]=0 for allowed self-transformations.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "D19.8/Q15/0148",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops when P-IMAGO's general analogy of creaturely moral goodness participating in God's goodness is treated as entailing a precise binary Z₂ sign algebra with conservation laws, attractor basins, and physical gauge/Lagrangian structure."
+  },
+  {
+   "id": "D19.8/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Law VIII: moral orientation as a binary Z2 sign preserved by self-transformations but flipped by external non-unitary grace",
+   "reason": "Cannot be faithfully encoded as a single Z3 entailment without adding unstated assumptions. The statement conflates a scalar sign σ∈{+1,-1} with an operator Σ in expressions like UΣU†; it does not precisely define 'self-transformation', 'unitary', or 'grace'; and it later identifies the unitary flip operator Σ_x while still asserting that unitary operations preserve sign. A faithful check would need an added superselection/commutation condition such as [U,Σ]=0 for allowed self-transformations."
+  }
+ ],
+ "ports": [
+  {
+   "agent": "Component agents; no extra actor added",
+   "boundary": "All component boundaries and any cross-register bridge must be satisfied",
+   "input": "Declared component contracts and exact assumptions",
+   "output": "Conditional composite account, not an unconditional theorem",
+   "evidence": [
+    "A8.1",
+    "A8.2",
+    "A9.1",
+    "D8.1"
+   ]
+  }
+ ],
+ "main": "D19.8",
+ "claims": [
+  "D19.8",
+  "D19.8::split-01",
+  "D19.8::split-02",
+  "D19.8::split-03",
+  "D19.8::split-04",
+  "D19.8::split-05",
+  "D19.8::split-06",
+  "D19.8::split-07",
+  "D19.8::split-08",
+  "D19.8::split-09",
+  "D19.8::split-10",
+  "D19.8::split-11",
+  "D19.8::split-12",
+  "D19.8::split-13"
+ ],
+ "source": "source/nodes/D19.8.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

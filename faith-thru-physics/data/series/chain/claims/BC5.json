@@ -1,0 +1,57 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "BC5",
+ "claim_id": "BC5",
+ "type": "CLAIM",
+ "text": "Quantum superpositions evolve unitarily and remain preserved until an observation or information extraction selects a definite outcome; environmental decoherence alone does not select an outcome.",
+ "source": {
+  "file": "source/nodes/BC5.yaml",
+  "quote": "Quantum superpositions evolve unitarily and remain preserved until an observation or information extraction selects a definite outcome; environmental decoherence alone does not select an outcome.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "boundary",
+  "composition_level": 1,
+  "claim_role": "assumption",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "Quantum mechanics with unitary Schrödinger evolution.; A measurement or observer-collapse interpretation specifying that observation/information extraction selects an outcome.; An identification of observation with Φ > 0 information extraction.; A premise that God as Terminal Observer observes all creation and collapses cosmological superpositions.; A χ-field model in which potential configurations are quantum superpositions.; A bridge from quantum openness to creaturely free will and divine providence.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/BC5.yaml#BC5::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC4a",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "BC5",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "Quantum mechanics with unitary Schrödinger evolution.",
+  "A measurement or observer-collapse interpretation specifying that observation/information extraction selects an outcome.",
+  "An identification of observation with Φ > 0 information extraction.",
+  "A premise that God as Terminal Observer observes all creation and collapses cosmological superpositions.",
+  "A χ-field model in which potential configurations are quantum superpositions.",
+  "A bridge from quantum openness to creaturely free will and divine providence."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "BC5/Q15/0077",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the move from A0/P-IMAGO's metaphysical analogy of being and divine observation to a specific quantum-mechanical collapse rule; no physical superposition, decoherence, or measurement dynamics follows."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

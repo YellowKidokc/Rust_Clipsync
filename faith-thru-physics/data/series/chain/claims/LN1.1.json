@@ -1,0 +1,62 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "LN1.1",
+ "claim_id": "LN1.1",
+ "type": "CLAIM",
+ "text": "Matter and energy are derivative manifestations of primitive information.",
+ "source": {
+  "file": "source/nodes/LN1.1.yaml",
+  "quote": "Matter and energy are derivative manifestations of primitive information.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A1.3: information is ontologically primitive.; D1.1: information reduces uncertainty about states.; D1.2: the bit is the minimal unit.; Premise: matter/energy are fully specified by informational properties (mass, charge, spin, position, etc.).; Empirical/theoretical physics premises: Standard Model quantum numbers exhaust particle properties; QFT states are informational modes; holographic entropy supports boundary information; etc.; Mathematical premise: a faithful functor Phys → Info exists.; χ-field ontology with physical constants as χ-field parameters.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/LN1.1.yaml#LN1.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A1.1",
+   "edge": "rests_on"
+  },
+  {
+   "id": "A1.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "LN1.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A1.3: information is ontologically primitive.",
+  "D1.1: information reduces uncertainty about states.",
+  "D1.2: the bit is the minimal unit.",
+  "Premise: matter/energy are fully specified by informational properties (mass, charge, spin, position, etc.).",
+  "Empirical/theoretical physics premises: Standard Model quantum numbers exhaust particle properties; QFT states are informational modes; holographic entropy supports boundary information; etc.",
+  "Mathematical premise: a faithful functor Phys → Info exists.",
+  "χ-field ontology with physical constants as χ-field parameters."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "LN1.1/Q15/0008",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The core derivation stops at the move from P-IMAGO's general creaturely order/intelligibility to 'information is ontologically primitive' and 'matter/energy are fully specified by informational properties'; the full record's physical/mathematical extras stop even earlier because P-IMAGO explicitly does not entail physical laws, equations, constants, or measurements."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is a metaphysical/ontological priority claim using undefined notions such as 'primitive', 'derivative', 'ground', and 'prior'. The file gives quantitative support via the Bekenstein bound and Landauer principle, but those do not formalize the priority relation and are not the main claim. Encoding the claim as arbitrary Boolean predicates would be trivial and not a faithful mathematical check.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

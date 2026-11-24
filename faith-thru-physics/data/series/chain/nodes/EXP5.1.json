@@ -1,0 +1,43 @@
+{
+ "id": "EXP5.1",
+ "title": "EXP5.1 Wheeler Delayed Choice",
+ "lifecycle": "experimental",
+ "tier": 6,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "HY_EVIDENCE",
+ "declared": [
+  "A5.1"
+ ],
+ "proposed": [
+  "A5.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "EXP5.1/Q15/0050",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at any attempt to move from P-IMAGO's analogy of being to a specific quantum experiment, measurement outcome, or physical relevance claim."
+  }
+ ],
+ "ports": [],
+ "main": "EXP5.1",
+ "claims": [
+  "EXP5.1",
+  "EXP5.1::split-01",
+  "EXP5.1::split-02",
+  "EXP5.1::split-03"
+ ],
+ "source": "source/nodes/EXP5.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

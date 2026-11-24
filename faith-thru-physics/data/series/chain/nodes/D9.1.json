@@ -1,0 +1,70 @@
+{
+ "id": "D9.1",
+ "title": "D9.1 Grace Operator Definition",
+ "lifecycle": "definition",
+ "tier": 10,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "CONDITIONAL",
+  "named_premises": [
+   "The moral-factor grace operator is represented on span{|+>, |->} by the real 2x2 matrix [[1,1],[0,0]], i.e. g00=1, g01=1, g10=0, g11=0.",
+   "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+  ],
+  "denial_cost": null,
+  "checkable_by": null,
+  "receipt": [
+   "sources/z3/01_TESTED_COHERENT_COMPONENT/results.json",
+   "Idempotence of the moral-factor grace operator matrix G_sigma = [[1,1],[0,0]] (Ĝ² = Ĝ)."
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "D9.1/Q15/0098",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the move from P-IMAGO's analogy of being to a specific two-level moral Hilbert space and a linear operator Ĝ with matrix representation; neither A0 nor P-IMAGO supplies any such mathematical or physical structure."
+  }
+ ],
+ "ports": [],
+ "main": "D9.1",
+ "claims": [
+  "D9.1",
+  "D9.1::split-01",
+  "D9.1::split-02",
+  "D9.1::split-03",
+  "D9.1::split-04",
+  "D9.1::split-05",
+  "D9.1::split-06",
+  "D9.1::split-07",
+  "D9.1::split-08",
+  "D9.1::split-09",
+  "D9.1::split-10",
+  "D9.1::split-11",
+  "D9.1::split-12",
+  "D9.1::split-13",
+  "D9.1::split-14",
+  "D9.1::split-15",
+  "D9.1::split-16",
+  "D9.1::split-17",
+  "D9.1::receipt::GravityAndGrace.Iso.pres_regime",
+  "D9.1::receipt::GravityAndGrace.gravity_isomorphic_to_grace",
+  "D9.1::receipt::GravityAndGrace.no_self_capture",
+  "D9.1::receipt::GravityAndGrace.hyperbolic_stays_hyperbolic",
+  "D9.1::receipt::GravityAndGrace.adversary_changes_energy_sign",
+  "D9.1::receipt::GravityAndGrace.capture_requires_third_body",
+  "D9.1::z3-conditional-component"
+ ],
+ "source": "source/nodes/D9.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

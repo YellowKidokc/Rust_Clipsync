@@ -1,0 +1,51 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "A5.1",
+ "claim_id": "A5.1",
+ "type": "CLAIM",
+ "text": "Actual definite information requires an observer; without observation, information remains potential and indefinite.",
+ "source": {
+  "file": "source/nodes/A5.1.yaml",
+  "quote": "Actual definite information requires an observer; without observation, information remains potential and indefinite.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 0,
+  "claim_role": "assumption",
+  "register": "embodied"
+ },
+ "grade": {
+  "warrant": "admitted",
+  "warrant_premise": "A premise of information actualization: potential information becomes actual definite information only upon observation or measurement.; A quantum measurement interpretation in which observation or consciousness selects an outcome, such as Wigner/Neumann-style collapse or observer-dependent actualization.; An interpretation of double-slit, delayed-choice, and quantum-eraser experiments as evidence for observer-dependent actualization.; A χ-field/Logos-field ontology and a Terminal Observer (Ω) doctrine.; A premise connecting P-IMAGO's analogy of being to measurement actualization, e.g., that creaturely observation participates in divine self-knowing in a way that actualizes possibilities.",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/A5.1.yaml#A5.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "Holds as an expressly adopted premise, not established as an empirical or premise-free theorem."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "A5.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A premise of information actualization: potential information becomes actual definite information only upon observation or measurement.",
+  "A quantum measurement interpretation in which observation or consciousness selects an outcome, such as Wigner/Neumann-style collapse or observer-dependent actualization.",
+  "An interpretation of double-slit, delayed-choice, and quantum-eraser experiments as evidence for observer-dependent actualization.",
+  "A χ-field/Logos-field ontology and a Terminal Observer (Ω) doctrine.",
+  "A premise connecting P-IMAGO's analogy of being to measurement actualization, e.g., that creaturely observation participates in divine self-knowing in a way that actualizes possibilities."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "A5.1/Q15/0042",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops when the record moves from P-IMAGO's claim that creaturely consciousness and intelligibility reflect God to the claim that observation is necessary for potential information to become actual definite information; A0 + P-IMAGO supply no measurement or information-actualization rule."
+  }
+ ],
+ "denial_cost": "The observer-specific actualization reading and its dependent collapse/terminal-observer claims lose their stated stance; this is not denial of observation or all quantum theory.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

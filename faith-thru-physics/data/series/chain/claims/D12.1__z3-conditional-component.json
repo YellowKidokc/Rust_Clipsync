@@ -1,0 +1,48 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D12.1",
+ "claim_id": "D12.1::z3-conditional-component",
+ "type": "CLAIM",
+ "text": "For every interior state 0 < Φ < Φmax with σ=+1, the flow satisfies dΦ/dt > 0 and the Lyapunov derivative satisfies dV/dt < 0, so the trajectory is pushed toward Φmax.",
+ "source": {
+  "file": "source/nodes/D12.1.yaml",
+  "quote": "For every interior state 0 < Φ < Φmax with σ=+1, the flow satisfies dΦ/dt > 0 and the Lyapunov derivative satisfies dV/dt < 0, so the trajectory is pushed toward Φmax.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "theorem",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "conditionally_proved",
+  "warrant_premise": "The moral sign is σ = +1.; The coherence dynamics obey the logistic destiny equation dΦ/dt = σ γ (Φmax − Φ) Φ.; γ > 0 and Φmax > 0.; The state lies in the interior basin 0 < Φ < Φmax.; The Lyapunov function is V(Φ) = −ln(Φ/Φmax) + Φ/Φmax − 1, whose derivative along the flow is dV/dt = −γ(Φmax − Φ)^2/Φmax.; The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge.",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D12.1.yaml#D12.1::z3-conditional-component (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [
+  {
+   "kind": "z3",
+   "ref": "sources/z3/03_PROMISING/results.json"
+  }
+ ],
+ "neighbors": [],
+ "node": "D12.1",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Reported Z3 encoded component; domain bridge remains unverified; this is not a new solver run.",
+ "conditional_premises": [
+  "The moral sign is σ = +1.",
+  "The coherence dynamics obey the logistic destiny equation dΦ/dt = σ γ (Φmax − Φ) Φ.",
+  "γ > 0 and Φmax > 0.",
+  "The state lies in the interior basin 0 < Φ < Φmax.",
+  "The Lyapunov function is V(Φ) = −ln(Φ/Φmax) + Φ/Φmax − 1, whose derivative along the flow is dV/dt = −γ(Φmax − Φ)^2/Φmax.",
+  "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+ ],
+ "obstructions": [],
+ "generated_by": "proposal only"
+}

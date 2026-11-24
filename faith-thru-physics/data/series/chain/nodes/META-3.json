@@ -1,0 +1,47 @@
+{
+ "id": "META-3",
+ "title": "Axiom System Independence",
+ "lifecycle": "retired",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file does not specify the exact primitive set P (only candidate primitives), the formal language, or the actual derivability/entailment relation over the 188 Theophysics axioms. Encoding a generic abstract finite Boolean or entailment relation would be tautological or would add unstated assumptions, so the main claim cannot be faithfully checked in z3 from the provided content.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "META-3/Q15/0232",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "axiom-set membership",
+   "reason": "David retired this record; it is retained with reason and cannot serve as an active axiom. Content-level truth is not settled merely by retirement."
+  },
+  {
+   "id": "META-3/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Mutual independence and minimality of the Theophysics primitive axiom set",
+   "reason": "The file does not specify the exact primitive set P (only candidate primitives), the formal language, or the actual derivability/entailment relation over the 188 Theophysics axioms. Encoding a generic abstract finite Boolean or entailment relation would be tautological or would add unstated assumptions, so the main claim cannot be faithfully checked in z3 from the provided content."
+  }
+ ],
+ "ports": [],
+ "main": "META-3",
+ "claims": [
+  "META-3"
+ ],
+ "source": "source/nodes/META-3.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

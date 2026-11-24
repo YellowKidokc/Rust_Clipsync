@@ -1,0 +1,34 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "SC-NEURAL",
+ "claim_id": "SC-NEURAL::split-13",
+ "type": "CLAIM",
+ "text": "Individual selfhood or consciousness emerges as temporal integration of neural coherence via a memory kernel.",
+ "source": {
+  "file": "source/nodes/SC-NEURAL.yaml",
+  "quote": "Individual selfhood or consciousness emerges as temporal integration of neural coherence via a memory kernel.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "conjecture",
+  "register": "embodied"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/SC-NEURAL.yaml#SC-NEURAL::split-13 (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "SC-NEURAL",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+ "obstructions": [],
+ "generated_by": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+}

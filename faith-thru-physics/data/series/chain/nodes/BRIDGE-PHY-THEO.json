@@ -1,0 +1,51 @@
+{
+ "id": "BRIDGE-PHY-THEO",
+ "title": "BRIDGE-PHY-THEO",
+ "lifecycle": "bridge",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "HY_EVIDENCE",
+ "declared": [
+  "ID7.1",
+  "D2.1"
+ ],
+ "proposed": [
+  "ID7.1",
+  "D2.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim cannot be faithfully encoded in Z3 without adding undefined formal semantics for chi-field, theological interpretation, divine action, L_theological, and the correspondence between physical and theological predicates. The file contains some formal-looking structures, such as Lagrangians, limits, functors, and mutual information, but these are not specified precisely enough to encode the central ontological-identity claim; checking only one side structure, such as a functor propert",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "BRIDGE-PHY-THEO/Q15/0204",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "domain application rather than mere notation",
+   "reason": "The χ=Logos connection is an interpretive identification rather than a formal physics-theology bridge."
+  },
+  {
+   "id": "BRIDGE-PHY-THEO/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: The Physics-Theology Bridge claim that physics and theology are complementary descriptions of one reality unified by the chi-field.",
+   "reason": "The main claim cannot be faithfully encoded in Z3 without adding undefined formal semantics for chi-field, theological interpretation, divine action, L_theological, and the correspondence between physical and theological predicates. The file contains some formal-looking structures, such as Lagrangians, limits, functors, and mutual information, but these are not specified precisely enough to encode the central ontological-identity claim; checking only one side structure, such as a functor property or I>0, would substitute an easier side calculation for the main claim."
+  }
+ ],
+ "ports": [],
+ "main": "BRIDGE-PHY-THEO",
+ "claims": [
+  "BRIDGE-PHY-THEO"
+ ],
+ "source": "source/nodes/BRIDGE-PHY-THEO.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

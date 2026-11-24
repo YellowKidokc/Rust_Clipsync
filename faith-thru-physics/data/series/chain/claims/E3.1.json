@@ -1,0 +1,55 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "E3.1",
+ "claim_id": "E3.1",
+ "type": "CLAIM",
+ "text": "Coherence can be modeled by the action-like functional C[χ] = ∫√(-g)[kinetic − V(χ) + L_int].",
+ "source": {
+  "file": "source/nodes/E3.1.yaml",
+  "quote": "Coherence can be modeled by the action-like functional C[χ] = ∫√(-g)[kinetic − V(χ) + L_int].",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "constitutive_law",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A formal field-theoretic definition identifying coherence with the action functional C[χ].; Specified definitions and dynamics for χ, g, the kinetic term, V(χ), and L_int from D3.3.; Bridge premises or empirical evidence identifying C[χ] with low entropy, quantum coherence, Shannon information, or signal-to-noise information.; A theological/scriptural premise equating 1 Cor 14:33 order with this functional.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/E3.1.yaml#E3.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "E3.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A formal field-theoretic definition identifying coherence with the action functional C[χ].",
+  "Specified definitions and dynamics for χ, g, the kinetic term, V(χ), and L_int from D3.3.",
+  "Bridge premises or empirical evidence identifying C[χ] with low entropy, quantum coherence, Shannon information, or signal-to-noise information.",
+  "A theological/scriptural premise equating 1 Cor 14:33 order with this functional."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "E3.1/Q15/0026",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "After P-IMAGO's general analogy of created order to divine order; the specific action integral and cross-domain mappings require further formal, physical, empirical, and interpretive premises."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

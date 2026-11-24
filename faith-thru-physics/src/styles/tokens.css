@@ -1,0 +1,81 @@
+/* Generated from the Faith thru Physics design system (tokens.json). Dark (black and gold) first. */
+:root {
+  --surface-000: #0b0a08;
+  --surface-100: #16140f;
+  --surface-200: #221f18;
+  --ink: #f2ece0;
+  --ink-muted: #a99f8d;
+  --hairline: #3a342a;
+  --gold: #d4af37;
+  --gold-soft: #2a2312;
+  --warrant-proved: #f0c64a;
+  --warrant-conditional: #3cbfae;
+  --warrant-admitted: #7aa7f2;
+  --warrant-open: #9b968c;
+  --warrant-disputed: #e9963f;
+  --warrant-failed: #f2705f;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-10: 40px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-full: 999px;
+  --font-serif: "Crimson Text", "Iowan Old Style", Georgia, serif;
+  --font-sans: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+  --surface-000: #faf7f0;
+  --surface-100: #ffffff;
+  --surface-200: #f1ece1;
+  --ink: #1b1813;
+  --ink-muted: #5c5446;
+  --hairline: #d8cfbd;
+  --gold: #7d5f0c;
+  --gold-soft: #f4e9cc;
+  --warrant-proved: #8a6400;
+  --warrant-conditional: #0b6e64;
+  --warrant-admitted: #1f4fc4;
+  --warrant-open: #69645b;
+  --warrant-disputed: #a64b00;
+  --warrant-failed: #b42318;
+    color-scheme: light;
+  }
+}
+:root[data-theme="light"] {
+  --surface-000: #faf7f0;
+  --surface-100: #ffffff;
+  --surface-200: #f1ece1;
+  --ink: #1b1813;
+  --ink-muted: #5c5446;
+  --hairline: #d8cfbd;
+  --gold: #7d5f0c;
+  --gold-soft: #f4e9cc;
+  --warrant-proved: #8a6400;
+  --warrant-conditional: #0b6e64;
+  --warrant-admitted: #1f4fc4;
+  --warrant-open: #69645b;
+  --warrant-disputed: #a64b00;
+  --warrant-failed: #b42318;
+  color-scheme: light;
+}
+:root[data-theme="dark"] {
+  --surface-000: #0b0a08;
+  --surface-100: #16140f;
+  --surface-200: #221f18;
+  --ink: #f2ece0;
+  --ink-muted: #a99f8d;
+  --hairline: #3a342a;
+  --gold: #d4af37;
+  --gold-soft: #2a2312;
+  --warrant-proved: #f0c64a;
+  --warrant-conditional: #3cbfae;
+  --warrant-admitted: #7aa7f2;
+  --warrant-open: #9b968c;
+  --warrant-disputed: #e9963f;
+  --warrant-failed: #f2705f;
+  color-scheme: dark;
+}

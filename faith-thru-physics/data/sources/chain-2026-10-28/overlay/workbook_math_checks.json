@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Coherence Factors C8: proposed wave measure <=1",
+    "status": "sat",
+    "countermodel": "[equal_positive_amplitude = 1]"
+  },
+  {
+    "name": "Equation Mapping row6: F/D equals F-D",
+    "status": "sat",
+    "countermodel": "[distortion_D = 1/4, signal_F = 3/4]"
+  },
+  {
+    "name": "Coherence Factors E6: Gamma>G implies decay",
+    "status": "sat",
+    "countermodel": "[growth_G = 1/5, coherence_C = 1/10, decay_Gamma = 3/10]"
+  },
+  {
+    "name": "Corrected decay condition: G<Gamma*C implies negative derivative",
+    "status": "unsat",
+    "countermodel": null
+  },
+  {
+    "name": "Normalized ratio-difference bridge",
+    "status": "unsat",
+    "countermodel": null
+  }
+]

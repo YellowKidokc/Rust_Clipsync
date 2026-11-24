@@ -1,0 +1,57 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D8.1",
+ "claim_id": "D8.1",
+ "type": "CLAIM",
+ "text": "A sign operator σ̂ can be defined as a Hermitian, involutory, traceless operator on a two-dimensional Hilbert space with spectrum {+1, −1}.",
+ "source": {
+  "file": "source/nodes/D8.1.yaml",
+  "quote": "A sign operator σ̂ can be defined as a Hermitian, involutory, traceless operator on a two-dimensional Hilbert space with spectrum {+1, −1}.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "operator",
+  "composition_level": 0,
+  "claim_role": "definition",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "admitted",
+  "warrant_premise": "Moral states form a two-dimensional Hilbert space.; Moral orientation is binary and quantized.; Moral orientation is measurable in principle by χ-field/Logos/eschatological observation.; The physical spin analogy maps onto actual moral reality.; Stern-Gerlach spin results provide evidence for the moral binary.; The soul is a quantum field with Hamiltonian coupling g σ̂ χ.; The Born rule applies to moral measurement.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D8.1.yaml#D8.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "Proved by construction, not measured."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "D8.1",
+ "is_main": true,
+ "strength": "By definition",
+ "conditional_premises": [
+  "Moral states form a two-dimensional Hilbert space.",
+  "Moral orientation is binary and quantized.",
+  "Moral orientation is measurable in principle by χ-field/Logos/eschatological observation.",
+  "The physical spin analogy maps onto actual moral reality.",
+  "Stern-Gerlach spin results provide evidence for the moral binary.",
+  "The soul is a quantum field with Hamiltonian coupling g σ̂ χ.",
+  "The Born rule applies to moral measurement."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "D8.1/Q15/0089",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the bridge from a pure two-dimensional sign operator to actual moral orientation as a binary, quantized, measurable quantum observable; A0 + P-IMAGO do not license that step."
+  }
+ ],
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

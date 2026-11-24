@@ -1,0 +1,43 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D19.4",
+ "claim_id": "D19.4::receipt::ThreeAgents.grace_flips_with_consent",
+ "type": "RECEIPT",
+ "text": "Exact compiled declaration ThreeAgents.grace_flips_with_consent",
+ "source": {
+  "file": "source/nodes/D19.4.yaml",
+  "quote": "Exact compiled declaration ThreeAgents.grace_flips_with_consent",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "theorem",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "proved",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D19.4.yaml#D19.4::receipt::ThreeAgents.grace_flips_with_consent (Axiom HTML Update, 2026-10-28)",
+  "note": "Proved by construction, not measured."
+ },
+ "receipts": [
+  {
+   "kind": "lean",
+   "ref": "sources/october_lean/ThreeAgents.lean"
+  },
+  {
+   "kind": "source",
+   "ref": "receipts/ThreeAgents.log"
+  }
+ ],
+ "neighbors": [],
+ "node": "D19.4",
+ "is_main": false,
+ "strength": "By definition",
+ "scope": "Works/adversary sign preservation are hypotheses; consent gate is defined. The false-consent result does not prove the adversary causes refusal.",
+ "obstructions": [],
+ "generated_by": "subtype is a proposal only; no new field added to frozen five tags"
+}

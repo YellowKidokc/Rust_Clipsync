@@ -1,0 +1,60 @@
+{
+ "id": "O4",
+ "title": "O4 Primitive 4",
+ "lifecycle": "ontological_primitive",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A5.2"
+ ],
+ "proposed": [
+  "A5.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "ADMITTED",
+  "named_premises": [
+   "Agency is a real, irreducible creaturely feature that depends on and participates in God's free agency, rather than being an independent or merely mechanical capacity."
+  ],
+  "denial_cost": "Irreducible personal causal initiation is no longer an admitted primitive; the authorship account requires replacement rather than a new Boolean label.",
+  "checkable_by": null,
+  "receipt": [
+   "sources/august/AXIOM_CHAIN_MASTER_v3.md"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "O4/Q15/0223",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The core derivation succeeds in grounding creaturely agency as finite participation; it stops before deriving that agency is a fourth primitive necessarily implied by Consciousness/Φ and before every specific chi-field, quantum, thermodynamic, information-theoretic, or category-theoretic formalism."
+  }
+ ],
+ "ports": [],
+ "main": "O4",
+ "claims": [
+  "O4",
+  "O4::split-01",
+  "O4::split-02",
+  "O4::split-03",
+  "O4::split-04",
+  "O4::split-05",
+  "O4::split-06",
+  "O4::split-07",
+  "O4::split-08",
+  "O4::split-09",
+  "O4::split-10",
+  "O4::split-11",
+  "O4::split-12",
+  "O4::split-13",
+  "O4::split-14",
+  "O4::split-15",
+  "O4::split-16"
+ ],
+ "source": "source/nodes/O4.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

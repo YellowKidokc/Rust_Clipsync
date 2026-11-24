@@ -1,0 +1,46 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D8.1",
+ "claim_id": "D8.1::z3-conditional-component",
+ "type": "CLAIM",
+ "text": "The matrix is Hermitian (b=c) and has eigenvalues exactly +1 and -1, equivalent for this 2x2 Hermitian matrix to trace(a+d)=0 and determinant(ad-bc)=-1.",
+ "source": {
+  "file": "source/nodes/D8.1.yaml",
+  "quote": "The matrix is Hermitian (b=c) and has eigenvalues exactly +1 and -1, equivalent for this 2x2 Hermitian matrix to trace(a+d)=0 and determinant(ad-bc)=-1.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "theorem",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "conditionally_proved",
+  "warrant_premise": "H_moral is modeled by a concrete 2x2 matrix representation.; The sign operator is the Pauli-Z matrix sigma-hat = [[1,0],[0,-1]], i.e., entries a=1, b=0, c=0, d=-1.; For a real 2x2 matrix [[a,b],[c,d]], Hermiticity is represented by symmetry b=c.; The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge.",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D8.1.yaml#D8.1::z3-conditional-component (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [
+  {
+   "kind": "z3",
+   "ref": "sources/z3/03_PROMISING/results.json"
+  }
+ ],
+ "neighbors": [],
+ "node": "D8.1",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Reported Z3 encoded component; domain bridge remains unverified; this is not a new solver run.",
+ "conditional_premises": [
+  "H_moral is modeled by a concrete 2x2 matrix representation.",
+  "The sign operator is the Pauli-Z matrix sigma-hat = [[1,0],[0,-1]], i.e., entries a=1, b=0, c=0, d=-1.",
+  "For a real 2x2 matrix [[a,b],[c,d]], Hermiticity is represented by symmetry b=c.",
+  "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+ ],
+ "obstructions": [],
+ "generated_by": "proposal only"
+}

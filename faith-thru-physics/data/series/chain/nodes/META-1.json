@@ -1,0 +1,50 @@
+{
+ "id": "META-1",
+ "title": "Axiom System Consistency",
+ "lifecycle": "meta_axiom",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [
+  "A2.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim concerns a specific 188-axiom theory, but the file does not enumerate the axioms or give a formal derivation system, model language, or semantics for all referenced domains. Encoding only a generic abstract consistency statement would not check META-1's actual claim, and encoding just DAG acyclicity or a toy model would be an unfaithful side calculation.",
+  "receipt": [
+   "sources/z3/02_RERUN/results.json",
+   "sources/z3/02_TESTED_FAILURE_OR_MISSING_ASSUMPTION/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "META-1/Q15/0230",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "domain application rather than mere notation",
+   "reason": "Consistency cannot be asserted as a meta-axiom; it is a proof obligation and the set shows unresolved conflicts."
+  },
+  {
+   "id": "META-1/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Internal consistency of the full 188-axiom Theophysics system, including syntactic non-contradiction and existence of a model.",
+   "reason": "The main claim concerns a specific 188-axiom theory, but the file does not enumerate the axioms or give a formal derivation system, model language, or semantics for all referenced domains. Encoding only a generic abstract consistency statement would not check META-1's actual claim, and encoding just DAG acyclicity or a toy model would be an unfaithful side calculation."
+  }
+ ],
+ "ports": [],
+ "main": "META-1",
+ "claims": [
+  "META-1"
+ ],
+ "source": "source/nodes/META-1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

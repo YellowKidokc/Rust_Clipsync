@@ -1,0 +1,64 @@
+{
+ "id": "P3.1",
+ "title": "P3.1 Coherence Non-Negativity",
+ "lifecycle": "property",
+ "tier": 4,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [
+  "A2.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": [
+   "sources/z3/02_RERUN/results.json",
+   "sources/z3/02_TESTED_FAILURE_OR_MISSING_ASSUMPTION/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "P3.1/Q15/0028",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "After A0 and P-IMAGO, there is no defined coherence measure C[χ] and no rule fixing its range; the derivation of C[χ] ≥ 0 stops here."
+  },
+  {
+   "id": "P3.1/Q15/Z3-result-00",
+   "kind": "known countermodel",
+   "status": "FATAL",
+   "scope": "Encoded fragment under exactly the listed premises, not every interpretation of this node: Coherence non-negativity: C[chi] >= 0",
+   "reason": "[C = [else -> -1]] Faithfulness to the intended domain is a separate obligation."
+  },
+  {
+   "id": "P3.1/Q15/Z3-result-01",
+   "kind": "known countermodel",
+   "status": "FATAL",
+   "scope": "Encoded fragment under exactly the listed premises, not every interpretation of this node: Coherence non-negativity: the coherence functional C applied to any coherence input chi is nonnegative.",
+   "reason": "[C = [else -> -1]] Faithfulness to the intended domain is a separate obligation."
+  }
+ ],
+ "ports": [],
+ "main": "P3.1",
+ "claims": [
+  "P3.1",
+  "P3.1::split-01",
+  "P3.1::split-02",
+  "P3.1::split-03",
+  "P3.1::split-04",
+  "P3.1::split-05",
+  "P3.1::split-06",
+  "P3.1::split-07"
+ ],
+ "source": "source/nodes/P3.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

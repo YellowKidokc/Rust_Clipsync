@@ -1,0 +1,62 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D1.2",
+ "claim_id": "D1.2",
+ "type": "CLAIM",
+ "text": "A bit is the minimal unit of distinction, understood as a binary choice.",
+ "source": {
+  "file": "source/nodes/D1.2.yaml",
+  "quote": "A bit is the minimal unit of distinction, understood as a binary choice.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "state",
+  "composition_level": 0,
+  "claim_role": "definition",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A formal information-theoretic definition identifying distinction with binary choice.; Quantum mechanics measurement postulate and empirical measurement outcomes.; Bekenstein-Hawking entropy bound and holographic information counting.; A quantum-gravity or Planck-scale discretization premise.; Landauer's principle and thermodynamics of computation.; Digital physics or computational-universe hypothesis.; A hermeneutical premise mapping Genesis 1:4 to binary information.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D1.2.yaml#D1.2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A1.1",
+   "edge": "rests_on"
+  },
+  {
+   "id": "A1.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "D1.2",
+ "is_main": true,
+ "strength": "By definition",
+ "conditional_premises": [
+  "A formal information-theoretic definition identifying distinction with binary choice.",
+  "Quantum mechanics measurement postulate and empirical measurement outcomes.",
+  "Bekenstein-Hawking entropy bound and holographic information counting.",
+  "A quantum-gravity or Planck-scale discretization premise.",
+  "Landauer's principle and thermodynamics of computation.",
+  "Digital physics or computational-universe hypothesis.",
+  "A hermeneutical premise mapping Genesis 1:4 to binary information."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "D1.2/Q15/0007",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the step from P-IMAGO's general analogy/order claim to a specific binary information unit; P-IMAGO explicitly does not yield physical laws, equations, constants, measurements, or scriptural bit-mappings."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file's main claim is a definition/conceptual identification ('bit' as fundamental unit, universal across domains, physically real, quantum-equivalent) rather than a precise mathematical theorem with premises and a conclusion. Encoding only 1 bit = log2(2) = 1 or the entropy drop for two equiprobable states would check a trivial/side mathematical instance, not the main claim. The universality and fundamentality clauses cannot be stated faithfully in Z3 without adding unstated assumptions.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

@@ -1,0 +1,30 @@
+{
+  "source_policy": "Snapshots only. No original axiom or canonical status changed.",
+  "added_lean_theorems": 18,
+  "direction_results": {
+    "ENTAILS": 27,
+    "COUNTERMODEL": 7
+  },
+  "scope": [
+    {
+      "area": "Awakening, acceptance, restoration",
+      "result": "Conditional biconditionals for simplified Lean projections; initial-state premises explicit. Python restoration additionally checks debt and trace."
+    },
+    {
+      "area": "Agents and permission",
+      "result": "Guarded FreeChoice adapter proved; native Python authorization exhaustively checked on finite grid. Lean Justification has no judge actor parameter."
+    },
+    {
+      "area": "Transitions and invariants",
+      "result": "Identity and record preserved for arbitrary finite sequences of the three modeled Grace001 actions; broader arbitrary-generator invariant theorem is conditional on generator invariance."
+    },
+    {
+      "area": "Growth versus standing",
+      "result": "Native rational witnesses distinguish repeatable growth from idempotent legal standing. Standing inverse is only on the projected standing domain."
+    },
+    {
+      "area": "Remaining records",
+      "result": "All 210 inventoried. 199 lack text ports. Main unformalized spiritual claims remain unformalized; narrower operational theorems do not prove them."
+    }
+  ]
+}

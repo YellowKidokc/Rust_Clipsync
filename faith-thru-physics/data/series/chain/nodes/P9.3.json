@@ -1,0 +1,62 @@
+{
+ "id": "P9.3",
+ "title": "P9.3 Info Preserved Under Grace",
+ "lifecycle": "property",
+ "tier": 10,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": [
+   "sources/z3/01_TESTED_COHERENT_COMPONENT/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "P9.3/Q15/0103",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the step from P-IMAGO's analogical participation in being, consciousness, and moral goodness to the specific claim that grace preserves soul information, N_S, Φ, memory correlations, or quantum trace; that step requires an identity-preserving grace premise and a specified information-theoretic model."
+  },
+  {
+   "id": "P9.3/Q15/Z3-result-00",
+   "kind": "type mismatch",
+   "status": "OPEN",
+   "scope": "Verification process; no domain verdict: 078_P9.3_Information-Preserved-Under-Grace.md",
+   "reason": "Expecting value: line 1 column 1 (char 0) Faithfulness to the intended domain is a separate obligation."
+  }
+ ],
+ "ports": [],
+ "main": "P9.3",
+ "claims": [
+  "P9.3",
+  "P9.3::split-01",
+  "P9.3::split-02",
+  "P9.3::split-03",
+  "P9.3::split-04",
+  "P9.3::split-05",
+  "P9.3::split-06",
+  "P9.3::split-07",
+  "P9.3::split-08",
+  "P9.3::split-09",
+  "P9.3::split-10",
+  "P9.3::split-11",
+  "P9.3::split-12",
+  "P9.3::split-13"
+ ],
+ "source": "source/nodes/P9.3.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

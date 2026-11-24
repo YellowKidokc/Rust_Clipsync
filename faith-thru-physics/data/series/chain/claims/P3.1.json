@@ -1,0 +1,53 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "P3.1",
+ "claim_id": "P3.1",
+ "type": "CLAIM",
+ "text": "Coherence, as a measure C[χ], is non-negative: C[χ] ≥ 0.",
+ "source": {
+  "file": "source/nodes/P3.1.yaml",
+  "quote": "Coherence, as a measure C[χ], is non-negative: C[χ] ≥ 0.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "E3.2 Universal Coherence Definition; a mathematical definition or axiom specifying that the coherence measure C[χ] has non-negative range (if not already in E3.2)",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/P3.1.yaml#P3.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "P3.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "E3.2 Universal Coherence Definition",
+  "a mathematical definition or axiom specifying that the coherence measure C[χ] has non-negative range (if not already in E3.2)"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "P3.1/Q15/0028",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "After A0 and P-IMAGO, there is no defined coherence measure C[χ] and no rule fixing its range; the derivation of C[χ] ≥ 0 stops here."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

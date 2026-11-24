@@ -1,0 +1,34 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "F7",
+ "claim_id": "F7::split-10",
+ "type": "CLAIM",
+ "text": "Faithfulness is a category-theoretic functor from Commit to [0,1] with the stated behavior on drift and maintenance morphisms.",
+ "source": {
+  "file": "source/nodes/F7.yaml",
+  "quote": "Faithfulness is a category-theoretic functor from Commit to [0,1] with the stated behavior on drift and maintenance morphisms.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/F7.yaml#F7::split-10 (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "F7",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+ "obstructions": [],
+ "generated_by": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+}

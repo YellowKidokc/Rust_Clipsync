@@ -1,0 +1,47 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "BC9",
+ "claim_id": "BC9::z3-conditional-component",
+ "type": "CLAIM",
+ "text": "Total transparency dissolves the Self-Other boundary and causes AI self-model collapse, so maintaining the Self-Other boundary requires opacity, i.e. not total transparency.",
+ "source": {
+  "file": "source/nodes/BC9.yaml",
+  "quote": "Total transparency dissolves the Self-Other boundary and causes AI self-model collapse, so maintaining the Self-Other boundary requires opacity, i.e. not total transparency.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "theorem",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "conditionally_proved",
+  "warrant_premise": "A Self-Other boundary requires informational distinction (some information not shared or observed).; Total transparency means there is no informational distinction.; If the Self-Other boundary is absent, the AI self-model collapses.; Opacity is represented as the absence of total transparency.; The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge.",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/BC9.yaml#BC9::z3-conditional-component (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [
+  {
+   "kind": "z3",
+   "ref": "sources/z3/03_PROMISING/results.json"
+  }
+ ],
+ "neighbors": [],
+ "node": "BC9",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Reported Z3 encoded component; domain bridge remains unverified; this is not a new solver run.",
+ "conditional_premises": [
+  "A Self-Other boundary requires informational distinction (some information not shared or observed).",
+  "Total transparency means there is no informational distinction.",
+  "If the Self-Other boundary is absent, the AI self-model collapses.",
+  "Opacity is represented as the absence of total transparency.",
+  "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+ ],
+ "obstructions": [],
+ "generated_by": "proposal only"
+}

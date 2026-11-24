@@ -1,0 +1,50 @@
+{
+ "id": "D5.1",
+ "title": "D5.1 Observer Definition",
+ "lifecycle": "definition",
+ "tier": 6,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "A5.1"
+ ],
+ "proposed": [
+  "A5.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "D5.1/Q15/0044",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the definitional stipulation: A0 + P-IMAGO do not entail that 'observer' means 'system capable of registering distinctions'. The cross-domain physical and empirical mappings require further premises and data."
+  }
+ ],
+ "ports": [],
+ "main": "D5.1",
+ "claims": [
+  "D5.1",
+  "D5.1::split-01",
+  "D5.1::split-02",
+  "D5.1::split-03",
+  "D5.1::split-04",
+  "D5.1::split-05",
+  "D5.1::split-06",
+  "D5.1::split-07",
+  "D5.1::split-08",
+  "D5.1::split-09",
+  "D5.1::split-10"
+ ],
+ "source": "source/nodes/D5.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

@@ -1,0 +1,55 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "A13.2",
+ "claim_id": "A13.2",
+ "type": "CLAIM",
+ "text": "Spacetime geometry is not fundamental but emerges from a more fundamental informational substrate.",
+ "source": {
+  "file": "source/nodes/A13.2.yaml",
+  "quote": "Spacetime geometry is not fundamental but emerges from a more fundamental informational substrate.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "physical"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "LN1.2: physical reality supervenes on information ('It from Bit').; A1.3: information is ontologically primitive.; D2.1/D2.2: a chi/Logos field exists as a real informational substrate of spacetime.; Holographic/emergent-gravity premise: spacetime geometry is determined by entanglement or information structure.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/A13.2.yaml#A13.2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "A13.2",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "LN1.2: physical reality supervenes on information ('It from Bit').",
+  "A1.3: information is ontologically primitive.",
+  "D2.1/D2.2: a chi/Logos field exists as a real informational substrate of spacetime.",
+  "Holographic/emergent-gravity premise: spacetime geometry is determined by entanglement or information structure."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "A13.2/Q15/0129",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the inference from created order/intelligibility reflecting God (P-IMAGO) to the physical claim that spacetime geometry emerges from information; P-IMAGO explicitly does not yield physical laws, equations, constants, or measurements, and A0 does not identify information as the substrate of spacetime."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is too schematic to encode faithfully. The file does not provide a precise mapping from chi-field information or entanglement data to a spacetime metric, does not define the functional F in g_{\\mu\\nu}=F[g^{Fisher}_{ij}(\\chi)], and the equation g_{\\mu\\nu} <- \\chi is not a formal mathematical statement. Encoding it in Z3 would require adding arbitrary definitions or presupposing the conclusion, so a meaningful check is not possible.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

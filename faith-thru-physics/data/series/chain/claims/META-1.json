@@ -1,0 +1,49 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "META-1",
+ "claim_id": "META-1",
+ "type": "CLAIM",
+ "text": "The axiom system is internally consistent — no contradictions.",
+ "source": {
+  "file": "source/nodes/META-1.yaml",
+  "quote": "The axiom system is internally consistent — no contradictions.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/META-1.yaml#META-1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "META-1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "META-1/Q15/0230",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "domain application rather than mere notation",
+   "reason": "Consistency cannot be asserted as a meta-axiom; it is a proof obligation and the set shows unresolved conflicts."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim concerns a specific 188-axiom theory, but the file does not enumerate the axioms or give a formal derivation system, model language, or semantics for all referenced domains. Encoding only a generic abstract consistency statement would not check META-1's actual claim, and encoding just DAG acyclicity or a toy model would be an unfaithful side calculation.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

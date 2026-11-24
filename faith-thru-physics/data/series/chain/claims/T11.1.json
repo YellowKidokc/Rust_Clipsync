@@ -1,0 +1,56 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "T11.1",
+ "claim_id": "T11.1",
+ "type": "CLAIM",
+ "text": "Virtue is a high-coherence/high-integration state of the soul, and vice or sin is a corresponding decrease in moral coherence/integration.",
+ "source": {
+  "file": "source/nodes/T11.1.yaml",
+  "quote": "Virtue is a high-coherence/high-integration state of the soul, and vice or sin is a corresponding decrease in moral coherence/integration.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "D11.1 Moral Coherence Definition or equivalent definition tying virtue to coherence.; A11.2 Coherence-Morality Identity or equivalent bridge from moral goodness to information integration.; A defended identification of soul/moral coherence with IIT integrated information Φ.; Empirical psychophysiological evidence for correlations between virtue and EEG/fMRI/Φ measures.; Independent physical/field-theoretic definitions and evidence for χ-field coherence and thermodynamic entropy-virtue relations.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/T11.1.yaml#T11.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "T11.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "D11.1 Moral Coherence Definition or equivalent definition tying virtue to coherence.",
+  "A11.2 Coherence-Morality Identity or equivalent bridge from moral goodness to information integration.",
+  "A defended identification of soul/moral coherence with IIT integrated information Φ.",
+  "Empirical psychophysiological evidence for correlations between virtue and EEG/fMRI/Φ measures.",
+  "Independent physical/field-theoretic definitions and evidence for χ-field coherence and thermodynamic entropy-virtue relations."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "T11.1/Q15/0117",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the transition from 'creaturely moral goodness is a finite participation in God's goodness/unity' to 'virtue is high IIT Φ / measurable coherence'; P-IMAGO supports only qualitative analogy, not an information-theoretic or empirical identity."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

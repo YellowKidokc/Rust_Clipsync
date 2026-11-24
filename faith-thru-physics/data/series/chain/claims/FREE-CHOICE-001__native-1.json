@@ -1,0 +1,33 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "FREE-CHOICE-001",
+ "claim_id": "FREE-CHOICE-001::native-1",
+ "type": "CLAIM",
+ "text": "God enables the response; the person cannot supply initial awakening.",
+ "source": {
+  "file": "source/nodes/FREE-CHOICE-001.yaml",
+  "quote": "God enables the response; the person cannot supply initial awakening.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "assumption",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "admitted",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/FREE-CHOICE-001.yaml#FREE-CHOICE-001::native-1 (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "FREE-CHOICE-001",
+ "is_main": false,
+ "strength": "Conditional",
+ "obstructions": [],
+ "generated_by": "proposed finer classification; no vocabulary change applied"
+}

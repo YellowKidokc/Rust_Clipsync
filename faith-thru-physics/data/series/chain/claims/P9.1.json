@@ -1,0 +1,61 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "P9.1",
+ "claim_id": "P9.1",
+ "type": "CLAIM",
+ "text": "Grace applied once is complete; reapplication does not add a further saving transformation.",
+ "source": {
+  "file": "source/nodes/P9.1.yaml",
+  "quote": "Grace applied once is complete; reapplication does not add a further saving transformation.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "D9.1 Grace Operator Definition: Ĝ|+⟩ = |+⟩ and Ĝ|−⟩ = |+⟩; A theological premise that saving grace or justification is a complete, non-repeatable one-shot transformation; A premise representing the moral or spiritual state as a vector space if the formal operator model is retained; Additional premises for each physical, quantum, thermodynamic, or empirical mapping",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/P9.1.yaml#P9.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "P9.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "D9.1 Grace Operator Definition: Ĝ|+⟩ = |+⟩ and Ĝ|−⟩ = |+⟩",
+  "A theological premise that saving grace or justification is a complete, non-repeatable one-shot transformation",
+  "A premise representing the moral or spiritual state as a vector space if the formal operator model is retained",
+  "Additional premises for each physical, quantum, thermodynamic, or empirical mapping"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "P9.1/Q15/0100",
+   "kind": "known countermodel",
+   "status": "FATAL",
+   "scope": "universal idempotence of sanctification growth",
+   "reason": "Native growth G sends 0 -> 1/2 -> 3/4. Idempotence applies to terminal legal standing/reset, not to every grace operation."
+  },
+  {
+   "id": "P9.1/Q15/0101",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at identifying the analogical Creator-creature resemblance with a specific idempotent grace operator Ĝ; P-IMAGO explicitly forbids stretching the analogy to particular formal, mathematical, or physical claims."
+  }
+ ],
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

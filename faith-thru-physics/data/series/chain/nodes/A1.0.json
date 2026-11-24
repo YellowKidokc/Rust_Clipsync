@@ -1,0 +1,40 @@
+{
+ "id": "A1.0",
+ "title": "A1.0 Co-Arising (Existence + Distinction)",
+ "lifecycle": "open",
+ "tier": 0,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "ADMITTED",
+  "named_premises": [
+   "Co-Arising: existence and distinction are the four-core chain’s co-primitive starting description, now located under A0."
+  ],
+  "denial_cost": "The chosen joint existence/distinction description is not a first foundation node; this supplies no independent refutation of A0.",
+  "checkable_by": null,
+  "receipt": [
+   "sources/august/AXIOM_CHAIN_MASTER_v3.md"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "A1.0/Q15/0001",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "domain application rather than mere notation",
+   "reason": "No complete source-matched derivation, operational definition or domain-transfer receipt is attached for: Co-Arising: existence and distinction are the four-core chain’s co-primitive starting description, now located under A0."
+  }
+ ],
+ "ports": [],
+ "main": "A1.0",
+ "claims": [
+  "A1.0"
+ ],
+ "source": "source/nodes/A1.0.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

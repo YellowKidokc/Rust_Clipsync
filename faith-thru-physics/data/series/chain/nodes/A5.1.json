@@ -1,0 +1,56 @@
+{
+ "id": "A5.1",
+ "title": "A5.1 Observation Requirement",
+ "lifecycle": "stance",
+ "tier": 6,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "ADMITTED",
+  "named_premises": [
+   "Actual definite information requires an observer; without observation, information remains potential and indefinite."
+  ],
+  "denial_cost": "The observer-specific actualization reading and its dependent collapse/terminal-observer claims lose their stated stance; this is not denial of observation or all quantum theory.",
+  "checkable_by": null,
+  "receipt": [
+   "sources/august/AXIOM_CHAIN_MASTER_v3.md"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "A5.1/Q15/0042",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops when the record moves from P-IMAGO's claim that creaturely consciousness and intelligibility reflect God to the claim that observation is necessary for potential information to become actual definite information; A0 + P-IMAGO supply no measurement or information-actualization rule."
+  }
+ ],
+ "ports": [],
+ "main": "A5.1",
+ "claims": [
+  "A5.1",
+  "A5.1::split-01",
+  "A5.1::split-02",
+  "A5.1::split-03",
+  "A5.1::split-04",
+  "A5.1::split-05",
+  "A5.1::split-06",
+  "A5.1::split-07",
+  "A5.1::split-08",
+  "A5.1::split-09",
+  "A5.1::split-10",
+  "A5.1::split-11",
+  "A5.1::split-12",
+  "A5.1::split-13",
+  "A5.1::split-14",
+  "A5.1::split-15",
+  "A5.1::split-16"
+ ],
+ "source": "source/nodes/A5.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

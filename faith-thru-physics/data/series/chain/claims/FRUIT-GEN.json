@@ -1,0 +1,49 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "FRUIT-GEN",
+ "claim_id": "FRUIT-GEN",
+ "type": "CLAIM",
+ "text": "FRUIT-GEN 𝓛 ⊗ Resistance_i → F_i",
+ "source": {
+  "file": "source/nodes/FRUIT-GEN.yaml",
+  "quote": "FRUIT-GEN 𝓛 ⊗ Resistance_i → F_i",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/FRUIT-GEN.yaml#FRUIT-GEN::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "LOVE-ROOT",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "FRUIT-GEN",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "FRUIT-GEN/Q15/0194",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "domain application rather than mere notation",
+   "reason": "No complete source-matched derivation, operational definition or domain-transfer receipt is attached for: FRUIT-GEN 𝓛 ⊗ Resistance_i → F_i"
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

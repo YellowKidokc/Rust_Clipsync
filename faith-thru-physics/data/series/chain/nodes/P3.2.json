@@ -1,0 +1,54 @@
+{
+ "id": "P3.2",
+ "title": "P3.2 Coherence Conservation",
+ "lifecycle": "retired",
+ "tier": 4,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "P3.2/Q15/0029",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "axiom-set membership",
+   "reason": "David retired this record; it is retained with reason and cannot serve as an active axiom. Content-level truth is not settled merely by retirement."
+  },
+  {
+   "id": "P3.2/Q15/0030",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the move from 'creaturely coherence is a finite participation in divine harmony' to 'total coherence is conserved in a closed system'; no admitted premise supplies a coherence measure or conservation law."
+  }
+ ],
+ "ports": [],
+ "main": "P3.2",
+ "claims": [
+  "P3.2",
+  "P3.2::split-01",
+  "P3.2::split-02",
+  "P3.2::split-03",
+  "P3.2::split-04",
+  "P3.2::split-05",
+  "P3.2::split-06",
+  "P3.2::split-07",
+  "P3.2::split-08",
+  "P3.2::split-09"
+ ],
+ "source": "source/nodes/P3.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

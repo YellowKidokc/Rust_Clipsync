@@ -1,0 +1,57 @@
+{
+ "id": "P6.1",
+ "title": "P6.1 Collapse Rate ∝ Φ",
+ "lifecycle": "merged",
+ "tier": 7,
+ "context_parent": "A0",
+ "merged_into": "E6.2",
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A6.2"
+ ],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "P6.1/Q15/0061",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "duplicate node identity",
+   "reason": "David merged the source into E6.2; retain its claim and provenance at that destination. Warrant is not upgraded."
+  },
+  {
+   "id": "P6.1/Q15/0062",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the move from P-IMAGO's general analogy of being to a specific quantum collapse-rate equation; P-IMAGO explicitly does not entail physical laws, equations, constants, or measurements."
+  }
+ ],
+ "ports": [],
+ "main": "P6.1",
+ "claims": [
+  "P6.1",
+  "P6.1::split-01",
+  "P6.1::split-02",
+  "P6.1::split-03",
+  "P6.1::split-04",
+  "P6.1::split-05",
+  "P6.1::split-06",
+  "P6.1::split-07",
+  "P6.1::split-08",
+  "P6.1::split-09",
+  "P6.1::split-10",
+  "P6.1::split-11",
+  "P6.1::split-12"
+ ],
+ "source": "source/nodes/P6.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

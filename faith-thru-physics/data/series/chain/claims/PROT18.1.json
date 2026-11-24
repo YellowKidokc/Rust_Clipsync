@@ -1,0 +1,60 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "PROT18.1",
+ "claim_id": "PROT18.1",
+ "type": "CLAIM",
+ "text": "A protocol can empirically test whether quantum collapse rate γ varies with an observer's integrated-information level Φ.",
+ "source": {
+  "file": "source/nodes/PROT18.1.yaml",
+  "quote": "A protocol can empirically test whether quantum collapse rate γ varies with an observer's integrated-information level Φ.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "observable",
+  "composition_level": 1,
+  "claim_role": "empirical_hypothesis",
+  "register": "embodied"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A5.1 Observation Requirement: observers collapse quantum states; D5.2 Integrated Information: Φ measures consciousness; A17.2 Substrate Independence: the Φ threshold applies universally; a physical model linking observer Φ to quantum collapse rate γ; empirical data validating PCI/computed Φ as proxies and measuring any γ difference",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/PROT18.1.yaml#PROT18.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC4a",
+   "edge": "rests_on"
+  },
+  {
+   "id": "BC4b",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "PROT18.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A5.1 Observation Requirement: observers collapse quantum states",
+  "D5.2 Integrated Information: Φ measures consciousness",
+  "A17.2 Substrate Independence: the Φ threshold applies universally",
+  "a physical model linking observer Φ to quantum collapse rate γ",
+  "empirical data validating PCI/computed Φ as proxies and measuring any γ difference"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "PROT18.1/Q15/0178",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the move from P-IMAGO's analogy of being to a specific physical coupling: no physical law, equation, constant, or measurement effect follows without further empirical and theoretical premises."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

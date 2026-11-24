@@ -1,0 +1,65 @@
+{
+ "id": "A9.1",
+ "title": "A9.1 External Intervention Req",
+ "lifecycle": "framework_commitment",
+ "tier": 10,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "CONDITIONAL",
+  "named_premises": [
+   "The target quantity is invariant under all internal operations; actual restoration occurs; causal alternatives are exhaustive; identification of the source as divine Grace is separately supplied."
+  ],
+  "denial_cost": null,
+  "checkable_by": null,
+  "receipt": [
+   "external_restorer_follows_with_causal_exhaustiveness",
+   "sources/august_lean/T3GraceSemantics.lean"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "A9.1/Q15/0096",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the transition from A0/P-IMAGO to the moral-sign formalism and sign-conservation premise; P-IMAGO explicitly forbids stretching it to physical/mathematical laws or empirical findings, so the proof requires A8.2, a sign model, and observed conversion."
+  }
+ ],
+ "ports": [],
+ "main": "A9.1",
+ "claims": [
+  "A9.1",
+  "A9.1::split-01",
+  "A9.1::split-02",
+  "A9.1::split-03",
+  "A9.1::split-04",
+  "A9.1::split-05",
+  "A9.1::split-06",
+  "A9.1::split-07",
+  "A9.1::split-08",
+  "A9.1::split-09",
+  "A9.1::split-10",
+  "A9.1::split-11",
+  "A9.1::split-12",
+  "A9.1::split-13",
+  "A9.1::split-14",
+  "A9.1::receipt::GravityAndGrace.Iso.pres_regime",
+  "A9.1::receipt::GravityAndGrace.gravity_isomorphic_to_grace",
+  "A9.1::receipt::GravityAndGrace.no_self_capture",
+  "A9.1::receipt::GravityAndGrace.hyperbolic_stays_hyperbolic",
+  "A9.1::receipt::GravityAndGrace.adversary_changes_energy_sign",
+  "A9.1::receipt::GravityAndGrace.capture_requires_third_body"
+ ],
+ "source": "source/nodes/A9.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

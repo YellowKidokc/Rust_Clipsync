@@ -1,0 +1,228 @@
+{
+  "id": "A0",
+  "title": "A0",
+  "proposal_only": false,
+  "context_parent": null,
+  "tags": {
+    "system_part": "rule",
+    "composition_level": 0,
+    "claim_role": "axiom",
+    "warrant": {
+      "status": "admitted",
+      "kind": "revelation"
+    },
+    "register": "spiritual"
+  },
+  "old_mode": null,
+  "proposed_mode": "AX_CORE",
+  "tier": null,
+  "node_lifecycle": "admitted_root",
+  "dependencies": {
+    "source_declared": [],
+    "proposed_primary_support": [],
+    "stance_ceiling_sources": []
+  },
+  "claims": [
+    {
+      "id": "A0::main",
+      "statement": "God is",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 0,
+        "claim_role": "axiom",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "canon",
+      "proof_refs": [],
+      "warrant_limit": "Admitted theological root explicitly required by David; not self-defeat logic or empirical proof.",
+      "classification_proposal": {
+        "logical_role": "AXIOM",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "ONTOLOGICAL"
+        ],
+        "approval": "proposed finer classification; no vocabulary change applied"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "claim_scoped_dependencies": [],
+      "grade": {
+        "match_scope": null,
+        "warrant": "admitted",
+        "outcome": "holds",
+        "canon_status": "canon",
+        "note": "Holds as an expressly adopted premise, not established as an empirical or premise-free theorem.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "A0::main"
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    }
+  ],
+  "ports": [],
+  "Q13": {
+    "register": "spiritual",
+    "domains": [
+      "THEOLOGICAL",
+      "ONTOLOGICAL"
+    ]
+  },
+  "Q14": {
+    "transfer": "only source-record-scoped formal mapping; no physical identity",
+    "coherence_equality_assumed": false
+  },
+  "Q15": [
+    {
+      "id": "A0/Q15/0242",
+      "node": "A0",
+      "kind": "definitional conflict",
+      "Q16": "RESOLVED",
+      "scope": "one-root graph architecture",
+      "reason": "One designated A0 root is governance/graph data; the Lean graph theorem is not a proof of God from no premises.",
+      "evidence": [
+        "sources/august/CANON_LOCK_ONE_ROOT_2026-08-22.json"
+      ]
+    }
+  ],
+  "Q16": {
+    "A0/Q15/0242": "RESOLVED"
+  },
+  "coherences": {
+    "C-info": {
+      "conversion_to_other_coherences": null
+    },
+    "C-moral": {
+      "conversion_to_other_coherences": null
+    },
+    "C-spiritual": {
+      "conversion_to_other_coherences": null
+    }
+  },
+  "reason": [
+    "Explicit root ruling"
+  ],
+  "soundness": {
+    "bin": "ADMITTED",
+    "named_premises": [
+      "God is"
+    ],
+    "receipt": [
+      "sources/august/AXIOM_CHAIN_MASTER_v3.md"
+    ],
+    "denial_cost": "The framework gives up its governing theological root; the graph proof itself neither proves nor refutes God.",
+    "scope_note": "Holds as an expressly adopted premise, not established as an empirical or premise-free theorem.",
+    "why": "The framework gives up its governing theological root; the graph proof itself neither proves nor refutes God.",
+    "Z3_source_verdicts": [],
+    "ranking_snapshot": null,
+    "A0_IMAGO_verdict": null,
+    "conflicts": [],
+    "what_makes_checkable": null
+  },
+  "grade": {
+    "match_scope": null,
+    "warrant": "admitted",
+    "outcome": "holds",
+    "canon_status": "canon",
+    "note": "Holds as an expressly adopted premise, not established as an empirical or premise-free theorem.",
+    "match_scope_applicable": false,
+    "assessed_claim_id": "A0::main"
+  },
+  "canon_rubric": {
+    "node": "A0",
+    "bin": "ADMITTED",
+    "grade": {
+      "match_scope": null,
+      "warrant": "admitted",
+      "outcome": "holds",
+      "canon_status": "canon",
+      "note": "Holds as an expressly adopted premise, not established as an empirical or premise-free theorem.",
+      "match_scope_applicable": false,
+      "assessed_claim_id": "A0::main"
+    },
+    "criteria": {
+      "address": true,
+      "grade": true,
+      "receipt": true,
+      "ruling_authority": true,
+      "no_unresolved_conflict": true
+    },
+    "score": 5,
+    "meets_all_five": true,
+    "missing": [],
+    "authority_note": "Already ruled governing A0 admission; not an existence proof.",
+    "receipt_scope": "Holds as an expressly adopted premise, not established as an empirical or premise-free theorem.",
+    "proposal_only": true
+  },
+  "follow_up_review": {
+    "proposal_only": true,
+    "soundness_row": {
+      "node": "A0",
+      "bin": "ADMITTED",
+      "scope": "Holds as an expressly adopted premise, not established as an empirical or premise-free theorem.",
+      "premises": [
+        "God is"
+      ],
+      "receipt": [
+        "sources/august/AXIOM_CHAIN_MASTER_v3.md"
+      ],
+      "denial_cost": "The framework gives up its governing theological root; the graph proof itself neither proves nor refutes God.",
+      "what_makes_checkable": null,
+      "canon_status": "canon",
+      "conflicts": [],
+      "assessment_target": "Holds as an expressly adopted premise, not established as an empirical or premise-free theorem.",
+      "main_statement": "God is",
+      "proposal_only": true,
+      "lead_summary": {},
+      "remaining_lead_ids": [],
+      "strength": "Conditional",
+      "grade": {
+        "match_scope": null,
+        "warrant": "admitted",
+        "outcome": "holds",
+        "canon_status": "canon",
+        "note": "Holds as an expressly adopted premise, not established as an empirical or premise-free theorem.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "A0::main"
+      },
+      "scope_warning": "Bin assesses the named target only; neither bundled claims nor domain identification inherit its proof. A written explanation is recorded as support at its source status."
+    },
+    "canon_rubric": {
+      "node": "A0",
+      "bin": "ADMITTED",
+      "grade": {
+        "match_scope": null,
+        "warrant": "admitted",
+        "outcome": "holds",
+        "canon_status": "canon",
+        "note": "Holds as an expressly adopted premise, not established as an empirical or premise-free theorem.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "A0::main"
+      },
+      "criteria": {
+        "address": true,
+        "grade": true,
+        "receipt": true,
+        "ruling_authority": true,
+        "no_unresolved_conflict": true
+      },
+      "score": 5,
+      "meets_all_five": true,
+      "missing": [],
+      "authority_note": "Already ruled governing A0 admission; not an existence proof.",
+      "receipt_scope": "Holds as an expressly adopted premise, not established as an empirical or premise-free theorem.",
+      "proposal_only": true
+    },
+    "leads": [],
+    "current_ruling": null,
+    "ruling_scope": "Existing disposition only; no new canon admission.",
+    "receipt_attachments": [],
+    "Q15_follow_up": []
+  }
+}

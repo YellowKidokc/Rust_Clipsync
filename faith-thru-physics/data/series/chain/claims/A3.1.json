@@ -1,0 +1,56 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "A3.1",
+ "claim_id": "A3.1",
+ "type": "CLAIM",
+ "text": "Meaningful information must be organized or patterned rather than mere noise.",
+ "source": {
+  "file": "source/nodes/A3.1.yaml",
+  "quote": "Meaningful information must be organized or patterned rather than mere noise.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "Definition of meaningful information as requiring pattern/order (signal vs. noise).; Information-theoretic premises for the Shannon mapping.; Thermodynamic/entropy premises for the low-entropy mapping.; Quantum coherence premises for the quantum mapping.; Philosophical premises for assessing instrumentalism, structural realism, and materialist emergentism.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/A3.1.yaml#A3.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "A3.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "Definition of meaningful information as requiring pattern/order (signal vs. noise).",
+  "Information-theoretic premises for the Shannon mapping.",
+  "Thermodynamic/entropy premises for the low-entropy mapping.",
+  "Quantum coherence premises for the quantum mapping.",
+  "Philosophical premises for assessing instrumentalism, structural realism, and materialist emergentism."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "A3.1/Q15/0020",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The inference from P-IMAGO's general God-grounded creaturely order/intelligibility to the specific necessary condition 'information must be organized to be meaningful'; A0+P-IMAGO do not supply that semantic necessity."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. Not checkable as stated. The main claim uses undefined semantic terms ('meaning', 'semantic content', 'organized', 'random', 'code') with no precise formal domains or definitions. The formal lines are not a self-contained theorem: Kolmogorov complexity depends on an unspecified universal Turing machine, and the claim '∃ code C : S_organized iff |C| < |S_random|' is type-ambiguous. Encoding it would require inventing predicates/definitions not in the file, which would violate the instruction not ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

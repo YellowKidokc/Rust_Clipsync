@@ -1,0 +1,45 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "FREE-CHOICE-001",
+ "claim_id": "FREE-CHOICE-001",
+ "type": "CLAIM",
+ "text": "Native FREE-CHOICE-001 model with its independently labeled premises and scoped results.",
+ "source": {
+  "file": "source/nodes/FREE-CHOICE-001.yaml",
+  "quote": "Native FREE-CHOICE-001 model with its independently labeled premises and scoped results.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 3,
+  "claim_role": "definition",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "conditionally_proved",
+  "warrant_premise": "FP-ENABLED, FP-AUTHOR and FP-ALTERNATIVES; two permissions alone do not establish two causal realizations.",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/FREE-CHOICE-001.yaml#FREE-CHOICE-001::main (Axiom HTML Update, 2026-10-28)",
+  "note": "Outcome holds in the declared conditional scope, not unconditionally in the world."
+ },
+ "receipts": [
+  {
+   "kind": "source",
+   "ref": "sources/native/FREE_CHOICE_001/node_contracts.json"
+  }
+ ],
+ "neighbors": [
+  {
+   "id": "M-FREEDOM",
+   "edge": "rests_on",
+   "proposed": true
+  }
+ ],
+ "node": "FREE-CHOICE-001",
+ "is_main": true,
+ "strength": "Conditional",
+ "obstructions": [],
+ "generated_by": "proposed finer classification; no vocabulary change applied"
+}

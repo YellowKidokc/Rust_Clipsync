@@ -1,0 +1,57 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D12.2",
+ "claim_id": "D12.2",
+ "type": "CLAIM",
+ "text": "A morally negative trajectory has a terminal attractor of complete fragmentation (zero integrated coherence), which is eternal death/hell.",
+ "source": {
+  "file": "source/nodes/D12.2.yaml",
+  "quote": "A morally negative trajectory has a terminal attractor of complete fragmentation (zero integrated coherence), which is eternal death/hell.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "state",
+  "composition_level": 0,
+  "claim_role": "definition",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "admitted",
+  "warrant_premise": "D12.1 Integration Attractor / destiny-equation framework; A definition or empirical model of moral sign sigma as a binary moral orientation of a soul; A dynamical law dPhi/dt = sigma gamma (Phi_max - Phi)Phi for coherence; Identification of Phi with IIT integrated information and of Phi=0 with eternal death/hell; Information conservation/soul persistence (A10.2) to distinguish fragmentation from annihilation; Free-will and eschatological premises that some souls have sigma=-1 and persist eternally; Physical/thermodynamic/quantum mapping premises for entropy, decoherence, phase-space topology, and measurement interpretation",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D12.2.yaml#D12.2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "Proved by construction, not measured."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "D12.2",
+ "is_main": true,
+ "strength": "By definition",
+ "conditional_premises": [
+  "D12.1 Integration Attractor / destiny-equation framework",
+  "A definition or empirical model of moral sign sigma as a binary moral orientation of a soul",
+  "A dynamical law dPhi/dt = sigma gamma (Phi_max - Phi)Phi for coherence",
+  "Identification of Phi with IIT integrated information and of Phi=0 with eternal death/hell",
+  "Information conservation/soul persistence (A10.2) to distinguish fragmentation from annihilation",
+  "Free-will and eschatological premises that some souls have sigma=-1 and persist eternally",
+  "Physical/thermodynamic/quantum mapping premises for entropy, decoherence, phase-space topology, and measurement interpretation"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "D12.2/Q15/0122",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the identification of moral sign with a dynamical parameter and coherence with an IIT/thermodynamic/quantum quantity; A0+P-IMAGO do not license any such equation or measurement."
+  }
+ ],
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

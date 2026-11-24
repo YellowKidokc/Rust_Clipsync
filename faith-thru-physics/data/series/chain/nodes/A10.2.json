@@ -1,0 +1,66 @@
+{
+ "id": "A10.2",
+ "title": "A10.2 Soul Conservation",
+ "lifecycle": "framework_commitment",
+ "tier": 11,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is not stated precisely enough for Z3. 'Soul-stuff', 'soul-field', 'chi-field', and 'metaphysical processes' are undefined, and the mathematical layer relies on continuum QFT, Noether's theorem, 3-space integrals, and infinite-dimensional unitary evolution. A finite discrete continuity model would only check a simplified side lemma, not the main axiom.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "A10.2/Q15/0107",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the inference from finite creaturely participation in God to the conservation of an individual soul-information pattern; A0+P-IMAGO do not identify souls with conserved information, and P-IMAGO explicitly does not yield physical laws, equations, constants, or measurements."
+  },
+  {
+   "id": "A10.2/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Soul-stuff / total soul number N_S is conserved under all physical and metaphysical processes",
+   "reason": "The main claim is not stated precisely enough for Z3. 'Soul-stuff', 'soul-field', 'chi-field', and 'metaphysical processes' are undefined, and the mathematical layer relies on continuum QFT, Noether's theorem, 3-space integrals, and infinite-dimensional unitary evolution. A finite discrete continuity model would only check a simplified side lemma, not the main axiom."
+  }
+ ],
+ "ports": [],
+ "main": "A10.2",
+ "claims": [
+  "A10.2",
+  "A10.2::split-01",
+  "A10.2::split-02",
+  "A10.2::split-03",
+  "A10.2::split-04",
+  "A10.2::split-05",
+  "A10.2::split-06",
+  "A10.2::split-07",
+  "A10.2::split-08",
+  "A10.2::split-09",
+  "A10.2::split-10",
+  "A10.2::split-11",
+  "A10.2::split-12",
+  "A10.2::split-13",
+  "A10.2::split-14",
+  "A10.2::split-15",
+  "A10.2::split-16",
+  "A10.2::split-17"
+ ],
+ "source": "source/nodes/A10.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

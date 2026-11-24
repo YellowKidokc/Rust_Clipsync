@@ -1,0 +1,52 @@
+{
+ "id": "A1.2",
+ "title": "A1.2 Distinction",
+ "lifecycle": "primitive",
+ "tier": 0,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "ADMITTED",
+  "named_premises": [
+   "For anything to be describable or knowable, it must be distinguishable from something else."
+  ],
+  "denial_cost": "The chain lacks its chosen primitive distinction language; information/state constructions require another definition or premise.",
+  "checkable_by": null,
+  "receipt": [
+   "sources/august/AXIOM_CHAIN_MASTER_v3.md"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "A1.2/Q15/0003",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The core derivation stops at the general epistemic/ontological condition; the record overreaches when it moves to quantum, thermodynamic, information-theoretic, category-theoretic, psychophysical, and χ-field specifics, which require independent formal or empirical premises."
+  }
+ ],
+ "ports": [],
+ "main": "A1.2",
+ "claims": [
+  "A1.2",
+  "A1.2::split-01",
+  "A1.2::split-02",
+  "A1.2::split-03",
+  "A1.2::split-04",
+  "A1.2::split-05",
+  "A1.2::split-06",
+  "A1.2::split-07",
+  "A1.2::split-08",
+  "A1.2::split-09",
+  "A1.2::split-10",
+  "A1.2::split-11",
+  "A1.2::split-12"
+ ],
+ "source": "source/nodes/A1.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

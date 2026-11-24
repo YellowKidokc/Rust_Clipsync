@@ -1,0 +1,34 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D10.1",
+ "claim_id": "D10.1::split-05",
+ "type": "CLAIM",
+ "text": "Consciousness is identical to self-referential information processing encoded in Ψ_S when integrated information Φ[Ψ_S] exceeds a threshold.",
+ "source": {
+  "file": "source/nodes/D10.1.yaml",
+  "quote": "Consciousness is identical to self-referential information processing encoded in Ψ_S when integrated information Φ[Ψ_S] exceeds a threshold.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D10.1.yaml#D10.1::split-05 (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "D10.1",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+ "obstructions": [],
+ "generated_by": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+}

@@ -1,0 +1,57 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "A11.1",
+ "claim_id": "A11.1",
+ "type": "CLAIM",
+ "text": "Some moral propositions are objectively true or false independently of individual or cultural belief.",
+ "source": {
+  "file": "source/nodes/A11.1.yaml",
+  "quote": "Some moral propositions are objectively true or false independently of individual or cultural belief.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A physical χ-field exists with a well-defined coherence functional C[χ].; Objective moral goodness is identical to increases in that physical coherence.; Moral states causally affect physical randomness, collapse rates, entropy, or information complexity.; Empirical data support GCP and ODCR correlations.; Mathematical realism entails moral realism.; A category-theoretic mapping from actions to moral values has the Logos as terminal object.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/A11.1.yaml#A11.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "A11.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A physical χ-field exists with a well-defined coherence functional C[χ].",
+  "Objective moral goodness is identical to increases in that physical coherence.",
+  "Moral states causally affect physical randomness, collapse rates, entropy, or information complexity.",
+  "Empirical data support GCP and ODCR correlations.",
+  "Mathematical realism entails moral realism.",
+  "A category-theoretic mapping from actions to moral values has the Logos as terminal object."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "A11.1/Q15/0112",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation of the full record stops at the identification of moral goodness with measurable χ-field coherence C and with physical moral thermodynamics; A0 plus P-IMAGO ground an objective divine moral standard, not a physical coherence metric or empirical signature."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

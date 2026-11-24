@@ -1,0 +1,69 @@
+{
+ "id": "T3.1",
+ "title": "T3.1 Coherence Cannot Self-Inc",
+ "lifecycle": "theorem",
+ "tier": 4,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [
+  "A2.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "CONDITIONAL",
+  "named_premises": [
+   "Fixed Smax and C=Smax-S; entropy nondecreasing under the specified allowed dynamics. This is narrower than all moral/spiritual coherence."
+  ],
+  "denial_cost": null,
+  "checkable_by": null,
+  "receipt": [
+   "Wall.coherence_nonincrease",
+   "sources/october_lean/Wall.lean"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "T3.1/Q15/0031",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "A0 + P-IMAGO alone do not derive it; the failure point is identifying creaturely dependence with a specific entropy/negentropy conservation law or information-theoretic nonincrease theorem."
+  }
+ ],
+ "ports": [],
+ "main": "T3.1",
+ "claims": [
+  "T3.1",
+  "T3.1::split-01",
+  "T3.1::split-02",
+  "T3.1::split-03",
+  "T3.1::split-04",
+  "T3.1::split-05",
+  "T3.1::split-06",
+  "T3.1::split-07",
+  "T3.1::split-08",
+  "T3.1::split-09",
+  "T3.1::split-10",
+  "T3.1::split-11",
+  "T3.1::split-12",
+  "T3.1::split-13",
+  "T3.1::receipt::Wall.invariant_preserved",
+  "T3.1::receipt::Wall.change_requires_outside_op",
+  "T3.1::receipt::Wall.grace_preserves_identity",
+  "T3.1::receipt::Wall.grace_restores",
+  "T3.1::receipt::Wall.works_cannot_flip",
+  "T3.1::receipt::Wall.flip_requires_non_self_op",
+  "T3.1::receipt::Wall.grace_is_outside_the_family",
+  "T3.1::receipt::Wall.no_restoration_without_consent",
+  "T3.1::receipt::Wall.restoration_with_consent",
+  "T3.1::receipt::Wall.restore_preserves_identity",
+  "T3.1::receipt::Wall.coherence_nonincrease"
+ ],
+ "source": "source/nodes/T3.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

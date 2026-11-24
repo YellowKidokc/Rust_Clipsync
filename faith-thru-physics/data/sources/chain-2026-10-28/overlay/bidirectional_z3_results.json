@@ -1,0 +1,477 @@
+{
+  "z3_version": "5.3.1",
+  "families": [
+    {
+      "name": "A_new_awakening",
+      "scope": "Exact phase projection of current awakening",
+      "source": "GRACE_001/grace_model.py:awaken",
+      "background": [
+        "(>= who 0)",
+        "(<= who 4)",
+        "(>= phase (- 1))",
+        "(<= phase 1)",
+        "(= phase (- 1))"
+      ],
+      "premises": "(= who 2)",
+      "conclusion": "(= (ite (and (= who 2) (= phase (- 1))) 0 phase) 0)",
+      "forward": {
+        "status": "ENTAILS",
+        "countermodel": null
+      },
+      "reverse": {
+        "status": "ENTAILS",
+        "countermodel": null
+      },
+      "expected": {
+        "forward": "ENTAILS",
+        "reverse": "ENTAILS"
+      },
+      "matches_expected": true
+    },
+    {
+      "name": "R_new_acceptance",
+      "scope": "Requires initially unaccepted state; rejected operation totalized as identity for this projection",
+      "source": "GRACE_001/Grace001Consent.lean:respond",
+      "background": [
+        "(>= who 0)",
+        "(<= who 4)",
+        "(>= phase (- 1))",
+        "(<= phase 1)",
+        "(= accepted false)"
+      ],
+      "premises": "(and (= who 3) (= phase 0) yes)",
+      "conclusion": "(ite (and (= who 3) (= phase 0)) yes accepted)",
+      "forward": {
+        "status": "ENTAILS",
+        "countermodel": null
+      },
+      "reverse": {
+        "status": "ENTAILS",
+        "countermodel": null
+      },
+      "expected": {
+        "forward": "ENTAILS",
+        "reverse": "ENTAILS"
+      },
+      "matches_expected": true
+    },
+    {
+      "name": "R_without_initial_state_condition",
+      "scope": "An already accepted input defeats converse",
+      "source": "GRACE_001/Grace001Consent.lean:respond",
+      "background": [
+        "(>= who 0)",
+        "(<= who 4)",
+        "(>= phase (- 1))",
+        "(<= phase 1)"
+      ],
+      "premises": "(and (= who 3) (= phase 0) yes)",
+      "conclusion": "(ite (and (= who 3) (= phase 0)) yes accepted)",
+      "forward": {
+        "status": "ENTAILS",
+        "countermodel": null
+      },
+      "reverse": {
+        "status": "COUNTERMODEL",
+        "countermodel": "[phase = -1, accepted = True, who = 0]"
+      },
+      "expected": {
+        "forward": "ENTAILS",
+        "reverse": "COUNTERMODEL"
+      },
+      "matches_expected": true
+    },
+    {
+      "name": "G_new_restoration_flag",
+      "scope": "Simplified Lean gate, not Python cost/trace contract",
+      "source": "GRACE_001/Grace001Consent.lean:restore",
+      "background": [
+        "(>= who 0)",
+        "(<= who 4)",
+        "(>= phase (- 1))",
+        "(<= phase 1)",
+        "(= restored false)"
+      ],
+      "premises": "(and (= who 0) (= phase 1) accepted)",
+      "conclusion": "(ite (and (= who 0) (= phase 1) accepted) true restored)",
+      "forward": {
+        "status": "ENTAILS",
+        "countermodel": null
+      },
+      "reverse": {
+        "status": "ENTAILS",
+        "countermodel": null
+      },
+      "expected": {
+        "forward": "ENTAILS",
+        "reverse": "ENTAILS"
+      },
+      "matches_expected": true
+    },
+    {
+      "name": "G_restored_without_initial_false",
+      "scope": "Existing restored flag can persist without new eligibility",
+      "source": "GRACE_001/Grace001Consent.lean:restore",
+      "background": [
+        "(>= who 0)",
+        "(<= who 4)",
+        "(>= phase (- 1))",
+        "(<= phase 1)"
+      ],
+      "premises": "(and (= who 0) (= phase 1) accepted)",
+      "conclusion": "(ite (and (= who 0) (= phase 1) accepted) true restored)",
+      "forward": {
+        "status": "ENTAILS",
+        "countermodel": null
+      },
+      "reverse": {
+        "status": "COUNTERMODEL",
+        "countermodel": "[phase = 0, restored = True, who = 1]"
+      },
+      "expected": {
+        "forward": "ENTAILS",
+        "reverse": "COUNTERMODEL"
+      },
+      "matches_expected": true
+    },
+    {
+      "name": "G_full_eligibility_vs_strict_growth",
+      "scope": "At cs=1 successful invocation need not increase value; boundary-open equals acceptance under State validation",
+      "source": "GRACE_001/grace_model.py:restore",
+      "background": [
+        "(>= who 0)",
+        "(<= who 4)",
+        "(>= phase (- 1))",
+        "(<= phase 1)",
+        "(>= cs 0.0)",
+        "(<= cs 1.0)",
+        "(>= debt 0.0)",
+        "(>= judge_paid 0.0)"
+      ],
+      "premises": "(and (= who 0) (= phase 1) accepted response_trace (= debt 0.0))",
+      "conclusion": "(> (ite (and (= who 0) (= phase 1) accepted response_trace (= debt 0.0))\n        (/ (+ cs 1.0) 2.0)\n        cs)\n   cs)",
+      "forward": {
+        "status": "COUNTERMODEL",
+        "countermodel": "[debt = 0,\n phase = 1,\n judge_paid = 0,\n cs = 1,\n who = 0,\n accepted = True,\n response_trace = True]"
+      },
+      "reverse": {
+        "status": "ENTAILS",
+        "countermodel": null
+      },
+      "expected": {
+        "forward": "COUNTERMODEL",
+        "reverse": "ENTAILS"
+      },
+      "matches_expected": true
+    },
+    {
+      "name": "G_full_growth_below_ceiling",
+      "scope": "Exact one-step numerical growth law and full source guard",
+      "source": "GRACE_001/grace_model.py:restore",
+      "background": [
+        "(>= who 0)",
+        "(<= who 4)",
+        "(>= phase (- 1))",
+        "(<= phase 1)",
+        "(>= cs 0.0)",
+        "(<= cs 1.0)",
+        "(>= debt 0.0)",
+        "(>= judge_paid 0.0)",
+        "(< cs 1.0)"
+      ],
+      "premises": "(and (= who 0) (= phase 1) accepted response_trace (= debt 0.0))",
+      "conclusion": "(> (ite (and (= who 0) (= phase 1) accepted response_trace (= debt 0.0))\n        (/ (+ cs 1.0) 2.0)\n        cs)\n   cs)",
+      "forward": {
+        "status": "ENTAILS",
+        "countermodel": null
+      },
+      "reverse": {
+        "status": "ENTAILS",
+        "countermodel": null
+      },
+      "expected": {
+        "forward": "ENTAILS",
+        "reverse": "ENTAILS"
+      },
+      "matches_expected": true
+    },
+    {
+      "name": "G_growth_preserves_bounds",
+      "scope": "Bound preservation does not identify the actor or gate",
+      "source": "GRACE_001/grace_model.py:restore",
+      "background": [
+        "(>= who 0)",
+        "(<= who 4)",
+        "(>= phase (- 1))",
+        "(<= phase 1)",
+        "(>= cs 0.0)",
+        "(<= cs 1.0)",
+        "(>= debt 0.0)",
+        "(>= judge_paid 0.0)"
+      ],
+      "premises": "(and (= who 0) (= phase 1) accepted response_trace (= debt 0.0))",
+      "conclusion": "(let ((a!1 (ite (and (= who 0) (= phase 1) accepted response_trace (= debt 0.0))\n                (/ (+ cs 1.0) 2.0)\n                cs)))\n  (and (>= a!1 0.0) (<= a!1 1.0)))",
+      "forward": {
+        "status": "ENTAILS",
+        "countermodel": null
+      },
+      "reverse": {
+        "status": "COUNTERMODEL",
+        "countermodel": "[debt = 1/2,\n phase = 0,\n judge_paid = 0,\n cs = 0,\n who = 1,\n response_trace = False]"
+      },
+      "expected": {
+        "forward": "ENTAILS",
+        "reverse": "COUNTERMODEL"
+      },
+      "matches_expected": true
+    },
+    {
+      "name": "J_new_standing",
+      "scope": "Standing only, authorized judge precondition handled by native call checks",
+      "source": "JUSTIFICATION_001/legal_model.py:declare",
+      "background": [
+        "(not before_righteous)"
+      ],
+      "premises": "(and accepted paid)",
+      "conclusion": "(or before_righteous (and accepted paid))",
+      "forward": {
+        "status": "ENTAILS",
+        "countermodel": null
+      },
+      "reverse": {
+        "status": "ENTAILS",
+        "countermodel": null
+      },
+      "expected": {
+        "forward": "ENTAILS",
+        "reverse": "ENTAILS"
+      },
+      "matches_expected": true
+    },
+    {
+      "name": "J_without_before_condition",
+      "scope": "Righteous standing can persist when the current gate is closed",
+      "source": "JUSTIFICATION_001/Justification.lean:J",
+      "background": [],
+      "premises": "(and accepted paid)",
+      "conclusion": "(or before_righteous (and accepted paid))",
+      "forward": {
+        "status": "ENTAILS",
+        "countermodel": null
+      },
+      "reverse": {
+        "status": "COUNTERMODEL",
+        "countermodel": "[before_righteous = True, paid = False]"
+      },
+      "expected": {
+        "forward": "ENTAILS",
+        "reverse": "COUNTERMODEL"
+      },
+      "matches_expected": true
+    },
+    {
+      "name": "K_new_debt_discharge",
+      "scope": "Accepted-call result with denied calls totalized; debt initially positive",
+      "source": "GRACE_001/grace_model.py:cost",
+      "background": [
+        "(>= who 0)",
+        "(<= who 4)",
+        "(>= phase (- 1))",
+        "(<= phase 1)",
+        "(>= cs 0.0)",
+        "(<= cs 1.0)",
+        "(>= debt 0.0)",
+        "(>= judge_paid 0.0)",
+        "(> debt 0.0)"
+      ],
+      "premises": "(= who 1)",
+      "conclusion": "(= (ite (= who 1) 0.0 debt) 0.0)",
+      "forward": {
+        "status": "ENTAILS",
+        "countermodel": null
+      },
+      "reverse": {
+        "status": "ENTAILS",
+        "countermodel": null
+      },
+      "expected": {
+        "forward": "ENTAILS",
+        "reverse": "ENTAILS"
+      },
+      "matches_expected": true
+    },
+    {
+      "name": "K_zero_debt_does_not_identify_payer",
+      "scope": "Debt already zero defeats converse",
+      "source": "GRACE_001/grace_model.py:cost",
+      "background": [
+        "(>= who 0)",
+        "(<= who 4)",
+        "(>= phase (- 1))",
+        "(<= phase 1)",
+        "(>= cs 0.0)",
+        "(<= cs 1.0)",
+        "(>= debt 0.0)",
+        "(>= judge_paid 0.0)"
+      ],
+      "premises": "(= who 1)",
+      "conclusion": "(= (ite (= who 1) 0.0 debt) 0.0)",
+      "forward": {
+        "status": "ENTAILS",
+        "countermodel": null
+      },
+      "reverse": {
+        "status": "COUNTERMODEL",
+        "countermodel": "[judge_paid = 0, phase = 0, debt = 0, who = 2, cs = 0]"
+      },
+      "expected": {
+        "forward": "ENTAILS",
+        "reverse": "COUNTERMODEL"
+      },
+      "matches_expected": true
+    },
+    {
+      "name": "C_nonnegative_exact_condition",
+      "scope": "Algebra only; no identification of coherence domains",
+      "source": "Wall.coherence_nonincrease and current coherence requirements",
+      "background": [],
+      "premises": "(<= S Smax)",
+      "conclusion": "(>= (- Smax S) 0.0)",
+      "forward": {
+        "status": "ENTAILS",
+        "countermodel": null
+      },
+      "reverse": {
+        "status": "ENTAILS",
+        "countermodel": null
+      },
+      "expected": {
+        "forward": "ENTAILS",
+        "reverse": "ENTAILS"
+      },
+      "matches_expected": true
+    },
+    {
+      "name": "Ledger_no_third_iff_judge_full",
+      "scope": "Exact ledger conditional; does not justify banning third parties",
+      "source": "Law5JusticeMercy.lean",
+      "background": [
+        "(>= offender 0)",
+        "(>= third 0)",
+        "(>= judge 0)",
+        "(> D 0)",
+        "(= offender 0)",
+        "(= (+ offender third judge) D)"
+      ],
+      "premises": "(= third 0)",
+      "conclusion": "(= judge D)",
+      "forward": {
+        "status": "ENTAILS",
+        "countermodel": null
+      },
+      "reverse": {
+        "status": "ENTAILS",
+        "countermodel": null
+      },
+      "expected": {
+        "forward": "ENTAILS",
+        "reverse": "ENTAILS"
+      },
+      "matches_expected": true
+    },
+    {
+      "name": "Sign_commutation_iff_offdiagonal_zero",
+      "scope": "Real 2x2 sign observable diag(1,-1); explicit current premise",
+      "source": "A8_2_Sign_Conservation.md",
+      "background": [],
+      "premises": "(and (= (- u01) u01) (= u10 (- u10)))",
+      "conclusion": "(and (= u01 0.0) (= u10 0.0))",
+      "forward": {
+        "status": "ENTAILS",
+        "countermodel": null
+      },
+      "reverse": {
+        "status": "ENTAILS",
+        "countermodel": null
+      },
+      "expected": {
+        "forward": "ENTAILS",
+        "reverse": "ENTAILS"
+      },
+      "matches_expected": true
+    },
+    {
+      "name": "Potential_evenness_probe_iff_no_tilt",
+      "scope": "Candidate polynomial component: equality at +1/-1, not a Higgs proof or identification with grace",
+      "source": "D3.2 candidate interaction-potential vocabulary; new scoped component",
+      "background": [],
+      "premises": "(= s 0.0)",
+      "conclusion": "(= (- (+ (- a) b) s) (+ (+ (- a) b) s))",
+      "forward": {
+        "status": "ENTAILS",
+        "countermodel": null
+      },
+      "reverse": {
+        "status": "ENTAILS",
+        "countermodel": null
+      },
+      "expected": {
+        "forward": "ENTAILS",
+        "reverse": "ENTAILS"
+      },
+      "matches_expected": true
+    },
+    {
+      "name": "Potential_nonnegative_one_sample",
+      "scope": "One sample cannot recover global coefficient condition; no dynamics claimed",
+      "source": "D3.2 candidate, not promoted source main claim",
+      "background": [
+        "(> b 0.0)"
+      ],
+      "premises": "(<= a 0.0)",
+      "conclusion": "(>= (+ (* (- a) x x) (* b x x x x)) 0.0)",
+      "forward": {
+        "status": "ENTAILS",
+        "countermodel": null
+      },
+      "reverse": {
+        "status": "COUNTERMODEL",
+        "countermodel": "[a = 15/512, x = 1/16, b = 15/2]"
+      },
+      "expected": {
+        "forward": "ENTAILS",
+        "reverse": "COUNTERMODEL"
+      },
+      "matches_expected": true
+    }
+  ],
+  "directions": 34,
+  "all_match_expected": true,
+  "boundary_mutations": [
+    {
+      "removed": "who",
+      "status": "COUNTERMODEL",
+      "countermodel": "[debt = 0,\n phase = 1,\n judge_paid = 0,\n cs = 0,\n accepted = True,\n response_trace = True,\n who = 1]"
+    },
+    {
+      "removed": "phase",
+      "status": "COUNTERMODEL",
+      "countermodel": "[debt = 0,\n phase = 0,\n cs = 0,\n judge_paid = 0,\n who = 0,\n accepted = True,\n response_trace = True]"
+    },
+    {
+      "removed": "accepted",
+      "status": "COUNTERMODEL",
+      "countermodel": "[debt = 0,\n phase = 1,\n judge_paid = 0,\n cs = 0,\n who = 0,\n accepted = False,\n response_trace = True]"
+    },
+    {
+      "removed": "trace",
+      "status": "COUNTERMODEL",
+      "countermodel": "[debt = 0,\n cs = 0,\n phase = 1,\n judge_paid = 0,\n who = 0,\n accepted = True,\n response_trace = False]"
+    },
+    {
+      "removed": "paid",
+      "status": "COUNTERMODEL",
+      "countermodel": "[debt = 1/2,\n phase = 1,\n judge_paid = 0,\n cs = 0,\n who = 0,\n accepted = True,\n response_trace = True]"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "F6",
+ "claim_id": "F6::z3-conditional-component",
+ "type": "CLAIM",
+ "text": "The goodness score of such an action is negative, so harm is penalized more than benefit.",
+ "source": {
+  "file": "source/nodes/F6.yaml",
+  "quote": "The goodness score of such an action is negative, so harm is penalized more than benefit.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "theorem",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "conditionally_proved",
+  "warrant_premise": "Goodness is computed as total weighted positive coherence contribution P minus λ times total weighted negative coherence contribution H, i.e. F = P - λH.; The action has equal positive and negative effects: P = H > 0.; The harm penalty factor satisfies λ > 1.; The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge.",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/F6.yaml#F6::z3-conditional-component (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [
+  {
+   "kind": "z3",
+   "ref": "sources/z3/03_PROMISING/results.json"
+  }
+ ],
+ "neighbors": [],
+ "node": "F6",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Reported Z3 encoded component; domain bridge remains unverified; this is not a new solver run.",
+ "conditional_premises": [
+  "Goodness is computed as total weighted positive coherence contribution P minus λ times total weighted negative coherence contribution H, i.e. F = P - λH.",
+  "The action has equal positive and negative effects: P = H > 0.",
+  "The harm penalty factor satisfies λ > 1.",
+  "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+ ],
+ "obstructions": [],
+ "generated_by": "proposal only"
+}

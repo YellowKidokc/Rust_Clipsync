@@ -1,0 +1,67 @@
+{
+ "id": "P2",
+ "title": "P2 Stage 2",
+ "lifecycle": "retired",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A1.3"
+ ],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is metaphysical/ontological and its terms 'Observer', 'Existence', 'observation operator', 'generates', and 'ontological substrate of reality' are not given precise mathematical definitions sufficient for a Z3 encoding. The included Shannon entropy formula is an auxiliary definition/measure of information, not a formal theorem proving the main ontological claim; encoding only H(X) >= 0 or an implication O(P0) -> I would substitute an easier side fact and not faithfully check P2's ",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "P2/Q15/0210",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "axiom-set membership",
+   "reason": "David retired this record; it is retained with reason and cannot serve as an active axiom. Content-level truth is not settled merely by retirement."
+  },
+  {
+   "id": "P2/Q15/0211",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the move from created order/intelligibility/consciousness as a finite participation in God (P-IMAGO) to conscious observation generating information and information being the ontological substrate of reality. P-IMAGO explicitly does not license physical laws, equations, constants, measurements, or the claim that creaturely distinction is constitutive of fundamental reality."
+  },
+  {
+   "id": "P2/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: P2 main claim: observation of existence generates information as the ontological substrate of reality ('It from Bit')",
+   "reason": "The main claim is metaphysical/ontological and its terms 'Observer', 'Existence', 'observation operator', 'generates', and 'ontological substrate of reality' are not given precise mathematical definitions sufficient for a Z3 encoding. The included Shannon entropy formula is an auxiliary definition/measure of information, not a formal theorem proving the main ontological claim; encoding only H(X) >= 0 or an implication O(P0) -> I would substitute an easier side fact and not faithfully check P2's main claim."
+  }
+ ],
+ "ports": [],
+ "main": "P2",
+ "claims": [
+  "P2",
+  "P2::split-01",
+  "P2::split-02",
+  "P2::split-03",
+  "P2::split-04",
+  "P2::split-05",
+  "P2::split-06",
+  "P2::split-07",
+  "P2::split-08",
+  "P2::split-09",
+  "P2::split-10",
+  "P2::split-11",
+  "P2::split-12",
+  "P2::split-13"
+ ],
+ "source": "source/nodes/P2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

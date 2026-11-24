@@ -1,0 +1,55 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "OMEGA",
+ "claim_id": "OMEGA",
+ "type": "CLAIM",
+ "text": "All coherence originates in and returns to the Logos, who is the Alpha and Omega and the eschatological telos of created reality.",
+ "source": {
+  "file": "source/nodes/OMEGA.yaml",
+  "quote": "All coherence originates in and returns to the Logos, who is the Alpha and Omega and the eschatological telos of created reality.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A teleological premise that creation has a final eschatological consummation in God.; A conservation/return premise that all creaturely coherence is preserved and gathered into the Logos.; A premise identifying the Logos specifically as the eschatological Omega/telos of all created coherence.; Additional theological or revelational premises for claims about resurrection physics, final judgment, and non-universalist separation.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/OMEGA.yaml#OMEGA::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "OMEGA",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A teleological premise that creation has a final eschatological consummation in God.",
+  "A conservation/return premise that all creaturely coherence is preserved and gathered into the Logos.",
+  "A premise identifying the Logos specifically as the eschatological Omega/telos of all created coherence.",
+  "Additional theological or revelational premises for claims about resurrection physics, final judgment, and non-universalist separation."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "OMEGA/Q15/0239",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the step from creaturely coherence depending on and reflecting God to a temporal eschatological return of all coherence to the Logos, α = Ω = Λ, and zero total coherence change."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim depends on undefined theological/metaphysical terms (Logos, coherence, redemption, eschatological convergence) and on non-formal assertions such as uniqueness of a self-grounding source/destination. Encoding only the displayed equalities would treat Ω, Λ, α, and χ_total as independent symbols with no mathematical premises forcing the identity; deriving it would require adding the conclusion or external assumptions not stated in a precise mathematical form. The file presents OMEGA ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

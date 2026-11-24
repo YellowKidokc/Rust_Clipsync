@@ -1,0 +1,56 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "P2",
+ "claim_id": "P2",
+ "type": "CLAIM",
+ "text": "Conscious observation of existence generates information/distinction, and information is the ontological substrate of reality.",
+ "source": {
+  "file": "source/nodes/P2.yaml",
+  "quote": "Conscious observation of existence generates information/distinction, and information is the ontological substrate of reality.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "retired",
+  "grade_source": "copied:source/nodes/P2.yaml#P2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A1.3",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "P2",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "P2/Q15/0210",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "axiom-set membership",
+   "reason": "David retired this record; it is retained with reason and cannot serve as an active axiom. Content-level truth is not settled merely by retirement."
+  },
+  {
+   "id": "P2/Q15/0211",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the move from created order/intelligibility/consciousness as a finite participation in God (P-IMAGO) to conscious observation generating information and information being the ontological substrate of reality. P-IMAGO explicitly does not license physical laws, equations, constants, measurements, or the claim that creaturely distinction is constitutive of fundamental reality."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is metaphysical/ontological and its terms 'Observer', 'Existence', 'observation operator', 'generates', and 'ontological substrate of reality' are not given precise mathematical definitions sufficient for a Z3 encoding. The included Shannon entropy formula is an auxiliary definition/measure of information, not a formal theorem proving the main ontological claim; encoding only H(X) >= 0 or an implication O(P0) -> I would substitute an easier side fact and not faithfully check P2's ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

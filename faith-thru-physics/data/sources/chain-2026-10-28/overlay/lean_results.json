@@ -1,0 +1,110 @@
+[
+  {
+    "file": "Grace001Consent.lean",
+    "exitcode": 0,
+    "status": "PASS",
+    "theorems": [
+      "only_spirit_awakens",
+      "awakening_not_alignment",
+      "only_person_responds",
+      "dead_cannot_respond",
+      "both_responses_permitted",
+      "refusal_blocks_restoration",
+      "response_then_restoration",
+      "no_restoration_before_response",
+      "all_steps_preserve_record",
+      "all_steps_preserve_identity"
+    ]
+  },
+  {
+    "file": "FreeChoice.lean",
+    "exitcode": 0,
+    "status": "PASS",
+    "theorems": [
+      "both_permitted",
+      "dead_not_permitted",
+      "other_not_authorized",
+      "distinct_responses",
+      "response_preserves_record",
+      "response_preserves_identity",
+      "sigma_binary",
+      "permissions_do_not_force_two_realizations",
+      "alternatives_require_premise"
+    ]
+  },
+  {
+    "file": "BinaryReset.lean",
+    "exitcode": 0,
+    "status": "PASS",
+    "theorems": [
+      "idempotent",
+      "mass_preserved",
+      "disabled_identity",
+      "gated_idempotent",
+      "noninjective"
+    ]
+  },
+  {
+    "file": "Justification.lean",
+    "exitcode": 0,
+    "status": "PASS",
+    "theorems": [
+      "idempotent",
+      "gated",
+      "requires_paid_cost",
+      "declares",
+      "preserves_record",
+      "preserves_identity",
+      "not_sanctification_growth"
+    ]
+  },
+  {
+    "file": "JustificationReset.lean",
+    "exitcode": 0,
+    "status": "PASS",
+    "theorems": [
+      "intertwining",
+      "decode_encode",
+      "encode_decode_pure",
+      "bare_reset_breaks_gate",
+      "inverse_intertwining_on_pure"
+    ]
+  },
+  {
+    "file": "Law10Coherence.lean",
+    "exitcode": 0,
+    "status": "PASS",
+    "theorems": [
+      "product_zero_if_XG_zero",
+      "product_zero_if_any_factor_zero",
+      "chi_zero_if_any_factor_zero",
+      "chi_commutes_with_product",
+      "bad_wrapper_loses_veto"
+    ]
+  },
+  {
+    "file": "BidirectionalContracts.lean",
+    "exitcode": 0,
+    "status": "PASS",
+    "theorems": [
+      "awakening_iff_spirit",
+      "new_acceptance_iff",
+      "new_restoration_iff",
+      "unauthorized_restoration_is_identity",
+      "restored_flag_does_not_imply_current_acceptance",
+      "step_preserves_identity_record",
+      "every_finite_trace_preserves_identity_record",
+      "ordered_path_reaches_restoration",
+      "reversed_path_does_not",
+      "raw_free_choice_operator_can_bypass_permission",
+      "guarded_response_denies_dead",
+      "guarded_response_matches_permitted",
+      "newly_righteous_iff",
+      "righteousness_does_not_imply_current_gate",
+      "standing_projection_loses_identity",
+      "exact_inverse_on_standing",
+      "universal_zero_product_veto_iff",
+      "generator_invariance_iff_all_sequences"
+    ]
+  }
+]

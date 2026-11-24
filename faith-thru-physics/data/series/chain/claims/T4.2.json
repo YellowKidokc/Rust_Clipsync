@@ -1,0 +1,54 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "T4.2",
+ "claim_id": "T4.2",
+ "type": "CLAIM",
+ "text": "The physical action principle is equivalent to selecting the path with minimal Kolmogorov complexity K.",
+ "source": {
+  "file": "source/nodes/T4.2.yaml",
+  "quote": "The physical action principle is equivalent to selecting the path with minimal Kolmogorov complexity K.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "T4.1 Laws Are Low-K Descriptions; A bridge premise identifying physical action with minimal Kolmogorov complexity path selection; Formal proof or empirical evidence that minimal-K path selection is equivalent to the action principle in the relevant physical domain",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/T4.2.yaml#T4.2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "T4.2",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "T4.1 Laws Are Low-K Descriptions",
+  "A bridge premise identifying physical action with minimal Kolmogorov complexity path selection",
+  "Formal proof or empirical evidence that minimal-K path selection is equivalent to the action principle in the relevant physical domain"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "T4.2/Q15/0040",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the step from general created order/intelligibility (P-IMAGO) to the specific physical-information equivalence 'action principle = minimal-K path selection'; P-IMAGO explicitly forbids that leap."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

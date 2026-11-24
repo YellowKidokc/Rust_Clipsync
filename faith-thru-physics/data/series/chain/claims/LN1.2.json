@@ -1,0 +1,72 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "LN1.2",
+ "claim_id": "LN1.2",
+ "type": "CLAIM",
+ "text": "Physical reality supervenes on information; every physical fact is grounded in or derived from binary informational states.",
+ "source": {
+  "file": "source/nodes/LN1.2.yaml",
+  "quote": "Physical reality supervenes on information; every physical fact is grounded in or derived from binary informational states.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A1.3 Information Primacy: information is ontologically primitive.; D1.1 Information Definition: information reduces uncertainty.; D1.2 Bit Definition: the bit is the minimal unit.; LN1.1 Matter-Energy Derivative: matter and energy derive from information.; A completeness premise that all physical reality, including spacetime and fields, is constituted by or supervenes on information.; Empirical and interpretive quantum-measurement premises for delayed-choice retrocausality and observer-participatory collapse.; Holographic-principle and ER=EPR premises for boundary encoding and emergent spacetime geometry.; Quantum Darwinism as an account of classical objectivity via environmental redundancy.; A chi-field premise that the chi-field is the source of all bits and collapses under conscious observation.; A theological bridge identifying God as the terminal questioner or observer.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/LN1.2.yaml#LN1.2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A1.1",
+   "edge": "rests_on"
+  },
+  {
+   "id": "A1.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "LN1.2",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A1.3 Information Primacy: information is ontologically primitive.",
+  "D1.1 Information Definition: information reduces uncertainty.",
+  "D1.2 Bit Definition: the bit is the minimal unit.",
+  "LN1.1 Matter-Energy Derivative: matter and energy derive from information.",
+  "A completeness premise that all physical reality, including spacetime and fields, is constituted by or supervenes on information.",
+  "Empirical and interpretive quantum-measurement premises for delayed-choice retrocausality and observer-participatory collapse.",
+  "Holographic-principle and ER=EPR premises for boundary encoding and emergent spacetime geometry.",
+  "Quantum Darwinism as an account of classical objectivity via environmental redundancy.",
+  "A chi-field premise that the chi-field is the source of all bits and collapses under conscious observation.",
+  "A theological bridge identifying God as the terminal questioner or observer."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "LN1.2/Q15/0009",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "duplicate node identity",
+   "reason": "David merged the source into LN1.1; retain its claim and provenance at that destination. Warrant is not upgraded."
+  },
+  {
+   "id": "LN1.2/Q15/0010",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the leap from P-IMAGO's general analogy of being and intelligibility to the physical-informational thesis that physical reality supervenes on bits; P-IMAGO explicitly does not license physical laws, equations, constants, measurements, or information primacy."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

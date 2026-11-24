@@ -1,0 +1,58 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "A17.1",
+ "claim_id": "A17.1",
+ "type": "CLAIM",
+ "text": "Consciousness supervenes on information processing.",
+ "source": {
+  "file": "source/nodes/A17.1.yaml",
+  "quote": "Consciousness supervenes on information processing.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "observable",
+  "composition_level": 1,
+  "claim_role": "empirical_hypothesis",
+  "register": "embodied"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "Functionalism or a supervenience thesis identifying consciousness with information processing; Integrated Information Theory as the correct measure of consciousness; Information primacy (A1.3); Localized consciousness substrate (A10.1); Empirical PCI/anesthesia data and threshold calibration; A Logos Field coupling premise; A quantum-consciousness premise such as Orch-OR",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/A17.1.yaml#A17.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "D5.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "A17.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "Functionalism or a supervenience thesis identifying consciousness with information processing",
+  "Integrated Information Theory as the correct measure of consciousness",
+  "Information primacy (A1.3)",
+  "Localized consciousness substrate (A10.1)",
+  "Empirical PCI/anesthesia data and threshold calibration",
+  "A Logos Field coupling premise",
+  "A quantum-consciousness premise such as Orch-OR"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "A17.1/Q15/0169",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the inference from P-IMAGO's analogy of creaturely consciousness to a specific information-processing supervenience base; P-IMAGO explicitly does not imply physical laws, equations, constants, measurements, or any particular substrate."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file's main claims are metaphysical/empirical hypotheses. Terms such as 'consciousness', 'information processing', and 'meaningful distinction' are not given precise, checkable definitions. The formal supervenience notation uses undefined maps and equivalence relations. The Φ threshold is explicitly empirical, and the proof of threshold existence relies on informal steps. No precise mathematical theorem with stated premises can be faithfully extracted.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

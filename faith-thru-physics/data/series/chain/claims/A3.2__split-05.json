@@ -1,0 +1,34 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "A3.2",
+ "claim_id": "A3.2::split-05",
+ "type": "CLAIM",
+ "text": "Evil is parasitic coherence: high local order that generates global disorder and minimizes its own complexity at the universe's expense.",
+ "source": {
+  "file": "source/nodes/A3.2.yaml",
+  "quote": "Evil is parasitic coherence: high local order that generates global disorder and minimizes its own complexity at the universe's expense.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/A3.2.yaml#A3.2::split-05 (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "A3.2",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+ "obstructions": [],
+ "generated_by": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+}

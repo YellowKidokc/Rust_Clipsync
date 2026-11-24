@@ -1,0 +1,57 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "A6.1",
+ "claim_id": "A6.1",
+ "type": "CLAIM",
+ "text": "Pre-observation quantum systems are represented by superposed states rather than by a single definite classical state.",
+ "source": {
+  "file": "source/nodes/A6.1.yaml",
+  "quote": "Pre-observation quantum systems are represented by superposed states rather than by a single definite classical state.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "embodied"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "Quantum mechanics Hilbert-space superposition postulate; Born rule/probability interpretation; Empirical data from double-slit, Bell, delayed-choice, and quantum-eraser experiments; A chosen interpretation of quantum measurement and collapse; A χ-field ontology with observer-dependent actualization; A theological bridge premise identifying quantum potentiality with divine imagination or F-Field",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/A6.1.yaml#A6.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A5.1",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "A6.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "Quantum mechanics Hilbert-space superposition postulate",
+  "Born rule/probability interpretation",
+  "Empirical data from double-slit, Bell, delayed-choice, and quantum-eraser experiments",
+  "A chosen interpretation of quantum measurement and collapse",
+  "A χ-field ontology with observer-dependent actualization",
+  "A theological bridge premise identifying quantum potentiality with divine imagination or F-Field"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "A6.1/Q15/0054",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the step from P-IMAGO's general analogy of creaturely order, relation, and agency to a specific quantum-physical state (superposition) and to theological identifications such as F-Field or Symmetry of the Godhead; P-IMAGO does not reach physical laws or measurement ontology."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

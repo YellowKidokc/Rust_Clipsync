@@ -1,0 +1,46 @@
+{
+  "scope": "Exhaustive on explicitly enumerated rational grid and finite labels, NOT all real coordinates or real spiritual lives",
+  "counts": {
+    "states": 1296,
+    "calls": 64800,
+    "allowed": 4914,
+    "denied": 59886,
+    "assertions": 80190
+  },
+  "per_operator": {
+    "A": {
+      "allowed": 324,
+      "denied": 6156
+    },
+    "K": {
+      "allowed": 1296,
+      "denied": 5184
+    },
+    "G": {
+      "allowed": 54,
+      "denied": 6426
+    },
+    "P": {
+      "allowed": 1296,
+      "denied": 5184
+    },
+    "D": {
+      "allowed": 1296,
+      "denied": 5184
+    },
+    "R": {
+      "allowed": 648,
+      "denied": 31752
+    }
+  },
+  "legal_calls": 24,
+  "growth_witness": [
+    "0",
+    "1/2",
+    "3/4"
+  ],
+  "growth_not_idempotent": true,
+  "legal_standing_idempotent": true,
+  "manually_supplied_trace_membership_not_provenance": true,
+  "assertion_failures": []
+}

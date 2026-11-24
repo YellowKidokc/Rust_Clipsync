@@ -1,0 +1,46 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "E10.1",
+ "claim_id": "E10.1::z3-conditional-component",
+ "type": "CLAIM",
+ "text": "At every interior lattice point the field satisfies the discrete Klein-Gordon equation Δ_t^2 Ψ - Δ_x^2 Ψ + m_S^2 Ψ = 0, i.e. (□ + m_S^2)Ψ = 0 in finite-difference form.",
+ "source": {
+  "file": "source/nodes/E10.1.yaml",
+  "quote": "At every interior lattice point the field satisfies the discrete Klein-Gordon equation Δ_t^2 Ψ - Δ_x^2 Ψ + m_S^2 Ψ = 0, i.e. (□ + m_S^2)Ψ = 0 in finite-difference form.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "theorem",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "conditionally_proved",
+  "warrant_premise": "The soul field is modeled by a real scalar field on a finite 1+1 dimensional spacetime lattice with interior indices t,x in {1,2}.; The field is a stationary point of the discrete Klein-Gordon action S = sum [1/2(Δ_t Ψ)^2 - 1/2(Δ_x Ψ)^2 - 1/2 m_S^2 Ψ^2], so its Euler-Lagrange derivative at each interior point vanishes.; m_S^2 is represented by a real mass-squared parameter m2.; The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge.",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/E10.1.yaml#E10.1::z3-conditional-component (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [
+  {
+   "kind": "z3",
+   "ref": "sources/z3/03_PROMISING/results.json"
+  }
+ ],
+ "neighbors": [],
+ "node": "E10.1",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Reported Z3 encoded component; domain bridge remains unverified; this is not a new solver run.",
+ "conditional_premises": [
+  "The soul field is modeled by a real scalar field on a finite 1+1 dimensional spacetime lattice with interior indices t,x in {1,2}.",
+  "The field is a stationary point of the discrete Klein-Gordon action S = sum [1/2(Δ_t Ψ)^2 - 1/2(Δ_x Ψ)^2 - 1/2 m_S^2 Ψ^2], so its Euler-Lagrange derivative at each interior point vanishes.",
+  "m_S^2 is represented by a real mass-squared parameter m2.",
+  "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+ ],
+ "obstructions": [],
+ "generated_by": "proposal only"
+}

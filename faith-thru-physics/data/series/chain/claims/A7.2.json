@@ -1,0 +1,55 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "A7.2",
+ "claim_id": "A7.2",
+ "type": "CLAIM",
+ "text": "Sufficient boundary conditions can uniquely determine a solution, and the ultimate metaphysical solution so determined is the Trinitarian God/Christ-identity.",
+ "source": {
+  "file": "source/nodes/A7.2.yaml",
+  "quote": "Sufficient boundary conditions can uniquely determine a solution, and the ultimate metaphysical solution so determined is the Trinitarian God/Christ-identity.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A formal principle that sufficient boundary conditions in the relevant ontological solution space determine a unique solution.; A selection premise identifying the Trinitarian/Christ-identity as that unique fixed point.; A bridge from metaphysical uniqueness to specific physical structures, equations, or constants, if those extras are retained.; A premise that only Trinitarian unity-and-distinction can ground information and mind.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/A7.2.yaml#A7.2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A7.1",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "A7.2",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A formal principle that sufficient boundary conditions in the relevant ontological solution space determine a unique solution.",
+  "A selection premise identifying the Trinitarian/Christ-identity as that unique fixed point.",
+  "A bridge from metaphysical uniqueness to specific physical structures, equations, or constants, if those extras are retained.",
+  "A premise that only Trinitarian unity-and-distinction can ground information and mind."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "A7.2/Q15/0067",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The step from analogical reflection of the Creator in creation to a unique fixed-point selection by sufficient boundary conditions; P-IMAGO cannot reach uniqueness, mathematical necessity, or physical projections."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

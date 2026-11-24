@@ -1,0 +1,57 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "F4",
+ "claim_id": "F4",
+ "type": "CLAIM",
+ "text": "Patience is the capacity to maintain coherent action toward distant goals across delayed gratification intervals—the temporal extension of coherence.",
+ "source": {
+  "file": "source/nodes/F4.yaml",
+  "quote": "Patience is the capacity to maintain coherent action toward distant goals across delayed gratification intervals—the temporal extension of coherence.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "observable",
+  "composition_level": 1,
+  "claim_role": "empirical_hypothesis",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A psychological and behavioral definition equating patience with temporal coherence maintenance and delayed-gratification capacity.; A decision-theoretic model specifying the discount rate, coherence function, and expected future coherence.; Empirical evidence for the proposed neural correlates and behavioral markers of patience.; A physical modeling premise justifying the Patience operator and field equation.; Evidence for the claimed correlations between patience and life success, civilization longevity, and marshmallow-test outcomes.; A premise identifying patience with the discounted temporal integral of integrated information Φ.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/F4.yaml#F4::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "FRUIT-GEN",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "F4",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A psychological and behavioral definition equating patience with temporal coherence maintenance and delayed-gratification capacity.",
+  "A decision-theoretic model specifying the discount rate, coherence function, and expected future coherence.",
+  "Empirical evidence for the proposed neural correlates and behavioral markers of patience.",
+  "A physical modeling premise justifying the Patience operator and field equation.",
+  "Evidence for the claimed correlations between patience and life success, civilization longevity, and marshmallow-test outcomes.",
+  "A premise identifying patience with the discounted temporal integral of integrated information Φ."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "F4/Q15/0198",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops when the record moves from the A0/P-IMAGO moral analogy to the formal equivalence patience = temporal coherence and then to equations, field dynamics, neural correlates, and empirical correlations; P-IMAGO warrants at most a creaturely participation in God's goodness, not those specific models."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is primarily a definition/measurement model using an infinite continuous-time integral and an unspecified coherence function/expectation. It is not a precise entailment with finite Z3-encodable premises and conclusion; encoding a finite-sum approximation or the boundedness corollary would substitute a side property for the main claim. Therefore checkable is false.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

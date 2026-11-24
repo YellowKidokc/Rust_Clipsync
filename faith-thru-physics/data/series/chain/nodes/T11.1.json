@@ -1,0 +1,76 @@
+{
+ "id": "T11.1",
+ "title": "T11.1 Virtue As High Φ",
+ "lifecycle": "theorem",
+ "tier": 11,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "T11.1/Q15/0117",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the transition from 'creaturely moral goodness is a finite participation in God's goodness/unity' to 'virtue is high IIT Φ / measurable coherence'; P-IMAGO supports only qualitative analogy, not an information-theoretic or empirical identity."
+  },
+  {
+   "id": "T11.1/Q15/Z3-result-00",
+   "kind": "known countermodel",
+   "status": "FATAL",
+   "scope": "Encoded fragment under exactly the listed premises, not every interpretation of this node: Virtue is monotone nondecreasing in integrated information Φ (T11.1).",
+   "reason": "[Phi = [2 -> 1/2, else -> 0], V = [3 -> 1/2, else -> 0]] Faithfulness to the intended domain is a separate obligation."
+  }
+ ],
+ "ports": [],
+ "main": "T11.1",
+ "claims": [
+  "T11.1",
+  "T11.1::split-01",
+  "T11.1::split-02",
+  "T11.1::split-03",
+  "T11.1::split-04",
+  "T11.1::split-05",
+  "T11.1::split-06",
+  "T11.1::split-07",
+  "T11.1::split-08",
+  "T11.1::split-09",
+  "T11.1::split-10",
+  "T11.1::split-11",
+  "T11.1::split-12",
+  "T11.1::split-13",
+  "T11.1::split-14",
+  "T11.1::split-15",
+  "T11.1::split-16",
+  "T11.1::split-17",
+  "T11.1::split-18",
+  "T11.1::split-19",
+  "T11.1::split-20",
+  "T11.1::split-21",
+  "T11.1::split-22",
+  "T11.1::split-23",
+  "T11.1::split-24",
+  "T11.1::split-25",
+  "T11.1::split-26",
+  "T11.1::split-27"
+ ],
+ "source": "source/nodes/T11.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

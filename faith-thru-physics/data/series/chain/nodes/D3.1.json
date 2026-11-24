@@ -1,0 +1,57 @@
+{
+ "id": "D3.1",
+ "title": "D3.1 Coherence Functional Def",
+ "lifecycle": "definition",
+ "tier": 4,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "A2.2"
+ ],
+ "proposed": [
+  "A2.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file is a definition rather than a precise theorem, and it presents several non-formally-specified candidate formulas (KL divergence, Tononi Φ, spectral power law, inverse relations to K and Gibbs entropy) without a common domain, normalization, measure, partition model, or proof of equivalence. Encoding any one formula would substitute an easier side claim, while encoding their equivalence would require assumptions not stated. Hence the main definitional claim is not checkable as a premises",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "D3.1/Q15/0023",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "A0+P-IMAGO can at most ground that creaturely order/intelligibility is real and derivative; it cannot yield the specific definition C[χ]=measure of organized information density or any entropy/quantum/Shannon mapping."
+  },
+  {
+   "id": "D3.1/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Definition of the coherence functional C[χ] as a measure of organized information density",
+   "reason": "The file is a definition rather than a precise theorem, and it presents several non-formally-specified candidate formulas (KL divergence, Tononi Φ, spectral power law, inverse relations to K and Gibbs entropy) without a common domain, normalization, measure, partition model, or proof of equivalence. Encoding any one formula would substitute an easier side claim, while encoding their equivalence would require assumptions not stated. Hence the main definitional claim is not checkable as a premises-to-conclusion Z3 implication."
+  }
+ ],
+ "ports": [],
+ "main": "D3.1",
+ "claims": [
+  "D3.1",
+  "D3.1::split-01",
+  "D3.1::split-02",
+  "D3.1::split-03",
+  "D3.1::split-04",
+  "D3.1::split-05",
+  "D3.1::split-06",
+  "D3.1::split-07",
+  "D3.1::split-08"
+ ],
+ "source": "source/nodes/D3.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

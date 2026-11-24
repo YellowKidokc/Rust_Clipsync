@@ -1,0 +1,33 @@
+{
+  "record_version": "claim-record/1",
+  "series": "grace",
+  "paper": "grace-necessity-paper-1",
+  "claim_id": "B-GRAV",
+  "type": "CLAIM",
+  "text": "Grace acts on the will the way gravity acts on mass.",
+  "source": {
+    "file": "papers/grace-necessity.md",
+    "quote": "grace bends the will as gravity bends a path",
+    "stated": true
+  },
+  "tags": {
+    "system_part": "operator",
+    "claim_role": "isomorphism",
+    "register": "physical"
+  },
+  "grade": {
+    "match_scope": "states_only",
+    "warrant": "unverified",
+    "outcome": "fails",
+    "canon_status": "retired",
+    "grade_source": "sample: design fixture (replace with the gravity-grace bridge record from BRIDGE_REPORT.md)"
+  },
+  "receipts": [],
+  "neighbors": [
+    {
+      "id": "C8.1",
+      "edge": "bridges_to"
+    }
+  ],
+  "breaks_if": "Already broken: the states matched, the moves did not. Kept on the record."
+}

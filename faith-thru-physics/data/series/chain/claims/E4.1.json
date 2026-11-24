@@ -1,0 +1,55 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "E4.1",
+ "claim_id": "E4.1",
+ "type": "CLAIM",
+ "text": "Complexity decreases under chi.",
+ "source": {
+  "file": "source/nodes/E4.1.yaml",
+  "quote": "Complexity decreases under chi.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "constitutive_law",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "Definition of K as a complexity measure and of chi(t), alpha, time, and domain of applicability.; A formal or empirical law justifying dK/dt = -alpha*chi(t).; D4.2 Compression Ratio or another upstream relation to connect compression and K.; Separate premises for each cross-domain mapping (action principle, simplicity doctrine, efficient coding, minimum action, Matthew 6:22, physics history, MDL).",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/E4.1.yaml#E4.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "E4.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "Definition of K as a complexity measure and of chi(t), alpha, time, and domain of applicability.",
+  "A formal or empirical law justifying dK/dt = -alpha*chi(t).",
+  "D4.2 Compression Ratio or another upstream relation to connect compression and K.",
+  "Separate premises for each cross-domain mapping (action principle, simplicity doctrine, efficient coding, minimum action, Matthew 6:22, physics history, MDL)."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "E4.1/Q15/0038",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The move from P-IMAGO's general analogical order/simplicity to the specific claim dK/dt = -alpha*chi(t); P-IMAGO explicitly excludes deriving physical laws, equations, numbers, constants, or measurements."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

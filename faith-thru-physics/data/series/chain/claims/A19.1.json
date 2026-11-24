@@ -1,0 +1,64 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "A19.1",
+ "claim_id": "A19.1",
+ "type": "CLAIM",
+ "text": "All fundamental dynamics are integrated within a single unified framework.",
+ "source": {
+  "file": "source/nodes/A19.1.yaml",
+  "quote": "All fundamental dynamics are integrated within a single unified framework.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "observable",
+  "composition_level": 1,
+  "claim_role": "empirical_hypothesis",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A further premise would be needed to identify the general unity of creation under God with a single formal dynamical framework.; Further premises and empirical modeling would be needed to justify the ten specific variables, their units, orthogonality, functional form, and predictive power.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/A19.1.yaml#A19.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "E2.1",
+   "edge": "rests_on"
+  },
+  {
+   "id": "E3.1",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "A19.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A further premise would be needed to identify the general unity of creation under God with a single formal dynamical framework.",
+  "Further premises and empirical modeling would be needed to justify the ten specific variables, their units, orthogonality, functional form, and predictive power."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "A19.1/Q15/0155",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "duplicate node identity",
+   "reason": "David merged the source into FINAL-1; retain its claim and provenance at that destination. Warrant is not upgraded."
+  },
+  {
+   "id": "A19.1/Q15/0156",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops when the record moves from 'creation has a unified and analogical ground in God' to 'all fundamental dynamics are represented by this specific ten-variable Master Equation'; neither A0 nor P-IMAGO licenses that formal or physical step."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file states a hypothesis and gives a defining expression, but it does not provide a precise mathematical criterion for 'integration,' 'unified framework,' or any theorem to prove. Encoding the formula alone would only restate a definition, not check a substantive entailment.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

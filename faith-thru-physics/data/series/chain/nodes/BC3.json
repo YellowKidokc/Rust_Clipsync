@@ -1,0 +1,53 @@
+{
+ "id": "BC3",
+ "title": "BC3 Measurement Orthogonality",
+ "lifecycle": "boundary",
+ "tier": 8,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A5.1",
+  "A6.2"
+ ],
+ "proposed": [
+  "A5.1",
+  "A6.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "BC3/Q15/0072",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops when the record identifies divine knowledge with an observer operator Φ and treats [Ô,Φ̂]=0 as the condition of faithful measurement; A0+P-IMAGO provide only an analogy of being, not an operator-algebra or quantum-measurement premise."
+  }
+ ],
+ "ports": [],
+ "main": "BC3",
+ "claims": [
+  "BC3",
+  "BC3::split-01",
+  "BC3::split-02",
+  "BC3::split-03",
+  "BC3::split-04",
+  "BC3::split-05",
+  "BC3::split-06",
+  "BC3::split-07",
+  "BC3::split-08",
+  "BC3::split-09",
+  "BC3::split-10",
+  "BC3::split-11"
+ ],
+ "source": "source/nodes/BC3.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

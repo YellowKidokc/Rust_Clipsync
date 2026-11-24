@@ -1,0 +1,40 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "JUSTIFICATION-001",
+ "claim_id": "JUSTIFICATION-001",
+ "type": "CLAIM",
+ "text": "Native JUSTIFICATION-001 model with its independently labeled premises and scoped results.",
+ "source": {
+  "file": "source/nodes/JUSTIFICATION-001.yaml",
+  "quote": "Native JUSTIFICATION-001 model with its independently labeled premises and scoped results.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "operator",
+  "composition_level": 3,
+  "claim_role": "definition",
+  "register": "spiritual"
+ },
+ "grade": {
+  "match_scope": "states_only",
+  "warrant": "conditionally_proved",
+  "warrant_premise": "Legitimate Judge authorization, received response and satisfied cost; legal standing declaration is distinct from growth.",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/JUSTIFICATION-001.yaml#JUSTIFICATION-001::main (Axiom HTML Update, 2026-10-28)",
+  "note": "Outcome holds in the declared conditional scope, not unconditionally in the world."
+ },
+ "receipts": [
+  {
+   "kind": "source",
+   "ref": "sources/native/JUSTIFICATION_001/node_contracts.json"
+  }
+ ],
+ "neighbors": [],
+ "node": "JUSTIFICATION-001",
+ "is_main": true,
+ "strength": "Conditional",
+ "obstructions": [],
+ "generated_by": "proposed finer classification; no vocabulary change applied"
+}

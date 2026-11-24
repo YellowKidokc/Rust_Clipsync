@@ -1,0 +1,58 @@
+{
+ "id": "D5.3",
+ "title": "D5.3 Witness Field Operator",
+ "lifecycle": "retired",
+ "tier": 6,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "A5.1"
+ ],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim is a definition rather than a precise mathematical proposition. The file does not define the state spaces H or H_actualized, the notion of 'potential' vs 'actual', or any properties of Φ̂ beyond being an operator between them. Encoding this would require adding unstated mathematical assumptions, so the claim is not checkable as stated.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "D5.3/Q15/0046",
+   "kind": "definitional conflict",
+   "status": "RESOLVED",
+   "scope": "axiom-set membership",
+   "reason": "David retired this record; it is retained with reason and cannot serve as an active axiom. Content-level truth is not settled merely by retirement."
+  },
+  {
+   "id": "D5.3/Q15/0047",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the move from P-IMAGO's analogical resemblance of creaturely consciousness/agency to a formal operator Φ̂: H→H_actualized; P-IMAGO explicitly does not yield equations, physical laws, or state-space operators."
+  },
+  {
+   "id": "D5.3/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Witness Field operator definition: Φ̂ is an operator mapping potential states H to actualized states H_actualized",
+   "reason": "The main claim is a definition rather than a precise mathematical proposition. The file does not define the state spaces H or H_actualized, the notion of 'potential' vs 'actual', or any properties of Φ̂ beyond being an operator between them. Encoding this would require adding unstated mathematical assumptions, so the claim is not checkable as stated."
+  }
+ ],
+ "ports": [],
+ "main": "D5.3",
+ "claims": [
+  "D5.3",
+  "D5.3::split-01",
+  "D5.3::split-02",
+  "D5.3::split-03",
+  "D5.3::split-04"
+ ],
+ "source": "source/nodes/D5.3.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

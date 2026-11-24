@@ -1,0 +1,54 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D3.2",
+ "claim_id": "D3.2",
+ "type": "CLAIM",
+ "text": "The Logos Field has a self-interaction potential V(χ).",
+ "source": {
+  "file": "source/nodes/D3.2.yaml",
+  "quote": "The Logos Field has a self-interaction potential V(χ).",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "state",
+  "composition_level": 0,
+  "claim_role": "definition",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A field-theoretic premise that the Logos Field is a dynamical physical field with a self-interaction potential V(χ).; A bridge premise equating or mapping V(χ) to Shannon entropy, von Neumann entropy, Phi, QCD/GR self-interaction, or empirical entropy measurements.; A premise establishing that non-zero V(χ) is necessary for cosmic computation, complexity, consciousness, or creation.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D3.2.yaml#D3.2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "D3.2",
+ "is_main": true,
+ "strength": "By definition",
+ "conditional_premises": [
+  "A field-theoretic premise that the Logos Field is a dynamical physical field with a self-interaction potential V(χ).",
+  "A bridge premise equating or mapping V(χ) to Shannon entropy, von Neumann entropy, Phi, QCD/GR self-interaction, or empirical entropy measurements.",
+  "A premise establishing that non-zero V(χ) is necessary for cosmic computation, complexity, consciousness, or creation."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "D3.2/Q15/0024",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops when moving from A0's divine self-knowledge/activity and P-IMAGO's analogy of being to a formal self-interaction potential V(χ) and its entropy/consciousness/QCD/GR mappings; A0 and P-IMAGO do not supply that equation, measurement, or necessity."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file is explicitly a Definition. Its title and Statement section introduce V(χ) as the self-interaction potential and interpret it as determining equilibrium attractors, but this is not stated as a precise truth-valued theorem. The core equations give illustrative polynomial/Mexican-hat forms and minima, but they contain sign-convention ambiguity (μ² positive vs negative) and the broader claim that V determines coherence equilibrium requires unformalized dynamics and coherence definitions. E",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

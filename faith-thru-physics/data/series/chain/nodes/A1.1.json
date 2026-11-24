@@ -1,0 +1,56 @@
+{
+ "id": "A1.1",
+ "title": "A1.1 Existence",
+ "lifecycle": "primitive",
+ "tier": 0,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [],
+ "proposed": [],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "ADMITTED",
+  "named_premises": [
+   "Something exists rather than nothing."
+  ],
+  "denial_cost": "The framework loses its asserted existence starting node; A0’s semantic interpretation would need clarification. A0-as-graph-data is not an existence theorem.",
+  "checkable_by": null,
+  "receipt": [
+   "sources/august/AXIOM_CHAIN_MASTER_v3.md"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "A1.1/Q15/0002",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The core derivation succeeds immediately from A0. The full record fails when it moves from bare existence to specific modal proofs, physics, cosmology, thermodynamics, set theory, information theory, χ-field claims, and cross-domain mappings; P-IMAGO expressly does not bridge to those."
+  }
+ ],
+ "ports": [],
+ "main": "A1.1",
+ "claims": [
+  "A1.1",
+  "A1.1::split-01",
+  "A1.1::split-02",
+  "A1.1::split-03",
+  "A1.1::split-04",
+  "A1.1::split-05",
+  "A1.1::split-06",
+  "A1.1::split-07",
+  "A1.1::split-08",
+  "A1.1::split-09",
+  "A1.1::split-10",
+  "A1.1::split-11",
+  "A1.1::split-12",
+  "A1.1::split-13",
+  "A1.1::split-14",
+  "A1.1::split-15",
+  "A1.1::split-16"
+ ],
+ "source": "source/nodes/A1.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

@@ -1,0 +1,54 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "A5.2",
+ "claim_id": "A5.2",
+ "type": "CLAIM",
+ "text": "Observers participate in actualizing reality rather than merely measuring a pre-existing outcome.",
+ "source": {
+  "file": "source/nodes/A5.2.yaml",
+  "quote": "Observers participate in actualizing reality rather than merely measuring a pre-existing outcome.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "embodied"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A specific quantum measurement interpretation in which observation ontologically actualizes outcomes; An operational definition linking Integrated Information Φ to observer capacity and physical actualization; Empirical evidence properly interpreted for delayed-choice and quantum-eraser experiments",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/A5.2.yaml#A5.2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A5.1",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "A5.2",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A specific quantum measurement interpretation in which observation ontologically actualizes outcomes",
+  "An operational definition linking Integrated Information Φ to observer capacity and physical actualization",
+  "Empirical evidence properly interpreted for delayed-choice and quantum-eraser experiments"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "A5.2/Q15/0043",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails when moving from P-IMAGO's general creaturely participation/agency to the specific claim that observation or measurement actualizes physical reality; no physical, informational, or quantum-measurement premise is supplied."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

@@ -1,0 +1,66 @@
+AXIOM ARCHITECTURE CHECK — October 27, 2026
+
+Question: Does the recorded graph have an early broad foundation followed by mostly downward chains?
+These checks describe the existing graph; they do not redesign it to obtain a desired result.
+
+Active proposed-support widths, layer 0 onward: [16, 68, 22, 41, 27, 6, 2].
+Peak layer(s): [1]; peak width: 68.
+Peak within layers 0–2: True.
+Widths never increase after layer 3: True.
+Later branching nodes (layer >=3, reduced fanout >1): 8.
+
+Layer numbers start at zero and measure the longest dependency path from recorded support roots. A0 contextual links are excluded from this metric. Adding A0 as a display heading does not supply a missing derivation. Layer 0 therefore contains unsupported/admitted/disconnected starting nodes, not only the theological axiom.
+
+GRAPH CHECKS
+proposed_all: 210 nodes, 230 edges, 44 roots, 0 cyclic components, 0 missing supplier references.
+proposed_active: 182 nodes, 230 edges, 16 roots, 0 cyclic components, 0 missing supplier references.
+declared_all: 210 nodes, 259 edges, 20 roots, 0 cyclic components, 0 missing supplier references.
+declared_active: 182 nodes, 200 edges, 22 roots, 0 cyclic components, 0 missing supplier references.
+claim_scoped_all: 210 nodes, 259 edges, 20 roots, 0 cyclic components, 0 missing supplier references.
+claim_scoped_active: 182 nodes, 200 edges, 22 roots, 0 cyclic components, 0 missing supplier references.
+context_all: 210 nodes, 209 edges, 1 roots, 0 cyclic components, 0 missing supplier references.
+context_active: 182 nodes, 181 edges, 1 roots, 0 cyclic components, 0 missing supplier references.
+primary_plus_claim_scoped_all: 210 nodes, 292 edges, 17 roots, 0 cyclic components, 0 missing supplier references.
+primary_plus_claim_scoped_active: 182 nodes, 233 edges, 16 roots, 0 cyclic components, 0 missing supplier references.
+declared_plus_primary_all: 210 nodes, 292 edges, 17 roots, 0 cyclic components, 0 missing supplier references.
+declared_plus_primary_active: 182 nodes, 233 edges, 16 roots, 0 cyclic components, 0 missing supplier references.
+
+Declared/proposed dependency disagreements: 45.
+Every disagreement is retained in architecture_results.json; none is silently repaired.
+The v2.2 introduction names A1.0 as A2.1 support; its tree names A1.3. The later review names A1.0. That is a source-version conflict, not a solver refutation.
+
+DISPLAYING REUSE FAIRLY
+The active proposed graph has 230 edges; its DAG reduction has 215.
+The reduced view omits only arrows for which another directed path already exists. All-pairs reachability was checked and is identical. This does NOT make those premises logically redundant: a path is not a theorem, and a direct premise may carry a distinct claim or role. Every original arrow remains selectable in the explorer.
+A reduced edge is not automatically the primary semantic derivation. Multiple parents and later branch points are retained. No single-parent tree has been invented.
+
+TOP ACTIVE HUBS AFTER REACHABILITY REDUCTION
+{'id': 'BC6', 'level': 0, 'full_children': 44, 'reduced_children': 41, 'downstream': 71}
+{'id': 'A2.2', 'level': 2, 'full_children': 34, 'reduced_children': 33, 'downstream': 54}
+{'id': 'A5.1', 'level': 0, 'full_children': 19, 'reduced_children': 16, 'downstream': 41}
+{'id': 'FRUIT-GEN', 'level': 3, 'full_children': 9, 'reduced_children': 9, 'downstream': 9}
+{'id': 'D3.1', 'level': 3, 'full_children': 5, 'reduced_children': 5, 'downstream': 7}
+{'id': 'D5.2', 'level': 1, 'full_children': 5, 'reduced_children': 5, 'downstream': 10}
+{'id': 'D9.1', 'level': 1, 'full_children': 5, 'reduced_children': 5, 'downstream': 6}
+{'id': 'T3.1', 'level': 3, 'full_children': 6, 'reduced_children': 5, 'downstream': 9}
+{'id': 'A1.1', 'level': 0, 'full_children': 3, 'reduced_children': 3, 'downstream': 3}
+{'id': 'A1.2', 'level': 0, 'full_children': 3, 'reduced_children': 3, 'downstream': 3}
+{'id': 'A6.2', 'level': 1, 'full_children': 4, 'reduced_children': 3, 'downstream': 12}
+{'id': 'BC3', 'level': 2, 'full_children': 3, 'reduced_children': 3, 'downstream': 4}
+
+INTERPRETATION
+The width sequence and later-brancher list answer two different questions: where the graph is broadest, and whether it becomes a set of nonbranching chains afterward. An early maximum can coexist with substantial later branching.
+Contextual grounding in A0 and support derivation must be presented separately. The current graph cannot by itself establish that all strands were derived from one root. Claim-scoped dependency unions are stress tests: combining distinct claim premises at node level may create cycles that do not invalidate the separate conditional claims.
+This pass checks all supplied relationship classes in both full and active views. It does not prove global logical consistency, independence, theological identity, operator composability, or empirical truth.
+The prior verified 18-theorem Lean expansion and 34-direction Z3 run are included as a separate packet; they were not newly rerun because this pass changes only analysis and presentation.
+
+SOURCE INTEGRITY
+Source snapshots and hashes are included. Originals are read only. No canonical status, dependency or axiom was edited.
+
+CHECKER VALIDATION
+{
+  "diagnostic_fixtures": "PASS: diamond reduction, directed cycle, missing supplier, self-loop, longest-path widths",
+  "reachability_equivalence": "PASS for every acyclic graph view",
+  "source_integrity": "SHA-256 checked against originals",
+  "browser_rendering": "Not performed; JavaScript syntax checked separately. The HTML is an offline explorer."
+}

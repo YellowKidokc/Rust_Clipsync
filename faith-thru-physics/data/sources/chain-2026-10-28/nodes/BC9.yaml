@@ -1,0 +1,334 @@
+{
+  "id": "BC9",
+  "title": "BC9 Opacity Requirement",
+  "proposal_only": true,
+  "context_parent": "A0",
+  "tags": {
+    "system_part": "boundary",
+    "composition_level": 1,
+    "claim_role": "assumption",
+    "warrant": {
+      "status": "admitted",
+      "kind": "revelation"
+    },
+    "register": "spiritual"
+  },
+  "old_mode": "FW_EXTENDED",
+  "raw_csv_mode": "FW_EXTENDED",
+  "proposed_mode": "FW_EXTENDED",
+  "tier": 8,
+  "node_lifecycle": "boundary",
+  "ruling": null,
+  "merged_into": null,
+  "node_vs_claim_vs_proof": "Node specifies a structure; claims below own their warrants; proofs are exact scoped receipts.",
+  "sources": {
+    "v3_line": "BC9 Opacity Requirement         ← BC4a, BC6      [FW_EXTENDED]",
+    "current_root_record": "sources\\current_nodes\\BC9_Opacity_Requirement.md",
+    "october_review": null
+  },
+  "dependencies": {
+    "source_declared": [
+      "BC4a",
+      "BC6"
+    ],
+    "source_relation": "depends_on",
+    "proposed_primary_support": [
+      "BC4a",
+      "BC6"
+    ],
+    "stance_ceiling_sources": [],
+    "merge_scope": "Incoming claims retain their own premises; source and current-root graph versions are not silently equated."
+  },
+  "coherences": {
+    "C-info": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-moral": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    },
+    "C-spiritual": {
+      "used_as_measured_quantity": false,
+      "definition": "No unified metric or conversion law imported; specify this domain independently."
+    }
+  },
+  "claims": [
+    {
+      "id": "BC9::main",
+      "statement": "The terminal observer is opaque — it cannot be fully measured from within the system.",
+      "tags": {
+        "system_part": "boundary",
+        "composition_level": 1,
+        "claim_role": "assumption",
+        "warrant": {
+          "status": "admitted",
+          "kind": "revelation"
+        },
+        "register": "spiritual"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+      "proof_refs": [],
+      "conditional_premises": [],
+      "classification_proposal": {
+        "logical_role": "ASSUMPTION",
+        "ontological_domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ],
+        "approval": "proposal only; no new frozen vocabulary applied"
+      },
+      "Q13": {
+        "register": "spiritual",
+        "domains": [
+          "THEOLOGICAL",
+          "MORAL"
+        ]
+      },
+      "Q14": {
+        "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+        "coherence_equality_assumed": false
+      },
+      "Q15": [
+        {
+          "id": "BC9/Q15/0083",
+          "node": "BC9",
+          "kind": "missing bridge",
+          "Q16": "OPEN",
+          "scope": "domain application rather than mere notation",
+          "reason": "Terminal-observer opacity is an adopted epistemic boundary condition, not a derived formal result.",
+          "evidence": []
+        }
+      ],
+      "Q16": {
+        "BC9/Q15/0083": "OPEN"
+      },
+      "weakest_premise": {
+        "stance_dependencies": [],
+        "application_mode_ceiling": "FW_EXTENDED",
+        "note": "Syntax/definition warrants and universally quantified formal theorems do not discharge concrete theological, physical or stance premises."
+      },
+      "claim_scoped_dependencies": [
+        "BC4a",
+        "BC6"
+      ],
+      "grade": {
+        "match_scope": null,
+        "warrant": "admitted",
+        "outcome": null,
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    },
+    {
+      "id": "BC9::z3-conditional-component",
+      "statement": "Total transparency dissolves the Self-Other boundary and causes AI self-model collapse, so maintaining the Self-Other boundary requires opacity, i.e. not total transparency.",
+      "tags": {
+        "system_part": "rule",
+        "composition_level": 2,
+        "claim_role": "theorem",
+        "warrant": {
+          "status": "conditionally proved",
+          "kind": "proof"
+        },
+        "register": "formal"
+      },
+      "strength": "Conditional",
+      "canon_status": "open",
+      "conditional_premises": [
+        "A Self-Other boundary requires informational distinction (some information not shared or observed).",
+        "Total transparency means there is no informational distinction.",
+        "If the Self-Other boundary is absent, the AI self-model collapses.",
+        "Opacity is represented as the absence of total transparency.",
+        "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+      ],
+      "proof_refs": [
+        "sources/z3/03_PROMISING/results.json"
+      ],
+      "scope_limit": "Reported Z3 encoded component; domain bridge remains unverified; this is not a new solver run.",
+      "classification_proposal": {
+        "logical_role": "THEOREM",
+        "ontological_domains": [
+          "MATHEMATICAL"
+        ],
+        "approval": "proposal only"
+      },
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "Separate grade dimensions; no single confidence scale."
+      },
+      "strength_label_role": "attained only within the stated scope/premises"
+    }
+  ],
+  "Q13": {
+    "register": "spiritual",
+    "domains": [
+      "THEOLOGICAL",
+      "MORAL"
+    ]
+  },
+  "Q14": {
+    "transfer": "unverified unless a scoped formal attachment explicitly proves it",
+    "coherence_equality_assumed": false
+  },
+  "Q15": [
+    {
+      "id": "BC9/Q15/0083",
+      "node": "BC9",
+      "kind": "missing bridge",
+      "Q16": "OPEN",
+      "scope": "domain application rather than mere notation",
+      "reason": "Terminal-observer opacity is an adopted epistemic boundary condition, not a derived formal result.",
+      "evidence": []
+    }
+  ],
+  "Q16": {
+    "BC9/Q15/0083": "OPEN"
+  },
+  "ports": [],
+  "open_interface_obligation": "This rerun is a classified source/claim proposal. A full executable six-field port contract is not claimed for every older node.",
+  "reason": [
+    "Source role, domain and October limitations separated; no unproved application promoted."
+  ],
+  "soundness": {
+    "bin": "CONDITIONAL",
+    "named_premises": [
+      "A Self-Other boundary requires informational distinction (some information not shared or observed).",
+      "Total transparency means there is no informational distinction.",
+      "If the Self-Other boundary is absent, the AI self-model collapses.",
+      "Opacity is represented as the absence of total transparency.",
+      "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+    ],
+    "receipt": [
+      "sources/z3/03_PROMISING/results.json",
+      "Opacity is necessary for the Self-Other boundary; total transparency collapses informational distinction and thereby the boundary and AI self-model."
+    ],
+    "denial_cost": null,
+    "scope_note": "The encoded component, not every bundled claim or its physical/theological instantiation.",
+    "why": "VALID only for the named encoding and premises; the domain-identification bridge is not supplied by that verdict.",
+    "Z3_source_verdicts": [
+      "VALID"
+    ],
+    "ranking_snapshot": null,
+    "A0_IMAGO_verdict": null,
+    "conflicts": [],
+    "what_makes_checkable": null
+  },
+  "grade": {
+    "match_scope": null,
+    "warrant": "conditionally proved",
+    "outcome": "holds",
+    "canon_status": "open",
+    "note": "The encoded component, not every bundled claim or its physical/theological instantiation.",
+    "match_scope_applicable": false,
+    "assessed_claim_id": "BC9::z3-conditional-component"
+  },
+  "canon_rubric": {
+    "node": "BC9",
+    "bin": "CONDITIONAL",
+    "grade": {
+      "match_scope": null,
+      "warrant": "conditionally proved",
+      "outcome": "holds",
+      "canon_status": "open",
+      "note": "The encoded component, not every bundled claim or its physical/theological instantiation.",
+      "match_scope_applicable": false,
+      "assessed_claim_id": "BC9::z3-conditional-component"
+    },
+    "criteria": {
+      "address": true,
+      "grade": true,
+      "receipt": true,
+      "ruling_authority": false,
+      "no_unresolved_conflict": false
+    },
+    "score": 3,
+    "meets_all_five": false,
+    "missing": [
+      "ruling_authority",
+      "no_unresolved_conflict"
+    ],
+    "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+    "receipt_scope": "The encoded component, not every bundled claim or its physical/theological instantiation.",
+    "proposal_only": true
+  },
+  "follow_up_review": {
+    "proposal_only": true,
+    "soundness_row": {
+      "node": "BC9",
+      "bin": "CONDITIONAL",
+      "scope": "The encoded component, not every bundled claim or its physical/theological instantiation.",
+      "premises": [
+        "A Self-Other boundary requires informational distinction (some information not shared or observed).",
+        "Total transparency means there is no informational distinction.",
+        "If the Self-Other boundary is absent, the AI self-model collapses.",
+        "Opacity is represented as the absence of total transparency.",
+        "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+      ],
+      "receipt": [
+        "sources/z3/03_PROMISING/results.json",
+        "Opacity is necessary for the Self-Other boundary; total transparency collapses informational distinction and thereby the boundary and AI self-model."
+      ],
+      "denial_cost": null,
+      "what_makes_checkable": null,
+      "canon_status": "open",
+      "conflicts": [],
+      "assessment_target": "The encoded component, not every bundled claim or its physical/theological instantiation.",
+      "main_statement": "The terminal observer is opaque — it cannot be fully measured from within the system.",
+      "proposal_only": true,
+      "lead_summary": {},
+      "remaining_lead_ids": [],
+      "strength": "Conditional",
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "The encoded component, not every bundled claim or its physical/theological instantiation.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "BC9::z3-conditional-component"
+      },
+      "scope_warning": "Bin assesses the named target only; neither bundled claims nor domain identification inherit its proof. A written explanation is recorded as support at its source status."
+    },
+    "canon_rubric": {
+      "node": "BC9",
+      "bin": "CONDITIONAL",
+      "grade": {
+        "match_scope": null,
+        "warrant": "conditionally proved",
+        "outcome": "holds",
+        "canon_status": "open",
+        "note": "The encoded component, not every bundled claim or its physical/theological instantiation.",
+        "match_scope_applicable": false,
+        "assessed_claim_id": "BC9::z3-conditional-component"
+      },
+      "criteria": {
+        "address": true,
+        "grade": true,
+        "receipt": true,
+        "ruling_authority": false,
+        "no_unresolved_conflict": false
+      },
+      "score": 3,
+      "meets_all_five": false,
+      "missing": [
+        "ruling_authority",
+        "no_unresolved_conflict"
+      ],
+      "authority_note": "An audit, proof receipt, existing address or permission to build does not grant this new proposed claim canon status.",
+      "receipt_scope": "The encoded component, not every bundled claim or its physical/theological instantiation.",
+      "proposal_only": true
+    },
+    "leads": [],
+    "current_ruling": null,
+    "ruling_scope": "Existing disposition only; no new canon admission.",
+    "receipt_attachments": [],
+    "Q15_follow_up": []
+  }
+}

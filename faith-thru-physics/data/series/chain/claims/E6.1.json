@@ -1,0 +1,54 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "E6.1",
+ "claim_id": "E6.1",
+ "type": "CLAIM",
+ "text": "Quantum state evolution is governed by the modified Schrödinger equation d|Ψ⟩/dt = -(i/ℏ)Ĥ|Ψ⟩ - γ(χ)P̂|Ψ⟩, i.e. Schrödinger evolution plus a collapse term.",
+ "source": {
+  "file": "source/nodes/E6.1.yaml",
+  "quote": "Quantum state evolution is governed by the modified Schrödinger equation d|Ψ⟩/dt = -(i/ℏ)Ĥ|Ψ⟩ - γ(χ)P̂|Ψ⟩, i.e. Schrödinger evolution plus a collapse term.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "constitutive_law",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "embodied"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A physical collapse-model postulate specifying that quantum state evolution obeys this modified Schrödinger equation with a collapse term.; A physical definition of χ and the collapse-rate function γ(χ).; Empirical evidence or experimental data distinguishing this model from ordinary Schrödinger evolution.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/E6.1.yaml#E6.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A5.1",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "E6.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A physical collapse-model postulate specifying that quantum state evolution obeys this modified Schrödinger equation with a collapse term.",
+  "A physical definition of χ and the collapse-rate function γ(χ).",
+  "Empirical evidence or experimental data distinguishing this model from ordinary Schrödinger evolution."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "E6.1/Q15/0059",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the attempted inference from P-IMAGO's general analogy of being to a specific quantum equation; P-IMAGO explicitly excludes physical laws, equations, constants, and measurements."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

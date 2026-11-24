@@ -1,0 +1,58 @@
+{
+ "id": "E14.1",
+ "title": "E14.1 Modified Friedmann Equation",
+ "lifecycle": "open",
+ "tier": 12,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "E14.1/Q15/0137",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "cosmology/chi identification",
+   "reason": "David retained E14.1 open/flagged; a modified equation needs independent physical derivation and observational discrimination, not a theological label."
+  },
+  {
+   "id": "E14.1/Q15/0138",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the generic claim that created cosmic order reflects God's sustaining agency. It cannot cross to a specific Friedmann modification, G(t,Ψ) form, consciousness coupling, or numerical prediction."
+  }
+ ],
+ "ports": [],
+ "main": "E14.1",
+ "claims": [
+  "E14.1",
+  "E14.1::split-01",
+  "E14.1::split-02",
+  "E14.1::split-03",
+  "E14.1::split-04",
+  "E14.1::split-05",
+  "E14.1::split-06",
+  "E14.1::split-07",
+  "E14.1::split-08",
+  "E14.1::split-09",
+  "E14.1::split-10",
+  "E14.1::split-11"
+ ],
+ "source": "source/nodes/E14.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

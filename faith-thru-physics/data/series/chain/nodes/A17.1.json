@@ -1,0 +1,61 @@
+{
+ "id": "A17.1",
+ "title": "A17.1 Φ Threshold For Consciousness",
+ "lifecycle": "hypothesis",
+ "tier": 15,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "HY_EVIDENCE",
+ "declared": [
+  "D5.2"
+ ],
+ "proposed": [
+  "D5.2"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file's main claims are metaphysical/empirical hypotheses. Terms such as 'consciousness', 'information processing', and 'meaningful distinction' are not given precise, checkable definitions. The formal supervenience notation uses undefined maps and equivalence relations. The Φ threshold is explicitly empirical, and the proof of threshold existence relies on informal steps. No precise mathematical theorem with stated premises can be faithfully extracted.",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "A17.1/Q15/0169",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the inference from P-IMAGO's analogy of creaturely consciousness to a specific information-processing supervenience base; P-IMAGO explicitly does not imply physical laws, equations, constants, measurements, or any particular substrate."
+  },
+  {
+   "id": "A17.1/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: Phi threshold for consciousness / consciousness supervenes on information processing",
+   "reason": "The file's main claims are metaphysical/empirical hypotheses. Terms such as 'consciousness', 'information processing', and 'meaningful distinction' are not given precise, checkable definitions. The formal supervenience notation uses undefined maps and equivalence relations. The Φ threshold is explicitly empirical, and the proof of threshold existence relies on informal steps. No precise mathematical theorem with stated premises can be faithfully extracted."
+  }
+ ],
+ "ports": [],
+ "main": "A17.1",
+ "claims": [
+  "A17.1",
+  "A17.1::split-01",
+  "A17.1::split-02",
+  "A17.1::split-03",
+  "A17.1::split-04",
+  "A17.1::split-05",
+  "A17.1::split-06",
+  "A17.1::split-07",
+  "A17.1::split-08",
+  "A17.1::split-09",
+  "A17.1::split-10",
+  "A17.1::split-11",
+  "A17.1::split-12"
+ ],
+ "source": "source/nodes/A17.1.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

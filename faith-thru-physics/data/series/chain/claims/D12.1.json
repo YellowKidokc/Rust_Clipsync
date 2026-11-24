@@ -1,0 +1,56 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D12.1",
+ "claim_id": "D12.1",
+ "type": "CLAIM",
+ "text": "Coherent or rightly ordered existence has as its stable terminus eternal life, understood as maximal/infinite coherence stability.",
+ "source": {
+  "file": "source/nodes/D12.1.yaml",
+  "quote": "Coherent or rightly ordered existence has as its stable terminus eternal life, understood as maximal/infinite coherence stability.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "state",
+  "composition_level": 0,
+  "claim_role": "definition",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "admitted",
+  "warrant_premise": "Dynamical premise: coherence obeys dPhi/dt = sigma * gamma * (Phi_max - Phi) * Phi.; Measure premise: maximal integrated information (IIT Phi) is the correct measure of creaturely/soul coherence.; Theological identification premise: eternal life/heaven just is the stable fixed point Phi_max.; Moral-sign premise: moral orientation is captured by sigma in {+1,-1} and fixes the basin of attraction.; Open-system thermodynamic premise: the soul-system couples to the Logos Field chi so local entropy can decrease.; Empirical/model premise: actual soul trajectories and parameters satisfy the stated initial conditions and equations.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D12.1.yaml#D12.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "Proved by construction, not measured."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "D12.1",
+ "is_main": true,
+ "strength": "By definition",
+ "conditional_premises": [
+  "Dynamical premise: coherence obeys dPhi/dt = sigma * gamma * (Phi_max - Phi) * Phi.",
+  "Measure premise: maximal integrated information (IIT Phi) is the correct measure of creaturely/soul coherence.",
+  "Theological identification premise: eternal life/heaven just is the stable fixed point Phi_max.",
+  "Moral-sign premise: moral orientation is captured by sigma in {+1,-1} and fixes the basin of attraction.",
+  "Open-system thermodynamic premise: the soul-system couples to the Logos Field chi so local entropy can decrease.",
+  "Empirical/model premise: actual soul trajectories and parameters satisfy the stated initial conditions and equations."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "D12.1/Q15/0121",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops when P-IMAGO's general analogy of creaturely order/coherence as finite participation in God is used to assert a specific logistic destiny equation and the identity Phi_max = maximal integrated information = eternal life/heaven; P-IMAGO explicitly does not yield physical laws, equations, or measurements."
+  }
+ ],
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

@@ -1,0 +1,62 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "E6.2",
+ "claim_id": "E6.2",
+ "type": "CLAIM",
+ "text": "Quantum wavefunction evolution obeys the modified Schrödinger equation iħ d|ψ>/dt = (H − iγΦ)|ψ>, in which a Φ-dependent non-Hermitian term drives collapse.",
+ "source": {
+  "file": "source/nodes/E6.2.yaml",
+  "quote": "Quantum wavefunction evolution obeys the modified Schrödinger equation iħ d|ψ>/dt = (H − iγΦ)|ψ>, in which a Φ-dependent non-Hermitian term drives collapse.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "constitutive_law",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "embodied"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A specific Φ-dependent collapse postulate defining Φ and the non-Hermitian term; Empirical evidence or measurement constraints relating collapse rates to Φ; A separate bridge premise identifying divine revelation or attention with quantum collapse",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/E6.2.yaml#E6.2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A5.1",
+   "edge": "rests_on"
+  },
+  {
+   "id": "D5.2",
+   "edge": "rests_on"
+  },
+  {
+   "id": "A6.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "E6.2",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A specific Φ-dependent collapse postulate defining Φ and the non-Hermitian term",
+  "Empirical evidence or measurement constraints relating collapse rates to Φ",
+  "A separate bridge premise identifying divine revelation or attention with quantum collapse"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "E6.2/Q15/0060",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the move from P-IMAGO's general analogy of being to the specific non-Hermitian collapse equation iħ d|ψ>/dt = (H − iγΦ)|ψ>; P-IMAGO explicitly excludes particular physical laws and equations."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

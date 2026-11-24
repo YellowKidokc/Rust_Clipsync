@@ -1,0 +1,59 @@
+{
+ "id": "D12.2",
+ "title": "D12.2 Fragmentation Attractor",
+ "lifecycle": "definition",
+ "tier": 11,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "CONDITIONAL",
+  "named_premises": [
+   "γ > 0",
+   "Φ_max > 0",
+   "0 < Φ_0 < Φ_max",
+   "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+  ],
+  "denial_cost": null,
+  "checkable_by": null,
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json",
+   "Convergence of the σ=-1 destiny-equation exact solution to the Fragmentation Attractor Φ=0 as t→∞."
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "D12.2/Q15/0122",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the identification of moral sign with a dynamical parameter and coherence with an IIT/thermodynamic/quantum quantity; A0+P-IMAGO do not license any such equation or measurement."
+  }
+ ],
+ "ports": [],
+ "main": "D12.2",
+ "claims": [
+  "D12.2",
+  "D12.2::split-01",
+  "D12.2::split-02",
+  "D12.2::split-03",
+  "D12.2::split-04",
+  "D12.2::split-05",
+  "D12.2::split-06",
+  "D12.2::split-07",
+  "D12.2::split-08",
+  "D12.2::split-09",
+  "D12.2::split-10",
+  "D12.2::z3-conditional-component"
+ ],
+ "source": "source/nodes/D12.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

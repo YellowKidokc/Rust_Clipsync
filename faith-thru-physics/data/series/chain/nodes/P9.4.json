@@ -1,0 +1,62 @@
+{
+ "id": "P9.4",
+ "title": "P9.4 Superposition Until Faith",
+ "lifecycle": "property",
+ "tier": 10,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "BC6"
+ ],
+ "proposed": [
+  "BC6"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "P9.4/Q15/0104",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The core stops at needing the free-faith/non-coercive-grace premise; the full record stops at the leap from P-IMAGO’s analogy of creaturely agency to a literal moral Hilbert-space quantum superposition and physical decoherence/measurement claims."
+  },
+  {
+   "id": "P9.4/Q15/Z3-result-00",
+   "kind": "known countermodel",
+   "status": "FATAL",
+   "scope": "Encoded fragment under exactly the listed premises, not every interpretation of this node: Before faith-measurement, unitary/grace evolution preserves the normalized two-component moral superposition.",
+   "reason": "[u12 = -1/2,\n u22 = -0.8660254037?,\n a2 = 0,\n b2 = 1,\n a = -1/2,\n b = -0.8660254037?,\n u11 = 0.8660254037?,\n faith = False,\n u21 = -1/2,\n /0 = [(1/4, -1/2) -> -1/2,\n       (-0.4330127018?, -1/2) -> 0.8660254037?,\n       else -> 0]] Faithfulness to the intended domain is a separate obligation."
+  }
+ ],
+ "ports": [],
+ "main": "P9.4",
+ "claims": [
+  "P9.4",
+  "P9.4::split-01",
+  "P9.4::split-02",
+  "P9.4::split-03",
+  "P9.4::split-04",
+  "P9.4::split-05",
+  "P9.4::split-06",
+  "P9.4::split-07",
+  "P9.4::split-08",
+  "P9.4::split-09",
+  "P9.4::split-10",
+  "P9.4::split-11",
+  "P9.4::split-12",
+  "P9.4::split-13"
+ ],
+ "source": "source/nodes/P9.4.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

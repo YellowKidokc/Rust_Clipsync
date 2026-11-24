@@ -1,0 +1,34 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D19.5",
+ "claim_id": "D19.5::split-08",
+ "type": "CLAIM",
+ "text": "Divine attributes are conserved by theological gauge invariance, with Malachi 3:6 as evidence.",
+ "source": {
+  "file": "source/nodes/D19.5.yaml",
+  "quote": "Divine attributes are conserved by theological gauge invariance, with Malachi 3:6 as evidence.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "conjecture",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D19.5.yaml#D19.5::split-08 (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "D19.5",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+ "obstructions": [],
+ "generated_by": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+}

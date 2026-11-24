@@ -1,0 +1,53 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "LN3.1",
+ "claim_id": "LN3.1",
+ "type": "CLAIM",
+ "text": "Without a coherence measure, no distinction can be drawn between meaningful and meaningless configurations.",
+ "source": {
+  "file": "source/nodes/LN3.1.yaml",
+  "quote": "Without a coherence measure, no distinction can be drawn between meaningful and meaningless configurations.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A definition or bridge premise that meaningful vs. meaningless configurations are distinguished by a coherence measure.; An information-theoretic account that supplies or requires such a measure for configurations.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/LN3.1.yaml#LN3.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "LN3.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A definition or bridge premise that meaningful vs. meaningless configurations are distinguished by a coherence measure.",
+  "An information-theoretic account that supplies or requires such a measure for configurations."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "LN3.1/Q15/0033",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "After P-IMAGO: there is no bridge from creaturely intelligibility/order to a formal coherence measure, nor to the necessity of such a measure for meaningful/meaningless distinction."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

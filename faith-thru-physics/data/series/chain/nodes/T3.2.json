@@ -1,0 +1,40 @@
+{
+ "id": "T3.2",
+ "title": "T3.2 Moral ≠ Thermal Order",
+ "lifecycle": "open",
+ "tier": 4,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "T3.1"
+ ],
+ "proposed": [
+  "T3.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "T3.2/Q15/0032",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "receipt-to-source matching",
+   "reason": "August Lean T3_2 means restorationOccurs; master T3.2 means moral != thermal order. The proof labels are not content-equivalent."
+  }
+ ],
+ "ports": [],
+ "main": "T3.2",
+ "claims": [
+  "T3.2"
+ ],
+ "source": "source/nodes/T3.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

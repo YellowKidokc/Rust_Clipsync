@@ -1,0 +1,44 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "A9.2",
+ "claim_id": "A9.2::z3-conditional-component",
+ "type": "CLAIM",
+ "text": "G†G is not the 2x2 identity matrix, so G is non-unitary.",
+ "source": {
+  "file": "source/nodes/A9.2.yaml",
+  "quote": "G†G is not the 2x2 identity matrix, so G is non-unitary.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "theorem",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "conditionally_proved",
+  "warrant_premise": "The grace operator in the {|+1>,|-1>} basis is the 2x2 real matrix G = [[1,0],[1,0]].; The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge.",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/A9.2.yaml#A9.2::z3-conditional-component (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [
+  {
+   "kind": "z3",
+   "ref": "sources/z3/03_PROMISING/results.json"
+  }
+ ],
+ "neighbors": [],
+ "node": "A9.2",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Reported Z3 encoded component; domain bridge remains unverified; this is not a new solver run.",
+ "conditional_premises": [
+  "The grace operator in the {|+1>,|-1>} basis is the 2x2 real matrix G = [[1,0],[1,0]].",
+  "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+ ],
+ "obstructions": [],
+ "generated_by": "proposal only"
+}

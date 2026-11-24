@@ -1,0 +1,68 @@
+{
+ "id": "D19.2",
+ "title": "D19.2 Law II (Ten Variables)",
+ "lifecycle": "definition",
+ "tier": 13,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "AX_SCAFFOLD",
+ "declared": [
+  "E2.1"
+ ],
+ "proposed": [
+  "E2.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The main claim cannot be encoded faithfully as a precise Z3 theorem. It mixes a definition (S = R^10) with broad metaphysical assertions of completeness, irreducibility, and independence over unspecified 'all theophysical phenomena'. Trying to formalize 'no function of the other variables' or 'reality is completely described' requires unstated semantic assumptions about the universe of phenomena and allowable dependencies. Checking dimension 10 would merely restate the definition S = R^10 and wo",
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json"
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "D19.2/Q15/0141",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "No step derives a specific ten-variable decomposition or exact count from A0 + P-IMAGO; the core remains a stipulated model. For the full record, derivation fails when the stipulation is treated as a proved complete, independent, irreducible description of reality."
+  },
+  {
+   "id": "D19.2/Q15/Z3-00",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "Exact October Z3 component: That the Theophysics state space is spanned by exactly ten mutually independent, irreducible, complete fundamental variables G, M, E, S, T, K, R, Q, F, C.",
+   "reason": "The main claim cannot be encoded faithfully as a precise Z3 theorem. It mixes a definition (S = R^10) with broad metaphysical assertions of completeness, irreducibility, and independence over unspecified 'all theophysical phenomena'. Trying to formalize 'no function of the other variables' or 'reality is completely described' requires unstated semantic assumptions about the universe of phenomena and allowable dependencies. Checking dimension 10 would merely restate the definition S = R^10 and would not test the substantive main claim."
+  }
+ ],
+ "ports": [],
+ "main": "D19.2",
+ "claims": [
+  "D19.2",
+  "D19.2::split-01",
+  "D19.2::split-02",
+  "D19.2::split-03",
+  "D19.2::split-04",
+  "D19.2::split-05",
+  "D19.2::split-06",
+  "D19.2::split-07",
+  "D19.2::split-08",
+  "D19.2::split-09",
+  "D19.2::split-10",
+  "D19.2::split-11",
+  "D19.2::split-12",
+  "D19.2::split-13",
+  "D19.2::split-14",
+  "D19.2::split-15",
+  "D19.2::split-16",
+  "D19.2::split-17",
+  "D19.2::split-18",
+  "D19.2::split-19"
+ ],
+ "source": "source/nodes/D19.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

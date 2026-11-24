@@ -1,0 +1,40 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "WALL-ORBIT",
+ "claim_id": "WALL-ORBIT",
+ "type": "CLAIM",
+ "text": "Every finite composition of q-preserving operations preserves q.",
+ "source": {
+  "file": "source/nodes/WALL-ORBIT.yaml",
+  "quote": "Every finite composition of q-preserving operations preserves q.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "theorem",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "proved",
+  "warrant_premise": "Universally quantified q/ops/preservation hypotheses; no custom theological axioms or concrete sign-preservation assertion.",
+  "outcome": "holds",
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/WALL-ORBIT.yaml#WALL-ORBIT::main (Axiom HTML Update, 2026-10-28)",
+  "note": "Universal finite-composition invariant theorem, not an application to actual self-operations."
+ },
+ "receipts": [
+  {
+   "kind": "source",
+   "ref": "Wall.invariant_preserved"
+  }
+ ],
+ "neighbors": [],
+ "node": "WALL-ORBIT",
+ "is_main": true,
+ "strength": "Structure",
+ "conditional_premises": "Universally quantified q/ops/preservation hypotheses; no custom theological axioms or concrete sign-preservation assertion.",
+ "obstructions": [],
+ "generated_by": "Theorem subtype field is proposed only and requires David; this is a generic invariant, not physical conservation."
+}

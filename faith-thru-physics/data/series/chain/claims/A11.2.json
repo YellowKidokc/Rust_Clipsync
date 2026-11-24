@@ -1,0 +1,62 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "A11.2",
+ "claim_id": "A11.2",
+ "type": "CLAIM",
+ "text": "Goodness is identical to coherence maximization, and evil is identical to destruction/coherence decrease.",
+ "source": {
+  "file": "source/nodes/A11.2.yaml",
+  "quote": "Goodness is identical to coherence maximization, and evil is identical to destruction/coherence decrease.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A bridge premise identifying moral goodness with coherence maximization or Logos-alignment.; A physical/empirical definition and validation of the χ-field and coherence measure.; Empirical evidence connecting entropy, Kolmogorov complexity, game equilibria, or category-theoretic structure to moral good and evil.; A valid criterion showing that exceptionless explanatory correlation entails identity in this moral case.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/A11.2.yaml#A11.2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "A11.2",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [
+  "A bridge premise identifying moral goodness with coherence maximization or Logos-alignment.",
+  "A physical/empirical definition and validation of the χ-field and coherence measure.",
+  "Empirical evidence connecting entropy, Kolmogorov complexity, game equilibria, or category-theoretic structure to moral good and evil.",
+  "A valid criterion showing that exceptionless explanatory correlation entails identity in this moral case."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "A11.2/Q15/0113",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "information/moral/spiritual coherence identity",
+   "reason": "C-info, C-moral and C-spiritual lack an established conversion/equality bridge; a single scalar must not carry all three warrants."
+  },
+  {
+   "id": "A11.2/Q15/0114",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation fails at the step from 'creaturely moral goodness is finite participation in God's goodness/order' to 'Goodness ≡ coherence maximization and evil ≡ destruction'; the identity is asserted, not derived."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. Not encoded: the main claim is an asserted identity/axiom between moral predicates and a coherence quantity. The file does not give a formal semantics for 'good', 'evil', or 'destruction' independent of the identity itself, and the proposed 'exceptionless explanatory correlation = identity' step is not a formal logical inference. Encoding it as Good(a) iff coherence increases would merely restate the conclusion.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

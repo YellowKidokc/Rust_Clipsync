@@ -1,0 +1,63 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D1.1",
+ "claim_id": "D1.1",
+ "type": "CLAIM",
+ "text": "Information is that which reduces uncertainty about the state of a system.",
+ "source": {
+  "file": "source/nodes/D1.1.yaml",
+  "quote": "Information is that which reduces uncertainty about the state of a system.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "state",
+  "composition_level": 0,
+  "claim_role": "definition",
+  "register": "formal"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A conventional operational definition of information, such as Shannon's uncertainty-reduction definition; A1.1 Existence, A1.2 Distinction, and A1.3 Information Primacy; Shannon information theory and Khinchin axioms; Quantum information theory: von Neumann entropy, Holevo bound, no-cloning; Thermodynamics: Landauer's principle, Bekenstein-Hawking entropy, AdS/CFT; Semantic information theory and χ-field theory; Integrated information theory and Φ; Empirical data from communication, quantum, and thermodynamic experiments",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D1.1.yaml#D1.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A1.1",
+   "edge": "rests_on"
+  },
+  {
+   "id": "A1.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "D1.1",
+ "is_main": true,
+ "strength": "By definition",
+ "conditional_premises": [
+  "A conventional operational definition of information, such as Shannon's uncertainty-reduction definition",
+  "A1.1 Existence, A1.2 Distinction, and A1.3 Information Primacy",
+  "Shannon information theory and Khinchin axioms",
+  "Quantum information theory: von Neumann entropy, Holevo bound, no-cloning",
+  "Thermodynamics: Landauer's principle, Bekenstein-Hawking entropy, AdS/CFT",
+  "Semantic information theory and χ-field theory",
+  "Integrated information theory and Φ",
+  "Empirical data from communication, quantum, and thermodynamic experiments"
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "D1.1/Q15/0006",
+   "kind": "definitional conflict",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at inferring the specific definition 'information = uncertainty reduction' from A0 + P-IMAGO; P-IMAGO cannot supply Shannon entropy, χ-field semantics, or empirical confirmations."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

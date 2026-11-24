@@ -1,0 +1,57 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "D10.1",
+ "claim_id": "D10.1",
+ "type": "CLAIM",
+ "text": "The soul is a real field that carries individual consciousness and personal identity.",
+ "source": {
+  "file": "source/nodes/D10.1.yaml",
+  "quote": "The soul is a real field that carries individual consciousness and personal identity.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "state",
+  "composition_level": 0,
+  "claim_role": "definition",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "warrant_premise": "A10.2 Soul-Conservation (or equivalent conservation/continuity premise).; A stipulated field-theoretic model identifying the soul/consciousness with a real scalar field Ψ_S that is a mode of the χ-field.; A physical/empirical premise that Ψ_S exists and obeys the Klein-Gordon equation with a positive mass m_S.; A soul-body coupling premise specifying the Hamiltonian H_coupling, the coupling strength g_SB, and decoupling/recoupling at death/resurrection.; A consciousness-threshold premise identifying integrated information Φ[Ψ_S] above Φ_threshold with conscious experience.; An individuation premise grounding soul number N_S and near-orthogonality of distinct souls.",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/D10.1.yaml#D10.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim. By definition: proved by construction of the specified operator, not empirical discovery."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "BC6",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "D10.1",
+ "is_main": true,
+ "strength": "By definition",
+ "conditional_premises": [
+  "A10.2 Soul-Conservation (or equivalent conservation/continuity premise).",
+  "A stipulated field-theoretic model identifying the soul/consciousness with a real scalar field Ψ_S that is a mode of the χ-field.",
+  "A physical/empirical premise that Ψ_S exists and obeys the Klein-Gordon equation with a positive mass m_S.",
+  "A soul-body coupling premise specifying the Hamiltonian H_coupling, the coupling strength g_SB, and decoupling/recoupling at death/resurrection.",
+  "A consciousness-threshold premise identifying integrated information Φ[Ψ_S] above Φ_threshold with conscious experience.",
+  "An individuation premise grounding soul number N_S and near-orthogonality of distinct souls."
+ ],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "D10.1/Q15/0108",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The derivation stops at the analogy that created consciousness is a finite, dependent participation in God; it cannot cross to identifying the soul with a real scalar field Ψ_S or to any χ-field, Klein-Gordon, mass, coupling, quantization, or resurrection details."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The file's main claim is a definitional identification, not a proposition with premises entailing a conclusion. The formal Statement relies on undefined/conceptual terms such as 'carrying individual consciousness', 'individuality', and configuration of the χ-field; the consciousness criterion and threshold are not fully formalized in this file. Encoding it in Z3 would require adding unstated semantics or reducing it to a trivial existence/type declaration, so the main claim cannot be faithfully ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

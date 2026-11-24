@@ -1,0 +1,64 @@
+{
+ "id": "U3",
+ "title": "U3 Grace Universal",
+ "lifecycle": "universal",
+ "tier": 17,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "D9.1"
+ ],
+ "proposed": [
+  "D9.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "CONDITIONAL",
+  "named_premises": [
+   "The sign operator is fixed in a 2D basis as sigma = diag(+1, -1), so both sign eigenspaces are non-empty.",
+   "The sign operator has spectrum {-1, +1} and satisfies sigma^2 = I and sigma^dagger = sigma.",
+   "The encoding faithfully represents the intended domain; any formal-to-world identification needs an independently warranted bridge."
+  ],
+  "denial_cost": null,
+  "checkable_by": null,
+  "receipt": [
+   "sources/z3/03_PROMISING/results.json",
+   "Existence and uniqueness up to scalar of a non-unitary one-direction Grace operator anticommuting with the sign operator on a two-dimensional sign space."
+  ]
+ },
+ "obstructions": [
+  {
+   "id": "U3/Q15/0191",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At the move from creaturely dependence/participation (A0 + P-IMAGO) to a specific universal non-unitary sign-flip operator and its uniqueness/physical realization; P-IMAGO gives analogy, not operator formalism or empirical predictions."
+  }
+ ],
+ "ports": [],
+ "main": "U3",
+ "claims": [
+  "U3",
+  "U3::split-01",
+  "U3::split-02",
+  "U3::split-03",
+  "U3::split-04",
+  "U3::split-05",
+  "U3::split-06",
+  "U3::split-07",
+  "U3::split-08",
+  "U3::split-09",
+  "U3::split-10",
+  "U3::split-11",
+  "U3::split-12",
+  "U3::split-13",
+  "U3::split-14",
+  "U3::split-15",
+  "U3::split-16",
+  "U3::z3-conditional-component"
+ ],
+ "source": "source/nodes/U3.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}

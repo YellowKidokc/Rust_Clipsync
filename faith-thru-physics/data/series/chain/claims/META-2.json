@@ -1,0 +1,49 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "META-2",
+ "claim_id": "META-2",
+ "type": "CLAIM",
+ "text": "The axiom system is complete — covers all necessary domains.",
+ "source": {
+  "file": "source/nodes/META-2.yaml",
+  "quote": "The axiom system is complete — covers all necessary domains.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/META-2.yaml#META-2::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A2.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "META-2",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "META-2/Q15/0231",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "domain application rather than mere notation",
+   "reason": "Completeness is an unproven meta-claim, especially with open problems and duplicate nodes remaining."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. The claim cannot be faithfully encoded in Z3 as a concrete mathematical theorem because it depends on undefined meta-level notions: provability in the Theophysics axiom system, the exact language and intended domain, the revelation class, Logos-source, grace, and the semantics of coherence/consciousness/grounding. Encoding only an abstract predicate schema would restate the claim by definition rather than check it.",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

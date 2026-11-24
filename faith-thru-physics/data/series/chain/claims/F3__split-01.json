@@ -1,0 +1,34 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "F3",
+ "claim_id": "F3::split-01",
+ "type": "CLAIM",
+ "text": "Peace is quantitatively measured by F_Peace = 1/(1 + σ²_internal) + γ·Var(C[χ])^(-1).",
+ "source": {
+  "file": "source/nodes/F3.yaml",
+  "quote": "Peace is quantitatively measured by F_Peace = 1/(1 + σ²_internal) + γ·Var(C[χ])^(-1).",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 1,
+  "claim_role": "conjecture",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/F3.yaml#F3::split-01 (Axiom HTML Update, 2026-10-28)",
+  "note": "Separate grade dimensions; no single confidence scale."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "F3",
+ "is_main": false,
+ "strength": "Conditional",
+ "scope": "Separately carried bundled claim; neighboring core/Lean passes confer no warrant.",
+ "obstructions": [],
+ "generated_by": "AI-proposed, source-flagged bundled claim; not a proof or canon verdict"
+}

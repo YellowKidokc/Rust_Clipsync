@@ -1,0 +1,35 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "A0",
+ "claim_id": "A0",
+ "type": "CLAIM",
+ "text": "God is",
+ "source": {
+  "file": "source/nodes/A0.yaml",
+  "quote": "God is",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 0,
+  "claim_role": "axiom",
+  "register": "spiritual"
+ },
+ "grade": {
+  "warrant": "admitted",
+  "warrant_premise": "God is",
+  "outcome": "holds",
+  "canon_status": "canon",
+  "grade_source": "copied:source/nodes/A0.yaml#A0::main (Axiom HTML Update, 2026-10-28)",
+  "note": "Holds as an expressly adopted premise, not established as an empirical or premise-free theorem."
+ },
+ "receipts": [],
+ "neighbors": [],
+ "node": "A0",
+ "is_main": true,
+ "strength": "Conditional",
+ "obstructions": [],
+ "denial_cost": "The framework gives up its governing theological root; the graph proof itself neither proves nor refutes God.",
+ "generated_by": "proposed finer classification; no vocabulary change applied"
+}

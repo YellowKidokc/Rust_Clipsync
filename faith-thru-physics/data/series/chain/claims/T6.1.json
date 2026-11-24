@@ -1,0 +1,53 @@
+{
+ "record_version": "claim-record/1",
+ "series": "chain",
+ "paper": "T6.1",
+ "claim_id": "T6.1",
+ "type": "CLAIM",
+ "text": "A measurement chain requires termination; an infinite regress of measurements is impossible.",
+ "source": {
+  "file": "source/nodes/T6.1.yaml",
+  "quote": "A measurement chain requires termination; an infinite regress of measurements is impossible.",
+  "stated": true
+ },
+ "tags": {
+  "system_part": "rule",
+  "composition_level": 2,
+  "claim_role": "conjecture",
+  "register": "embodied"
+ },
+ "grade": {
+  "warrant": "unverified",
+  "outcome": null,
+  "canon_status": "open",
+  "grade_source": "copied:source/nodes/T6.1.yaml#T6.1::main (Axiom HTML Update, 2026-10-28)",
+  "note": "No holds/fails call manufactured for an untested main claim."
+ },
+ "receipts": [],
+ "neighbors": [
+  {
+   "id": "A5.1",
+   "edge": "rests_on"
+  },
+  {
+   "id": "A6.2",
+   "edge": "rests_on"
+  }
+ ],
+ "node": "T6.1",
+ "is_main": true,
+ "strength": "Conditional",
+ "conditional_premises": [],
+ "canon_status_reason": "No new canon promotion. open = needs David ruling/adequate warrant; retired = existing explicit retirement or historical dropped duplicate.",
+ "obstructions": [
+  {
+   "id": "T6.1/Q15/0064",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "At any attempt to infer a specific physical/interpretive claim about measurement-chain termination from P-IMAGO; P-IMAGO does not reach physical laws or empirical findings."
+  }
+ ],
+ "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+ "generated_by": "proposal only; no new frozen vocabulary applied"
+}

@@ -1,0 +1,46 @@
+{
+ "id": "A7.2",
+ "title": "A7.2 Uniqueness From BCs",
+ "lifecycle": "framework_commitment",
+ "tier": 8,
+ "context_parent": "A0",
+ "merged_into": null,
+ "proposal_only": true,
+ "mode": "FW_EXTENDED",
+ "declared": [
+  "A7.1"
+ ],
+ "proposed": [
+  "A7.1"
+ ],
+ "missing_suppliers": [],
+ "soundness": {
+  "bin": "UNCHECKED",
+  "named_premises": [],
+  "denial_cost": null,
+  "checkable_by": "Specify the objects, domains, allowed operations, exact conclusion, boundary conditions and faithful interpretation; provide a complete proof or reproducible test. ",
+  "receipt": []
+ },
+ "obstructions": [
+  {
+   "id": "A7.2/Q15/0067",
+   "kind": "missing bridge",
+   "status": "OPEN",
+   "scope": "original core claim/application",
+   "reason": "The step from analogical reflection of the Creator in creation to a unique fixed-point selection by sufficient boundary conditions; P-IMAGO cannot reach uniqueness, mathematical necessity, or physical projections."
+  }
+ ],
+ "ports": [],
+ "main": "A7.2",
+ "claims": [
+  "A7.2",
+  "A7.2::split-01",
+  "A7.2::split-02",
+  "A7.2::split-03",
+  "A7.2::split-04",
+  "A7.2::split-05",
+  "A7.2::split-06"
+ ],
+ "source": "source/nodes/A7.2.yaml",
+ "snapshot": "Axiom HTML Update, 2026-10-28"
+}
